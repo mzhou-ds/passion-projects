@@ -1,0 +1,43 @@
+Expected career value of pick #1: 845 GP / 564 pts (skaters)
+Expected career value of pick #10: 582 GP / 310 pts (skaters)
+Expected career value of pick #31: 269 GP / 99 pts (skaters)
+Expected career value of pick #100: 90 GP / 43 pts (skaters)
+Expected career value of pick #200: 83 GP / 43 pts (skaters)
+Picks that never played an NHL game: 49.7% (1st round: 5.2%, rounds 5-7: 30.0%)
+Share of 1st-rounders reaching 500 GP: 50.0%
+Share of 1st-rounders reaching 300 pts: 39.0%
+Biggest draft steals (skaters, picked 90+):
+  #129 Jamie Benn (DAL, 2007): 992 pts vs 43 expected (+949)
+  #104 Johnny Gaudreau (CGY, 2011): 743 pts vs 43 expected (+700)
+  #178 Mark Stone (OTT, 2010): 707 pts vs 43 expected (+664)
+  #105 Keith Yandle (PHX, 2005): 619 pts vs 43 expected (+576)
+  #152 Anders Lee (NYI, 2009): 549 pts vs 43 expected (+506)
+  #230 Patric Hornqvist (NSH, 2005): 543 pts vs 43 expected (+500)
+  #121 Gustav Nyquist (DET, 2008): 543 pts vs 43 expected (+500)
+  #208 Ondrej Palat (TBL, 2011): 520 pts vs 43 expected (+477)
+  #162 Jesper Bratt (NJD, 2016): 518 pts vs 43 expected (+475)
+  #123 Zach Hyman (FLA, 2010): 495 pts vs 43 expected (+452)
+Biggest early-pick disappointments (picked 1-15):
+  #4 Griffin Reinhart (NYI, 2012): 2 pts / 37 GP vs 460 expected pts
+  #2 Nolan Patrick (PHI, 2017): 77 pts / 222 GP vs 527 expected pts
+  #1 Nail Yakupov (EDM, 2012): 136 pts / 350 GP vs 564 expected pts
+  #5 Olli Juolevi (VAN, 2016): 3 pts / 41 GP vs 430 expected pts
+  #5 Michael Dal Colle (NYI, 2014): 21 pts / 112 GP vs 430 expected pts
+  #2 Ryan Murray (CBJ, 2012): 131 pts / 445 GP vs 527 expected pts
+  #6 Nikita Filatov (CBJ, 2008): 14 pts / 53 GP vs 402 expected pts
+  #7 Lias Andersson (NYR, 2017): 17 pts / 110 GP vs 377 expected pts
+  #8 Scott Glennie (DAL, 2009): 0 pts / 1 GP vs 353 expected pts
+  #3 Erik Gudbranson (FLA, 2010): 140 pts / 842 GP vs 492 expected pts
+Team draft surplus 2005-2018, total career games above expected (top 5):
+  LAK: +5522 GP over 104 picks (+53.1/pick)
+  STL: +3466 GP over 105 picks (+33.0/pick)
+  SJS: +2402 GP over 94 picks (+25.5/pick)
+  OTT: +2347 GP over 93 picks (+25.2/pick)
+  CBJ: +2058 GP over 102 picks (+20.2/pick)
+Bottom 5:
+  MTL: -2622 GP over 97 picks (-27.0/pick)
+  FLA: -2719 GP over 102 picks (-26.7/pick)
+  UTA: -3330 GP over 102 picks (-32.6/pick)
+  COL: -4304 GP over 99 picks (-43.5/pick)
+  VAN: -6404 GP over 88 picks (-72.8/pick)
+First-round goalies (14 picked) averaged 263 career GP vs 515 for first-round skaters
