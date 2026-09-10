@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Philosophy in Data — Explorer</title>
+<style>
+  body { font-family: Georgia, 'Times New Roman', serif; max-width: 1000px;
+         margin: 2rem auto; padding: 0 1.5rem; color: #1a1a1a; background: #fdfcf9; }
+  h1 { font-size: 1.9rem; margin-bottom: 0.2rem; }
+  .sub { color: #666; margin-bottom: 1.5rem; }
+  .controls { display: flex; gap: 1.2rem; flex-wrap: wrap; margin-bottom: 1rem; }
+  label { font-size: 0.85rem; color: #555; display: block; margin-bottom: 0.25rem; }
+  select { font-size: 0.95rem; padding: 0.35rem 0.5rem; border: 1px solid #ccc;
+           border-radius: 6px; background: #fff; max-width: 300px; }
+  #plot { width: 100%; height: 480px; border: 1px solid #e5e0d5; border-radius: 8px;
+          background: #fff; }
+  #tooltip { position: fixed; pointer-events: none; background: rgba(20,20,20,0.92);
+             color: #fff; padding: 0.6rem 0.8rem; border-radius: 6px; font-size: 0.85rem;
+             display: none; max-width: 280px; line-height: 1.45; z-index: 10; }
+  #tooltip .t { font-weight: bold; font-size: 1rem; }
+  #tooltip .a { color: #ffd98a; }
+  .legend { display: flex; gap: 1.2rem; margin-top: 0.8rem; font-size: 0.9rem; }
+  .legend span::before { content: "●"; margin-right: 0.3rem; }
+  .foot { margin-top: 2rem; font-size: 0.82rem; color: #888; }
+  a { color: #3b5bdb; }
+</style>
+</head>
+<body>
+<h1>Philosophy in Data — Explorer</h1>
+<p class="sub">Twelve philosophical texts, 2,311 years, sixteen linguistic metrics.
+Pick any two metrics and see where each thinker lands. Hover a dot for details.</p>
+<div class="controls">
+  <div><label for="xsel">X axis</label><select id="xsel"></select></div>
+  <div><label for="ysel">Y axis</label><select id="ysel"></select></div>
+</div>
+<svg id="plot" viewBox="0 0 960 480" preserveAspectRatio="xMidYMid meet"></svg>
+<div class="legend"><span style="color:#2a7f62">Ancient</span><span style="color:#b25c1e">Early Modern</span><span style="color:#3b5bdb">Modern</span></div>
+<div id="tooltip"></div>
+<p class="foot">Data: Project Gutenberg editions (public domain) · Concreteness norms:
+Brysbaert, Warriner &amp; Kuperman (2014) · Sentiment: VADER ·
+<a href="https://github.com/mzhou-ds/passion-projects">mzhou-ds/passion-projects</a></p>
+<script>
+const DATA = [{"short": "Plato", "title": "Apology", "author": "Plato", "year": -399, "era": "Ancient", "words": 16226, "flesch_ease": 60.6772, "flesch_kincaid_grade": 12.2609, "gunning_fog": 15.5075, "avg_sentence_len": 30.0481, "avg_syllables_per_word": 1.3671, "ttr_10k": 0.1718, "i_per_1k": 46.5303, "we_per_1k": 2.2803, "you_per_1k": 17.9958, "questions_per_1k": 5.3001, "abstract_per_1k": 22.618, "polysyllabic_share": 0.0872, "concreteness": 2.5942, "vader_mean": 0.3485}, {"short": "Aristotle", "title": "Nicomachean Ethics", "author": "Aristotle", "year": -350, "era": "Ancient", "words": 113664, "flesch_ease": 39.5669, "flesch_kincaid_grade": 19.0355, "gunning_fog": 22.4155, "avg_sentence_len": 45.4656, "avg_syllables_per_word": 1.4317, "ttr_10k": 0.1954, "i_per_1k": 2.9913, "we_per_1k": 9.0794, "you_per_1k": 0.4839, "questions_per_1k": 1.2757, "abstract_per_1k": 39.7575, "polysyllabic_share": 0.1057, "concreteness": 2.5616, "vader_mean": 0.4402}, {"short": "Aurelius", "title": "Meditations", "author": "Marcus Aurelius", "year": 180, "era": "Ancient", "words": 71889, "flesch_ease": 61.0923, "flesch_kincaid_grade": 11.4071, "gunning_fog": 14.5653, "avg_sentence_len": 26.8443, "avg_syllables_per_word": 1.4007, "ttr_10k": 0.2279, "i_per_1k": 12.5054, "we_per_1k": 4.2427, "you_per_1k": 2.3091, "questions_per_1k": 5.8563, "abstract_per_1k": 29.017, "polysyllabic_share": 0.0957, "concreteness": 2.6092, "vader_mean": 0.2951}, {"short": "Augustine", "title": "Confessions", "author": "Augustine of Hippo", "year": 400, "era": "Ancient", "words": 112118, "flesch_ease": 62.3799, "flesch_kincaid_grade": 12.5647, "gunning_fog": 15.604, "avg_sentence_len": 32.2271, "avg_syllables_per_word": 1.3209, "ttr_10k": 0.2045, "i_per_1k": 45.247, "we_per_1k": 11.0865, "you_per_1k": 0.6689, "questions_per_1k": 6.7786, "abstract_per_1k": 22.2801, "polysyllabic_share": 0.0678, "concreteness": 2.6676, "vader_mean": 0.5759}, {"short": "Descartes", "title": "Discourse on the Method", "author": "Rene Descartes", "year": 1637, "era": "Early Modern", "words": 23062, "flesch_ease": -6.7114, "flesch_kincaid_grade": 36.4882, "gunning_fog": 40.3795, "avg_sentence_len": 89.7354, "avg_syllables_per_word": 1.4476, "ttr_10k": 0.1861, "i_per_1k": 41.4535, "we_per_1k": 10.1466, "you_per_1k": 0.1301, "questions_per_1k": 0.3035, "abstract_per_1k": 29.7025, "polysyllabic_share": 0.1121, "concreteness": 2.5574, "vader_mean": 0.8438}, {"short": "Spinoza", "title": "Ethics", "author": "Baruch Spinoza", "year": 1677, "era": "Early Modern", "words": 89110, "flesch_ease": 56.7681, "flesch_kincaid_grade": 11.8792, "gunning_fog": 15.3052, "avg_sentence_len": 26.3172, "avg_syllables_per_word": 1.4581, "ttr_10k": 0.0949, "i_per_1k": 8.843, "we_per_1k": 17.4952, "you_per_1k": 0.0449, "questions_per_1k": 0.3479, "abstract_per_1k": 43.8559, "polysyllabic_share": 0.1195, "concreteness": 2.5189, "vader_mean": 0.3447}, {"short": "Hume", "title": "An Enquiry Concerning Human Understanding", "author": "David Hume", "year": 1748, "era": "Early Modern", "words": 57266, "flesch_ease": 36.9938, "flesch_kincaid_grade": 16.8866, "gunning_fog": 20.6857, "avg_sentence_len": 35.3712, "avg_syllables_per_word": 1.5832, "ttr_10k": 0.1884, "i_per_1k": 5.0641, "we_per_1k": 20.6231, "you_per_1k": 2.8988, "questions_per_1k": 2.2876, "abstract_per_1k": 57.8878, "polysyllabic_share": 0.1634, "concreteness": 2.5043, "vader_mean": 0.3757}, {"short": "Kant", "title": "Critique of Pure Reason", "author": "Immanuel Kant", "year": 1781, "era": "Modern", "words": 209794, "flesch_ease": 24.5418, "flesch_kincaid_grade": 20.0978, "gunning_fog": 24.5694, "avg_sentence_len": 41.3062, "avg_syllables_per_word": 1.6592, "ttr_10k": 0.1791, "i_per_1k": 7.0116, "we_per_1k": 16.8832, "you_per_1k": 0.5482, "questions_per_1k": 0.8103, "abstract_per_1k": 68.3957, "polysyllabic_share": 0.2012, "concreteness": 2.3599, "vader_mean": 0.3537}, {"short": "Mill", "title": "Utilitarianism", "author": "John Stuart Mill", "year": 1863, "era": "Modern", "words": 27706, "flesch_ease": 30.1964, "flesch_kincaid_grade": 19.8021, "gunning_fog": 23.4969, "avg_sentence_len": 43.2906, "avg_syllables_per_word": 1.5685, "ttr_10k": 0.1953, "i_per_1k": 3.104, "we_per_1k": 7.7601, "you_per_1k": 0.0, "questions_per_1k": 1.2994, "abstract_per_1k": 53.3098, "polysyllabic_share": 0.1545, "concreteness": 2.4351, "vader_mean": 0.5619}, {"short": "Nietzsche", "title": "Beyond Good and Evil", "author": "Friedrich Nietzsche", "year": 1886, "era": "Modern", "words": 64081, "flesch_ease": 36.1193, "flesch_kincaid_grade": 17.6636, "gunning_fog": 21.2454, "avg_sentence_len": 38.0077, "avg_syllables_per_word": 1.5619, "ttr_10k": 0.2373, "i_per_1k": 6.008, "we_per_1k": 9.5504, "you_per_1k": 1.9194, "questions_per_1k": 4.6035, "abstract_per_1k": 43.96, "polysyllabic_share": 0.1511, "concreteness": 2.5769, "vader_mean": 0.4304}, {"short": "James", "title": "Pragmatism", "author": "William James", "year": 1907, "era": "Modern", "words": 52466, "flesch_ease": 54.4252, "flesch_kincaid_grade": 11.3032, "gunning_fog": 14.9696, "avg_sentence_len": 22.6831, "avg_syllables_per_word": 1.5294, "ttr_10k": 0.2445, "i_per_1k": 10.5783, "we_per_1k": 21.1566, "you_per_1k": 8.9391, "questions_per_1k": 3.7167, "abstract_per_1k": 42.6943, "polysyllabic_share": 0.1474, "concreteness": 2.6136, "vader_mean": 0.4532}, {"short": "Russell", "title": "The Problems of Philosophy", "author": "Bertrand Russell", "year": 1912, "era": "Modern", "words": 43145, "flesch_ease": 49.8274, "flesch_kincaid_grade": 14.0372, "gunning_fog": 17.7578, "avg_sentence_len": 31.1067, "avg_syllables_per_word": 1.4827, "ttr_10k": 0.1409, "i_per_1k": 5.6553, "we_per_1k": 34.0712, "you_per_1k": 0.2781, "questions_per_1k": 0.9735, "abstract_per_1k": 38.0577, "polysyllabic_share": 0.1329, "concreteness": 2.5135, "vader_mean": 0.2625}];
+const METRICS = [["year", "Year of original publication"], ["words", "Total words"], ["flesch_ease", "Flesch Reading Ease (higher = easier)"], ["flesch_kincaid_grade", "Flesch-Kincaid grade level"], ["gunning_fog", "Gunning Fog index"], ["avg_sentence_len", "Mean sentence length (words)"], ["avg_syllables_per_word", "Mean syllables per word"], ["ttr_10k", "Lexical diversity (type-token ratio, first 10k words)"], ["i_per_1k", "\"I\" per 1,000 words"], ["we_per_1k", "\"we\" per 1,000 words"], ["you_per_1k", "\"you\" per 1,000 words"], ["questions_per_1k", "Questions per 1,000 words"], ["abstract_per_1k", "Abstract-noun suffixes per 1,000 words"], ["polysyllabic_share", "Share of words with 3+ syllables"], ["concreteness", "Mean concreteness (1 = abstract, 5 = concrete)"], ["vader_mean", "Mean paragraph sentiment (VADER compound)"]];
+const COLORS = {"Ancient": "#2a7f62", "Early Modern": "#b25c1e", "Modern": "#3b5bdb"};
+const W = 960, H = 480, M = {l: 64, r: 24, t: 20, b: 54};
+const svg = document.getElementById('plot');
+const tip = document.getElementById('tooltip');
+const xsel = document.getElementById('xsel'), ysel = document.getElementById('ysel');
+METRICS.forEach(([k, label], i) => {
+  xsel.add(new Option(label, k)); ysel.add(new Option(label, k));
+});
+xsel.value = 'year'; ysel.value = 'flesch_ease';
+
+function fmtYear(v) { return v < 0 ? Math.abs(Math.round(v)) + ' BCE' : Math.round(v) + ' CE'; }
+
+function draw() {
+  const xk = xsel.value, yk = ysel.value;
+  svg.innerHTML = '';
+  const xs = DATA.map(d => d[xk]), ys = DATA.map(d => d[yk]);
+  let x0 = Math.min(...xs), x1 = Math.max(...xs);
+  let y0 = Math.min(...ys), y1 = Math.max(...ys);
+  const pad = (a, b) => { const p = (b - a) * 0.08 || 1; return [a - p, b + p]; };
+  [x0, x1] = pad(x0, x1); [y0, y1] = pad(y0, y1);
+  const X = v => M.l + (v - x0) / (x1 - x0) * (W - M.l - M.r);
+  const Y = v => H - M.b - (v - y0) / (y1 - y0) * (H - M.t - M.b);
+  const ns = 'http://www.w3.org/2000/svg';
+  const el = (tag, attrs) => { const e = document.createElementNS(ns, tag);
+    for (const k in attrs) e.setAttribute(k, attrs[k]); svg.appendChild(e); return e; };
+  // gridlines + ticks
+  for (let i = 0; i <= 5; i++) {
+    const gx = x0 + (x1 - x0) * i / 5, gy = y0 + (y1 - y0) * i / 5;
+    el('line', {x1: X(gx), y1: Y(y0), x2: X(gx), y2: Y(y1), stroke: '#eee'});
+    el('line', {x1: X(x0), y1: Y(gy), x2: X(x1), y2: Y(gy), stroke: '#eee'});
+    const tx = el('text', {x: X(gx), y: H - 30, 'text-anchor': 'middle',
+      'font-size': 12, fill: '#777'});
+    tx.textContent = xk === 'year' ? fmtYear(gx) : Math.round(gx * 100) / 100;
+    const ty = el('text', {x: M.l - 10, y: Y(gy) + 4, 'text-anchor': 'end',
+      'font-size': 12, fill: '#777'});
+    ty.textContent = yk === 'year' ? fmtYear(gy) : Math.round(gy * 100) / 100;
+  }
+  const xl = METRICS.find(m => m[0] === xk)[1], yl = METRICS.find(m => m[0] === yk)[1];
+  const xt = el('text', {x: W / 2, y: H - 6, 'text-anchor': 'middle',
+    'font-size': 13, 'font-weight': 'bold', fill: '#333'}); xt.textContent = xl;
+  const yt = el('text', {x: 16, y: H / 2, 'text-anchor': 'middle',
+    'font-size': 13, 'font-weight': 'bold', fill: '#333',
+    transform: `rotate(-90 16 ${H / 2})`}); yt.textContent = yl;
+  // points
+  DATA.forEach(d => {
+    const c = el('circle', {cx: X(d[xk]), cy: Y(d[yk]), r: 9,
+      fill: COLORS[d.era], stroke: '#fff', 'stroke-width': 2,
+      style: 'cursor:pointer;opacity:0.9'});
+    c.addEventListener('mousemove', ev => {
+      tip.style.display = 'block';
+      tip.style.left = (ev.clientX + 14) + 'px';
+      tip.style.top = (ev.clientY + 14) + 'px';
+      const fx = v => Math.round(v * 100) / 100;
+      tip.innerHTML = `<div class="t">${d.title}</div>
+        <div class="a">${d.author} · ${d.year < 0 ? Math.abs(d.year) + ' BCE' : d.year + ' CE'} · ${d.era}</div>
+        <div>${xl}: <b>${xk === 'year' ? fmtYear(d[xk]) : fx(d[xk])}</b></div>
+        <div>${yl}: <b>${yk === 'year' ? fmtYear(d[yk]) : fx(d[yk])}</b></div>
+        <div style="color:#bbb">${Number(d.words).toLocaleString()} words</div>`;
+    });
+    c.addEventListener('mouseleave', () => tip.style.display = 'none');
+    const lab = el('text', {x: X(d[xk]) + 12, y: Y(d[yk]) + 4, 'font-size': 12, fill: '#555'});
+    lab.textContent = d.short;
+  });
+}
+xsel.addEventListener('change', draw); ysel.addEventListener('change', draw);
+draw();
+</script>
+</body>
+</html>

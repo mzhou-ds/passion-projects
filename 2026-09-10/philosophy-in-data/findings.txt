@@ -1,0 +1,37 @@
+PHILOSOPHY IN DATA — key findings (12 texts, 399 BCE–1912 CE)
+
+THE DISAPPEARING "I"
+  First-person singular ("I/me/my") per 1,000 words, by era:
+    Ancient:      26.8   Early Modern: 18.5   Modern: 6.5
+  Most first-person: Plato's Apology 46.5, Augustine's Confessions 45.2, Descartes' Discourse 41.5
+  Least first-person: Aristotle's Ethics 3.0, Mill's Utilitarianism 3.1, Hume's Enquiry 5.1
+  "We" replaces "I" among the moderns: Nietzsche 21.1 "we"/1k, Kant 20.7 "we"/1k
+
+READABILITY
+  Flesch Reading Ease by era: Ancient 55.9, Early Modern 29.0, Modern 39.0
+  Hardest text: Descartes' Discourse, Flesch -6.7, mean sentence 89.7 words
+  Easiest texts: Augustine's Confessions 62.4, Aurelius' Meditations 61.1, Plato's Apology 60.7
+  Most readable moderns: James' Pragmatism 54.4, Russell's Problems 49.8 (both written as public lectures/books)
+  Kant's Critique: Flesch 24.5, FK grade 20.1, mean concreteness 2.36 (lowest in corpus)
+
+ABSTRACTION
+  Abstract-noun suffixes (-tion/-ness/-ity/-ism/...) per 1,000 words:
+    Ancient 28.4 → Early Modern 43.8 → Modern 49.3
+  Polysyllabic (3+ syllables) share: Ancient 9% → Early Modern 13% → Modern 16%
+  Mean concreteness (Brysbaert 1-5 scale): Ancient 2.61 → Early Modern 2.53 → Modern 2.50
+  Philosophy as a whole lives near concreteness 2.5 — "justice" is 1.45, "apple" is 5.0
+
+SENTIMENT (VADER, mean paragraph compound — valence of word choice)
+  All twelve texts net positive: range 0.26 (Russell) to 0.84 (Descartes)
+  Most positive: Descartes 0.84, Augustine 0.58, Mill 0.56
+  Least positive: Russell 0.26, Aurelius 0.30, Spinoza 0.34
+  Nietzsche: 0.43 — the "pessimist" scores mid-pack; his valence hides in irony VADER can't see
+
+LEXICAL DIVERSITY (type-token ratio, first 10,000 words)
+  Richest: Nietzsche 0.237, Aurelius 0.228, James 0.245
+  Thinnest: Spinoza 0.095 (geometric repetition), Russell 0.141 (deliberate plainness)
+
+GENRE BEATS ERA
+  Confessions/dialogues/letters (Apology, Confessions, Meditations): high readability, high "I"
+  Treatises (Ethics, Critique): low readability, low "I", high abstraction
+  Lectures/popular books (Pragmatism, Problems): the readability rebound of the 1900s
