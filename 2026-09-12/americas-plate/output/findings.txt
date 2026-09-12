@@ -1,0 +1,9 @@
+1. Protein density: the single most protein-dense food is 'Soy protein isolate, potassium type' at 27.5 g protein per 100 kcal; the median food across the database delivers only 4.6 g/100 kcal.
+2. By category (median g protein/100 kcal): Finfish and Shellfish Products: 16.9; Beef Products: 13.7; Poultry Products: 13.6; Lamb, Veal, and Game Products: 13.1; Pork Products: 13.0. Lowest: ['Fruits and Fruit Juices', 'Beverages', 'Fats and Oils'].
+3. Protein leverage, tested in food-composition data: across all 7,530 foods the share of calories from protein barely predicts energy density (Spearman r = -0.22) because water content dominates — but within protein-food categories (meat, fish, dairy, legumes; n=3,149) the leverage pattern is clear: r = -0.54.
+4. Leucine density (the muscle-protein-synthesis trigger, ~3 g/meal threshold): leader is 'Beef, round, top round roast, boneless, separable lean only, trimmed to 0" fat, select, cooked, roasted' at 2145 mg/100 kcal — just 140 kcal to hit 3 g leucine.
+5. NRF-style nutrient density (per 100 kcal): top food is 'Spinach, raw' (score 571); top categories by median: Vegetables and Vegetable Products (124); Legumes and Legume Products (59); Breakfast Cereals (56); bottom: ['Fats and Oils', 'Sweets'].
+6. Sugar bombs: 'Jams and preserves, no sugar (with sodium saccharin), any flavor' packs 28.6 g sugar per 100 kcal (essentially 100% of its calories from sugar); median food: 0.8 g/100 kcal.
+7. Sodium per 100 kcal, category medians: Soups, Sauces, and Gravies: 726 mg; Sausages and Luncheon Meats: 373 mg; Meals, Entrees, and Side Dishes: 251 mg vs lowest ['Fats and Oils', 'Cereal Grains and Pasta'].
+8. Fiber gap: only 17.3% of foods deliver >=3 g fiber per 100 g; median fiber is 0.00 g/100 kcal.
+9. Asian spotlight (median g protein/100 kcal): Tofu 11.1; Tempeh 10.4; Edamame 10.1; Seitan/wheat gluten 20.3; Natto 9.2; Chicken breast 14.2; Salmon 14.8; Beef (lean) 13.7; Lentils 7.9; Chickpeas 5.4

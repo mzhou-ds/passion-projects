@@ -1,0 +1,11 @@
+{
+  "n_foods": 7756,
+  "n_categories": 25,
+  "median_protein_per_100kcal": 4.61,
+  "protein_leverage_spearman_r": -0.219,
+  "pct_foods_ge3g_fiber": 17.3,
+  "top_protein_food": "Soy protein isolate, potassium type",
+  "top_protein_value": 27.5,
+  "top_nrf_food": "Spinach, raw",
+  "top_nrf_score": 571.0
+}
