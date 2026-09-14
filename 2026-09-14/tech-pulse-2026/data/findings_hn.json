@@ -1,0 +1,28 @@
+{
+  "n_stories": 499,
+  "topic_shares": {
+    "Essays & misc": 52.3,
+    "AI / ML": 18.2,
+    "Show HN & launches": 7.8,
+    "Programming & CS": 6.6,
+    "Big Tech & products": 5.4,
+    "Science & math": 2.6,
+    "Hardware & chips": 2.4,
+    "Policy, privacy & society": 1.6,
+    "Ask HN": 1.2,
+    "Startups & business": 1.0,
+    "Security": 0.8
+  },
+  "ai_kw_share_2021_avg_pct": 3.21,
+  "ai_kw_share_2025_avg_pct": 16.17,
+  "chatgpt_kw_share_peak_pct": 5.29,
+  "ai_med_comments": 21.0,
+  "nonai_med_comments": 22.0,
+  "top_domains": {
+    "github.com": 33,
+    "twitter.com": 12,
+    "theguardian.com": 8,
+    "youtube.com": 7,
+    "text post": 7
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "events_2022_2026": 3034,
+  "headcount_by_year": {
+    "2022": 163999,
+    "2023": 264100,
+    "2024": 152922,
+    "2025": 123622,
+    "2026": 39482
+  },
+  "peak_month": "2023-01-01",
+  "peak_month_headcount": 89709,
+  "top_industry_total": "Retail",
+  "serial_top": "Amazon",
+  "serial_top_events": 13,
+  "us_share_events": 0.6054713249835201,
+  "top_industries": {
+    "Retail": 96986,
+    "Hardware": 94957,
+    "Other": 88303,
+    "Consumer": 75507,
+    "Transportation": 51146
+  }
+}

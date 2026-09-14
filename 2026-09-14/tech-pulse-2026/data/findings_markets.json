@@ -1,0 +1,42 @@
+{
+  "QQQ": {
+    "total_return_pct": 131.1,
+    "max_drawdown_pct": -35.6,
+    "trough_date": "2022-12-28",
+    "recovery_date": "2023-12-15",
+    "ai_era_return_pct": 143.7,
+    "ai_era_share_of_total_pct": 109.6
+  },
+  "SPY": {
+    "total_return_pct": 107.2,
+    "max_drawdown_pct": -25.4,
+    "trough_date": "2022-10-12",
+    "recovery_date": "2024-01-19",
+    "ai_era_return_pct": 87.5,
+    "ai_era_share_of_total_pct": 81.6
+  },
+  "XLK": {
+    "total_return_pct": 193.5,
+    "max_drawdown_pct": -34.0,
+    "trough_date": "2022-10-12",
+    "recovery_date": "2023-07-17",
+    "ai_era_return_pct": 176.1,
+    "ai_era_share_of_total_pct": 91.0
+  },
+  "SMH": {
+    "total_return_pct": 419.5,
+    "max_drawdown_pct": -45.3,
+    "trough_date": "2022-10-14",
+    "recovery_date": "2023-07-17",
+    "ai_era_return_pct": 399.3,
+    "ai_era_share_of_total_pct": 95.2
+  },
+  "IXIC": {
+    "total_return_pct": 107.4,
+    "max_drawdown_pct": -36.4,
+    "trough_date": "2022-12-28",
+    "recovery_date": "2024-02-29",
+    "ai_era_return_pct": 129.6,
+    "ai_era_share_of_total_pct": 120.7
+  }
+}
