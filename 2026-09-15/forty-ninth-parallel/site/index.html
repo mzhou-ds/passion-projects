@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The 49th Parallel — a data story of Canada, America, and the Chinese Canadians in between</title>
+<style>
+  :root { --ca:#D52B1E; --us:#3C3B6E; --ink:#1d1d1f; --mut:#6b6b70; --bg:#faf9f7; --card:#ffffff; }
+  * { box-sizing:border-box; }
+  body { margin:0; font-family: Georgia, 'Times New Roman', serif; color:var(--ink); background:var(--bg); line-height:1.65; }
+  header.hero { background:linear-gradient(180deg,#fff 0%,#fdf3f2 100%); border-bottom:4px double var(--ca); padding:64px 20px 48px; text-align:center; }
+  .kicker { font-family:system-ui,sans-serif; text-transform:uppercase; letter-spacing:.25em; font-size:12px; color:var(--mut); }
+  h1 { font-size:clamp(2rem,5vw,3.4rem); margin:.4em 0 .2em; }
+  h1 .ca { color:var(--ca); } h1 .us { color:var(--us); }
+  .sub { max-width:640px; margin:0 auto; color:#444; font-size:1.1rem; }
+  .byline { font-family:system-ui,sans-serif; font-size:.85rem; color:var(--mut); margin-top:1.2em; }
+  main { max-width:860px; margin:0 auto; padding:20px 20px 60px; }
+  section.card { background:var(--card); border:1px solid #e8e4de; border-radius:14px; padding:32px 32px 28px; margin:28px 0; box-shadow:0 2px 10px rgba(0,0,0,.04); }
+  section.card h2 { font-size:1.6rem; margin:0 0 .2em; }
+  section.card h2 .n { display:inline-block; background:var(--ca); color:#fff; width:1.7em; height:1.7em; line-height:1.7em; text-align:center; border-radius:50%; font-size:.8em; margin-right:.4em; font-family:system-ui,sans-serif; }
+  section.card.blue h2 .n { background:var(--us); }
+  p.lede { font-size:1.08rem; }
+  figure { margin:1.4em 0; }
+  figure img { width:100%; border:1px solid #eee; border-radius:8px; }
+  figcaption { font-family:system-ui,sans-serif; font-size:.82rem; color:var(--mut); margin-top:.5em; }
+  .stat-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(150px,1fr)); gap:12px; margin:1.2em 0; }
+  .stat { background:#f6f5f3; border-radius:10px; padding:14px; text-align:center; font-family:system-ui,sans-serif; }
+  .stat b { display:block; font-size:1.5rem; }
+  .stat.ca b { color:var(--ca); } .stat.us b { color:var(--us); }
+  .stat span { font-size:.78rem; color:var(--mut); }
+  table.findings { width:100%; border-collapse:collapse; font-family:system-ui,sans-serif; font-size:.9rem; margin:1em 0; }
+  table.findings th, table.findings td { border-bottom:1px solid #eee; padding:8px 10px; text-align:left; }
+  table.findings th { color:var(--mut); font-weight:600; font-size:.78rem; text-transform:uppercase; letter-spacing:.05em; }
+  /* quiz */
+  #quiz .q { display:none; }
+  #quiz .q.active { display:block; }
+  #quiz .opts button { display:block; width:100%; margin:10px 0; padding:14px 16px; font-size:1.05rem; font-family:inherit; background:#f6f5f3; border:2px solid #e3e0da; border-radius:10px; cursor:pointer; text-align:left; }
+  #quiz .opts button:hover:not(:disabled) { border-color:var(--ca); }
+  #quiz .opts button.correct { border-color:#2e7d32; background:#eef7ee; }
+  #quiz .opts button.wrong { border-color:var(--ca); background:#fdecea; }
+  #quiz .opts button:disabled { cursor:default; opacity:.95; }
+  #quiz .qmeta { font-family:system-ui,sans-serif; font-size:.8rem; color:var(--mut); }
+  #quiz .explain { display:none; font-size:.95rem; color:#444; background:#fbfaf8; border-left:3px solid var(--ca); padding:10px 14px; margin-top:12px; border-radius:0 8px 8px 0; }
+  #quiz .explain.show { display:block; }
+  #quizResult { display:none; text-align:center; padding:20px; }
+  #quizResult .score { font-size:3rem; font-weight:bold; }
+  .btn { font-family:system-ui,sans-serif; background:var(--ca); color:#fff; border:none; padding:12px 28px; font-size:1rem; border-radius:999px; cursor:pointer; margin-top:12px; }
+  .btn:hover { background:#b02318; }
+  footer { max-width:860px; margin:0 auto; padding:0 20px 60px; font-family:system-ui,sans-serif; font-size:.82rem; color:var(--mut); }
+  footer a { color:var(--us); }
+</style>
+</head>
+<body>
+<header class="hero">
+  <div class="kicker">Musing with Mike · Data Story Nº 8</div>
+  <h1>The <span class="ca">49th</span> Parallel</h1>
+  <p class="sub">A data story of <b>Canada</b> and <b>America</b> — what the numbers say about two countries that look alike from space — and of the <b>Chinese Canadians</b> in between, a community that went from 17,312 people to 1.7 million in 120 years.</p>
+  <div class="byline">Written from south of the border, by someone who grew up north of it · September 15, 2026</div>
+</header>
+
+<main>
+<section class="card">
+  <h2><span class="n">1</span> The values gap, in numbers</h2>
+  <p class="lede">Canada and the US share a language, a border, and a Netflix catalogue. The outcomes data tells a different story — one that has been widening for thirty years.</p>
+  <div class="stat-grid">
+    <div class="stat ca"><b>81.6</b><span>Canada life expectancy, 2023 (years)</span></div>
+    <div class="stat us"><b>78.4</b><span>US life expectancy, 2023 (years)</span></div>
+    <div class="stat us"><b>16.7%</b><span>US health spending, % of GDP</span></div>
+    <div class="stat ca"><b>11.3%</b><span>Canada health spending, % of GDP</span></div>
+    <div class="stat ca"><b>2.0</b><span>Canada homicide rate per 100k</span></div>
+    <div class="stat us"><b>5.8</b><span>US homicide rate per 100k</span></div>
+  </div>
+  <figure><img src="../charts/life_expectancy.png" alt="Life expectancy Canada vs US 1990-2023"><figcaption>Life expectancy at birth. Canada has led the US for the entire series; the gap is now 3.2 years — roughly the difference between the US and China. Source: World Bank WDI.</figcaption></figure>
+  <figure><img src="../charts/health_spending.png" alt="Health expenditure as percent of GDP"><figcaption>Current health expenditure as % of GDP. The US spends about 50% more of its economy on health — for worse population outcomes. Source: World Bank WDI.</figcaption></figure>
+  <figure><img src="../charts/homicide_rate.png" alt="Intentional homicide rate"><figcaption>Intentional homicides per 100,000 people (UNODC via World Bank). The US rate has run 2.5–4× Canada's for three decades.</figcaption></figure>
+  <p>Two more quiet divergences: Canada's Gini coefficient sits at <b>31.5</b> versus <b>41.8</b> in the US (less inequality), and <b>21.3%</b> of people in Canada are immigrants versus <b>15.4%</b> in the US — Canada is, per capita, the more immigrant country by a wide margin.</p>
+</section>
+
+<section class="card blue">
+  <h2><span class="n">2</span> Who owns hockey? The draft receipts</h2>
+  <p class="lede">Hockey is Canada's creation myth and America's growth market. I pulled every NHL draft pick from 2000 to 2025 — 5,997 players — and counted them by birth country.</p>
+  <figure><img src="../charts/draft_nationality.png" alt="NHL draft picks by birth country 2000-2025"><figcaption>Left: share of all draft picks by birth country. Right: first-round picks, Canada vs USA. Birth country per the NHL's official records API.</figcaption></figure>
+  <p>Canada's share of <i>all</i> picks peaked around 2008 (~56%) and slid to ~29% by 2019 — the US development program's golden era — before rebounding to ~39% in 2025. But at the <b>top of the draft</b>, Canada never really left: Canadians have taken the majority of first-round picks in most years, including #1 overall in 2025 (Matthew Schaefer). The pipeline narrowed; the penthouse stayed Canadian.</p>
+  <p>One more 2025 detail: Alberta — population 4.8 million — produced <b>11</b> draft picks, 4th of any province or state. And Haoxi Wang became one of the first Chinese-born players ever drafted (33rd overall). The game's map keeps expanding.</p>
+</section>
+
+<section class="card">
+  <h2><span class="n">3</span> The vocabulary border</h2>
+  <p class="lede">Canadians say <i>toque</i>, <i>washroom</i>, <i>eh</i>, and <i>cheque</i>. But do those words show up as "Canadian" in the books each country publishes? I queried the Google Books Ngram corpus (American vs British English, 1960–2019) for the shibboleths.</p>
+  <figure><img src="../charts/ngram_words.png" alt="toque vs beanie and washroom vs restroom in US and British book corpora"><figcaption>Word frequencies in published books. Note: <i>beanie</i> beats <i>toque</i> and <i>restroom</i> beats <i>washroom</i> in <b>both</b> corpora — Canadian speech is nearly invisible in print.</figcaption></figure>
+  <table class="findings">
+    <tr><th>Word Canadians say</th><th>How much more common in British vs American books (2019)</th><th>Canadian verdict</th></tr>
+    <tr><td>cheque</td><td>5.9×</td><td>🇬🇧 side — and proud of it</td></tr>
+    <tr><td>eh</td><td>4.5×</td><td>🇬🇧 side (interjection travels with the Commonwealth)</td></tr>
+    <tr><td>washroom</td><td>3.3×</td><td>🇬🇧 side</td></tr>
+    <tr><td>toque</td><td>2.9×</td><td>🇬🇧 side — though <i>beanie</i> wins everywhere in print</td></tr>
+  </table>
+  <p>The honest caveat: books are a lagging, formal indicator. Spoken Canadian English keeps all four words alive while print — even British print — is being Americanized (<i>restroom</i> has surged in the British corpus since the 1990s). The border you can hear is stronger than the border you can read.</p>
+</section>
+
+<section class="card blue">
+  <h2><span class="n">4</span> The third story: Chinese Canadians</h2>
+  <p class="lede">This is the part of the story I grew up inside. The Chinese Canadian community went from a head tax to a majority — in one city, literally.</p>
+  <figure><img src="../charts/diaspora_growth.png" alt="Chinese Canadian population 1901-2021"><figcaption>Chinese population of Canada by census year. The flat century (1885–1967) is the head tax and the Exclusion Act; the hockey stick after is the points system and the Hong Kong wave.</figcaption></figure>
+  <div class="stat-grid">
+    <div class="stat ca"><b>1.7M</b><span>Chinese Canadians, 2021 (4.6% of Canada)</span></div>
+    <div class="stat ca"><b>54.3%</b><span>of Richmond, BC is Chinese — the highest share of any municipality in Canada</span></div>
+    <div class="stat ca"><b>28.4%</b><span>were born in Canada — like me</span></div>
+    <div class="stat ca"><b>61.8%</b><span>of 25–54 year-olds hold a bachelor's degree or higher</span></div>
+  </div>
+  <figure><img src="../charts/diaspora_cma.png" alt="Chinese Canadians by metro area"><figcaption>Nearly 70% of Chinese Canadians live in just two metro areas: Toronto (631,050) and Vancouver (474,655). 97.7% live in cities of 100,000+.</figcaption></figure>
+  <figure><img src="../charts/diaspora_birthplace.png" alt="Where Chinese Canadians were born"><figcaption>Where Chinese Canadians were born: China 47.8%, Canada 28.4%, Hong Kong 12.8%, Taiwan 4.1%, Southeast Asia 4.1%. Sources: StatCan "Portrait of the Chinese Populations in Canada" (2026); 2021 Census.</figcaption></figure>
+  <p>A short version of the long history: Chinese workers built the railway that made Confederation real (1881–85), and were rewarded with a $50 head tax (1885, raised to $500 in 1903), a Vancouver pogrom (1907), and a near-total immigration ban (1923–47). In 1931 there were <b>1,240 Chinese men for every 100 Chinese women</b> in Canada. Then came the 1967 points system — immigration by skills, not by race — and the community grew 100× in two generations. The arc from the Exclusion Act to Richmond, where a Chinese-language ballot is unremarkable, is the fastest demographic turnaround in Canadian history.</p>
+  <p>And the generational shift keeps going: in 1961, 60% of Chinese Canadians identified as Christian; by 2021, 67% reported no religion. The community my grandparents knew — clan associations and Chinatown benevolent societies — is now majority secular, majority suburban, and plurality Mandarin-speaking. The culture didn't disappear; it moved to Markham and started ordering bubble tea.</p>
+</section>
+
+<section class="card" id="quiz">
+  <h2><span class="n">5</span> The Vocabulary Border Test</h2>
+  <p class="lede">Eight questions. Pick the word you'd actually say. No studying — your upbringing already graded this.</p>
+  <div class="qmeta" id="qmeta"></div>
+  <div id="qbox"></div>
+  <div id="quizResult">
+    <div class="kicker">Your score</div>
+    <div class="score" id="scoreOut"></div>
+    <p id="verdict"></p>
+    <button class="btn" onclick="startQuiz()">Take it again, eh?</button>
+  </div>
+</section>
+</main>
+
+<footer>
+  <p><b>Sources &amp; methods.</b> World Bank World Development Indicators API (life expectancy SP.DYN.LE00.IN; health expenditure SH.XPD.CHEX.GD.ZS; homicides VC.IHR.PSRC.P5; Gini SI.POV.GINI; migrant stock SM.POP.TOTL); NHL official records API (records.nhl.com, draft picks 2000–2025, birth country; small classification differences vs Wikipedia's nationality tables are noted); Google Books Ngram Viewer JSON endpoint (American English corpus 28 / British English corpus 27, 2019 edition — corpus IDs verified empirically via <i>cheque/lorry/petrol</i> calibration); Statistics Canada 2021 Census via "Portrait of the Chinese Populations in Canada" (89-657-X2026001, 2026) and the "Chinese Canadians" Wikipedia article's census tables.</p>
+  <p><b>Reproduce it:</b> <code>python3 fetch_data.py &amp;&amp; python3 analyze.py</code> in the project directory regenerates every chart from primary sources. Diaspora figures are compiled from census tables — see <code>data/diaspora_sources.md</code>.</p>
+  <p>Musing with Mike · Build Nº 8 · 2026-09-15 · <a href="https://github.com/mzhou-ds/passion-projects">mzhou-ds/passion-projects</a></p>
+</footer>
+
+<script>
+const QUESTIONS = [
+  { q:"It's -20°C in January. You pull on your…", a:["toque","beanie"], correct:0,
+    why:"<i>Toque</i> is the Canadian word (from French <i>toque</i>). Americans say <i>beanie</i>. In books, <i>beanie</i> wins in both countries — spoken Canadian is invisible in print." },
+  { q:"In a restaurant, you ask where the ___ is.", a:["washroom","restroom"], correct:0,
+    why:"Canadians ask for the <i>washroom</i>; Americans the <i>restroom</i>. British books use <i>washroom</i> 3.3× more than American books." },
+  { q:"The fizzy sweet drink is called…", a:["pop","soda"], correct:0,
+    why:"<i>Pop</i> across most of Canada (it's <i>soft drink</i> in parts of Quebec and the Maritimes); <i>soda</i> in the US Northeast and West." },
+  { q:"You pay your landlord with a…", a:["cheque","check"], correct:0,
+    why:"Canadians still write <i>cheque</i> — 5.9× more common in British than American books. The spelling is a tiny daily loyalty oath to the Commonwealth." },
+  { q:"'Nice day, ___?'", a:["eh","huh"], correct:0,
+    why:"<i>Eh</i> — the most parodied and most real Canadianism. 4.5× more common in British than American books, but no book captures how often it's actually said." },
+  { q:"The last year of high school is…", a:["grade 12","12th grade"], correct:0,
+    why:"Canadians count <i>grades</i> (grade 12); Americans count <i>ordinals</i> (12th grade / senior year). Quebec skips the whole thing with CEGEP." },
+  { q:"After high school you go to…", a:["university","college"], correct:0,
+    why:"Canadians say 'I'm going to <i>university</i>' even for a college; Americans say <i>college</i> for everything, including Harvard." },
+  { q:"Your January power bill is the ___ bill.", a:["hydro","electric"], correct:0,
+    why:"Ontario and BC call electricity <i>hydro</i> (a legacy of publicly owned hydroelectric utilities); Americans say the <i>electric</i> bill." },
+];
+let qi = 0, score = 0;
+const qbox = document.getElementById('qbox'), qmeta = document.getElementById('qmeta');
+function startQuiz(){
+  qi = 0; score = 0;
+  document.getElementById('quizResult').style.display = 'none';
+  showQ();
+}
+function showQ(){
+  const Q = QUESTIONS[qi];
+  qmeta.textContent = `Question ${qi+1} of ${QUESTIONS.length}`;
+  qbox.innerHTML = `<h3 style="margin:.4em 0 .8em">${Q.q}</h3><div class="opts"></div><div class="explain"></div>`;
+  const opts = qbox.querySelector('.opts'), ex = qbox.querySelector('.explain');
+  // shuffle option order
+  const order = Q.a.map((t,i)=>[t,i]).sort(()=>Math.random()-.5);
+  order.forEach(([t,i])=>{
+    const b = document.createElement('button');
+    b.textContent = t;
+    b.onclick = ()=>{
+      [...opts.children].forEach(x=>x.disabled = true);
+      const right = order.find(([,j])=>j===Q.correct);
+      [...opts.children].forEach(x=>{
+        if (x.textContent === right[0]) x.classList.add('correct');
+      });
+      if (i === Q.correct){ score++; }
+      else { b.classList.add('wrong'); }
+      ex.innerHTML = Q.why;
+      ex.classList.add('show');
+      const next = document.createElement('button');
+      next.className = 'btn';
+      next.textContent = qi < QUESTIONS.length-1 ? 'Next question →' : 'See my score';
+      next.onclick = ()=>{ qi++; qi < QUESTIONS.length ? showQ() : finish(); };
+      qbox.appendChild(next);
+    };
+    opts.appendChild(b);
+  });
+}
+function finish(){
+  qbox.innerHTML = ''; qmeta.textContent = '';
+  const r = document.getElementById('quizResult');
+  r.style.display = 'block';
+  document.getElementById('scoreOut').textContent = `${score} / ${QUESTIONS.length}`;
+  const v = document.getElementById('verdict');
+  if (score >= 7) v.innerHTML = "<b>Certified Canadian.</b> You could order a double-double in a drive-thru and nobody would blink.";
+  else if (score >= 5) v.innerHTML = "<b>Borderline — you code-switch.</b> You've lived on both sides of the line, or you watch a lot of Canadian TV.";
+  else if (score >= 3) v.innerHTML = "<b>American with Canadian sympathies.</b> You say sorry a lot but you call it a restroom.";
+  else v.innerHTML = "<b>Yankee, eh?</b> Somewhere a loonie is crying. (That's a one-dollar coin, by the way.)";
+}
+startQuiz();
+</script>
+</body>
+</html>

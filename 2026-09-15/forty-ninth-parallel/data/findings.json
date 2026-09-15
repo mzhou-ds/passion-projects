@@ -1,0 +1,59 @@
+{
+  "life_expectancy_gap_2023": 3.24,
+  "life_expectancy": {
+    "CAN_2023": 81.6,
+    "USA_2023": 78.4
+  },
+  "health_exp_gdp_latest": {
+    "CAN": 11.3,
+    "USA": 16.7
+  },
+  "homicide_rate_latest": {
+    "CAN": 1.98,
+    "USA": 5.76
+  },
+  "gini_latest": {
+    "CAN": 31.5,
+    "USA": 41.8
+  },
+  "migrant_share_latest": {
+    "CAN": 21.3,
+    "USA": 15.4,
+    "year": 2024
+  },
+  "gdp_per_capita_latest": {
+    "CAN": 55016,
+    "USA": 86170
+  },
+  "draft": {
+    "years": "2000-2025",
+    "total_picks": 5997,
+    "can_share_2000": 32.8,
+    "can_share_2025": 39.3,
+    "usa_share_2000": 18.8,
+    "usa_share_2025": 22.3
+  },
+  "ngram_british_vs_american_2019": {
+    "toque": 2.85,
+    "beanie": 2.7,
+    "washroom": 3.31,
+    "restroom": 1.65,
+    "eh": 4.46,
+    "cheque": 5.85
+  },
+  "ngram_2019_us": {
+    "toque_vs_beanie": "beanie",
+    "washroom_vs_restroom": "restroom"
+  },
+  "ngram_2019_uk": {
+    "toque_vs_beanie": "beanie",
+    "washroom_vs_restroom": "restroom"
+  },
+  "diaspora": {
+    "pop_2021": 1713163,
+    "share_2021_pct": 4.6,
+    "top_cma": "Toronto CMA (631,050)",
+    "richmond_share": 54.3,
+    "canada_born_share": 28.4
+  }
+}
