@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Friendship Budget — how many relationships can your week actually sustain?</title>
+<style>
+  :root{
+    --teal:#1b7f7a; --rust:#c65d3a; --navy:#2b3a55; --gold:#d9a441;
+    --ink:#22252a; --muted:#6b6f76; --paper:#faf8f3; --card:#ffffff; --line:#e5e0d3;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--paper);color:var(--ink);
+       font-family:"Avenir Next","Segoe UI",system-ui,-apple-system,sans-serif;line-height:1.55}
+  header{background:var(--navy);color:#fff;padding:2.4rem 1.2rem 2rem}
+  header .wrap, main .wrap, footer .wrap{max-width:960px;margin:0 auto}
+  header h1{margin:0 0 .4rem;font-size:1.9rem;letter-spacing:.2px}
+  header p{margin:.3rem 0;max-width:44rem;color:#d7dbe3}
+  header .kicker{color:var(--gold);text-transform:uppercase;font-size:.78rem;letter-spacing:.14em;margin-bottom:.6rem}
+  main{padding:1.6rem 1.2rem 3rem}
+  .grid{display:grid;grid-template-columns:1fr 1fr;gap:1.2rem}
+  @media (max-width:760px){.grid{grid-template-columns:1fr}}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:1.2rem 1.3rem;
+        box-shadow:0 2px 10px rgba(43,58,85,.05)}
+  .card h2{margin:.1rem 0 .8rem;font-size:1.15rem}
+  .row{margin:.9rem 0}
+  .row label{display:flex;justify-content:space-between;font-weight:600;margin-bottom:.35rem}
+  .row label .val{color:var(--teal);font-variant-numeric:tabular-nums}
+  input[type=range]{width:100%;accent-color:var(--teal)}
+  .layer{display:grid;grid-template-columns:1fr auto;gap:.2rem .6rem;align-items:center;
+         padding:.55rem .7rem;border:1px solid var(--line);border-radius:10px;margin:.5rem 0;background:#fff}
+  .layer .nm{font-weight:700}
+  .layer .ds{font-size:.82rem;color:var(--muted);grid-column:1/-1}
+  .layer .ct{font-variant-numeric:tabular-nums;font-weight:700;color:var(--navy)}
+  .layer .bar{grid-column:1/-1;height:8px;border-radius:4px;background:#eee7d6;overflow:hidden}
+  .layer .bar i{display:block;height:100%;border-radius:4px}
+  .verdict{font-size:1.05rem;background:var(--navy);color:#fff;border-radius:12px;padding:1rem 1.2rem;margin-top:1rem}
+  .verdict b{color:var(--gold)}
+  .presets{display:flex;gap:.5rem;flex-wrap:wrap;margin:.6rem 0 0}
+  .presets button{border:1px solid var(--teal);background:#fff;color:var(--teal);border-radius:999px;
+                  padding:.4rem .9rem;font-weight:600;cursor:pointer}
+  .presets button:hover{background:var(--teal);color:#fff}
+  canvas{width:100%;height:auto;display:block}
+  .note{font-size:.85rem;color:var(--muted)}
+  footer{border-top:1px solid var(--line);padding:1.4rem 1.2rem 2.4rem;font-size:.85rem;color:var(--muted)}
+  footer a{color:var(--teal)}
+  details{margin-top:.6rem}
+  summary{cursor:pointer;font-weight:600;color:var(--navy)}
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <div class="kicker">The Friendship Portfolio · interactive model</div>
+    <h1>The Friendship Budget</h1>
+    <p>Friendships have maintenance costs, just like investments have fees. Robin Dunbar's
+    research says humans can sustain about <b>150</b> meaningful relationships, in layers of
+    roughly <b>5 · 15 · 50 · 150</b> — but each layer bills you in hours. Set your weekly
+    social budget below and see how many relationships your calendar can actually fund.</p>
+  </div>
+</header>
+
+<main>
+<div class="wrap">
+<div class="grid">
+  <div class="card">
+    <h2>1 · Your weekly social budget</h2>
+    <div class="row">
+      <label>Hours per week for friends <span class="val" id="hoursVal">7 h</span></label>
+      <input type="range" id="hours" min="1" max="30" step="0.5" value="7">
+      <div class="note">Face-to-face, calls, long texts — anything that maintains a tie. Americans
+      average ~4–5 h/day of socializing total (BLS American Time Use Survey), but most of it goes to
+      partners, family, and coworkers.</div>
+    </div>
+    <h2>2 · How you split it</h2>
+    <div class="note" style="margin-bottom:.6rem">What share of your friendship budget goes to each
+    Dunbar layer? (Must total 100% — the sliders rebalance automatically.)</div>
+    <div class="row"><label>Inner circle (~5 closest) <span class="val" id="s0v">45%</span></label>
+      <input type="range" id="s0" min="0" max="100" value="45"></div>
+    <div class="row"><label>Close friends (~15) <span class="val" id="s1v">30%</span></label>
+      <input type="range" id="s1" min="0" max="100" value="30"></div>
+    <div class="row"><label>Good friends (~50) <span class="val" id="s2v">15%</span></label>
+      <input type="range" id="s2" min="0" max="100" value="15"></div>
+    <div class="row"><label>Friendly acquaintances (~150) <span class="val" id="s3v">10%</span></label>
+      <input type="range" id="s3" min="0" max="100" value="10"></div>
+    <div class="presets">
+      <button data-preset="average">The average American</button>
+      <button data-preset="inner">Inner-circle investor</button>
+      <button data-preset="networker">The networker</button>
+    </div>
+    <details>
+      <summary>How the model works (assumptions)</summary>
+      <p class="note">Monthly maintenance cost per relationship is the model's key assumption —
+      adjust it below. Defaults are illustrative, grounded in Dunbar's layers (Dunbar, 1992; 2010)
+      and the finding that tie strength decays without contact (Roberts &amp; Dunbar, 2011;
+      Burt, 2000 on tie decay):</p>
+      <div class="row"><label>Inner circle: hrs/month per person <span class="val" id="c0v">4</span></label>
+        <input type="range" id="c0" min="1" max="12" step="0.5" value="4"></div>
+      <div class="row"><label>Close friends: hrs/month per person <span class="val" id="c1v">1.5</span></label>
+        <input type="range" id="c1" min="0.5" max="6" step="0.5" value="1.5"></div>
+      <div class="row"><label>Good friends: hrs/month per person <span class="val" id="c2v">0.5</span></label>
+        <input type="range" id="c2" min="0.25" max="3" step="0.25" value="0.5"></div>
+      <div class="row"><label>Acquaintances: hrs/month per person <span class="val" id="c3v">0.15</span></label>
+        <input type="range" id="c3" min="0.05" max="1" step="0.05" value="0.15"></div>
+    </details>
+  </div>
+
+  <div class="card">
+    <h2>3 · What your budget sustains</h2>
+    <canvas id="cv" width="440" height="440"></canvas>
+    <div id="layers"></div>
+    <div class="verdict" id="verdict"></div>
+  </div>
+</div>
+
+<div class="card" style="margin-top:1.2rem">
+  <h2>The takeaway from the data</h2>
+  <p>In 1990, 55% of American men had six or more close friends; by 2021 it was 27%, and the share
+  with <i>no</i> close friends quintupled from 3% to 15% (AEI Survey Center on American Life, 2021).
+  Meanwhile the World Happiness Report 2025 finds 19% of young adults worldwide have <i>no one</i> to
+  count on — up 39% since 2006. The model above shows why the math is unforgiving: an inner circle
+  of five alone costs ~20 hours a month. Friendship isn't free — it's the highest-return asset most
+  of us systematically underfund. Strong social ties carry a survival advantage (OR ≈ 1.5) comparable
+  to the mortality risk of smoking (Holt-Lunstad et al., 2010).</p>
+  <p class="note">Play with the presets: <b>The average American</b> mirrors AEI's 2021 distribution
+  (most people hold 1–3 close friends and little else). <b>Inner-circle investor</b> concentrates the
+  budget where the evidence says returns are highest. <b>The networker</b> spreads thin — watch the
+  inner circle starve.</p>
+</div>
+</div>
+</main>
+
+<footer>
+  <div class="wrap">
+    Built for the <b>Friendship Portfolio</b> daily build (2026-09-16) · <i>Musing with Mike</i>.
+    Model layers: Dunbar, R.I.M. (1992) "Neocortex size as a constraint on group size in primates";
+    Dunbar (2010); Roberts &amp; Dunbar (2011) on social time. Survey data: AEI Survey Center on
+    American Life (Cox, 2021); World Happiness Report 2025, Ch. 5 (Pei &amp; Zaki); Meta-Gallup Global
+    State of Social Connections (2022); Holt-Lunstad, Smith &amp; Layton (2010), PLoS Medicine.
+    All figures cited in the project README. This is an illustrative model, not financial — er,
+    not <i>friendship</i> — advice.
+  </div>
+</footer>
+
+<script>
+(function(){
+  "use strict";
+  var LAYERS = [
+    {name:"Inner circle", target:5,   color:"#c65d3a", desc:"The ~5 people you'd call at 2am. Highest maintenance, highest return."},
+    {name:"Close friends", target:15, color:"#d9a441", desc:"Sympathy group — monthly contact keeps these alive."},
+    {name:"Good friends",  target:50, color:"#1b7f7a", desc:"The wider circle. A few meaningful touches a year each."},
+    {name:"Acquaintances", target:150,color:"#8a8a8a", desc:"Everyone else you know by name. Occasional contact only."}
+  ];
+  var $ = function(id){ return document.getElementById(id); };
+  var cv = $("cv"), ctx = cv.getContext("2d");
+
+  var PRESETS = {
+    average:   {hours:5,  shares:[30,35,25,10]},
+    inner:     {hours:7,  shares:[60,25,10,5]},
+    networker: {hours:10, shares:[15,20,30,35]}
+  };
+
+  function shares(){
+    var s = [0,1,2,3].map(function(i){ return +$("s"+i).value; });
+    var t = s.reduce(function(a,b){return a+b;},0) || 1;
+    return s.map(function(v){ return v/t; });
+  }
+
+  function compute(){
+    var hours = +$("hours").value;
+    var sh = shares();
+    var monthly = hours * 4.33;
+    return LAYERS.map(function(L,i){
+      var cost = +$("c"+i).value;             // hrs/month per relationship
+      var funded = Math.floor(monthly * sh[i] / cost);
+      return {L:L, share:sh[i], cost:cost, funded:funded,
+              fill: Math.min(1, funded / L.target)};
+    });
+  }
+
+  function draw(res){
+    var W = cv.width, H = cv.height, cx = W/2, cy = H/2;
+    ctx.clearRect(0,0,W,H);
+    var radii = [52, 105, 158, 205];
+    res.forEach(function(r,i){
+      var L = r.L, R = radii[i];
+      // ring
+      ctx.beginPath(); ctx.arc(cx,cy,R,0,Math.PI*2);
+      ctx.strokeStyle = "#ddd5c2"; ctx.lineWidth = 1.5; ctx.stroke();
+      // funded dots around the ring
+      var n = Math.min(r.funded, L.target*2);
+      for(var k=0;k<n;k++){
+        var a = (k/Math.max(n,1))*Math.PI*2 - Math.PI/2;
+        var x = cx + Math.cos(a)*R, y = cy + Math.sin(a)*R;
+        ctx.beginPath(); ctx.arc(x,y, i===0?7:(i===1?5.5:4), 0, Math.PI*2);
+        ctx.fillStyle = L.color; ctx.fill();
+      }
+      // label
+      ctx.fillStyle = "#2b3a55"; ctx.font = "bold 11px sans-serif"; ctx.textAlign="center";
+      ctx.fillText(L.name+"  "+r.funded+"/"+L.target, cx, cy - R - 6);
+    });
+    ctx.fillStyle="#2b3a55"; ctx.font="bold 13px sans-serif";
+    ctx.fillText("YOU", cx, cy+5);
+  }
+
+  function render(){
+    $("hoursVal").textContent = (+$("hours").value)+" h";
+    var sh = shares();
+    for(var i=0;i<4;i++){
+      $("s"+i+"v").textContent = Math.round(sh[i]*100)+"%";
+      $("c"+i+"v").textContent = (+$("c"+i).value);
+    }
+    var res = compute();
+    draw(res);
+    var html = "";
+    var total = 0, fundedTotal = 0;
+    res.forEach(function(r){
+      total += r.L.target; fundedTotal += Math.min(r.funded, r.L.target);
+      var pct = Math.round(r.fill*100);
+      html += '<div class="layer"><div><div class="nm" style="color:'+r.L.color+'">'+r.L.name+
+        ' <span class="note">· target '+r.L.target+'</span></div>'+
+        '<div class="ds">'+r.L.desc+'</div></div>'+
+        '<div class="ct">'+r.funded+' funded</div>'+
+        '<div class="bar"><i style="width:'+pct+'%;background:'+r.L.color+'"></i></div></div>';
+    });
+    $("layers").innerHTML = html;
+    var inner = res[0];
+    var v;
+    if(inner.funded < 3){
+      v = "Your inner circle is <b>underfunded</b> — fewer than 3 of your closest 5 get the time they need. "+
+          "The data says this is exactly where loneliness lives: Americans with ≤3 close friends are the ones "+
+          "most likely to feel isolated. Consider moving budget from the outer rings inward.";
+    } else if(inner.funded >= 5 && res[3].funded >= 100){
+      v = "Full Dunbar house: you sustain <b>"+fundedTotal+" of "+total+"</b> relationships. "+
+          "That's the anthropological maximum — check your calendar, because almost nobody actually does this.";
+    } else {
+      v = "Your budget sustains <b>"+fundedTotal+" of "+total+"</b> possible relationships, "+
+          "with <b>"+inner.funded+" of 5</b> in the inner circle. The evidence (Holt-Lunstad et al., 2010) "+
+          "says the inner ring is where the survival returns concentrate — fund it first.";
+    }
+    $("verdict").innerHTML = v;
+  }
+
+  // keep share sliders summing sanely: rebalance others when one moves
+  var sIds = ["s0","s1","s2","s3"];
+  sIds.forEach(function(id, idx){
+    $(id).addEventListener("input", function(){
+      var vals = sIds.map(function(s){return +$(s).value;});
+      var t = vals.reduce(function(a,b){return a+b;},0);
+      if(t > 100){
+        var over = t - 100, others = [0,1,2,3].filter(function(i){return i!==idx;});
+        var ot = others.reduce(function(a,i){return a+vals[i];},0) || 1;
+        others.forEach(function(i){ $(sIds[i]).value = Math.max(0, vals[i] - over*vals[i]/ot); });
+      }
+      render();
+    });
+  });
+  ["hours","c0","c1","c2","c3"].forEach(function(id){
+    $(id).addEventListener("input", render);
+  });
+  document.querySelectorAll(".presets button").forEach(function(b){
+    b.addEventListener("click", function(){
+      var p = PRESETS[b.getAttribute("data-preset")];
+      $("hours").value = p.hours;
+      p.shares.forEach(function(v,i){ $("s"+i).value = v; });
+      render();
+    });
+  });
+  render();
+})();
+</script>
+</body>
+</html>

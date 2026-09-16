@@ -1,0 +1,29 @@
+metric,group,year,value_pct,notes,source
+no_close_friends,all_adults,1990,3,Share of US adults with zero close friends (Gallup phone survey),"AEI Survey Center on American Life / Cox (2021), The State of American Friendship: Change, Challenges, and Loss, Fig. 3 (1990 = Gallup comparison survey)"
+no_close_friends,all_adults,2021,12,"American Perspectives Survey, May 2021, N=2,019",same as above
+no_close_friends,men,1990,3,Gallup 1990 comparison,"AEI commentary, American Men Suffer a Friendship Recession (Cox, 2021)"
+no_close_friends,men,2021,15,Fivefold increase; ~1 in 7 men,same as above
+no_close_friends,single_unpartnered_men,2021,20,One in five unmarried men not in a romantic relationship,same as above
+six_or_more_close_friends,men,1990,55,Close friends outside the family,same as above
+six_or_more_close_friends,men,2021,27,Fell by half,same as above
+ten_or_more_close_friends,all_adults,1990,33,,"AEI report, Fig. 3"
+ten_or_more_close_friends,all_adults,2021,13,,"AEI report, Fig. 3"
+three_or_fewer_close_friends,all_adults,1990,27,,"AEI report, Fig. 3"
+three_or_fewer_close_friends,all_adults,2021,49,Close to half of all Americans,AEI report
+four_to_nine_close_friends,all_adults,2021,36,,AEI report
+has_best_friend,all_adults,1990,75,,AEI report
+has_best_friend,all_adults,2021,59,,AEI report
+received_emotional_support_past_week,men,2021,21,,AEI report
+received_emotional_support_past_week,women,2021,41,,AEI report
+shared_personal_feelings_past_week,men,2021,30,,AEI report
+shared_personal_feelings_past_week,women,2021,48,,AEI report
+told_friend_they_love_them_past_week,men,2021,25,,AEI report
+told_friend_they_love_them_past_week,women,2021,49,,AEI report
+completely_or_very_satisfied_with_friend_count,zero_close_friends,2021,29,Satisfaction rises with friend count,"AEI report, Fig. 4"
+completely_or_very_satisfied_with_friend_count,one_close_friend,2021,39,,"AEI report, Fig. 4"
+completely_or_very_satisfied_with_friend_count,two_to_three_friends,2021,43,,"AEI report, Fig. 4"
+completely_or_very_satisfied_with_friend_count,four_to_five_friends,2021,56,,"AEI report, Fig. 4"
+completely_or_very_satisfied_with_friend_count,all_adults,2021,51,,AEI report
+completely_or_very_satisfied_with_friend_count,women,2021,54,,AEI report
+completely_or_very_satisfied_with_friend_count,men,2021,48,,AEI report
+felt_lonely_or_isolated_past_week,three_or_fewer_friends,2021,50,More than half felt lonely/isolated at least once in past 7 days,AEI commentary (2021)

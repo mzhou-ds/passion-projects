@@ -1,0 +1,10 @@
+factor,effect,ci_low,ci_high,measure,studies,participants,source
+Complex social integration,1.91,1.63,2.23,odds ratio of survival (strong vs weak ties),148,308849,"Holt-Lunstad, Smith & Layton (2010), PLoS Medicine - meta-analysis of social relationships and mortality; avg follow-up 7.5 years"
+All social relationship measures,1.5,1.42,1.59,odds ratio of survival,148,308849,same as above
+Living alone (vs with others),1.19,0.99,1.44,odds ratio of survival,148,308849,same as above
+Social isolation (men),1.62,1.29,2.02,hazard ratio of mortality,,,"Pantell et al. (2013), American Journal of Public Health - NHANES social network index"
+Social isolation (women),1.75,1.38,2.23,hazard ratio of mortality,,,same as above
+Smoking (men),1.72,1.48,2.0,hazard ratio of mortality,,,same as above
+Smoking (women),1.86,1.64,2.12,hazard ratio of mortality,,,same as above
+High blood pressure (men),1.16,1.02,1.32,hazard ratio of mortality,,,same as above
+High blood pressure (women),1.32,1.17,1.48,hazard ratio of mortality,,,same as above
