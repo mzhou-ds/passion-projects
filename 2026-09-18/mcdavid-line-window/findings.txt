@@ -1,0 +1,50 @@
+# findings.txt — mcdavid-line-window (2026-09-18)
+
+Project: cluster NHL lines by style + forecast Edmonton's championship window
+from cap-structure data. Rotation: sports-analytics.
+
+## Part 1 — line clustering (src/01_lines_cluster.py)
+- 501 forward lines, >=125 min 5v5, 2023-2026. 12 features, k=5, silhouette 0.127.
+- Archetypes: c0 "freight trains" (xGF60 3.42, xGshare .608) | c1 outshot-but-lucky
+  (xGshare .413, FINISH 1.21) | c2 two-way technicians (TK60 8.1) | c3 finishers
+  (FINISH 1.27, GV60 17.4) | c4 wrecking crew (HITS60 36.9).
+- All six qualifying McDavid-line seasons land in c0. Hyman-Draisaitl-McDavid
+  2023-24: 4.47 xGF60 = 2nd of 501 lines (Palat-Hischier-Bratt 4.51).
+  McDavid units sit in the top 2-10% of the elite cluster.
+
+## Part 2 — aging curves (src/03_age_curves.py)
+- Delta method, 1,632 skaters, NHL-API birthdates (n=3,221 F pairs, 1,748 D pairs).
+- xG/60: forwards peak ~25 (0.76 of peak at 35); defense peak ~27 (0.81 at 35).
+
+## Part 3 — Cup-finalist model (src/04_cup_model.py)
+- 554 team-seasons (2008-2025), 36 finalists. XGBoost, leave-one-season-out
+  AUC 0.702; median finalist rank 2 of ~32.
+- Called the 2026 Final exactly: CAR #1, VGK #2 (Carolina beat Vegas 4-2, June 2026).
+- Mean |SHAP|: GD60 1.67, xGF60 0.90, xGA60 0.80, PKxGA60 0.78, xGshare 0.78,
+  GSAA60 0.72, finish5v5 0.63, PPxGF60 0.56, corsi 0.40.
+- Actual EDM model scores: 2023-24 0.446 (made Final), 2024-25 0.079 (made Final anyway).
+
+## Part 4 — window forecast (src/05_window.py)
+- On-ice xGF/60 baselines (2023-25, shrinkage below ~750 5v5 min/season),
+  TOI-weighted, age-adjusted; kappa calibration 1.035 (ratios 1.155/0.994/0.956).
+- EDM 5v5 xGA/60 2025-26: 2.47 (league avg 2.48; delta -0.02). Offense: declining
+  team xGF/60 3.21 -> 2.76 -> 2.64 over 2023-25.
+- Jarry 5v5 GSAA/60 last 3yr: +0.212 / -0.139 / -0.074 -> weighted +0.024 on $5.375M.
+- Scenario A (McDavid re-signs 8x$17M): p_final 0.106 / 0.125 / 0.125 / 0.098 / 0.067.
+- Scenario B (McDavid walks, $11M star UFA at 90% of his on-ice creation):
+  p_final 0.106 / 0.125 / 0.050 / 0.049 / 0.027.
+- Cap ceilings: 104.0 / 113.5 / 121.5 / 130.0 / 139.0 ($M). 2028-31 assumed +~7%/yr.
+- 2026-27 cap hit $95.6M (Jarry $5.375M + backup included), space $8.4M.
+- The youth wave (Savoie 22->26, Howard 22->26, Podkolzin 25->29) offsets veteran
+  decline; the window closes on the July 2028 contract decision, not on age.
+
+## Modeling notes / judgment calls
+- Individual ixG/60 -> team xGF/60 needed kappa=5.2 (level mismatch); switched to
+  on-ice xGF/60 baselines (TOI-weighted mean ~= team rate by construction, kappa~1).
+- Scenario B's star UFA is deliberately generous; reality would be worse.
+- Generational players age slower than the curve; scenario A likely understated.
+- PP held at elite while 97/29/2 share PP1 (EDM 2025-26 level), league avg otherwise.
+- Goalies: Jarry GSAA/60 0.024 -> 0.020 -> 0.015 -> 0.010 across 2026-31.
+
+## Feedback
+- None yet (check-in pending).
