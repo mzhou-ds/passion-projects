@@ -1,0 +1,35 @@
+Laozi and Emerson Wrote the Same Essay — findings (2026-09-19)
+
+Corpus: 7,564 sentences — Tao Te Ching (Legge 1891, PG #216), Dhammapada
+(Müller 1881, PG #2017), Emerson Essays First Series (1841, PG #2944),
+Thoreau Walden (1854, PG #205). LSA embeddings (TF-IDF 1-2gram → SVD 256),
+fully offline/deterministic.
+
+1. Kinship index: 53.7% of Tao sentences have their nearest neighbor in
+   Emerson/Thoreau; 43.0% for the Dhammapada. Mean best cross-tradition
+   similarity for Tao (0.695) ties mean best same-tradition (0.698).
+2. Pair gallery (10 hand-verified): strongest is Tao Ch.29 "Strength is of
+   weakness oft the spoil" ↔ Emerson Compensation "Our strength grows out
+   of our weakness" (sim 0.974). Plus nonconformity, diminish/simplify,
+   contentment, stillness, purity, false-knowing, weak/strong, renewal,
+   this-world-isn't-all pairs.
+3. Section affinity rediscovers the humanities consensus with no labels:
+   most Taoist Emerson essay = Self-Reliance; most Buddhist Walden
+   chapter = Higher Laws.
+4. KMeans (k=24): 4 shared theme clusters (knowing; virtue/evil in the
+   world; tao/nature/soul). Purest Western clusters: Emerson's soul-talk
+   and Thoreau's pond — zero Eastern sentences. Convergence is ethical,
+   not metaphysical.
+5. East-vs-West logistic regression: 92.5% separable by vocabulary
+   (East: sage/evil/desires/nirvana; West: soul/nature/pond/society) —
+   separable by words, overlapping by meaning.
+6. Dhammapada is the bridge: closer to both Western works than the Tao is.
+
+Caveats: Legge and Müller were both Victorian British translators —
+some overlap may be translator style, not authorial thought. LSA is
+lexical at heart; gallery is hand-verified because raw mining produced
+false friends (e.g. the Taoist sage matched to Thoreau's garden herb).
+
+Notable bugs fixed: sentence segmentation was splitting on hard-wrapped
+ebook lines, creating 4,407 mid-thought fragments; fixed by joining
+lines within paragraphs before splitting (16,065 → 7,564 clean sentences).

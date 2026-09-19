@@ -1,0 +1,643 @@
+{
+  "n_sentences": 7564,
+  "kinship": {
+    "Dhammapada": {
+      "n": 484,
+      "pct_nn_other_tradition": 43.0,
+      "mean_best_same": 0.705,
+      "mean_best_cross": 0.657,
+      "pct_cross_beats_same": 43.0
+    },
+    "Essays, First Series": {
+      "n": 3267,
+      "pct_nn_other_tradition": 7.1,
+      "mean_best_same": 0.712,
+      "mean_best_cross": 0.53,
+      "pct_cross_beats_same": 7.0
+    },
+    "Tao Te Ching": {
+      "n": 499,
+      "pct_nn_other_tradition": 53.7,
+      "mean_best_same": 0.698,
+      "mean_best_cross": 0.695,
+      "pct_cross_beats_same": 53.3
+    },
+    "Walden": {
+      "n": 3314,
+      "pct_nn_other_tradition": 7.6,
+      "mean_best_same": 0.694,
+      "mean_best_cross": 0.502,
+      "pct_cross_beats_same": 7.5
+    }
+  },
+  "n_cross_pairs": 60,
+  "pair_min_sim": 0.3,
+  "clusters": [
+    {
+      "cluster": 0,
+      "size": 357,
+      "east_share": 0.129,
+      "west_share": 0.871,
+      "shared": false,
+      "top_terms": [
+        "man",
+        "wise man",
+        "wise",
+        "shall",
+        "true",
+        "does",
+        "man man",
+        "make"
+      ],
+      "work_mix": {
+        "Essays, First Series": 184,
+        "Walden": 127,
+        "Dhammapada": 36,
+        "Tao Te Ching": 10
+      }
+    },
+    {
+      "cluster": 1,
+      "size": 188,
+      "east_share": 0.207,
+      "west_share": 0.793,
+      "shared": false,
+      "top_terms": [
+        "great",
+        "great man",
+        "man",
+        "soul",
+        "men",
+        "state",
+        "tao",
+        "great soul"
+      ],
+      "work_mix": {
+        "Essays, First Series": 95,
+        "Walden": 54,
+        "Tao Te Ching": 33,
+        "Dhammapada": 6
+      }
+    },
+    {
+      "cluster": 2,
+      "size": 2573,
+      "east_share": 0.136,
+      "west_share": 0.864,
+      "shared": false,
+      "top_terms": [
+        "new",
+        "soul",
+        "shall",
+        "make",
+        "time",
+        "work",
+        "way",
+        "old"
+      ],
+      "work_mix": {
+        "Essays, First Series": 1317,
+        "Walden": 905,
+        "Tao Te Ching": 208,
+        "Dhammapada": 143
+      }
+    },
+    {
+      "cluster": 3,
+      "size": 127,
+      "east_share": 0.189,
+      "west_share": 0.811,
+      "shared": false,
+      "top_terms": [
+        "law",
+        "history",
+        "man",
+        "facts",
+        "true",
+        "natural history",
+        "sentiment",
+        "bhikshu"
+      ],
+      "work_mix": {
+        "Essays, First Series": 84,
+        "Dhammapada": 21,
+        "Walden": 19,
+        "Tao Te Ching": 3
+      }
+    },
+    {
+      "cluster": 4,
+      "size": 171,
+      "east_share": 0.17,
+      "west_share": 0.83,
+      "shared": false,
+      "top_terms": [
+        "good",
+        "evil",
+        "man",
+        "good evil",
+        "bad",
+        "good bad",
+        "sin",
+        "good man"
+      ],
+      "work_mix": {
+        "Essays, First Series": 84,
+        "Walden": 58,
+        "Dhammapada": 20,
+        "Tao Te Ching": 9
+      }
+    },
+    {
+      "cluster": 5,
+      "size": 138,
+      "east_share": 0.058,
+      "west_share": 0.942,
+      "shared": false,
+      "top_terms": [
+        "love",
+        "truth",
+        "nature",
+        "love nature",
+        "love shall",
+        "shall",
+        "man",
+        "hate"
+      ],
+      "work_mix": {
+        "Essays, First Series": 101,
+        "Walden": 29,
+        "Dhammapada": 6,
+        "Tao Te Ching": 2
+      }
+    },
+    {
+      "cluster": 6,
+      "size": 207,
+      "east_share": 0.266,
+      "west_share": 0.734,
+      "shared": true,
+      "top_terms": [
+        "know",
+        "does",
+        "did know",
+        "shall",
+        "does know",
+        "man",
+        "did",
+        "man know"
+      ],
+      "work_mix": {
+        "Essays, First Series": 76,
+        "Walden": 76,
+        "Tao Te Ching": 44,
+        "Dhammapada": 11
+      }
+    },
+    {
+      "cluster": 7,
+      "size": 174,
+      "east_share": 0.126,
+      "west_share": 0.874,
+      "shared": false,
+      "top_terms": [
+        "mind",
+        "god",
+        "man",
+        "heart",
+        "new",
+        "carries",
+        "nature",
+        "universal"
+      ],
+      "work_mix": {
+        "Essays, First Series": 118,
+        "Walden": 34,
+        "Dhammapada": 17,
+        "Tao Te Ching": 5
+      }
+    },
+    {
+      "cluster": 8,
+      "size": 155,
+      "east_share": 0.019,
+      "west_share": 0.981,
+      "shared": false,
+      "top_terms": [
+        "house",
+        "began",
+        "room",
+        "long",
+        "door",
+        "building",
+        "rain",
+        "built"
+      ],
+      "work_mix": {
+        "Walden": 136,
+        "Essays, First Series": 16,
+        "Dhammapada": 3
+      }
+    },
+    {
+      "cluster": 9,
+      "size": 174,
+      "east_share": 0.0,
+      "west_share": 1.0,
+      "shared": false,
+      "top_terms": [
+        "pond",
+        "woods",
+        "walden",
+        "shore",
+        "ice",
+        "fishing",
+        "walden pond",
+        "came"
+      ],
+      "work_mix": {
+        "Walden": 168,
+        "Essays, First Series": 6
+      }
+    },
+    {
+      "cluster": 10,
+      "size": 167,
+      "east_share": 0.222,
+      "west_share": 0.778,
+      "shared": false,
+      "top_terms": [
+        "let",
+        "let man",
+        "man",
+        "make",
+        "men",
+        "come",
+        "nature",
+        "know"
+      ],
+      "work_mix": {
+        "Essays, First Series": 90,
+        "Walden": 40,
+        "Dhammapada": 31,
+        "Tao Te Ching": 6
+      }
+    },
+    {
+      "cluster": 11,
+      "size": 874,
+      "east_share": 0.069,
+      "west_share": 0.931,
+      "shared": false,
+      "top_terms": [
+        "earth",
+        "far",
+        "place",
+        "eyes",
+        "hand",
+        "beans",
+        "food",
+        "times"
+      ],
+      "work_mix": {
+        "Walden": 604,
+        "Essays, First Series": 210,
+        "Tao Te Ching": 41,
+        "Dhammapada": 19
+      }
+    },
+    {
+      "cluster": 12,
+      "size": 238,
+      "east_share": 0.193,
+      "west_share": 0.807,
+      "shared": false,
+      "top_terms": [
+        "men",
+        "man",
+        "women",
+        "know",
+        "wiser",
+        "men women",
+        "say",
+        "hurt"
+      ],
+      "work_mix": {
+        "Essays, First Series": 105,
+        "Walden": 87,
+        "Tao Te Ching": 31,
+        "Dhammapada": 15
+      }
+    },
+    {
+      "cluster": 13,
+      "size": 202,
+      "east_share": 0.257,
+      "west_share": 0.743,
+      "shared": true,
+      "top_terms": [
+        "world",
+        "man",
+        "like",
+        "virtuous",
+        "evil",
+        "round world",
+        "round",
+        "soul"
+      ],
+      "work_mix": {
+        "Essays, First Series": 98,
+        "Walden": 52,
+        "Dhammapada": 42,
+        "Tao Te Ching": 10
+      }
+    },
+    {
+      "cluster": 14,
+      "size": 178,
+      "east_share": 0.264,
+      "west_share": 0.736,
+      "shared": true,
+      "top_terms": [
+        "things",
+        "know",
+        "tao",
+        "nature",
+        "shall",
+        "soul",
+        "power",
+        "life"
+      ],
+      "work_mix": {
+        "Essays, First Series": 85,
+        "Walden": 46,
+        "Tao Te Ching": 43,
+        "Dhammapada": 4
+      }
+    },
+    {
+      "cluster": 15,
+      "size": 209,
+      "east_share": 0.019,
+      "west_share": 0.981,
+      "shared": false,
+      "top_terms": [
+        "nature",
+        "man",
+        "law",
+        "human",
+        "new",
+        "soul",
+        "human nature",
+        "laws"
+      ],
+      "work_mix": {
+        "Essays, First Series": 149,
+        "Walden": 56,
+        "Tao Te Ching": 4
+      }
+    },
+    {
+      "cluster": 16,
+      "size": 198,
+      "east_share": 0.101,
+      "west_share": 0.899,
+      "shared": false,
+      "top_terms": [
+        "day",
+        "night",
+        "day night",
+        "day day",
+        "year",
+        "man",
+        "awake",
+        "new"
+      ],
+      "work_mix": {
+        "Walden": 121,
+        "Essays, First Series": 57,
+        "Dhammapada": 17,
+        "Tao Te Ching": 3
+      }
+    },
+    {
+      "cluster": 17,
+      "size": 218,
+      "east_share": 0.225,
+      "west_share": 0.775,
+      "shared": false,
+      "top_terms": [
+        "like",
+        "men",
+        "manner",
+        "like manner",
+        "long",
+        "earth",
+        "man",
+        "old"
+      ],
+      "work_mix": {
+        "Walden": 109,
+        "Essays, First Series": 60,
+        "Dhammapada": 34,
+        "Tao Te Ching": 15
+      }
+    },
+    {
+      "cluster": 18,
+      "size": 123,
+      "east_share": 0.138,
+      "west_share": 0.862,
+      "shared": false,
+      "top_terms": [
+        "live",
+        "life",
+        "did",
+        "let live",
+        "live happily",
+        "happily",
+        "long",
+        "man"
+      ],
+      "work_mix": {
+        "Walden": 70,
+        "Essays, First Series": 36,
+        "Dhammapada": 13,
+        "Tao Te Ching": 4
+      }
+    },
+    {
+      "cluster": 19,
+      "size": 226,
+      "east_share": 0.088,
+      "west_share": 0.912,
+      "shared": false,
+      "top_terms": [
+        "life",
+        "man",
+        "human life",
+        "human",
+        "death",
+        "present",
+        "men",
+        "thy"
+      ],
+      "work_mix": {
+        "Essays, First Series": 105,
+        "Walden": 101,
+        "Dhammapada": 11,
+        "Tao Te Ching": 9
+      }
+    },
+    {
+      "cluster": 20,
+      "size": 159,
+      "east_share": 0.069,
+      "west_share": 0.931,
+      "shared": false,
+      "top_terms": [
+        "thought",
+        "man",
+        "time",
+        "new",
+        "thing",
+        "mind",
+        "morrow",
+        "power"
+      ],
+      "work_mix": {
+        "Essays, First Series": 110,
+        "Walden": 38,
+        "Dhammapada": 9,
+        "Tao Te Ching": 2
+      }
+    },
+    {
+      "cluster": 21,
+      "size": 81,
+      "east_share": 0.309,
+      "west_share": 0.691,
+      "shared": true,
+      "top_terms": [
+        "called",
+        "man",
+        "bhikshu",
+        "old",
+        "called mysterious",
+        "called good",
+        "read",
+        "good"
+      ],
+      "work_mix": {
+        "Walden": 40,
+        "Essays, First Series": 16,
+        "Dhammapada": 14,
+        "Tao Te Ching": 11
+      }
+    },
+    {
+      "cluster": 22,
+      "size": 143,
+      "east_share": 0.07,
+      "west_share": 0.93,
+      "shared": false,
+      "top_terms": [
+        "water",
+        "shore",
+        "ice",
+        "air",
+        "surface",
+        "pond",
+        "deep",
+        "like"
+      ],
+      "work_mix": {
+        "Walden": 111,
+        "Essays, First Series": 22,
+        "Dhammapada": 6,
+        "Tao Te Ching": 4
+      }
+    },
+    {
+      "cluster": 23,
+      "size": 284,
+      "east_share": 0.028,
+      "west_share": 0.972,
+      "shared": false,
+      "top_terms": [
+        "seen",
+        "winter",
+        "ice",
+        "spring",
+        "came",
+        "night",
+        "wood",
+        "snow"
+      ],
+      "work_mix": {
+        "Walden": 233,
+        "Essays, First Series": 43,
+        "Dhammapada": 6,
+        "Tao Te Ching": 2
+      }
+    }
+  ],
+  "n_shared_themes": 4,
+  "discriminative_words": {
+    "train_accuracy": 0.925,
+    "most_east": [
+      "tao",
+      "brahmana",
+      "sage",
+      "people",
+      "evil",
+      "death",
+      "free",
+      "heaven",
+      "bhikshu",
+      "desires",
+      "does",
+      "nirvana",
+      "difficult",
+      "fool",
+      "wise",
+      "pain",
+      "hatred",
+      "overcomes",
+      "happiness",
+      "knowledge",
+      "let man",
+      "state",
+      "unchanging",
+      "hold",
+      "buddha"
+    ],
+    "most_west": [
+      "nature",
+      "soul",
+      "new",
+      "pond",
+      "time",
+      "society",
+      "history",
+      "house",
+      "woods",
+      "god",
+      "genius",
+      "read",
+      "fact",
+      "eye",
+      "heart",
+      "ice",
+      "facts",
+      "sun",
+      "present",
+      "say",
+      "character",
+      "young",
+      "experience",
+      "feet",
+      "feel"
+    ]
+  }
+}
