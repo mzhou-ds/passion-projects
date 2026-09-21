@@ -1,0 +1,37 @@
+short,bls_item_code,fred_id,description,unit,n_months,first_month,latest_month,latest_price
+flour_white,701111,APU0000701111,"Flour, white, all purpose",lb,558,1980-01-01,2026-08-01,0.548
+rice_white,701312,APU0000701312,"Rice, white, long grain, uncooked",lb,534,1980-01-01,2026-08-01,1.111
+spaghetti,701322,APU0000701322,Spaghetti and macaroni,lb,511,1984-01-01,2026-08-01,1.374
+bread_white,702111,APU0000702111,"Bread, white, pan",lb,559,1980-01-01,2026-08-01,1.823
+ground_chuck,703111,APU0000703111,"Ground chuck, 100% beef",lb,559,1980-01-01,2026-08-01,6.774
+ground_beef,703112,APU0000703112,"Ground beef, 100% beef",lb,510,1984-01-01,2026-08-01,6.923
+ground_beef_lean,703113,APU0000703113,"Ground beef, lean and extra lean",lb,427,1991-01-01,2026-08-01,8.573
+chuck_roast_choice,703213,APU0000703213,"Chuck roast, USDA Choice, boneless",lb,451,1989-01-01,2026-08-01,9.448
+round_steak_choice,703511,APU0000703511,"Steak, round, USDA Choice, boneless",lb,559,1980-01-01,2026-08-01,9.692
+sirloin_steak_choice,703613,APU0000703613,"Steak, sirloin, USDA Choice, boneless",lb,451,1989-01-01,2026-08-01,14.357
+bacon,704111,APU0000704111,"Bacon, sliced",lb,559,1980-01-01,2026-08-01,6.605
+pork_chops,704211,APU0000704211,"Chops, center cut, bone-in",lb,556,1980-01-01,2026-05-01,4.905
+ham_boneless,704312,APU0000704312,"Ham, boneless, excluding canned",lb,426,1991-01-01,2026-08-01,5.382
+sausage_fresh,704421,APU0000704421,"Sausage, fresh, loose",lb,273,1980-01-01,2002-09-01,2.608
+frankfurters,705111,APU0000705111,"Frankfurters, all meat or all beef",lb,295,1980-01-01,2022-04-01,5.221
+bologna,705121,APU0000705121,"Bologna, all beef or mixed",lb,477,1980-01-01,2019-09-01,2.791
+chicken_whole,706111,APU0000706111,"Chicken, fresh, whole",lb,558,1980-01-01,2026-08-01,2.012
+chicken_breast_bonein,706211,APU0000706211,"Chicken breast, bone-in",lb,348,1980-01-01,2011-10-01,2.385
+chicken_legs,706212,APU0000706212,"Chicken legs, bone-in",lb,558,1980-01-01,2026-08-01,1.67
+turkey_whole,706311,APU0000706311,"Turkey, frozen, whole",lb,481,1980-01-01,2020-02-01,1.639
+tuna_light,707111,APU0000707111,"Tuna, light, chunk",lb,318,1980-01-01,2017-09-01,3.166
+eggs_large,708111,APU0000708111,"Eggs, grade A, large",doz,559,1980-01-01,2026-08-01,2.272
+milk_whole_gal,709112,APU0000709112,"Milk, fresh, whole, fortified",gal,373,1995-07-01,2026-08-01,4.229
+milk_lowfat_gal,709213,APU0000709213,"Milk, fresh, low fat",gal,84,1995-07-01,2002-10-01,2.496
+butter,710111,APU0000710111,"Butter, salted, grade AA, stick",lb,384,1980-01-01,2012-04-01,3.18
+yogurt,710122,APU0000710122,"Yogurt, natural, fruit flavored",8oz,224,1980-01-01,2003-03-01,0.813
+cheese_american,710211,APU0000710211,American processed cheese,lb,491,1984-01-01,2026-08-01,4.747
+cheese_cheddar,710212,APU0000710212,"Cheddar cheese, natural",lb,496,1984-01-01,2026-08-01,5.983
+ice_cream,710411,APU0000710411,"Ice cream, prepackaged, bulk, regular",halfgal,558,1980-01-01,2026-08-01,5.854
+potatoes,712112,APU0000712112,"Potatoes, white",lb,480,1986-03-01,2026-08-01,0.976
+beans_dried,714233,APU0000714233,"Beans, dried, any type",lb,371,1995-07-01,2026-08-01,1.63
+peanut_butter,716141,APU0000716141,"Peanut butter, creamy",lb,408,1984-01-01,2017-12-01,2.48
+ground_beef_all,FC1101,APU0000FC1101,All uncooked ground beef,lb,343,1998-01-01,2026-08-01,7.158
+chicken_breast_boneless,FF1101,APU0000FF1101,"Chicken breast, boneless",lb,247,2006-01-01,2026-08-01,4.173
+milk_all_gal,FJ1101,APU0000FJ1101,"Milk, fresh, low-fat/reduced/skim",gal,100,2018-04-01,2026-08-01,3.715
+yogurt_all,FJ4101,APU0000FJ4101,Yogurt,8oz,100,2018-04-01,2026-08-01,1.584

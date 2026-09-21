@@ -1,0 +1,26 @@
+label,cost_per_30g_protein_usd,monthly_cost_160g_day
+"Flour, white, all purpose",0.351,56.0
+"Beans, dried, any type",0.503,80.0
+"Chicken legs, bone-in",0.675,108.0
+Spaghetti and macaroni,0.697,112.0
+"Chicken, fresh, whole",0.715,114.0
+"Milk, fresh, low-fat/reduced/skim",0.866,139.0
+"Eggs, grade A, large",0.904,145.0
+"Rice, white, long grain, uncooked",1.031,165.0
+"Milk, fresh, whole, fortified",1.033,165.0
+"Chicken breast, boneless",1.227,196.0
+"Bread, white, pan",1.362,218.0
+"Chops, center cut, bone-in",1.475,236.0
+"Ham, boneless, excluding canned",1.62,259.0
+"Cheddar cheese, natural",1.73,277.0
+American processed cheese,1.732,277.0
+"Ground chuck, 100% beef",2.609,417.0
+"Ground beef, 100% beef",2.667,427.0
+"Ground beef, lean and extra lean",2.835,454.0
+"Steak, round, USDA Choice, boneless",2.89,462.0
+"Bacon, sliced",3.198,512.0
+"Chuck roast, USDA Choice, boneless",3.265,522.0
+"Potatoes, white",3.842,615.0
+"Ice cream, prepackaged, bulk, regular",4.418,707.0
+"Steak, sirloin, USDA Choice, boneless",4.678,748.0
+Yogurt,6.038,966.0

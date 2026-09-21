@@ -1,0 +1,28 @@
+item,label,bls_unit,price_usd,price_month,price_current,fdc_id,usda_desc,protein_g_per_100g,kcal_per_100g,fat_g_per_100g,grams_per_unit,protein_g_per_unit,cost_per_30g_protein_usd,protein_g_per_100kcal,bone_in
+flour_white,"Flour, white, all purpose",lb,0.548,2026-08-01,True,168894,"Wheat flour, white, all-purpose, enriched, bleached",10.33,364.0,0.98,453.6,46.9,0.351,2.84,False
+beans_dried,"Beans, dried, any type",lb,1.63,2026-08-01,True,175199,"Beans, pinto, mature seeds, raw",21.42,347.0,1.23,453.6,97.2,0.503,6.17,False
+chicken_legs,"Chicken legs, bone-in",lb,1.67,2026-08-01,True,172378,"Chicken, broilers or fryers, leg, meat and skin, raw",16.37,214.0,15.95,453.6,74.3,0.675,7.65,True
+spaghetti,Spaghetti and macaroni,lb,1.374,2026-08-01,True,169736,"Pasta, dry, enriched",13.04,371.0,1.51,453.6,59.1,0.697,3.51,False
+chicken_whole,"Chicken, fresh, whole",lb,2.012,2026-08-01,True,171447,"Chicken, broilers or fryers, meat and skin, raw",18.6,215.0,15.06,453.6,84.4,0.715,8.65,True
+peanut_butter,"Peanut butter, creamy",lb,2.48,2017-12-01,False,174266,"Peanut butter, smooth style, with salt [BLS series ended Dec 2017]",22.21,598.0,51.36,453.6,100.7,0.739,3.71,False
+milk_all_gal,"Milk, fresh, low-fat/reduced/skim",gal,3.715,2026-08-01,True,171267,"Milk, reduced fat, fluid, 2% milkfat, with added vitamin A and D",3.3,50.0,1.98,3899.0,128.7,0.866,6.6,False
+eggs_large,"Eggs, grade A, large",doz,2.272,2026-08-01,True,171287,"Egg, whole, raw, fresh",12.56,143.0,9.51,600.0,75.4,0.904,8.78,False
+rice_white,"Rice, white, long grain, uncooked",lb,1.111,2026-08-01,True,168877,"Rice, white, long-grain, regular, raw, enriched",7.13,365.0,0.66,453.6,32.3,1.031,1.95,False
+milk_whole_gal,"Milk, fresh, whole, fortified",gal,4.229,2026-08-01,True,171265,"Milk, whole, 3.25% milkfat, with added vitamin D",3.15,61.0,3.25,3899.0,122.8,1.033,5.16,False
+tuna_light,"Tuna, light, chunk",lb,3.166,2017-09-01,False,173709,"Fish, tuna, light, canned in water, drained solids [BLS series ended Sep 2017]",19.44,86.0,0.96,453.6,88.2,1.077,22.6,False
+chicken_breast_boneless,"Chicken breast, boneless",lb,4.173,2026-08-01,True,171077,"Chicken, broiler or fryers, breast, skinless, boneless, meat only, raw",22.5,120.0,2.62,453.6,102.1,1.227,18.75,False
+bread_white,"Bread, white, pan",lb,1.823,2026-08-01,True,174924,"Bread, white, commercially prepared",8.85,266.0,3.33,453.6,40.1,1.362,3.33,False
+pork_chops,"Chops, center cut, bone-in",lb,4.905,2026-05-01,True,167829,"Pork, fresh, loin, center loin (chops), bone-in, separable lean only, raw",21.99,127.0,3.71,453.6,99.7,1.475,17.31,True
+ham_boneless,"Ham, boneless, excluding canned",lb,5.382,2026-08-01,True,168296,"Pork, cured, ham, boneless, extra lean and regular, roasted",21.97,165.0,7.66,453.6,99.7,1.62,13.32,False
+cheese_cheddar,"Cheddar cheese, natural",lb,5.983,2026-08-01,True,173414,"Cheese, cheddar",22.87,403.0,33.31,453.6,103.7,1.73,5.67,False
+cheese_american,American processed cheese,lb,4.747,2026-08-01,True,171290,"Cheese, pasteurized process, American, without added vitamin D",18.13,371.0,31.79,453.6,82.2,1.732,4.89,False
+ground_chuck,"Ground chuck, 100% beef",lb,6.774,2026-08-01,True,174036,"Beef, ground, 80% lean meat / 20% fat, raw",17.17,254.0,20.0,453.6,77.9,2.609,6.76,False
+ground_beef,"Ground beef, 100% beef",lb,6.923,2026-08-01,True,174036,"Beef, ground, 80% lean meat / 20% fat, raw",17.17,254.0,20.0,453.6,77.9,2.667,6.76,False
+ground_beef_lean,"Ground beef, lean and extra lean",lb,8.573,2026-08-01,True,174030,"Beef, ground, 90% lean meat / 10% fat, raw",20.0,176.0,10.0,453.6,90.7,2.835,11.36,False
+round_steak_choice,"Steak, round, USDA Choice, boneless",lb,9.692,2026-08-01,True,168712,"Beef, round, top round steak, separable lean and fat, trimmed to 1/8 in fat, select, raw [grade subst.]",22.18,164.0,7.68,453.6,100.6,2.89,13.52,False
+bacon,"Bacon, sliced",lb,6.605,2026-08-01,True,168277,"Pork, cured, bacon, unprepared",13.66,393.0,37.13,453.6,62.0,3.198,3.48,False
+chuck_roast_choice,"Chuck roast, USDA Choice, boneless",lb,9.448,2026-08-01,True,168668,"Beef, chuck, arm pot roast, separable lean and fat, trimmed to 1/8 in fat, choice, raw",19.14,249.0,18.57,453.6,86.8,3.265,7.69,False
+potatoes,"Potatoes, white",lb,0.976,2026-08-01,True,170028,"Potatoes, white, flesh and skin, raw",1.68,69.0,0.1,453.6,7.6,3.842,2.43,False
+ice_cream,"Ice cream, prepackaged, bulk, regular",halfgal,5.854,2026-08-01,True,167575,"Ice creams, vanilla",3.5,207.0,11.0,1135.6,39.7,4.418,1.69,False
+sirloin_steak_choice,"Steak, sirloin, USDA Choice, boneless",lb,14.357,2026-08-01,True,168726,"Beef, top sirloin steak, separable lean and fat, trimmed to 1/8 in fat, all grades, raw [grade subst.]",20.3,201.0,12.71,453.6,92.1,4.678,10.1,False
+yogurt_all,Yogurt,8oz,1.584,2026-08-01,True,171284,"Yogurt, plain, whole milk",3.47,61.0,3.25,226.8,7.9,6.038,5.69,False

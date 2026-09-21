@@ -1,0 +1,5 @@
+Costco rotisserie $4.99 / 3 lb bird:
+  cooked meat protein (USDA fdc 171054): 28.9 g/100g
+  est. protein per bird: 276 g -> $0.54 per 30 g
+Raw whole chicken @ $2.012/lb, 3 lb = $6.04:
+  est. protein after bone-out + cooking: 207 g -> $0.88 per 30 g
