@@ -4,7 +4,7 @@
 
 I spent years at Lyft, DoorDash, and Patreon watching demand curves. Biohacking has one too — public attention. And it has a supply curve: published research and registered trials. When demand outruns supply, that's where the grift lives. When supply outruns demand, that's what's undervalued.
 
-So I measured both. **Attention:** monthly Wikipedia pageviews for 15 biohacks, Jan 2020 → Aug 2026 (80 months, ~28M views). **Research supply:** PubMed papers per year for 16 terms via NCBI E-utilities (~54k papers). **Evidence depth:** registered clinical trials from the [2026-09-13 evidence audit](../../2026-09-13/biohacking-evidence-audit/). Then a mispricing score: `z(log attention) − z(log trials)`.
+So I measured both. **Attention:** monthly Wikipedia pageviews for 15 biohacks, Jan 2020 → Aug 2026 (80 months, ~28M views). **Research supply:** PubMed papers per year for 16 terms via NCBI E-utilities (~45k papers). **Evidence depth:** registered clinical trials from the [2026-09-13 evidence audit](../../2026-09-13/biohacking-evidence-audit/). Then a mispricing score: `z(log attention) − z(log trials)`.
 
 ## What I built
 
