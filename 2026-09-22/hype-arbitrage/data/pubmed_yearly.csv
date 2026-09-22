@@ -1,0 +1,113 @@
+keyword,year,papers,query
+cold plunge,2020,72,"(""cold plunge"" OR ""cold water immersion"")"
+cold plunge,2021,75,"(""cold plunge"" OR ""cold water immersion"")"
+cold plunge,2022,70,"(""cold plunge"" OR ""cold water immersion"")"
+cold plunge,2023,70,"(""cold plunge"" OR ""cold water immersion"")"
+cold plunge,2024,70,"(""cold plunge"" OR ""cold water immersion"")"
+cold plunge,2025,92,"(""cold plunge"" OR ""cold water immersion"")"
+cold plunge,2026,70,"(""cold plunge"" OR ""cold water immersion"")"
+sauna,2020,65,sauna
+sauna,2021,63,sauna
+sauna,2022,63,sauna
+sauna,2023,58,sauna
+sauna,2024,60,sauna
+sauna,2025,87,sauna
+sauna,2026,54,sauna
+red light therapy,2020,862,"(""red light therapy"" OR photobiomodulation)"
+red light therapy,2021,914,"(""red light therapy"" OR photobiomodulation)"
+red light therapy,2022,831,"(""red light therapy"" OR photobiomodulation)"
+red light therapy,2023,768,"(""red light therapy"" OR photobiomodulation)"
+red light therapy,2024,1021,"(""red light therapy"" OR photobiomodulation)"
+red light therapy,2025,1327,"(""red light therapy"" OR photobiomodulation)"
+red light therapy,2026,932,"(""red light therapy"" OR photobiomodulation)"
+intermittent fasting,2020,229,"""intermittent fasting"""
+intermittent fasting,2021,282,"""intermittent fasting"""
+intermittent fasting,2022,344,"""intermittent fasting"""
+intermittent fasting,2023,372,"""intermittent fasting"""
+intermittent fasting,2024,421,"""intermittent fasting"""
+intermittent fasting,2025,551,"""intermittent fasting"""
+intermittent fasting,2026,470,"""intermittent fasting"""
+creatine,2020,184,creatine supplementation
+creatine,2021,223,creatine supplementation
+creatine,2022,202,creatine supplementation
+creatine,2023,164,creatine supplementation
+creatine,2024,202,creatine supplementation
+creatine,2025,261,creatine supplementation
+creatine,2026,221,creatine supplementation
+NMN,2020,131,"(""nicotinamide mononucleotide"" OR NMN)"
+NMN,2021,183,"(""nicotinamide mononucleotide"" OR NMN)"
+NMN,2022,203,"(""nicotinamide mononucleotide"" OR NMN)"
+NMN,2023,194,"(""nicotinamide mononucleotide"" OR NMN)"
+NMN,2024,253,"(""nicotinamide mononucleotide"" OR NMN)"
+NMN,2025,274,"(""nicotinamide mononucleotide"" OR NMN)"
+NMN,2026,259,"(""nicotinamide mononucleotide"" OR NMN)"
+magnesium,2020,78,"""magnesium supplementation"""
+magnesium,2021,80,"""magnesium supplementation"""
+magnesium,2022,72,"""magnesium supplementation"""
+magnesium,2023,58,"""magnesium supplementation"""
+magnesium,2024,70,"""magnesium supplementation"""
+magnesium,2025,80,"""magnesium supplementation"""
+magnesium,2026,72,"""magnesium supplementation"""
+ashwagandha,2020,136,ashwagandha
+ashwagandha,2021,167,ashwagandha
+ashwagandha,2022,170,ashwagandha
+ashwagandha,2023,172,ashwagandha
+ashwagandha,2024,199,ashwagandha
+ashwagandha,2025,238,ashwagandha
+ashwagandha,2026,207,ashwagandha
+breathwork,2020,5,breathwork
+breathwork,2021,5,breathwork
+breathwork,2022,5,breathwork
+breathwork,2023,15,breathwork
+breathwork,2024,18,breathwork
+breathwork,2025,33,breathwork
+breathwork,2026,36,breathwork
+meditation,2020,808,"(""mindfulness meditation"" OR meditation)"
+meditation,2021,954,"(""mindfulness meditation"" OR meditation)"
+meditation,2022,1028,"(""mindfulness meditation"" OR meditation)"
+meditation,2023,898,"(""mindfulness meditation"" OR meditation)"
+meditation,2024,894,"(""mindfulness meditation"" OR meditation)"
+meditation,2025,990,"(""mindfulness meditation"" OR meditation)"
+meditation,2026,685,"(""mindfulness meditation"" OR meditation)"
+zone 2,2020,7,"""zone 2"" exercise training"
+zone 2,2021,9,"""zone 2"" exercise training"
+zone 2,2022,7,"""zone 2"" exercise training"
+zone 2,2023,3,"""zone 2"" exercise training"
+zone 2,2024,7,"""zone 2"" exercise training"
+zone 2,2025,14,"""zone 2"" exercise training"
+zone 2,2026,7,"""zone 2"" exercise training"
+keto,2020,563,"""ketogenic diet"""
+keto,2021,553,"""ketogenic diet"""
+keto,2022,574,"""ketogenic diet"""
+keto,2023,583,"""ketogenic diet"""
+keto,2024,622,"""ketogenic diet"""
+keto,2025,674,"""ketogenic diet"""
+keto,2026,584,"""ketogenic diet"""
+metformin,2020,2744,metformin
+metformin,2021,2926,metformin
+metformin,2022,2715,metformin
+metformin,2023,2635,metformin
+metformin,2024,2688,metformin
+metformin,2025,3074,metformin
+metformin,2026,2345,metformin
+light therapy,2020,39,"""light therapy"" circadian"
+light therapy,2021,56,"""light therapy"" circadian"
+light therapy,2022,56,"""light therapy"" circadian"
+light therapy,2023,54,"""light therapy"" circadian"
+light therapy,2024,49,"""light therapy"" circadian"
+light therapy,2025,52,"""light therapy"" circadian"
+light therapy,2026,71,"""light therapy"" circadian"
+mouth tape,2020,0,"""mouth taping"""
+mouth tape,2021,0,"""mouth taping"""
+mouth tape,2022,1,"""mouth taping"""
+mouth tape,2023,2,"""mouth taping"""
+mouth tape,2024,5,"""mouth taping"""
+mouth tape,2025,6,"""mouth taping"""
+mouth tape,2026,3,"""mouth taping"""
+sleepmaxxing,2020,0,sleepmaxxing
+sleepmaxxing,2021,0,sleepmaxxing
+sleepmaxxing,2022,0,sleepmaxxing
+sleepmaxxing,2023,0,sleepmaxxing
+sleepmaxxing,2024,0,sleepmaxxing
+sleepmaxxing,2025,0,sleepmaxxing
+sleepmaxxing,2026,0,sleepmaxxing

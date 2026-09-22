@@ -1,0 +1,152 @@
+{
+  "cold plunge": {
+    "article": "Ice bath",
+    "total_views": 484015,
+    "mean_views_2020": 8777.8,
+    "mean_views_2026": 2164.4,
+    "growth_first12_to_last12": 0.286,
+    "growth_2020_to_2026": 0.247,
+    "peak_month": "202401",
+    "peak_views": 15645
+  },
+  "sauna": {
+    "article": "Sauna",
+    "total_views": 1498783,
+    "mean_views_2020": 18166.2,
+    "mean_views_2026": 11705.9,
+    "growth_first12_to_last12": 0.745,
+    "growth_2020_to_2026": 0.644,
+    "peak_month": "202310",
+    "peak_views": 32693
+  },
+  "red light therapy": {
+    "article": "Low-level laser therapy",
+    "total_views": 306620,
+    "mean_views_2020": 4011.8,
+    "mean_views_2026": 2518.0,
+    "growth_first12_to_last12": 0.743,
+    "growth_2020_to_2026": 0.628,
+    "peak_month": "202405",
+    "peak_views": 6046
+  },
+  "intermittent fasting": {
+    "article": "Intermittent fasting",
+    "total_views": 5487520,
+    "mean_views_2020": 159466.6,
+    "mean_views_2026": 7505.1,
+    "growth_first12_to_last12": 0.053,
+    "growth_2020_to_2026": 0.047,
+    "peak_month": "202001",
+    "peak_views": 276150
+  },
+  "creatine": {
+    "article": "Creatine",
+    "total_views": 3986639,
+    "mean_views_2020": 45008.8,
+    "mean_views_2026": 39564.1,
+    "growth_first12_to_last12": 1.118,
+    "growth_2020_to_2026": 0.879,
+    "peak_month": "202510",
+    "peak_views": 90493
+  },
+  "NMN": {
+    "article": "Nicotinamide mononucleotide",
+    "total_views": 955940,
+    "mean_views_2020": 11877.1,
+    "mean_views_2026": 6064.1,
+    "growth_first12_to_last12": 0.562,
+    "growth_2020_to_2026": 0.511,
+    "peak_month": "202407",
+    "peak_views": 42216
+  },
+  "magnesium": {
+    "article": "Magnesium in biology",
+    "total_views": 290053,
+    "mean_views_2020": 5098.9,
+    "mean_views_2026": 1810.9,
+    "growth_first12_to_last12": 0.389,
+    "growth_2020_to_2026": 0.355,
+    "peak_month": "202010",
+    "peak_views": 5739
+  },
+  "ashwagandha": {
+    "article": "Ashwagandha",
+    "total_views": 83501,
+    "mean_views_2020": 1404.1,
+    "mean_views_2026": 1032.1,
+    "growth_first12_to_last12": 0.696,
+    "growth_2020_to_2026": 0.735,
+    "peak_month": "202001",
+    "peak_views": 1916
+  },
+  "breathwork": {
+    "article": "Breathwork",
+    "total_views": 289969,
+    "mean_views_2020": 7093.4,
+    "mean_views_2026": 287.9,
+    "growth_first12_to_last12": 0.043,
+    "growth_2020_to_2026": 0.041,
+    "peak_month": "202003",
+    "peak_views": 8823
+  },
+  "meditation": {
+    "article": "Meditation",
+    "total_views": 3393478,
+    "mean_views_2020": 55888.3,
+    "mean_views_2026": 22659.9,
+    "growth_first12_to_last12": 0.419,
+    "growth_2020_to_2026": 0.405,
+    "peak_month": "202004",
+    "peak_views": 74182
+  },
+  "zone 2": {
+    "article": "Aerobic exercise",
+    "total_views": 1470870,
+    "mean_views_2020": 31513.2,
+    "mean_views_2026": 6865.8,
+    "growth_first12_to_last12": 0.235,
+    "growth_2020_to_2026": 0.218,
+    "peak_month": "202010",
+    "peak_views": 44730
+  },
+  "keto": {
+    "article": "Ketogenic diet",
+    "total_views": 4360224,
+    "mean_views_2020": 126679.1,
+    "mean_views_2026": 9461.5,
+    "growth_first12_to_last12": 0.091,
+    "growth_2020_to_2026": 0.075,
+    "peak_month": "202001",
+    "peak_views": 277844
+  },
+  "metformin": {
+    "article": "Metformin",
+    "total_views": 5783056,
+    "mean_views_2020": 74674.3,
+    "mean_views_2026": 37177.5,
+    "growth_first12_to_last12": 0.561,
+    "growth_2020_to_2026": 0.498,
+    "peak_month": "202001",
+    "peak_views": 97061
+  },
+  "light therapy": {
+    "article": "Light therapy",
+    "total_views": 684084,
+    "mean_views_2020": 10414.5,
+    "mean_views_2026": 4166.2,
+    "growth_first12_to_last12": 0.48,
+    "growth_2020_to_2026": 0.4,
+    "peak_month": "202001",
+    "peak_views": 15003
+  },
+  "mouth tape": {
+    "article": "Mouth taping",
+    "total_views": 69239,
+    "mean_views_2020": null,
+    "mean_views_2026": 658.2,
+    "growth_first12_to_last12": 0.498,
+    "growth_2020_to_2026": null,
+    "peak_month": "202410",
+    "peak_views": 5457
+  }
+}

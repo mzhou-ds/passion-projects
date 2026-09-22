@@ -1,0 +1,45 @@
+{
+  "Grift zone": {
+    "members": [
+      "metformin",
+      "sauna",
+      "NMN"
+    ],
+    "mean_views_2026": 18315.8,
+    "mean_trials": 58.3,
+    "mean_mispricing": 1.39
+  },
+  "Lab curiosities": {
+    "members": [
+      "mouth tape",
+      "cold plunge",
+      "ashwagandha",
+      "breathwork"
+    ],
+    "mean_views_2026": 1035.7,
+    "mean_trials": 90.2,
+    "mean_mispricing": -0.29
+  },
+  "Validated blockbusters": {
+    "members": [
+      "creatine",
+      "zone 2",
+      "meditation",
+      "keto",
+      "intermittent fasting"
+    ],
+    "mean_views_2026": 17211.3,
+    "mean_trials": 1289.4,
+    "mean_mispricing": -0.09
+  },
+  "Sleepers": {
+    "members": [
+      "light therapy",
+      "red light therapy",
+      "magnesium"
+    ],
+    "mean_views_2026": 2831.7,
+    "mean_trials": 511.0,
+    "mean_mispricing": -0.86
+  }
+}
