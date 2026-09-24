@@ -1,0 +1,457 @@
+generation,education,age,occupation,kind,chinese,total_pop,not_vismin
+Total - Generation status,"Total - Highest certificate, diploma or degree",Total - Age,0 Legislative and senior management occupations,mgmt,8650.0,267690.0,229745.0
+Total - Generation status,"Total - Highest certificate, diploma or degree",Total - Age,"1 Business, finance and administration occupations",broad,210790.0,3557055.0,2610890.0
+Total - Generation status,"Total - Highest certificate, diploma or degree",Total - Age,"10 Specialized middle management occupations in administrative services, fi",mgmt,30675.0,453640.0,333660.0
+Total - Generation status,"Total - Highest certificate, diploma or degree",Total - Age,2 Natural and applied sciences and related occupations,tech_broad,144630.0,1666685.0,1070360.0
+Total - Generation status,"Total - Highest certificate, diploma or degree",Total - Age,"20 Specialized middle management occupations in engineering, architecture, ",mgmt,9040.0,134620.0,92905.0
+Total - Generation status,"Total - Highest certificate, diploma or degree",Total - Age,21 Professional occupations in natural and applied sciences,tech_prof,107130.0,966165.0,560680.0
+Total - Generation status,"Total - Highest certificate, diploma or degree",Total - Age,3 Health occupations,broad,61540.0,1601715.0,1106660.0
+Total - Generation status,"Total - Highest certificate, diploma or degree",Total - Age,30 Specialized middle management occupations in health care,mgmt,1220.0,39060.0,31065.0
+Total - Generation status,"Total - Highest certificate, diploma or degree",Total - Age,"4 Occupations in education, law and social, community and government servic",broad,89410.0,2532175.0,1992900.0
+Total - Generation status,"Total - Highest certificate, diploma or degree",Total - Age,"5 Occupations in art, culture, recreation and sport",broad,35635.0,697255.0,552860.0
+Total - Generation status,"Total - Highest certificate, diploma or degree",Total - Age,"50 Specialized middle management occupations in art, culture, recreation an",mgmt,905.0,27950.0,24160.0
+Total - Generation status,"Total - Highest certificate, diploma or degree",Total - Age,6 Sales and service occupations,broad,258425.0,5226370.0,3580575.0
+Total - Generation status,"Total - Highest certificate, diploma or degree",Total - Age,60 Middle management occupations in retail and wholesale trade and customer,mgmt,41170.0,716470.0,527585.0
+Total - Generation status,"Total - Highest certificate, diploma or degree",Total - Age,"7 Trades, transport and equipment operators and related occupations",broad,73800.0,3526800.0,2784400.0
+Total - Generation status,"Total - Highest certificate, diploma or degree",Total - Age,70 Middle management occupations in trades and transportation,mgmt,12535.0,290490.0,231535.0
+Total - Generation status,"Total - Highest certificate, diploma or degree",Total - Age,"8 Natural resources, agriculture and related production occupations",broad,6170.0,617430.0,561440.0
+Total - Generation status,"Total - Highest certificate, diploma or degree",Total - Age,80 Middle management occupations in production and agriculture,mgmt,1650.0,193100.0,184610.0
+Total - Generation status,"Total - Highest certificate, diploma or degree",Total - Age,9 Occupations in manufacturing and utilities,broad,36820.0,937355.0,620895.0
+Total - Generation status,"Total - Highest certificate, diploma or degree",Total - Age,90 Middle management occupations in manufacturing and utilities,mgmt,3720.0,87465.0,70380.0
+Total - Generation status,"Total - Highest certificate, diploma or degree",25 to 34 years,0 Legislative and senior management occupations,mgmt,1165.0,23695.0,18260.0
+Total - Generation status,"Total - Highest certificate, diploma or degree",25 to 34 years,"1 Business, finance and administration occupations",broad,60905.0,758760.0,480040.0
+Total - Generation status,"Total - Highest certificate, diploma or degree",25 to 34 years,"10 Specialized middle management occupations in administrative services, fi",mgmt,8885.0,94750.0,60030.0
+Total - Generation status,"Total - Highest certificate, diploma or degree",25 to 34 years,2 Natural and applied sciences and related occupations,tech_broad,39285.0,442055.0,249750.0
+Total - Generation status,"Total - Highest certificate, diploma or degree",25 to 34 years,"20 Specialized middle management occupations in engineering, architecture, ",mgmt,1720.0,20195.0,11885.0
+Total - Generation status,"Total - Highest certificate, diploma or degree",25 to 34 years,21 Professional occupations in natural and applied sciences,tech_prof,30875.0,283755.0,144645.0
+Total - Generation status,"Total - Highest certificate, diploma or degree",25 to 34 years,3 Health occupations,broad,18855.0,407420.0,273585.0
+Total - Generation status,"Total - Highest certificate, diploma or degree",25 to 34 years,30 Specialized middle management occupations in health care,mgmt,270.0,5435.0,3615.0
+Total - Generation status,"Total - Highest certificate, diploma or degree",25 to 34 years,"4 Occupations in education, law and social, community and government servic",broad,26150.0,574240.0,429770.0
+Total - Generation status,"Total - Highest certificate, diploma or degree",25 to 34 years,"5 Occupations in art, culture, recreation and sport",broad,10840.0,167120.0,122770.0
+Total - Generation status,"Total - Highest certificate, diploma or degree",25 to 34 years,"50 Specialized middle management occupations in art, culture, recreation an",mgmt,215.0,5765.0,4770.0
+Total - Generation status,"Total - Highest certificate, diploma or degree",25 to 34 years,6 Sales and service occupations,broad,52690.0,982000.0,613110.0
+Total - Generation status,"Total - Highest certificate, diploma or degree",25 to 34 years,60 Middle management occupations in retail and wholesale trade and customer,mgmt,9485.0,146130.0,97360.0
+Total - Generation status,"Total - Highest certificate, diploma or degree",25 to 34 years,"7 Trades, transport and equipment operators and related occupations",broad,13760.0,727535.0,557175.0
+Total - Generation status,"Total - Highest certificate, diploma or degree",25 to 34 years,70 Middle management occupations in trades and transportation,mgmt,2565.0,49675.0,36075.0
+Total - Generation status,"Total - Highest certificate, diploma or degree",25 to 34 years,"8 Natural resources, agriculture and related production occupations",broad,840.0,98640.0,87665.0
+Total - Generation status,"Total - Highest certificate, diploma or degree",25 to 34 years,80 Middle management occupations in production and agriculture,mgmt,195.0,21300.0,20065.0
+Total - Generation status,"Total - Highest certificate, diploma or degree",25 to 34 years,9 Occupations in manufacturing and utilities,broad,3525.0,161130.0,108290.0
+Total - Generation status,"Total - Highest certificate, diploma or degree",25 to 34 years,90 Middle management occupations in manufacturing and utilities,mgmt,605.0,10845.0,7805.0
+Total - Generation status,"Total - Highest certificate, diploma or degree",35 to 44 years,0 Legislative and senior management occupations,mgmt,2185.0,57580.0,46510.0
+Total - Generation status,"Total - Highest certificate, diploma or degree",35 to 44 years,"1 Business, finance and administration occupations",broad,48660.0,799675.0,549150.0
+Total - Generation status,"Total - Highest certificate, diploma or degree",35 to 44 years,"10 Specialized middle management occupations in administrative services, fi",mgmt,9710.0,132385.0,91325.0
+Total - Generation status,"Total - Highest certificate, diploma or degree",35 to 44 years,2 Natural and applied sciences and related occupations,tech_broad,30770.0,436230.0,266825.0
+Total - Generation status,"Total - Highest certificate, diploma or degree",35 to 44 years,"20 Specialized middle management occupations in engineering, architecture, ",mgmt,2885.0,43925.0,27480.0
+Total - Generation status,"Total - Highest certificate, diploma or degree",35 to 44 years,21 Professional occupations in natural and applied sciences,tech_prof,22235.0,255695.0,140455.0
+Total - Generation status,"Total - Highest certificate, diploma or degree",35 to 44 years,3 Health occupations,broad,13515.0,390250.0,253590.0
+Total - Generation status,"Total - Highest certificate, diploma or degree",35 to 44 years,30 Specialized middle management occupations in health care,mgmt,395.0,11000.0,8200.0
+Total - Generation status,"Total - Highest certificate, diploma or degree",35 to 44 years,"4 Occupations in education, law and social, community and government servic",broad,19300.0,636005.0,494205.0
+Total - Generation status,"Total - Highest certificate, diploma or degree",35 to 44 years,"5 Occupations in art, culture, recreation and sport",broad,7315.0,147335.0,114160.0
+Total - Generation status,"Total - Highest certificate, diploma or degree",35 to 44 years,"50 Specialized middle management occupations in art, culture, recreation an",mgmt,250.0,7505.0,6295.0
+Total - Generation status,"Total - Highest certificate, diploma or degree",35 to 44 years,6 Sales and service occupations,broad,48590.0,832965.0,525710.0
+Total - Generation status,"Total - Highest certificate, diploma or degree",35 to 44 years,60 Middle management occupations in retail and wholesale trade and customer,mgmt,10680.0,174015.0,123155.0
+Total - Generation status,"Total - Highest certificate, diploma or degree",35 to 44 years,"7 Trades, transport and equipment operators and related occupations",broad,14705.0,741870.0,555640.0
+Total - Generation status,"Total - Highest certificate, diploma or degree",35 to 44 years,70 Middle management occupations in trades and transportation,mgmt,3230.0,71765.0,54725.0
+Total - Generation status,"Total - Highest certificate, diploma or degree",35 to 44 years,"8 Natural resources, agriculture and related production occupations",broad,930.0,97320.0,85945.0
+Total - Generation status,"Total - Highest certificate, diploma or degree",35 to 44 years,80 Middle management occupations in production and agriculture,mgmt,290.0,31065.0,29095.0
+Total - Generation status,"Total - Highest certificate, diploma or degree",35 to 44 years,9 Occupations in manufacturing and utilities,broad,5230.0,188065.0,118565.0
+Total - Generation status,"Total - Highest certificate, diploma or degree",35 to 44 years,90 Middle management occupations in manufacturing and utilities,mgmt,915.0,21630.0,16880.0
+Total - Generation status,"Total - Highest certificate, diploma or degree",45 to 54 years,0 Legislative and senior management occupations,mgmt,2640.0,79025.0,68085.0
+Total - Generation status,"Total - Highest certificate, diploma or degree",45 to 54 years,"1 Business, finance and administration occupations",broad,44070.0,763700.0,585745.0
+Total - Generation status,"Total - Highest certificate, diploma or degree",45 to 54 years,"10 Specialized middle management occupations in administrative services, fi",mgmt,6905.0,117510.0,91700.0
+Total - Generation status,"Total - Highest certificate, diploma or degree",45 to 54 years,2 Natural and applied sciences and related occupations,tech_broad,36195.0,351905.0,236160.0
+Total - Generation status,"Total - Highest certificate, diploma or degree",45 to 54 years,"20 Specialized middle management occupations in engineering, architecture, ",mgmt,2715.0,41180.0,29890.0
+Total - Generation status,"Total - Highest certificate, diploma or degree",45 to 54 years,21 Professional occupations in natural and applied sciences,tech_prof,26360.0,194735.0,119640.0
+Total - Generation status,"Total - Highest certificate, diploma or degree",45 to 54 years,3 Health occupations,broad,12290.0,336995.0,226020.0
+Total - Generation status,"Total - Highest certificate, diploma or degree",45 to 54 years,30 Specialized middle management occupations in health care,mgmt,255.0,12205.0,10170.0
+Total - Generation status,"Total - Highest certificate, diploma or degree",45 to 54 years,"4 Occupations in education, law and social, community and government servic",broad,15880.0,571400.0,460245.0
+Total - Generation status,"Total - Highest certificate, diploma or degree",45 to 54 years,"5 Occupations in art, culture, recreation and sport",broad,5270.0,111910.0,91520.0
+Total - Generation status,"Total - Highest certificate, diploma or degree",45 to 54 years,"50 Specialized middle management occupations in art, culture, recreation an",mgmt,240.0,6575.0,5760.0
+Total - Generation status,"Total - Highest certificate, diploma or degree",45 to 54 years,6 Sales and service occupations,broad,52470.0,824030.0,559415.0
+Total - Generation status,"Total - Highest certificate, diploma or degree",45 to 54 years,60 Middle management occupations in retail and wholesale trade and customer,mgmt,10435.0,171900.0,129305.0
+Total - Generation status,"Total - Highest certificate, diploma or degree",45 to 54 years,"7 Trades, transport and equipment operators and related occupations",broad,17295.0,703360.0,543960.0
+Total - Generation status,"Total - Highest certificate, diploma or degree",45 to 54 years,70 Middle management occupations in trades and transportation,mgmt,3010.0,72325.0,58360.0
+Total - Generation status,"Total - Highest certificate, diploma or degree",45 to 54 years,"8 Natural resources, agriculture and related production occupations",broad,1390.0,92695.0,82625.0
+Total - Generation status,"Total - Highest certificate, diploma or degree",45 to 54 years,80 Middle management occupations in production and agriculture,mgmt,555.0,33105.0,30865.0
+Total - Generation status,"Total - Highest certificate, diploma or degree",45 to 54 years,9 Occupations in manufacturing and utilities,broad,9730.0,212115.0,133455.0
+Total - Generation status,"Total - Highest certificate, diploma or degree",45 to 54 years,90 Middle management occupations in manufacturing and utilities,mgmt,1045.0,26370.0,21485.0
+Total - Generation status,Bachelor’s degree or higher,Total - Age,0 Legislative and senior management occupations,mgmt,6290.0,143720.0,117595.0
+Total - Generation status,Bachelor’s degree or higher,Total - Age,"1 Business, finance and administration occupations",broad,141810.0,1418465.0,863115.0
+Total - Generation status,Bachelor’s degree or higher,Total - Age,"10 Specialized middle management occupations in administrative services, fi",mgmt,23820.0,263810.0,177000.0
+Total - Generation status,Bachelor’s degree or higher,Total - Age,2 Natural and applied sciences and related occupations,tech_broad,118255.0,976340.0,518480.0
+Total - Generation status,Bachelor’s degree or higher,Total - Age,"20 Specialized middle management occupations in engineering, architecture, ",mgmt,8145.0,94445.0,58695.0
+Total - Generation status,Bachelor’s degree or higher,Total - Age,21 Professional occupations in natural and applied sciences,tech_prof,94255.0,736395.0,387170.0
+Total - Generation status,Bachelor’s degree or higher,Total - Age,3 Health occupations,broad,44750.0,751470.0,472730.0
+Total - Generation status,Bachelor’s degree or higher,Total - Age,30 Specialized middle management occupations in health care,mgmt,990.0,25560.0,19320.0
+Total - Generation status,Bachelor’s degree or higher,Total - Age,"4 Occupations in education, law and social, community and government servic",broad,66525.0,1529520.0,1174505.0
+Total - Generation status,Bachelor’s degree or higher,Total - Age,"5 Occupations in art, culture, recreation and sport",broad,20680.0,289490.0,217070.0
+Total - Generation status,Bachelor’s degree or higher,Total - Age,"50 Specialized middle management occupations in art, culture, recreation an",mgmt,565.0,14650.0,12425.0
+Total - Generation status,Bachelor’s degree or higher,Total - Age,6 Sales and service occupations,broad,84950.0,910455.0,429080.0
+Total - Generation status,Bachelor’s degree or higher,Total - Age,60 Middle management occupations in retail and wholesale trade and customer,mgmt,19665.0,195450.0,111340.0
+Total - Generation status,Bachelor’s degree or higher,Total - Age,"7 Trades, transport and equipment operators and related occupations",broad,21245.0,327830.0,159425.0
+Total - Generation status,Bachelor’s degree or higher,Total - Age,70 Middle management occupations in trades and transportation,mgmt,5475.0,71775.0,46470.0
+Total - Generation status,Bachelor’s degree or higher,Total - Age,"8 Natural resources, agriculture and related production occupations",broad,1555.0,58750.0,48680.0
+Total - Generation status,Bachelor’s degree or higher,Total - Age,80 Middle management occupations in production and agriculture,mgmt,595.0,26610.0,24025.0
+Total - Generation status,Bachelor’s degree or higher,Total - Age,9 Occupations in manufacturing and utilities,broad,8675.0,126315.0,51670.0
+Total - Generation status,Bachelor’s degree or higher,Total - Age,90 Middle management occupations in manufacturing and utilities,mgmt,2315.0,30905.0,20980.0
+Total - Generation status,Bachelor’s degree or higher,25 to 34 years,0 Legislative and senior management occupations,mgmt,955.0,13695.0,9865.0
+Total - Generation status,Bachelor’s degree or higher,25 to 34 years,"1 Business, finance and administration occupations",broad,49740.0,418830.0,227230.0
+Total - Generation status,Bachelor’s degree or higher,25 to 34 years,"10 Specialized middle management occupations in administrative services, fi",mgmt,7640.0,68050.0,40780.0
+Total - Generation status,Bachelor’s degree or higher,25 to 34 years,2 Natural and applied sciences and related occupations,tech_broad,34440.0,298180.0,141050.0
+Total - Generation status,Bachelor’s degree or higher,25 to 34 years,"20 Specialized middle management occupations in engineering, architecture, ",mgmt,1635.0,16420.0,8945.0
+Total - Generation status,Bachelor’s degree or higher,25 to 34 years,21 Professional occupations in natural and applied sciences,tech_prof,28745.0,236680.0,111610.0
+Total - Generation status,Bachelor’s degree or higher,25 to 34 years,3 Health occupations,broad,15820.0,226420.0,138680.0
+Total - Generation status,Bachelor’s degree or higher,25 to 34 years,30 Specialized middle management occupations in health care,mgmt,230.0,3735.0,2325.0
+Total - Generation status,Bachelor’s degree or higher,25 to 34 years,"4 Occupations in education, law and social, community and government servic",broad,22840.0,380370.0,271755.0
+Total - Generation status,Bachelor’s degree or higher,25 to 34 years,"5 Occupations in art, culture, recreation and sport",broad,7830.0,84385.0,57580.0
+Total - Generation status,Bachelor’s degree or higher,25 to 34 years,"50 Specialized middle management occupations in art, culture, recreation an",mgmt,155.0,3295.0,2680.0
+Total - Generation status,Bachelor’s degree or higher,25 to 34 years,6 Sales and service occupations,broad,26400.0,275515.0,117005.0
+Total - Generation status,Bachelor’s degree or higher,25 to 34 years,60 Middle management occupations in retail and wholesale trade and customer,mgmt,5610.0,52040.0,27045.0
+Total - Generation status,Bachelor’s degree or higher,25 to 34 years,"7 Trades, transport and equipment operators and related occupations",broad,4420.0,80285.0,35875.0
+Total - Generation status,Bachelor’s degree or higher,25 to 34 years,70 Middle management occupations in trades and transportation,mgmt,1390.0,17415.0,10540.0
+Total - Generation status,Bachelor’s degree or higher,25 to 34 years,"8 Natural resources, agriculture and related production occupations",broad,310.0,12755.0,10355.0
+Total - Generation status,Bachelor’s degree or higher,25 to 34 years,80 Middle management occupations in production and agriculture,mgmt,120.0,3700.0,3240.0
+Total - Generation status,Bachelor’s degree or higher,25 to 34 years,9 Occupations in manufacturing and utilities,broad,1565.0,28560.0,11370.0
+Total - Generation status,Bachelor’s degree or higher,25 to 34 years,90 Middle management occupations in manufacturing and utilities,mgmt,475.0,5530.0,3420.0
+Total - Generation status,Bachelor’s degree or higher,35 to 44 years,0 Legislative and senior management occupations,mgmt,1770.0,33805.0,25740.0
+Total - Generation status,Bachelor’s degree or higher,35 to 44 years,"1 Business, finance and administration occupations",broad,36070.0,375935.0,214515.0
+Total - Generation status,Bachelor’s degree or higher,35 to 44 years,"10 Specialized middle management occupations in administrative services, fi",mgmt,7950.0,83980.0,53185.0
+Total - Generation status,Bachelor’s degree or higher,35 to 44 years,2 Natural and applied sciences and related occupations,tech_broad,26095.0,270190.0,133190.0
+Total - Generation status,Bachelor’s degree or higher,35 to 44 years,"20 Specialized middle management occupations in engineering, architecture, ",mgmt,2625.0,31950.0,17635.0
+Total - Generation status,Bachelor’s degree or higher,35 to 44 years,21 Professional occupations in natural and applied sciences,tech_prof,20215.0,199965.0,97125.0
+Total - Generation status,Bachelor’s degree or higher,35 to 44 years,3 Health occupations,broad,10750.0,204505.0,122075.0
+Total - Generation status,Bachelor’s degree or higher,35 to 44 years,30 Specialized middle management occupations in health care,mgmt,325.0,7680.0,5425.0
+Total - Generation status,Bachelor’s degree or higher,35 to 44 years,"4 Occupations in education, law and social, community and government servic",broad,15940.0,412075.0,311350.0
+Total - Generation status,Bachelor’s degree or higher,35 to 44 years,"5 Occupations in art, culture, recreation and sport",broad,4940.0,71630.0,51825.0
+Total - Generation status,Bachelor’s degree or higher,35 to 44 years,"50 Specialized middle management occupations in art, culture, recreation an",mgmt,145.0,4350.0,3625.0
+Total - Generation status,Bachelor’s degree or higher,35 to 44 years,6 Sales and service occupations,broad,19635.0,205710.0,86625.0
+Total - Generation status,Bachelor’s degree or higher,35 to 44 years,60 Middle management occupations in retail and wholesale trade and customer,mgmt,5490.0,53845.0,28970.0
+Total - Generation status,Bachelor’s degree or higher,35 to 44 years,"7 Trades, transport and equipment operators and related occupations",broad,4560.0,84580.0,36630.0
+Total - Generation status,Bachelor’s degree or higher,35 to 44 years,70 Middle management occupations in trades and transportation,mgmt,1565.0,19690.0,11785.0
+Total - Generation status,Bachelor’s degree or higher,35 to 44 years,"8 Natural resources, agriculture and related production occupations",broad,225.0,11605.0,8945.0
+Total - Generation status,Bachelor’s degree or higher,35 to 44 years,80 Middle management occupations in production and agriculture,mgmt,80.0,5810.0,5145.0
+Total - Generation status,Bachelor’s degree or higher,35 to 44 years,9 Occupations in manufacturing and utilities,broad,1605.0,33075.0,12825.0
+Total - Generation status,Bachelor’s degree or higher,35 to 44 years,90 Middle management occupations in manufacturing and utilities,mgmt,645.0,8760.0,5695.0
+Total - Generation status,Bachelor’s degree or higher,45 to 54 years,0 Legislative and senior management occupations,mgmt,1930.0,45445.0,37540.0
+Total - Generation status,Bachelor’s degree or higher,45 to 54 years,"1 Business, finance and administration occupations",broad,29415.0,290100.0,185980.0
+Total - Generation status,Bachelor’s degree or higher,45 to 54 years,"10 Specialized middle management occupations in administrative services, fi",mgmt,5285.0,65185.0,46930.0
+Total - Generation status,Bachelor’s degree or higher,45 to 54 years,2 Natural and applied sciences and related occupations,tech_broad,31215.0,203550.0,112820.0
+Total - Generation status,Bachelor’s degree or higher,45 to 54 years,"20 Specialized middle management occupations in engineering, architecture, ",mgmt,2440.0,28065.0,18630.0
+Total - Generation status,Bachelor’s degree or higher,45 to 54 years,21 Professional occupations in natural and applied sciences,tech_prof,24405.0,145005.0,79115.0
+Total - Generation status,Bachelor’s degree or higher,45 to 54 years,3 Health occupations,broad,8425.0,152975.0,92040.0
+Total - Generation status,Bachelor’s degree or higher,45 to 54 years,30 Specialized middle management occupations in health care,mgmt,205.0,8030.0,6425.0
+Total - Generation status,Bachelor’s degree or higher,45 to 54 years,"4 Occupations in education, law and social, community and government servic",broad,12130.0,356040.0,282270.0
+Total - Generation status,Bachelor’s degree or higher,45 to 54 years,"5 Occupations in art, culture, recreation and sport",broad,3255.0,50955.0,39455.0
+Total - Generation status,Bachelor’s degree or higher,45 to 54 years,"50 Specialized middle management occupations in art, culture, recreation an",mgmt,145.0,3400.0,2930.0
+Total - Generation status,Bachelor’s degree or higher,45 to 54 years,6 Sales and service occupations,broad,17955.0,164595.0,79500.0
+Total - Generation status,Bachelor’s degree or higher,45 to 54 years,60 Middle management occupations in retail and wholesale trade and customer,mgmt,4895.0,45320.0,26920.0
+Total - Generation status,Bachelor’s degree or higher,45 to 54 years,"7 Trades, transport and equipment operators and related occupations",broad,6055.0,73510.0,34700.0
+Total - Generation status,Bachelor’s degree or higher,45 to 54 years,70 Middle management occupations in trades and transportation,mgmt,1375.0,16840.0,11040.0
+Total - Generation status,Bachelor’s degree or higher,45 to 54 years,"8 Natural resources, agriculture and related production occupations",broad,435.0,9465.0,7215.0
+Total - Generation status,Bachelor’s degree or higher,45 to 54 years,80 Middle management occupations in production and agriculture,mgmt,195.0,4990.0,4305.0
+Total - Generation status,Bachelor’s degree or higher,45 to 54 years,9 Occupations in manufacturing and utilities,broad,2310.0,31890.0,12985.0
+Total - Generation status,Bachelor’s degree or higher,45 to 54 years,90 Middle management occupations in manufacturing and utilities,mgmt,645.0,9120.0,6400.0
+First generation,"Total - Highest certificate, diploma or degree",Total - Age,0 Legislative and senior management occupations,mgmt,6885.0,60120.0,30375.0
+First generation,"Total - Highest certificate, diploma or degree",Total - Age,"1 Business, finance and administration occupations",broad,159300.0,1025635.0,298995.0
+First generation,"Total - Highest certificate, diploma or degree",Total - Age,"10 Specialized middle management occupations in administrative services, fi",mgmt,22975.0,134710.0,44250.0
+First generation,"Total - Highest certificate, diploma or degree",Total - Age,2 Natural and applied sciences and related occupations,tech_broad,114355.0,698325.0,194455.0
+First generation,"Total - Highest certificate, diploma or degree",Total - Age,"20 Specialized middle management occupations in engineering, architecture, ",mgmt,6760.0,54090.0,19450.0
+First generation,"Total - Highest certificate, diploma or degree",Total - Age,21 Professional occupations in natural and applied sciences,tech_prof,85915.0,471670.0,124625.0
+First generation,"Total - Highest certificate, diploma or degree",Total - Age,3 Health occupations,broad,40745.0,513810.0,111305.0
+First generation,"Total - Highest certificate, diploma or degree",Total - Age,30 Specialized middle management occupations in health care,mgmt,880.0,9545.0,3540.0
+First generation,"Total - Highest certificate, diploma or degree",Total - Age,"4 Occupations in education, law and social, community and government servic",broad,62970.0,612735.0,207210.0
+First generation,"Total - Highest certificate, diploma or degree",Total - Age,"5 Occupations in art, culture, recreation and sport",broad,23260.0,173230.0,79070.0
+First generation,"Total - Highest certificate, diploma or degree",Total - Age,"50 Specialized middle management occupations in art, culture, recreation an",mgmt,605.0,5065.0,2625.0
+First generation,"Total - Highest certificate, diploma or degree",Total - Age,6 Sales and service occupations,broad,210935.0,1653775.0,351540.0
+First generation,"Total - Highest certificate, diploma or degree",Total - Age,60 Middle management occupations in retail and wholesale trade and customer,mgmt,35040.0,219590.0,61340.0
+First generation,"Total - Highest certificate, diploma or degree",Total - Age,"7 Trades, transport and equipment operators and related occupations",broad,60895.0,909970.0,275695.0
+First generation,"Total - Highest certificate, diploma or degree",Total - Age,70 Middle management occupations in trades and transportation,mgmt,10595.0,81775.0,32895.0
+First generation,"Total - Highest certificate, diploma or degree",Total - Age,"8 Natural resources, agriculture and related production occupations",broad,4715.0,82995.0,38340.0
+First generation,"Total - Highest certificate, diploma or degree",Total - Age,80 Middle management occupations in production and agriculture,mgmt,1460.0,22895.0,15630.0
+First generation,"Total - Highest certificate, diploma or degree",Total - Age,9 Occupations in manufacturing and utilities,broad,33425.0,349110.0,58710.0
+First generation,"Total - Highest certificate, diploma or degree",Total - Age,90 Middle management occupations in manufacturing and utilities,mgmt,3170.0,24405.0,9720.0
+First generation,"Total - Highest certificate, diploma or degree",25 to 34 years,0 Legislative and senior management occupations,mgmt,825.0,5750.0,2145.0
+First generation,"Total - Highest certificate, diploma or degree",25 to 34 years,"1 Business, finance and administration occupations",broad,41815.0,242260.0,51150.0
+First generation,"Total - Highest certificate, diploma or degree",25 to 34 years,"10 Specialized middle management occupations in administrative services, fi",mgmt,6055.0,31545.0,8095.0
+First generation,"Total - Highest certificate, diploma or degree",25 to 34 years,2 Natural and applied sciences and related occupations,tech_broad,27735.0,192515.0,38145.0
+First generation,"Total - Highest certificate, diploma or degree",25 to 34 years,"20 Specialized middle management occupations in engineering, architecture, ",mgmt,1140.0,8885.0,2500.0
+First generation,"Total - Highest certificate, diploma or degree",25 to 34 years,21 Professional occupations in natural and applied sciences,tech_prof,22415.0,140935.0,27080.0
+First generation,"Total - Highest certificate, diploma or degree",25 to 34 years,3 Health occupations,broad,9420.0,107740.0,16350.0
+First generation,"Total - Highest certificate, diploma or degree",25 to 34 years,30 Specialized middle management occupations in health care,mgmt,175.0,1500.0,335.0
+First generation,"Total - Highest certificate, diploma or degree",25 to 34 years,"4 Occupations in education, law and social, community and government servic",broad,17050.0,127610.0,34355.0
+First generation,"Total - Highest certificate, diploma or degree",25 to 34 years,"5 Occupations in art, culture, recreation and sport",broad,6850.0,43925.0,16485.0
+First generation,"Total - Highest certificate, diploma or degree",25 to 34 years,"50 Specialized middle management occupations in art, culture, recreation an",mgmt,110.0,960.0,440.0
+First generation,"Total - Highest certificate, diploma or degree",25 to 34 years,6 Sales and service occupations,broad,39435.0,329965.0,52600.0
+First generation,"Total - Highest certificate, diploma or degree",25 to 34 years,60 Middle management occupations in retail and wholesale trade and customer,mgmt,7110.0,45705.0,9945.0
+First generation,"Total - Highest certificate, diploma or degree",25 to 34 years,"7 Trades, transport and equipment operators and related occupations",broad,9445.0,166690.0,36995.0
+First generation,"Total - Highest certificate, diploma or degree",25 to 34 years,70 Middle management occupations in trades and transportation,mgmt,1905.0,13865.0,4185.0
+First generation,"Total - Highest certificate, diploma or degree",25 to 34 years,"8 Natural resources, agriculture and related production occupations",broad,505.0,13395.0,5265.0
+First generation,"Total - Highest certificate, diploma or degree",25 to 34 years,80 Middle management occupations in production and agriculture,mgmt,130.0,2340.0,1450.0
+First generation,"Total - Highest certificate, diploma or degree",25 to 34 years,9 Occupations in manufacturing and utilities,broad,2485.0,50955.0,6700.0
+First generation,"Total - Highest certificate, diploma or degree",25 to 34 years,90 Middle management occupations in manufacturing and utilities,mgmt,430.0,3085.0,845.0
+First generation,"Total - Highest certificate, diploma or degree",35 to 44 years,0 Legislative and senior management occupations,mgmt,1630.0,13345.0,5410.0
+First generation,"Total - Highest certificate, diploma or degree",35 to 44 years,"1 Business, finance and administration occupations",broad,36435.0,261985.0,64725.0
+First generation,"Total - Highest certificate, diploma or degree",35 to 44 years,"10 Specialized middle management occupations in administrative services, fi",mgmt,6805.0,42140.0,12285.0
+First generation,"Total - Highest certificate, diploma or degree",35 to 44 years,2 Natural and applied sciences and related occupations,tech_broad,23460.0,194715.0,48610.0
+First generation,"Total - Highest certificate, diploma or degree",35 to 44 years,"20 Specialized middle management occupations in engineering, architecture, ",mgmt,1910.0,18905.0,5590.0
+First generation,"Total - Highest certificate, diploma or degree",35 to 44 years,21 Professional occupations in natural and applied sciences,tech_prof,17300.0,132810.0,31430.0
+First generation,"Total - Highest certificate, diploma or degree",35 to 44 years,3 Health occupations,broad,8195.0,137075.0,23520.0
+First generation,"Total - Highest certificate, diploma or degree",35 to 44 years,30 Specialized middle management occupations in health care,mgmt,270.0,2830.0,835.0
+First generation,"Total - Highest certificate, diploma or degree",35 to 44 years,"4 Occupations in education, law and social, community and government servic",broad,12995.0,154045.0,45720.0
+First generation,"Total - Highest certificate, diploma or degree",35 to 44 years,"5 Occupations in art, culture, recreation and sport",broad,4950.0,40955.0,17510.0
+First generation,"Total - Highest certificate, diploma or degree",35 to 44 years,"50 Specialized middle management occupations in art, culture, recreation an",mgmt,170.0,1385.0,655.0
+First generation,"Total - Highest certificate, diploma or degree",35 to 44 years,6 Sales and service occupations,broad,41820.0,323410.0,54350.0
+First generation,"Total - Highest certificate, diploma or degree",35 to 44 years,60 Middle management occupations in retail and wholesale trade and customer,mgmt,8765.0,54400.0,12435.0
+First generation,"Total - Highest certificate, diploma or degree",35 to 44 years,"7 Trades, transport and equipment operators and related occupations",broad,11915.0,218320.0,54335.0
+First generation,"Total - Highest certificate, diploma or degree",35 to 44 years,70 Middle management occupations in trades and transportation,mgmt,2580.0,20960.0,7185.0
+First generation,"Total - Highest certificate, diploma or degree",35 to 44 years,"8 Natural resources, agriculture and related production occupations",broad,760.0,15675.0,5560.0
+First generation,"Total - Highest certificate, diploma or degree",35 to 44 years,80 Middle management occupations in production and agriculture,mgmt,240.0,3760.0,2110.0
+First generation,"Total - Highest certificate, diploma or degree",35 to 44 years,9 Occupations in manufacturing and utilities,broad,4540.0,75000.0,10055.0
+First generation,"Total - Highest certificate, diploma or degree",35 to 44 years,90 Middle management occupations in manufacturing and utilities,mgmt,730.0,5885.0,1980.0
+First generation,"Total - Highest certificate, diploma or degree",45 to 54 years,0 Legislative and senior management occupations,mgmt,2170.0,17460.0,8580.0
+First generation,"Total - Highest certificate, diploma or degree",45 to 54 years,"1 Business, finance and administration occupations",broad,38275.0,225645.0,69160.0
+First generation,"Total - Highest certificate, diploma or degree",45 to 54 years,"10 Specialized middle management occupations in administrative services, fi",mgmt,5810.0,33395.0,11685.0
+First generation,"Total - Highest certificate, diploma or degree",45 to 54 years,2 Natural and applied sciences and related occupations,tech_broad,32770.0,153990.0,48040.0
+First generation,"Total - Highest certificate, diploma or degree",45 to 54 years,"20 Specialized middle management occupations in engineering, architecture, ",mgmt,2290.0,16225.0,6335.0
+First generation,"Total - Highest certificate, diploma or degree",45 to 54 years,21 Professional occupations in natural and applied sciences,tech_prof,24225.0,99325.0,29895.0
+First generation,"Total - Highest certificate, diploma or degree",45 to 54 years,3 Health occupations,broad,9920.0,130970.0,28785.0
+First generation,"Total - Highest certificate, diploma or degree",45 to 54 years,30 Specialized middle management occupations in health care,mgmt,200.0,2895.0,1205.0
+First generation,"Total - Highest certificate, diploma or degree",45 to 54 years,"4 Occupations in education, law and social, community and government servic",broad,12885.0,146030.0,50580.0
+First generation,"Total - Highest certificate, diploma or degree",45 to 54 years,"5 Occupations in art, culture, recreation and sport",broad,4240.0,30725.0,14455.0
+First generation,"Total - Highest certificate, diploma or degree",45 to 54 years,"50 Specialized middle management occupations in art, culture, recreation an",mgmt,170.0,1200.0,600.0
+First generation,"Total - Highest certificate, diploma or degree",45 to 54 years,6 Sales and service occupations,broad,49295.0,315215.0,66525.0
+First generation,"Total - Highest certificate, diploma or degree",45 to 54 years,60 Middle management occupations in retail and wholesale trade and customer,mgmt,9660.0,53405.0,14465.0
+First generation,"Total - Highest certificate, diploma or degree",45 to 54 years,"7 Trades, transport and equipment operators and related occupations",broad,15900.0,213335.0,63085.0
+First generation,"Total - Highest certificate, diploma or degree",45 to 54 years,70 Middle management occupations in trades and transportation,mgmt,2760.0,21020.0,8310.0
+First generation,"Total - Highest certificate, diploma or degree",45 to 54 years,"8 Natural resources, agriculture and related production occupations",broad,1310.0,15845.0,6345.0
+First generation,"Total - Highest certificate, diploma or degree",45 to 54 years,80 Middle management occupations in production and agriculture,mgmt,520.0,4900.0,2835.0
+First generation,"Total - Highest certificate, diploma or degree",45 to 54 years,9 Occupations in manufacturing and utilities,broad,9385.0,90960.0,14440.0
+First generation,"Total - Highest certificate, diploma or degree",45 to 54 years,90 Middle management occupations in manufacturing and utilities,mgmt,950.0,7260.0,2810.0
+First generation,Bachelor’s degree or higher,Total - Age,0 Legislative and senior management occupations,mgmt,4915.0,38950.0,18455.0
+First generation,Bachelor’s degree or higher,Total - Age,"1 Business, finance and administration occupations",broad,108350.0,591245.0,147930.0
+First generation,Bachelor’s degree or higher,Total - Age,"10 Specialized middle management occupations in administrative services, fi",mgmt,17630.0,95845.0,28905.0
+First generation,Bachelor’s degree or higher,Total - Age,2 Natural and applied sciences and related occupations,tech_broad,96920.0,538370.0,136725.0
+First generation,Bachelor’s degree or higher,Total - Age,"20 Specialized middle management occupations in engineering, architecture, ",mgmt,6170.0,45525.0,15140.0
+First generation,Bachelor’s degree or higher,Total - Age,21 Professional occupations in natural and applied sciences,tech_prof,77735.0,408175.0,102035.0
+First generation,Bachelor’s degree or higher,Total - Age,3 Health occupations,broad,28055.0,285250.0,64200.0
+First generation,Bachelor’s degree or higher,Total - Age,30 Specialized middle management occupations in health care,mgmt,685.0,7330.0,2610.0
+First generation,Bachelor’s degree or higher,Total - Age,"4 Occupations in education, law and social, community and government servic",broad,47055.0,414285.0,146060.0
+First generation,Bachelor’s degree or higher,Total - Age,"5 Occupations in art, culture, recreation and sport",broad,14500.0,96865.0,43820.0
+First generation,Bachelor’s degree or higher,Total - Age,"50 Specialized middle management occupations in art, culture, recreation an",mgmt,410.0,3100.0,1645.0
+First generation,Bachelor’s degree or higher,Total - Age,6 Sales and service occupations,broad,71275.0,505675.0,82440.0
+First generation,Bachelor’s degree or higher,Total - Age,60 Middle management occupations in retail and wholesale trade and customer,mgmt,16510.0,94140.0,20875.0
+First generation,Bachelor’s degree or higher,Total - Age,"7 Trades, transport and equipment operators and related occupations",broad,18485.0,200955.0,44055.0
+First generation,Bachelor’s degree or higher,Total - Age,70 Middle management occupations in trades and transportation,mgmt,4520.0,32395.0,10585.0
+First generation,Bachelor’s degree or higher,Total - Age,"8 Natural resources, agriculture and related production occupations",broad,1250.0,14675.0,5895.0
+First generation,Bachelor’s degree or higher,Total - Age,80 Middle management occupations in production and agriculture,mgmt,505.0,5085.0,2905.0
+First generation,Bachelor’s degree or higher,Total - Age,9 Occupations in manufacturing and utilities,broad,7640.0,83210.0,12165.0
+First generation,Bachelor’s degree or higher,Total - Age,90 Middle management occupations in manufacturing and utilities,mgmt,1900.0,12715.0,4050.0
+First generation,Bachelor’s degree or higher,25 to 34 years,0 Legislative and senior management occupations,mgmt,685.0,4135.0,1525.0
+First generation,Bachelor’s degree or higher,25 to 34 years,"1 Business, finance and administration occupations",broad,34815.0,173565.0,35410.0
+First generation,Bachelor’s degree or higher,25 to 34 years,"10 Specialized middle management occupations in administrative services, fi",mgmt,5220.0,25615.0,6505.0
+First generation,Bachelor’s degree or higher,25 to 34 years,2 Natural and applied sciences and related occupations,tech_broad,24920.0,160420.0,29720.0
+First generation,Bachelor’s degree or higher,25 to 34 years,"20 Specialized middle management occupations in engineering, architecture, ",mgmt,1085.0,8055.0,2190.0
+First generation,Bachelor’s degree or higher,25 to 34 years,21 Professional occupations in natural and applied sciences,tech_prof,21160.0,127545.0,23405.0
+First generation,Bachelor’s degree or higher,25 to 34 years,3 Health occupations,broad,7835.0,70220.0,11090.0
+First generation,Bachelor’s degree or higher,25 to 34 years,30 Specialized middle management occupations in health care,mgmt,145.0,1180.0,250.0
+First generation,Bachelor’s degree or higher,25 to 34 years,"4 Occupations in education, law and social, community and government servic",broad,14955.0,98640.0,27155.0
+First generation,Bachelor’s degree or higher,25 to 34 years,"5 Occupations in art, culture, recreation and sport",broad,5170.0,28815.0,10560.0
+First generation,Bachelor’s degree or higher,25 to 34 years,"50 Specialized middle management occupations in art, culture, recreation an",mgmt,95.0,675.0,330.0
+First generation,Bachelor’s degree or higher,25 to 34 years,6 Sales and service occupations,broad,20355.0,152985.0,20500.0
+First generation,Bachelor’s degree or higher,25 to 34 years,60 Middle management occupations in retail and wholesale trade and customer,mgmt,4280.0,24935.0,4815.0
+First generation,Bachelor’s degree or higher,25 to 34 years,"7 Trades, transport and equipment operators and related occupations",broad,3210.0,46925.0,7790.0
+First generation,Bachelor’s degree or higher,25 to 34 years,70 Middle management occupations in trades and transportation,mgmt,990.0,7335.0,2045.0
+First generation,Bachelor’s degree or higher,25 to 34 years,"8 Natural resources, agriculture and related production occupations",broad,200.0,3160.0,1240.0
+First generation,Bachelor’s degree or higher,25 to 34 years,80 Middle management occupations in production and agriculture,mgmt,80.0,720.0,390.0
+First generation,Bachelor’s degree or higher,25 to 34 years,9 Occupations in manufacturing and utilities,broad,1185.0,17605.0,1950.0
+First generation,Bachelor’s degree or higher,25 to 34 years,90 Middle management occupations in manufacturing and utilities,mgmt,335.0,2210.0,540.0
+First generation,Bachelor’s degree or higher,35 to 44 years,0 Legislative and senior management occupations,mgmt,1325.0,9730.0,3855.0
+First generation,Bachelor’s degree or higher,35 to 44 years,"1 Business, finance and administration occupations",broad,27250.0,172840.0,40505.0
+First generation,Bachelor’s degree or higher,35 to 44 years,"10 Specialized middle management occupations in administrative services, fi",mgmt,5585.0,32305.0,9080.0
+First generation,Bachelor’s degree or higher,35 to 44 years,2 Natural and applied sciences and related occupations,tech_broad,20415.0,158290.0,36035.0
+First generation,Bachelor’s degree or higher,35 to 44 years,"20 Specialized middle management occupations in engineering, architecture, ",mgmt,1780.0,16500.0,4500.0
+First generation,Bachelor’s degree or higher,35 to 44 years,21 Professional occupations in natural and applied sciences,tech_prof,16040.0,118335.0,26155.0
+First generation,Bachelor’s degree or higher,35 to 44 years,3 Health occupations,broad,6030.0,81675.0,15470.0
+First generation,Bachelor’s degree or higher,35 to 44 years,30 Specialized middle management occupations in health care,mgmt,195.0,2285.0,680.0
+First generation,Bachelor’s degree or higher,35 to 44 years,"4 Occupations in education, law and social, community and government servic",broad,10575.0,110820.0,34665.0
+First generation,Bachelor’s degree or higher,35 to 44 years,"5 Occupations in art, culture, recreation and sport",broad,3370.0,25865.0,10970.0
+First generation,Bachelor’s degree or higher,35 to 44 years,"50 Specialized middle management occupations in art, culture, recreation an",mgmt,100.0,860.0,430.0
+First generation,Bachelor’s degree or higher,35 to 44 years,6 Sales and service occupations,broad,16770.0,128485.0,19700.0
+First generation,Bachelor’s degree or higher,35 to 44 years,60 Middle management occupations in retail and wholesale trade and customer,mgmt,4405.0,27145.0,5725.0
+First generation,Bachelor’s degree or higher,35 to 44 years,"7 Trades, transport and equipment operators and related occupations",broad,3865.0,56495.0,11305.0
+First generation,Bachelor’s degree or higher,35 to 44 years,70 Middle management occupations in trades and transportation,mgmt,1240.0,9430.0,2630.0
+First generation,Bachelor’s degree or higher,35 to 44 years,"8 Natural resources, agriculture and related production occupations",broad,190.0,3625.0,1180.0
+First generation,Bachelor’s degree or higher,35 to 44 years,80 Middle management occupations in production and agriculture,mgmt,75.0,1165.0,595.0
+First generation,Bachelor’s degree or higher,35 to 44 years,9 Occupations in manufacturing and utilities,broad,1290.0,22470.0,3190.0
+First generation,Bachelor’s degree or higher,35 to 44 years,90 Middle management occupations in manufacturing and utilities,mgmt,500.0,3675.0,1075.0
+First generation,Bachelor’s degree or higher,45 to 54 years,0 Legislative and senior management occupations,mgmt,1555.0,12165.0,5775.0
+First generation,Bachelor’s degree or higher,45 to 54 years,"1 Business, finance and administration occupations",broad,25660.0,127385.0,34000.0
+First generation,Bachelor’s degree or higher,45 to 54 years,"10 Specialized middle management occupations in administrative services, fi",mgmt,4435.0,23210.0,7575.0
+First generation,Bachelor’s degree or higher,45 to 54 years,2 Natural and applied sciences and related occupations,tech_broad,28790.0,118985.0,34155.0
+First generation,Bachelor’s degree or higher,45 to 54 years,"20 Specialized middle management occupations in engineering, architecture, ",mgmt,2080.0,13350.0,4900.0
+First generation,Bachelor’s degree or higher,45 to 54 years,21 Professional occupations in natural and applied sciences,tech_prof,22615.0,86075.0,24405.0
+First generation,Bachelor’s degree or higher,45 to 54 years,3 Health occupations,broad,6520.0,71330.0,16300.0
+First generation,Bachelor’s degree or higher,45 to 54 years,30 Specialized middle management occupations in health care,mgmt,150.0,2220.0,895.0
+First generation,Bachelor’s degree or higher,45 to 54 years,"4 Occupations in education, law and social, community and government servic",broad,9670.0,98325.0,35980.0
+First generation,Bachelor’s degree or higher,45 to 54 years,"5 Occupations in art, culture, recreation and sport",broad,2605.0,17680.0,8300.0
+First generation,Bachelor’s degree or higher,45 to 54 years,"50 Specialized middle management occupations in art, culture, recreation an",mgmt,110.0,775.0,415.0
+First generation,Bachelor’s degree or higher,45 to 54 years,6 Sales and service occupations,broad,16770.0,97395.0,16450.0
+First generation,Bachelor’s degree or higher,45 to 54 years,60 Middle management occupations in retail and wholesale trade and customer,mgmt,4550.0,21950.0,4820.0
+First generation,Bachelor’s degree or higher,45 to 54 years,"7 Trades, transport and equipment operators and related occupations",broad,5735.0,48015.0,10380.0
+First generation,Bachelor’s degree or higher,45 to 54 years,70 Middle management occupations in trades and transportation,mgmt,1265.0,8105.0,2675.0
+First generation,Bachelor’s degree or higher,45 to 54 years,"8 Natural resources, agriculture and related production occupations",broad,385.0,3070.0,945.0
+First generation,Bachelor’s degree or higher,45 to 54 years,80 Middle management occupations in production and agriculture,mgmt,170.0,1155.0,540.0
+First generation,Bachelor’s degree or higher,45 to 54 years,9 Occupations in manufacturing and utilities,broad,2180.0,21745.0,3200.0
+First generation,Bachelor’s degree or higher,45 to 54 years,90 Middle management occupations in manufacturing and utilities,mgmt,575.0,3750.0,1255.0
+Second generation,"Total - Highest certificate, diploma or degree",Total - Age,0 Legislative and senior management occupations,mgmt,1550.0,46550.0,39320.0
+Second generation,"Total - Highest certificate, diploma or degree",Total - Age,"1 Business, finance and administration occupations",broad,47060.0,627080.0,427675.0
+Second generation,"Total - Highest certificate, diploma or degree",Total - Age,"10 Specialized middle management occupations in administrative services, fi",mgmt,7110.0,91705.0,64560.0
+Second generation,"Total - Highest certificate, diploma or degree",Total - Age,2 Natural and applied sciences and related occupations,tech_broad,28170.0,247355.0,162120.0
+Second generation,"Total - Highest certificate, diploma or degree",Total - Age,"20 Specialized middle management occupations in engineering, architecture, ",mgmt,2130.0,23085.0,16550.0
+Second generation,"Total - Highest certificate, diploma or degree",Total - Age,21 Professional occupations in natural and applied sciences,tech_prof,19855.0,140575.0,86150.0
+Second generation,"Total - Highest certificate, diploma or degree",Total - Age,3 Health occupations,broad,19060.0,229440.0,144995.0
+Second generation,"Total - Highest certificate, diploma or degree",Total - Age,30 Specialized middle management occupations in health care,mgmt,305.0,6615.0,4800.0
+Second generation,"Total - Highest certificate, diploma or degree",Total - Age,"4 Occupations in education, law and social, community and government servic",broad,23600.0,429260.0,309905.0
+Second generation,"Total - Highest certificate, diploma or degree",Total - Age,"5 Occupations in art, culture, recreation and sport",broad,10920.0,139555.0,95415.0
+Second generation,"Total - Highest certificate, diploma or degree",Total - Age,"50 Specialized middle management occupations in art, culture, recreation an",mgmt,290.0,5595.0,4350.0
+Second generation,"Total - Highest certificate, diploma or degree",Total - Age,6 Sales and service occupations,broad,41475.0,802725.0,499930.0
+Second generation,"Total - Highest certificate, diploma or degree",Total - Age,60 Middle management occupations in retail and wholesale trade and customer,mgmt,5520.0,113755.0,86590.0
+Second generation,"Total - Highest certificate, diploma or degree",Total - Age,"7 Trades, transport and equipment operators and related occupations",broad,10805.0,444855.0,353740.0
+Second generation,"Total - Highest certificate, diploma or degree",Total - Age,70 Middle management occupations in trades and transportation,mgmt,1775.0,50665.0,41865.0
+Second generation,"Total - Highest certificate, diploma or degree",Total - Age,"8 Natural resources, agriculture and related production occupations",broad,1015.0,75845.0,67375.0
+Second generation,"Total - Highest certificate, diploma or degree",Total - Age,80 Middle management occupations in production and agriculture,mgmt,160.0,26645.0,25785.0
+Second generation,"Total - Highest certificate, diploma or degree",Total - Age,9 Occupations in manufacturing and utilities,broad,2935.0,94095.0,72035.0
+Second generation,"Total - Highest certificate, diploma or degree",Total - Age,90 Middle management occupations in manufacturing and utilities,mgmt,510.0,14425.0,12280.0
+Second generation,"Total - Highest certificate, diploma or degree",25 to 34 years,0 Legislative and senior management occupations,mgmt,295.0,4055.0,2365.0
+Second generation,"Total - Highest certificate, diploma or degree",25 to 34 years,"1 Business, finance and administration occupations",broad,17375.0,148750.0,67525.0
+Second generation,"Total - Highest certificate, diploma or degree",25 to 34 years,"10 Specialized middle management occupations in administrative services, fi",mgmt,2540.0,20150.0,9690.0
+Second generation,"Total - Highest certificate, diploma or degree",25 to 34 years,2 Natural and applied sciences and related occupations,tech_broad,10555.0,67485.0,32040.0
+Second generation,"Total - Highest certificate, diploma or degree",25 to 34 years,"20 Specialized middle management occupations in engineering, architecture, ",mgmt,525.0,3465.0,1630.0
+Second generation,"Total - Highest certificate, diploma or degree",25 to 34 years,21 Professional occupations in natural and applied sciences,tech_prof,7770.0,43045.0,19320.0
+Second generation,"Total - Highest certificate, diploma or degree",25 to 34 years,3 Health occupations,broad,8600.0,70120.0,30670.0
+Second generation,"Total - Highest certificate, diploma or degree",25 to 34 years,30 Specialized middle management occupations in health care,mgmt,95.0,1130.0,505.0
+Second generation,"Total - Highest certificate, diploma or degree",25 to 34 years,"4 Occupations in education, law and social, community and government servic",broad,8015.0,103530.0,56930.0
+Second generation,"Total - Highest certificate, diploma or degree",25 to 34 years,"5 Occupations in art, culture, recreation and sport",broad,3510.0,33855.0,18585.0
+Second generation,"Total - Highest certificate, diploma or degree",25 to 34 years,"50 Specialized middle management occupations in art, culture, recreation an",mgmt,100.0,1115.0,665.0
+Second generation,"Total - Highest certificate, diploma or degree",25 to 34 years,6 Sales and service occupations,broad,11805.0,160725.0,78340.0
+Second generation,"Total - Highest certificate, diploma or degree",25 to 34 years,60 Middle management occupations in retail and wholesale trade and customer,mgmt,2145.0,25075.0,13230.0
+Second generation,"Total - Highest certificate, diploma or degree",25 to 34 years,"7 Trades, transport and equipment operators and related occupations",broad,3600.0,95835.0,60285.0
+Second generation,"Total - Highest certificate, diploma or degree",25 to 34 years,70 Middle management occupations in trades and transportation,mgmt,585.0,9000.0,5425.0
+Second generation,"Total - Highest certificate, diploma or degree",25 to 34 years,"8 Natural resources, agriculture and related production occupations",broad,260.0,10485.0,8230.0
+Second generation,"Total - Highest certificate, diploma or degree",25 to 34 years,80 Middle management occupations in production and agriculture,mgmt,40.0,2135.0,1875.0
+Second generation,"Total - Highest certificate, diploma or degree",25 to 34 years,9 Occupations in manufacturing and utilities,broad,870.0,18415.0,10850.0
+Second generation,"Total - Highest certificate, diploma or degree",25 to 34 years,90 Middle management occupations in manufacturing and utilities,mgmt,160.0,1780.0,1035.0
+Second generation,"Total - Highest certificate, diploma or degree",35 to 44 years,0 Legislative and senior management occupations,mgmt,520.0,10475.0,7525.0
+Second generation,"Total - Highest certificate, diploma or degree",35 to 44 years,"1 Business, finance and administration occupations",broad,11510.0,136830.0,87200.0
+Second generation,"Total - Highest certificate, diploma or degree",35 to 44 years,"10 Specialized middle management occupations in administrative services, fi",mgmt,2765.0,28230.0,17620.0
+Second generation,"Total - Highest certificate, diploma or degree",35 to 44 years,2 Natural and applied sciences and related occupations,tech_broad,6985.0,59465.0,37585.0
+Second generation,"Total - Highest certificate, diploma or degree",35 to 44 years,"20 Specialized middle management occupations in engineering, architecture, ",mgmt,935.0,7555.0,4610.0
+Second generation,"Total - Highest certificate, diploma or degree",35 to 44 years,21 Professional occupations in natural and applied sciences,tech_prof,4725.0,33120.0,20025.0
+Second generation,"Total - Highest certificate, diploma or degree",35 to 44 years,3 Health occupations,broad,5070.0,54285.0,32865.0
+Second generation,"Total - Highest certificate, diploma or degree",35 to 44 years,30 Specialized middle management occupations in health care,mgmt,125.0,2095.0,1325.0
+Second generation,"Total - Highest certificate, diploma or degree",35 to 44 years,"4 Occupations in education, law and social, community and government servic",broad,5745.0,106575.0,75895.0
+Second generation,"Total - Highest certificate, diploma or degree",35 to 44 years,"5 Occupations in art, culture, recreation and sport",broad,2190.0,28385.0,19440.0
+Second generation,"Total - Highest certificate, diploma or degree",35 to 44 years,"50 Specialized middle management occupations in art, culture, recreation an",mgmt,75.0,1615.0,1155.0
+Second generation,"Total - Highest certificate, diploma or degree",35 to 44 years,6 Sales and service occupations,broad,6115.0,112720.0,78605.0
+Second generation,"Total - Highest certificate, diploma or degree",35 to 44 years,60 Middle management occupations in retail and wholesale trade and customer,mgmt,1765.0,28940.0,20875.0
+Second generation,"Total - Highest certificate, diploma or degree",35 to 44 years,"7 Trades, transport and equipment operators and related occupations",broad,2425.0,88760.0,69585.0
+Second generation,"Total - Highest certificate, diploma or degree",35 to 44 years,70 Middle management occupations in trades and transportation,mgmt,625.0,12470.0,9525.0
+Second generation,"Total - Highest certificate, diploma or degree",35 to 44 years,"8 Natural resources, agriculture and related production occupations",broad,150.0,9610.0,8670.0
+Second generation,"Total - Highest certificate, diploma or degree",35 to 44 years,80 Middle management occupations in production and agriculture,mgmt,45.0,3050.0,2810.0
+Second generation,"Total - Highest certificate, diploma or degree",35 to 44 years,9 Occupations in manufacturing and utilities,broad,635.0,17310.0,13300.0
+Second generation,"Total - Highest certificate, diploma or degree",35 to 44 years,90 Middle management occupations in manufacturing and utilities,mgmt,185.0,3440.0,2630.0
+Second generation,"Total - Highest certificate, diploma or degree",45 to 54 years,0 Legislative and senior management occupations,mgmt,430.0,14810.0,13050.0
+Second generation,"Total - Highest certificate, diploma or degree",45 to 54 years,"1 Business, finance and administration occupations",broad,5440.0,129995.0,111295.0
+Second generation,"Total - Highest certificate, diploma or degree",45 to 54 years,"10 Specialized middle management occupations in administrative services, fi",mgmt,1015.0,23695.0,20030.0
+Second generation,"Total - Highest certificate, diploma or degree",45 to 54 years,2 Natural and applied sciences and related occupations,tech_broad,3265.0,49110.0,40430.0
+Second generation,"Total - Highest certificate, diploma or degree",45 to 54 years,"20 Specialized middle management occupations in engineering, architecture, ",mgmt,400.0,7220.0,5935.0
+Second generation,"Total - Highest certificate, diploma or degree",45 to 54 years,21 Professional occupations in natural and applied sciences,tech_prof,2060.0,25525.0,20465.0
+Second generation,"Total - Highest certificate, diploma or degree",45 to 54 years,3 Health occupations,broad,2200.0,41575.0,33785.0
+Second generation,"Total - Highest certificate, diploma or degree",45 to 54 years,30 Specialized middle management occupations in health care,mgmt,50.0,1870.0,1575.0
+Second generation,"Total - Highest certificate, diploma or degree",45 to 54 years,"4 Occupations in education, law and social, community and government servic",broad,2740.0,96640.0,83300.0
+Second generation,"Total - Highest certificate, diploma or degree",45 to 54 years,"5 Occupations in art, culture, recreation and sport",broad,920.0,22235.0,18700.0
+Second generation,"Total - Highest certificate, diploma or degree",45 to 54 years,"50 Specialized middle management occupations in art, culture, recreation an",mgmt,65.0,1410.0,1240.0
+Second generation,"Total - Highest certificate, diploma or degree",45 to 54 years,6 Sales and service occupations,broad,2910.0,107545.0,94630.0
+Second generation,"Total - Highest certificate, diploma or degree",45 to 54 years,60 Middle management occupations in retail and wholesale trade and customer,mgmt,710.0,27765.0,24715.0
+Second generation,"Total - Highest certificate, diploma or degree",45 to 54 years,"7 Trades, transport and equipment operators and related occupations",broad,1220.0,88800.0,81695.0
+Second generation,"Total - Highest certificate, diploma or degree",45 to 54 years,70 Middle management occupations in trades and transportation,mgmt,225.0,13035.0,12015.0
+Second generation,"Total - Highest certificate, diploma or degree",45 to 54 years,"8 Natural resources, agriculture and related production occupations",broad,70.0,10240.0,9840.0
+Second generation,"Total - Highest certificate, diploma or degree",45 to 54 years,80 Middle management occupations in production and agriculture,mgmt,30.0,3905.0,3780.0
+Second generation,"Total - Highest certificate, diploma or degree",45 to 54 years,9 Occupations in manufacturing and utilities,broad,300.0,19750.0,18105.0
+Second generation,"Total - Highest certificate, diploma or degree",45 to 54 years,90 Middle management occupations in manufacturing and utilities,mgmt,95.0,4345.0,3970.0
+Second generation,Bachelor’s degree or higher,Total - Age,0 Legislative and senior management occupations,mgmt,1250.0,27090.0,22020.0
+Second generation,Bachelor’s degree or higher,Total - Age,"1 Business, finance and administration occupations",broad,31200.0,261515.0,156990.0
+Second generation,Bachelor’s degree or higher,Total - Age,"10 Specialized middle management occupations in administrative services, fi",mgmt,5780.0,53335.0,34775.0
+Second generation,Bachelor’s degree or higher,Total - Age,2 Natural and applied sciences and related occupations,tech_broad,20035.0,133020.0,80360.0
+Second generation,Bachelor’s degree or higher,Total - Age,"20 Specialized middle management occupations in engineering, architecture, ",mgmt,1855.0,15370.0,10355.0
+Second generation,Bachelor’s degree or higher,Total - Age,21 Professional occupations in natural and applied sciences,tech_prof,15505.0,99495.0,59090.0
+Second generation,Bachelor’s degree or higher,Total - Age,3 Health occupations,broad,15530.0,126875.0,72885.0
+Second generation,Bachelor’s degree or higher,Total - Age,30 Specialized middle management occupations in health care,mgmt,290.0,4480.0,3075.0
+Second generation,Bachelor’s degree or higher,Total - Age,"4 Occupations in education, law and social, community and government servic",broad,17490.0,285765.0,206820.0
+Second generation,Bachelor’s degree or higher,Total - Age,"5 Occupations in art, culture, recreation and sport",broad,5620.0,57605.0,40095.0
+Second generation,Bachelor’s degree or higher,Total - Age,"50 Specialized middle management occupations in art, culture, recreation an",mgmt,155.0,3035.0,2320.0
+Second generation,Bachelor’s degree or higher,Total - Age,6 Sales and service occupations,broad,12550.0,133020.0,78950.0
+Second generation,Bachelor’s degree or higher,Total - Age,60 Middle management occupations in retail and wholesale trade and customer,mgmt,2935.0,31795.0,21770.0
+Second generation,Bachelor’s degree or higher,Total - Age,"7 Trades, transport and equipment operators and related occupations",broad,2540.0,37710.0,27265.0
+Second generation,Bachelor’s degree or higher,Total - Age,70 Middle management occupations in trades and transportation,mgmt,885.0,12625.0,9420.0
+Second generation,Bachelor’s degree or higher,Total - Age,"8 Natural resources, agriculture and related production occupations",broad,225.0,8555.0,7540.0
+Second generation,Bachelor’s degree or higher,Total - Age,80 Middle management occupations in production and agriculture,mgmt,80.0,4085.0,3775.0
+Second generation,Bachelor’s degree or higher,Total - Age,9 Occupations in manufacturing and utilities,broad,955.0,11350.0,8045.0
+Second generation,Bachelor’s degree or higher,Total - Age,90 Middle management occupations in manufacturing and utilities,mgmt,390.0,5120.0,3960.0
+Second generation,Bachelor’s degree or higher,25 to 34 years,0 Legislative and senior management occupations,mgmt,240.0,2515.0,1380.0
+Second generation,Bachelor’s degree or higher,25 to 34 years,"1 Business, finance and administration occupations",broad,13800.0,85900.0,35555.0
+Second generation,Bachelor’s degree or higher,25 to 34 years,"10 Specialized middle management occupations in administrative services, fi",mgmt,2215.0,14255.0,6605.0
+Second generation,Bachelor’s degree or higher,25 to 34 years,2 Natural and applied sciences and related occupations,tech_broad,8815.0,44275.0,19275.0
+Second generation,Bachelor’s degree or higher,25 to 34 years,"20 Specialized middle management occupations in engineering, architecture, ",mgmt,500.0,2765.0,1230.0
+Second generation,Bachelor’s degree or higher,25 to 34 years,21 Professional occupations in natural and applied sciences,tech_prof,7025.0,34875.0,15070.0
+Second generation,Bachelor’s degree or higher,25 to 34 years,3 Health occupations,broad,7365.0,45145.0,18170.0
+Second generation,Bachelor’s degree or higher,25 to 34 years,30 Specialized middle management occupations in health care,mgmt,90.0,820.0,355.0
+Second generation,Bachelor’s degree or higher,25 to 34 years,"4 Occupations in education, law and social, community and government servic",broad,6990.0,74765.0,40515.0
+Second generation,Bachelor’s degree or higher,25 to 34 years,"5 Occupations in art, culture, recreation and sport",broad,2370.0,17145.0,9335.0
+Second generation,Bachelor’s degree or higher,25 to 34 years,"50 Specialized middle management occupations in art, culture, recreation an",mgmt,60.0,610.0,370.0
+Second generation,Bachelor’s degree or higher,25 to 34 years,6 Sales and service occupations,broad,5530.0,43195.0,18895.0
+Second generation,Bachelor’s degree or higher,25 to 34 years,60 Middle management occupations in retail and wholesale trade and customer,mgmt,1220.0,8905.0,4380.0
+Second generation,Bachelor’s degree or higher,25 to 34 years,"7 Trades, transport and equipment operators and related occupations",broad,1130.0,10400.0,5490.0
+Second generation,Bachelor’s degree or higher,25 to 34 years,70 Middle management occupations in trades and transportation,mgmt,370.0,3225.0,1740.0
+Second generation,Bachelor’s degree or higher,25 to 34 years,"8 Natural resources, agriculture and related production occupations",broad,85.0,1620.0,1215.0
+Second generation,Bachelor’s degree or higher,25 to 34 years,80 Middle management occupations in production and agriculture,mgmt,25.0,430.0,335.0
+Second generation,Bachelor’s degree or higher,25 to 34 years,9 Occupations in manufacturing and utilities,broad,345.0,2895.0,1470.0
+Second generation,Bachelor’s degree or higher,25 to 34 years,90 Middle management occupations in manufacturing and utilities,mgmt,130.0,900.0,485.0
+Second generation,Bachelor’s degree or higher,35 to 44 years,0 Legislative and senior management occupations,mgmt,435.0,6630.0,4535.0
+Second generation,Bachelor’s degree or higher,35 to 44 years,"1 Business, finance and administration occupations",broad,8450.0,64760.0,37090.0
+Second generation,Bachelor’s degree or higher,35 to 44 years,"10 Specialized middle management occupations in administrative services, fi",mgmt,2280.0,17695.0,10425.0
+Second generation,Bachelor’s degree or higher,35 to 44 years,2 Natural and applied sciences and related occupations,tech_broad,5445.0,33320.0,19315.0
+Second generation,Bachelor’s degree or higher,35 to 44 years,"20 Specialized middle management occupations in engineering, architecture, ",mgmt,805.0,5125.0,2910.0
+Second generation,Bachelor’s degree or higher,35 to 44 years,21 Professional occupations in natural and applied sciences,tech_prof,4000.0,24005.0,13900.0
+Second generation,Bachelor’s degree or higher,35 to 44 years,3 Health occupations,broad,4505.0,34115.0,18660.0
+Second generation,Bachelor’s degree or higher,35 to 44 years,30 Specialized middle management occupations in health care,mgmt,125.0,1515.0,885.0
+Second generation,Bachelor’s degree or higher,35 to 44 years,"4 Occupations in education, law and social, community and government servic",broad,4950.0,77275.0,54375.0
+Second generation,Bachelor’s degree or higher,35 to 44 years,"5 Occupations in art, culture, recreation and sport",broad,1465.0,13935.0,9350.0
+Second generation,Bachelor’s degree or higher,35 to 44 years,"50 Specialized middle management occupations in art, culture, recreation an",mgmt,45.0,980.0,690.0
+Second generation,Bachelor’s degree or higher,35 to 44 years,6 Sales and service occupations,broad,2725.0,25800.0,16140.0
+Second generation,Bachelor’s degree or higher,35 to 44 years,60 Middle management occupations in retail and wholesale trade and customer,mgmt,1035.0,9030.0,5785.0
+Second generation,Bachelor’s degree or higher,35 to 44 years,"7 Trades, transport and equipment operators and related occupations",broad,635.0,8610.0,6055.0
+Second generation,Bachelor’s degree or higher,35 to 44 years,70 Middle management occupations in trades and transportation,mgmt,315.0,3365.0,2340.0
+Second generation,Bachelor’s degree or higher,35 to 44 years,"8 Natural resources, agriculture and related production occupations",broad,35.0,1500.0,1320.0
+Second generation,Bachelor’s degree or higher,35 to 44 years,80 Middle management occupations in production and agriculture,mgmt,10.0,775.0,690.0
+Second generation,Bachelor’s degree or higher,35 to 44 years,9 Occupations in manufacturing and utilities,broad,310.0,2810.0,1865.0
+Second generation,Bachelor’s degree or higher,35 to 44 years,90 Middle management occupations in manufacturing and utilities,mgmt,145.0,1390.0,940.0
+Second generation,Bachelor’s degree or higher,45 to 54 years,0 Legislative and senior management occupations,mgmt,350.0,9075.0,7755.0
+Second generation,Bachelor’s degree or higher,45 to 54 years,"1 Business, finance and administration occupations",broad,3560.0,49390.0,39615.0
+Second generation,Bachelor’s degree or higher,45 to 54 years,"10 Specialized middle management occupations in administrative services, fi",mgmt,795.0,13005.0,10595.0
+Second generation,Bachelor’s degree or higher,45 to 54 years,2 Natural and applied sciences and related occupations,tech_broad,2350.0,25255.0,19865.0
+Second generation,Bachelor’s degree or higher,45 to 54 years,"20 Specialized middle management occupations in engineering, architecture, ",mgmt,345.0,4615.0,3715.0
+Second generation,Bachelor’s degree or higher,45 to 54 years,21 Professional occupations in natural and applied sciences,tech_prof,1740.0,17500.0,13625.0
+Second generation,Bachelor’s degree or higher,45 to 54 years,3 Health occupations,broad,1820.0,21510.0,16030.0
+Second generation,Bachelor’s degree or higher,45 to 54 years,30 Specialized middle management occupations in health care,mgmt,50.0,1225.0,995.0
+Second generation,Bachelor’s degree or higher,45 to 54 years,"4 Occupations in education, law and social, community and government servic",broad,2280.0,66955.0,56930.0
+Second generation,Bachelor’s degree or higher,45 to 54 years,"5 Occupations in art, culture, recreation and sport",broad,610.0,10510.0,8645.0
+Second generation,Bachelor’s degree or higher,45 to 54 years,"50 Specialized middle management occupations in art, culture, recreation an",mgmt,30.0,775.0,680.0
+Second generation,Bachelor’s degree or higher,45 to 54 years,6 Sales and service occupations,broad,1115.0,20830.0,17100.0
+Second generation,Bachelor’s degree or higher,45 to 54 years,60 Middle management occupations in retail and wholesale trade and customer,mgmt,325.0,7285.0,6135.0
+Second generation,Bachelor’s degree or higher,45 to 54 years,"7 Trades, transport and equipment operators and related occupations",broad,305.0,7810.0,6770.0
+Second generation,Bachelor’s degree or higher,45 to 54 years,70 Middle management occupations in trades and transportation,mgmt,95.0,2800.0,2460.0
+Second generation,Bachelor’s degree or higher,45 to 54 years,"8 Natural resources, agriculture and related production occupations",broad,40.0,1340.0,1235.0
+Second generation,Bachelor’s degree or higher,45 to 54 years,80 Middle management occupations in production and agriculture,mgmt,25.0,755.0,690.0
+Second generation,Bachelor’s degree or higher,45 to 54 years,9 Occupations in manufacturing and utilities,broad,130.0,2565.0,2235.0
+Second generation,Bachelor’s degree or higher,45 to 54 years,90 Middle management occupations in manufacturing and utilities,mgmt,70.0,1485.0,1275.0

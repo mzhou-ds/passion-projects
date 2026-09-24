@@ -1,0 +1,7 @@
+# Raw bulk downloads (GBs; reproducible via README fetch steps)
+data/raw/*.zip
+data/raw/*.xlsx
+# IRCC bulk CSVs live under data/raw/ircc/ and data/raw/ircc_*.csv (kept)
+__pycache__/
+*.pyc
+.DS_Store

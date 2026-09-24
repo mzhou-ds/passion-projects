@@ -1,0 +1,70 @@
+{
+  "Apple": {
+    "n": 411,
+    "median": 203794
+  },
+  "Google": {
+    "n": 351,
+    "median": 225965
+  },
+  "Amazon": {
+    "n": 255,
+    "median": 207400
+  },
+  "Meta": {
+    "n": 194,
+    "median": 229501
+  },
+  "Salesforce": {
+    "n": 133,
+    "median": 242754
+  },
+  "Microsoft": {
+    "n": 108,
+    "median": 202210
+  },
+  "Nvidia": {
+    "n": 103,
+    "median": 201989
+  },
+  "Adobe": {
+    "n": 56,
+    "median": 215000
+  },
+  "Uber": {
+    "n": 51,
+    "median": 203800
+  },
+  "DoorDash": {
+    "n": 30,
+    "median": 188000
+  },
+  "Cisco": {
+    "n": 18,
+    "median": 192724
+  },
+  "Intel": {
+    "n": 15,
+    "median": 182460
+  },
+  "Lyft": {
+    "n": 12,
+    "median": 188000
+  },
+  "Airbnb": {
+    "n": 12,
+    "median": 191000
+  },
+  "Oracle": {
+    "n": 7,
+    "median": 216615
+  },
+  "Netflix": {
+    "n": 1,
+    "median": 264514
+  },
+  "Stripe": {
+    "n": 1,
+    "median": 213512
+  }
+}

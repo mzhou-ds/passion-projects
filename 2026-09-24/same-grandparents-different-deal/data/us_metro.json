@@ -1,0 +1,32 @@
+{
+  "San Francisco": {
+    "chinese_pop": 517772.0,
+    "asian_medhh": 160521.0,
+    "total_medhh": 136027.0
+  },
+  "San Jose": {
+    "chinese_pop": 238055.0,
+    "asian_medhh": 207168.0,
+    "total_medhh": 162111.0
+  },
+  "Seattle": {
+    "chinese_pop": 162789.0,
+    "asian_medhh": 149641.0,
+    "total_medhh": 115177.0
+  },
+  "Los Angeles": {
+    "chinese_pop": 603219.0,
+    "asian_medhh": 109028.0,
+    "total_medhh": 95958.0
+  },
+  "New York": {
+    "chinese_pop": 828392.0,
+    "asian_medhh": 118764.0,
+    "total_medhh": 99155.0
+  },
+  "Washington DC": {
+    "chinese_pop": 114823.0,
+    "asian_medhh": 148784.0,
+    "total_medhh": 126684.0
+  }
+}
