@@ -1,0 +1,496 @@
+{
+  "citation": "Kim & Escobedo-Land (2015), Journal of Statistics Education; revised dataset via rudeboybert/JSE_OkCupid",
+  "sample": "OKCupid profiles, San Francisco 25-mile radius, June 2012, active accounts with photos",
+  "n_total": 59946,
+  "n_male": 35829,
+  "n_female": 24117,
+  "pct_male": 59.77,
+  "sex_ratio_m_per_100_f": 148.6,
+  "missingness_pct": {
+    "age": 0.0,
+    "body_type": 8.83,
+    "diet": 40.69,
+    "drinks": 4.98,
+    "drugs": 23.49,
+    "education": 11.06,
+    "ethnicity": 9.48,
+    "height": 0.01,
+    "income": 0.0,
+    "job": 13.68,
+    "offspring": 59.32,
+    "orientation": 0.0,
+    "pets": 33.23,
+    "religion": 33.74,
+    "sex": 0.0,
+    "sign": 18.44,
+    "smokes": 9.19,
+    "speaks": 0.08,
+    "status": 0.0
+  },
+  "age": {
+    "min": 17.0,
+    "max": 111.0,
+    "n_outside_18_69": 107,
+    "pct_outside_18_69": 0.18,
+    "median_male": 30.0,
+    "median_female": 30.0
+  },
+  "orientation_pct": {
+    "straight": 86.09,
+    "gay": 9.3,
+    "bisexual": 4.62
+  },
+  "n_adult_18_69": 59839,
+  "straight": {
+    "n": 51525,
+    "n_male": 31034,
+    "n_female": 20491,
+    "male_share_pct": 60.23,
+    "m_per_100_f": 151.5,
+    "male_share_by_bucket": {
+      "18-19": 58.0,
+      "20-24": 61.38,
+      "25-29": 63.66,
+      "30-34": 60.56,
+      "35-39": 59.15,
+      "40-44": 57.9,
+      "45-49": 57.31,
+      "50-54": 51.23,
+      "55-59": 49.63,
+      "60-64": 44.93,
+      "65-69": 44.48
+    },
+    "n_by_bucket": {
+      "18-19": 731,
+      "20-24": 8152,
+      "25-29": 15324,
+      "30-34": 11056,
+      "35-39": 6330,
+      "40-44": 4059,
+      "45-49": 2286,
+      "50-54": 1425,
+      "55-59": 1088,
+      "60-64": 730,
+      "65-69": 344
+    }
+  },
+  "height": {
+    "mean_m": 70.44,
+    "mean_f": 65.1,
+    "median_m": 70.0,
+    "median_f": 65.0,
+    "pct_men_ge_72": 36.63,
+    "pct_women_ge_66": 43.97,
+    "men_spike_72": {
+      "n_at": 5113,
+      "pct_at": 14.29,
+      "n_neighbors": [
+        4442,
+        2762
+      ],
+      "expected": 3602.0,
+      "excess_pct_vs_neighbors": 41.9
+    },
+    "men_spike_70": {
+      "n_at": 5293,
+      "pct_at": 14.79,
+      "n_neighbors": [
+        3951,
+        4442
+      ],
+      "expected": 4196.5,
+      "excess_pct_vs_neighbors": 26.1
+    },
+    "women_spike_66": {
+      "n_at": 3170,
+      "pct_at": 13.18,
+      "n_neighbors": [
+        3077,
+        2782
+      ],
+      "expected": 2929.5,
+      "excess_pct_vs_neighbors": 8.2
+    },
+    "women_spike_64": {
+      "n_at": 3473,
+      "pct_at": 14.44,
+      "n_neighbors": [
+        2623,
+        3077
+      ],
+      "expected": 2850.0,
+      "excess_pct_vs_neighbors": 21.9
+    },
+    "mean_height_men_20s": 70.43,
+    "mean_height_men_50s": 70.45,
+    "mean_height_women_20s": 65.09,
+    "mean_height_women_50s": 64.99
+  },
+  "income": {
+    "n_reported": 11485,
+    "pct_disclosed_overall": 19.19,
+    "pct_disclosed_m": 23.43,
+    "pct_disclosed_f": 12.9,
+    "median_income_m": 60000.0,
+    "median_income_f": 40000.0,
+    "income_max_reported": 1000000.0,
+    "disclosure_by_sex_edu_pct": {
+      "f": {
+        "2-year college": 26.68,
+        "College": 13.13,
+        "HS or less": 31.26,
+        "Master's": 11.29,
+        "PhD": 13.92,
+        "Professional (JD/MD/MBA)": 7.04,
+        "Space camp (joke)": 20.66,
+        "missing": 6.15
+      },
+      "m": {
+        "2-year college": 39.06,
+        "College": 23.6,
+        "HS or less": 42.38,
+        "Master's": 21.43,
+        "PhD": 20.31,
+        "Professional (JD/MD/MBA)": 16.78,
+        "Space camp (joke)": 30.35,
+        "missing": 13.53
+      }
+    },
+    "median_income_by_edu": {
+      "2-year college": 30000.0,
+      "College": 50000.0,
+      "HS or less": 30000.0,
+      "Master's": 80000.0,
+      "PhD": 70000.0,
+      "Professional (JD/MD/MBA)": 80000.0,
+      "Space camp (joke)": 70000.0,
+      "missing": 50000.0
+    },
+    "model": {
+      "fallback": false,
+      "used": "xgboost",
+      "auc": 0.7243,
+      "n_train": 47871,
+      "n_test": 11968,
+      "n_features": 90,
+      "top5_shap_features": [
+        [
+          "sex_f",
+          0.31684
+        ],
+        [
+          "job_top_missing",
+          0.28876
+        ],
+        [
+          "religion_main_missing",
+          0.16379
+        ],
+        [
+          "drugs_missing",
+          0.14325
+        ],
+        [
+          "pets_missing",
+          0.10369
+        ]
+      ],
+      "shap_sample_n": 3000
+    }
+  },
+  "personas": {
+    "k": 5,
+    "silhouette": 0.0591,
+    "silhouette_by_k": {
+      "5": 0.0591,
+      "6": 0.052,
+      "7": 0.0468,
+      "8": 0.0473,
+      "9": 0.0425
+    },
+    "segments": [
+      {
+        "label": "The Female-heavy Curvy College grads",
+        "size": 17609,
+        "pct": 29.43,
+        "mean_age": 28.1,
+        "male_share_pct": 3.1,
+        "top_traits": [
+          "Women",
+          "Curvy",
+          "Bisexual"
+        ]
+      },
+      {
+        "label": "The Male-heavy Eat anything Athletic",
+        "size": 16815,
+        "pct": 28.1,
+        "mean_age": 28.1,
+        "male_share_pct": 96.7,
+        "top_traits": [
+          "Eat anything",
+          "Men",
+          "Athletic"
+        ]
+      },
+      {
+        "label": "The Male-heavy low-effort profiles",
+        "size": 12692,
+        "pct": 21.21,
+        "mean_age": 29.1,
+        "male_share_pct": 95.4,
+        "top_traits": [
+          "Men",
+          "Athletic",
+          "Gay"
+        ]
+      },
+      {
+        "label": "The Male-heavy older Have kids White",
+        "size": 6773,
+        "pct": 11.32,
+        "mean_age": 46.9,
+        "male_share_pct": 98.4,
+        "top_traits": [
+          "Men",
+          "Have kids",
+          "White"
+        ]
+      },
+      {
+        "label": "The Female-heavy older Have kids Drug-free",
+        "size": 5950,
+        "pct": 9.94,
+        "mean_age": 47.3,
+        "male_share_pct": 3.2,
+        "top_traits": [
+          "Women",
+          "Have kids",
+          "Drug-free"
+        ]
+      }
+    ]
+  },
+  "offspring": {
+    "response_rate_pct": 40.65,
+    "pct_want_or_might_by_sex_bucket": {
+      "f": {
+        "18-19": 37.06,
+        "20-24": 33.06,
+        "25-29": 40.92,
+        "30-34": 47.08,
+        "35-39": 38.29,
+        "40-44": 18.39,
+        "45-49": 5.63,
+        "50-54": 1.55,
+        "55-59": 0.25,
+        "60-64": 0.68,
+        "65-69": 0.0
+      },
+      "m": {
+        "18-19": 45.62,
+        "20-24": 32.56,
+        "25-29": 34.59,
+        "30-34": 40.8,
+        "35-39": 35.08,
+        "40-44": 26.94,
+        "45-49": 15.42,
+        "50-54": 8.5,
+        "55-59": 3.44,
+        "60-64": 2.94,
+        "65-69": 1.67
+      }
+    },
+    "category_shares_by_sex_pct": {
+      "doesn't want kids": {
+        "f": 15.4,
+        "m": 17.6
+      },
+      "has kids": {
+        "f": 24.59,
+        "m": 18.32
+      },
+      "might want kids": {
+        "f": 14.35,
+        "m": 18.42
+      },
+      "no kids, no stated preference": {
+        "f": 28.76,
+        "m": 32.87
+      },
+      "wants kids": {
+        "f": 16.9,
+        "m": 12.79
+      }
+    }
+  },
+  "market_tightness": {
+    "note": "straight profiles only; liquidity for a seeker = opposite-sex profiles per 100 same-sex profiles in the same 5-year bucket",
+    "women_per_100_men_by_bucket": {
+      "18-19": 72.4,
+      "20-24": 62.9,
+      "25-29": 57.1,
+      "30-34": 65.1,
+      "35-39": 69.1,
+      "40-44": 72.7,
+      "45-49": 74.5,
+      "50-54": 95.2,
+      "55-59": 101.5,
+      "60-64": 122.6,
+      "65-69": 124.8
+    },
+    "men_per_100_women_by_bucket": {
+      "18-19": 138.1,
+      "20-24": 159.0,
+      "25-29": 175.2,
+      "30-34": 153.5,
+      "35-39": 144.8,
+      "40-44": 137.5,
+      "45-49": 134.2,
+      "50-54": 105.0,
+      "55-59": 98.5,
+      "60-64": 81.6,
+      "65-69": 80.1
+    }
+  },
+  "education": {
+    "pct_graduated_college_plus_m": 75.85,
+    "pct_graduated_college_plus_f": 81.98,
+    "shares_by_sex_pct": {
+      "2-year college": {
+        "f": 4.21,
+        "m": 5.57
+      },
+      "College": {
+        "f": 52.88,
+        "m": 52.29
+      },
+      "HS or less": {
+        "f": 1.94,
+        "m": 3.41
+      },
+      "Master's": {
+        "f": 21.76,
+        "m": 15.87
+      },
+      "PhD": {
+        "f": 3.38,
+        "m": 4.46
+      },
+      "Professional (JD/MD/MBA)": {
+        "f": 3.96,
+        "m": 3.23
+      },
+      "Space camp (joke)": {
+        "f": 2.01,
+        "m": 3.34
+      },
+      "missing": {
+        "f": 9.87,
+        "m": 11.83
+      }
+    }
+  },
+  "lifestyle": {
+    "drinks_by_sex_pct": {
+      "desperately": {
+        "f": 0.49,
+        "m": 0.61
+      },
+      "not at all": {
+        "f": 5.31,
+        "m": 5.97
+      },
+      "often": {
+        "f": 8.05,
+        "m": 9.77
+      },
+      "rarely": {
+        "f": 10.44,
+        "m": 10.44
+      },
+      "socially": {
+        "f": 74.94,
+        "m": 72.34
+      },
+      "very often": {
+        "f": 0.77,
+        "m": 0.87
+      }
+    },
+    "smokes_by_sex_pct": {
+      "no": {
+        "f": 82.81,
+        "m": 79.22
+      },
+      "sometimes": {
+        "f": 6.15,
+        "m": 7.46
+      },
+      "trying to quit": {
+        "f": 2.17,
+        "m": 3.09
+      },
+      "when drinking": {
+        "f": 5.27,
+        "m": 5.81
+      },
+      "yes": {
+        "f": 3.59,
+        "m": 4.43
+      }
+    },
+    "drugs_by_sex_pct": {
+      "never": {
+        "f": 84.9,
+        "m": 80.45
+      },
+      "often": {
+        "f": 0.68,
+        "m": 1.03
+      },
+      "sometimes": {
+        "f": 14.42,
+        "m": 18.52
+      }
+    },
+    "diet_by_sex_pct": {
+      "anything": {
+        "f": 42.53,
+        "m": 49.21
+      },
+      "halal": {
+        "f": 0.07,
+        "m": 0.17
+      },
+      "kosher": {
+        "f": 0.19,
+        "m": 0.19
+      },
+      "missing": {
+        "f": 41.13,
+        "m": 40.41
+      },
+      "other": {
+        "f": 3.18,
+        "m": 2.85
+      },
+      "vegan": {
+        "f": 1.48,
+        "m": 0.96
+      },
+      "vegetarian": {
+        "f": 11.42,
+        "m": 6.21
+      }
+    }
+  },
+  "caveats": [
+    "Sample is San Francisco 25-mile radius, June 2012, active accounts with photo; not representative of today's dating market or other cities.",
+    "Self-reported data: height/income show digit preference and likely inflation.",
+    "Ages outside 18-69 (n=107, incl. max 111) treated as joke/missing and excluded from bucket analyses.",
+    "Income reported by only 19.2% of profiles; reported incomes skew toward disclosure-prone (likely higher-earning) users.",
+    "Offspring question answered by only 40.6% of profiles.",
+    "All claims are correlational; personas are descriptive segments, not causal types."
+  ]
+}

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Dating Market Calculator — Swipe Economics</title>
+<style>
+  :root { --bg:#0f1115; --card:#1a1e27; --ink:#e8eaf0; --muted:#9aa3b2; --acc:#e0635a; --acc2:#5aa9e0; }
+  * { box-sizing:border-box; }
+  body { background:var(--bg); color:var(--ink); font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif; margin:0; padding:32px 16px; }
+  .wrap { max-width:640px; margin:0 auto; }
+  h1 { font-size:26px; margin:0 0 4px; }
+  .sub { color:var(--muted); font-size:14px; margin-bottom:24px; }
+  .card { background:var(--card); border-radius:12px; padding:20px; margin-bottom:16px; }
+  label { display:block; font-size:13px; color:var(--muted); margin:12px 0 4px; }
+  label:first-child { margin-top:0; }
+  input, select { width:100%; padding:10px 12px; border-radius:8px; border:1px solid #333a48; background:#11141b; color:var(--ink); font-size:15px; }
+  .row { display:grid; grid-template-columns:1fr 1fr; gap:12px; }
+  button { width:100%; padding:13px; margin-top:16px; border:0; border-radius:10px; background:var(--acc); color:#fff; font-size:16px; font-weight:600; cursor:pointer; }
+  button:hover { filter:brightness(1.1); }
+  .result { display:none; }
+  .stat { display:flex; justify-content:space-between; align-items:baseline; padding:10px 0; border-bottom:1px solid #2a303d; }
+  .stat:last-child { border-bottom:0; }
+  .stat .k { color:var(--muted); font-size:14px; }
+  .stat .v { font-size:20px; font-weight:700; }
+  .verdict { font-size:15px; line-height:1.6; color:var(--ink); margin-top:12px; }
+  .verdict b { color:var(--acc2); }
+  .fine { color:var(--muted); font-size:12px; margin-top:16px; line-height:1.5; }
+  .bar { height:8px; border-radius:4px; background:#2a303d; margin-top:6px; overflow:hidden; }
+  .bar > div { height:100%; border-radius:4px; background:linear-gradient(90deg,var(--acc2),var(--acc)); }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>Dating Market Calculator</h1>
+  <div class="sub">Where would you have landed in the 2012 Bay Area dating market? Enter your stats — measured against 59,946 real OkCupid profiles (SF, June 2012).</div>
+
+  <div class="card">
+    <div class="row">
+      <div><label>Age</label><input id="age" type="number" min="18" max="69" value="30"></div>
+      <div><label>Sex</label><select id="sex"><option value="m">Male</option><option value="f">Female</option></select></div>
+    </div>
+    <div class="row">
+      <div><label>Height (inches, e.g. 70)</label><input id="height" type="number" min="48" max="96" step="0.5" value="70"></div>
+      <div><label>Education</label>
+        <select id="edu">
+          <option>HS or less</option><option>2-year college</option><option selected>College</option>
+          <option>Master's</option><option>PhD</option><option>Professional (JD/MD/MBA)</option>
+        </select>
+      </div>
+    </div>
+    <label>Annual income $ (optional — leave blank if you'd withhold it, like 81% of profiles did)</label>
+    <input id="income" type="number" min="0" placeholder="e.g. 85000">
+    <button onclick="calc()">Run the numbers</button>
+  </div>
+
+  <div class="card result" id="out">
+    <div class="stat"><span class="k">Height percentile (same sex)</span><span class="v" id="rHeight">–</span></div>
+    <div class="bar"><div id="barHeight" style="width:0%"></div></div>
+    <div class="stat"><span class="k">Market liquidity in your cohort</span><span class="v" id="rLiq">–</span></div>
+    <div class="stat"><span class="k">Income percentile (among disclosers)</span><span class="v" id="rInc">–</span></div>
+    <div class="bar"><div id="barInc" style="width:0%"></div></div>
+    <div class="stat"><span class="k">Share who disclose income (your sex × edu)</span><span class="v" id="rDisc">–</span></div>
+    <div class="verdict" id="verdict"></div>
+  </div>
+
+  <div class="fine">Source: 59,946 OKCupid profiles, SF 25-mile radius, June 2012 (Kim &amp; Escobedo-Land 2015). Self-reported data — heights show 42% excess mass at exactly 6'0" for men, so take the height percentile with a grain of salt. Liquidity = opposite-sex straight profiles per 100 same-sex profiles in your 5-year cohort. Full analysis in the project README.</div>
+</div>
+
+<script>
+const HEIGHT = {
+  m: [[1,64],[5,66],[10,67],[25,68],[50,70],[75,72],[90,74],[95,75],[99,77]],
+  f: [[1,59],[5,61],[10,62],[25,63],[50,65],[75,67],[90,69],[95,70],[99,72]]
+};
+const INCOME = {
+  m: [[5,20000],[10,20000],[25,30000],[50,60000],[75,100000],[90,150000],[95,500000]],
+  f: [[5,20000],[10,20000],[25,20000],[50,40000],[75,70000],[90,100000],[95,150000]]
+};
+const TIGHT = { // opposite-sex per 100 same-sex, straight profiles, by 5-yr bucket
+  "18-19":{m:72.4,f:138.1},"20-24":{m:62.9,f:159.0},"25-29":{m:57.1,f:175.2},
+  "30-34":{m:65.1,f:153.5},"35-39":{m:69.1,f:144.8},"40-44":{m:72.7,f:137.5},
+  "45-49":{m:74.5,f:134.2},"50-54":{m:95.2,f:105.0},"55-59":{m:101.5,f:98.5},
+  "60-64":{m:122.6,f:81.6},"65-69":{m:124.8,f:80.1}
+};
+const DISC = { // income disclosure % by sex x education
+  m:{"HS or less":42.38,"2-year college":39.06,"College":23.60,"Master's":21.43,"PhD":20.31,"Professional (JD/MD/MBA)":16.78},
+  f:{"HS or less":31.26,"2-year college":26.68,"College":13.13,"Master's":11.29,"PhD":13.92,"Professional (JD/MD/MBA)":7.04}
+};
+function pctile(table, x){
+  if (x <= table[0][1]) return table[0][0];
+  for (let i=1;i<table.length;i++){
+    if (x <= table[i][1]){
+      const [p0,v0]=table[i-1], [p1,v1]=table[i];
+      return Math.round(p0 + (p1-p0)*(x-v0)/(v1-v0));
+    }
+  }
+  return 99;
+}
+function bucket(age){
+  const b = [["18-19",18,19],["20-24",20,24],["25-29",25,29],["30-34",30,34],["35-39",35,39],
+             ["40-44",40,44],["45-49",45,49],["50-54",50,54],["55-59",55,59],["60-64",60,64],["65-69",65,69]];
+  for (const [k,lo,hi] of b) if (age>=lo && age<=hi) return k;
+  return "30-34";
+}
+function calc(){
+  const age=+document.getElementById('age').value, sex=document.getElementById('sex').value;
+  const h=+document.getElementById('height').value, edu=document.getElementById('edu').value;
+  const incRaw=document.getElementById('income').value, inc=incRaw===""?null:+incRaw;
+  const bk=bucket(age), liq=TIGHT[bk][sex];
+  const hp=pctile(HEIGHT[sex],h);
+  document.getElementById('rHeight').textContent = "taller than "+hp+"%";
+  document.getElementById('barHeight').style.width = hp+"%";
+  const side = sex==="m" ? "women" : "men";
+  document.getElementById('rLiq').textContent = liq.toFixed(0)+" "+side+" / 100 "+(sex==="m"?"men":"women");
+  const disc=DISC[sex][edu];
+  document.getElementById('rDisc').textContent = disc.toFixed(1)+"%";
+  let incTxt="withheld — like 81% of the market";
+  if (inc!==null){ const ip=pctile(INCOME[sex],inc); incTxt="richer than "+ip+"% of disclosers";
+    document.getElementById('barInc').style.width=ip+"%";
+  } else document.getElementById('barInc').style.width="0%";
+  document.getElementById('rInc').textContent = incTxt;
+  let v;
+  if (liq < 70) v = `Your cohort is <b>supplier-heavy</b>: only ${liq.toFixed(0)} ${side} per 100 ${sex==="m"?"men":"women"} aged ${bk}. You're competing, not choosing.`;
+  else if (liq > 100) v = `Your cohort is <b>buyer-friendly</b>: ${liq.toFixed(0)} ${side} per 100 ${sex==="m"?"men":"women"} aged ${bk}. The rare cohort where the ratio favors you.`;
+  else v = `Your cohort is near <b>parity</b> (${liq.toFixed(0)} per 100) — the market clears. Differentiation beats volume here.`;
+  if (h===72&&sex==="m") v += ` Also: you reported <b>exactly 6'0"</b> — the single most suspicious inch in the dataset, claimed 42% more often than its neighbors.`;
+  if (inc===null) v += ` Withholding income puts you with the 81% majority — but the model says disclosers are just the conscientious ones.`;
+  document.getElementById('verdict').innerHTML = v;
+  document.getElementById('out').style.display="block";
+  document.getElementById('out').scrollIntoView({behavior:"smooth"});
+}
+</script>
+</body>
+</html>
