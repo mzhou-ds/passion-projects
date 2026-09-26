@@ -1,0 +1,7 @@
+matplotlib>=3.8
+numpy>=1.26
+# Data sources (no API keys needed):
+# - Spotify monthly listeners via the connected `spotify-api` CLI (src/fetch_spotify.py)
+# - Beatport Top 100s via embedded __NEXT_DATA__ JSON (src/fetch_beatport.py)
+# - Official lineup + set times: https://portolamusicfestival.com/lineup/ and /set-times/
+# - Resale prices: GameTime, TickPick, Fest Seats, ConcertFix, san-francisco.events (game-day scrape)

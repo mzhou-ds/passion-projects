@@ -1,0 +1,77 @@
+"""Write the official Portola 2026 set-time schedule (from portolamusicfestival.com/set-times/, read 2026-09-26) to data/schedule.csv."""
+import csv
+
+# (day, stage, artist, start, end) — times PM, doors 1 PM both days
+SCHEDULE = [
+    # Saturday Sep 26
+    ("Sat", "Pier Stage", "Airwolf Paradise", "1:30", "2:30"),
+    ("Sat", "Pier Stage", "Gelli Haha", "2:40", "3:30"),
+    ("Sat", "Pier Stage", "oskar med k", "3:40", "4:30"),
+    ("Sat", "Pier Stage", "Fcukers", "4:40", "5:30"),
+    ("Sat", "Pier Stage", "Tove Lo", "5:40", "6:30"),
+    ("Sat", "Pier Stage", "Robyn", "7:10", "8:10"),
+    ("Sat", "Pier Stage", "DOG BLOOD", "9:00", "10:15"),
+    ("Sat", "Crane Stage", "erika b2b sfcowboy", "1:30", "3:10"),
+    ("Sat", "Crane Stage", "Tricky", "3:30", "4:30"),
+    ("Sat", "Crane Stage", "nimino", "4:50", "5:50"),
+    ("Sat", "Crane Stage", "DJ Shadow", "6:10", "7:10"),
+    ("Sat", "Crane Stage", "Fatboy Slim", "7:55", "9:25"),
+    ("Sat", "Crane Stage", "Soulwax", "9:55", "10:55"),
+    ("Sat", "Warehouse", "Sam Alfred", "1:30", "2:45"),
+    ("Sat", "Warehouse", "Ranger Trucco b2b Alisha", "2:45", "3:45"),
+    ("Sat", "Warehouse", "Chloé Caillet", "3:45", "4:45"),
+    ("Sat", "Warehouse", "Groove Armada", "4:45", "6:00"),
+    ("Sat", "Warehouse", "Max Styler", "6:00", "7:15"),
+    ("Sat", "Warehouse", "KETTAMA", "7:15", "8:30"),
+    ("Sat", "Warehouse", "Beltran b2b Ben Sterling", "8:30", "9:45"),
+    ("Sat", "Warehouse", "Prospa", "9:45", "11:00"),
+    ("Sat", "Ship Tent", "Felly Fell", "1:40", "2:40"),
+    ("Sat", "Ship Tent", "MGNA Crrrta", "2:50", "3:30"),
+    ("Sat", "Ship Tent", "Six Sex", "3:40", "4:20"),
+    ("Sat", "Ship Tent", "Mike D 5D", "4:40", "5:30"),
+    ("Sat", "Ship Tent", "Jyoty", "5:40", "6:40"),
+    ("Sat", "Ship Tent", "Bassvictim", "6:50", "7:40"),
+    ("Sat", "Ship Tent", "jigitz", "7:50", "8:40"),
+    ("Sat", "Ship Tent", "nate sib", "8:55", "9:35"),
+    ("Sat", "Ship Tent", "Melanie C", "9:50", "10:30"),
+    ("Sat", "Despacio", "DESPACIO", "2:45", "9:45"),
+    # Sunday Sep 27
+    ("Sun", "Pier Stage", "Clearcast", "1:30", "2:20"),
+    ("Sun", "Pier Stage", "Mind Enterprises", "2:30", "3:20"),
+    ("Sun", "Pier Stage", "Channel Tres", "3:30", "4:20"),
+    ("Sun", "Pier Stage", "SG Lewis", "4:30", "5:25"),
+    ("Sun", "Pier Stage", "Mochakk", "5:35", "6:35"),
+    ("Sun", "Pier Stage", "Zara Larsson", "7:05", "8:05"),
+    ("Sun", "Pier Stage", "Swedish House Mafia", "8:45", "10:00"),
+    ("Sun", "Crane Stage", "Torren Foot", "1:30", "2:30"),
+    ("Sun", "Crane Stage", "Azzecca", "2:30", "3:30"),
+    ("Sun", "Crane Stage", "ADÉLA", "3:50", "4:30"),
+    ("Sun", "Crane Stage", "ZULAN", "4:45", "5:35"),
+    ("Sun", "Crane Stage", "underscores", "5:50", "6:40"),
+    ("Sun", "Crane Stage", "Ninajirachi", "7:00", "7:50"),
+    ("Sun", "Crane Stage", "horsegiirL", "8:10", "9:00"),
+    ("Sun", "Crane Stage", "Parcels", "9:30", "10:45"),
+    ("Sun", "Warehouse", "Dean Turnley", "1:30", "2:30"),
+    ("Sun", "Warehouse", "Silva Bumpa", "2:30", "3:30"),
+    ("Sun", "Warehouse", "Brunello", "3:30", "4:30"),
+    ("Sun", "Warehouse", "VTSS", "4:30", "5:30"),
+    ("Sun", "Warehouse", "Marlon Hoffstadt", "5:30", "6:45"),
+    ("Sun", "Warehouse", "Tiësto", "6:45", "8:15"),
+    ("Sun", "Warehouse", "Overmono", "8:20", "9:20"),
+    ("Sun", "Warehouse", "Four Tet", "9:30", "11:00"),
+    ("Sun", "Ship Tent", "Kaytree", "1:40", "2:55"),
+    ("Sun", "Ship Tent", "riria", "2:55", "4:10"),
+    ("Sun", "Ship Tent", "ear", "4:20", "5:00"),
+    ("Sun", "Ship Tent", "Ben UFO", "5:10", "6:30"),
+    ("Sun", "Ship Tent", "Daphni", "6:30", "7:50"),
+    ("Sun", "Ship Tent", "Kelela", "8:05", "8:50"),
+    ("Sun", "Ship Tent", "JT", "9:00", "9:30"),
+    ("Sun", "Ship Tent", "Baby J", "9:40", "10:30"),
+    ("Sun", "Despacio", "DESPACIO", "3:30", "10:30"),
+]
+
+with open("data/schedule.csv", "w", newline="") as f:
+    w = csv.writer(f)
+    w.writerow(["day", "stage", "artist", "start", "end"])
+    w.writerows(SCHEDULE)
+print(f"wrote {len(SCHEDULE)} slots")

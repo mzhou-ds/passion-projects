@@ -1,0 +1,228 @@
+{
+ "total_attention_m": 330,
+ "top5_share": 0.513,
+ "top10_share": 0.722,
+ "under_billed": [
+  {
+   "artist": "AD\u00c9LA",
+   "tier": 5,
+   "listeners_m": 24.8,
+   "att_rank": 5
+  },
+  {
+   "artist": "Prospa",
+   "tier": 5,
+   "listeners_m": 12.7,
+   "att_rank": 8
+  },
+  {
+   "artist": "oskar med k",
+   "tier": 5,
+   "listeners_m": 10.6,
+   "att_rank": 10
+  },
+  {
+   "artist": "Marlon Hoffstadt",
+   "tier": 5,
+   "listeners_m": 7.5,
+   "att_rank": 11
+  },
+  {
+   "artist": "Silva Bumpa",
+   "tier": 5,
+   "listeners_m": 5.6,
+   "att_rank": 16
+  },
+  {
+   "artist": "nimino",
+   "tier": 5,
+   "listeners_m": 5.0,
+   "att_rank": 17
+  },
+  {
+   "artist": "jigitz",
+   "tier": 5,
+   "listeners_m": 3.2,
+   "att_rank": 21
+  },
+  {
+   "artist": "Tove Lo",
+   "tier": 3,
+   "listeners_m": 28.7,
+   "att_rank": 3
+  }
+ ],
+ "over_billed": [
+  {
+   "artist": "Soulwax",
+   "tier": 2,
+   "listeners_m": 0.9,
+   "att_rank": 37
+  },
+  {
+   "artist": "Ben UFO",
+   "tier": 4,
+   "listeners_m": 0.0,
+   "att_rank": 57
+  },
+  {
+   "artist": "Swedish House Mafia",
+   "tier": 1,
+   "listeners_m": 26.9,
+   "att_rank": 4
+  },
+  {
+   "artist": "DOG BLOOD",
+   "tier": 1,
+   "listeners_m": 21.1,
+   "att_rank": 6
+  },
+  {
+   "artist": "Robyn",
+   "tier": 1,
+   "listeners_m": 11.1,
+   "att_rank": 9
+  },
+  {
+   "artist": "Overmono",
+   "tier": 3,
+   "listeners_m": 1.3,
+   "att_rank": 29
+  },
+  {
+   "artist": "Bassvictim",
+   "tier": 4,
+   "listeners_m": 0.7,
+   "att_rank": 40
+  },
+  {
+   "artist": "Daphni",
+   "tier": 4,
+   "listeners_m": 0.4,
+   "att_rank": 48
+  }
+ ],
+ "beatport_charting": [
+  "Brunello",
+  "Dean Turnley",
+  "Four Tet",
+  "Groove Armada",
+  "KETTAMA",
+  "Marlon Hoffstadt",
+  "Max Styler",
+  "Mochakk",
+  "Ninajirachi",
+  "Prospa",
+  "SG Lewis",
+  "Silva Bumpa",
+  "Swedish House Mafia"
+ ],
+ "itineraries": {
+  "Sat": [
+   {
+    "start": "1:30",
+    "end": "2:45",
+    "stage": "Warehouse",
+    "artist": "Sam Alfred",
+    "listeners_m": 0.2
+   },
+   {
+    "start": "2:50",
+    "end": "3:30",
+    "stage": "Ship Tent",
+    "artist": "MGNA Crrrta",
+    "listeners_m": 0.2
+   },
+   {
+    "start": "3:40",
+    "end": "4:30",
+    "stage": "Pier Stage",
+    "artist": "oskar med k",
+    "listeners_m": 10.6
+   },
+   {
+    "start": "4:40",
+    "end": "5:30",
+    "stage": "Pier Stage",
+    "artist": "Fcukers",
+    "listeners_m": 1.8
+   },
+   {
+    "start": "5:40",
+    "end": "6:30",
+    "stage": "Pier Stage",
+    "artist": "Tove Lo",
+    "listeners_m": 28.7
+   },
+   {
+    "start": "7:10",
+    "end": "8:10",
+    "stage": "Pier Stage",
+    "artist": "Robyn",
+    "listeners_m": 11.1
+   },
+   {
+    "start": "9:00",
+    "end": "10:15",
+    "stage": "Pier Stage",
+    "artist": "DOG BLOOD",
+    "listeners_m": 21.1
+   }
+  ],
+  "Sun": [
+   {
+    "start": "1:30",
+    "end": "2:30",
+    "stage": "Warehouse",
+    "artist": "Dean Turnley",
+    "listeners_m": 1.1
+   },
+   {
+    "start": "2:30",
+    "end": "3:30",
+    "stage": "Warehouse",
+    "artist": "Silva Bumpa",
+    "listeners_m": 5.6
+   },
+   {
+    "start": "3:50",
+    "end": "4:30",
+    "stage": "Crane Stage",
+    "artist": "AD\u00c9LA",
+    "listeners_m": 24.8
+   },
+   {
+    "start": "4:30",
+    "end": "5:25",
+    "stage": "Pier Stage",
+    "artist": "SG Lewis",
+    "listeners_m": 4.7
+   },
+   {
+    "start": "5:30",
+    "end": "6:45",
+    "stage": "Warehouse",
+    "artist": "Marlon Hoffstadt",
+    "listeners_m": 7.5
+   },
+   {
+    "start": "7:05",
+    "end": "8:05",
+    "stage": "Pier Stage",
+    "artist": "Zara Larsson",
+    "listeners_m": 55.7
+   },
+   {
+    "start": "8:45",
+    "end": "10:00",
+    "stage": "Pier Stage",
+    "artist": "Swedish House Mafia",
+    "listeners_m": 26.9
+   }
+  ]
+ },
+ "attention_captured": {
+  "Sat": 0.547,
+  "Sun": 0.612
+ }
+}
