@@ -1,0 +1,345 @@
+season,team_name,points,GF,GA,gp
+2015,Washington Capitals,120,248,191,82
+2015,Vancouver Canucks,75,186,239,82
+2015,Dallas Stars,109,265,228,82
+2015,Ottawa Senators,85,230,241,82
+2015,Colorado Avalanche,82,212,240,82
+2015,Nashville Predators,96,224,213,82
+2015,New Jersey Devils,84,182,202,82
+2015,Arizona Coyotes,78,208,244,82
+2015,Anaheim Ducks,103,215,188,82
+2015,Detroit Red Wings,93,209,219,82
+2015,Winnipeg Jets,78,212,236,82
+2015,St. Louis Blues,107,219,197,82
+2015,Boston Bruins,93,236,228,82
+2015,Chicago Blackhawks,103,234,207,82
+2015,Montréal Canadiens,82,216,233,82
+2015,New York Rangers,101,233,215,82
+2015,Minnesota Wild,87,213,204,82
+2015,Buffalo Sabres,81,199,215,82
+2015,Philadelphia Flyers,96,211,210,82
+2015,Florida Panthers,103,232,200,82
+2015,Calgary Flames,77,229,257,82
+2015,Columbus Blue Jackets,76,213,248,82
+2015,Tampa Bay Lightning,97,224,198,82
+2015,Pittsburgh Penguins,104,241,199,82
+2015,Los Angeles Kings,102,223,192,82
+2015,Carolina Hurricanes,86,196,221,82
+2015,Edmonton Oilers,70,199,242,82
+2015,New York Islanders,100,227,211,82
+2015,San Jose Sharks,98,237,207,82
+2015,Toronto Maple Leafs,69,192,240,82
+2016,Washington Capitals,118,261,177,82
+2016,Vancouver Canucks,69,178,241,82
+2016,Dallas Stars,79,222,260,82
+2016,Ottawa Senators,98,206,210,82
+2016,Colorado Avalanche,48,165,276,82
+2016,Nashville Predators,94,238,220,82
+2016,New Jersey Devils,70,180,241,82
+2016,Arizona Coyotes,70,191,258,82
+2016,Anaheim Ducks,105,220,197,82
+2016,Detroit Red Wings,79,198,244,82
+2016,Winnipeg Jets,87,246,255,82
+2016,St. Louis Blues,99,233,216,82
+2016,Columbus Blue Jackets,108,247,193,82
+2016,Chicago Blackhawks,109,240,212,82
+2016,Pittsburgh Penguins,111,278,229,82
+2016,Los Angeles Kings,86,199,201,82
+2016,Minnesota Wild,106,263,206,82
+2016,Buffalo Sabres,78,199,231,82
+2016,Carolina Hurricanes,87,212,230,82
+2016,Edmonton Oilers,103,243,207,82
+2016,Calgary Flames,94,222,219,82
+2016,Boston Bruins,95,232,209,82
+2016,Tampa Bay Lightning,94,230,224,82
+2016,San Jose Sharks,99,219,200,82
+2016,New York Rangers,102,253,216,82
+2016,Philadelphia Flyers,88,212,231,82
+2016,Florida Panthers,81,205,231,82
+2016,New York Islanders,94,239,238,82
+2016,Montréal Canadiens,103,223,198,82
+2016,Toronto Maple Leafs,95,250,234,82
+2017,Arizona Coyotes,70,206,251,82
+2017,New Jersey Devils,97,243,240,82
+2017,Vegas Golden Knights,109,268,225,82
+2017,Washington Capitals,105,256,238,82
+2017,Vancouver Canucks,73,218,259,82
+2017,Anaheim Ducks,101,231,209,82
+2017,St. Louis Blues,94,223,222,82
+2017,Dallas Stars,92,231,222,82
+2017,Detroit Red Wings,73,212,254,82
+2017,Ottawa Senators,67,219,284,82
+2017,Winnipeg Jets,114,273,216,82
+2017,Colorado Avalanche,95,255,236,82
+2017,Nashville Predators,117,261,204,82
+2017,Boston Bruins,112,267,211,82
+2017,Columbus Blue Jackets,97,236,226,82
+2017,Chicago Blackhawks,76,228,254,82
+2017,Calgary Flames,84,216,243,82
+2017,Tampa Bay Lightning,113,290,234,82
+2017,Pittsburgh Penguins,100,270,248,82
+2017,San Jose Sharks,100,247,226,82
+2017,Montréal Canadiens,71,207,258,82
+2017,New York Rangers,77,228,263,82
+2017,New York Islanders,80,261,293,82
+2017,Los Angeles Kings,98,237,202,82
+2017,Minnesota Wild,101,250,229,82
+2017,Buffalo Sabres,62,198,278,82
+2017,Carolina Hurricanes,83,225,253,82
+2017,Philadelphia Flyers,98,249,236,82
+2017,Edmonton Oilers,78,229,262,82
+2017,Florida Panthers,96,245,243,82
+2017,Toronto Maple Leafs,105,270,230,82
+2018,Washington Capitals,104,274,248,82
+2018,New Jersey Devils,72,219,271,82
+2018,Vegas Golden Knights,93,246,228,82
+2018,Arizona Coyotes,86,209,220,82
+2018,Vancouver Canucks,81,219,248,82
+2018,Anaheim Ducks,80,196,248,82
+2018,St. Louis Blues,99,244,220,82
+2018,Dallas Stars,93,209,200,82
+2018,Detroit Red Wings,74,224,272,82
+2018,Ottawa Senators,64,242,301,82
+2018,Winnipeg Jets,99,270,243,82
+2018,Colorado Avalanche,90,258,244,82
+2018,Nashville Predators,100,236,212,82
+2018,Boston Bruins,107,257,212,82
+2018,Columbus Blue Jackets,98,256,231,82
+2018,Chicago Blackhawks,84,267,291,82
+2018,Calgary Flames,107,289,223,82
+2018,Tampa Bay Lightning,128,319,221,82
+2018,Pittsburgh Penguins,100,271,238,82
+2018,Montréal Canadiens,96,246,236,82
+2018,San Jose Sharks,101,289,258,82
+2018,New York Rangers,78,221,267,82
+2018,New York Islanders,103,223,191,82
+2018,Los Angeles Kings,71,199,259,82
+2018,Minnesota Wild,83,210,233,82
+2018,Buffalo Sabres,76,221,268,82
+2018,Carolina Hurricanes,99,243,221,82
+2018,Philadelphia Flyers,82,241,280,82
+2018,Edmonton Oilers,79,229,271,82
+2018,Florida Panthers,86,264,273,82
+2018,Toronto Maple Leafs,100,286,249,82
+2019,Arizona Coyotes,74,190,183,70
+2019,New Jersey Devils,68,185,224,69
+2019,Vegas Golden Knights,86,224,209,71
+2019,Washington Capitals,90,236,212,69
+2019,Vancouver Canucks,78,224,214,69
+2019,Anaheim Ducks,67,182,225,71
+2019,St. Louis Blues,94,223,190,71
+2019,Dallas Stars,82,178,174,69
+2019,Detroit Red Wings,39,142,265,71
+2019,Ottawa Senators,62,190,238,71
+2019,Winnipeg Jets,80,213,201,71
+2019,Colorado Avalanche,92,236,190,70
+2019,Nashville Predators,78,212,214,69
+2019,Boston Bruins,100,227,167,70
+2019,Columbus Blue Jackets,81,180,183,70
+2019,Chicago Blackhawks,72,208,214,70
+2019,Calgary Flames,79,204,214,70
+2019,Tampa Bay Lightning,92,243,194,70
+2019,Pittsburgh Penguins,86,221,196,69
+2019,San Jose Sharks,63,180,225,70
+2019,Montréal Canadiens,71,208,220,71
+2019,New York Rangers,79,233,220,70
+2019,New York Islanders,80,189,190,68
+2019,Los Angeles Kings,64,177,209,70
+2019,Minnesota Wild,77,218,217,69
+2019,Buffalo Sabres,68,193,215,69
+2019,Carolina Hurricanes,81,217,193,68
+2019,Philadelphia Flyers,89,227,191,69
+2019,Edmonton Oilers,83,223,215,71
+2019,Florida Panthers,78,228,224,69
+2019,Toronto Maple Leafs,81,237,222,70
+2020,New Jersey Devils,45,145,189,56
+2020,St. Louis Blues,63,167,167,56
+2020,Detroit Red Wings,48,125,168,56
+2020,Ottawa Senators,51,155,189,56
+2020,Colorado Avalanche,82,197,132,56
+2020,Nashville Predators,64,151,154,56
+2020,Arizona Coyotes,54,150,174,56
+2020,Washington Capitals,77,188,161,56
+2020,Vegas Golden Knights,82,190,122,56
+2020,Vancouver Canucks,50,148,187,56
+2020,Dallas Stars,60,156,148,56
+2020,Winnipeg Jets,63,170,152,56
+2020,Anaheim Ducks,43,124,177,56
+2020,Columbus Blue Jackets,48,134,184,56
+2020,Chicago Blackhawks,55,159,184,56
+2020,San Jose Sharks,49,146,196,56
+2020,New York Rangers,60,176,155,56
+2020,Minnesota Wild,75,180,159,56
+2020,Buffalo Sabres,37,134,196,56
+2020,Carolina Hurricanes,80,175,134,56
+2020,Edmonton Oilers,72,183,154,56
+2020,Boston Bruins,73,164,134,56
+2020,New York Islanders,71,152,125,56
+2020,Calgary Flames,55,155,160,56
+2020,Montréal Canadiens,59,158,165,56
+2020,Los Angeles Kings,49,142,169,56
+2020,Philadelphia Flyers,58,160,197,56
+2020,Florida Panthers,79,188,151,56
+2020,Tampa Bay Lightning,75,180,145,56
+2020,Toronto Maple Leafs,77,186,148,56
+2020,Pittsburgh Penguins,77,193,155,56
+2021,Arizona Coyotes,57,206,309,82
+2021,New Jersey Devils,63,245,302,82
+2021,Vegas Golden Knights,94,262,244,82
+2021,Washington Capitals,100,270,242,82
+2021,Vancouver Canucks,92,246,231,82
+2021,Anaheim Ducks,76,228,266,82
+2021,St. Louis Blues,109,309,239,82
+2021,Dallas Stars,98,233,244,82
+2021,Detroit Red Wings,74,227,310,82
+2021,Ottawa Senators,73,224,264,82
+2021,Winnipeg Jets,89,250,253,82
+2021,Colorado Avalanche,119,308,232,82
+2021,Nashville Predators,97,262,250,82
+2021,Boston Bruins,107,253,218,82
+2021,Columbus Blue Jackets,81,258,297,82
+2021,Chicago Blackhawks,68,213,289,82
+2021,Calgary Flames,111,291,206,82
+2021,Tampa Bay Lightning,110,285,228,82
+2021,Pittsburgh Penguins,103,269,222,82
+2021,San Jose Sharks,77,211,261,82
+2021,Montréal Canadiens,55,218,317,82
+2021,New York Rangers,110,250,204,82
+2021,New York Islanders,84,229,231,82
+2021,Los Angeles Kings,99,235,232,82
+2021,Seattle Kraken,60,213,284,82
+2021,Minnesota Wild,113,305,249,82
+2021,Buffalo Sabres,75,229,287,82
+2021,Carolina Hurricanes,116,277,200,82
+2021,Philadelphia Flyers,61,210,294,82
+2021,Edmonton Oilers,104,285,251,82
+2021,Florida Panthers,122,337,242,82
+2021,Toronto Maple Leafs,115,312,252,82
+2022,Washington Capitals,80,253,261,82
+2022,St. Louis Blues,81,260,298,82
+2022,Dallas Stars,108,281,215,82
+2022,Ottawa Senators,86,259,270,82
+2022,Colorado Avalanche,109,274,223,82
+2022,Nashville Predators,92,223,236,82
+2022,Vegas Golden Knights,111,267,225,82
+2022,Arizona Coyotes,70,225,295,82
+2022,New Jersey Devils,112,289,222,82
+2022,Vancouver Canucks,83,270,296,82
+2022,Detroit Red Wings,80,237,275,82
+2022,Winnipeg Jets,95,246,224,82
+2022,Anaheim Ducks,58,206,335,82
+2022,Columbus Blue Jackets,59,213,329,82
+2022,Chicago Blackhawks,59,202,299,82
+2022,Montréal Canadiens,68,227,305,82
+2022,Seattle Kraken,100,289,252,82
+2022,Minnesota Wild,103,239,219,82
+2022,Buffalo Sabres,91,293,297,82
+2022,Philadelphia Flyers,75,220,276,82
+2022,Edmonton Oilers,109,325,256,82
+2022,Boston Bruins,135,301,174,82
+2022,New York Rangers,107,273,216,82
+2022,Calgary Flames,93,258,247,82
+2022,San Jose Sharks,60,233,315,82
+2022,New York Islanders,93,242,217,82
+2022,Carolina Hurricanes,113,262,210,82
+2022,Toronto Maple Leafs,111,278,220,82
+2022,Los Angeles Kings,104,274,254,82
+2022,Tampa Bay Lightning,98,280,252,82
+2022,Pittsburgh Penguins,91,261,263,82
+2022,Florida Panthers,92,288,272,82
+2023,Washington Capitals,91,216,252,82
+2023,New Jersey Devils,81,264,281,82
+2023,Vegas Golden Knights,98,263,243,82
+2023,Arizona Coyotes,77,254,274,82
+2023,Vancouver Canucks,109,279,221,82
+2023,Anaheim Ducks,59,203,293,82
+2023,St. Louis Blues,92,234,248,82
+2023,Dallas Stars,113,294,232,82
+2023,Detroit Red Wings,91,275,273,82
+2023,Ottawa Senators,78,250,281,82
+2023,Winnipeg Jets,110,259,198,82
+2023,Colorado Avalanche,107,302,252,82
+2023,Nashville Predators,99,266,248,82
+2023,Boston Bruins,109,263,221,82
+2023,Columbus Blue Jackets,66,234,298,82
+2023,Chicago Blackhawks,52,178,289,82
+2023,Calgary Flames,81,253,267,82
+2023,Tampa Bay Lightning,98,288,267,82
+2023,Pittsburgh Penguins,88,253,248,82
+2023,Montréal Canadiens,76,232,281,82
+2023,San Jose Sharks,47,180,326,82
+2023,New York Rangers,114,278,226,82
+2023,New York Islanders,94,245,258,82
+2023,Los Angeles Kings,99,254,210,82
+2023,Seattle Kraken,81,214,232,82
+2023,Minnesota Wild,87,248,260,82
+2023,Buffalo Sabres,84,244,243,82
+2023,Carolina Hurricanes,111,277,211,82
+2023,Philadelphia Flyers,87,231,258,82
+2023,Edmonton Oilers,104,292,236,82
+2023,Florida Panthers,110,265,198,82
+2023,Toronto Maple Leafs,102,298,261,82
+2024,Vegas Golden Knights,110,274,214,82
+2024,Vancouver Canucks,90,233,251,82
+2024,Dallas Stars,106,275,222,82
+2024,Ottawa Senators,97,242,232,82
+2024,Colorado Avalanche,102,273,231,82
+2024,Nashville Predators,68,212,274,82
+2024,New Jersey Devils,91,240,220,82
+2024,Washington Capitals,111,286,229,82
+2024,St. Louis Blues,96,250,231,82
+2024,Detroit Red Wings,86,235,259,82
+2024,Utah Hockey Club,89,240,247,82
+2024,Winnipeg Jets,116,275,190,82
+2024,Anaheim Ducks,80,217,261,82
+2024,Columbus Blue Jackets,89,267,267,82
+2024,Calgary Flames,96,220,236,82
+2024,San Jose Sharks,52,208,310,82
+2024,Los Angeles Kings,105,249,203,82
+2024,Minnesota Wild,97,225,236,82
+2024,Buffalo Sabres,79,265,287,82
+2024,Carolina Hurricanes,99,266,230,82
+2024,Toronto Maple Leafs,108,267,229,82
+2024,Tampa Bay Lightning,102,292,216,82
+2024,Chicago Blackhawks,61,224,292,82
+2024,Boston Bruins,76,222,271,82
+2024,Pittsburgh Penguins,80,242,287,82
+2024,New York Rangers,85,255,255,82
+2024,Philadelphia Flyers,76,232,283,82
+2024,Edmonton Oilers,101,259,235,82
+2024,Seattle Kraken,76,245,262,82
+2024,Montréal Canadiens,91,243,261,82
+2024,New York Islanders,82,222,257,82
+2024,Florida Panthers,98,246,223,82
+2025,Washington Capitals,95,261,238,82
+2025,New Jersey Devils,87,226,253,82
+2025,Vegas Golden Knights,95,264,242,82
+2025,Vancouver Canucks,58,210,314,82
+2025,Anaheim Ducks,92,265,288,82
+2025,St. Louis Blues,86,230,254,82
+2025,Dallas Stars,112,273,222,82
+2025,Detroit Red Wings,92,239,254,82
+2025,Ottawa Senators,99,275,245,82
+2025,Winnipeg Jets,82,229,256,82
+2025,Colorado Avalanche,121,298,197,82
+2025,Nashville Predators,86,242,267,82
+2025,Boston Bruins,100,268,247,82
+2025,Columbus Blue Jackets,92,246,251,82
+2025,Chicago Blackhawks,72,210,270,82
+2025,Calgary Flames,77,208,256,82
+2025,Tampa Bay Lightning,106,286,229,82
+2025,Pittsburgh Penguins,98,290,258,82
+2025,Montréal Canadiens,106,279,251,82
+2025,San Jose Sharks,86,249,290,82
+2025,New York Rangers,77,235,249,82
+2025,New York Islanders,91,229,236,82
+2025,Los Angeles Kings,90,220,238,82
+2025,Seattle Kraken,79,224,257,82
+2025,Utah Mammoth,92,268,240,82
+2025,Minnesota Wild,104,268,235,82
+2025,Buffalo Sabres,109,283,240,82
+2025,Carolina Hurricanes,113,291,236,82
+2025,Philadelphia Flyers,98,240,239,82
+2025,Edmonton Oilers,93,282,265,82
+2025,Florida Panthers,84,246,274,82
+2025,Toronto Maple Leafs,78,252,295,82

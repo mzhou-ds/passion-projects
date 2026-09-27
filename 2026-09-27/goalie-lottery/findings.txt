@@ -1,0 +1,46 @@
+# Findings — The Goalie Is a Lottery Ticket (2026-09-27)
+
+Data: MoneyPuck season summaries (goalies/teams/skaters, 2015–2025 regular +
+playoffs); NHL API (150 playoff series reconstructed game-by-game, 2015–2025
+excl. the 2019-20 bubble); 2026-27 goalie cap hits from USA Today/PuckPedia
+(Sep 25, 2026). GSAx = flurry-adjusted goals saved above expected.
+
+1. Goaltending is the least repeatable skill in hockey.
+   YoY r for GSAx/60 = 0.10 (Sv% = 0.14) vs 0.73 for a forward's xGF/60.
+   Trailing-3yr average predicts next season at r = 0.18 (forwards: 0.80).
+   Only 5% of GSAx/60 variance is the goalie (ICC = 0.053; forwards 0.641).
+
+2. The market pays for the past anyway.
+   2026-27 cap hit correlates with trailing-3yr GSAx at r = 0.48.
+   Market line: $6.76M + $0.037M per goal of past GSAx. Since past predicts
+   future at r = 0.18, each $1M buys ~4.8 goals of *expected* future value —
+   the rest is noise. Most overpaid vs the line: Shesterkin (+$3.8M),
+   Saros (+$2.6M, on -43.9 trailing GSAx), Vasilevskiy (+$1.8M).
+   Best values: Thompson (-$2.3M), Greaves (-$2.5M).
+
+3. 48.4% of 2025-26's positive GSAx came from goalies making under $4M
+   (outside the top-30 pay bracket). The top-30 consume $198M of
+   league-wide goalie cap for barely half the saves above expected.
+
+4. Regular-season goaltending decides nothing in April.
+   Better regular-season goalie wins the series 51.3% of the time — a coin flip.
+   Better skaters: 57.3%. Won goalie battle ONLY: 31.4% (n=35). Won skater
+   battle ONLY: 58.0% (n=50). Logistic McFadden R2: goalie-only 0.001,
+   skater-only 0.072; 1 SD of xGF% nearly doubles series odds (x1.94),
+   1 SD of GSAx does nothing (x1.02).
+
+5. But the Cup still goes through a hot goalie — you just can't buy the heat
+   in advance. 7 of 10 Cup winners had top-5 playoff GSAx (median rank 4 of 16),
+   while their median regular-season GSAx rank was 9th. 2021-22 Colorado won
+   with the 15th-ranked playoff crease; 2020-21 Tampa Bay rode a +22.6 heater.
+
+6. Edmonton application: ~3.0 goals of differential = 1 standings point
+   (R2 = 0.695, n = 344 team-seasons). The 2025-26 Oilers (93 pts, team GSAx
+   -18.8, negative every season since 2017) leave ~6.2 points on the table vs
+   an average crease, ~9.5 vs a +10 GSAx starter. Jarry ($5.375M AAV through
+   2028) ranks 8th of 11 in his own $5-6M pay band on trailing GSAx (-21.7);
+   Thompson (+38.8) costs $475K more.
+
+Conclusion: never pay for a goalie. Since the position is ~95% noise, the
+optimal strategy is portfolio diversification — two cheap independent draws
+beat one expensive one — not star-buying.
