@@ -1,0 +1,10 @@
+# Runtime requirements for wisdom-arbitrage
+numpy
+pandas
+scikit-learn
+matplotlib
+umap-learn
+sentence-transformers
+# torch (CPU build recommended; ~200MB instead of ~2.5GB CUDA build):
+#   pip install torch --index-url https://download.pytorch.org/whl/cpu
+torch

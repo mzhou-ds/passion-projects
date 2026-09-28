@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html><head><meta charset="utf-8"><title>Same idea, 2,000 years apart — pair gallery</title>
+<style>
+body { font-family: Georgia, serif; max-width: 760px; margin: 2em auto; padding: 0 1em; color: #222; }
+h1 { font-size: 1.5em; } .sub { color: #555; margin-bottom: 2em; }
+.card { border: 1px solid #ddd; border-radius: 8px; padding: 1.2em; margin-bottom: 1.5em; background: #fafafa; }
+.num { font-size: 0.85em; color: #888; margin-bottom: 0.6em; } .sim { float: right; }
+blockquote { margin: 0.4em 0; padding-left: 1em; border-left: 3px solid #2a6f6f; font-style: italic; }
+.src { text-align: right; font-size: 0.9em; color: #444; margin-bottom: 0.6em; }
+.vs { text-align: center; color: #a03a3a; font-size: 1.3em; margin: 0.3em 0; }
+.note { font-size: 0.85em; color: #666; margin-top: 0.8em; font-family: sans-serif; }
+</style></head>
+<body>
+<h1>Same idea, 2,000 years apart</h1>
+<div class="sub">Hand-verified paraphrase pairs: a passage from a self-help classic (1859&ndash;1915)
+and its closest match in the ancient wisdom canon. Machine-proposed by mutual
+top-5 semantic neighbors (MiniLM embeddings), then read and confirmed by a human.
+10 pairs survived.</div>
+
+<div class="card">
+  <div class="num">#1 <span class="sim">cosine 0.871</span></div>
+  <blockquote>“Seest thou a man diligent in his business? he shall stand before kings.”—_Proverbs of Solomon_.</blockquote>
+  <div class="src">&mdash; <b>smiles-self-help</b></div>
+  <div class="vs">&#8646;</div>
+  <blockquote>22:29 Seest thou a man diligent in his business? he shall stand before kings; he shall not stand before mean men.</blockquote>
+  <div class="src">&mdash; <b>proverbs</b></div>
+  <div class="note">Verbatim, with attribution. Smiles isn&#x27;t hiding the sourcing — the laundering happens in the open: scripture in, advice out, authority transferred from Solomon to Smiles.</div>
+</div>
+<div class="card">
+  <div class="num">#2 <span class="sim">cosine 0.728</span></div>
+  <blockquote>&quot;Thought in the mind hath made us, What we are By thought was wrought and built. If a man&#x27;s mind Hath evil thoughts, pain comes on him as comes The wheel the ox behind....</blockquote>
+  <div class="src">&mdash; <b>allen-thinketh</b></div>
+  <div class="vs">&#8646;</div>
+  <blockquote>1. All that we are is the result of what we have thought: it is founded on our thoughts, it is made up of our thoughts. If a man speaks or acts with an evil thought, pain follows him, as the wheel follows the foot of the ox that draws the carriage.</blockquote>
+  <div class="src">&mdash; <b>dhammapada</b></div>
+  <div class="note">Allen versified Max Muller&#x27;s Dhammapada translation and made it his book&#x27;s thesis. The founding text of the &#x27;mindset&#x27; genre opens with a paraphrased Buddha.</div>
+</div>
+<div class="card">
+  <div class="num">#3 <span class="sim">cosine 0.697</span></div>
+  <blockquote>If you hesitate, some bolder hand will stretch out before you and get the prize. Remember the proverb of Solomon: &quot;He becometh poor that dealeth with a slack hand; but the hand of the diligent maketh rich.&quot;</blockquote>
+  <div class="src">&mdash; <b>barnum-money</b></div>
+  <div class="vs">&#8646;</div>
+  <blockquote>10:4 He becometh poor that dealeth with a slack hand: but the hand of the diligent maketh rich.</blockquote>
+  <div class="src">&mdash; <b>proverbs</b></div>
+  <div class="note">Verbatim again, with attribution (&#x27;Remember the proverb of Solomon&#x27;). P.T. Barnum — the circus man — funding his business advice with Solomon&#x27;s balance sheet.</div>
+</div>
+<div class="card">
+  <div class="num">#4 <span class="sim">cosine 0.670</span></div>
+  <blockquote>Verily, &quot;wine is a mocker.&quot; The use of intoxicating drinks as a beverage, is as much an infatuation, as is the smoking of opium by the Chinese, and the former is quite as destructive to the success of the business man as the latter. It is an unmitigated evil, utterly indefensible in the light of philosophy; religion or good sense. It is the parent of nearly every other evil in our country.</blockquote>
+  <div class="src">&mdash; <b>barnum-money</b></div>
+  <div class="vs">&#8646;</div>
+  <blockquote>20:1 Wine is a mocker, strong drink is raging: and whosoever is deceived thereby is not wise.</blockquote>
+  <div class="src">&mdash; <b>proverbs</b></div>
+  <div class="note">Barnum quotes Proverbs 20:1 word-for-word, then applies it to the businessman. Temperance lecture as business strategy, circa 1880.</div>
+</div>
+<div class="card">
+  <div class="num">#5 <span class="sim">cosine 0.668</span></div>
+  <blockquote>To get rich, is not always equivalent to being successful. &quot;There are many rich poor men,&quot; while there are many others, honest and devout men and women, who have never possessed so much money as some rich persons squander in a week, but who are nevertheless really richer and happier than any man can ever be while he is a transgressor of the higher laws of his being.</blockquote>
+  <div class="src">&mdash; <b>barnum-money</b></div>
+  <div class="vs">&#8646;</div>
+  <blockquote>13:7 There is that maketh himself rich, yet hath nothing: there is that maketh himself poor, yet hath great riches.</blockquote>
+  <div class="src">&mdash; <b>proverbs</b></div>
+  <div class="note">Barnum&#x27;s &#x27;many rich poor men&#x27; is Proverbs 13:7 restated. The richest showman of the century preaching anti-materialism — from Solomon.</div>
+</div>
+<div class="card">
+  <div class="num">#6 <span class="sim">cosine 0.681</span></div>
+  <blockquote>In humble life nothing can be more cheering and beautiful than to see a man combating suffering by patience, triumphing in his integrity, and who, when his feet are bleeding and his limbs failing him, still walks upon his courage.</blockquote>
+  <div class="src">&mdash; <b>smiles-self-help</b></div>
+  <div class="vs">&#8646;</div>
+  <blockquote>29:23 A man’s pride shall bring him low: but honour shall uphold the humble in spirit.</blockquote>
+  <div class="src">&mdash; <b>proverbs</b></div>
+  <div class="note">Same doctrine, different millennium: humility upheld, pride brought low. Smiles&#x27;s Victorian poor meet Solomon&#x27;s proverb.</div>
+</div>
+<div class="card">
+  <div class="num">#7 <span class="sim">cosine 0.673</span></div>
+  <blockquote>Truthfulness, integrity, and goodness—qualities that hang not on any man’s breath—form the essence of manly character, or, as one of our old writers has it, “that inbred loyalty unto Virtue which can serve her without a livery.” He who possesses these qualities, united with strength of purpose, carries with him a power which is irresistible. He is strong to do good, strong to resist evil, and strong to bear up under difficulty and misfortune.</blockquote>
+  <div class="src">&mdash; <b>smiles-self-help</b></div>
+  <div class="vs">&#8646;</div>
+  <blockquote>When the accomplishments and solid qualities are equally blended, we then have the man of virtue.&#x27; CHAP. XVII. The Master said, &#x27;Man is born for uprightness. If a man lose his uprightness, and yet live, his escape from death is the effect of mere good fortune.&#x27;</blockquote>
+  <div class="src">&mdash; <b>analects</b></div>
+  <div class="note">Smiles&#x27;s &#x27;essence of manly character&#x27; meets Confucius on uprightness: &#x27;Man is born for uprightness.&#x27; The Analects as a Victorian conduct manual.</div>
+</div>
+<div class="card">
+  <div class="num">#8 <span class="sim">cosine 0.673</span></div>
+  <blockquote>It is inherent in the constitution of the cosmos that all things shall be for him and work together for his good; and he must certainly get rich if he acts and thinks in the Certain Way. So let wage-earning men and women study this book with great care, and enter with confidence upon the course of action it prescribes; it will not fail.</blockquote>
+  <div class="src">&mdash; <b>wattles-rich</b></div>
+  <div class="vs">&#8646;</div>
+  <blockquote>Those things that are his own, and in his own power, he himself takes order, for that they be good: and as for those that happen unto him, he believes them to be so. For that lot and portion which is assigned to every one, as it is unavoidable and necessary, so is it always profitable.</blockquote>
+  <div class="src">&mdash; <b>meditations</b></div>
+  <div class="note">Wattles&#x27;s &#x27;Certain Way&#x27; to get rich — &#x27;all things shall work together for his good&#x27; — meets Marcus Aurelius on the things in our own power. The prosperity gospel, Stoic edition.</div>
+</div>
+<div class="card">
+  <div class="num">#9 <span class="sim">cosine 0.672</span></div>
+  <blockquote>Man’s highest happiness is found in the bestowal of benefits on those he loves; love finds its most natural and spontaneous expression in giving. The man who has nothing to give cannot fill his place as a husband or father, as a citizen, or as a man. It is in the use of material things that man finds full life for his body, develops his mind, and unfolds his soul. It is therefore of supreme importance to him that he should be rich.</blockquote>
+  <div class="src">&mdash; <b>wattles-rich</b></div>
+  <div class="vs">&#8646;</div>
+  <blockquote>For he is a happy man, who in his lifetime dealeth unto himself a happy lot and portion. A happy lot and portion is, good inclinations of the soul, good desires, good actions.</blockquote>
+  <div class="src">&mdash; <b>meditations</b></div>
+  <div class="note">Wattles argues you must be rich to give; Marcus argues happiness is &#x27;good inclinations of the soul.&#x27; Same vocabulary of happiness, opposite conclusions about money.</div>
+</div>
+<div class="card">
+  <div class="num">#10 <span class="sim">cosine 0.688</span></div>
+  <blockquote>Even at birth the soul comes to its own and through every step of its earthly pilgrimage it attracts those combinations of conditions which reveal itself, which are the reflections of its own purity and, impurity, its strength and weakness.</blockquote>
+  <div class="src">&mdash; <b>allen-thinketh</b></div>
+  <div class="vs">&#8646;</div>
+  <blockquote>The Soul, Thus passing forth from the Three Qualities-- Whereby arise all bodies--overcomes Birth, Death, Sorrow, and Age; and drinketh deep The undying wine of Amrit.</blockquote>
+  <div class="src">&mdash; <b>bhagavad-gita</b></div>
+  <div class="note">Allen&#x27;s soul &#x27;attracts those combinations of conditions which reveal itself&#x27; meets the Gita&#x27;s soul passing through the Three Qualities. New Thought karma, 2,000 years early.</div>
+</div>
+</body></html>

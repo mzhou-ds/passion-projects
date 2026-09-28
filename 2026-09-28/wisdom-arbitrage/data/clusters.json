@@ -1,0 +1,973 @@
+[
+  {
+    "cluster": 3,
+    "size": 509,
+    "top_terms": [
+      "work",
+      "life",
+      "great",
+      "time",
+      "years",
+      "study",
+      "said",
+      "art"
+    ],
+    "traditions": {
+      "confucian": 2,
+      "hindu": 1,
+      "hebrew": 1,
+      "stoic": 16,
+      "transcendentalist": 59,
+      "selfhelp": 430
+    },
+    "groups": {
+      "canon": 20,
+      "philosophy": 59,
+      "selfhelp": 430
+    },
+    "canon_share": 0.03929273084479371,
+    "selfhelp_share": 0.8447937131630648,
+    "n_traditions": 6,
+    "rep_passage": "But Nature had endowed him with that which proved in some sort an equivalent for shortcomings of a professional kind. His own elevation of character, and his profound sensibility, aided him in acting upon the feelings of others through the medium of the pencil.\u201d {173}",
+    "rep_work": "smiles-self-help"
+  },
+  {
+    "cluster": 9,
+    "size": 468,
+    "top_terms": [
+      "love",
+      "nature",
+      "good",
+      "man",
+      "life",
+      "heart",
+      "things",
+      "world"
+    ],
+    "traditions": {
+      "taoist": 21,
+      "confucian": 5,
+      "buddhist": 5,
+      "hindu": 15,
+      "strategist": 2,
+      "hebrew": 46,
+      "stoic": 76,
+      "transcendentalist": 214,
+      "selfhelp": 84
+    },
+    "groups": {
+      "canon": 170,
+      "philosophy": 214,
+      "selfhelp": 84
+    },
+    "canon_share": 0.36324786324786323,
+    "selfhelp_share": 0.1794871794871795,
+    "n_traditions": 9,
+    "rep_passage": "Every promise of the soul has innumerable fulfilments; each of its joys ripens into a new want. Nature, uncontainable, flowing, forelooking, in the first sentiment of kindness anticipates already a benevolence which shall lose all particular regards in its general light. The introduction to this fel",
+    "rep_work": "emerson-essays"
+  },
+  {
+    "cluster": 21,
+    "size": 465,
+    "top_terms": [
+      "man",
+      "men",
+      "life",
+      "good",
+      "things",
+      "thoughts",
+      "character",
+      "does"
+    ],
+    "traditions": {
+      "taoist": 20,
+      "confucian": 14,
+      "buddhist": 1,
+      "hindu": 5,
+      "strategist": 2,
+      "hebrew": 46,
+      "stoic": 54,
+      "transcendentalist": 171,
+      "selfhelp": 152
+    },
+    "groups": {
+      "canon": 142,
+      "philosophy": 171,
+      "selfhelp": 152
+    },
+    "canon_share": 0.3053763440860215,
+    "selfhelp_share": 0.32688172043010755,
+    "n_traditions": 9,
+    "rep_passage": "As a being of Power, Intelligence, and Love, and the lord of his own thoughts, man holds the key to every situation, and contains within himself that transforming and regenerative agency by which he may make himself what he wills.",
+    "rep_work": "allen-thinketh"
+  },
+  {
+    "cluster": 27,
+    "size": 409,
+    "top_terms": [
+      "thy",
+      "shall",
+      "thou",
+      "thee",
+      "heart",
+      "lord",
+      "unto",
+      "thine"
+    ],
+    "traditions": {
+      "taoist": 8,
+      "confucian": 1,
+      "buddhist": 5,
+      "hindu": 50,
+      "hebrew": 227,
+      "stoic": 47,
+      "transcendentalist": 47,
+      "selfhelp": 24
+    },
+    "groups": {
+      "canon": 338,
+      "philosophy": 47,
+      "selfhelp": 24
+    },
+    "canon_share": 0.8264058679706602,
+    "selfhelp_share": 0.05867970660146699,
+    "n_traditions": 8,
+    "rep_passage": "2:10 When wisdom entereth into thine heart, and knowledge is pleasant unto thy soul; 2:11 Discretion shall preserve thee, understanding shall keep thee: 2:12 To deliver thee from the way of the evil man, from the man that speaketh froward things; 2:13 Who leave the paths of uprightness, to walk in t",
+    "rep_work": "proverbs"
+  },
+  {
+    "cluster": 5,
+    "size": 385,
+    "top_terms": [
+      "soul",
+      "life",
+      "man",
+      "shall",
+      "death",
+      "mind",
+      "spirit",
+      "things"
+    ],
+    "traditions": {
+      "taoist": 13,
+      "buddhist": 4,
+      "hindu": 59,
+      "strategist": 3,
+      "hebrew": 29,
+      "stoic": 58,
+      "transcendentalist": 174,
+      "selfhelp": 45
+    },
+    "groups": {
+      "canon": 166,
+      "philosophy": 174,
+      "selfhelp": 45
+    },
+    "canon_share": 0.43116883116883115,
+    "selfhelp_share": 0.11688311688311688,
+    "n_traditions": 8,
+    "rep_passage": "So come I to live in thoughts and act with energies which are immortal. Thus revering the soul, and learning, as the ancient said, that \u201cits beauty is immense,\u201d man will come to see that the world is the perennial miracle which the soul worketh, and be less astonished at particular wonders; he will ",
+    "rep_work": "emerson-essays"
+  },
+  {
+    "cluster": 0,
+    "size": 383,
+    "top_terms": [
+      "thou",
+      "thy",
+      "thee",
+      "unto",
+      "thyself",
+      "things",
+      "whatsoever",
+      "doth"
+    ],
+    "traditions": {
+      "taoist": 2,
+      "buddhist": 1,
+      "hindu": 6,
+      "strategist": 1,
+      "hebrew": 22,
+      "stoic": 338,
+      "transcendentalist": 8,
+      "selfhelp": 5
+    },
+    "groups": {
+      "canon": 370,
+      "philosophy": 8,
+      "selfhelp": 5
+    },
+    "canon_share": 0.9660574412532638,
+    "selfhelp_share": 0.013054830287206266,
+    "n_traditions": 8,
+    "rep_passage": "XXX. Thou art now ready to die, and yet hast thou not attained to that perfect simplicity: thou art yet subject to many troubles and perturbations; not yet free from all fear and suspicion of external accidents; nor yet either so meekly disposed towards all men, as thou shouldest; or so affected as ",
+    "rep_work": "meditations"
+  },
+  {
+    "cluster": 19,
+    "size": 377,
+    "top_terms": [
+      "england",
+      "years",
+      "mr",
+      "great",
+      "sir",
+      "business",
+      "london",
+      "lord"
+    ],
+    "traditions": {
+      "transcendentalist": 13,
+      "selfhelp": 364
+    },
+    "groups": {
+      "philosophy": 13,
+      "selfhelp": 364
+    },
+    "canon_share": 0.0,
+    "selfhelp_share": 0.9655172413793104,
+    "n_traditions": 2,
+    "rep_passage": "for he felt that the industry, study, and application, by means of which he achieved his eminent position, were entirely due to himself. It is related of him, that on one occasion he took his son Charles to a little shed, then standing opposite the western front of Canterbury Cathedral, and pointing",
+    "rep_work": "smiles-self-help"
+  },
+  {
+    "cluster": 4,
+    "size": 373,
+    "top_terms": [
+      "wicked",
+      "shall",
+      "evil",
+      "righteous",
+      "man",
+      "lord",
+      "good",
+      "judgment"
+    ],
+    "traditions": {
+      "taoist": 9,
+      "confucian": 1,
+      "buddhist": 1,
+      "hindu": 12,
+      "hebrew": 264,
+      "stoic": 49,
+      "transcendentalist": 24,
+      "selfhelp": 13
+    },
+    "groups": {
+      "canon": 336,
+      "philosophy": 24,
+      "selfhelp": 13
+    },
+    "canon_share": 0.900804289544236,
+    "selfhelp_share": 0.03485254691689008,
+    "n_traditions": 8,
+    "rep_passage": "11:17 The merciful man doeth good to his own soul: but he that is cruel troubleth his own flesh.",
+    "rep_work": "proverbs"
+  },
+  {
+    "cluster": 24,
+    "size": 363,
+    "top_terms": [
+      "said",
+      "did",
+      "man",
+      "came",
+      "old",
+      "went",
+      "replied",
+      "like"
+    ],
+    "traditions": {
+      "confucian": 14,
+      "strategist": 4,
+      "hebrew": 13,
+      "stoic": 11,
+      "transcendentalist": 104,
+      "selfhelp": 217
+    },
+    "groups": {
+      "canon": 42,
+      "philosophy": 104,
+      "selfhelp": 217
+    },
+    "canon_share": 0.11570247933884298,
+    "selfhelp_share": 0.5977961432506887,
+    "n_traditions": 6,
+    "rep_passage": "I remembered the story of a conceited fellow, who, in fine clothes, was wont to lounge about the village once, giving advice to workmen. Venturing one day to substitute deeds for words, he turned up his cuffs, seized a plasterer\u2019s board, and having loaded his trowel without mishap, with a complacent",
+    "rep_work": "thoreau-walden"
+  },
+  {
+    "cluster": 2,
+    "size": 330,
+    "top_terms": [
+      "men",
+      "people",
+      "great",
+      "good",
+      "law",
+      "world",
+      "man",
+      "state"
+    ],
+    "traditions": {
+      "taoist": 22,
+      "confucian": 10,
+      "buddhist": 1,
+      "hindu": 2,
+      "strategist": 13,
+      "hebrew": 26,
+      "stoic": 33,
+      "transcendentalist": 139,
+      "selfhelp": 84
+    },
+    "groups": {
+      "canon": 107,
+      "philosophy": 139,
+      "selfhelp": 84
+    },
+    "canon_share": 0.3242424242424242,
+    "selfhelp_share": 0.2545454545454545,
+    "n_traditions": 9,
+    "rep_passage": "but must needs live in some fashionable state to which we ridiculously please to call ourselves, and all to gratify the vanity of that unsubstantial genteel world of which we form a part. There is a constant struggle and pressure for front seats in the social amphitheatre; in the midst of which all ",
+    "rep_work": "smiles-self-help"
+  },
+  {
+    "cluster": 17,
+    "size": 329,
+    "top_terms": [
+      "man",
+      "money",
+      "business",
+      "men",
+      "debt",
+      "good",
+      "dollars",
+      "pay"
+    ],
+    "traditions": {
+      "taoist": 1,
+      "confucian": 2,
+      "strategist": 3,
+      "hebrew": 13,
+      "stoic": 3,
+      "transcendentalist": 76,
+      "selfhelp": 231
+    },
+    "groups": {
+      "canon": 22,
+      "philosophy": 76,
+      "selfhelp": 231
+    },
+    "canon_share": 0.0668693009118541,
+    "selfhelp_share": 0.7021276595744681,
+    "n_traditions": 7,
+    "rep_passage": "HOW a man uses money\u2014makes it, saves it, and spends it\u2014is perhaps one of the best tests of practical wisdom. Although money ought by no means to be regarded as a chief end of man\u2019s life, neither is it a trifling matter, to be held in philosophic contempt, representing as it does to so large an exten",
+    "rep_work": "smiles-self-help"
+  },
+  {
+    "cluster": 29,
+    "size": 328,
+    "top_terms": [
+      "house",
+      "man",
+      "food",
+      "beans",
+      "farm",
+      "new",
+      "did",
+      "houses"
+    ],
+    "traditions": {
+      "taoist": 3,
+      "confucian": 1,
+      "buddhist": 1,
+      "hindu": 3,
+      "strategist": 4,
+      "hebrew": 12,
+      "stoic": 2,
+      "transcendentalist": 263,
+      "selfhelp": 39
+    },
+    "groups": {
+      "canon": 26,
+      "philosophy": 263,
+      "selfhelp": 39
+    },
+    "canon_share": 0.07926829268292683,
+    "selfhelp_share": 0.11890243902439024,
+    "n_traditions": 9,
+    "rep_passage": "One farmer said that it was \u201cgood for nothing but to raise cheeping squirrels on.\u201d I put no manure whatever on this land, not being the owner, but merely a squatter, and not expecting to cultivate so much again, and I did not quite hoe it all once. I got out several cords of stumps in ploughing, whi",
+    "rep_work": "thoreau-walden"
+  },
+  {
+    "cluster": 1,
+    "size": 323,
+    "top_terms": [
+      "woods",
+      "like",
+      "house",
+      "winter",
+      "heard",
+      "snow",
+      "wood",
+      "pond"
+    ],
+    "traditions": {
+      "confucian": 1,
+      "buddhist": 1,
+      "strategist": 3,
+      "hebrew": 3,
+      "stoic": 4,
+      "transcendentalist": 301,
+      "selfhelp": 10
+    },
+    "groups": {
+      "canon": 12,
+      "philosophy": 301,
+      "selfhelp": 10
+    },
+    "canon_share": 0.03715170278637771,
+    "selfhelp_share": 0.030959752321981424,
+    "n_traditions": 7,
+    "rep_passage": "As it grew darker, I was startled by the _honking_ of geese flying low over the woods, like weary travellers getting in late from southern lakes, and indulging at last in unrestrained complaint and mutual consolation. Standing at my door, I could hear the rush of their wings; when, driving toward my",
+    "rep_work": "thoreau-walden"
+  },
+  {
+    "cluster": 8,
+    "size": 321,
+    "top_terms": [
+      "earth",
+      "sun",
+      "like",
+      "light",
+      "day",
+      "world",
+      "eyes",
+      "heaven"
+    ],
+    "traditions": {
+      "taoist": 8,
+      "buddhist": 1,
+      "hindu": 14,
+      "strategist": 11,
+      "hebrew": 37,
+      "stoic": 16,
+      "transcendentalist": 214,
+      "selfhelp": 20
+    },
+    "groups": {
+      "canon": 87,
+      "philosophy": 214,
+      "selfhelp": 20
+    },
+    "canon_share": 0.27102803738317754,
+    "selfhelp_share": 0.06230529595015576,
+    "n_traditions": 8,
+    "rep_passage": "We all stand waiting, empty,\u2014knowing, possibly, that we can be full, surrounded by mighty symbols which are not symbols to us, but prose and trivial toys. Then cometh the god and converts the statues into fiery men, and by a flash of his eye burns up the veil which shrouded all things, and the meani",
+    "rep_work": "emerson-essays"
+  },
+  {
+    "cluster": 20,
+    "size": 318,
+    "top_terms": [
+      "things",
+      "nature",
+      "substance",
+      "thought",
+      "universe",
+      "thing",
+      "world",
+      "life"
+    ],
+    "traditions": {
+      "taoist": 21,
+      "confucian": 1,
+      "buddhist": 2,
+      "hindu": 13,
+      "strategist": 1,
+      "hebrew": 2,
+      "stoic": 94,
+      "transcendentalist": 80,
+      "selfhelp": 104
+    },
+    "groups": {
+      "canon": 134,
+      "philosophy": 80,
+      "selfhelp": 104
+    },
+    "canon_share": 0.42138364779874216,
+    "selfhelp_share": 0.3270440251572327,
+    "n_traditions": 9,
+    "rep_passage": "IV. All substances come soon to their change, and either they shall be resolved by way of exhalation (if so be that all things shall be reunited into one substance), or as others maintain, they shall be scattered and dispersed. As for that Rational Essence by which all things are governed, as it bes",
+    "rep_work": "meditations"
+  },
+  {
+    "cluster": 12,
+    "size": 315,
+    "top_terms": [
+      "man",
+      "evil",
+      "wise",
+      "let",
+      "world",
+      "like",
+      "does",
+      "free"
+    ],
+    "traditions": {
+      "taoist": 11,
+      "buddhist": 284,
+      "strategist": 14,
+      "stoic": 3,
+      "transcendentalist": 2,
+      "selfhelp": 1
+    },
+    "groups": {
+      "canon": 312,
+      "philosophy": 2,
+      "selfhelp": 1
+    },
+    "canon_share": 0.9904761904761905,
+    "selfhelp_share": 0.0031746031746031746,
+    "n_traditions": 6,
+    "rep_passage": "181. Even the gods envy those who are awakened and not forgetful, who are given to meditation, who are wise, and who delight in the repose of retirement (from the world).",
+    "rep_work": "dhammapada"
+  },
+  {
+    "cluster": 15,
+    "size": 304,
+    "top_terms": [
+      "machine",
+      "invention",
+      "manufacture",
+      "time",
+      "work",
+      "years",
+      "making",
+      "great"
+    ],
+    "traditions": {
+      "hindu": 1,
+      "strategist": 2,
+      "hebrew": 2,
+      "transcendentalist": 5,
+      "selfhelp": 294
+    },
+    "groups": {
+      "canon": 5,
+      "philosophy": 5,
+      "selfhelp": 294
+    },
+    "canon_share": 0.01644736842105263,
+    "selfhelp_share": 0.9671052631578947,
+    "n_traditions": 5,
+    "rep_passage": "This slight is said to have created in his mind such an aversion to knitting by hand, that he formed the determination to invent a machine that should supersede it and render it a gainless employment. For three years he devoted himself to the prosecution of the invention, sacrificing everything to h",
+    "rep_work": "smiles-self-help"
+  },
+  {
+    "cluster": 11,
+    "size": 296,
+    "top_terms": [
+      "life",
+      "men",
+      "man",
+      "work",
+      "genius",
+      "knowledge",
+      "culture",
+      "best"
+    ],
+    "traditions": {
+      "taoist": 6,
+      "confucian": 7,
+      "strategist": 1,
+      "hebrew": 7,
+      "stoic": 5,
+      "transcendentalist": 67,
+      "selfhelp": 203
+    },
+    "groups": {
+      "canon": 26,
+      "philosophy": 67,
+      "selfhelp": 203
+    },
+    "canon_share": 0.08783783783783784,
+    "selfhelp_share": 0.6858108108108109,
+    "n_traditions": 7,
+    "rep_passage": "but that is a wisdom without them, and above them, won by observation;\u201d a remark that holds true of actual life, as well as of the cultivation of the intellect itself. For all experience serves to illustrate and enforce the lesson, that a man perfects himself by work more than by reading,\u2014that it is",
+    "rep_work": "smiles-self-help"
+  },
+  {
+    "cluster": 6,
+    "size": 294,
+    "top_terms": [
+      "chap",
+      "master",
+      "said",
+      "master said",
+      "tsze",
+      "yu",
+      "ch",
+      "man"
+    ],
+    "traditions": {
+      "taoist": 1,
+      "confucian": 285,
+      "strategist": 7,
+      "transcendentalist": 1
+    },
+    "groups": {
+      "canon": 293,
+      "philosophy": 1
+    },
+    "canon_share": 0.9965986394557823,
+    "selfhelp_share": 0.0,
+    "n_traditions": 4,
+    "rep_passage": "5. He went to the chiefs, and informed them, but they would not act. Confucius then said, 'Following in the rear of the great officers, I did not dare not to represent such a matter.' CHAP. XXIII. Tsze-lu asked how a ruler should be served. The Master said, 'Do not impose on him, and, moreover, with",
+    "rep_work": "analects"
+  },
+  {
+    "cluster": 25,
+    "size": 286,
+    "top_terms": [
+      "army",
+      "enemy",
+      "soldiers",
+      "battle",
+      "men",
+      "war",
+      "officers",
+      "general"
+    ],
+    "traditions": {
+      "taoist": 5,
+      "confucian": 1,
+      "hindu": 3,
+      "strategist": 90,
+      "hebrew": 4,
+      "stoic": 7,
+      "transcendentalist": 35,
+      "selfhelp": 141
+    },
+    "groups": {
+      "canon": 110,
+      "philosophy": 35,
+      "selfhelp": 141
+    },
+    "canon_share": 0.38461538461538464,
+    "selfhelp_share": 0.493006993006993,
+    "n_traditions": 8,
+    "rep_passage": "See IX \u00a7 9, and note.] You, on the contrary, ordered us to draw up our troops with the river at our back. Under these conditions, how did you manage to gain the victory?\" The general replied: \"I fear you gentlemen have not studied the Art of War with sufficient care. Is it not written there: \u2018Plunge",
+    "rep_work": "art-of-war"
+  },
+  {
+    "cluster": 22,
+    "size": 276,
+    "top_terms": [
+      "philosopher",
+      "et",
+      "marcus",
+      "socrates",
+      "century",
+      "alexander",
+      "history",
+      "philosophy"
+    ],
+    "traditions": {
+      "taoist": 2,
+      "confucian": 5,
+      "hindu": 3,
+      "strategist": 6,
+      "hebrew": 2,
+      "stoic": 139,
+      "transcendentalist": 66,
+      "selfhelp": 53
+    },
+    "groups": {
+      "canon": 157,
+      "philosophy": 66,
+      "selfhelp": 53
+    },
+    "canon_share": 0.5688405797101449,
+    "selfhelp_share": 0.19202898550724637,
+    "n_traditions": 8,
+    "rep_passage": "And Simon Ockley\u2019s History of the Saracens recounts the prodigies of individual valor, with admiration all the more evident on the part of the narrator that he seems to think that his place in Christian Oxford requires of him some proper protestations of abhorrence. But if we explore the literature ",
+    "rep_work": "emerson-essays"
+  },
+  {
+    "cluster": 23,
+    "size": 269,
+    "top_terms": [
+      "rich",
+      "poor",
+      "poverty",
+      "riches",
+      "getting",
+      "getting rich",
+      "money",
+      "man"
+    ],
+    "traditions": {
+      "taoist": 2,
+      "strategist": 1,
+      "hebrew": 33,
+      "stoic": 1,
+      "transcendentalist": 23,
+      "selfhelp": 209
+    },
+    "groups": {
+      "canon": 37,
+      "philosophy": 23,
+      "selfhelp": 209
+    },
+    "canon_share": 0.137546468401487,
+    "selfhelp_share": 0.7769516728624535,
+    "n_traditions": 6,
+    "rep_passage": "To get rich, is not always equivalent to being successful. \"There are many rich poor men,\" while there are many others, honest and devout men and women, who have never possessed so much money as some rich persons squander in a week, but who are nevertheless really richer and happier than any man can",
+    "rep_work": "barnum-money"
+  },
+  {
+    "cluster": 28,
+    "size": 260,
+    "top_terms": [
+      "want",
+      "act",
+      "faith",
+      "things",
+      "business",
+      "purpose",
+      "make",
+      "work"
+    ],
+    "traditions": {
+      "taoist": 1,
+      "confucian": 3,
+      "hindu": 2,
+      "strategist": 9,
+      "hebrew": 12,
+      "stoic": 6,
+      "transcendentalist": 26,
+      "selfhelp": 201
+    },
+    "groups": {
+      "canon": 33,
+      "philosophy": 26,
+      "selfhelp": 201
+    },
+    "canon_share": 0.12692307692307692,
+    "selfhelp_share": 0.7730769230769231,
+    "n_traditions": 8,
+    "rep_passage": "Every one can make his own destiny\u2014every one employ his life nobly. This is what I have done, and would do again if I had to recommence my career; I would choose that which has brought me where I am. Blind, and suffering without hope, and almost without intermission, I may give this testimony, which",
+    "rep_work": "smiles-self-help"
+  },
+  {
+    "cluster": 13,
+    "size": 238,
+    "top_terms": [
+      "wisdom",
+      "fool",
+      "wise",
+      "understanding",
+      "knowledge",
+      "man",
+      "fools",
+      "wise man"
+    ],
+    "traditions": {
+      "taoist": 19,
+      "confucian": 5,
+      "buddhist": 3,
+      "hindu": 6,
+      "hebrew": 152,
+      "stoic": 4,
+      "transcendentalist": 37,
+      "selfhelp": 12
+    },
+    "groups": {
+      "canon": 189,
+      "philosophy": 37,
+      "selfhelp": 12
+    },
+    "canon_share": 0.7941176470588235,
+    "selfhelp_share": 0.05042016806722689,
+    "n_traditions": 8,
+    "rep_passage": "15:14 The heart of him that hath understanding seeketh knowledge: but the mouth of fools feedeth on foolishness.",
+    "rep_work": "proverbs"
+  },
+  {
+    "cluster": 26,
+    "size": 220,
+    "top_terms": [
+      "pond",
+      "water",
+      "ice",
+      "shore",
+      "walden",
+      "surface",
+      "like",
+      "deep"
+    ],
+    "traditions": {
+      "taoist": 2,
+      "hindu": 2,
+      "strategist": 6,
+      "hebrew": 2,
+      "stoic": 1,
+      "transcendentalist": 198,
+      "selfhelp": 9
+    },
+    "groups": {
+      "canon": 13,
+      "philosophy": 198,
+      "selfhelp": 9
+    },
+    "canon_share": 0.05909090909090909,
+    "selfhelp_share": 0.04090909090909091,
+    "n_traditions": 7,
+    "rep_passage": "Yet perchance the first who came to this well have left some trace of their footsteps. I have been surprised to detect encircling the pond, even where a thick wood has just been cut down on the shore, a narrow shelf-like path in the steep hill-side, alternately rising and falling, approaching and re",
+    "rep_work": "thoreau-walden"
+  },
+  {
+    "cluster": 10,
+    "size": 184,
+    "top_terms": [
+      "enemy",
+      "ground",
+      "army",
+      "attack",
+      "10",
+      "11",
+      "general",
+      "weak"
+    ],
+    "traditions": {
+      "taoist": 13,
+      "buddhist": 4,
+      "strategist": 165,
+      "hebrew": 1,
+      "stoic": 1
+    },
+    "groups": {
+      "canon": 184
+    },
+    "canon_share": 1.0,
+    "selfhelp_share": 0.0,
+    "n_traditions": 5,
+    "rep_passage": "8. It is the rule in war, if our forces are ten to the enemy\u2019s one, to surround him; if five to one, to attack him;",
+    "rep_work": "art-of-war"
+  },
+  {
+    "cluster": 14,
+    "size": 182,
+    "top_terms": [
+      "tao",
+      "sun",
+      "wu",
+      "tz\u016d",
+      "sun tz\u016d",
+      "ch",
+      "sun wu",
+      "lu"
+    ],
+    "traditions": {
+      "taoist": 62,
+      "confucian": 7,
+      "buddhist": 1,
+      "strategist": 109,
+      "stoic": 1,
+      "transcendentalist": 1,
+      "selfhelp": 1
+    },
+    "groups": {
+      "canon": 180,
+      "philosophy": 1,
+      "selfhelp": 1
+    },
+    "canon_share": 0.989010989010989,
+    "selfhelp_share": 0.005494505494505495,
+    "n_traditions": 7,
+    "rep_passage": "An interesting document which has survived from the close of the Han period is the short preface written by the Great Ts\u2019ao Ts\u2019ao, or Wei Wu Ti, for his edition of Sun Tz\u016d. I shall give it in full:\u2014",
+    "rep_work": "art-of-war"
+  },
+  {
+    "cluster": 7,
+    "size": 181,
+    "top_terms": [
+      "enemy",
+      "army",
+      "victory",
+      "soldiers",
+      "16",
+      "18",
+      "22",
+      "general"
+    ],
+    "traditions": {
+      "buddhist": 3,
+      "strategist": 178
+    },
+    "groups": {
+      "canon": 181
+    },
+    "canon_share": 1.0,
+    "selfhelp_share": 0.0,
+    "n_traditions": 2,
+    "rep_passage": "22. Though the enemy be stronger in numbers, we may prevent him from fighting. Scheme so as to discover his plans and the likelihood of their success.",
+    "rep_work": "art-of-war"
+  },
+  {
+    "cluster": 18,
+    "size": 138,
+    "top_terms": [
+      "arjuna",
+      "krishna",
+      "bhagavad gita",
+      "bhagavad",
+      "gita",
+      "thou",
+      "gita entitled",
+      "entitled"
+    ],
+    "traditions": {
+      "buddhist": 1,
+      "hindu": 135,
+      "transcendentalist": 2
+    },
+    "groups": {
+      "canon": 136,
+      "philosophy": 2
+    },
+    "canon_share": 0.9855072463768116,
+    "selfhelp_share": 0.0,
+    "n_traditions": 3,
+    "rep_passage": "Arjuna. Krishna! as I behold, come here to shed Their common blood, yon concourse of our kin, My members fail, my tongue dries in my mouth, A shudder thrills my body, and my hair Bristles with horror; from my weak hand slips Gandiv, the goodly bow; a fever burns My skin to parching; hardly may I sta",
+    "rep_work": "bhagavad-gita"
+  },
+  {
+    "cluster": 16,
+    "size": 100,
+    "top_terms": [
+      "brahmana",
+      "bhikshu",
+      "buddha",
+      "free",
+      "nirvana",
+      "called",
+      "world",
+      "law"
+    ],
+    "traditions": {
+      "taoist": 1,
+      "buddhist": 97,
+      "strategist": 2
+    },
+    "groups": {
+      "canon": 100
+    },
+    "canon_share": 1.0,
+    "selfhelp_share": 0.0,
+    "n_traditions": 3,
+    "rep_passage": "412. Him I call indeed a Brahmana who in this world is above good and evil, above the bondage of both, free from grief from sin, and from impurity.",
+    "rep_work": "dhammapada"
+  }
+]

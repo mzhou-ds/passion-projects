@@ -1,0 +1,82 @@
+[
+ {
+  "self_work": "smiles-self-help",
+  "canon_work": "proverbs",
+  "sim": 0.8705604672431946,
+  "self_passage": "\u201cSeest thou a man diligent in his business? he shall stand before kings.\u201d\u2014_Proverbs of Solomon_.",
+  "canon_passage": "22:29 Seest thou a man diligent in his business? he shall stand before kings; he shall not stand before mean men.",
+  "note": "Verbatim, with attribution. Smiles isn't hiding the sourcing \u2014 the laundering happens in the open: scripture in, advice out, authority transferred from Solomon to Smiles."
+ },
+ {
+  "self_work": "allen-thinketh",
+  "canon_work": "dhammapada",
+  "sim": 0.7278813719749451,
+  "self_passage": "\"Thought in the mind hath made us, What we are By thought was wrought and built. If a man's mind Hath evil thoughts, pain comes on him as comes The wheel the ox behind....",
+  "canon_passage": "1. All that we are is the result of what we have thought: it is founded on our thoughts, it is made up of our thoughts. If a man speaks or acts with an evil thought, pain follows him, as the wheel follows the foot of the ox that draws the carriage.",
+  "note": "Allen versified Max Muller's Dhammapada translation and made it his book's thesis. The founding text of the 'mindset' genre opens with a paraphrased Buddha."
+ },
+ {
+  "self_work": "barnum-money",
+  "canon_work": "proverbs",
+  "sim": 0.6971445083618164,
+  "self_passage": "If you hesitate, some bolder hand will stretch out before you and get the prize. Remember the proverb of Solomon: \"He becometh poor that dealeth with a slack hand; but the hand of the diligent maketh rich.\"",
+  "canon_passage": "10:4 He becometh poor that dealeth with a slack hand: but the hand of the diligent maketh rich.",
+  "note": "Verbatim again, with attribution ('Remember the proverb of Solomon'). P.T. Barnum \u2014 the circus man \u2014 funding his business advice with Solomon's balance sheet."
+ },
+ {
+  "self_work": "barnum-money",
+  "canon_work": "proverbs",
+  "sim": 0.6696333885192871,
+  "self_passage": "Verily, \"wine is a mocker.\" The use of intoxicating drinks as a beverage, is as much an infatuation, as is the smoking of opium by the Chinese, and the former is quite as destructive to the success of the business man as the latter. It is an unmitigated evil, utterly indefensible in the light of philosophy; religion or good sense. It is the parent of nearly every other evil in our country.",
+  "canon_passage": "20:1 Wine is a mocker, strong drink is raging: and whosoever is deceived thereby is not wise.",
+  "note": "Barnum quotes Proverbs 20:1 word-for-word, then applies it to the businessman. Temperance lecture as business strategy, circa 1880."
+ },
+ {
+  "self_work": "barnum-money",
+  "canon_work": "proverbs",
+  "sim": 0.6677469611167908,
+  "self_passage": "To get rich, is not always equivalent to being successful. \"There are many rich poor men,\" while there are many others, honest and devout men and women, who have never possessed so much money as some rich persons squander in a week, but who are nevertheless really richer and happier than any man can ever be while he is a transgressor of the higher laws of his being.",
+  "canon_passage": "13:7 There is that maketh himself rich, yet hath nothing: there is that maketh himself poor, yet hath great riches.",
+  "note": "Barnum's 'many rich poor men' is Proverbs 13:7 restated. The richest showman of the century preaching anti-materialism \u2014 from Solomon."
+ },
+ {
+  "self_work": "smiles-self-help",
+  "canon_work": "proverbs",
+  "sim": 0.6814979314804077,
+  "self_passage": "In humble life nothing can be more cheering and beautiful than to see a man combating suffering by patience, triumphing in his integrity, and who, when his feet are bleeding and his limbs failing him, still walks upon his courage.",
+  "canon_passage": "29:23 A man\u2019s pride shall bring him low: but honour shall uphold the humble in spirit.",
+  "note": "Same doctrine, different millennium: humility upheld, pride brought low. Smiles's Victorian poor meet Solomon's proverb."
+ },
+ {
+  "self_work": "smiles-self-help",
+  "canon_work": "analects",
+  "sim": 0.6731477379798889,
+  "self_passage": "Truthfulness, integrity, and goodness\u2014qualities that hang not on any man\u2019s breath\u2014form the essence of manly character, or, as one of our old writers has it, \u201cthat inbred loyalty unto Virtue which can serve her without a livery.\u201d He who possesses these qualities, united with strength of purpose, carries with him a power which is irresistible. He is strong to do good, strong to resist evil, and strong to bear up under difficulty and misfortune.",
+  "canon_passage": "When the accomplishments and solid qualities are equally blended, we then have the man of virtue.' CHAP. XVII. The Master said, 'Man is born for uprightness. If a man lose his uprightness, and yet live, his escape from death is the effect of mere good fortune.'",
+  "note": "Smiles's 'essence of manly character' meets Confucius on uprightness: 'Man is born for uprightness.' The Analects as a Victorian conduct manual."
+ },
+ {
+  "self_work": "wattles-rich",
+  "canon_work": "meditations",
+  "sim": 0.6728770136833191,
+  "self_passage": "It is inherent in the constitution of the cosmos that all things shall be for him and work together for his good; and he must certainly get rich if he acts and thinks in the Certain Way. So let wage-earning men and women study this book with great care, and enter with confidence upon the course of action it prescribes; it will not fail.",
+  "canon_passage": "Those things that are his own, and in his own power, he himself takes order, for that they be good: and as for those that happen unto him, he believes them to be so. For that lot and portion which is assigned to every one, as it is unavoidable and necessary, so is it always profitable.",
+  "note": "Wattles's 'Certain Way' to get rich \u2014 'all things shall work together for his good' \u2014 meets Marcus Aurelius on the things in our own power. The prosperity gospel, Stoic edition."
+ },
+ {
+  "self_work": "wattles-rich",
+  "canon_work": "meditations",
+  "sim": 0.6723126769065857,
+  "self_passage": "Man\u2019s highest happiness is found in the bestowal of benefits on those he loves; love finds its most natural and spontaneous expression in giving. The man who has nothing to give cannot fill his place as a husband or father, as a citizen, or as a man. It is in the use of material things that man finds full life for his body, develops his mind, and unfolds his soul. It is therefore of supreme importance to him that he should be rich.",
+  "canon_passage": "For he is a happy man, who in his lifetime dealeth unto himself a happy lot and portion. A happy lot and portion is, good inclinations of the soul, good desires, good actions.",
+  "note": "Wattles argues you must be rich to give; Marcus argues happiness is 'good inclinations of the soul.' Same vocabulary of happiness, opposite conclusions about money."
+ },
+ {
+  "self_work": "allen-thinketh",
+  "canon_work": "bhagavad-gita",
+  "sim": 0.6878020167350769,
+  "self_passage": "Even at birth the soul comes to its own and through every step of its earthly pilgrimage it attracts those combinations of conditions which reveal itself, which are the reflections of its own purity and, impurity, its strength and weakness.",
+  "canon_passage": "The Soul, Thus passing forth from the Three Qualities-- Whereby arise all bodies--overcomes Birth, Death, Sorrow, and Age; and drinketh deep The undying wine of Amrit.",
+  "note": "Allen's soul 'attracts those combinations of conditions which reveal itself' meets the Gita's soul passing through the Three Qualities. New Thought karma, 2,000 years early."
+ }
+]

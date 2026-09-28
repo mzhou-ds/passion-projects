@@ -1,0 +1,55 @@
+{
+  "backend": "st",
+  "n_passages": 9224,
+  "repackaging": {
+    "smiles-self-help": {
+      "n": 1917,
+      "mean_best_sim": 0.4611121118068695,
+      "p50": 0.4575439691543579,
+      "paraphrase_rate_060": 0.04434011476264997,
+      "quotation_rate_070": 0.0010432968179447052,
+      "title": "Self-Help",
+      "year": 1859
+    },
+    "barnum-money": {
+      "n": 200,
+      "mean_best_sim": 0.46367982029914856,
+      "p50": 0.4597853422164917,
+      "paraphrase_rate_060": 0.05,
+      "quotation_rate_070": 0.0,
+      "title": "The Art of Money Getting",
+      "year": 1880
+    },
+    "allen-thinketh": {
+      "n": 122,
+      "mean_best_sim": 0.5677238702774048,
+      "p50": 0.5662537813186646,
+      "paraphrase_rate_060": 0.28688524590163933,
+      "quotation_rate_070": 0.00819672131147541,
+      "title": "As a Man Thinketh",
+      "year": 1903
+    },
+    "wattles-rich": {
+      "n": 512,
+      "mean_best_sim": 0.4990491271018982,
+      "p50": 0.5046082735061646,
+      "paraphrase_rate_060": 0.056640625,
+      "quotation_rate_070": 0.0,
+      "title": "The Science of Getting Rich",
+      "year": 1910
+    },
+    "conwell-acres": {
+      "n": 195,
+      "mean_best_sim": 0.45994043350219727,
+      "p50": 0.45798444747924805,
+      "paraphrase_rate_060": 0.035897435897435895,
+      "quotation_rate_070": 0.0,
+      "title": "Acres of Diamonds",
+      "year": 1915
+    }
+  },
+  "n_universal_clusters": 9,
+  "n_whitespace_clusters": 9,
+  "n_industry_clusters": 7,
+  "umap": true
+}
