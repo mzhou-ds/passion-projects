@@ -1,0 +1,8 @@
+# Reproduces this build. Tested on Python 3.12, CPU-only.
+sentence-transformers>=3.0
+torch>=2.2 --index-url https://download.pytorch.org/whl/cpu
+numpy>=1.26
+scikit-learn>=1.3
+matplotlib>=3.8
+# Note: `all-MiniLM-L6-v2` (~90MB) is fetched from Hugging Face on first use
+# and cached in ~/.cache. Set HF_HUB_OFFLINE=1 only if you vendored the model.

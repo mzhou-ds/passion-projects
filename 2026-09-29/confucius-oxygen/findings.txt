@@ -1,0 +1,40 @@
+CONFUCIUS-OXYGEN findings (2026-09-29)
+
+Corpus: 66 hand-verified management passages from Legge's Analects (PG #4094),
+extracted from 495 English passages (222 keyword candidates, all hand-read).
+Modern shelf: 8 Project Oxygen behaviors + 12 Gallup Q12 items (20 statements,
+paraphrased from the public record).
+
+ENRICHMENT TEST (MiniLM, permutation, 2000 reps):
+- All 8 Oxygen behaviors significant (p<=0.001). Mean ranks 155-194 vs 248 chance.
+- 4/12 Q12 items significant: q01 expectations, q02 resourcing, q06 development, q08 mission.
+- Non-significant: q03 strengths (p=0.051, borderline), q05 care, q07 voice, q09 peer
+  quality, q10 best friend, q11 progress talks, q04 recognition, q12 learn/grow.
+- Median mean rank of leadership passages across all 20 items: 207.1.
+
+REDISCOVERY INDEX (human-adjudicated, all 20 pairs verified against corpus):
+- Oxygen: 7/8 (4 strong, 3 moderate, 1 weak). Only miss: oxy4 results-oriented (weak).
+- Q12: 6/12 (3 strong, 3 moderate, 2 weak, 4 absent).
+- Overall: 13/20 = 65%.
+
+THE MISSES (all employee-experience): q02 resourcing, q04 recognition,
+q10 best friend, q11 progress talks. Confucius wrote a ruler's manual, not an
+engagement survey -- every hit is about the leader's character, every miss is
+about the employee's experience.
+
+THE TWIST: both Google (regressions) and Confucius (IX.VI) rank technical skill
+LAST among leadership traits.
+
+UNREDISCOVERED (Confucian ideas with no modern equivalent): XX.II four bad
+things (toxic-manager taxonomy); XII.XIX wind and grass (culture mechanism);
+XIII.XXIV adversarial calibration; XIV.I salary-shame as selection filter;
+XVI.I retention through contented repose.
+
+HONESTY NOTES:
+- Raw embedding top-1 matches are noisy across the 2500-year register gap
+  (hub passages like VIII.II/XV.XXIII attract many items spuriously); every
+  claimed pair was hand-verified.
+- Naive best-match shelf comparison is biased by set size; rank-based
+  permutation test used instead.
+- Raw cosine values are modest (0.1-0.4); bands are judgment calls, all shown
+  with quotes in pairs.html.

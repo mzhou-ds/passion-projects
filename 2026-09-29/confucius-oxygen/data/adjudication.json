@@ -1,0 +1,264 @@
+{
+ "verdicts": [
+  {
+   "id": "oxy1",
+   "verdict": "moderate",
+   "passages": [
+    {
+     "passage_id": "analects-0341",
+     "note": "XIV.VIII: love that does not lead to strictness, loyalty that does not lead to instruction -- coaching as a duty of care"
+    }
+   ]
+  },
+  {
+   "id": "oxy2",
+   "verdict": "strong",
+   "passages": [
+    {
+     "passage_id": "analects-0324",
+     "note": "XIII.XXV: employ men according to their capacity -- role-fit delegation"
+    },
+    {
+     "passage_id": "analects-0129",
+     "note": "VI.XII: Tan-t'ai never comes to the office except on public business -- the empowered employee who needs no check-ins"
+    }
+   ]
+  },
+  {
+   "id": "oxy3",
+   "verdict": "moderate",
+   "passages": [
+    {
+     "passage_id": "analects-0184",
+     "note": "VIII.II: those in high stations perform all duties to relations; the people are aroused to virtue"
+    },
+    {
+     "passage_id": "analects-0436",
+     "note": "XVII.VI: kindness enables you to employ the services of others"
+    }
+   ]
+  },
+  {
+   "id": "oxy4",
+   "verdict": "weak",
+   "passages": [
+    {
+     "passage_id": "analects-0494",
+     "note": "XX.II: beneficent without great expenditure; lays tasks without repining -- efficient execution, but no roadblock/prioritization idiom"
+    }
+   ]
+  },
+  {
+   "id": "oxy5",
+   "verdict": "strong",
+   "passages": [
+    {
+     "passage_id": "analects-0314",
+     "note": "XIII.XV: if a ruler's words are not good and no one opposes them, ruin follows -- dissent as a duty"
+    },
+    {
+     "passage_id": "analects-0352",
+     "note": "XIV.XXIII: do not impose on him, and withstand him to his face -- candor upward"
+    }
+   ]
+  },
+  {
+   "id": "oxy6",
+   "verdict": "strong",
+   "passages": [
+    {
+     "passage_id": "analects-0034",
+     "note": "II.XX: advance the good and teach the incompetent"
+    },
+    {
+     "passage_id": "analects-0308",
+     "note": "XIII.IX: enrich them, then teach them -- development as a sequence"
+    },
+    {
+     "passage_id": "analects-0301",
+     "note": "XIII.II: raise to office men of virtue and talents -- advancement"
+    }
+   ]
+  },
+  {
+   "id": "oxy7",
+   "verdict": "moderate",
+   "passages": [
+    {
+     "passage_id": "analects-0286",
+     "note": "XII.XI: prince is prince, minister is minister -- everyone knows their role"
+    },
+    {
+     "passage_id": "analects-0302",
+     "note": "XIII.III: rectify names, or affairs cannot be carried to success -- clarity cascade"
+    }
+   ]
+  },
+  {
+   "id": "oxy8",
+   "verdict": "strong",
+   "passages": [
+    {
+     "passage_id": "analects-0209",
+     "note": "IX.VI: 'Must the superior man have such variety of ability? He does not need variety of ability.' -- both Google's data and Confucius rank technical skill LAST"
+    }
+   ]
+  },
+  {
+   "id": "q01",
+   "verdict": "moderate",
+   "passages": [
+    {
+     "passage_id": "analects-0286",
+     "note": "XII.XI: role clarity"
+    },
+    {
+     "passage_id": "analects-0302",
+     "note": "XIII.III: clarity cascade"
+    }
+   ]
+  },
+  {
+   "id": "q02",
+   "verdict": "absent",
+   "passages": []
+  },
+  {
+   "id": "q03",
+   "verdict": "strong",
+   "passages": [
+    {
+     "passage_id": "analects-0324",
+     "note": "XIII.XXV: uses men according to their capacity"
+    },
+    {
+     "passage_id": "analects-0466",
+     "note": "XVIII.X: does not seek in one man talents for every employment"
+    }
+   ]
+  },
+  {
+   "id": "q04",
+   "verdict": "absent",
+   "passages": []
+  },
+  {
+   "id": "q05",
+   "verdict": "moderate",
+   "passages": [
+    {
+     "passage_id": "analects-0184",
+     "note": "VIII.II: duties to relations; the people aroused to virtue"
+    },
+    {
+     "passage_id": "analects-0003",
+     "note": "I.V: love for men as a requisite of rule"
+    }
+   ]
+  },
+  {
+   "id": "q06",
+   "verdict": "strong",
+   "passages": [
+    {
+     "passage_id": "analects-0034",
+     "note": "II.XX: advance the good and teach the incompetent"
+    },
+    {
+     "passage_id": "analects-0308",
+     "note": "XIII.IX: teach them"
+    }
+   ]
+  },
+  {
+   "id": "q07",
+   "verdict": "moderate",
+   "passages": [
+    {
+     "passage_id": "analects-0314",
+     "note": "XIII.XV: the ruler must tolerate opposition"
+    },
+    {
+     "passage_id": "analects-0352",
+     "note": "XIV.XXIII: withstand him to his face"
+    }
+   ]
+  },
+  {
+   "id": "q08",
+   "verdict": "weak",
+   "passages": [
+    {
+     "passage_id": "analects-0412",
+     "note": "XV.XXXVII: makes his emolument a secondary consideration -- duty over pay, but no mission narrative"
+    }
+   ]
+  },
+  {
+   "id": "q09",
+   "verdict": "weak",
+   "passages": [
+    {
+     "passage_id": "analects-0184",
+     "note": "VIII.II: the people aroused to virtue -- peer culture only by implication"
+    }
+   ]
+  },
+  {
+   "id": "q10",
+   "verdict": "absent",
+   "passages": []
+  },
+  {
+   "id": "q11",
+   "verdict": "absent",
+   "passages": []
+  },
+  {
+   "id": "q12",
+   "verdict": "strong",
+   "passages": [
+    {
+     "passage_id": "analects-0328",
+     "note": "XIII.XXIX: teach the people seven years"
+    },
+    {
+     "passage_id": "analects-0480",
+     "note": "XIX.XIII: the officer devotes his leisure to learning"
+    }
+   ]
+  }
+ ],
+ "unrediscovered": [
+  {
+   "passage_id": "analects-0494",
+   "book": "XX.II",
+   "title": "The 2,500-year-old toxic-manager taxonomy",
+   "note": "Four bad things: putting people to death without instructing them (cruelty); demanding the full tale of work suddenly without warning (oppression); issuing lax orders then insisting with severity (injury); stingy rewards (acting the part of a mere official)."
+  },
+  {
+   "passage_id": "analects-0294",
+   "book": "XII.XIX",
+   "title": "Wind and grass: the mechanism of culture",
+   "note": "Let your evinced desires be for what is good, and the people will be good. Superiors and inferiors are like wind and grass -- the grass bends where the wind blows. Culture follows what the leader visibly wants, not what the handbook says."
+  },
+  {
+   "passage_id": "analects-0323",
+   "book": "XIII.XXIV",
+   "title": "Adversarial calibration",
+   "note": "Do not trust universal approval or universal hatred. The read that matters: the good in the neighborhood love him, and the bad hate him. Approval from the wrong people is a contra-indicator."
+  },
+  {
+   "passage_id": "analects-0330",
+   "book": "XIV.I",
+   "title": "Salary-shame as a selection filter",
+   "note": "When good government prevails, to be thinking only of salary is shameful. Intrinsic motivation used not as engagement fluff but as a criterion for who should hold office."
+  },
+  {
+   "passage_id": "analects-0417",
+   "book": "XVI.I",
+   "title": "Retention through contented repose",
+   "note": "Rulers are not troubled lest their people be few, but lest they not keep their several places. Attract the remote with civil culture and virtue, and make them contented and tranquil. Retention as an outcome of fit and ease, not perks."
+  }
+ ]
+}

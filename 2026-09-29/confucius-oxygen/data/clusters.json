@@ -1,0 +1,652 @@
+[
+ {
+  "cluster": 0,
+  "size": 9,
+  "top_themes": [
+   [
+    "resource-discipline",
+    1
+   ],
+   [
+    "lead-by-example",
+    1
+   ],
+   [
+    "shared-prosperity",
+    1
+   ],
+   [
+    "role-clarity",
+    1
+   ]
+  ],
+  "members": [
+   {
+    "passage_id": "analects-0003",
+    "book": "I",
+    "chap": "I.V",
+    "theme": "resource-discipline",
+    "label": "Rule a country: reverent attention to business, sincerity, economy in expenditure, love for men, employ the people at the proper seasons."
+   },
+   {
+    "passage_id": "analects-0015",
+    "book": "II",
+    "chap": "II.I",
+    "theme": "lead-by-example",
+    "label": "Govern by virtue like the north polar star: keep your place and all the stars turn towards you."
+   },
+   {
+    "passage_id": "analects-0284",
+    "book": "XII",
+    "chap": "XII.IX",
+    "theme": "shared-prosperity",
+    "label": "If the people have plenty, their prince will not be left to want alone. If the people are in want, the prince cannot enjoy plenty alone."
+   },
+   {
+    "passage_id": "analects-0286",
+    "book": "XII",
+    "chap": "XII.XI",
+    "theme": "role-clarity",
+    "label": "There is government when the prince is prince and the minister is minister; when the father is father and the son is son."
+   },
+   {
+    "passage_id": "analects-0289",
+    "book": "XII",
+    "chap": "XII.XIV",
+    "theme": "consistency",
+    "label": "The art of governing: keep its affairs before the mind without weariness, and practise them with undeviating consistency."
+   },
+   {
+    "passage_id": "analects-0314",
+    "book": "XIII",
+    "chap": "XIII.XV",
+    "theme": "dissent",
+    "label": "No pleasure in being a prince but that no one can oppose what I say: if his words are not good and no one opposes them, ruin follows from this one sentence."
+   },
+   {
+    "passage_id": "analects-0315",
+    "book": "XIII",
+    "chap": "XIII.XVI",
+    "theme": "attract-talent",
+    "label": "Good government obtains when those who are near are made happy and those who are far off are attracted."
+   },
+   {
+    "passage_id": "analects-0330",
+    "book": "XIV",
+    "chap": "XIV.I",
+    "theme": "intrinsic-motivation",
+    "label": "When good government prevails, to think only of salary is shameful; when bad government prevails, to think only of salary is shameful."
+   },
+   {
+    "passage_id": "analects-0372",
+    "book": "XIV",
+    "chap": "XIV.XLIV",
+    "theme": "ease-of-leading",
+    "label": "When rulers love to observe the rules of propriety, the people respond readily to the calls on them for service."
+   }
+  ]
+ },
+ {
+  "cluster": 1,
+  "size": 18,
+  "top_themes": [
+   [
+    "learn-from-below",
+    1
+   ],
+   [
+    "comp-fairness",
+    1
+   ],
+   [
+    "hire-planners",
+    1
+   ],
+   [
+    "executive-presence",
+    1
+   ]
+  ],
+  "members": [
+   {
+    "passage_id": "analects-0104",
+    "book": "V",
+    "chap": "V.XIV",
+    "theme": "learn-from-below",
+    "label": "Not ashamed to ask and learn of his inferiors -- the mark of the man titled Wan."
+   },
+   {
+    "passage_id": "analects-0120",
+    "book": "VI",
+    "chap": "VI.III",
+    "theme": "comp-fairness",
+    "label": "A superior man helps the distressed but does not add to the wealth of the rich."
+   },
+   {
+    "passage_id": "analects-0155",
+    "book": "VII",
+    "chap": "VII.X",
+    "theme": "hire-planners",
+    "label": "When called to office, undertake its duties. For command: not the reckless tiger-fighter, but the man full of solicitude who adjusts his plans then executes."
+   },
+   {
+    "passage_id": "analects-0186",
+    "book": "VIII",
+    "chap": "VIII.IV",
+    "theme": "executive-presence",
+    "label": "Three things for the man of high rank: deportment free from violence and heedlessness, countenance near to sincerity, words far from lowness."
+   },
+   {
+    "passage_id": "analects-0189",
+    "book": "VIII",
+    "chap": "VIII.VII",
+    "theme": "burden-of-office",
+    "label": "The officer may not be without breadth of mind and vigorous endurance. His burden is heavy and his course is long."
+   },
+   {
+    "passage_id": "analects-0202",
+    "book": "VIII",
+    "chap": "VIII.XX",
+    "theme": "talent-density",
+    "label": "Shun had five ministers, and the empire was well-governed. King Wu: I have ten able ministers."
+   },
+   {
+    "passage_id": "analects-0273",
+    "book": "XI",
+    "chap": "XI.XXIII",
+    "theme": "principled-service",
+    "label": "A great minister serves his prince according to what is right, and when he finds he cannot, retires. The others are ordinary ministers."
+   },
+   {
+    "passage_id": "analects-0275",
+    "book": "XI",
+    "chap": "XI.XXV",
+    "theme": "humility",
+    "label": "Tsze-lu boasts he could fix a great state in three years; the Master smiles: management of a State demands the rules of propriety -- his words were not humble."
+   },
+   {
+    "passage_id": "analects-0282",
+    "book": "XII",
+    "chap": "XII.VII",
+    "theme": "trust-foundation",
+    "label": "Requisites of government: sufficiency of food, sufficiency of military equipment, confidence of the people. Without the people's faith there is no standing for the state."
+   },
+   {
+    "passage_id": "analects-0297",
+    "book": "XII",
+    "chap": "XII.XXII",
+    "theme": "hire-upright",
+    "label": "Employ the upright and put aside the crooked; in this way the crooked can be made upright."
+   },
+   {
+    "passage_id": "analects-0308",
+    "book": "XIII",
+    "chap": "XIII.IX",
+    "theme": "sequence",
+    "label": "The people are numerous -- enrich them. When enriched, what more? Teach them."
+   },
+   {
+    "passage_id": "analects-0319",
+    "book": "XIII",
+    "chap": "XIII.XX",
+    "theme": "accountability",
+    "label": "The officer: in conduct maintains a sense of shame, and when sent on commission does not disgrace his prince's commission."
+   },
+   {
+    "passage_id": "analects-0373",
+    "book": "XIV",
+    "chap": "XIV.XLV",
+    "theme": "servant-leadership",
+    "label": "He cultivates himself so as to give rest to others; so as to give rest to all the people -- even Yao and Shun were solicitous about this."
+   },
+   {
+    "passage_id": "analects-0458",
+    "book": "XVIII",
+    "chap": "XVIII.II",
+    "theme": "integrity",
+    "label": "Serving men upright, where shall I go and not be thrice dismissed? Serving crooked, why leave home at all?"
+   },
+   {
+    "passage_id": "analects-0486",
+    "book": "XIX",
+    "chap": "XIX.XIX",
+    "theme": "blameless-culture",
+    "label": "Rulers have failed and the people are disorganised. When you find the truth of an accusation, grieve for and pity them; do not feel joy at your own ability."
+   },
+   {
+    "passage_id": "analects-0493",
+    "book": "XX",
+    "chap": "XX.I",
+    "theme": "grand-summary",
+    "label": "Chau: by generosity won all; by sincerity made them trust; by earnest activity achieved greatly; by justice all were delighted. Attended to weights and measures, restored discarded officers, called the retired into office."
+   },
+   {
+    "passage_id": "analects-0494",
+    "book": "XX",
+    "chap": "XX.II",
+    "theme": "management-playbook",
+    "label": "Five excellent: beneficent without great expenditure; lays tasks without repining; pursues desires without covetousness; dignified ease without pride; majestic without fierceness. Four bad: death without instruction is cruelty; sudden work demands are oppression; lax orders then severity is injury; stingy rewards is acting a mere official."
+   },
+   {
+    "passage_id": "analects-0209",
+    "book": "IX",
+    "chap": "VI",
+    "theme": "technical-skill",
+    "label": "The Master on technical breadth: 'When I was young my condition was low, therefore I acquired ability in many mean matters. Must the superior man have such variety of ability? He does not need variety of ability.'"
+   }
+  ]
+ },
+ {
+  "cluster": 2,
+  "size": 3,
+  "top_themes": [
+   [
+    "intrinsic-will",
+    1
+   ],
+   [
+    "train-first",
+    1
+   ],
+   [
+    "onboarding",
+    1
+   ]
+  ],
+  "members": [
+   {
+    "passage_id": "analects-0228",
+    "book": "IX",
+    "chap": "IX.XXV",
+    "theme": "intrinsic-will",
+    "label": "The commander of a large state may be carried off, but the will of even a common man cannot be taken from him."
+   },
+   {
+    "passage_id": "analects-0328",
+    "book": "XIII",
+    "chap": "XIII.XXIX",
+    "theme": "train-first",
+    "label": "Let a good man teach the people seven years, and they may then likewise be employed in war."
+   },
+   {
+    "passage_id": "analects-0329",
+    "book": "XIII",
+    "chap": "XIII.XXX",
+    "theme": "onboarding",
+    "label": "To lead an uninstructed people to war is to throw them away."
+   }
+  ]
+ },
+ {
+  "cluster": 3,
+  "size": 6,
+  "top_themes": [
+   [
+    "mutual-obligation",
+    1
+   ],
+   [
+    "lead-by-example",
+    1
+   ],
+   [
+    "self-mastery",
+    1
+   ],
+   [
+    "duty-over-pay",
+    1
+   ]
+  ],
+  "members": [
+   {
+    "passage_id": "analects-0057",
+    "book": "III",
+    "chap": "III.XIX",
+    "theme": "mutual-obligation",
+    "label": "A prince should employ his minister according to the rules of propriety; ministers should serve their prince with faithfulness."
+   },
+   {
+    "passage_id": "analects-0305",
+    "book": "XIII",
+    "chap": "XIII.VI",
+    "theme": "lead-by-example",
+    "label": "When a prince's personal conduct is correct, his government is effective without issuing orders. If not correct, orders will not be followed."
+   },
+   {
+    "passage_id": "analects-0312",
+    "book": "XIII",
+    "chap": "XIII.XIII",
+    "theme": "self-mastery",
+    "label": "If a minister make his own conduct correct, what difficulty in assisting government? If he cannot rectify himself, what has he to do with rectifying others?"
+   },
+   {
+    "passage_id": "analects-0412",
+    "book": "XV",
+    "chap": "XV.XXXVII",
+    "theme": "duty-over-pay",
+    "label": "A minister in serving his prince reverently discharges his duties and makes his emolument a secondary consideration."
+   },
+   {
+    "passage_id": "analects-0466",
+    "book": "XVIII",
+    "chap": "XVIII.X",
+    "theme": "role-fit",
+    "label": "The virtuous prince does not neglect relations, does not let great ministers repine at not being employed, does not dismiss old families without cause, does not seek in one man talents for every employment."
+   },
+   {
+    "passage_id": "analects-0477",
+    "book": "XIX",
+    "chap": "XIX.X",
+    "theme": "trust-before-labor",
+    "label": "The superior man, having obtained the people's confidence, may then impose labours on them; having the prince's confidence, may then remonstrate."
+   }
+  ]
+ },
+ {
+  "cluster": 4,
+  "size": 9,
+  "top_themes": [
+   [
+    "culture-over-coercion",
+    1
+   ],
+   [
+    "communicate-carefully",
+    1
+   ],
+   [
+    "manager-scorecard",
+    1
+   ],
+   [
+    "care-for-people",
+    1
+   ]
+  ],
+  "members": [
+   {
+    "passage_id": "analects-0017",
+    "book": "II",
+    "chap": "II.III",
+    "theme": "culture-over-coercion",
+    "label": "If led by laws and punishments, people avoid punishment but have no shame. If led by virtue and propriety, they have shame and become good."
+   },
+   {
+    "passage_id": "analects-0088",
+    "book": "IV",
+    "chap": "IV.XXIV",
+    "theme": "communicate-carefully",
+    "label": "The superior man is slow in speech and earnest in conduct."
+   },
+   {
+    "passage_id": "analects-0105",
+    "book": "V",
+    "chap": "V.XV",
+    "theme": "manager-scorecard",
+    "label": "Four traits of a superior man: humble in conduct, respectful to superiors, kind in nourishing the people, just in ordering them."
+   },
+   {
+    "passage_id": "analects-0184",
+    "book": "VIII",
+    "chap": "VIII.II",
+    "theme": "care-for-people",
+    "label": "When those in high stations perform all duties to relations and do not neglect old friends, the people are aroused to virtue."
+   },
+   {
+    "passage_id": "analects-0288",
+    "book": "XII",
+    "chap": "XII.XIII",
+    "theme": "conflict-resolution",
+    "label": "In hearing litigations I am like any other; what is necessary is to cause the people to have no litigations."
+   },
+   {
+    "passage_id": "analects-0291",
+    "book": "XII",
+    "chap": "XII.XVI",
+    "theme": "strengths-coaching",
+    "label": "The superior man seeks to perfect the admirable qualities of men, not their bad qualities."
+   },
+   {
+    "passage_id": "analects-0324",
+    "book": "XIII",
+    "chap": "XIII.XXV",
+    "theme": "role-fit",
+    "label": "The superior man is easy to serve, difficult to please; in employing men, he uses them according to their capacity."
+   },
+   {
+    "passage_id": "analects-0397",
+    "book": "XV",
+    "chap": "XV.XXII",
+    "theme": "substance-over-signal",
+    "label": "The superior man does not promote a man for his words, nor put aside good words because of the man."
+   },
+   {
+    "passage_id": "analects-0407",
+    "book": "XV",
+    "chap": "XV.XXXII",
+    "theme": "leadership-stack",
+    "label": "Knowledge to attain, virtue to hold, dignity so the people respect him, propriety in moving the people -- else full excellence is not reached."
+   }
+  ]
+ },
+ {
+  "cluster": 5,
+  "size": 8,
+  "top_themes": [
+   [
+    "career-craft",
+    1
+   ],
+   [
+    "hire-autonomy",
+    1
+   ],
+   [
+    "hire-competence",
+    1
+   ],
+   [
+    "clarity-cascade",
+    1
+   ]
+  ],
+  "members": [
+   {
+    "passage_id": "analects-0032",
+    "book": "II",
+    "chap": "II.XVII",
+    "theme": "career-craft",
+    "label": "Tsze-chang seeks official emolument: hear much, put aside doubts, speak cautiously, act cautiously -- this is the way to get emolument."
+   },
+   {
+    "passage_id": "analects-0129",
+    "book": "VI",
+    "chap": "VI.XII",
+    "theme": "hire-autonomy",
+    "label": "Has he got good men? Tan-t'ai Mieh-ming never comes to my office except on public business."
+   },
+   {
+    "passage_id": "analects-0274",
+    "book": "XI",
+    "chap": "XI.XXIV",
+    "theme": "hire-competence",
+    "label": "Appointing the unready Tsze-kao as governor: 'You are injuring a man's son.' I hate your glib-tongued people."
+   },
+   {
+    "passage_id": "analects-0302",
+    "book": "XIII",
+    "chap": "XIII.III",
+    "theme": "clarity-cascade",
+    "label": "Rectify names: if names are incorrect, language is wrong, affairs fail, proprieties and music do not flourish, punishments are misawarded."
+   },
+   {
+    "passage_id": "analects-0316",
+    "book": "XIII",
+    "chap": "XIII.XVII",
+    "theme": "patience",
+    "label": "Do not be desirous to have things done quickly; do not look at small advantages. Haste prevents thoroughness; small advantages block great affairs."
+   },
+   {
+    "passage_id": "analects-0323",
+    "book": "XIII",
+    "chap": "XIII.XXIV",
+    "theme": "calibration",
+    "label": "Not all approval or hatred is earned; best when the good in the neighborhood love him and the bad hate him."
+   },
+   {
+    "passage_id": "analects-0352",
+    "book": "XIV",
+    "chap": "XIV.XXIII",
+    "theme": "candor-up",
+    "label": "How should a ruler be served? Do not impose on him, and moreover withstand him to his face."
+   },
+   {
+    "passage_id": "analects-0480",
+    "book": "XIX",
+    "chap": "XIX.XIII",
+    "theme": "learning-culture",
+    "label": "The officer, having discharged his duties, should devote his leisure to learning. The student, having completed his learning, should apply himself to be an officer."
+   }
+  ]
+ },
+ {
+  "cluster": 6,
+  "size": 5,
+  "top_themes": [
+   [
+    "servant-leadership",
+    1
+   ],
+   [
+    "hire-talent",
+    1
+   ],
+   [
+    "tough-love",
+    1
+   ],
+   [
+    "reciprocity",
+    1
+   ]
+  ],
+  "members": [
+   {
+    "passage_id": "analects-0277",
+    "book": "XII",
+    "chap": "XII.II",
+    "theme": "servant-leadership",
+    "label": "Employ the people as if assisting at a great sacrifice; do not do to others what you would not wish done to yourself."
+   },
+   {
+    "passage_id": "analects-0301",
+    "book": "XIII",
+    "chap": "XIII.II",
+    "theme": "hire-talent",
+    "label": "Employ first the services of your officers, pardon small faults, and raise to office men of virtue and talents."
+   },
+   {
+    "passage_id": "analects-0341",
+    "book": "XIV",
+    "chap": "XIV.VIII",
+    "theme": "tough-love",
+    "label": "Can there be love which does not lead to strictness? Can there be loyalty which does not lead to instruction?"
+   },
+   {
+    "passage_id": "analects-0398",
+    "book": "XV",
+    "chap": "XV.XXIII",
+    "theme": "reciprocity",
+    "label": "Is there one word as a rule of practice for life? Reciprocity: what you do not want done to yourself, do not do to others."
+   },
+   {
+    "passage_id": "analects-0436",
+    "book": "XVII",
+    "chap": "XVII.VI",
+    "theme": "virtue-five",
+    "label": "Five things of perfect virtue: gravity, generosity of soul, sincerity, earnestness, kindness. If kind, this enables you to employ the services of others."
+   }
+  ]
+ },
+ {
+  "cluster": 7,
+  "size": 8,
+  "top_themes": [
+   [
+    "hire-upright",
+    1
+   ],
+   [
+    "develop-people",
+    1
+   ],
+   [
+    "rectify",
+    1
+   ],
+   [
+    "culture-top-down",
+    1
+   ]
+  ],
+  "members": [
+   {
+    "passage_id": "analects-0033",
+    "book": "II",
+    "chap": "II.XIX",
+    "theme": "hire-upright",
+    "label": "Advance the upright and set aside the crooked, then the people will submit."
+   },
+   {
+    "passage_id": "analects-0034",
+    "book": "II",
+    "chap": "II.XX",
+    "theme": "develop-people",
+    "label": "Preside with gravity so they reverence you; be filial and kind so they are faithful; advance the good and teach the incompetent so they seek virtue."
+   },
+   {
+    "passage_id": "analects-0292",
+    "book": "XII",
+    "chap": "XII.XVII",
+    "theme": "rectify",
+    "label": "To govern means to rectify. If you lead the people with correctness, who will dare not be correct?"
+   },
+   {
+    "passage_id": "analects-0293",
+    "book": "XII",
+    "chap": "XII.XVIII",
+    "theme": "culture-top-down",
+    "label": "If you, sir, were not covetous, although you should reward them to do it, they would not steal."
+   },
+   {
+    "passage_id": "analects-0294",
+    "book": "XII",
+    "chap": "XII.XIX",
+    "theme": "culture-wind-grass",
+    "label": "Why use killing? Let your evinced desires be for what is good and the people will be good. Superiors and inferiors are like wind and grass."
+   },
+   {
+    "passage_id": "analects-0417",
+    "book": "XVI",
+    "chap": "XVI.I",
+    "theme": "culture-retention",
+    "label": "Rulers are not troubled lest people be few but lest they not keep their places; not poverty but want of contented repose. Attract the remote with civil culture and virtue; make them contented and tranquil."
+   },
+   {
+    "passage_id": "analects-0426",
+    "book": "XVI",
+    "chap": "XVI.X",
+    "theme": "manager-checklist",
+    "label": "Nine considerations: see clearly, hear distinctly, benign countenance, respectful demeanor, sincere speech, reverent business, question doubts, anger thinks of difficulties, gain thinks of righteousness."
+   },
+   {
+    "passage_id": "analects-0428",
+    "book": "XVI",
+    "chap": "XVI.XII",
+    "theme": "legacy",
+    "label": "Duke Ching had a thousand teams of horses, yet on his death the people praised him for not a single virtue. Po-i and Shu-ch'i starved, and the people praise them still."
+   }
+  ]
+ }
+]
