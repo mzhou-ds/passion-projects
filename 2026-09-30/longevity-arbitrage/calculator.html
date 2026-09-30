@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Longevity Arbitrage Calculator — Musing with Mike</title>
+<style>
+  :root { --ink:#1f2937; --green:#2a7f62; --rust:#b3541e; --plum:#5b4e9e; --bg:#f7f5f0; }
+  body { font-family: -apple-system, "Segoe UI", system-ui, sans-serif; background:var(--bg); color:var(--ink);
+         max-width: 860px; margin: 0 auto; padding: 24px 18px 60px; line-height: 1.55; }
+  h1 { font-size: 1.7rem; margin-bottom: 0.2rem; }
+  .sub { color:#6b7280; margin-top:0; }
+  .card { background:#fff; border:1px solid #e5e1d8; border-radius:12px; padding:18px 20px; margin:16px 0; }
+  label { font-weight:600; display:block; margin:14px 0 4px; }
+  input[type=range] { width:100%; }
+  .row { display:grid; grid-template-columns: 1fr 1fr 1fr; gap:14px; }
+  .big { font-size:2rem; font-weight:700; color:var(--green); }
+  .kpi { text-align:center; }
+  .kpi small { color:#6b7280; display:block; font-size:0.85rem; }
+  table { width:100%; border-collapse:collapse; margin-top:8px; }
+  th, td { text-align:left; padding:8px 6px; border-bottom:1px solid #eee; }
+  th { font-size:0.85rem; color:#6b7280; }
+  .bar { height:10px; border-radius:5px; background:#e5e1d8; position:relative; margin-top:6px; }
+  .bar > div { height:100%; border-radius:5px; }
+  .note { font-size:0.88rem; color:#6b7280; }
+  .rec { background:#eef7f2; border-color:#bfe0d2; }
+  code { background:#f0ede6; padding:1px 5px; border-radius:4px; font-size:0.9em; }
+</style>
+</head>
+<body>
+<h1>⏱ The Longevity Arbitrage Calculator</h1>
+<p class="sub">Your exercise budget, priced like a portfolio. Built from 5 peer-reviewed dose-response studies.</p>
+
+<div class="card">
+  <h3>Your current week</h3>
+  <label>Aerobic minutes/week (brisk walk, run, bike, swim): <span id="aeroVal">150</span></label>
+  <input type="range" id="aero" min="0" max="600" step="10" value="150">
+  <label>Strength minutes/week: <span id="strVal">40</span></label>
+  <input type="range" id="str" min="0" max="200" step="5" value="40">
+  <div class="row" style="margin-top:14px">
+    <div class="kpi"><span class="big" id="curHR">–</span><small>mortality hazard ratio vs inactive</small></div>
+    <div class="kpi"><span class="big" id="curYr">–</span><small>life expectancy gained (years)</small></div>
+    <div class="kpi"><span class="big" id="curGrade">–</span><small>allocation efficiency</small></div>
+  </div>
+</div>
+
+<div class="card rec">
+  <h3>Where your next hours should go</h3>
+  <label>Weekly exercise budget: <span id="budVal">180</span> min</label>
+  <input type="range" id="budget" min="20" max="420" step="20" value="180">
+  <div id="alloc"></div>
+  <p class="note" id="optNote"></p>
+</div>
+
+<div class="card">
+  <h3>Marginal ROI: what one more 30-minute block buys you</h3>
+  <table>
+    <tr><th>Add 30 min/week of…</th><th>Risk reduction</th><th>Life expectancy</th><th>Verdict</th></tr>
+    <tbody id="mroi"></tbody>
+  </table>
+</div>
+
+<div class="card">
+  <h3>The VILPA shortcut</h3>
+  <p>Do you do <em>zero</em> structured exercise? <input type="checkbox" id="noex" style="width:auto"></p>
+  <div id="vilpaBox" style="display:none">
+    <p>~32 min/week of incidental vigorous bursts (3 bouts/day — stairs, fast walk uphill):
+    <strong>HR 0.61 · +4.1 years</strong>. That's roughly what 600+ min/week of structured aerobic buys.</p>
+  </div>
+  <p class="note">Numbers are population averages from observational cohorts — directionally strong, individually fuzzy. Risk ratios combine multiplicatively (independence assumption); Momma 2022 observed 0.60 for the real combined group. Full sources and methods in the README.</p>
+</div>
+
+<script>
+let T = null;
+fetch('output/curve_tables.json').then(r => r.json()).then(j => { T = j; update(); });
+
+function interp(table, x) {
+  x = Math.max(0, Math.min(x, table[table.length-1][0]));
+  let lo = 0, hi = table.length - 1;
+  while (hi - lo > 1) { const m = (lo+hi)>>1; if (table[m][0] <= x) lo = m; else hi = m; }
+  const [x0,y0] = table[lo], [x1,y1] = table[hi];
+  return y0 + (y1-y0) * (x-x0) / Math.max(1e-9, x1-x0);
+}
+const yrs = hr => -T.le_coef * Math.log(Math.max(hr, 1e-6));
+const combined = (a, s) => interp(T.aerobic, a) * interp(T.strength, s);
+
+function fmt(v, d=2) { return v.toFixed(d); }
+
+function update() {
+  if (!T) return;
+  const a = +document.getElementById('aero').value;
+  const s = +document.getElementById('str').value;
+  const bud = +document.getElementById('budget').value;
+  document.getElementById('aeroVal').textContent = a;
+  document.getElementById('strVal').textContent = s;
+  document.getElementById('budVal').textContent = bud;
+  document.getElementById('vilpaBox').style.display = document.getElementById('noex').checked ? 'block' : 'none';
+
+  const hr = combined(a, s), y = yrs(hr);
+  document.getElementById('curHR').textContent = fmt(hr);
+  document.getElementById('curYr').textContent = '+' + fmt(y) + ' yr';
+
+  // optimal allocation for the budget (grid search, strength capped at evidence range)
+  let best = null;
+  for (let sa = 0; sa <= Math.min(bud, 200); sa += 10) {
+    const aa = bud - sa;
+    const h2 = combined(aa, sa), y2 = yrs(h2);
+    if (!best || y2 > best.y) best = { a: aa, s: sa, h: h2, y: y2 };
+  }
+  const eff = y / Math.max(best.y, 1e-9);
+  document.getElementById('curGrade').textContent = eff >= 0.97 ? 'Optimal ✓' : Math.round(eff*100) + '%';
+
+  const aPct = Math.round(best.a / bud * 100), sPct = 100 - aPct;
+  document.getElementById('alloc').innerHTML =
+    `<p><strong>${best.a} min aerobic</strong> + <strong>${best.s} min strength</strong> →
+     HR ${fmt(best.h)}, <strong>+${fmt(best.y)} years</strong></p>
+     <div class="bar"><div style="width:${aPct}%;background:#2a7f62;float:left"></div>
+     <div style="width:${sPct}%;background:#b3541e;float:left"></div></div>
+     <p class="note">aerobic ${aPct}% · strength ${sPct}%</p>`;
+  document.getElementById('optNote').textContent =
+    best.s <= 45 && best.s > 0
+      ? `Notice: strength stops at ~40 min. The data says the lifting sweet spot is small and real — everything past it goes to cardio.`
+      : `Strength gets nothing because your budget is tiny — at 60 min/week or less, the model puts it all in strength first (see README).`;
+
+  // marginal ROI of +30 min blocks
+  const rows = [
+    ['Aerobic', combined(a+30, s)],
+    ['Strength', combined(a, Math.min(s+30, 260))],
+  ];
+  document.getElementById('mroi').innerHTML = rows.map(([name, h2]) => {
+    const dy = (yrs(h2) - y) * 365; // days
+    const verdict = dy > 60 ? 'Highest ROI right now' : dy > 20 ? 'Worth it' : dy > 0 ? 'Thin' : 'Harmful at this dose';
+    return `<tr><td>${name}</td><td>HR ${fmt(hr)} → ${fmt(h2)}</td>
+            <td>+${dy.toFixed(0)} days</td><td>${verdict}</td></tr>`;
+  }).join('');
+}
+['aero','str','budget'].forEach(id => document.getElementById(id).addEventListener('input', update));
+document.getElementById('noex').addEventListener('change', update);
+</script>
+</body>
+</html>

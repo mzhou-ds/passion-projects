@@ -1,0 +1,41 @@
+# Exercise dose-response evidence (VERIFIED — do not fabricate)
+# Sources verified 2026-09-30 against journal abstracts/full texts.
+# Columns: study, modality, dose_min_wk, point_type, metric, value, ci_low, ci_high, notes
+study,modality,dose_min_wk,point_type,metric,value,ci_low,ci_high,notes
+Arem2015_JAMA-IntMed,aerobic,0,anchor,HR,1.00,,,No leisure-time activity (reference)
+Arem2015_JAMA-IntMed,aerobic,225,midpoint,HR,0.80,0.78,0.82,"0.1-<7.5 MET-h/wk; 7.5 MET-h ~= 150 min moderate"
+Arem2015_JAMA-IntMed,aerobic,675,midpoint,HR,0.69,0.67,0.70,7.5-<15 MET-h/wk
+Arem2015_JAMA-IntMed,aerobic,1125,midpoint,HR,0.63,0.62,0.65,15-<22.5 MET-h/wk
+Arem2015_JAMA-IntMed,aerobic,1800,midpoint,HR,0.61,0.59,0.62,>=22.5 MET-h/wk (3-5x minimum; plateau)
+Arem2015_JAMA-IntMed,aerobic,5400,midpoint,HR,0.69,0.59,0.78,>=75 MET-h/wk (10x minimum; no excess harm)
+Moore2012_PLOS-Med,aerobic_LE,225,midpoint,years_after_40,1.80,,,"0.1-3.74 MET-h/wk; life expectancy gained after age 40 vs inactive"
+Moore2012_PLOS-Med,aerobic_LE,450,midpoint,years_after_40,2.50,,,"3.75-7.4 MET-h/wk"
+Moore2012_PLOS-Med,aerobic_LE,810,midpoint,years_after_40,3.40,,,"7.5-14.9 MET-h/wk"
+Moore2012_PLOS-Med,aerobic_LE,1305,midpoint,years_after_40,4.20,,,"15-22.4 MET-h/wk"
+Moore2012_PLOS-Med,aerobic_LE,1800,midpoint,years_after_40,4.50,,,>=22.5 MET-h/wk
+Momma2022_BJSM,strength,0,anchor,RR,1.00,,,No strength training (reference)
+Momma2022_BJSM,strength,20,interpolated,RR,0.90,,,"Direction from dose-response curve; minimum ~40 min/wk"
+Momma2022_BJSM,strength,40,minimum,RR,0.83,0.79,0.86,Dose-response minimum (30-60 min/wk band); any-vs-none RR 0.85
+Momma2022_BJSM,strength,100,interpolated,RR,0.82,,,"Benefit persists to ~140 min/wk per curve"
+Momma2022_BJSM,strength,140,plateau_end,RR,0.85,,,"Benefit persists to ~140 min/wk, then J-shapes away"
+Momma2022_BJSM,strength,200,interpolated,RR,0.95,,,"J-shape: benefit attenuates beyond ~140 min/wk"
+Momma2022_BJSM,strength,260,interpolated,RR,1.00,,,"J-shape illustrative tail"
+Momma2022_BJSM,combo,aerobic_plus_strength,observed,RR,0.60,0.54,0.67,Combined aerobic+strength vs none (all-cause)
+Momma2022_BJSM,combo,aerobic_plus_strength_CVD,observed,RR,0.54,0.41,0.70,Combined aerobic+strength vs none (CVD)
+Stamatakis2022_NatMed,vilpa,0,anchor,HR,1.00,,,Nonexerciser reference
+Stamatakis2022_NatMed,vilpa,16,midpoint,HR,0.75,0.66,0.85,1.5 bouts/day (~16 min/wk) all-cause
+Stamatakis2022_NatMed,vilpa,24,midpoint,HR,0.78,0.70,0.86,3.4 min/day all-cause
+Stamatakis2022_NatMed,vilpa,32,midpoint,HR,0.61,0.50,0.74,3 bouts/day all-cause
+Stamatakis2022_NatMed,vilpa_CVD,32,midpoint,HR,0.51,0.35,0.74,3 bouts/day CVD mortality
+Stamatakis2025_NatComm,equivalence,,observed,ratio,53,,,"1 min vigorous ~= 53 min light for all-cause mortality"
+Mandsager2018_JAMA-NO,crf,,observed,HR,0.20,0.16,0.24,Elite vs low cardiorespiratory fitness (all-cause)
+Mandsager2018_JAMA-NO,crf,,observed,HR,5.04,4.10,6.20,Low vs elite fitness
+Kodama2009_JAMA,crf,,observed,pct_per_MET,-13,,,"Per 1-MET higher CRF: -13% all-cause, -15% CHD/CVD mortality"
+Ekelund2016_Lancet,sitting,,observed,HR,1.59,1.52,1.66,">8h sitting + lowest activity vs <4h sitting + >35.5 MET-h/wk"
+Ekelund2016_Lancet,sitting,,observed,HR,1.00,,,"Most active quartile: no sitting risk (neutralized)"
+Ekelund2016_Lancet,tv_sedentary,,observed,HR,1.16,1.05,1.28,TV >=5h/day still elevated even at top activity
+WHO2020,guidelines,150,threshold,min_wk,150,,,Min moderate aerobic/wk
+WHO2020,guidelines,300,threshold,min_wk,300,,,Upper moderate aerobic/wk
+WHO2020,guidelines,75,threshold,min_wk,75,,,Min vigorous aerobic/wk
+WHO2020,guidelines,150,threshold,min_wk,150,,,Max vigorous aerobic/wk
+WHO2020,guidelines,,threshold,sessions,2,,,Strength >=2 days/wk
