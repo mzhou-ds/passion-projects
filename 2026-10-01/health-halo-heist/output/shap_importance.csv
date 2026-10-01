@@ -1,0 +1,9 @@
+feature,mean_abs_shap
+Sodium,0.7797694
+Protein,0.45365703
+Fat,0.365409
+Energy (kcal),0.34302112
+Carbs,0.31749523
+Sugars,0.30447635
+Fiber,0.27359232
+Saturated fat,0.1580962
