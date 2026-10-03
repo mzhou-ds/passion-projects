@@ -1,0 +1,12 @@
+{
+  "n_posts": 15023,
+  "n_threads": 46,
+  "date_range": [
+    "2023-01-02",
+    "2026-10-01"
+  ],
+  "salary_base_rate": 0.1084,
+  "logreg_auc": 0.6938,
+  "xgb_auc": 0.7596,
+  "xgb_acc": 0.9048
+}
