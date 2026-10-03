@@ -1,0 +1,15 @@
+feature,mean_abs_shap
+is_federal,0.0054834276
+is_randomized,0.052387767
+is_masked,0.07256758
+was_terminated,0.084576845
+n_countries,0.118864626
+phase_late,0.13864008
+is_industry,0.14513943
+has_dmc,0.19819683
+phase_early,0.21856885
+n_primary_outcomes,0.31637833
+is_fda_drug,0.35104796
+log_sites,0.4847455
+log_enrollment,0.4876118
+start_year,0.49815258

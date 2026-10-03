@@ -1,0 +1,15 @@
+{
+  "cohort_n": 5815,
+  "base_rate_has_results": 0.3178,
+  "logreg_auc": 0.7324,
+  "logreg_acc": 0.6948,
+  "xgb_auc": 0.8184,
+  "xgb_acc": 0.7782,
+  "note": "Cohort: started <=2020, finished status. Target: results posted on registry.",
+  "supplement_only": {
+    "cohort_n": 2286,
+    "base_rate_has_results": 0.2139,
+    "xgb_auc": 0.7953,
+    "xgb_acc": 0.8341
+  }
+}
