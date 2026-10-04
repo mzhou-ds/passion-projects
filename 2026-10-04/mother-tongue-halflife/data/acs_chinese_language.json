@@ -1,0 +1,144 @@
+{
+ "2023": {
+  "United States": {
+   "chinese": 3486526,
+   "chinese_verywell": 1690975,
+   "chinese_less": 1795551,
+   "lang_all_5plus": 313447641,
+   "pop": 332387540,
+   "born_china": 2200987,
+   "born_hk": 241291,
+   "born_tw": 377273
+  },
+  "Atlanta": {
+   "chinese": 48910,
+   "chinese_verywell": 24829,
+   "chinese_less": 24081,
+   "lang_all_5plus": 5812886,
+   "pop": 6176937,
+   "born_china": 34311,
+   "born_hk": 1976,
+   "born_tw": 4917
+  },
+  "Boston": {
+   "chinese": 130761,
+   "chinese_verywell": 67719,
+   "chinese_less": 63042,
+   "lang_all_5plus": 4668147,
+   "pop": 4917661,
+   "born_china": 93644,
+   "born_hk": 8649,
+   "born_tw": 7846
+  },
+  "Chicago": {
+   "chinese": 94216,
+   "chinese_verywell": 46531,
+   "chinese_less": 47685,
+   "lang_all_5plus": 8835276,
+   "pop": 9359555,
+   "born_china": 63066,
+   "born_hk": 4768,
+   "born_tw": 7556
+  },
+  "Dallas-Fort Worth": {
+   "chinese": 59478,
+   "chinese_verywell": 33777,
+   "chinese_less": 25701,
+   "lang_all_5plus": 7304545,
+   "pop": 7807555,
+   "born_china": 35821,
+   "born_hk": 2737,
+   "born_tw": 9245
+  },
+  "Detroit": {
+   "chinese": 23644,
+   "chinese_verywell": 12956,
+   "chinese_less": 10688,
+   "lang_all_5plus": 4120859,
+   "pop": 4367620,
+   "born_china": 16108,
+   "born_hk": 1222,
+   "born_tw": 2340
+  },
+  "Los Angeles": {
+   "chinese": 478223,
+   "chinese_verywell": 212459,
+   "chinese_less": 265764,
+   "lang_all_5plus": 12323457,
+   "pop": 13012469,
+   "born_china": 237051,
+   "born_hk": 33986,
+   "born_tw": 83909
+  },
+  "Miami": {
+   "chinese": 24323,
+   "chinese_verywell": 10907,
+   "chinese_less": 13416,
+   "lang_all_5plus": 5810135,
+   "pop": 6138876,
+   "born_china": 18121,
+   "born_hk": 1985,
+   "born_tw": 2061
+  },
+  "New York": {
+   "chinese": 658456,
+   "chinese_verywell": 263400,
+   "chinese_less": 395056,
+   "lang_all_5plus": 18618479,
+   "pop": 19756722,
+   "born_china": 443510,
+   "born_hk": 49332,
+   "born_tw": 39815
+  },
+  "Philadelphia": {
+   "chinese": 80347,
+   "chinese_verywell": 35638,
+   "chinese_less": 44709,
+   "lang_all_5plus": 5895977,
+   "pop": 6241882,
+   "born_china": 53733,
+   "born_hk": 3912,
+   "born_tw": 4993
+  },
+  "San Francisco-Oakland": {
+   "chinese": 392697,
+   "chinese_verywell": 186217,
+   "chinese_less": 206480,
+   "lang_all_5plus": 4417212,
+   "pop": 4653593,
+   "born_china": 221985,
+   "born_hk": 44109,
+   "born_tw": 31263
+  },
+  "Seattle": {
+   "chinese": 120286,
+   "chinese_verywell": 66954,
+   "chinese_less": 53332,
+   "lang_all_5plus": 3793316,
+   "pop": 4021467,
+   "born_china": 79977,
+   "born_hk": 8452,
+   "born_tw": 14476
+  },
+  "Tampa": {
+   "chinese": 10789,
+   "chinese_verywell": 4957,
+   "chinese_less": 5832,
+   "lang_all_5plus": 3078889,
+   "pop": 3240469,
+   "born_china": 7383,
+   "born_hk": 562,
+   "born_tw": 1086
+  },
+  "Washington DC": {
+   "chinese": 88750,
+   "chinese_verywell": 50261,
+   "chinese_less": 38489,
+   "lang_all_5plus": 5883773,
+   "pop": 6263796,
+   "born_china": 58995,
+   "born_hk": 4802,
+   "born_tw": 11282
+  }
+ }
+}

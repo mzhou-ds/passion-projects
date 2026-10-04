@@ -1,0 +1,369 @@
+{
+ "canada_retention": {
+  "Chinese (all)": {
+   "shares_pct": [
+    91.5,
+    51.5,
+    5.8
+   ],
+   "r_per_gen": 0.253,
+   "halflife_gens": 0.5,
+   "halflife_years": 13.9,
+   "r12": 0.562,
+   "r23": 0.114
+  },
+  "Mandarin": {
+   "shares_pct": [
+    51.1,
+    20.8,
+    0.7
+   ],
+   "r_per_gen": 0.115,
+   "halflife_gens": 0.32,
+   "halflife_years": 8.8,
+   "r12": 0.407,
+   "r23": 0.032
+  },
+  "Cantonese": {
+   "shares_pct": [
+    36.9,
+    29.6,
+    4.9
+   ],
+   "r_per_gen": 0.365,
+   "halflife_gens": 0.69,
+   "halflife_years": 18.9,
+   "r12": 0.802,
+   "r23": 0.166
+  }
+ },
+ "canada_pop_by_gen": [
+  1228970,
+  427135,
+  59660
+ ],
+ "cma_table": [
+  {
+   "geo": "Canada",
+   "speakers": 1348210,
+   "per_1k": 37.1,
+   "cantonese_share_pct": 43.2,
+   "gen1_share_of_speakers_pct": 83.4,
+   "gen2_retention_pct": 51.5,
+   "kids_transmission_pct": 54.1,
+   "lapsed_gen2": 207270,
+   "lapsed_gen3": 56170,
+   "halflife_years": 13.9
+  },
+  {
+   "geo": "Toronto",
+   "speakers": 545770,
+   "per_1k": 88.8,
+   "cantonese_share_pct": 46.1,
+   "gen1_share_of_speakers_pct": 83.7,
+   "gen2_retention_pct": 51.3,
+   "kids_transmission_pct": 52.2,
+   "lapsed_gen2": 83390,
+   "lapsed_gen3": 12845,
+   "halflife_years": 15.5
+  },
+  {
+   "geo": "Vancouver",
+   "speakers": 414485,
+   "per_1k": 159.0,
+   "cantonese_share_pct": 47.0,
+   "gen1_share_of_speakers_pct": 84.1,
+   "gen2_retention_pct": 54.0,
+   "kids_transmission_pct": 57.8,
+   "lapsed_gen2": 55230,
+   "lapsed_gen3": 16000,
+   "halflife_years": 14.3
+  },
+  {
+   "geo": "Montreal",
+   "speakers": 82780,
+   "per_1k": 19.7,
+   "cantonese_share_pct": 27.9,
+   "gen1_share_of_speakers_pct": 80.8,
+   "gen2_retention_pct": 63.4,
+   "kids_transmission_pct": 66.6,
+   "lapsed_gen2": 9050,
+   "lapsed_gen3": 1885,
+   "halflife_years": 18.0
+  },
+  {
+   "geo": "Calgary",
+   "speakers": 69085,
+   "per_1k": 47.2,
+   "cantonese_share_pct": 48.7,
+   "gen1_share_of_speakers_pct": 80.0,
+   "gen2_retention_pct": 48.7,
+   "kids_transmission_pct": 52.0,
+   "lapsed_gen2": 14195,
+   "lapsed_gen3": 4935,
+   "halflife_years": 14.4
+  },
+  {
+   "geo": "Edmonton",
+   "speakers": 46160,
+   "per_1k": 33.0,
+   "cantonese_share_pct": 48.9,
+   "gen1_share_of_speakers_pct": 79.5,
+   "gen2_retention_pct": 49.0,
+   "kids_transmission_pct": 51.9,
+   "lapsed_gen2": 9605,
+   "lapsed_gen3": 3625,
+   "halflife_years": 13.8
+  },
+  {
+   "geo": "Ottawa-Gatineau",
+   "speakers": 38010,
+   "per_1k": 26.0,
+   "cantonese_share_pct": 29.4,
+   "gen1_share_of_speakers_pct": 81.1,
+   "gen2_retention_pct": 51.5,
+   "kids_transmission_pct": 53.1,
+   "lapsed_gen2": 6655,
+   "lapsed_gen3": 2410,
+   "halflife_years": 13.2
+  },
+  {
+   "geo": "Winnipeg",
+   "speakers": 18535,
+   "per_1k": 22.6,
+   "cantonese_share_pct": 34.6,
+   "gen1_share_of_speakers_pct": 87.0,
+   "gen2_retention_pct": 49.5,
+   "kids_transmission_pct": 55.8,
+   "lapsed_gen2": 2435,
+   "lapsed_gen3": 910,
+   "halflife_years": 10.7
+  }
+ ],
+ "us_table": [
+  {
+   "geo": "United States",
+   "speakers": 3486526,
+   "per_1k": 10.5,
+   "lep_share_pct": 51.5,
+   "lep_people": 1795551,
+   "born_region": 2819551,
+   "speakers_per_born": 1.24,
+   "hk_share_born_pct": 8.6
+  },
+  {
+   "geo": "New York",
+   "speakers": 658456,
+   "per_1k": 33.3,
+   "lep_share_pct": 60.0,
+   "lep_people": 395056,
+   "born_region": 532657,
+   "speakers_per_born": 1.24,
+   "hk_share_born_pct": 9.3
+  },
+  {
+   "geo": "Los Angeles",
+   "speakers": 478223,
+   "per_1k": 36.8,
+   "lep_share_pct": 55.6,
+   "lep_people": 265764,
+   "born_region": 354946,
+   "speakers_per_born": 1.35,
+   "hk_share_born_pct": 9.6
+  },
+  {
+   "geo": "San Francisco-Oakland",
+   "speakers": 392697,
+   "per_1k": 84.4,
+   "lep_share_pct": 52.6,
+   "lep_people": 206480,
+   "born_region": 297357,
+   "speakers_per_born": 1.32,
+   "hk_share_born_pct": 14.8
+  },
+  {
+   "geo": "Boston",
+   "speakers": 130761,
+   "per_1k": 26.6,
+   "lep_share_pct": 48.2,
+   "lep_people": 63042,
+   "born_region": 110139,
+   "speakers_per_born": 1.19,
+   "hk_share_born_pct": 7.9
+  },
+  {
+   "geo": "Seattle",
+   "speakers": 120286,
+   "per_1k": 29.9,
+   "lep_share_pct": 44.3,
+   "lep_people": 53332,
+   "born_region": 102905,
+   "speakers_per_born": 1.17,
+   "hk_share_born_pct": 8.2
+  },
+  {
+   "geo": "Chicago",
+   "speakers": 94216,
+   "per_1k": 10.1,
+   "lep_share_pct": 50.6,
+   "lep_people": 47685,
+   "born_region": 75390,
+   "speakers_per_born": 1.25,
+   "hk_share_born_pct": 6.3
+  },
+  {
+   "geo": "Washington DC",
+   "speakers": 88750,
+   "per_1k": 14.2,
+   "lep_share_pct": 43.4,
+   "lep_people": 38489,
+   "born_region": 75079,
+   "speakers_per_born": 1.18,
+   "hk_share_born_pct": 6.4
+  },
+  {
+   "geo": "Philadelphia",
+   "speakers": 80347,
+   "per_1k": 12.9,
+   "lep_share_pct": 55.6,
+   "lep_people": 44709,
+   "born_region": 62638,
+   "speakers_per_born": 1.28,
+   "hk_share_born_pct": 6.2
+  },
+  {
+   "geo": "Dallas-Fort Worth",
+   "speakers": 59478,
+   "per_1k": 7.6,
+   "lep_share_pct": 43.2,
+   "lep_people": 25701,
+   "born_region": 47803,
+   "speakers_per_born": 1.24,
+   "hk_share_born_pct": 5.7
+  },
+  {
+   "geo": "Atlanta",
+   "speakers": 48910,
+   "per_1k": 7.9,
+   "lep_share_pct": 49.2,
+   "lep_people": 24081,
+   "born_region": 41204,
+   "speakers_per_born": 1.19,
+   "hk_share_born_pct": 4.8
+  },
+  {
+   "geo": "Miami",
+   "speakers": 24323,
+   "per_1k": 4.0,
+   "lep_share_pct": 55.2,
+   "lep_people": 13416,
+   "born_region": 22167,
+   "speakers_per_born": 1.1,
+   "hk_share_born_pct": 9.0
+  },
+  {
+   "geo": "Detroit",
+   "speakers": 23644,
+   "per_1k": 5.4,
+   "lep_share_pct": 45.2,
+   "lep_people": 10688,
+   "born_region": 19670,
+   "speakers_per_born": 1.2,
+   "hk_share_born_pct": 6.2
+  },
+  {
+   "geo": "Tampa",
+   "speakers": 10789,
+   "per_1k": 3.3,
+   "lep_share_pct": 54.1,
+   "lep_people": 5832,
+   "born_region": 9031,
+   "speakers_per_born": 1.19,
+   "hk_share_born_pct": 6.2
+  }
+ ],
+ "us_national": {
+  "geo": "United States",
+  "speakers": 3486526,
+  "per_1k": 10.5,
+  "lep_share_pct": 51.5,
+  "lep_people": 1795551,
+  "born_region": 2819551,
+  "speakers_per_born": 1.24,
+  "hk_share_born_pct": 8.6
+ },
+ "archetypes": {
+  "k": 4,
+  "silhouette": 0.539,
+  "members": {
+   "0": [
+    "Toronto",
+    "Vancouver"
+   ],
+   "1": [
+    "Atlanta",
+    "Boston",
+    "Chicago",
+    "Dallas-Fort Worth",
+    "Detroit",
+    "Miami",
+    "Philadelphia",
+    "Seattle",
+    "Tampa",
+    "Washington DC"
+   ],
+   "2": [
+    "Calgary",
+    "Edmonton",
+    "Montreal",
+    "Ottawa-Gatineau",
+    "Winnipeg"
+   ],
+   "3": [
+    "Los Angeles",
+    "New York",
+    "San Francisco-Oakland"
+   ]
+  },
+  "centroids": {
+   "0": {
+    "per_1k": 123.9,
+    "cantonese_ness": 46.6,
+    "firstgen_intensity": 83.9,
+    "log_speakers": 5.7
+   },
+   "1": {
+    "per_1k": 12.2,
+    "cantonese_ness": 6.7,
+    "firstgen_intensity": 48.9,
+    "log_speakers": 4.7
+   },
+   "2": {
+    "per_1k": 29.7,
+    "cantonese_ness": 37.9,
+    "firstgen_intensity": 81.7,
+    "log_speakers": 4.7
+   },
+   "3": {
+    "per_1k": 51.5,
+    "cantonese_ness": 11.2,
+    "firstgen_intensity": 56.1,
+    "log_speakers": 5.7
+   }
+  }
+ },
+ "projections_meta": {
+  "gen_years": 27.5,
+  "scenarios_per_year": {
+   "low": 15000,
+   "base": 30000,
+   "high": 45000
+  },
+  "annual_loss_pct": {
+   "Chinese (all)": 4.88,
+   "Mandarin": 7.58,
+   "Cantonese": 3.6
+  }
+ },
+ "edmonton_crossover_year": null
+}

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Mother-Tongue Half-Life — Musing with Mike</title>
+<style>
+  body { font-family: Georgia, 'Times New Roman', serif; max-width: 880px; margin: 2rem auto; padding: 0 1rem; color: #1a1a1a; line-height: 1.55; }
+  h1 { font-size: 1.9rem; line-height: 1.2; margin-bottom: .2rem; }
+  .sub { color: #666; margin-bottom: 1.6rem; }
+  .cards { display: flex; gap: .8rem; flex-wrap: wrap; margin: 1.2rem 0; }
+  .card { border: 1px solid #ddd; border-radius: 8px; padding: .8rem 1rem; flex: 1; min-width: 180px; background: #fafafa; }
+  .card b { display: block; font-size: 1.45rem; }
+  .card span { font-size: .82rem; color: #555; }
+  .controls { display: flex; gap: 1rem; flex-wrap: wrap; align-items: end; margin: 1.4rem 0 .6rem; }
+  label { font-size: .85rem; display: block; color: #444; }
+  select, button { font-size: 1rem; padding: .35rem .6rem; }
+  button.active { background: #1a1a1a; color: #fff; }
+  canvas { width: 100%; border: 1px solid #e2e2e2; border-radius: 8px; }
+  #readout { font-size: 1.02rem; margin-top: .8rem; }
+  img { max-width: 100%; border: 1px solid #e2e2e2; border-radius: 8px; }
+  h2 { margin-top: 2.2rem; }
+  footer { color: #777; font-size: .85rem; margin-top: 3rem; }
+</style>
+</head>
+<body>
+<h1>The Mother-Tongue Half-Life</h1>
+<p class="sub">Musing with Mike · Build · 2026-10-04 · How fast the Chinese-language market decays — and what refills it.</p>
+
+<div class="cards" id="cards"></div>
+
+<h2>The expiration-date calculator</h2>
+<p>Pick a city and a language. The line is the mother-tongue population from 2021 to 2051 if today's
+generational transmission rates hold and net new Chinese-mother-tongue immigration runs at the chosen
+level (15k / 30k / 45k people per year into Canada, split by the city's 2021 share). It's an accounting
+model, not a prophecy — but the drain rate is measured, not assumed.</p>
+
+<div class="controls">
+  <div><label>City</label><select id="geo"></select></div>
+  <div><label>Language</label><select id="lang"></select></div>
+  <div><label>Immigration refill / yr</label>
+    <span id="scen">
+      <button data-s="low">15k</button><button data-s="base" class="active">30k</button><button data-s="high">45k</button>
+    </span></div>
+</div>
+<canvas id="chart" width="840" height="380"></canvas>
+<p id="readout"></p>
+
+<h2>The cliff</h2>
+<img src="../charts/retention_decay.png" alt="Retention by generation">
+<h2>City half-lives</h2>
+<img src="../charts/halflife.png" alt="Half-life by city">
+<h2>Two countries, four kinds of market</h2>
+<img src="../charts/archetypes.png" alt="City archetypes">
+
+<script src="data.js"></script>
+<script>
+const fmt = n => Math.round(n).toLocaleString('en-US');
+const geoSel = document.getElementById('geo'), langSel = document.getElementById('lang');
+Object.keys(PROJ).forEach(g => geoSel.add(new Option(g, g)));
+Object.keys(PROJ['Canada']).forEach(l => langSel.add(new Option(l, l)));
+let scen = 'base';
+document.querySelectorAll('#scen button').forEach(b => b.onclick = () => {
+  document.querySelectorAll('#scen button').forEach(x => x.classList.remove('active'));
+  b.classList.add('active'); scen = b.dataset.s; draw();
+});
+geoSel.onchange = langSel.onchange = draw;
+
+const cards = [
+  ['91.5% → 5.8%', '1st gen → 3rd gen+ share of Chinese Canadians with a Chinese mother tongue'],
+  ['~14 years', 'half-life of the Chinese-language share (generational-decay fit, Canada)'],
+  ['80% vs 41%', 'Cantonese vs Mandarin transmission into the 2nd generation'],
+  ['1.8M people', 'US Chinese-at-home speakers who speak English less than "very well" — the segment that needs service in Chinese'],
+];
+document.getElementById('cards').innerHTML = cards.map(c =>
+  `<div class="card"><b>${c[0]}</b><span>${c[1]}</span></div>`).join('');
+
+function draw() {
+  const geo = geoSel.value, lang = langSel.value;
+  const s = PROJ[geo][lang].series[scen], lo = PROJ[geo][lang].series.low, hi = PROJ[geo][lang].series.high;
+  const cv = document.getElementById('chart'), ctx = cv.getContext('2d');
+  const W = cv.width, H = cv.height, pad = 56, iw = W - 2 * pad, ih = H - 2 * pad;
+  const maxY = Math.max(...hi) * 1.1, years = s.map((_, i) => 2021 + i);
+  ctx.clearRect(0, 0, W, H);
+  ctx.strokeStyle = '#ccc'; ctx.fillStyle = '#666'; ctx.font = '12px sans-serif';
+  for (let i = 0; i <= 4; i++) {
+    const y = pad + ih - ih * i / 4, v = maxY * i / 4;
+    ctx.beginPath(); ctx.moveTo(pad, y); ctx.lineTo(W - pad, y); ctx.stroke();
+    ctx.fillText(fmt(v), 4, y + 4);
+  }
+  years.forEach((y, i) => { if (i % 10 === 0) ctx.fillText(y, pad + iw * i / 30 - 12, H - 28); });
+  const px = i => pad + iw * i / 30, py = v => pad + ih - ih * v / maxY;
+  ctx.beginPath();
+  hi.forEach((v, i) => i ? ctx.lineTo(px(i), py(v)) : ctx.moveTo(px(i), py(v)));
+  [...lo].reverse().forEach((v, j) => ctx.lineTo(px(30 - j), py(v)));
+  ctx.closePath(); ctx.fillStyle = 'rgba(36,113,163,.15)'; ctx.fill();
+  ctx.beginPath(); s.forEach((v, i) => i ? ctx.lineTo(px(i), py(v)) : ctx.moveTo(px(i), py(v)));
+  ctx.strokeStyle = '#2471a3'; ctx.lineWidth = 2.5; ctx.stroke();
+  const hl = (FIND.cma_table.find(r => r.geo === geo) || {}).halflife_years;
+  document.getElementById('readout').innerHTML =
+    `<b>${geo} · ${lang}:</b> ${fmt(s[0])} speakers in 2021 → <b>${fmt(s[30])}</b> in 2051 ` +
+    `(low–high band: ${fmt(lo[30])}–${fmt(hi[30])}).` +
+    (hl ? ` Local half-life: ~${hl} years at 2021 transmission rates.` : '');
+}
+draw();
+</script>
+<footer>Data: Statistics Canada 2021 Census (98-10-0325-01); US Census Bureau ACS 2023 5-year. Model and caveats in the project README.</footer>
+</body>
+</html>
