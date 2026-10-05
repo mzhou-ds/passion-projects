@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Love is a channel business — the channel scorecard</title>
+<style>
+  body { font-family: Georgia, 'Times New Roman', serif; margin: 0; background: #faf7f2; color: #222; }
+  .wrap { max-width: 760px; margin: 0 auto; padding: 32px 20px 60px; }
+  h1 { font-size: 30px; margin-bottom: 4px; }
+  .sub { color: #666; margin-top: 0; }
+  .card { background: #fff; border: 1px solid #e5ded2; border-radius: 10px; padding: 20px; margin: 18px 0; }
+  label { display: block; font-size: 13px; text-transform: uppercase; letter-spacing: .06em; color: #888; margin: 12px 0 4px; }
+  select { width: 100%; padding: 9px; font-size: 16px; border: 1px solid #ccc; border-radius: 6px; background: #fff; }
+  .big { font-size: 52px; font-weight: bold; color: #d1495b; line-height: 1; margin: 10px 0 2px; }
+  .cap { color: #555; font-size: 15px; }
+  table { width: 100%; border-collapse: collapse; font-size: 14px; }
+  th, td { padding: 7px 6px; border-bottom: 1px solid #eee; text-align: right; }
+  th:first-child, td:first-child { text-align: left; }
+  .note { font-size: 13px; color: #777; line-height: 1.55; }
+  .hl { background: #fdf0f2; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>Love is a channel business</h1>
+  <p class="sub">How you met predicts how long it lasts — mostly because of who arrives through each door. HCMST 2017–2022, 2,787 couples. <em>Musing with Mike.</em></p>
+
+  <div class="card">
+    <label for="channel">How you met</label>
+    <select id="channel"></select>
+    <label for="decade">Decade the relationship started</label>
+    <select id="decade">
+      <option value="1980">1980s</option>
+      <option value="1990">1990s</option>
+      <option value="2000" selected>2000s</option>
+      <option value="2010">2010s</option>
+    </select>
+    <label for="age">Your age when it started</label>
+    <select id="age">
+      <option value="22">18–26 (shown at 22)</option>
+      <option value="30" selected>27–34 (shown at 30)</option>
+      <option value="40">35–49 (shown at 40)</option>
+      <option value="52">50+ (shown at 52)</option>
+    </select>
+    <div class="big" id="pred">–</div>
+    <div class="cap" id="predCap"></div>
+  </div>
+
+  <div class="card">
+    <h3 style="margin-top:0">Channel scorecard (all couples, model-adjusted)</h3>
+    <table id="score"></table>
+    <p class="note">Adjusted = predicted breakup risk by 2022 if the <em>same</em> couples (same ages, education, marital status) had met through each channel instead. Model: XGBoost on 1,031 couples partnered in 2017 and re-interviewed in 2022; test AUC 0.59 — honest, weak. The door matters less than who's standing in it.</p>
+  </div>
+
+  <p class="note">Data: How Couples Meet and Stay Together 2017–2022, public v2.2 (Rosenfeld et al., Stanford). Estimates are model outputs for exploration, not personal predictions. Raw Kaplan–Meier survival tells a harsher story about online (74.7% together at 5 years vs. 92.0% for friends) — that gap is mostly <em>composition</em>: online couples in this sample are older at the start (34.5 vs. 25.6), far less often married (36% vs. 67%), and more often in newer, untested relationships. Read the README for the full honest version.</p>
+</div>
+<script src="data.js"></script>
+<script>
+const chSel = document.getElementById('channel');
+Object.entries(SITE_DATA.channels).forEach(([k, v]) => {
+  if (k === 'other') return;
+  const o = document.createElement('option'); o.value = k; o.textContent = v; chSel.appendChild(o);
+});
+chSel.value = 'online';
+
+function update() {
+  const key = `${chSel.value}|${document.getElementById('decade').value}|${document.getElementById('age').value}`;
+  const p = SITE_DATA.grid[key];
+  document.getElementById('pred').textContent = p ? p.toFixed(1) + '%' : '–';
+  document.getElementById('predCap').textContent = p
+    ? `model-estimated chance of still being together ~5 years on, for a couple meeting this way`
+    : 'not enough data for this combination';
+  document.querySelectorAll('#score tr[data-ch]').forEach(tr =>
+    tr.classList.toggle('hl', tr.dataset.ch === chSel.value));
+}
+[chSel, document.getElementById('decade'), document.getElementById('age')]
+  .forEach(el => el.addEventListener('change', update));
+
+const tbl = document.getElementById('score');
+tbl.innerHTML = '<tr><th>Channel</th><th>Raw broke-up %</th><th>Adjusted %</th><th>KM still-together @5y</th></tr>' +
+  Object.keys(SITE_DATA.channels).filter(c => c !== 'other').map(c => {
+    const pr = SITE_DATA.premium[c], km = SITE_DATA.km[c];
+    return `<tr data-ch="${c}"><td>${SITE_DATA.channels[c]}</td><td>${SITE_DATA.raw[c].toFixed(1)}</td>` +
+      `<td>${pr.adj_pct.toFixed(1)} <span style="color:#999">(${pr.ci95[0]}–${pr.ci95[1]})</span></td>` +
+      `<td>${km ? km.s5.toFixed(1) + '%' : '—'}</td></tr>`;
+  }).join('');
+update();
+</script>
+</body>
+</html>
