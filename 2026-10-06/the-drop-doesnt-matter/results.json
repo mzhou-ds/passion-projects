@@ -1,0 +1,668 @@
+{
+  "dataset": {
+    "rows_total": 114000,
+    "rows_clean": 113840,
+    "genres_total": 114,
+    "source_url": "https://huggingface.co/api/datasets/maharshipandya/spotify-tracks-dataset/parquet/default/train/0.parquet",
+    "edm_genres": [
+      "edm",
+      "house",
+      "chicago-house",
+      "deep-house",
+      "progressive-house",
+      "techno",
+      "detroit-techno",
+      "minimal-techno",
+      "trance",
+      "dubstep",
+      "drum-and-bass",
+      "electro",
+      "electronic",
+      "dance",
+      "club",
+      "breakbeat",
+      "garage",
+      "hardstyle",
+      "idm"
+    ],
+    "edm_n": 18975
+  },
+  "structure_medians": {
+    "EDM family": {
+      "duration_sec": 220.0,
+      "tempo": 125.022,
+      "energy": 0.785,
+      "instrumentalness": 0.0273,
+      "danceability": 0.648,
+      "loudness": -6.162,
+      "valence": 0.381,
+      "popularity_median": 31.0,
+      "popularity_mean": 31.797364953886692,
+      "n": 18975
+    },
+    "pop": {
+      "duration_sec": 211.522,
+      "tempo": 118.65950000000001,
+      "energy": 0.618,
+      "instrumentalness": 0.0,
+      "danceability": 0.642,
+      "loudness": -6.7245,
+      "valence": 0.498,
+      "popularity_median": 66.0,
+      "popularity_mean": 47.576,
+      "n": 1000
+    },
+    "hip-hop": {
+      "duration_sec": 198.955,
+      "tempo": 107.253,
+      "energy": 0.69,
+      "instrumentalness": 0.0,
+      "danceability": 0.753,
+      "loudness": -5.891,
+      "valence": 0.55,
+      "popularity_median": 58.0,
+      "popularity_mean": 37.759,
+      "n": 1000
+    },
+    "rock": {
+      "duration_sec": 217.493,
+      "tempo": 123.8725,
+      "energy": 0.703,
+      "instrumentalness": 3.455e-06,
+      "danceability": 0.552,
+      "loudness": -6.127,
+      "valence": 0.546,
+      "popularity_median": 0.0,
+      "popularity_mean": 19.001,
+      "n": 1000
+    }
+  },
+  "model": {
+    "n_edm": 18975,
+    "n_train": 15180,
+    "n_test": 3795,
+    "features": [
+      "danceability",
+      "energy",
+      "loudness",
+      "speechiness",
+      "acousticness",
+      "instrumentalness",
+      "liveness",
+      "valence",
+      "tempo",
+      "duration_sec",
+      "key",
+      "mode",
+      "time_signature"
+    ],
+    "test_r2": 0.3652396093004018,
+    "test_mae": 14.782153103725399,
+    "test_rmse": 18.44332736050763,
+    "train_r2": 0.5988113290954086,
+    "baseline_r2": -0.002288898258027583,
+    "baseline_mae": 20.371805006587614,
+    "popularity_mean_edm": 31.797364953886692,
+    "popularity_median_edm": 31.0,
+    "popularity_std_edm": 23.237369208338965,
+    "xgb_importance": {
+      "danceability": 0.06859893351793289,
+      "energy": 0.08043908327817917,
+      "loudness": 0.0896872952580452,
+      "speechiness": 0.07437523454427719,
+      "acousticness": 0.07406044751405716,
+      "instrumentalness": 0.08675049245357513,
+      "liveness": 0.062223777174949646,
+      "valence": 0.09766034036874771,
+      "tempo": 0.08316881954669952,
+      "duration_sec": 0.11899964511394501,
+      "key": 0.055273111909627914,
+      "mode": 0.05476934462785721,
+      "time_signature": 0.053993452340364456
+    },
+    "pearson_r": {
+      "danceability": -0.06694580058996755,
+      "energy": -0.034888995228065954,
+      "loudness": 0.1301743861457084,
+      "speechiness": -0.05742424375232161,
+      "acousticness": 0.04701725012549471,
+      "instrumentalness": -0.1483573518860671,
+      "liveness": 0.008898576918951654,
+      "valence": -0.10612268286512547,
+      "tempo": -0.03845914427512014,
+      "duration_sec": -0.17135206012340828,
+      "key": -0.005052871043766416,
+      "mode": -0.006676185350511923,
+      "time_signature": 0.0012595680513068912
+    },
+    "shap_mean_abs": {
+      "danceability": 1.4862385988235474,
+      "energy": 2.686547040939331,
+      "loudness": 2.6604208946228027,
+      "speechiness": 1.6139835119247437,
+      "acousticness": 1.635666012763977,
+      "instrumentalness": 1.5001527070999146,
+      "liveness": 1.1940819025039673,
+      "valence": 2.655395746231079,
+      "tempo": 1.848992109298706,
+      "duration_sec": 4.09173583984375,
+      "key": 0.4245043694972992,
+      "mode": 0.2253103107213974,
+      "time_signature": 0.12266188114881516
+    },
+    "shap_ranking": [
+      "duration_sec",
+      "energy",
+      "loudness",
+      "valence",
+      "tempo",
+      "acousticness",
+      "speechiness",
+      "instrumentalness",
+      "danceability",
+      "liveness",
+      "key",
+      "mode",
+      "time_signature"
+    ]
+  },
+  "clustering_silhouette": {
+    "3": 0.18746233808711668,
+    "4": 0.18055355269323622,
+    "5": 0.18331097026279838,
+    "6": 0.1817945939854029,
+    "7": 0.14522834026563192
+  },
+  "clustering": {
+    "k": 5,
+    "features": [
+      "danceability",
+      "energy",
+      "loudness",
+      "speechiness",
+      "acousticness",
+      "instrumentalness",
+      "liveness",
+      "valence",
+      "tempo",
+      "duration_sec"
+    ],
+    "sizes": {
+      "0": 1175,
+      "1": 1402,
+      "2": 4571,
+      "3": 6948,
+      "4": 4879
+    },
+    "names": {
+      "0": "high-energy, vocal/talk, short-form",
+      "1": "instrumental, low-energy, slow, acoustic-leaning, dark",
+      "2": "instrumental, groove-led, long-form",
+      "3": "groove-led, slow, short-form, euphoric",
+      "4": "high-energy, fast, dark"
+    },
+    "mean_popularity": {
+      "0": 31.216170212765956,
+      "1": 32.04279600570614,
+      "2": 25.8580179391818,
+      "3": 34.080166954519285,
+      "4": 34.18036482885837
+    },
+    "median_popularity": {
+      "0": 26.0,
+      "1": 32.0,
+      "2": 20.0,
+      "3": 38.0,
+      "4": 35.0
+    },
+    "profiles_mean": {
+      "0": {
+        "danceability": 0.6523829787234042,
+        "energy": 0.8014408510638298,
+        "loudness": -5.370021276595744,
+        "speechiness": 0.3073514893617021,
+        "acousticness": 0.11713794252765958,
+        "instrumentalness": 0.11569577156595744,
+        "liveness": 0.2439700425531915,
+        "valence": 0.4443298723404255,
+        "tempo": 135.82838212765955,
+        "duration_sec": 202.00161106382978,
+        "popularity": 31.216170212765956
+      },
+      "1": {
+        "danceability": 0.536676604850214,
+        "energy": 0.41621044935805995,
+        "loudness": -12.529492154065622,
+        "speechiness": 0.055364621968616266,
+        "acousticness": 0.6243368549928674,
+        "instrumentalness": 0.444139389721826,
+        "liveness": 0.15739950071326678,
+        "valence": 0.2827323109843081,
+        "tempo": 116.80967617689015,
+        "duration_sec": 230.55816119828816,
+        "popularity": 32.04279600570614
+      },
+      "2": {
+        "danceability": 0.7055488952089258,
+        "energy": 0.7189655217676657,
+        "loudness": -9.606433165609277,
+        "speechiness": 0.06097118792386786,
+        "acousticness": 0.044665735978998033,
+        "instrumentalness": 0.7567733542157078,
+        "liveness": 0.13737293808794573,
+        "valence": 0.34683800043754104,
+        "tempo": 126.3963482826515,
+        "duration_sec": 369.76058849267116,
+        "popularity": 25.8580179391818
+      },
+      "3": {
+        "danceability": 0.6865863557858377,
+        "energy": 0.7553539147956246,
+        "loudness": -5.697751007484168,
+        "speechiness": 0.060900719631548646,
+        "acousticness": 0.10191950352043753,
+        "instrumentalness": 0.06963903049366725,
+        "liveness": 0.16983910477835346,
+        "valence": 0.5379008203799654,
+        "tempo": 116.22912895797351,
+        "duration_sec": 201.9327027921704,
+        "popularity": 34.080166954519285
+      },
+      "4": {
+        "danceability": 0.5028295552367289,
+        "energy": 0.8576411149825783,
+        "loudness": -4.886623693379791,
+        "speechiness": 0.07244562410329985,
+        "acousticness": 0.04294691097970896,
+        "instrumentalness": 0.24661439985857758,
+        "liveness": 0.26320807542529207,
+        "valence": 0.2951702193072351,
+        "tempo": 147.62026972740316,
+        "duration_sec": 230.23681307645012,
+        "popularity": 34.18036482885837
+      }
+    },
+    "dominant_genres": {
+      "0": {
+        "hardstyle": 0.13361702127659575,
+        "club": 0.10893617021276596,
+        "dubstep": 0.08170212765957446,
+        "electronic": 0.0774468085106383
+      },
+      "1": {
+        "idm": 0.3209700427960057,
+        "electro": 0.11982881597717546,
+        "garage": 0.11340941512125535,
+        "electronic": 0.10699001426533523
+      },
+      "2": {
+        "minimal-techno": 0.17698534237584773,
+        "detroit-techno": 0.17260993218114198,
+        "chicago-house": 0.13760665062349595,
+        "techno": 0.12316779698096697
+      },
+      "3": {
+        "house": 0.11456534254461716,
+        "dance": 0.1111111111111111,
+        "edm": 0.10549798503166379,
+        "deep-house": 0.09499136442141623
+      },
+      "4": {
+        "drum-and-bass": 0.14408690305390448,
+        "hardstyle": 0.1369133019061283,
+        "dubstep": 0.11395777823324452,
+        "trance": 0.09469153515064563
+      }
+    },
+    "pca_var": [
+      0.24465928462220105,
+      0.16596678989034214
+    ]
+  },
+  "arbitrage": {
+    "note": "Gap = predicted (audio-only XGBoost, test set) minus actual Spotify popularity. Positive gap = sound predicts more popularity than the track has (underexposed by sound). Negative = popularity exceeds what sound predicts (fame/catalog effects dominate). Test-set only, out-of-sample.",
+    "underexposed_top15": [
+      {
+        "artists": "Julia Michaels;Niall Horan",
+        "track_name": "What A Time",
+        "genre": "electro",
+        "actual": 0.0,
+        "predicted": 63.6221809387207,
+        "gap": 63.6221809387207
+      },
+      {
+        "artists": "Sam Smith;\u30ce\u30fc\u30de\u30cb",
+        "track_name": "\u30c0\u30f3\u30b7\u30f3\u30b0\u30fb\u30a6\u30a3\u30ba\u30fb\u30a2\u30fb\u30b9\u30c8\u30ec\u30f3\u30b8\u30e3\u30fc",
+        "genre": "dance",
+        "actual": 0.0,
+        "predicted": 59.48336410522461,
+        "gap": 59.48336410522461
+      },
+      {
+        "artists": "Julia Michaels",
+        "track_name": "Issues",
+        "genre": "electro",
+        "actual": 0.0,
+        "predicted": 57.982276916503906,
+        "gap": 57.982276916503906
+      },
+      {
+        "artists": "The Prophet",
+        "track_name": "Mayhem MF - Original Mix",
+        "genre": "hardstyle",
+        "actual": 0.0,
+        "predicted": 55.74028015136719,
+        "gap": 55.74028015136719
+      },
+      {
+        "artists": "James Hype",
+        "track_name": "Crank",
+        "genre": "house",
+        "actual": 0.0,
+        "predicted": 52.47465896606445,
+        "gap": 52.47465896606445
+      },
+      {
+        "artists": "James Hype",
+        "track_name": "Crank",
+        "genre": "deep-house",
+        "actual": 0.0,
+        "predicted": 52.47465896606445,
+        "gap": 52.47465896606445
+      },
+      {
+        "artists": "Praveen;Shankar;Srinivas;Clinton Cerejo;DJ Aftab",
+        "track_name": "Endrendrum Punnagai LoFi Mix",
+        "genre": "idm",
+        "actual": 2.0,
+        "predicted": 53.56258010864258,
+        "gap": 51.56258010864258
+      },
+      {
+        "artists": "Katy Perry;Juicy J",
+        "track_name": "Dark Horse",
+        "genre": "dance",
+        "actual": 0.0,
+        "predicted": 51.10862350463867,
+        "gap": 51.10862350463867
+      },
+      {
+        "artists": "Lady Gaga",
+        "track_name": "Million Reasons",
+        "genre": "dance",
+        "actual": 0.0,
+        "predicted": 50.12542724609375,
+        "gap": 50.12542724609375
+      },
+      {
+        "artists": "Gryffin;OneRepublic",
+        "track_name": "You Were Loved",
+        "genre": "edm",
+        "actual": 0.0,
+        "predicted": 49.4852180480957,
+        "gap": 49.4852180480957
+      },
+      {
+        "artists": "Avicii;Aloe Blacc",
+        "track_name": "SOS",
+        "genre": "edm",
+        "actual": 0.0,
+        "predicted": 49.23017501831055,
+        "gap": 49.23017501831055
+      },
+      {
+        "artists": "Avicii;Aloe Blacc",
+        "track_name": "SOS",
+        "genre": "dance",
+        "actual": 0.0,
+        "predicted": 49.23017501831055,
+        "gap": 49.23017501831055
+      },
+      {
+        "artists": "Alex Schulz",
+        "track_name": "We Could Be Anything",
+        "genre": "deep-house",
+        "actual": 0.0,
+        "predicted": 48.50730895996094,
+        "gap": 48.50730895996094
+      },
+      {
+        "artists": "Armin van Buuren;R3HAB;Simon Ward",
+        "track_name": "Love We Lost (with R3HAB)",
+        "genre": "progressive-house",
+        "actual": 0.0,
+        "predicted": 47.78940200805664,
+        "gap": 47.78940200805664
+      },
+      {
+        "artists": "Burna Boy",
+        "track_name": "On the Low",
+        "genre": "dance",
+        "actual": 2.0,
+        "predicted": 49.66503143310547,
+        "gap": 47.66503143310547
+      }
+    ],
+    "overexposed_top15": [
+      {
+        "artists": "David Guetta;Bebe Rexha",
+        "track_name": "I'm Good (Blue)",
+        "genre": "edm",
+        "actual": 98.0,
+        "predicted": 14.611801147460938,
+        "gap": -83.38819885253906
+      },
+      {
+        "artists": "Shawn Mendes",
+        "track_name": "There's Nothing Holdin' Me Back",
+        "genre": "dance",
+        "actual": 86.0,
+        "predicted": 12.595841407775879,
+        "gap": -73.40415859222412
+      },
+      {
+        "artists": "Ti\u00ebsto;Ava Max",
+        "track_name": "The Motto",
+        "genre": "edm",
+        "actual": 86.0,
+        "predicted": 14.87997817993164,
+        "gap": -71.12002182006836
+      },
+      {
+        "artists": "Joel Corry;MNEK",
+        "track_name": "Head & Heart (feat. MNEK)",
+        "genre": "house",
+        "actual": 80.0,
+        "predicted": 10.947793006896973,
+        "gap": -69.05220699310303
+      },
+      {
+        "artists": "Mark Ronson;Bruno Mars",
+        "track_name": "Uptown Funk (feat. Bruno Mars)",
+        "genre": "dance",
+        "actual": 83.0,
+        "predicted": 14.261054992675781,
+        "gap": -68.73894500732422
+      },
+      {
+        "artists": "MEDUZA;James Carter;Elley Duh\u00e9;FAST BOY",
+        "track_name": "Bad Memories (feat. Elley Duh\u00e9 & FAST BOY)",
+        "genre": "house",
+        "actual": 85.0,
+        "predicted": 21.809789657592773,
+        "gap": -63.19021034240723
+      },
+      {
+        "artists": "Doja Cat",
+        "track_name": "Boss Bitch",
+        "genre": "dance",
+        "actual": 79.0,
+        "predicted": 16.838930130004883,
+        "gap": -62.16106986999512
+      },
+      {
+        "artists": "Shawn Mendes",
+        "track_name": "Treat You Better",
+        "genre": "dance",
+        "actual": 84.0,
+        "predicted": 23.115314483642578,
+        "gap": -60.88468551635742
+      },
+      {
+        "artists": "Avicii",
+        "track_name": "The Nights",
+        "genre": "dance",
+        "actual": 86.0,
+        "predicted": 27.03658676147461,
+        "gap": -58.96341323852539
+      },
+      {
+        "artists": "Modjo",
+        "track_name": "Lady - Hear Me Tonight",
+        "genre": "house",
+        "actual": 78.0,
+        "predicted": 19.959182739257812,
+        "gap": -58.04081726074219
+      },
+      {
+        "artists": "Felix Jaehn;Ray Dalton",
+        "track_name": "Call It Love",
+        "genre": "house",
+        "actual": 77.0,
+        "predicted": 20.5845947265625,
+        "gap": -56.4154052734375
+      },
+      {
+        "artists": "Chris Brown",
+        "track_name": "Under The Influence",
+        "genre": "dance",
+        "actual": 96.0,
+        "predicted": 41.255916595458984,
+        "gap": -54.744083404541016
+      },
+      {
+        "artists": "Topic;Bebe Rexha",
+        "track_name": "Chain My Heart",
+        "genre": "edm",
+        "actual": 70.0,
+        "predicted": 15.298300743103027,
+        "gap": -54.70169925689697
+      },
+      {
+        "artists": "Topic;Bebe Rexha",
+        "track_name": "Chain My Heart",
+        "genre": "house",
+        "actual": 70.0,
+        "predicted": 15.298300743103027,
+        "gap": -54.70169925689697
+      },
+      {
+        "artists": "Master KG;Nomcebo Zikode",
+        "track_name": "Jerusalema (feat. Nomcebo Zikode)",
+        "genre": "house",
+        "actual": 74.0,
+        "predicted": 20.170095443725586,
+        "gap": -53.829904556274414
+      }
+    ],
+    "test_gap_mean": -0.24990112750112461,
+    "test_gap_std": 18.44406445114046
+  },
+  "edm_subgenre_popularity": {
+    "detroit-techno": {
+      "mean": 11.196177062374245,
+      "median": 8.0,
+      "n": 994
+    },
+    "chicago-house": {
+      "mean": 12.342026078234705,
+      "median": 10.0,
+      "n": 997
+    },
+    "idm": {
+      "mean": 15.780341023069207,
+      "median": 12.0,
+      "n": 997
+    },
+    "breakbeat": {
+      "mean": 20.192734611503532,
+      "median": 14.0,
+      "n": 991
+    },
+    "dance": {
+      "mean": 22.69,
+      "median": 1.0,
+      "n": 1000
+    },
+    "hardstyle": {
+      "mean": 26.623,
+      "median": 23.0,
+      "n": 1000
+    },
+    "drum-and-bass": {
+      "mean": 26.66866866866867,
+      "median": 19.0,
+      "n": 999
+    },
+    "club": {
+      "mean": 33.338,
+      "median": 37.0,
+      "n": 1000
+    },
+    "minimal-techno": {
+      "mean": 34.03807615230461,
+      "median": 39.0,
+      "n": 998
+    },
+    "house": {
+      "mean": 34.156,
+      "median": 41.5,
+      "n": 1000
+    },
+    "edm": {
+      "mean": 35.032,
+      "median": 47.0,
+      "n": 1000
+    },
+    "electro": {
+      "mean": 36.075,
+      "median": 50.0,
+      "n": 1000
+    },
+    "trance": {
+      "mean": 37.635,
+      "median": 40.0,
+      "n": 1000
+    },
+    "techno": {
+      "mean": 39.042,
+      "median": 43.0,
+      "n": 1000
+    },
+    "garage": {
+      "mean": 40.933,
+      "median": 35.0,
+      "n": 1000
+    },
+    "dubstep": {
+      "mean": 42.33533533533534,
+      "median": 44.0,
+      "n": 999
+    },
+    "electronic": {
+      "mean": 44.325,
+      "median": 48.0,
+      "n": 1000
+    },
+    "deep-house": {
+      "mean": 44.808,
+      "median": 51.0,
+      "n": 1000
+    },
+    "progressive-house": {
+      "mean": 46.615,
+      "median": 52.0,
+      "n": 1000
+    }
+  }
+}
