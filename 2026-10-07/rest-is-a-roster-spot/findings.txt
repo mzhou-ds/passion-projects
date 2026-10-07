@@ -1,0 +1,54 @@
+Rest Is a Roster Spot — findings (all numbers from results.json, run 2026-10-07)
+
+Sample: 6,560 NHL regular-season games, 2021-22 through 2025-26 (NHL API).
+
+THE REST CURVE (home win% by rest differential, no model):
+  rest_diff <= -2 : 47.6%  (n=315)   <- home team is the tired one
+  rest_diff  = -1 : 50.1%  (n=928)
+  rest_diff  =  0 : 53.0%  (n=3,311)
+  rest_diff  = +1 : 58.1%  (n=1,330)
+  rest_diff  = +2 : 56.2%  (n=463)
+  rest_diff >= +3 : 57.3%  (n=213)
+Swing, tired-host to rested-host: ~10.5 percentage points of win probability.
+
+BACK-TO-BACKS:
+  Visitor on a back-to-back: home team wins 59.1% (1,358 such games).
+  Rested home team vs back-to-back visitor: 60.7%.
+  League baseline home win%: 53.7%.
+
+MODELS (train 2021-24, test 2024-26, out-of-time):
+  Schedule-only logistic regression AUC: 0.536 (rest/travel alone beat a coin flip).
+  XGBoost (pre-game Elo + schedule): AUC 0.577, accuracy 55.6%.
+  SHAP ranking: elo_diff 0.462 >> recent travel load (away 0.133, home 0.133)
+  > miles_diff 0.076 > away_b2b 0.065 > tz_east_diff 0.053 > rest_diff 0.046.
+  Talent is the story; the schedule is the largest non-talent signal in the model.
+  Counterfactual (rest features zeroed): average schedule edge 2.7 pp of win
+  probability per game; 99th percentile game: 17.2 pp.
+
+SCHEDULE LUCK (standings points the rest schedule added/took, model counterfactual):
+  2025-26 spread, best to worst: 4.4 points.
+    Best:  Dallas +2.2, Edmonton +2.1, Vegas +1.8, Detroit +1.7, Utah +1.5
+    Worst: San Jose -2.2, Chicago -2.2, Seattle -1.7, Philadelphia -1.6, St. Louis -1.5
+  Five-year average luck: Edmonton best (+1.5/yr); Philadelphia worst (-1.9/yr),
+  Chicago -1.9, San Jose -1.6. (Arizona -2.2 over its final three seasons.)
+
+THE TRAVEL TAX (average air miles per season, 2021-26):
+  Most: Edmonton 49,580; San Jose 47,476; Anaheim 46,779; Dallas 46,727; Seattle 46,553.
+  Least: NY Islanders 34,001; Pittsburgh 34,013; Buffalo 34,318.
+  Edmonton flies 46% more miles per season than the Islanders.
+  Back-to-backs 2025-26: Montreal, San Jose, NY Islanders, Pittsburgh 16 each;
+  Calgary and Winnipeg only 9.
+
+HOME ICE:
+  Overall home win% by season: 53.7 / 52.4 / 54.1 / 56.3 / 52.2.
+  At equal rest: 54.8 / 51.3 / 53.7 / 55.9 / 49.9 — in 2025-26, rest controlled,
+  home teams won less than half their games.
+
+CAVEATS:
+  - miles14 = travel over the previous 6 team-games (rolling proxy), not a true
+    14-day window; treat its SHAP rank as "road wear matters to the model,"
+    not as a causal per-mile price.
+  - Schedule luck neutralizes rest/B2B/3-in-4 features only; travel and timezone
+    effects stay in both arms, so luck is a rest-schedule measure.
+  - Neutral-site games are credited to the designated home team's arena.
+  - OT loser points are held flat in the luck conversion (they cancel).

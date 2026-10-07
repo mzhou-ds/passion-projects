@@ -1,0 +1,283 @@
+{
+  "n_games": 6560,
+  "seasons": [
+    "20212022",
+    "20222023",
+    "20232024",
+    "20242025",
+    "20252026"
+  ],
+  "sanity_elo_diff_corr_home_win": 0.2088,
+  "sanity_elo_diff_means": "positive corr expected; negative = bug",
+  "rest_curve": {
+    "<= -2": {
+      "home_win_pct": 0.4762,
+      "n": 315
+    },
+    "-1": {
+      "home_win_pct": 0.5011,
+      "n": 928
+    },
+    "0": {
+      "home_win_pct": 0.5301,
+      "n": 3311
+    },
+    "+1": {
+      "home_win_pct": 0.5805,
+      "n": 1330
+    },
+    "+2": {
+      "home_win_pct": 0.5616,
+      "n": 463
+    },
+    ">= +3": {
+      "home_win_pct": 0.5728,
+      "n": 213
+    }
+  },
+  "away_b2b_home_win_pct": 0.5906,
+  "b2b_games_n": 1358,
+  "rested_home_vs_b2b_away_win_pct": 0.6072,
+  "overall_home_win_pct": 0.5372,
+  "equal_rest_home_win_pct": 0.5301,
+  "season_opener_note": "rest_days capped; openers treated as fully rested",
+  "train_n": 3936,
+  "test_n": 2624,
+  "auc_logit_sched_only": 0.5363,
+  "logit_coefs": {
+    "elo_diff": 0.5256,
+    "rest_diff": 0.0385,
+    "home_b2b": -0.1069,
+    "away_b2b": 0.1299,
+    "home_3in4": -0.0424,
+    "away_3in4": -0.0157,
+    "miles_diff_log": 0.0161,
+    "tz_east_diff": 0.0379,
+    "away_miles14": -0.0033,
+    "home_miles14": -0.0103
+  },
+  "auc_xgb_full": 0.5769,
+  "acc_xgb_full": 0.556,
+  "shap_ranking": [
+    [
+      "elo_diff",
+      0.4623
+    ],
+    [
+      "away_miles14",
+      0.1332
+    ],
+    [
+      "home_miles14",
+      0.1331
+    ],
+    [
+      "miles_diff_log",
+      0.0759
+    ],
+    [
+      "away_b2b",
+      0.0647
+    ],
+    [
+      "tz_east_diff",
+      0.0529
+    ],
+    [
+      "rest_diff",
+      0.0459
+    ],
+    [
+      "home_3in4",
+      0.0388
+    ],
+    [
+      "home_b2b",
+      0.0385
+    ],
+    [
+      "away_3in4",
+      0.0061
+    ]
+  ],
+  "max_sched_edge_pp": 17.2,
+  "mean_abs_sched_edge_pp": 2.66,
+  "luck_2025_26_best": [
+    [
+      "UTA",
+      1.5
+    ],
+    [
+      "DET",
+      1.7
+    ],
+    [
+      "VGK",
+      1.8
+    ],
+    [
+      "EDM",
+      2.1
+    ],
+    [
+      "DAL",
+      2.2
+    ]
+  ],
+  "luck_2025_26_worst": [
+    [
+      "SJS",
+      -2.2
+    ],
+    [
+      "CHI",
+      -2.2
+    ],
+    [
+      "SEA",
+      -1.7
+    ],
+    [
+      "PHI",
+      -1.6
+    ],
+    [
+      "STL",
+      -1.5
+    ]
+  ],
+  "luck_spread_2025_26_pts": 4.4,
+  "luck_5yr_best": [
+    [
+      "CAR",
+      1.16
+    ],
+    [
+      "COL",
+      1.16
+    ],
+    [
+      "WPG",
+      1.16
+    ],
+    [
+      "MIN",
+      1.19
+    ],
+    [
+      "EDM",
+      1.51
+    ]
+  ],
+  "luck_5yr_worst": [
+    [
+      "ARI",
+      -2.23
+    ],
+    [
+      "PHI",
+      -1.93
+    ],
+    [
+      "CHI",
+      -1.92
+    ],
+    [
+      "SJS",
+      -1.63
+    ],
+    [
+      "MTL",
+      -1.2
+    ]
+  ],
+  "edm_luck_2025_26_pts": 2.14,
+  "avg_miles_top5": [
+    [
+      "EDM",
+      49580
+    ],
+    [
+      "SJS",
+      47476
+    ],
+    [
+      "ANA",
+      46779
+    ],
+    [
+      "DAL",
+      46727
+    ],
+    [
+      "SEA",
+      46553
+    ]
+  ],
+  "avg_miles_bottom3": [
+    [
+      "BUF",
+      34318
+    ],
+    [
+      "PIT",
+      34013
+    ],
+    [
+      "NYI",
+      34001
+    ]
+  ],
+  "edm_avg_miles": 49580,
+  "league_miles_ratio_top_bottom": 1.46,
+  "b2b_2025_26_most": [
+    [
+      "MTL",
+      16
+    ],
+    [
+      "SJS",
+      16
+    ],
+    [
+      "NYI",
+      16
+    ],
+    [
+      "PIT",
+      16
+    ]
+  ],
+  "b2b_2025_26_fewest": [
+    [
+      "CGY",
+      9
+    ],
+    [
+      "WPG",
+      9
+    ],
+    [
+      "UTA",
+      11
+    ],
+    [
+      "ANA",
+      11
+    ]
+  ],
+  "home_win_pct_by_season": {
+    "20212022": 0.5366,
+    "20222023": 0.5236,
+    "20232024": 0.5412,
+    "20242025": 0.5625,
+    "20252026": 0.5221
+  },
+  "equal_rest_home_pct_by_season": {
+    "20212022": 0.5484,
+    "20222023": 0.5134,
+    "20232024": 0.537,
+    "20242025": 0.5589,
+    "20252026": 0.4986
+  }
+}
