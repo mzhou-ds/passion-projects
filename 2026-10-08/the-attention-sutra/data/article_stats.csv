@@ -1,0 +1,37 @@
+,avg_monthly_views_recent,log10_recent,page_bytes,growth_2023plus_vs_2016_19_pct,covid_lift_pct,tradition,kind,max_mom_jump,anomaly_flag,cluster
+Laozi,299009.0,5.48,45710,591.4152322418521,29.6,eastern,person,6.26,step-change: audit before citing,0
+Marcus_Aurelius,234418.0,5.37,142813,83.25761093417523,28.8,stoicism,person,2.74,,0
+Philosophy,209973.0,5.32,202311,4.1853526241177,-15.8,classical,concept,2.89,,3
+Buddhism,195424.0,5.29,264928,-28.841536677178702,-20.7,eastern,concept,1.27,,2
+Friedrich_Nietzsche,186757.0,5.27,214527,-2.899600377236944,3.4,existential,person,2.46,,1
+Aristotle,180942.0,5.26,158619,-11.736985535147515,-13.0,classical,person,1.57,,1
+Socrates,156442.0,5.19,92083,-8.610477476474243,-6.3,classical,person,1.51,,1
+Stoicism,156234.0,5.19,67707,40.43362572174043,35.2,stoicism,concept,2.01,,0
+Plato,150555.0,5.18,55420,-12.208007533941378,2.2,classical,person,1.39,,1
+Bhagavad_Gita,149153.0,5.17,225921,33.937370516556875,27.1,eastern,work,2.04,,0
+Yin_and_yang,128542.0,5.11,35170,-9.80020568094191,-4.7,eastern,concept,1.32,,1
+Nihilism,121073.0,5.08,107012,-10.170817715793834,-2.4,existential,concept,1.78,,1
+Confucius,119929.0,5.08,119094,15.196145037365971,13.0,eastern,person,6.02,step-change: audit before citing,1
+Taoism,107143.0,5.03,217306,-1.2531068460633898,-8.6,eastern,concept,1.36,,1
+Immanuel_Kant,106487.0,5.03,169703,-10.889266234075656,-10.0,classical,person,2.1,,1
+Albert_Camus,105629.0,5.02,65219,27.062802576438827,25.6,existential,person,1.66,,0
+Ethics,105305.0,5.02,207219,10.887396731684307,-13.9,classical,concept,2.18,,3
+Existentialism,90648.0,4.96,95450,-37.50275780919636,-25.7,existential,concept,1.51,,2
+Henry_David_Thoreau,78344.0,4.89,118054,-4.724086307064878,24.3,transcendentalism,person,2.45,,1
+Alan_Watts,77396.0,4.89,64235,-8.982223243602672,7.7,eastern,person,1.45,,1
+Ralph_Waldo_Emerson,72802.0,4.86,89535,-3.158623236661784,23.0,transcendentalism,person,1.34,,1
+Seneca_the_Younger,68683.0,4.84,60286,69.73898478159202,28.1,stoicism,person,3.33,step-change: audit before citing,0
+Søren_Kierkegaard,64355.0,4.81,156407,5.955704343471413,9.2,existential,person,1.22,,0
+Karma,61463.0,4.79,98380,-29.744214643438006,-18.2,eastern,concept,3.12,step-change: audit before citing,1
+Absurdism,58458.0,4.77,81701,24.032046130774788,14.5,existential,concept,1.42,,0
+Viktor_Frankl,53373.0,4.73,39061,41.57747669234373,34.3,existential,person,1.77,,0
+Zen,50924.0,4.71,212018,-20.712606162871683,-12.6,eastern,concept,1.41,,2
+Man's_Search_for_Meaning,49888.0,4.7,17793,63.323250435315195,40.8,existential,work,1.73,,0
+Meditations,42495.0,4.63,22901,48.96460662997628,31.1,stoicism,work,2.37,,0
+Transcendentalism,42083.0,4.62,35840,-31.517798186453817,-23.0,transcendentalism,concept,1.34,,2
+Tao_Te_Ching,38934.0,4.59,75641,9.562134173795588,6.9,eastern,work,1.44,,0
+Mindfulness,36361.0,4.56,217467,-43.67411317430826,-32.8,eastern,concept,2.92,,2
+Epictetus,33118.0,4.52,21877,51.98855726720617,41.4,stoicism,person,1.74,,0
+Walden,30463.0,4.48,43735,-21.371566884068137,-9.7,transcendentalism,work,1.65,,2
+Zeno_of_Citium,18694.0,4.27,34670,65.7109439156488,46.0,stoicism,person,1.47,,0
+Dhammapada,10115.0,4.0,40167,20.256249571692674,17.5,eastern,work,2.88,,0

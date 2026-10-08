@@ -1,0 +1,21 @@
+months: ['2016-01-01', '2026-09-01']
+articles: 36
+total_views: 453091991
+share_2016: {'classical': 29.2, 'eastern': 33.1, 'existential': 21.0, 'stoicism': 8.8, 'transcendentalism': 7.8}
+share_recent: {'classical': 26.6, 'eastern': 32.2, 'existential': 21.0, 'stoicism': 14.2, 'transcendentalism': 6.0}
+log_trend_pct_per_year_2017plus: {'classical': -0.9, 'eastern': 0.5, 'existential': -0.8, 'stoicism': 5.2, 'transcendentalism': -3.1}
+january_lift_pct_by_tradition: {'classical': 5.7, 'eastern': 5.6, 'existential': 8.3, 'stoicism': 14.4, 'transcendentalism': 9.6}
+top5_recent: {'Laozi': 299009, 'Marcus_Aurelius': 234418, 'Philosophy': 209973, 'Buddhism': 195424, 'Friedrich_Nietzsche': 186757}
+biggest_gainers: {'Laozi': 591, 'Marcus_Aurelius': 83, 'Seneca_the_Younger': 70, 'Zeno_of_Citium': 66, "Man's_Search_for_Meaning": 63}
+biggest_losers: {'Mindfulness': -44, 'Existentialism': -38, 'Transcendentalism': -32, 'Karma': -30, 'Buddhism': -29}
+covid_lift_by_tradition: {'classical': -9.4, 'eastern': -4.5, 'existential': 3.6, 'stoicism': 32.4, 'transcendentalism': 7.5}
+median_growth_by_kind: {'concept': -10.2, 'person': 6.0, 'work': 27.1}
+median_growth_by_tradition: {'classical': -9.7, 'eastern': -5.1, 'existential': 15.0, 'stoicism': 58.8, 'transcendentalism': -13.0}
+september_index_by_tradition: {'classical': 111.9, 'eastern': 102.8, 'existential': 97.2, 'stoicism': 97.5, 'transcendentalism': 95.3}
+january_index_by_tradition: {'classical': 105.1, 'eastern': 105.1, 'existential': 107.5, 'stoicism': 112.9, 'transcendentalism': 108.5}
+share_recent_excluding_Laozi: {'classical': 28.7, 'eastern': 26.9, 'existential': 22.7, 'stoicism': 15.3, 'transcendentalism': 6.5}
+eastern_growth_excluding_Laozi_note: Laozi monthly views stepped 6.3x in Mar 2023 (49k->361k) and stayed elevated; pattern is consistent with automated/referral traffic, not organic reading. Headline eastern figures exclude Laozi where noted.
+trajectory_clusters: {'0': {'covid_2020_21': 0.13, 'recent_2024_26': 0.42, 'early_2016_17': -0.75, 'members': ['Absurdism', 'Albert_Camus', 'Bhagavad_Gita', 'Dhammapada', 'Epictetus', 'Laozi', "Man's_Search_for_Meaning", 'Marcus_Aurelius', 'Meditations', 'Seneca_the_Younger', 'Stoicism', 'Søren_Kierkegaard', 'Tao_Te_Ching', 'Viktor_Frankl', 'Zeno_of_Citium']}, '1': {'covid_2020_21': 0.12, 'recent_2024_26': -0.55, 'early_2016_17': 0.29, 'members': ['Alan_Watts', 'Aristotle', 'Confucius', 'Friedrich_Nietzsche', 'Henry_David_Thoreau', 'Immanuel_Kant', 'Karma', 'Nihilism', 'Plato', 'Ralph_Waldo_Emerson', 'Socrates', 'Taoism', 'Yin_and_yang']}, '2': {'covid_2020_21': -0.17, 'recent_2024_26': -0.79, 'early_2016_17': 1.25, 'members': ['Buddhism', 'Existentialism', 'Mindfulness', 'Transcendentalism', 'Walden', 'Zen']}, '3': {'covid_2020_21': -0.42, 'recent_2024_26': 0.28, 'early_2016_17': 0.39, 'members': ['Ethics', 'Philosophy']}}
+style_vs_log_attention_corr_n8: {'words_per_sentence': 0.22, 'flesch_reading_ease': -0.36, 'you_per_1k': 0.1, 'question_rate': 0.38, 'imperative_start_rate': -0.57, 'negation_per_1k': -0.59, 'type_token_ratio': -0.03}
+pca_variance: [0.49, 0.22]
+loo_linear_R2_style2_n8: -4.04
