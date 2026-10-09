@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sweat Is Not Sweat — does your exercise count?</title>
+<style>
+  :root { --ink:#1c2430; --mut:#5a6a7a; --leis:#1b7f5a; --work:#c1502e; --line:#d8dee5; }
+  * { box-sizing: border-box; }
+  body { font-family: Georgia, 'Times New Roman', serif; color: var(--ink); margin: 0; background:#faf8f4; }
+  main { max-width: 720px; margin: 0 auto; padding: 32px 20px 64px; }
+  h1 { font-size: 30px; line-height: 1.15; margin: 0 0 6px; }
+  .sub { color: var(--mut); font-size: 16px; margin-bottom: 28px; }
+  .card { background: #fff; border: 1px solid var(--line); border-radius: 10px; padding: 20px 22px; margin-bottom: 18px; }
+  label { display: block; font-size: 14px; color: var(--mut); margin: 14px 0 4px; }
+  label b { color: var(--ink); float: right; font-variant-numeric: tabular-nums; }
+  input[type=range] { width: 100%; accent-color: var(--leis); }
+  select, input[type=number] { font: inherit; font-size: 15px; padding: 6px 8px; border: 1px solid var(--line); border-radius: 6px; width: 100%; }
+  .row { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+  .big { font-size: 42px; font-weight: bold; margin: 4px 0; }
+  .verdict { font-size: 17px; line-height: 1.45; }
+  .fine { font-size: 12.5px; color: var(--mut); line-height: 1.5; }
+  .bar { height: 10px; background: #eee7db; border-radius: 5px; position: relative; margin: 10px 0 4px; }
+  .bar > div { position: absolute; inset: 0 auto 0 0; background: var(--leis); border-radius: 5px; }
+  .tick { position: absolute; top: -3px; width: 2px; height: 16px; background: var(--ink); }
+</style>
+</head>
+<body>
+<main>
+  <h1>Sweat is not sweat.</h1>
+  <p class="sub">Your fitness app counts minutes. Your body counts context. Tell this page how you move — it answers with NHANES 2015–2018, 5,365 working-age adults, measured HbA1c and BMI, self-reported activity split by domain.</p>
+
+  <div class="card">
+    <div class="row">
+      <div><label>Age</label><input type="number" id="age" value="38" min="20" max="65"></div>
+      <div><label>Sex</label><select id="sex"><option value="0">Male</option><option value="1">Female</option></select></div>
+    </div>
+    <div><label>Household income</label>
+      <select id="income">
+        <option value="low (<1.3x poverty)">Low (under 1.3× poverty line)</option>
+        <option value="middle (1.3-3.5x)">Middle (1.3–3.5×)</option>
+        <option value="high (>3.5x)" selected>High (over 3.5×)</option>
+      </select></div>
+    <label>Leisure exercise (running, gym, sports, cycling for fun) <b><span id="leisV">150</span> min/wk</b></label>
+    <input type="range" id="leis" min="0" max="600" step="10" value="150">
+    <label>Physical activity at work (lifting, walking the floor, labor) <b><span id="workV">0</span> min/wk</b></label>
+    <input type="range" id="work" min="0" max="2400" step="30" value="0">
+    <label>Sitting <b><span id="sitV">8</span> h/day</b></label>
+    <input type="range" id="sit" min="0" max="16" step="0.5" value="8">
+  </div>
+
+  <div class="card">
+    <div class="fine">Predicted probability of rating your own health fair or poor:</div>
+    <div class="big" id="prob">–</div>
+    <div class="bar"><div id="probBar"></div></div>
+    <p class="verdict" id="verdict"></p>
+    <p class="verdict" id="contextLine"></p>
+  </div>
+
+  <p class="fine">The probability comes from a logistic model fitted on the NHANES sample (age, sex, income, leisure/work MET-minutes at GPAQ weights — vigorous 8 METs, moderate 4 — and sitting). Associations in a cross-section, not a diagnosis and not destiny: people who feel unwell also exercise less, and no slider fixes that. What the model can't manufacture is a benefit for work activity — it tried; the coefficient came back 0.001. Full method, charts, and code: see the README in this directory. Data: CDC NHANES 2015–2016 and 2017–2018 public files.</p>
+</main>
+
+<script>
+const MODEL = {
+ "coef": {
+  "Intercept": -1.1514121011616618,
+  "age": 0.022366637618624986,
+  "female": -0.04323583399175519,
+  "fmpir": -0.4389017373017287,
+  "leisure600": -0.13951552770104145,
+  "work600": 0.0009866574329674737,
+  "sitting2": 0.057206295985852806
+ },
+ "features": [
+  "Intercept",
+  "age",
+  "female",
+  "fmpir",
+  "leisure600",
+  "work600",
+  "sitting2"
+ ],
+ "income_midpoints": {
+  "low (<1.3x poverty)": 0.9,
+  "middle (1.3-3.5x)": 2.2,
+  "high (>3.5x)": 4.2
+ },
+ "grid_min": [
+  0,
+  30,
+  60,
+  90,
+  120,
+  150,
+  180,
+  240,
+  300,
+  420,
+  600
+ ],
+ "leisure_cdf_by_income": {
+  "low (<1.3x poverty)": [
+   0.6248758422418637,
+   0.6432299728861063,
+   0.7025324281667035,
+   0.7384190066441654,
+   0.7680892438032991,
+   0.782372074003419,
+   0.8164330075756258,
+   0.853529273887568,
+   0.8814547783946634,
+   0.9263257262686224,
+   0.9611865900886309
+  ],
+  "middle (1.3-3.5x)": [
+   0.4915280956003082,
+   0.516742309511892,
+   0.5634697775824692,
+   0.603749759207811,
+   0.6822695827187567,
+   0.7138643039348247,
+   0.7590049717906273,
+   0.8159913426825008,
+   0.8617994164646691,
+   0.9123033073283958,
+   0.9643530489067127
+  ],
+  "high (>3.5x)": [
+   0.3548720462762993,
+   0.38025374087761177,
+   0.44776478065364544,
+   0.5026545441676968,
+   0.5669892123378241,
+   0.6190468167934503,
+   0.6826604947656575,
+   0.7695841074146899,
+   0.8381940076069792,
+   0.9022080766070247,
+   0.9596196631527423
+  ]
+ },
+ "outcome": "probability of fair/poor self-rated health",
+ "note": "Logistic fit on NHANES 2015-2018 adults 20-65; association, not destiny."
+};
+const $ = id => document.getElementById(id);
+const incMid = MODEL.income_midpoints;
+
+function pct(x) { return Math.round(x * 100); }
+function leisurePercentile(inc, mins) {
+  const grid = MODEL.grid_min, cdf = MODEL.leisure_cdf_by_income[inc];
+  if (mins <= grid[0]) return pct(cdf[0]);
+  for (let i = 1; i < grid.length; i++) {
+    if (mins <= grid[i]) {
+      const t = (mins - grid[i-1]) / (grid[i] - grid[i-1]);
+      return pct(cdf[i-1] + t * (cdf[i] - cdf[i-1]));
+    }
+  }
+  return pct(cdf[cdf.length-1]);
+}
+function update() {
+  const age = +$('age').value || 40, female = +$('sex').value;
+  const inc = $('income').value, fmpir = incMid[inc];
+  const leisMin = +$('leis').value, workMin = +$('work').value, sit = +$('sit').value;
+  $('leisV').textContent = leisMin; $('workV').textContent = workMin; $('sitV').textContent = sit;
+  // sliders are minutes of mostly-moderate activity; model wants MET-min at 4 METs
+  const leisure600 = (leisMin * 4) / 600, work600 = (workMin * 4) / 600;
+  const c = MODEL.coef;
+  const eta = c.Intercept + c.age * age + c.female * female + c.fmpir * fmpir
+            + c.leisure600 * leisure600 + c.work600 * work600 + c.sitting2 * (sit / 2);
+  const p = 1 / (1 + Math.exp(-eta));
+  $('prob').textContent = pct(p) + '%';
+  $('probBar').style.width = pct(p) + '%';
+  let v;
+  if (workMin >= 600 && leisMin < 60) v = "That's the paradox profile: a physically hard job and almost no chosen exercise. In the data, the job's minutes don't cash out — the leisure coefficient is doing all the work on this page, and yours is near zero.";
+  else if (leisMin >= 150) v = "You're on the side of the ledger the body honors. Past roughly 600 MET-minutes a week of chosen exercise (about 150 moderate minutes), the risk curve has already done most of its falling.";
+  else if (leisMin > 0) v = "Some chosen exercise, and it counts — the dose-response curve is steepest right where you are. The first 150 minutes are the cheapest health money buys.";
+  else v = "Zero chosen exercise. Whatever your job or your step count says, this is the profile the biomarkers grade hardest.";
+  $('verdict').textContent = v;
+  $('contextLine').textContent = "Your leisure exercise puts you ahead of " +
+    leisurePercentile(inc, leisMin) + "% of " + inc.split(' (')[0] +
+    "-income working-age adults in NHANES.";
+}
+['age','sex','income','leis','work','sit'].forEach(id =>
+  $(id).addEventListener('input', update));
+update();
+</script>
+</body>
+</html>

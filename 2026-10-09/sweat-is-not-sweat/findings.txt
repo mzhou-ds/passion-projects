@@ -1,0 +1,13 @@
+Build #33 — Sweat Is Not Sweat (fitness) — 2026-10-09
+NHANES 2015-2018 pooled, adults 20-65, analytic n=5,365 (715 NH Asian).
+
+HEADLINE NUMBERS
+- Paradox (adjusted OR per 600 MET-min/wk): leisure -> diabetes 0.91 (p=1e-4), obesity 0.92, fair/poor health 0.88, dysglycemia 0.97. Work -> 0.99-1.01 on all four (obesity 1.007, p=0.035). Sitting per 2h/day -> obesity 1.13, poor health 1.11. Weighted sensitivity agrees (leisure 0.945, work 0.997 for dysglycemia).
+- Dose-response (weighted): dysglycemia 38.6% at 0 leisure MET-min -> 18.6% at 1200-2399; poor health 25.8% -> 7.2%. Work bins: no gradient (33% -> 27%, non-monotone).
+- Inequality: meet-guidelines via leisure, low income 25.0% vs high income 45.8%; HS-or-less 24.1% vs college+ 52.0%. Median leisure 0 vs 480 MET-min. Work activity peaks in middle income (median 362). High income sits most (7.1h vs 5.5h).
+- XGBoost fair/poor health AUC 0.74; SHAP: income 0.50, BMI 0.48, educ 0.35, age 0.27, leisure 0.25, sitting 0.12, work 0.08. SHAP leisure 0 dose +0.19 -> 2400+ -0.52; work flat (-0.09..+0.09).
+- Counterfactual: low-income adults given high-income leisure distribution -> predicted diabetes 17.0% -> 16.1% (relative -5.2%, 20 draws, SD 0.0005). Real lever, not the lever.
+- Weekend warrior: 12% of 1,800 meeters; ORs vs spread: dysglycemia 1.01, obesity 0.92, poor health 1.24, all n.s., wide CIs. No detectable penalty; not an acquittal.
+- NH Asian (n=715): meets 39.2%; low-income 26.6% vs high-income 46.4%. Lowest fair/poor-health prevalence (12.3%) - reporting caveat noted.
+
+CAVEATS: cross-sectional, self-reported GPAQ activity, reverse causation inflates leisure's apparent benefit; direction backed by prospective paradox literature.
