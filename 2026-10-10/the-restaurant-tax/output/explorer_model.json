@@ -1,0 +1,73 @@
+{
+ "coef": {
+  "Intercept": -1.0997860768088876,
+  "age": 0.01196502988657049,
+  "female": 0.3377238546149284,
+  "fmpir": -0.07539281927366723,
+  "rest10": 0.059380288629196934,
+  "kcal1000": 0.0685876510987208
+ },
+ "features": [
+  "Intercept",
+  "age",
+  "female",
+  "fmpir",
+  "rest10",
+  "kcal1000"
+ ],
+ "age_midpoints": {
+  "20-34": 27,
+  "35-49": 42,
+  "50-65": 57
+ },
+ "income_midpoints": {
+  "low": 0.9,
+  "middle": 2.2,
+  "high": 4.2
+ },
+ "archetypes": [
+  {
+   "name": "Home-Base Cooks",
+   "restaurant_share": 0.05902086913000876,
+   "fast_share": 0.04003267382474137,
+   "pct_obesity": 0.32877959927140255,
+   "mean_bmi": 28.693169398907102,
+   "blurb": "17% of adults \u00b7 BMI 28.7 \u00b7 33% obesity \u00b7 6% restaurant calories"
+  },
+  {
+   "name": "Drive-Thru Regulars",
+   "restaurant_share": 0.5619890220420514,
+   "fast_share": 0.5413918993072002,
+   "pct_obesity": 0.4778694673668417,
+   "mean_bmi": 30.845761440360093,
+   "blurb": "21% of adults \u00b7 BMI 30.8 \u00b7 48% obesity \u00b7 56% restaurant calories"
+  },
+  {
+   "name": "Grocery Sweet Tooths",
+   "restaurant_share": 0.09036204348677211,
+   "fast_share": 0.0710526267772977,
+   "pct_obesity": 0.4303122619954303,
+   "mean_bmi": 29.82421934501142,
+   "blurb": "21% of adults \u00b7 BMI 29.8 \u00b7 43% obesity \u00b7 9% restaurant calories"
+  },
+  {
+   "name": "Sit-Down Splurgers",
+   "restaurant_share": 0.6134764517158559,
+   "fast_share": 0.07309131193728441,
+   "pct_obesity": 0.4507531865585168,
+   "mean_bmi": 30.19872537659328,
+   "blurb": "14% of adults \u00b7 BMI 30.2 \u00b7 45% obesity \u00b7 61% restaurant calories"
+  },
+  {
+   "name": "Pantry Salt Loaders",
+   "restaurant_share": 0.048470275071258236,
+   "fast_share": 0.034340474562932835,
+   "pct_obesity": 0.4348314606741573,
+   "mean_bmi": 29.949831460674154,
+   "blurb": "28% of adults \u00b7 BMI 29.9 \u00b7 43% obesity \u00b7 5% restaurant calories"
+  }
+ ],
+ "population_obesity": 0.42680444653201816,
+ "outcome": "predicted probability of obesity (BMI >= 30)",
+ "note": "Logistic fit on NHANES 2015-2018 adults 20-65 with reliable Day-1 recall at 2,200 kcal. Cross-sectional association, not a diagnosis and not destiny."
+}

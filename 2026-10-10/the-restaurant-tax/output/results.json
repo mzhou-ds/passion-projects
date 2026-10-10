@@ -1,0 +1,493 @@
+{
+ "flow": {
+  "cycle_2015_total": 9971,
+  "cycle_2015_age20_65": 4434,
+  "cycle_2017_total": 9254,
+  "cycle_2017_age20_65": 4162,
+  "pooled_age20_65": 8596,
+  "reliable_recall": 7496,
+  "kcal_lt500_or_gt8000": 83,
+  "analytic_sample": 7413
+ },
+ "sample": {
+  "n": 7413,
+  "food_rows": 112370,
+  "mean_age": 43.36948603804128,
+  "pct_female": 0.5208417644678268,
+  "weighted_mean_kcal": 2201.622639957754,
+  "weighted_mean_sodium_mg": 3666.3561315667453,
+  "weighted_pct_obesity": 0.41795615184280455,
+  "weighted_pct_dysglycemia": 0.2901105897831336,
+  "added_sugar_available": false,
+  "note": "Population shares weighted (WTDRD1/2). Person-level models unweighted, HC1 SEs. One reliable Day-1 recall per person."
+ },
+ "concentration": {
+  "calorie_share_by_source": {
+   "store": {
+    "label": "Grocery store",
+    "calorie_share": 0.6474757466905326
+   },
+   "fast_food": {
+    "label": "Fast food",
+    "calorie_share": 0.15742594108120045
+   },
+   "full_service": {
+    "label": "Full-service restaurant",
+    "calorie_share": 0.09448122814233231
+   },
+   "other": {
+    "label": "Other sources",
+    "calorie_share": 0.10061708408593466
+   }
+  },
+  "calorie_share_by_occasion": {
+   "Dinner/supper": 0.3570827398139523,
+   "Lunch": 0.2434971193347107,
+   "Snack": 0.22683009761594675,
+   "Breakfast": 0.17259004323539032
+  },
+  "occasion_within_source": {
+   "store": {
+    "Dinner/supper": 0.3275904479727525,
+    "Snack": 0.2740684906212728,
+    "Breakfast": 0.20076496633604773,
+    "Lunch": 0.19757609506992693
+   },
+   "fast_food": {
+    "Dinner/supper": 0.40682349207455487,
+    "Lunch": 0.3865693551246707,
+    "Breakfast": 0.11544034355310645,
+    "Snack": 0.09116680924766796
+   },
+   "full_service": {
+    "Dinner/supper": 0.5309525723720551,
+    "Lunch": 0.31160443627377155,
+    "Breakfast": 0.11848329878334517,
+    "Snack": 0.03895969257082824
+   },
+   "other": {
+    "Snack": 0.31152181508754895,
+    "Dinner/supper": 0.3057755844028648,
+    "Lunch": 0.2511956644671253,
+    "Breakfast": 0.131506936042461
+   }
+  },
+  "calorie_share_by_fndds_group": {
+   "Grain products": 0.3522318557139387,
+   "Meat, poultry, fish & mixtures": 0.1969211783083335,
+   "Sugars, sweets & beverages": 0.1547691094346716,
+   "Milk & milk products": 0.0898856599839555,
+   "Vegetables": 0.07709725361433033,
+   "Legumes, nuts & seeds": 0.043536177497775705,
+   "Fruits": 0.036643026278326586,
+   "Fats, oils & salad dressings": 0.025280981394831155,
+   "Eggs": 0.023634757773836945
+  },
+  "fndds_group_within_restaurant": {
+   "Grain products": 0.3560768687220517,
+   "Meat, poultry, fish & mixtures": 0.31154202252723917,
+   "Vegetables": 0.10752734994430775,
+   "Sugars, sweets & beverages": 0.09524646751989155,
+   "Milk & milk products": 0.04960061126465967,
+   "Fats, oils & salad dressings": 0.032521767781092774,
+   "Eggs": 0.023242948124579187,
+   "Legumes, nuts & seeds": 0.015536010972644695,
+   "Fruits": 0.00870595314353352
+  },
+  "pct_any_restaurant_calories": 0.5315346094762796,
+  "mean_restaurant_share_among_consumers": 0.45367438442502217
+ },
+ "nutrient_pricing": {
+  "by_source": {
+   "store": {
+    "sodium_mg": {
+     "per1000kcal": 1530.7959174531982,
+     "lo": 1508.0919119221078,
+     "hi": 1552.7567672303026
+    },
+    "sugar_g": {
+     "per1000kcal": 55.66020379357473,
+     "lo": 54.2225438950001,
+     "hi": 56.920313370723456
+    },
+    "fiber_g": {
+     "per1000kcal": 8.404475406216273,
+     "lo": 8.220678264143528,
+     "hi": 8.591812506461283
+    },
+    "satfat_g": {
+     "per1000kcal": 12.46512657823762,
+     "lo": 12.238726007280224,
+     "hi": 12.687349205443974
+    }
+   },
+   "fast_food": {
+    "sodium_mg": {
+     "per1000kcal": 1898.897637509107,
+     "lo": 1855.4667147671373,
+     "hi": 1946.764514473652
+    },
+    "sugar_g": {
+     "per1000kcal": 35.55822433065292,
+     "lo": 33.797844877120156,
+     "hi": 36.97345026995085
+    },
+    "fiber_g": {
+     "per1000kcal": 6.493884778194229,
+     "lo": 6.260820830787388,
+     "hi": 6.691742829593381
+    },
+    "satfat_g": {
+     "per1000kcal": 15.110362653995013,
+     "lo": 14.666071544069567,
+     "hi": 15.447305766849741
+    }
+   },
+   "full_service": {
+    "sodium_mg": {
+     "per1000kcal": 2149.711666387642,
+     "lo": 2097.379452641829,
+     "hi": 2200.658996472851
+    },
+    "sugar_g": {
+     "per1000kcal": 28.443614441869165,
+     "lo": 26.606775676308754,
+     "hi": 30.369613769547403
+    },
+    "fiber_g": {
+     "per1000kcal": 6.991380208860508,
+     "lo": 6.580961897624546,
+     "hi": 7.391691287052534
+    },
+    "satfat_g": {
+     "per1000kcal": 13.843105764881692,
+     "lo": 13.411831859917902,
+     "hi": 14.352991003056005
+    }
+   },
+   "other": {
+    "sodium_mg": {
+     "per1000kcal": 1710.4538217303266,
+     "lo": 1658.0847518592068,
+     "hi": 1766.387893558826
+    },
+    "sugar_g": {
+     "per1000kcal": 52.71073940358294,
+     "lo": 50.14431771070834,
+     "hi": 55.21471048600603
+    },
+    "fiber_g": {
+     "per1000kcal": 7.193605843565421,
+     "lo": 6.895109976882971,
+     "hi": 7.512687906265789
+    },
+    "satfat_g": {
+     "per1000kcal": 13.222947771283778,
+     "lo": 12.792472700485606,
+     "hi": 13.699549602129935
+    }
+   }
+  },
+  "restaurant_tax_pct_vs_store": {
+   "fast_food": {
+    "sodium_mg": 24.046426820129206,
+    "sugar_g": -36.11553334851845,
+    "fiber_g": -22.73301468178368,
+    "satfat_g": 21.221092775548776
+   },
+   "full_service": {
+    "sodium_mg": 40.430977237262326,
+    "sugar_g": -48.89775368527734,
+    "fiber_g": -16.813603812923116,
+    "satfat_g": 11.054674639644912
+   }
+  }
+ },
+ "models": {
+  "n": 6387,
+  "bmi": {
+   "model": "BMI (linear, HC1)",
+   "coef_per10pp": 0.19133153775356584,
+   "lo": 0.12696457185507456,
+   "hi": 0.25569850365205715,
+   "p": 5.676644061783127e-09
+  },
+  "hba1c": {
+   "model": "HbA1c (linear, HC1)",
+   "coef_per10pp": 0.013644917648555395,
+   "lo": 0.0046360278434429015,
+   "hi": 0.022653807453667886,
+   "p": 0.0029918601354410983
+  },
+  "obesity": {
+   "model": "Obesity (logit, HC1)",
+   "or_per10pp": 1.047691100881482,
+   "lo": 1.029051016368361,
+   "hi": 1.0666688292481434,
+   "p": 3.646524553863477e-07
+  },
+  "dysglycemia": {
+   "model": "Dysglycemia (logit, HC1)",
+   "or_per10pp": 1.0466443427499033,
+   "lo": 1.025932456058667,
+   "hi": 1.067774368323263,
+   "p": 7.803576796797685e-06
+  },
+  "obesity_by_restaurant_share_group": {
+   "C(rest_group, Treatment(reference='none'))[T.1-15%]": {
+    "or": 0.8556771753995387,
+    "lo": 0.6754267902989018,
+    "hi": 1.0840307773041014,
+    "p": 0.19655693929307927
+   },
+   "C(rest_group, Treatment(reference='none'))[T.15-30%]": {
+    "or": 1.0136072342761735,
+    "lo": 0.8446866118724523,
+    "hi": 1.2163086414966537,
+    "p": 0.8844699444300917
+   },
+   "C(rest_group, Treatment(reference='none'))[T.30%+]": {
+    "or": 1.2751469378371525,
+    "lo": 1.136063481379569,
+    "hi": 1.4312577947677254,
+    "p": 3.70926880346965e-05
+   }
+  }
+ },
+ "xgb": {
+  "outcome": "obesity",
+  "auc_xgboost": 0.6730635318615945,
+  "auc_logistic": 0.6667052288032463,
+  "shap_ranking": [
+   [
+    "race_NH Asian",
+    0.3288224935531616
+   ],
+   [
+    "age",
+    0.16793270409107208
+   ],
+   [
+    "educ3_some_college",
+    0.13977262377738953
+   ],
+   [
+    "sodium_mg_per1000",
+    0.13532288372516632
+   ],
+   [
+    "female",
+    0.12382422387599945
+   ],
+   [
+    "satfat_g_per1000",
+    0.12212662398815155
+   ],
+   [
+    "fiber_g_per1000",
+    0.09747819602489471
+   ],
+   [
+    "race_NH White",
+    0.0974436104297638
+   ],
+   [
+    "kcal1000",
+    0.09560376405715942
+   ],
+   [
+    "fmpir",
+    0.07424180954694748
+   ],
+   [
+    "share_store",
+    0.07413281500339508
+   ],
+   [
+    "sugar_g_per1000",
+    0.06654618680477142
+   ],
+   [
+    "educ3_hs_or_less",
+    0.06644872575998306
+   ],
+   [
+    "share_other",
+    0.044154632836580276
+   ],
+   [
+    "share_full_service",
+    0.03776345029473305
+   ],
+   [
+    "share_fast_food",
+    0.030863584950566292
+   ],
+   [
+    "race_NH Black",
+    0.019189225509762764
+   ],
+   [
+    "race_Other Hispanic",
+    0.017874043434858322
+   ],
+   [
+    "race_Other/Multi",
+    0.014863074757158756
+   ]
+  ]
+ },
+ "archetypes": {
+  "k_chosen": 5,
+  "silhouette_by_k": {
+   "2": 0.22121475871980692,
+   "3": 0.25096168626112203,
+   "4": 0.20132153392586738,
+   "5": 0.2132639445944389,
+   "6": 0.20846006169084666,
+   "7": 0.18927504793680164
+  },
+  "features": [
+   "sodium_mg_per1000",
+   "sugar_g_per1000",
+   "fiber_g_per1000",
+   "satfat_g_per1000",
+   "share_store",
+   "share_fast_food",
+   "share_full_service"
+  ],
+  "profiles": [
+   {
+    "cluster": 0,
+    "n": 1098,
+    "pct_of_sample": 0.171911695631752,
+    "mean_age": 46.27777777777778,
+    "mean_fmpir": 2.5662021857923496,
+    "mean_bmi": 28.693169398907102,
+    "pct_obesity": 0.32877959927140255,
+    "mean_hba1c": 5.858925318761385,
+    "share_store": 0.8628715988172316,
+    "share_fast_food": 0.04003267382474137,
+    "share_full_service": 0.018988195305267394,
+    "share_restaurant": 0.05902086913000876,
+    "sodium_mg_per1000": 1601.8650641484978,
+    "sugar_g_per1000": 48.01976551061602,
+    "fiber_g_per1000": 15.294198802335393,
+    "satfat_g_per1000": 9.140379890988239,
+    "name": "Home-Base Cooks"
+   },
+   {
+    "cluster": 1,
+    "n": 1333,
+    "pct_of_sample": 0.20870518240175356,
+    "mean_age": 40.39984996249062,
+    "mean_fmpir": 2.5399699924981243,
+    "mean_bmi": 30.845761440360093,
+    "pct_obesity": 0.4778694673668417,
+    "mean_hba1c": 5.749962490622655,
+    "share_store": 0.32500509079213447,
+    "share_fast_food": 0.5413918993072002,
+    "share_full_service": 0.020597122734851203,
+    "share_restaurant": 0.5619890220420514,
+    "sodium_mg_per1000": 1728.1787864295982,
+    "sugar_g_per1000": 45.560947241927586,
+    "fiber_g_per1000": 6.703549346264321,
+    "satfat_g_per1000": 13.619596731131708,
+    "name": "Drive-Thru Regulars"
+   },
+   {
+    "cluster": 2,
+    "n": 1313,
+    "pct_of_sample": 0.2055738218255832,
+    "mean_age": 43.62909367859863,
+    "mean_fmpir": 2.1775095201827877,
+    "mean_bmi": 29.82421934501142,
+    "pct_obesity": 0.4303122619954303,
+    "mean_hba1c": 5.708987052551409,
+    "share_store": 0.78436199084745,
+    "share_fast_food": 0.0710526267772977,
+    "share_full_service": 0.019309416709474402,
+    "share_restaurant": 0.09036204348677211,
+    "sodium_mg_per1000": 1297.9468860189108,
+    "sugar_g_per1000": 80.65795779282679,
+    "fiber_g_per1000": 6.268795592814362,
+    "satfat_g_per1000": 10.46952083226596,
+    "name": "Grocery Sweet Tooths"
+   },
+   {
+    "cluster": 3,
+    "n": 863,
+    "pct_of_sample": 0.13511820886175044,
+    "mean_age": 42.55619930475087,
+    "mean_fmpir": 3.0871263035921204,
+    "mean_bmi": 30.19872537659328,
+    "pct_obesity": 0.4507531865585168,
+    "mean_hba1c": 5.724797219003476,
+    "share_store": 0.30603865354335774,
+    "share_fast_food": 0.07309131193728441,
+    "share_full_service": 0.5403851397785715,
+    "share_restaurant": 0.6134764517158559,
+    "sodium_mg_per1000": 1873.346177066584,
+    "sugar_g_per1000": 42.97142442295122,
+    "fiber_g_per1000": 7.265974303567117,
+    "satfat_g_per1000": 12.955241890639206,
+    "name": "Sit-Down Splurgers"
+   },
+   {
+    "cluster": 4,
+    "n": 1780,
+    "pct_of_sample": 0.2786910912791608,
+    "mean_age": 44.151685393258425,
+    "mean_fmpir": 2.4959044943820223,
+    "mean_bmi": 29.949831460674154,
+    "pct_obesity": 0.4348314606741573,
+    "mean_hba1c": 5.755561797752809,
+    "share_store": 0.842999517544264,
+    "share_fast_food": 0.034340474562932835,
+    "share_full_service": 0.014129800508325399,
+    "share_restaurant": 0.048470275071258236,
+    "sodium_mg_per1000": 1931.8840700899311,
+    "sugar_g_per1000": 36.69141239053141,
+    "fiber_g_per1000": 6.935016364751688,
+    "satfat_g_per1000": 14.783617380328232,
+    "name_fallback": true,
+    "name": "Pantry Salt Loaders"
+   }
+  ]
+ },
+ "counterfactual": {
+  "intervention": "Move all fast-food calories to the store-food nutrient profile, calories held fixed.",
+  "baseline_weighted_mean_intake": {
+   "sodium_mg": 3666.3561315667453,
+   "sugar_g": 109.26082383668837,
+   "fiber_g": 17.279113289734568,
+   "satfat_g": 28.814833328184353
+  },
+  "deltas": {
+   "sodium_mg": {
+    "mean_change_per_person_day": -127.58130129848288,
+    "unit": "mg",
+    "note": "Same calories, store-food nutrient density. Assumes the swap is nutritionally complete and behavior does not compensate; a pricing identity, not a causal forecast.",
+    "pct_of_mean_daily_intake": -3.4797847432230626
+   },
+   "sugar_g": {
+    "mean_change_per_person_day": 6.967195638655031,
+    "unit": "g",
+    "note": "Same calories, store-food nutrient density. Assumes the swap is nutritionally complete and behavior does not compensate; a pricing identity, not a causal forecast.",
+    "pct_of_mean_daily_intake": 6.376664017350689
+   },
+   "fiber_g": {
+    "mean_change_per_person_day": 0.6621964128141413,
+    "unit": "g",
+    "note": "Same calories, store-food nutrient density. Assumes the swap is nutritionally complete and behavior does not compensate; a pricing identity, not a causal forecast.",
+    "pct_of_mean_daily_intake": 3.832351821013575
+   },
+   "satfat_g": {
+    "mean_change_per_person_day": -0.9168190269134366,
+    "unit": "g",
+    "note": "Same calories, store-food nutrient density. Assumes the swap is nutritionally complete and behavior does not compensate; a pricing identity, not a causal forecast.",
+    "pct_of_mean_daily_intake": -3.1817606455376506
+   }
+  }
+ }
+}

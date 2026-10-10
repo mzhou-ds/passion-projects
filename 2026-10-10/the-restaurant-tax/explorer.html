@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Restaurant Tax — what does eating out charge you?</title>
+<style>
+  :root { --ink:#1c2430; --mut:#5a6a7a; --store:#1b7f5a; --fast:#c1502e; --line:#d8dee5; }
+  * { box-sizing: border-box; }
+  body { font-family: Georgia, 'Times New Roman', serif; color: var(--ink); margin: 0; background:#faf8f4; }
+  main { max-width: 720px; margin: 0 auto; padding: 32px 20px 64px; }
+  h1 { font-size: 30px; line-height: 1.15; margin: 0 0 6px; }
+  .sub { color: var(--mut); font-size: 16px; margin-bottom: 28px; }
+  .card { background: #fff; border: 1px solid var(--line); border-radius: 10px; padding: 20px 22px; margin-bottom: 18px; }
+  label { display: block; font-size: 14px; color: var(--mut); margin: 14px 0 4px; }
+  label b { color: var(--ink); float: right; font-variant-numeric: tabular-nums; }
+  input[type=range] { width: 100%; accent-color: var(--fast); }
+  select { font: inherit; font-size: 15px; padding: 6px 8px; border: 1px solid var(--line); border-radius: 6px; width: 100%; }
+  .row { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+  .big { font-size: 42px; font-weight: bold; margin: 4px 0; }
+  .verdict { font-size: 17px; line-height: 1.45; }
+  .fine { font-size: 12.5px; color: var(--mut); line-height: 1.5; }
+  .bar { height: 10px; background: #eee7db; border-radius: 5px; position: relative; margin: 10px 0 4px; }
+  .bar > div { position: absolute; inset: 0 auto 0 0; background: var(--fast); border-radius: 5px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>You don't pay for the food. You pay in sodium.</h1>
+  <p class="sub">NHANES 2015–2018, working-age adults, one measured day of eating. Tell this page how much of your plate comes from restaurants — it answers with the model-predicted probability of obesity and the eating archetype you most resemble.</p>
+
+  <div class="card">
+    <div class="row">
+      <div><label>Age band</label><select id="age">
+        <option value="20-34">20–34</option><option value="35-49" selected>35–49</option><option value="50-65">50–65</option></select></div>
+      <div><label>Sex</label><select id="sex"><option value="0">Male</option><option value="1">Female</option></select></div>
+    </div>
+    <div><label>Household income</label><select id="income">
+      <option value="low">Low (under 1.3× poverty line)</option>
+      <option value="middle" selected>Middle (1.3–3.5×)</option>
+      <option value="high">High (over 3.5×)</option></select></div>
+    <label>Calories from fast food + restaurants <b><span id="restV">20</span>%</b></label>
+    <input type="range" id="rest" min="0" max="60" step="1" value="20">
+  </div>
+
+  <div class="card">
+    <div class="fine">Predicted probability of obesity (BMI ≥ 30), at a 2,200 kcal day:</div>
+    <div class="big" id="prob">–</div>
+    <div class="bar"><div id="probBar"></div></div>
+    <p class="verdict" id="arch"></p>
+    <p class="verdict" id="verdict"></p>
+  </div>
+
+  <p class="fine">The probability comes from a logistic model fitted on the NHANES sample (age, sex, income, total calories, restaurant calorie share). Cross-sectional associations in one measured day of eating — people carrying more weight may also eat out differently, and no slider untangles that. Full method, charts, and code: see the README in this directory. Data: CDC NHANES 2015–2016 and 2017–2018 public dietary files.</p>
+</main>
+
+<script>
+const MODEL = {
+ "coef": {
+  "Intercept": -1.0997860768088876,
+  "age": 0.01196502988657049,
+  "female": 0.3377238546149284,
+  "fmpir": -0.07539281927366723,
+  "rest10": 0.059380288629196934,
+  "kcal1000": 0.0685876510987208
+ },
+ "features": [
+  "Intercept",
+  "age",
+  "female",
+  "fmpir",
+  "rest10",
+  "kcal1000"
+ ],
+ "age_midpoints": {
+  "20-34": 27,
+  "35-49": 42,
+  "50-65": 57
+ },
+ "income_midpoints": {
+  "low": 0.9,
+  "middle": 2.2,
+  "high": 4.2
+ },
+ "archetypes": [
+  {
+   "name": "Home-Base Cooks",
+   "restaurant_share": 0.05902086913000876,
+   "fast_share": 0.04003267382474137,
+   "pct_obesity": 0.32877959927140255,
+   "mean_bmi": 28.693169398907102,
+   "blurb": "17% of adults \u00b7 BMI 28.7 \u00b7 33% obesity \u00b7 6% restaurant calories"
+  },
+  {
+   "name": "Drive-Thru Regulars",
+   "restaurant_share": 0.5619890220420514,
+   "fast_share": 0.5413918993072002,
+   "pct_obesity": 0.4778694673668417,
+   "mean_bmi": 30.845761440360093,
+   "blurb": "21% of adults \u00b7 BMI 30.8 \u00b7 48% obesity \u00b7 56% restaurant calories"
+  },
+  {
+   "name": "Grocery Sweet Tooths",
+   "restaurant_share": 0.09036204348677211,
+   "fast_share": 0.0710526267772977,
+   "pct_obesity": 0.4303122619954303,
+   "mean_bmi": 29.82421934501142,
+   "blurb": "21% of adults \u00b7 BMI 29.8 \u00b7 43% obesity \u00b7 9% restaurant calories"
+  },
+  {
+   "name": "Sit-Down Splurgers",
+   "restaurant_share": 0.6134764517158559,
+   "fast_share": 0.07309131193728441,
+   "pct_obesity": 0.4507531865585168,
+   "mean_bmi": 30.19872537659328,
+   "blurb": "14% of adults \u00b7 BMI 30.2 \u00b7 45% obesity \u00b7 61% restaurant calories"
+  },
+  {
+   "name": "Pantry Salt Loaders",
+   "restaurant_share": 0.048470275071258236,
+   "fast_share": 0.034340474562932835,
+   "pct_obesity": 0.4348314606741573,
+   "mean_bmi": 29.949831460674154,
+   "blurb": "28% of adults \u00b7 BMI 29.9 \u00b7 43% obesity \u00b7 5% restaurant calories"
+  }
+ ],
+ "population_obesity": 0.42680444653201816,
+ "outcome": "predicted probability of obesity (BMI >= 30)",
+ "note": "Logistic fit on NHANES 2015-2018 adults 20-65 with reliable Day-1 recall at 2,200 kcal. Cross-sectional association, not a diagnosis and not destiny."
+};
+const $ = id => document.getElementById(id);
+function pct(x) { return Math.round(x * 100); }
+function update() {
+  const age = MODEL.age_midpoints[$('age').value], female = +$('sex').value;
+  const fmpir = MODEL.income_midpoints[$('income').value];
+  const restPct = +$('rest').value; $('restV').textContent = restPct;
+  const rest10 = (restPct / 100) * 10;
+  const c = MODEL.coef;
+  const eta = c.Intercept + c.age * age + c.female * female + c.fmpir * fmpir
+            + c.rest10 * rest10 + c.kcal1000 * 2.2;
+  const p = 1 / (1 + Math.exp(-eta));
+  $('prob').textContent = pct(p) + '%';
+  $('probBar').style.width = pct(p) + '%';
+  let best = null, bd = 1e9;
+  for (const a of MODEL.archetypes) {
+    const d = Math.abs(a.restaurant_share * 100 - restPct);
+    if (d < bd) { bd = d; best = a; }
+  }
+  $('arch').textContent = "Closest archetype: " + best.name + " — " + best.blurb + ".";
+  let v;
+  if (restPct === 0) v = "Zero restaurant calories. In this data that is the grocery-store profile: the cheapest sodium, the most fiber per calorie.";
+  else if (restPct < 15) v = "A light restaurant habit. The tax is real but small at this dose — the model moves on share, not on your last meal.";
+  else if (restPct < 30) v = "A quarter of the plate, give or take. This is where the sodium bill stops being rounding error.";
+  else v = "A third or more from restaurants. The per-calorie pricing — not the calorie count — is doing the damage in the model.";
+  $('verdict').textContent = v;
+}
+['age','sex','income','rest'].forEach(id => $(id).addEventListener('input', update));
+update();
+</script>
+</body>
+</html>
