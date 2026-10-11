@@ -1,0 +1,522 @@
+{
+  "OZEMPIC": {
+    "total_reports": 66161,
+    "top_reactions": [
+      {
+        "reaction": "NAUSEA",
+        "count": 9751
+      },
+      {
+        "reaction": "OFF LABEL USE",
+        "count": 6949
+      },
+      {
+        "reaction": "VOMITING",
+        "count": 6341
+      },
+      {
+        "reaction": "DIARRHOEA",
+        "count": 5980
+      },
+      {
+        "reaction": "DECREASED APPETITE",
+        "count": 4507
+      },
+      {
+        "reaction": "CONSTIPATION",
+        "count": 4406
+      },
+      {
+        "reaction": "WEIGHT DECREASED",
+        "count": 4157
+      },
+      {
+        "reaction": "IMPAIRED GASTRIC EMPTYING",
+        "count": 3431
+      },
+      {
+        "reaction": "PRODUCT USE IN UNAPPROVED INDICATION",
+        "count": 3294
+      },
+      {
+        "reaction": "BLOOD GLUCOSE INCREASED",
+        "count": 2962
+      },
+      {
+        "reaction": "WRONG TECHNIQUE IN PRODUCT USAGE PROCESS",
+        "count": 2927
+      },
+      {
+        "reaction": "ABDOMINAL PAIN UPPER",
+        "count": 2812
+      },
+      {
+        "reaction": "HEADACHE",
+        "count": 2811
+      },
+      {
+        "reaction": "FATIGUE",
+        "count": 2791
+      },
+      {
+        "reaction": "WEIGHT INCREASED",
+        "count": 2454
+      }
+    ]
+  },
+  "WEGOVY": {
+    "total_reports": 21044,
+    "top_reactions": [
+      {
+        "reaction": "NAUSEA",
+        "count": 2861
+      },
+      {
+        "reaction": "VOMITING",
+        "count": 1839
+      },
+      {
+        "reaction": "DIARRHOEA",
+        "count": 1156
+      },
+      {
+        "reaction": "OFF LABEL USE",
+        "count": 1119
+      },
+      {
+        "reaction": "WEIGHT INCREASED",
+        "count": 1015
+      },
+      {
+        "reaction": "CONSTIPATION",
+        "count": 1011
+      },
+      {
+        "reaction": "WEIGHT LOSS POOR",
+        "count": 921
+      },
+      {
+        "reaction": "FATIGUE",
+        "count": 892
+      },
+      {
+        "reaction": "DEVICE MALFUNCTION",
+        "count": 822
+      },
+      {
+        "reaction": "DEVICE LEAKAGE",
+        "count": 795
+      },
+      {
+        "reaction": "DRUG INEFFECTIVE",
+        "count": 763
+      },
+      {
+        "reaction": "HEADACHE",
+        "count": 749
+      },
+      {
+        "reaction": "HUNGER",
+        "count": 661
+      },
+      {
+        "reaction": "DIZZINESS",
+        "count": 654
+      },
+      {
+        "reaction": "DECREASED APPETITE",
+        "count": 648
+      }
+    ]
+  },
+  "MOUNJARO": {
+    "total_reports": 91059,
+    "top_reactions": [
+      {
+        "reaction": "INCORRECT DOSE ADMINISTERED",
+        "count": 16952
+      },
+      {
+        "reaction": "NAUSEA",
+        "count": 9263
+      },
+      {
+        "reaction": "INJECTION SITE PAIN",
+        "count": 9152
+      },
+      {
+        "reaction": "OFF LABEL USE",
+        "count": 7711
+      },
+      {
+        "reaction": "DIARRHOEA",
+        "count": 5681
+      },
+      {
+        "reaction": "EXTRA DOSE ADMINISTERED",
+        "count": 5091
+      },
+      {
+        "reaction": "VOMITING",
+        "count": 4805
+      },
+      {
+        "reaction": "INJECTION SITE HAEMORRHAGE",
+        "count": 3528
+      },
+      {
+        "reaction": "CONSTIPATION",
+        "count": 3501
+      },
+      {
+        "reaction": "INJECTION SITE ERYTHEMA",
+        "count": 3064
+      },
+      {
+        "reaction": "PRODUCT DOSE OMISSION ISSUE",
+        "count": 3036
+      },
+      {
+        "reaction": "BLOOD GLUCOSE INCREASED",
+        "count": 2891
+      },
+      {
+        "reaction": "DRUG INEFFECTIVE",
+        "count": 2386
+      },
+      {
+        "reaction": "FATIGUE",
+        "count": 2361
+      },
+      {
+        "reaction": "DECREASED APPETITE",
+        "count": 2266
+      }
+    ]
+  },
+  "ZEPBOUND": {
+    "total_reports": 67236,
+    "top_reactions": [
+      {
+        "reaction": "INCORRECT DOSE ADMINISTERED",
+        "count": 12708
+      },
+      {
+        "reaction": "NAUSEA",
+        "count": 7560
+      },
+      {
+        "reaction": "INJECTION SITE PAIN",
+        "count": 4755
+      },
+      {
+        "reaction": "DRUG INEFFECTIVE",
+        "count": 4510
+      },
+      {
+        "reaction": "EXTRA DOSE ADMINISTERED",
+        "count": 4502
+      },
+      {
+        "reaction": "DIARRHOEA",
+        "count": 4115
+      },
+      {
+        "reaction": "VOMITING",
+        "count": 3180
+      },
+      {
+        "reaction": "CONSTIPATION",
+        "count": 2899
+      },
+      {
+        "reaction": "ACCIDENTAL UNDERDOSE",
+        "count": 2605
+      },
+      {
+        "reaction": "FATIGUE",
+        "count": 2304
+      },
+      {
+        "reaction": "THERAPEUTIC RESPONSE CHANGED",
+        "count": 2229
+      },
+      {
+        "reaction": "INJECTION SITE ERYTHEMA",
+        "count": 2134
+      },
+      {
+        "reaction": "WEIGHT INCREASED",
+        "count": 1890
+      },
+      {
+        "reaction": "INJECTION SITE HAEMORRHAGE",
+        "count": 1750
+      },
+      {
+        "reaction": "ABDOMINAL PAIN UPPER",
+        "count": 1595
+      }
+    ]
+  },
+  "RYBELSUS": {
+    "total_reports": 7379,
+    "top_reactions": [
+      {
+        "reaction": "NAUSEA",
+        "count": 1060
+      },
+      {
+        "reaction": "VOMITING",
+        "count": 737
+      },
+      {
+        "reaction": "DIARRHOEA",
+        "count": 585
+      },
+      {
+        "reaction": "OFF LABEL USE",
+        "count": 457
+      },
+      {
+        "reaction": "DECREASED APPETITE",
+        "count": 441
+      },
+      {
+        "reaction": "CONSTIPATION",
+        "count": 420
+      },
+      {
+        "reaction": "BLOOD GLUCOSE INCREASED",
+        "count": 355
+      },
+      {
+        "reaction": "WEIGHT DECREASED",
+        "count": 347
+      },
+      {
+        "reaction": "HEADACHE",
+        "count": 308
+      },
+      {
+        "reaction": "IMPAIRED GASTRIC EMPTYING",
+        "count": 307
+      },
+      {
+        "reaction": "FATIGUE",
+        "count": 296
+      },
+      {
+        "reaction": "ABDOMINAL PAIN",
+        "count": 289
+      },
+      {
+        "reaction": "DIZZINESS",
+        "count": 279
+      },
+      {
+        "reaction": "ABDOMINAL PAIN UPPER",
+        "count": 274
+      },
+      {
+        "reaction": "ASTHENIA",
+        "count": 229
+      }
+    ]
+  },
+  "TRULICITY": {
+    "total_reports": 86125,
+    "top_reactions": [
+      {
+        "reaction": "NAUSEA",
+        "count": 10226
+      },
+      {
+        "reaction": "INJECTION SITE PAIN",
+        "count": 9914
+      },
+      {
+        "reaction": "BLOOD GLUCOSE INCREASED",
+        "count": 9810
+      },
+      {
+        "reaction": "DIARRHOEA",
+        "count": 5957
+      },
+      {
+        "reaction": "VOMITING",
+        "count": 5657
+      },
+      {
+        "reaction": "INCORRECT DOSE ADMINISTERED",
+        "count": 5580
+      },
+      {
+        "reaction": "INAPPROPRIATE SCHEDULE OF PRODUCT ADMINISTRATION",
+        "count": 3826
+      },
+      {
+        "reaction": "DRUG INEFFECTIVE",
+        "count": 3597
+      },
+      {
+        "reaction": "WEIGHT DECREASED",
+        "count": 3349
+      },
+      {
+        "reaction": "DECREASED APPETITE",
+        "count": 3189
+      },
+      {
+        "reaction": "EXTRA DOSE ADMINISTERED",
+        "count": 3165
+      },
+      {
+        "reaction": "INJECTION SITE HAEMORRHAGE",
+        "count": 3148
+      },
+      {
+        "reaction": "GLYCOSYLATED HAEMOGLOBIN INCREASED",
+        "count": 2892
+      },
+      {
+        "reaction": "ABDOMINAL PAIN UPPER",
+        "count": 2439
+      },
+      {
+        "reaction": "FATIGUE",
+        "count": 2404
+      }
+    ]
+  },
+  "VICTOZA": {
+    "total_reports": 41279,
+    "top_reactions": [
+      {
+        "reaction": "NAUSEA",
+        "count": 6271
+      },
+      {
+        "reaction": "BLOOD GLUCOSE INCREASED",
+        "count": 4061
+      },
+      {
+        "reaction": "DIARRHOEA",
+        "count": 3014
+      },
+      {
+        "reaction": "VOMITING",
+        "count": 2885
+      },
+      {
+        "reaction": "PANCREATITIS",
+        "count": 2182
+      },
+      {
+        "reaction": "WEIGHT DECREASED",
+        "count": 2040
+      },
+      {
+        "reaction": "DECREASED APPETITE",
+        "count": 1962
+      },
+      {
+        "reaction": "HEADACHE",
+        "count": 1704
+      },
+      {
+        "reaction": "OFF LABEL USE",
+        "count": 1384
+      },
+      {
+        "reaction": "FATIGUE",
+        "count": 1297
+      },
+      {
+        "reaction": "ABDOMINAL PAIN UPPER",
+        "count": 1279
+      },
+      {
+        "reaction": "DIZZINESS",
+        "count": 1279
+      },
+      {
+        "reaction": "CONSTIPATION",
+        "count": 1278
+      },
+      {
+        "reaction": "MALAISE",
+        "count": 1185
+      },
+      {
+        "reaction": "BLOOD GLUCOSE DECREASED",
+        "count": 1143
+      }
+    ]
+  },
+  "SAXENDA": {
+    "total_reports": 7132,
+    "top_reactions": [
+      {
+        "reaction": "NAUSEA",
+        "count": 1180
+      },
+      {
+        "reaction": "VOMITING",
+        "count": 617
+      },
+      {
+        "reaction": "DIARRHOEA",
+        "count": 421
+      },
+      {
+        "reaction": "DRUG INEFFECTIVE",
+        "count": 362
+      },
+      {
+        "reaction": "WEIGHT INCREASED",
+        "count": 342
+      },
+      {
+        "reaction": "CONSTIPATION",
+        "count": 334
+      },
+      {
+        "reaction": "WEIGHT LOSS POOR",
+        "count": 332
+      },
+      {
+        "reaction": "FATIGUE",
+        "count": 322
+      },
+      {
+        "reaction": "OFF LABEL USE",
+        "count": 322
+      },
+      {
+        "reaction": "HEADACHE",
+        "count": 315
+      },
+      {
+        "reaction": "DECREASED APPETITE",
+        "count": 264
+      },
+      {
+        "reaction": "PANCREATITIS",
+        "count": 227
+      },
+      {
+        "reaction": "DIZZINESS",
+        "count": 223
+      },
+      {
+        "reaction": "ABDOMINAL PAIN UPPER",
+        "count": 216
+      },
+      {
+        "reaction": "ABDOMINAL PAIN",
+        "count": 192
+      }
+    ]
+  }
+}

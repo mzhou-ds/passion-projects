@@ -1,0 +1,160 @@
+{
+  "auc_xgboost": 0.8216758457907161,
+  "auc_logistic": 0.8283897193810648,
+  "n_model": 2011,
+  "expansion_rate": 0.18498259572352063,
+  "clusters": {
+    "0": {
+      "top_terms": [
+        "kidney",
+        "kidney diseases",
+        "diabetic kidney",
+        "diseases",
+        "obesity kidney",
+        "diabetic",
+        "kidney obesity",
+        "obesity"
+      ],
+      "n": 35,
+      "expansion_share": 1.0,
+      "top_category": "kidney"
+    },
+    "1": {
+      "top_terms": [
+        "healthy",
+        "obesity",
+        "t2dm",
+        "endometrial hyperplasia",
+        "endometrial intraepithelial",
+        "endometrioid",
+        "endothelial",
+        "epicardial"
+      ],
+      "n": 82,
+      "expansion_share": 0.0,
+      "top_category": "diabetes"
+    },
+    "2": {
+      "top_terms": [
+        "obesity",
+        "t2dm",
+        "weight",
+        "metabolic",
+        "cardiovascular",
+        "liver",
+        "use",
+        "failure"
+      ],
+      "n": 1550,
+      "expansion_share": 0.20774193548387096,
+      "top_category": "diabetes"
+    },
+    "3": {
+      "top_terms": [
+        "obesity overweight",
+        "overweight",
+        "obesity",
+        "overweight weight",
+        "psoriasis",
+        "arthritis",
+        "weight",
+        "t2dm"
+      ],
+      "n": 94,
+      "expansion_share": 0.09574468085106383,
+      "top_category": "obesity_weight"
+    },
+    "4": {
+      "top_terms": [
+        "obesity",
+        "agents",
+        "children",
+        "obesity obesity",
+        "non",
+        "endometrial hyperplasia",
+        "endometrial intraepithelial",
+        "endometrioid"
+      ],
+      "n": 182,
+      "expansion_share": 0.0,
+      "top_category": "obesity_weight"
+    },
+    "5": {
+      "top_terms": [
+        "overweight obesity",
+        "overweight",
+        "obesity",
+        "obesity overweight",
+        "atrial fibrillation",
+        "atrial",
+        "fibrillation",
+        "obesity obesity"
+      ],
+      "n": 70,
+      "expansion_share": 0.08571428571428572,
+      "top_category": "obesity_weight"
+    }
+  },
+  "shap_importance": [
+    [
+      "is_industry",
+      0.9081382155418396
+    ],
+    [
+      "n_conditions",
+      0.7196959853172302
+    ],
+    [
+      "log_enroll",
+      0.39065080881118774
+    ],
+    [
+      "phase_max",
+      0.3894765079021454
+    ],
+    [
+      "start_year",
+      0.34789133071899414
+    ],
+    [
+      "n_primary_outcomes",
+      0.13358572125434875
+    ],
+    [
+      "mol_Semaglutide",
+      0.09327154606580734
+    ],
+    [
+      "mol_Liraglutide",
+      0.06420791894197464
+    ],
+    [
+      "mol_Exenatide",
+      0.06295915693044662
+    ],
+    [
+      "mol_Retatrutide",
+      0.03528492897748947
+    ],
+    [
+      "mol_Tirzepatide",
+      0.03473445400595665
+    ],
+    [
+      "mol_Dulaglutide",
+      0.011395898647606373
+    ],
+    [
+      "mol_Lixisenatide",
+      0.0006918041035532951
+    ],
+    [
+      "is_nih",
+      0.00018870433268602937
+    ],
+    [
+      "mol_Albiglutide",
+      0.0
+    ]
+  ]
+}
