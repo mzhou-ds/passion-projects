@@ -1,0 +1,115 @@
+{
+  "auc_xgboost": 0.8255589824538185,
+  "auc_logistic": 0.8015763081699925,
+  "clusters": {
+    "0": {
+      "top_words": [
+        "grnh",
+        "se",
+        "https",
+        "engineer",
+        "software",
+        "senior",
+        "temporal",
+        "manager",
+        "freeform",
+        "roles"
+      ],
+      "n": 337,
+      "ai_share": 0.3649851632047478,
+      "remote_share": 0.5192878338278932,
+      "sal_median": 200000.0
+    },
+    "1": {
+      "top_words": [
+        "ai",
+        "engineer",
+        "https",
+        "founding",
+        "building",
+        "product",
+        "agents",
+        "engineers",
+        "ml",
+        "stack"
+      ],
+      "n": 2229,
+      "ai_share": 0.9986541049798116,
+      "remote_share": 0.5069537909376401,
+      "sal_median": 185000.0
+    },
+    "2": {
+      "top_words": [
+        "data",
+        "engineer",
+        "learning",
+        "https",
+        "com",
+        "machine",
+        "software",
+        "ml",
+        "time",
+        "senior"
+      ],
+      "n": 1677,
+      "ai_share": 0.7149672033392963,
+      "remote_share": 0.6016696481812761,
+      "sal_median": 160000.0
+    },
+    "3": {
+      "top_words": [
+        "io",
+        "boards",
+        "greenhouse",
+        "jobs",
+        "https",
+        "engineer",
+        "job",
+        "software",
+        "senior",
+        "remote"
+      ],
+      "n": 705,
+      "ai_share": 0.3333333333333333,
+      "remote_share": 0.7035460992907802,
+      "sal_median": 172500.0
+    },
+    "4": {
+      "top_words": [
+        "stack",
+        "engineer",
+        "team",
+        "com",
+        "product",
+        "experience",
+        "react",
+        "remote",
+        "work",
+        "senior"
+      ],
+      "n": 3982,
+      "ai_share": 0.34480160723254644,
+      "remote_share": 0.7375690607734806,
+      "sal_median": 160000.0
+    },
+    "5": {
+      "top_words": [
+        "com",
+        "https",
+        "engineer",
+        "software",
+        "jobs",
+        "www",
+        "remote",
+        "time",
+        "careers",
+        "senior"
+      ],
+      "n": 6149,
+      "ai_share": 0.3122458936412425,
+      "remote_share": 0.5448040331761262,
+      "sal_median": 170000.0
+    }
+  },
+  "n_recent_clustered": 15079
+}

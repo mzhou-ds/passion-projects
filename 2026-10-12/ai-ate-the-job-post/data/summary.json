@@ -1,0 +1,77 @@
+{
+  "n_hiring_posts": 48426,
+  "n_seeker_posts": 30581,
+  "months": 94,
+  "eras": {
+    "2019": {
+      "posts_per_month": 702.6666666666666,
+      "ai_share": 0.2903225806451613,
+      "remote_share": 0.3174810246679317,
+      "sal_disclosed_share": 0.038662239089184064,
+      "sal_median": 125000.0,
+      "founding_share": 0.015891840607210626
+    },
+    "2020": {
+      "posts_per_month": 593.75,
+      "ai_share": 0.2919298245614035,
+      "remote_share": 0.5980350877192983,
+      "sal_disclosed_share": 0.02175438596491228,
+      "sal_median": 135000.0,
+      "founding_share": 0.02119298245614035
+    },
+    "2021": {
+      "posts_per_month": 850.5,
+      "ai_share": 0.27434842249657065,
+      "remote_share": 0.8020772094846169,
+      "sal_disclosed_share": 0.027336860670194002,
+      "sal_median": 140000.0,
+      "founding_share": 0.03801685283166765
+    },
+    "2022": {
+      "posts_per_month": 632.0,
+      "ai_share": 0.2829641350210971,
+      "remote_share": 0.8296413502109705,
+      "sal_disclosed_share": 0.0490506329113924,
+      "sal_median": 150000.0,
+      "founding_share": 0.045490506329113924
+    },
+    "2023": {
+      "posts_per_month": 347.5833333333333,
+      "ai_share": 0.34044593622632463,
+      "remote_share": 0.6904818988252218,
+      "sal_disclosed_share": 0.0767202109805802,
+      "sal_median": 160000.0,
+      "founding_share": 0.0678494365859506
+    },
+    "2024": {
+      "posts_per_month": 326.9166666666667,
+      "ai_share": 0.4195768544481264,
+      "remote_share": 0.5985215396380321,
+      "sal_disclosed_share": 0.10349222533775172,
+      "sal_median": 162500.0,
+      "founding_share": 0.0938057608972725
+    },
+    "2025": {
+      "posts_per_month": 336.5833333333333,
+      "ai_share": 0.5399851448378311,
+      "remote_share": 0.5657340925971776,
+      "sal_disclosed_share": 0.13840059420648676,
+      "sal_median": 175000.0,
+      "founding_share": 0.115127506808616
+    },
+    "2026": {
+      "posts_per_month": 294.6,
+      "ai_share": 0.6208418194161575,
+      "remote_share": 0.5376782077393075,
+      "sal_disclosed_share": 0.19687712152070605,
+      "sal_median": 182250.0,
+      "founding_share": 0.11473183978275628
+    }
+  },
+  "latest_ai_share": 0.6628942215556389,
+  "latest_seekers_per_post": 2.3851220590179847,
+  "peak_posts_month": "2021-06",
+  "peak_posts": 937,
+  "trough_posts_month": "2026-08",
+  "trough_posts": 230
+}
