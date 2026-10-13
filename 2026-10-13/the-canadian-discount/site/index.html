@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Canadian Discount - price yourself in both countries</title>
+<style>
+  body { font-family: Georgia, 'Times New Roman', serif; margin: 0; color: #1a1a1a;
+         background: #faf7f2; }
+  main { max-width: 760px; margin: 0 auto; padding: 32px 20px 64px; }
+  h1 { font-size: 2rem; margin-bottom: 4px; }
+  .sub { color: #666; margin-bottom: 28px; }
+  .card { background: #fff; border: 1px solid #e3ddd2; border-radius: 10px;
+          padding: 20px 22px; margin-bottom: 20px; }
+  label { display: block; font-size: .9rem; margin: 12px 0 4px; color: #444; }
+  input[type=number] { font-size: 1.2rem; padding: 8px; width: 220px;
+          border: 1px solid #bbb; border-radius: 6px; }
+  input[type=range] { width: 100%; }
+  .big { font-size: 1.9rem; font-weight: bold; }
+  .red { color: #d80621; } .blue { color: #1f4e79; }
+  .row { display: flex; gap: 16px; flex-wrap: wrap; }
+  .row .card { flex: 1 1 200px; }
+  .note { font-size: .82rem; color: #777; line-height: 1.5; }
+  table { border-collapse: collapse; width: 100%; font-size: .92rem; }
+  td, th { padding: 5px 8px; border-bottom: 1px solid #eee; text-align: right; }
+  td:first-child, th:first-child { text-align: left; }
+  canvas { width: 100%; height: 220px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>The Canadian Discount</h1>
+  <p class="sub">Canada's income per person, priced in American dollars. Built from IMF,
+  World Bank (via FRED), and Statistics Canada data. See the README for the full analysis.</p>
+
+  <div class="card">
+    <label for="salary">Your salary, in Canadian dollars</label>
+    <input type="number" id="salary" value="100000" min="0" step="1000">
+    <input type="range" id="slide" min="30000" max="400000" step="5000" value="100000">
+    <p class="note">Three honest ways to convert it. They answer three different questions.</p>
+  </div>
+
+  <div class="row">
+    <div class="card">
+      <div class="note">AT THE AIRPORT (market FX, <span id="fxdate"></span>)</div>
+      <div class="big red" id="outFx"></div>
+      <div class="note">What a US employer or a US bank account sees. Rate: <span id="fxrate"></span> CAD per USD.</div>
+    </div>
+    <div class="card">
+      <div class="note">AT THE GROCERY STORE (PPP)</div>
+      <div class="big blue" id="outPpp"></div>
+      <div class="note">What it buys if you stay in Canada, priced in US purchasing power.
+        Uses the 2024 PPP income ratio.</div>
+    </div>
+    <div class="card">
+      <div class="note">THE 2011 GHOST (parity era)</div>
+      <div class="big" id="outGhost"></div>
+      <div class="note">This same Canadian salary converted at the 2011 average rate
+        (0.9887 CAD per USD), when Canadian income per person peaked at
+        <span id="peak"></span> of America's.</div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="note" style="margin-bottom:8px">THE GAP, 2000 TO 2030 (IMF FORECAST AFTER 2025)</div>
+    <canvas id="chart" width="700" height="220"></canvas>
+    <div class="note"><span class="red">Red: nominal.</span> <span class="blue">Blue: PPP.</span>
+      Canadian GDP per capita as a percent of US GDP per capita.</div>
+  </div>
+
+  <div class="card">
+    <div class="note" style="margin-bottom:8px">WHERE THE PROVINCES RANK (GDP PER PERSON, 2024, US$)</div>
+    <table id="league"><tr><th>Province</th><th>US$ per person</th><th>Rank of 61</th></tr></table>
+    <div class="note">Ranked against all 50 US states plus DC. Full table in data/league_table.csv.</div>
+  </div>
+
+  <p class="note">Sources: IMF World Economic Outlook (DataMapper API), FRED (World Bank
+  constant-dollar GDP per capita, DEXCAUS exchange rate), Statistics Canada tables
+  36-10-0222 and 17-10-0005, BEA state GDP via FRED. A conversion is not a verdict:
+  taxes, health care, housing, and childcare differ by city, not just by country.
+  The calculator prices the gap. It does not tell you to move.</p>
+</main>
+<script src="data.js"></script>
+<script>
+  const D = window.SITE_DATA;
+  const $ = id => document.getElementById(id);
+  const money = n => "$" + Math.round(n).toLocaleString("en-US");
+  $("fxdate").textContent = D.fx_latest.date;
+  $("fxrate").textContent = D.fx_latest.cad_per_usd.toFixed(4);
+  $("peak").textContent = Math.round(D.ratio_nom_2011 * 100) + " percent";
+  function render() {
+    const cad = parseFloat($("salary").value) || 0;
+    $("slide").value = Math.min(400000, Math.max(30000, cad));
+    // Market FX: today's rate.
+    $("outFx").textContent = money(cad / D.fx_latest.cad_per_usd);
+    // PPP: divide by the IMF-implied 2024 PPP conversion factor (CAD per
+    // international dollar), computed in 04_charts.py from WEO data.
+    $("outPpp").textContent = money(cad / D.ppp_factor_2024);
+    // 2011 ghost: the same CAD salary converted at the 2011 average rate,
+    // when the loonie sat at par.
+    $("outGhost").textContent = money(cad / D.fx_2011_avg);
+  }
+  $("salary").addEventListener("input", render);
+  $("slide").addEventListener("input", e => { $("salary").value = e.target.value; render(); });
+  render();
+  // league table
+  D.league.forEach(r => {
+    const tr = document.createElement("tr");
+    tr.innerHTML = `<td>${r.geo}</td><td>$${Math.round(r.gdppc_usd).toLocaleString()}</td><td>#${r.rank}</td>`;
+    $("league").appendChild(tr);
+  });
+  // tiny line chart, no dependencies
+  const cv = $("chart"), ctx = cv.getContext("2d");
+  const W = cv.width, H = cv.height, pad = 28;
+  const yrs = D.series.map(s => s.year);
+  const x = y => pad + (y - 2000) / 30 * (W - pad - 8);
+  const yy = v => H - pad - (v - 0.55) / 0.5 * (H - pad - 12);
+  ctx.strokeStyle = "#ccc"; ctx.beginPath(); ctx.moveTo(pad, yy(1)); ctx.lineTo(W - 8, yy(1)); ctx.stroke();
+  ctx.fillStyle = "#888"; ctx.fillText("parity", pad + 2, yy(1) - 4);
+  [["ratio_nom", "#d80621"], ["ratio_ppp", "#1f4e79"]].forEach(([k, c]) => {
+    ctx.strokeStyle = c; ctx.lineWidth = 2; ctx.beginPath();
+    D.series.forEach((s, i) => { const px = x(s.year), py = yy(s[k]);
+      i ? ctx.lineTo(px, py) : ctx.moveTo(px, py); });
+    ctx.stroke();
+  });
+  ctx.fillStyle = "#888"; ctx.fillText("2000", x(2000), H - 8);
+  ctx.fillText("2030", x(2030) - 24, H - 8);
+</script>
+</body>
+</html>

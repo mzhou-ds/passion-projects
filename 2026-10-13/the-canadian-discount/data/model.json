@@ -1,0 +1,80 @@
+{
+ "n_years": 24,
+ "features": [
+  "d_log_fx",
+  "d_log_oil",
+  "popgrowth_diff",
+  "hp_growth_diff",
+  "unemp_diff"
+ ],
+ "models": {
+  "d_log_ratio_ppp": {
+   "ols": {
+    "loocv_rmse": 0.0125
+   },
+   "xgboost": {
+    "loocv_rmse": 0.0146
+   },
+   "shap_mean_abs": {
+    "d_log_oil": 0.0065,
+    "popgrowth_diff": 0.0059,
+    "d_log_fx": 0.0012,
+    "unemp_diff": 0.0009,
+    "hp_growth_diff": 0.0004
+   },
+   "train_r2": 0.998
+  },
+  "d_log_ratio_nom": {
+   "ols": {
+    "loocv_rmse": 0.0113
+   },
+   "xgboost": {
+    "loocv_rmse": 0.0297
+   },
+   "shap_mean_abs": {
+    "d_log_fx": 0.0486,
+    "d_log_oil": 0.0179,
+    "popgrowth_diff": 0.002,
+    "hp_growth_diff": 0.0017,
+    "unemp_diff": 0.0014
+   },
+   "train_r2": 1.0
+  }
+ },
+ "decomp_2019_2024_logpts": {
+  "nominal": -0.103,
+  "ppp_real": -0.027,
+  "dollar_pricing_residual": -0.076
+ },
+ "imf_forecast": {
+  "2025": {
+   "nom": 0.6181,
+   "ppp": 0.7428
+  },
+  "2026": {
+   "nom": 0.6313,
+   "ppp": 0.7391
+  },
+  "2027": {
+   "nom": 0.6322,
+   "ppp": 0.7368
+  },
+  "2028": {
+   "nom": 0.6352,
+   "ppp": 0.7341
+  },
+  "2029": {
+   "nom": 0.6367,
+   "ppp": 0.73
+  },
+  "2030": {
+   "nom": 0.6381,
+   "ppp": 0.7256
+  }
+ },
+ "trend_ppp_ratio": {
+  "2030": 0.7332,
+  "2035": 0.7102
+ },
+ "trend_slope_log_per_year": -0.0064
+}

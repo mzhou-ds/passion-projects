@@ -1,0 +1,174 @@
+{
+ "fx_latest": {
+  "date": "2026-10-02",
+  "cad_per_usd": 1.4253
+ },
+ "ratio_nom": {
+  "2000": 0.6691,
+  "2005": 0.8276,
+  "2010": 0.9802,
+  "2011": 1.0455,
+  "2012": 1.0195,
+  "2015": 0.7653,
+  "2019": 0.7082,
+  "2020": 0.6754,
+  "2022": 0.7261,
+  "2024": 0.6389,
+  "2025": 0.6181,
+  "2030": 0.6381
+ },
+ "ratio_ppp": {
+  "2000": 0.8283,
+  "2010": 0.8287,
+  "2019": 0.7716,
+  "2024": 0.751,
+  "2025": 0.7428,
+  "2030": 0.7256
+ },
+ "gdppc_nom_usd": {
+  "2011": {
+   "can": 52286,
+   "usa": 50008
+  },
+  "2019": {
+   "can": 46431,
+   "usa": 65561
+  },
+  "2024": {
+   "can": 55209,
+   "usa": 86417
+  },
+  "2030": {
+   "can": 71069,
+   "usa": 111371
+  }
+ },
+ "nominal_peak": {
+  "year": 2011,
+  "ratio": 1.0455
+ },
+ "fx_annual": {
+  "2011": 0.989,
+  "2015": 1.279,
+  "2019": 1.327,
+  "2024": 1.37,
+  "2025": 1.397
+ },
+ "bigger_not_richer_2019_2024": {
+  "can_total_real_gdp_pct": 9.4,
+  "can_gdppc_pct": -0.1,
+  "can_pop_pct": 9.5,
+  "usa_total_real_gdp_pct": 13.3,
+  "usa_gdppc_pct": 9.5,
+  "usa_pop_pct": 3.5
+ },
+ "can_gdppc_peak_year": 2022,
+ "can_gdppc_from_peak_pct": -1.8,
+ "pop_growth_can": {
+  "2021": 0.55,
+  "2022": 1.84,
+  "2023": 2.78,
+  "2024": 2.98,
+  "2025": 0.94
+ },
+ "pop_growth_usa_2023": 0.82,
+ "league_year": 2024,
+ "league": {
+  "n_ranked": 61,
+  "top": "US-DC",
+  "top_val": 269820,
+  "provinces": {
+   "Alberta": {
+    "rank": 40,
+    "gdppc_usd": 70581,
+    "gdppc_cad": 96686
+   },
+   "Saskatchewan": {
+    "rank": 45,
+    "gdppc_usd": 66152,
+    "gdppc_cad": 90619
+   },
+   "Newfoundland and Labrador": {
+    "rank": 53,
+    "gdppc_usd": 56542,
+    "gdppc_cad": 77455
+   },
+   "British Columbia": {
+    "rank": 54,
+    "gdppc_usd": 55349,
+    "gdppc_cad": 75821
+   },
+   "Ontario": {
+    "rank": 55,
+    "gdppc_usd": 54307,
+    "gdppc_cad": 74394
+   },
+   "Quebec": {
+    "rank": 57,
+    "gdppc_usd": 50125,
+    "gdppc_cad": 68665
+   },
+   "Manitoba": {
+    "rank": 58,
+    "gdppc_usd": 47159,
+    "gdppc_cad": 64602
+   },
+   "Prince Edward Island": {
+    "rank": 59,
+    "gdppc_usd": 44440,
+    "gdppc_cad": 60877
+   },
+   "Nova Scotia": {
+    "rank": 60,
+    "gdppc_usd": 44151,
+    "gdppc_cad": 60481
+   },
+   "New Brunswick": {
+    "rank": 61,
+    "gdppc_usd": 41138,
+    "gdppc_cad": 56354
+   }
+  },
+  "states_below_alberta": 12,
+  "mississippi_gdppc": 53016,
+  "ontario_vs_mississippi_pct": 2.4
+ },
+ "diaspora": {
+  "fx_2020_avg": 1.342,
+  "Canada": {
+   "chinese_cad": 46596.0,
+   "not_vismin_cad": 54433.0,
+   "chinese_usd_at_2020_fx": 34716
+  },
+  "Toronto (CMA), Ont.": {
+   "chinese_cad": 49216.0,
+   "not_vismin_cad": 60167.0,
+   "chinese_usd_at_2020_fx": 36668
+  },
+  "Vancouver (CMA), B.C.": {
+   "chinese_cad": 44671.0,
+   "not_vismin_cad": 59432.0,
+   "chinese_usd_at_2020_fx": 33282
+  },
+  "us_asian_median_earnings_usd": 59823.0,
+  "us_asian_median_hh_usd": 116503.0,
+  "canada_by_generation": {
+   "Total - Generation status": {
+    "chinese_cad": 46596.0,
+    "not_vismin_cad": 54433.0
+   },
+   "First generation": {
+    "chinese_cad": 42596.0,
+    "not_vismin_cad": 52994.0
+   },
+   "Second generation": {
+    "chinese_cad": 65083.0,
+    "not_vismin_cad": 58944.0
+   },
+   "Third generation or more": {
+    "chinese_cad": 55948.0,
+    "not_vismin_cad": 54037.0
+   }
+  }
+ }
+}

@@ -1,0 +1,765 @@
+year,geo,pop
+1971,Canada,21962032.0
+1971,Newfoundland and Labrador,530854.0
+1971,Prince Edward Island,112591.0
+1971,Nova Scotia,797294.0
+1971,New Brunswick,642471.0
+1971,Quebec,6137305.0
+1971,Ontario,7849027.0
+1971,Manitoba,998876.0
+1971,Saskatchewan,932038.0
+1971,Alberta,1665717.0
+1971,British Columbia,2240470.0
+1971,Yukon,18991.0
+1971,Northwest Territories including Nunavut,36398.0
+1972,Canada,22218463.0
+1972,Newfoundland and Labrador,539124.0
+1972,Prince Edward Island,113460.0
+1972,Nova Scotia,802255.0
+1972,New Brunswick,648769.0
+1972,Quebec,6174216.0
+1972,Ontario,7963117.0
+1972,Manitoba,1001652.0
+1972,Saskatchewan,920780.0
+1972,Alberta,1694090.0
+1972,British Columbia,2302086.0
+1972,Yukon,20143.0
+1972,Northwest Territories including Nunavut,38771.0
+1973,Canada,22491777.0
+1973,Newfoundland and Labrador,545561.0
+1973,Prince Edward Island,114620.0
+1973,Nova Scotia,812386.0
+1973,New Brunswick,656720.0
+1973,Quebec,6213149.0
+1973,Ontario,8075547.0
+1973,Manitoba,1007358.0
+1973,Saskatchewan,911937.0
+1973,Alberta,1725327.0
+1973,British Columbia,2367271.0
+1973,Yukon,21148.0
+1973,Northwest Territories including Nunavut,40753.0
+1974,Canada,22807969.0
+1974,Newfoundland and Labrador,549604.0
+1974,Prince Edward Island,115962.0
+1974,Nova Scotia,818751.0
+1974,New Brunswick,664744.0
+1974,Quebec,6268571.0
+1974,Ontario,8204275.0
+1974,Manitoba,1018206.0
+1974,Saskatchewan,908457.0
+1974,Alberta,1754621.0
+1974,British Columbia,2442578.0
+1974,Yukon,21069.0
+1974,Northwest Territories including Nunavut,41131.0
+1975,Canada,23143275.0
+1975,Newfoundland and Labrador,556496.0
+1975,Prince Edward Island,117724.0
+1975,Nova Scotia,826549.0
+1975,New Brunswick,677008.0
+1975,Quebec,6330303.0
+1975,Ontario,8319795.0
+1975,Manitoba,1024975.0
+1975,Saskatchewan,917415.0
+1975,Alberta,1808689.0
+1975,British Columbia,2499564.0
+1975,Yukon,21908.0
+1975,Northwest Territories including Nunavut,42849.0
+1976,Canada,23449808.0
+1976,Newfoundland and Labrador,562639.0
+1976,Prince Edward Island,118648.0
+1976,Nova Scotia,835166.0
+1976,New Brunswick,689494.0
+1976,Quebec,6396761.0
+1976,Ontario,8413779.0
+1976,Manitoba,1031758.0
+1976,Saskatchewan,931612.0
+1976,Alberta,1869287.0
+1976,British Columbia,2533899.0
+1976,Yukon,22441.0
+1976,Northwest Territories including Nunavut,44324.0
+1977,Canada,23725843.0
+1977,Newfoundland and Labrador,565348.0
+1977,Prince Edward Island,119902.0
+1977,Nova Scotia,840028.0
+1977,New Brunswick,695843.0
+1977,Quebec,6433133.0
+1977,Ontario,8504080.0
+1977,Manitoba,1037369.0
+1977,Saskatchewan,944621.0
+1977,Alberta,1948263.0
+1977,British Columbia,2570315.0
+1977,Yukon,22462.0
+1977,Northwest Territories including Nunavut,44479.0
+1978,Canada,23963203.0
+1978,Newfoundland and Labrador,567639.0
+1978,Prince Edward Island,121684.0
+1978,Nova Scotia,844628.0
+1978,New Brunswick,699514.0
+1978,Quebec,6440459.0
+1978,Ontario,8590144.0
+1978,Manitoba,1040881.0
+1978,Saskatchewan,952430.0
+1978,Alberta,2022241.0
+1978,British Columbia,2615162.0
+1978,Yukon,23157.0
+1978,Northwest Territories including Nunavut,45264.0
+1979,Canada,24201544.0
+1979,Newfoundland and Labrador,570075.0
+1979,Prince Edward Island,122885.0
+1979,Nova Scotia,849396.0
+1979,New Brunswick,703158.0
+1979,Quebec,6465996.0
+1979,Ontario,8662088.0
+1979,Manitoba,1037272.0
+1979,Saskatchewan,959735.0
+1979,Alberta,2096966.0
+1979,British Columbia,2665238.0
+1979,Yukon,22972.0
+1979,Northwest Territories including Nunavut,45763.0
+1980,Canada,24515667.0
+1980,Newfoundland and Labrador,572759.0
+1980,Prince Edward Island,123735.0
+1980,Nova Scotia,852659.0
+1980,New Brunswick,706219.0
+1980,Quebec,6505997.0
+1980,Ontario,8746013.0
+1980,Manitoba,1034435.0
+1980,Saskatchewan,967548.0
+1980,Alberta,2191029.0
+1980,British Columbia,2745861.0
+1980,Yukon,23019.0
+1980,Northwest Territories including Nunavut,46393.0
+1981,Canada,24819915.0
+1981,Newfoundland and Labrador,575302.0
+1981,Prince Edward Island,123551.0
+1981,Nova Scotia,854871.0
+1981,New Brunswick,706438.0
+1981,Quebec,6547207.0
+1981,Ontario,8812286.0
+1981,Manitoba,1035545.0
+1981,Saskatchewan,975759.0
+1981,Alberta,2291104.0
+1981,British Columbia,2826558.0
+1981,Yukon,23880.0
+1981,Northwest Territories including Nunavut,47414.0
+1982,Canada,25116942.0
+1982,Newfoundland and Labrador,573795.0
+1982,Prince Edward Island,123588.0
+1982,Nova Scotia,859038.0
+1982,New Brunswick,707457.0
+1982,Quebec,6580631.0
+1982,Ontario,8920288.0
+1982,Manitoba,1045224.0
+1982,Saskatchewan,986582.0
+1982,Alberta,2369827.0
+1982,British Columbia,2876513.0
+1982,Yukon,24668.0
+1982,Northwest Territories including Nunavut,49331.0
+1983,Canada,25366451.0
+1983,Newfoundland and Labrador,579164.0
+1983,Prince Edward Island,125102.0
+1983,Nova Scotia,868289.0
+1983,New Brunswick,714842.0
+1983,Quebec,6602976.0
+1983,Ontario,9039564.0
+1983,Manitoba,1059752.0
+1983,Saskatchewan,1001249.0
+1983,Alberta,2393587.0
+1983,British Columbia,2907502.0
+1983,Yukon,23664.0
+1983,Northwest Territories including Nunavut,50760.0
+1984,Canada,25607053.0
+1984,Newfoundland and Labrador,580065.0
+1984,Prince Edward Island,126563.0
+1984,Nova Scotia,877471.0
+1984,New Brunswick,720488.0
+1984,Quebec,6631220.0
+1984,Ontario,9167484.0
+1984,Manitoba,1071810.0
+1984,Saskatchewan,1014615.0
+1984,Alberta,2393907.0
+1984,British Columbia,2947181.0
+1984,Yukon,23921.0
+1984,Northwest Territories including Nunavut,52328.0
+1985,Canada,25842116.0
+1985,Newfoundland and Labrador,579275.0
+1985,Prince Edward Island,127619.0
+1985,Nova Scotia,885848.0
+1985,New Brunswick,723287.0
+1985,Quebec,6665802.0
+1985,Ontario,9294657.0
+1985,Manitoba,1082495.0
+1985,Saskatchewan,1024928.0
+1985,Alberta,2404490.0
+1985,British Columbia,2975131.0
+1985,Yukon,24375.0
+1985,Northwest Territories including Nunavut,54209.0
+1986,Canada,26100278.0
+1986,Newfoundland and Labrador,576306.0
+1986,Prince Edward Island,128436.0
+1986,Nova Scotia,889087.0
+1986,New Brunswick,725019.0
+1986,Quebec,6708170.0
+1986,Ontario,9437359.0
+1986,Manitoba,1091552.0
+1986,Saskatchewan,1028717.0
+1986,Alberta,2432930.0
+1986,British Columbia,3003621.0
+1986,Yukon,24430.0
+1986,Northwest Territories including Nunavut,54651.0
+1987,Canada,26446601.0
+1987,Newfoundland and Labrador,575242.0
+1987,Prince Edward Island,128641.0
+1987,Nova Scotia,893606.0
+1987,New Brunswick,727768.0
+1987,Quebec,6781984.0
+1987,Ontario,9637945.0
+1987,Manitoba,1098373.0
+1987,Saskatchewan,1032799.0
+1987,Alberta,2440877.0
+1987,British Columbia,3048651.0
+1987,Yukon,25706.0
+1987,Northwest Territories including Nunavut,55009.0
+1988,Canada,26791747.0
+1988,Newfoundland and Labrador,574982.0
+1988,Prince Edward Island,129289.0
+1988,Nova Scotia,897216.0
+1988,New Brunswick,730349.0
+1988,Quebec,6837077.0
+1988,Ontario,9838620.0
+1988,Manitoba,1102152.0
+1988,Saskatchewan,1028225.0
+1988,Alberta,2456614.0
+1988,British Columbia,3114761.0
+1988,Yukon,26653.0
+1988,Northwest Territories including Nunavut,55809.0
+1989,Canada,27276781.0
+1989,Newfoundland and Labrador,576551.0
+1989,Prince Edward Island,130153.0
+1989,Nova Scotia,903841.0
+1989,New Brunswick,735129.0
+1989,Quebec,6925128.0
+1989,Ontario,10103305.0
+1989,Manitoba,1103792.0
+1989,Saskatchewan,1019439.0
+1989,Alberta,2498325.0
+1989,British Columbia,3196725.0
+1989,Yukon,27167.0
+1989,Northwest Territories including Nunavut,57226.0
+1990,Canada,27691138.0
+1990,Newfoundland and Labrador,577368.0
+1990,Prince Edward Island,130404.0
+1990,Nova Scotia,910451.0
+1990,New Brunswick,740156.0
+1990,Quebec,6996986.0
+1990,Ontario,10295832.0
+1990,Manitoba,1105421.0
+1990,Saskatchewan,1007727.0
+1990,Alberta,2547788.0
+1990,British Columbia,3292111.0
+1990,Yukon,27957.0
+1990,Northwest Territories including Nunavut,58937.0
+1991,Canada,28037420.0
+1991,Newfoundland and Labrador,579644.0
+1991,Prince Edward Island,130369.0
+1991,Nova Scotia,914969.0
+1991,New Brunswick,745567.0
+1991,Quebec,7067396.0
+1991,Ontario,10431316.0
+1991,Manitoba,1109604.0
+1991,Saskatchewan,1002713.0
+1991,Alberta,2592306.0
+1991,British Columbia,3373787.0
+1991,Yukon,28871.0
+1991,Northwest Territories,38724.0
+1991,Nunavut,22154.0
+1992,Canada,28371264.0
+1992,Newfoundland and Labrador,580109.0
+1992,Prince Edward Island,130827.0
+1992,Nova Scotia,919451.0
+1992,New Brunswick,748121.0
+1992,Quebec,7110010.0
+1992,Ontario,10572205.0
+1992,Manitoba,1112689.0
+1992,Saskatchewan,1003995.0
+1992,Alberta,2632672.0
+1992,British Columbia,3468802.0
+1992,Yukon,30084.0
+1992,Northwest Territories,39416.0
+1992,Nunavut,22883.0
+1993,Canada,28684764.0
+1993,Newfoundland and Labrador,579977.0
+1993,Prince Edward Island,132177.0
+1993,Nova Scotia,923925.0
+1993,New Brunswick,748812.0
+1993,Quebec,7156537.0
+1993,Ontario,10690038.0
+1993,Manitoba,1117618.0
+1993,Saskatchewan,1006900.0
+1993,Alberta,2667292.0
+1993,British Columbia,3567772.0
+1993,Yukon,30337.0
+1993,Northwest Territories,39820.0
+1993,Nunavut,23559.0
+1994,Canada,29000663.0
+1994,Newfoundland and Labrador,574466.0
+1994,Prince Edward Island,133437.0
+1994,Nova Scotia,926871.0
+1994,New Brunswick,750185.0
+1994,Quebec,7192403.0
+1994,Ontario,10819146.0
+1994,Manitoba,1123230.0
+1994,Saskatchewan,1009575.0
+1994,Alberta,2700606.0
+1994,British Columbia,3676075.0
+1994,Yukon,29684.0
+1994,Northwest Territories,40578.0
+1994,Nunavut,24407.0
+1995,Canada,29302311.0
+1995,Newfoundland and Labrador,567397.0
+1995,Prince Edward Island,134415.0
+1995,Nova Scotia,928120.0
+1995,New Brunswick,750943.0
+1995,Quebec,7219219.0
+1995,Ontario,10950119.0
+1995,Manitoba,1129150.0
+1995,Saskatchewan,1014187.0
+1995,Alberta,2734519.0
+1995,British Columbia,3777390.0
+1995,Yukon,30442.0
+1995,Northwest Territories,41432.0
+1995,Nunavut,24978.0
+1996,Canada,29610218.0
+1996,Newfoundland and Labrador,559698.0
+1996,Prince Edward Island,135737.0
+1996,Nova Scotia,931327.0
+1996,New Brunswick,752268.0
+1996,Quebec,7246897.0
+1996,Ontario,11082903.0
+1996,Manitoba,1134196.0
+1996,Saskatchewan,1018945.0
+1996,Alberta,2775133.0
+1996,British Columbia,3874317.0
+1996,Yukon,31387.0
+1996,Northwest Territories,41741.0
+1996,Nunavut,25669.0
+1997,Canada,29905948.0
+1997,Newfoundland and Labrador,550911.0
+1997,Prince Edward Island,136095.0
+1997,Nova Scotia,932402.0
+1997,New Brunswick,752511.0
+1997,Quebec,7274611.0
+1997,Ontario,11227651.0
+1997,Manitoba,1136128.0
+1997,Saskatchewan,1017902.0
+1997,Alberta,2829848.0
+1997,British Columbia,3948583.0
+1997,Yukon,31797.0
+1997,Northwest Territories,41625.0
+1997,Nunavut,25884.0
+1998,Canada,30155173.0
+1998,Newfoundland and Labrador,539843.0
+1998,Prince Edward Island,135804.0
+1998,Nova Scotia,931836.0
+1998,New Brunswick,750530.0
+1998,Quebec,7295935.0
+1998,Ontario,11365901.0
+1998,Manitoba,1137489.0
+1998,Saskatchewan,1017332.0
+1998,Alberta,2899066.0
+1998,British Columbia,3983113.0
+1998,Yukon,31149.0
+1998,Northwest Territories,40802.0
+1998,Nunavut,26373.0
+1999,Canada,30401286.0
+1999,Newfoundland and Labrador,533329.0
+1999,Prince Edward Island,136281.0
+1999,Nova Scotia,933784.0
+1999,New Brunswick,750601.0
+1999,Quebec,7323250.0
+1999,Ontario,11504759.0
+1999,Manitoba,1142448.0
+1999,Saskatchewan,1014524.0
+1999,Alberta,2952692.0
+1999,British Columbia,4011375.0
+1999,Yukon,30785.0
+1999,Northwest Territories,40638.0
+1999,Nunavut,26820.0
+2000,Canada,30685730.0
+2000,Newfoundland and Labrador,527966.0
+2000,Prince Edward Island,136470.0
+2000,Nova Scotia,933821.0
+2000,New Brunswick,750517.0
+2000,Quebec,7356951.0
+2000,Ontario,11683290.0
+2000,Manitoba,1147313.0
+2000,Saskatchewan,1007565.0
+2000,Alberta,3004198.0
+2000,British Columbia,4039230.0
+2000,Yukon,30431.0
+2000,Northwest Territories,40480.0
+2000,Nunavut,27498.0
+2001,Canada,31020855.0
+2001,Newfoundland and Labrador,522043.0
+2001,Prince Edward Island,136667.0
+2001,Nova Scotia,932483.0
+2001,New Brunswick,749823.0
+2001,Quebec,7396014.0
+2001,Ontario,11897473.0
+2001,Manitoba,1151451.0
+2001,Saskatchewan,1000307.0
+2001,Alberta,3058554.0
+2001,British Columbia,4076896.0
+2001,Yukon,30160.0
+2001,Northwest Territories,40850.0
+2001,Nunavut,28134.0
+2002,Canada,31359199.0
+2002,Newfoundland and Labrador,519411.0
+2002,Prince Edward Island,136882.0
+2002,Nova Scotia,935172.0
+2002,New Brunswick,749375.0
+2002,Quebec,7441305.0
+2002,Ontario,12093412.0
+2002,Manitoba,1156673.0
+2002,Saskatchewan,996854.0
+2002,Alberta,3128757.0
+2002,British Columbia,4100504.0
+2002,Yukon,30339.0
+2002,Northwest Territories,41698.0
+2002,Nunavut,28817.0
+2003,Canada,31642461.0
+2003,Newfoundland and Labrador,518389.0
+2003,Prince Edward Island,137231.0
+2003,Nova Scotia,937681.0
+2003,New Brunswick,749444.0
+2003,Quebec,7485488.0
+2003,Ontario,12243641.0
+2003,Manitoba,1163585.0
+2003,Saskatchewan,996422.0
+2003,Alberta,3183291.0
+2003,British Columbia,4124447.0
+2003,Yukon,30943.0
+2003,Northwest Territories,42598.0
+2003,Nunavut,29301.0
+2004,Canada,31938807.0
+2004,Newfoundland and Labrador,517375.0
+2004,Prince Edward Island,137682.0
+2004,Nova Scotia,939625.0
+2004,New Brunswick,749424.0
+2004,Quebec,7535483.0
+2004,Ontario,12389641.0
+2004,Manitoba,1173228.0
+2004,Saskatchewan,997305.0
+2004,Alberta,3238817.0
+2004,British Columbia,4155630.0
+2004,Yukon,31455.0
+2004,Northwest Territories,43306.0
+2004,Nunavut,29836.0
+2005,Canada,32242732.0
+2005,Newfoundland and Labrador,514310.0
+2005,Prince Edward Island,138067.0
+2005,Nova Scotia,937931.0
+2005,New Brunswick,748061.0
+2005,Quebec,7581467.0
+2005,Ontario,12527581.0
+2005,Manitoba,1178262.0
+2005,Saskatchewan,993510.0
+2005,Alberta,3321839.0
+2005,British Columbia,4196076.0
+2005,Yukon,31901.0
+2005,Northwest Territories,43399.0
+2005,Nunavut,30328.0
+2006,Canada,32571193.0
+2006,Newfoundland and Labrador,510593.0
+2006,Prince Edward Island,137869.0
+2006,Nova Scotia,937880.0
+2006,New Brunswick,745621.0
+2006,Quebec,7631901.0
+2006,Ontario,12661953.0
+2006,Manitoba,1183560.0
+2006,Saskatchewan,992313.0
+2006,Alberta,3421435.0
+2006,British Columbia,4241793.0
+2006,Yukon,32272.0
+2006,Northwest Territories,43185.0
+2006,Nunavut,30818.0
+2007,Canada,32888886.0
+2007,Newfoundland and Labrador,509047.0
+2007,Prince Edward Island,137709.0
+2007,Nova Scotia,935164.0
+2007,New Brunswick,745430.0
+2007,Quebec,7692400.0
+2007,Ontario,12765133.0
+2007,Manitoba,1189446.0
+2007,Saskatchewan,1002074.0
+2007,Alberta,3514151.0
+2007,British Columbia,4290987.0
+2007,Yukon,32555.0
+2007,Northwest Territories,43396.0
+2007,Nunavut,31394.0
+2008,Canada,33247298.0
+2008,Newfoundland and Labrador,511569.0
+2008,Prince Edward Island,138736.0
+2008,Nova Scotia,935965.0
+2008,New Brunswick,746875.0
+2008,Quebec,7761614.0
+2008,Ontario,12883824.0
+2008,Manitoba,1197767.0
+2008,Saskatchewan,1017368.0
+2008,Alberta,3595875.0
+2008,British Columbia,4349338.0
+2008,Yukon,33084.0
+2008,Northwest Territories,43385.0
+2008,Nunavut,31898.0
+2009,Canada,33630069.0
+2009,Newfoundland and Labrador,516741.0
+2009,Prince Edward Island,139873.0
+2009,Nova Scotia,938266.0
+2009,New Brunswick,749956.0
+2009,Quebec,7843915.0
+2009,Ontario,12998941.0
+2009,Manitoba,1208555.0
+2009,Saskatchewan,1034791.0
+2009,Alberta,3679010.0
+2009,British Columbia,4410513.0
+2009,Yukon,33733.0
+2009,Northwest Territories,43171.0
+2009,Nunavut,32604.0
+2010,Canada,34005902.0
+2010,Newfoundland and Labrador,522002.0
+2010,Prince Edward Island,141644.0
+2010,Nova Scotia,942144.0
+2010,New Brunswick,753034.0
+2010,Quebec,7929479.0
+2010,Ontario,13136481.0
+2010,Manitoba,1220782.0
+2010,Saskatchewan,1051426.0
+2010,Alberta,3732104.0
+2010,British Columbia,4465557.0
+2010,Yukon,34598.0
+2010,Northwest Territories,43292.0
+2010,Nunavut,33359.0
+2011,Canada,34339221.0
+2011,Newfoundland and Labrador,524955.0
+2011,Prince Edward Island,143918.0
+2011,Nova Scotia,944095.0
+2011,New Brunswick,755590.0
+2011,Quebec,8004736.0
+2011,Ontario,13262345.0
+2011,Manitoba,1233353.0
+2011,Saskatchewan,1065661.0
+2011,Alberta,3787705.0
+2011,British Columbia,4503819.0
+2011,Yukon,35366.0
+2011,Northwest Territories,43493.0
+2011,Nunavut,34185.0
+2012,Canada,34713395.0
+2012,Newfoundland and Labrador,526235.0
+2012,Prince Edward Island,144415.0
+2012,Nova Scotia,943163.0
+2012,New Brunswick,758121.0
+2012,Quebec,8059752.0
+2012,Ontario,13392364.0
+2012,Manitoba,1249094.0
+2012,Saskatchewan,1083005.0
+2012,Alberta,3871947.0
+2012,British Columbia,4570866.0
+2012,Yukon,36151.0
+2012,Northwest Territories,43624.0
+2012,Nunavut,34658.0
+2013,Canada,35080992.0
+2013,Newfoundland and Labrador,526960.0
+2013,Prince Edward Island,143942.0
+2013,Nova Scotia,939808.0
+2013,New Brunswick,758261.0
+2013,Quebec,8108825.0
+2013,Ontario,13511902.0
+2013,Manitoba,1263393.0
+2013,Saskatchewan,1098868.0
+2013,Alberta,3978532.0
+2013,British Columbia,4634943.0
+2013,Yukon,36454.0
+2013,Northwest Territories,43774.0
+2013,Nunavut,35330.0
+2014,Canada,35434066.0
+2014,Newfoundland and Labrador,527970.0
+2014,Prince Edward Island,144095.0
+2014,Nova Scotia,937768.0
+2014,New Brunswick,758657.0
+2014,Quebec,8147535.0
+2014,Ontario,13617763.0
+2014,Manitoba,1277425.0
+2014,Saskatchewan,1111989.0
+2014,Alberta,4081271.0
+2014,British Columbia,4712691.0
+2014,Yukon,37085.0
+2014,Northwest Territories,43851.0
+2014,Nunavut,35966.0
+2015,Canada,35704498.0
+2015,Newfoundland and Labrador,528348.0
+2015,Prince Edward Island,144636.0
+2015,Nova Scotia,937419.0
+2015,New Brunswick,759226.0
+2015,Quebec,8175743.0
+2015,Ontario,13709293.0
+2015,Manitoba,1293598.0
+2015,Saskatchewan,1122210.0
+2015,Alberta,4150147.0
+2015,British Columbia,4765472.0
+2015,Yukon,37669.0
+2015,Northwest Territories,44247.0
+2015,Nunavut,36490.0
+2016,Canada,36110803.0
+2016,Newfoundland and Labrador,529586.0
+2016,Prince Edward Island,146891.0
+2016,Nova Scotia,942984.0
+2016,New Brunswick,763322.0
+2016,Quebec,8225036.0
+2016,Ontario,13876500.0
+2016,Manitoba,1314140.0
+2016,Saskatchewan,1135496.0
+2016,Alberta,4195427.0
+2016,British Columbia,4861269.0
+2016,Yukon,38549.0
+2016,Northwest Territories,44624.0
+2016,Nunavut,36979.0
+2017,Canada,36545075.0
+2017,Newfoundland and Labrador,529742.0
+2017,Prince Edward Island,149740.0
+2017,Nova Scotia,952159.0
+2017,New Brunswick,766697.0
+2017,Quebec,8292832.0
+2017,Ontario,14078499.0
+2017,Manitoba,1334734.0
+2017,Saskatchewan,1147315.0
+2017,Alberta,4237310.0
+2017,British Columbia,4934202.0
+2017,Yukon,39533.0
+2017,Northwest Territories,44656.0
+2017,Nunavut,37656.0
+2018,Canada,37072620.0
+2018,Newfoundland and Labrador,528402.0
+2018,Prince Edward Island,152259.0
+2018,Nova Scotia,962072.0
+2018,New Brunswick,770497.0
+2018,Quebec,8386951.0
+2018,Ontario,14326746.0
+2018,Manitoba,1352687.0
+2018,Saskatchewan,1156210.0
+2018,Alberta,4292556.0
+2018,British Columbia,5020979.0
+2018,Yukon,40403.0
+2018,Northwest Territories,44536.0
+2018,Nunavut,38322.0
+2019,Canada,37618495.0
+2019,Newfoundland and Labrador,527643.0
+2019,Prince Edward Island,155792.0
+2019,Nova Scotia,975799.0
+2019,New Brunswick,777387.0
+2019,Quebec,8483186.0
+2019,Ontario,14573565.0
+2019,Manitoba,1370033.0
+2019,Saskatchewan,1164223.0
+2019,Alberta,4355377.0
+2019,British Columbia,5111022.0
+2019,Yukon,41187.0
+2019,Northwest Territories,44442.0
+2019,Nunavut,38839.0
+2020,Canada,38028638.0
+2020,Newfoundland and Labrador,526884.0
+2020,Prince Edward Island,159193.0
+2020,Nova Scotia,989168.0
+2020,New Brunswick,783432.0
+2020,Quebec,8551095.0
+2020,Ontario,14761811.0
+2020,Manitoba,1380132.0
+2020,Saskatchewan,1167386.0
+2020,Alberta,4407495.0
+2020,British Columbia,5176101.0
+2020,Yukon,41958.0
+2020,Northwest Territories,44504.0
+2020,Nunavut,39479.0
+2021,Canada,38239864.0
+2021,Newfoundland and Labrador,527056.0
+2021,Prince Edward Island,162133.0
+2021,Nova Scotia,999908.0
+2021,New Brunswick,790802.0
+2021,Quebec,8572020.0
+2021,Ontario,14842488.0
+2021,Manitoba,1391924.0
+2021,Saskatchewan,1167711.0
+2021,Alberta,4431531.0
+2021,British Columbia,5226665.0
+2021,Yukon,42961.0
+2021,Northwest Territories,44579.0
+2021,Nunavut,40086.0
+2022,Canada,38945628.0
+2022,Newfoundland and Labrador,531061.0
+2022,Prince Edward Island,167147.0
+2022,Nova Scotia,1024306.0
+2022,New Brunswick,808587.0
+2022,Quebec,8667648.0
+2022,Ontario,15155192.0
+2022,Manitoba,1413346.0
+2022,Saskatchewan,1178761.0
+2022,Alberta,4513589.0
+2022,British Columbia,5356870.0
+2022,Yukon,43891.0
+2022,Northwest Territories,44626.0
+2022,Nunavut,40604.0
+2023,Canada,40022704.0
+2023,Newfoundland and Labrador,538041.0
+2023,Prince Edward Island,173270.0
+2023,Nova Scotia,1052601.0
+2023,New Brunswick,829937.0
+2023,Quebec,8818050.0
+2023,Ontario,15618269.0
+2023,Manitoba,1452054.0
+2023,Saskatchewan,1209273.0
+2023,Alberta,4688032.0
+2023,British Columbia,5512217.0
+2023,Yukon,45410.0
+2023,Northwest Territories,44611.0
+2023,Nunavut,40939.0
+2024,Canada,41162593.0
+2024,Newfoundland and Labrador,545080.0
+2024,Prince Edward Island,178869.0
+2024,Nova Scotia,1080310.0
+2024,New Brunswick,857114.0
+2024,Quebec,8982312.0
+2024,Ontario,16090358.0
+2024,Manitoba,1487953.0
+2024,Saskatchewan,1245196.0
+2024,Alberta,4901795.0
+2024,British Columbia,5659205.0
+2024,Yukon,47683.0
+2024,Northwest Territories,45274.0
+2024,Nunavut,41444.0
+2025,Canada,41608982.0
+2025,Newfoundland and Labrador,550202.0
+2025,Prince Edward Island,181594.0
+2025,Nova Scotia,1095157.0
+2025,New Brunswick,874711.0
+2025,Quebec,9051022.0
+2025,Ontario,16216961.0
+2025,Manitoba,1508582.0
+2025,Saskatchewan,1266289.0
+2025,Alberta,5024631.0
+2025,British Columbia,5702544.0
+2025,Yukon,49150.0
+2025,Northwest Territories,46031.0
+2025,Nunavut,42108.0
+2026,Canada,41798407.0
+2026,Newfoundland and Labrador,552462.0
+2026,Prince Edward Island,182989.0
+2026,Nova Scotia,1103419.0
+2026,New Brunswick,883522.0
+2026,Quebec,9067114.0
+2026,Ontario,16262121.0
+2026,Manitoba,1517379.0
+2026,Saskatchewan,1278402.0
+2026,Alberta,5101050.0
+2026,British Columbia,5710598.0
+2026,Yukon,50356.0
+2026,Northwest Territories,45904.0
+2026,Nunavut,43091.0

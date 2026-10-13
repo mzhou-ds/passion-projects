@@ -1,0 +1,194 @@
+{
+ "provenance": "Reused from this repo's 2026-09-24 build: StatCan 2021 Census table 98-10-0331 (income reference year 2020) and US Census ACS 2023 5-year (B20017D / B19013D via Census Reporter extracts).",
+ "canada_chinese_25_54": {
+  "Canada": {
+   "Total - Income statistics": {
+    "chinese": 737744.0,
+    "not_vismin": 10015841.0
+   },
+   "Median total income ($)": {
+    "chinese": 46596.0,
+    "not_vismin": 54433.0
+   },
+   "Average total income ($)": {
+    "chinese": 61583.0,
+    "not_vismin": 67190.0
+   },
+   "Median after-tax income ($)": {
+    "chinese": 42156.0,
+    "not_vismin": 47624.0
+   },
+   "Median employment income ($)": {
+    "chinese": 46222.0,
+    "not_vismin": 52040.0
+   },
+   "Average employment income ($)": {
+    "chinese": 58935.0,
+    "not_vismin": 62745.0
+   },
+   "Median wages, salaries and commissions ($)": {
+    "chinese": 50614.0,
+    "not_vismin": 53650.0
+   }
+  },
+  "Ontario": {
+   "Total - Income statistics": {
+    "chinese": 350951.0,
+    "not_vismin": 3435946.0
+   },
+   "Median total income ($)": {
+    "chinese": 49191.0,
+    "not_vismin": 55662.0
+   },
+   "Average total income ($)": {
+    "chinese": 65450.0,
+    "not_vismin": 70259.0
+   },
+   "Median after-tax income ($)": {
+    "chinese": 44338.0,
+    "not_vismin": 48843.0
+   },
+   "Median employment income ($)": {
+    "chinese": 50330.0,
+    "not_vismin": 54491.0
+   },
+   "Average employment income ($)": {
+    "chinese": 63146.0,
+    "not_vismin": 66889.0
+   },
+   "Median wages, salaries and commissions ($)": {
+    "chinese": 55942.0,
+    "not_vismin": 56498.0
+   }
+  },
+  "Toronto (CMA), Ont.": {
+   "Total - Income statistics": {
+    "chinese": 292539.0,
+    "not_vismin": 1046753.0
+   },
+   "Median total income ($)": {
+    "chinese": 49216.0,
+    "not_vismin": 60167.0
+   },
+   "Average total income ($)": {
+    "chinese": 65876.0,
+    "not_vismin": 83307.0
+   },
+   "Median after-tax income ($)": {
+    "chinese": 44350.0,
+    "not_vismin": 51735.0
+   },
+   "Median employment income ($)": {
+    "chinese": 50068.0,
+    "not_vismin": 60135.0
+   },
+   "Average employment income ($)": {
+    "chinese": 63625.0,
+    "not_vismin": 80377.0
+   },
+   "Median wages, salaries and commissions ($)": {
+    "chinese": 56024.0,
+    "not_vismin": 63414.0
+   }
+  },
+  "British Columbia": {
+   "Total - Income statistics": {
+    "chinese": 232588.0,
+    "not_vismin": 1226708.0
+   },
+   "Median total income ($)": {
+    "chinese": 44691.0,
+    "not_vismin": 54540.0
+   },
+   "Average total income ($)": {
+    "chinese": 59131.0,
+    "not_vismin": 67959.0
+   },
+   "Median after-tax income ($)": {
+    "chinese": 41040.0,
+    "not_vismin": 48514.0
+   },
+   "Median employment income ($)": {
+    "chinese": 44550.0,
+    "not_vismin": 52575.0
+   },
+   "Average employment income ($)": {
+    "chinese": 56566.0,
+    "not_vismin": 63109.0
+   },
+   "Median wages, salaries and commissions ($)": {
+    "chinese": 48383.0,
+    "not_vismin": 54614.0
+   }
+  },
+  "Vancouver (CMA), B.C.": {
+   "Total - Income statistics": {
+    "chinese": 216530.0,
+    "not_vismin": 496284.0
+   },
+   "Median total income ($)": {
+    "chinese": 44671.0,
+    "not_vismin": 59432.0
+   },
+   "Average total income ($)": {
+    "chinese": 59360.0,
+    "not_vismin": 77176.0
+   },
+   "Median after-tax income ($)": {
+    "chinese": 41014.0,
+    "not_vismin": 51785.0
+   },
+   "Median employment income ($)": {
+    "chinese": 44566.0,
+    "not_vismin": 58244.0
+   },
+   "Average employment income ($)": {
+    "chinese": 56907.0,
+    "not_vismin": 72111.0
+   },
+   "Median wages, salaries and commissions ($)": {
+    "chinese": 48363.0,
+    "not_vismin": 59840.0
+   }
+  }
+ },
+ "us": {
+  "us_median_hh_asian": 116503.0,
+  "us_medearn_asian": 59823.0,
+  "us_median_hh_total": 80734.0,
+  "us_medearn_total": 46151.0,
+  "us_chinese_pop": 4553861.0
+ },
+ "us_metro_asian_hh": {
+  "San Francisco": {
+   "chinese_pop": 517772.0,
+   "asian_medhh": 160521.0,
+   "total_medhh": 136027.0
+  },
+  "San Jose": {
+   "chinese_pop": 238055.0,
+   "asian_medhh": 207168.0,
+   "total_medhh": 162111.0
+  },
+  "Seattle": {
+   "chinese_pop": 162789.0,
+   "asian_medhh": 149641.0,
+   "total_medhh": 115177.0
+  },
+  "Los Angeles": {
+   "chinese_pop": 603219.0,
+   "asian_medhh": 109028.0,
+   "total_medhh": 95958.0
+  },
+  "New York": {
+   "chinese_pop": 828392.0,
+   "asian_medhh": 118764.0,
+   "total_medhh": 99155.0
+  },
+  "Washington DC": {
+   "chinese_pop": 114823.0,
+   "asian_medhh": 148784.0,
+   "total_medhh": 126684.0
+  }
+ }
+}
