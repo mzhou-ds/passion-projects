@@ -18,7 +18,7 @@ The slide is not in the data. What is in the data is a flat line, four decades l
 | 3 | Is the drop just demographics (older, more single, fewer married)? | Oaxaca-Blinder style decomposition over 132 life-situation cells | `src/02_analysis.py` §4 |
 | 4 | Would a model trained on the old world see the new one coming? | XGBoost + SHAP trained on 1974-2018, scored untouched on 2022-2024; pooled SHAP for what sorts people socially | `src/03_model.py` A-B |
 | 5 | Do friend evenings still buy happiness, and did marriage fall off the same cliff? | GSS happiness and marital-happiness items, g-computation adjusted contrasts by era | `src/02_analysis.py` §5, `src/03_model.py` C |
-| 6 | Does a completely different instrument agree? | American Time Use Survey time diaries by age (Our World in Data extract) | `src/04_charts.py`, chart 6 |
+| 6 | Does a completely different instrument agree, and on what clock? | ATUS respondent microdata 2003 / 2019 / 2024 (BLS companion-minutes series, 37,824 diaries) plus the pooled ATUS age extract (Our World in Data) | `src/05_atus.py`, `src/04_charts.py` chart 6 |
 
 Reproduce: `python3 src/01_fetch.py && python3 src/02_analysis.py && python3 src/03_model.py && python3 src/04_charts.py`. Step 1 re-downloads the GSS cumulative file (via the `gssr` mirror) and the ATUS extract, and rebuilds the 48-variable GSS extract with the included R script. Without R it keeps the committed extract.
 
@@ -50,13 +50,19 @@ The pooled SHAP ranking is its own small story. Age dominates (mean |SHAP| 0.37,
 
 ![Happiness penalty](charts/happiness_penalty.png)
 
-**7. The diaries agree, and they add the shape of a life.** The GSS asks how often; the American Time Use Survey asks people to reconstruct yesterday, hour by hour, and say who was there. In the pooled ATUS extract, time with friends peaks at age 18 (about 2.0 hours a day) and halves by 25 (1.1 hours), then halves again by 40 (0.5 hours), where it stays for life. Time alone does the opposite, climbing from 3.7 hours at 15 to about 8.0 at 80. Partner time is the shock absorber: it rises to roughly 3.9 hours a day in the sixties and holds even at 80. Read against the GSS result, the diary explains the cliff's asymmetry: friend time was always the discretionary line in the budget, the first one cut and the one no institution refills automatically. Partner and kid time have contracts and calendars. Friend time has intentions.
+**7. The diaries add the shape of a life.** The GSS asks how often; the American Time Use Survey asks people to reconstruct yesterday, hour by hour, and say who was there. In the pooled ATUS extract, time with friends peaks at age 18 (about 2.0 hours a day) and halves by 25 (1.1 hours), then halves again by 40 (0.5 hours), where it stays for life. Time alone does the opposite, climbing from 3.7 hours at 15 to about 8.0 at 80. Partner time is the shock absorber: it rises to roughly 3.9 hours a day in the sixties and holds even at 80. Friend time was always the discretionary line in the budget, the first one cut and the one no institution refills automatically. Partner and kid time have contracts and calendars. Friend time has intentions.
 
 ![ATUS age curve](charts/atus_age_curve.png)
 
+**8. Two instruments, two clocks, and the second clock is worse.** BLS ships precomputed companion minutes on the ATUS respondent file, so I could run the diaries as a trend: 2003 versus 2019 versus 2024, 37,824 diaries, weighted. Minutes per day spent with friends: 60.4 in 2003, 34.3 in 2019, 25.7 in 2024. Down 43% before COVID ever arrived, then another 25% after. Minutes alone went the other way: 284.8, 309.4, 327.1, a gain of 42 minutes a day across two decades. Partner minutes barely moved (175.8 to 169.8). And the share of diary days containing zero minutes with friends went from 76.3% to 83.3% to 88.1%. On a typical day in 2024, almost nine in ten Americans never spend a minute with a friend.
+
+So which is it, a cliff or a slide? Both, because the instruments measure different things. The GSS counts deliberate social evenings, the ritual: dinner, drinks, people coming over on purpose. That held for 44 years and then broke after 2018. The diaries count every friend minute, most of which was never deliberate at all: the coworker who was also a friend, the neighbour on the step, the hour after class. That incidental layer has been thinning since at least 2003, through the smartphone era and the remote-work era, and singles show it worst (friend minutes for adults with no partner in the household: 104 a day in 2003, 51 in 2019, 37 in 2024). The deliberate ritual was the last part standing. Then it went too. What disappeared first was the friend time you never had to plan. What disappeared after 2018 is the friend time you did.
+
+![ATUS trend](charts/atus_trend.png)
+
 ## The operator takeaway
 
-Evenings are a market. Roughly two-thirds of adults used to show up to it monthly, reliably, for four decades, and businesses priced that in without ever seeing the number: restaurants built for groups, bars, leagues, churches, gyms with classes, every third place that monetised people seeing each other on purpose. That demand did not erode. It stepped down about 8 points in four years, concentrated in exactly the customers those businesses count on most, single adults under 35, and the step down is behavioural, which means it does not mean-revert on its own.
+Evenings are a market. Roughly two-thirds of adults used to show up to it monthly, reliably, for four decades, and businesses priced that in without ever seeing the number: restaurants built for groups, bars, leagues, churches, gyms with classes, every third place that monetised people seeing each other on purpose. The diary data says the wider market for friend time has been eroding for twenty years (down 57% in minutes since 2003), and the deliberate-evening segment, the part that books tables and buys tickets, stepped down about 8 points in the last four years, concentrated in exactly the customers those businesses count on most, single adults under 35. Both moves are behavioural, which means neither mean-reverts on its own.
 
 Two implications I would actually act on. First, any forecast of social-occasion demand fit on pre-2020 data is biased high by roughly the 6 points my little model missed by; re-fit on 2022 forward or haircut it. Second, the scarce asset is no longer the venue or the match. It is the recurring slot. The one social technology in the data that never broke is the standing commitment: the weekly game, the standing dinner, the group chat with a date attached. Attendance at religious services is the sixth-strongest sorter in the SHAP ranking precisely because it is a recurring evening with a default. Products and communities that manufacture defaults (fixed cadence, same people, opt-out rather than opt-in) are selling the thing the market just lost.
 
@@ -68,13 +74,13 @@ I run my own version of this. Thirteen recurring calendar nudges to keep in touc
 - **The evenings-per-month mapping is an approximation.** The headline metric (at least monthly) is read straight off the answer categories. The evenings-per-month figures map categories to counts (almost daily = 20, several times a week = 10, several times a month = 3, once a month = 1, several times a year = 0.42, once a year = 0.08, never = 0). Different reasonable mappings move the levels, not the direction or the ranking across groups.
 - **Cross-sectional, not panel.** The GSS re-interviews nobody. "Behaviour change inside cells" means people in the same measured situation answer differently across years; unmeasured changes inside cells (say, remote work share within employed parents) load onto the behaviour term. The decomposition says the drop is not the *measured* demographics. It cannot rule out every unmeasured compositional shift.
 - **Happiness is associational.** Finding 6 adjusts for the standard demographics and health; it does not identify causation in either direction.
-- **The ATUS extract is pooled across diary years** (the Our World in Data series pools ATUS diaries to get single-year-of-age precision), so it establishes the life-course shape, not a trend. The trend evidence is the GSS alone.
+- **ATUS companion minutes have a specific definition.** The TRT series on the respondent file counts minutes with each companion over activities where "who was with you" is collected; sleeping, personal care, and a few other activities are excluded by design, and the companion categories overlap (an hour with your spouse and kids counts toward both), except "alone," which is exclusive. Levels therefore are not shares of the 24-hour day. The age-curve extract (finding 7) is pooled across diary years for single-year-of-age precision; the trend (finding 8) uses the 2003, 2019, and 2024 respondent files only, so it cannot date changes inside those intervals, and 2003 ATUS had a larger sample and slightly different field procedures than later years.
 - Weights are the GSS `wtssall` series as shipped in the cumulative file; standard errors use effective sample size and ignore strata/PSU design effects, so they are mildly optimistic. With a 7.8-point gap and SEs under a point, the conclusion does not turn on it.
 
 ## Sources
 
 - Smith, Tom W., Davern, Michael, Freese, Jeremy, and Morgan, Stephen, *General Social Surveys, 1972-2024* [machine-readable data file]. Principal investigator Tom W. Smith; co-principal investigators Michael Davern, Jeremy Freese, and Stephen Morgan. Chicago: NORC at the University of Chicago. Cumulative cross-section file, accessed via Kieran Healy's `gssr` data mirror (github.com/kjhealy/gssr). Social-evening items SOCFRED, SOCREL, SOCBAR, SOCOMMUN; happiness HAPPY; marital happiness HAPMAR.
-- U.S. Bureau of Labor Statistics, *American Time Use Survey* diary data, as extracted by Our World in Data ("time spent with relationships by age", grapher series `time-spent-with-relationships-by-age-us`). BLS's own ATUS tables page (Table A-8/A-9, waking hours alone or with others) is the primary-source companion.
+- U.S. Bureau of Labor Statistics, *American Time Use Survey* respondent microdata files for 2003, 2019, and 2024 (`atusresp_2003.zip` with an underscore in the 2003 filename, `atusresp-2019.zip`, `atusresp-2024.zip` from bls.gov/tus/datafiles), companion-minutes series TRTALONE / TRTFRIEND / TRTSPOUSE / TRTUNMPART / TRTCHILD / TRTFAMILY, final weight TUFINLWGT. Age-curve shape: the same survey as extracted by Our World in Data ("time spent with relationships by age", grapher series `time-spent-with-relationships-by-age-us`).
 - Rosenfeld et al.'s HCMST work powered a previous build in this repo (`2026-10-05/love-is-a-channel`); this one deliberately uses a different instrument (reported frequency plus time diaries instead of couple histories).
 
 ## Layout
@@ -86,12 +92,14 @@ the-evenings-disappeared/
 │   ├── extract_gss.R     # 48-variable extract of the cumulative file
 │   ├── 02_analysis.py    # weighted series, age/marital cuts, decomposition, happiness
 │   ├── 03_model.py       # temporal XGBoost test, SHAP, adjusted happiness, site grid
-│   └── 04_charts.py      # all figures
-├── data/                 # gss_extract.csv, analytic extracts, findings.json, model.json,
-│                         # year_series.csv, age_era.csv, marital_substitution.csv,
-│                         # shap_importance.csv, site_grid.csv, atus_time_by_age_owid.csv
+│   ├── 04_charts.py      # GSS + age-curve figures
+│   └── 05_atus.py        # ATUS respondent microdata: extract, diary trend, chart
+├── data/                 # gss_extract.csv, atus_respondent_extract.csv, findings.json,
+│                         # model.json, year_series.csv, age_era.csv, atus_trend.csv,
+│                         # marital_substitution.csv, shap_importance.csv, site_grid.csv,
+│                         # atus_time_by_age_owid.csv (raw ATUS .dat files not committed)
 ├── charts/               # the_cliff, age_drop, everything_fell, decomposition,
-│                         # shap_bar, happiness_penalty, atus_age_curve
+│                         # shap_bar, happiness_penalty, atus_age_curve, atus_trend
 └── site/
     ├── index.html        # profile explorer: your evenings, old world vs new world
     └── data.js           # 132-cell empirical grid (generated by 03_model.py)
