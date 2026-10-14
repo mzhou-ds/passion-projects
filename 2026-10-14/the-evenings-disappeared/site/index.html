@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Evenings Disappeared - Musing with Mike</title>
+<style>
+  :root { --ink:#e8e6df; --dim:#9a97a3; --acc:#e74c3c; --old:#8a8894; --bg:#14141c; --card:#1e1e2a; }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--ink);
+         font-family: Georgia, 'Times New Roman', serif; }
+  .wrap { max-width: 860px; margin: 0 auto; padding: 32px 20px 64px; }
+  h1 { font-size: 2.1rem; margin: 0 0 6px; line-height:1.15; }
+  .sub { color: var(--dim); font-size: 1.02rem; margin-bottom: 28px; }
+  .card { background: var(--card); border-radius: 10px; padding: 22px; margin-bottom: 22px; }
+  .controls { display: grid; grid-template-columns: repeat(auto-fit,minmax(150px,1fr)); gap: 12px; }
+  label { font-size: .8rem; text-transform: uppercase; letter-spacing: .06em; color: var(--dim);
+          display:block; margin-bottom: 6px; font-family: Helvetica, Arial, sans-serif; }
+  select { width:100%; padding: 9px; border-radius: 6px; border: 1px solid #3a3a4c;
+           background:#14141c; color:var(--ink); font-size: .95rem; }
+  .bar-row { display:grid; grid-template-columns: 110px 1fr 64px; align-items:center; gap:12px; margin: 14px 0; }
+  .bar-lab { font-family: Helvetica, Arial, sans-serif; font-size:.85rem; color:var(--dim); }
+  .bar-track { background:#2c2c3c; border-radius: 5px; height: 26px; }
+  .bar-fill { height: 100%; border-radius: 5px; transition: width .35s ease; }
+  .bar-val { font-size: 1.15rem; font-weight: bold; text-align:right; }
+  .delta { font-size: 1.05rem; margin-top: 10px; }
+  .delta b { color: var(--acc); }
+  .stats { display:grid; grid-template-columns: repeat(auto-fit,minmax(180px,1fr)); gap:14px; }
+  .stat { background: var(--card); border-radius: 10px; padding: 18px; }
+  .stat .n { font-size: 1.7rem; font-weight: bold; color: var(--acc); }
+  .stat .t { color: var(--dim); font-size: .92rem; margin-top: 4px; }
+  .foot { color: var(--dim); font-size: .85rem; line-height: 1.5; }
+  a { color: #7fb3d5; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>The evenings disappeared</h1>
+  <div class="sub">For 44 years, about 65% of American adults spent social evenings with friends
+  at least once a month. Then, between the 2018 and 2022-24 General Social Surveys, it fell to 57%.
+  Pick a life profile and see what the shift did to people like you.</div>
+
+  <div class="card">
+    <div class="controls">
+      <div><label>Age</label>
+        <select id="ageband">
+          <option>18-24</option><option selected>25-34</option><option>35-44</option>
+          <option>45-54</option><option>55-64</option><option>65+</option>
+        </select></div>
+      <div><label>Relationship</label>
+        <select id="marital">
+          <option>Married</option><option selected>Never married</option>
+          <option>Divorced / widowed / separated</option>
+        </select></div>
+      <div><label>Kids at home</label>
+        <select id="kids"><option value="0" selected>No kids</option><option value="1">Has kids</option></select></div>
+      <div><label>Work</label>
+        <select id="employed"><option value="1" selected>Employed</option><option value="0">Not employed</option></select></div>
+      <div><label>Sex</label>
+        <select id="sex"><option>Male</option><option>Female</option></select></div>
+    </div>
+    <div style="margin-top:18px">
+      <div class="bar-row"><div class="bar-lab">2014-2018 world</div>
+        <div class="bar-track"><div class="bar-fill" id="barOld" style="background:var(--old)"></div></div>
+        <div class="bar-val" id="valOld"></div></div>
+      <div class="bar-row"><div class="bar-lab">2022-2024 world</div>
+        <div class="bar-track"><div class="bar-fill" id="barNew" style="background:var(--acc)"></div></div>
+        <div class="bar-val" id="valNew"></div></div>
+      <div class="delta" id="delta"></div>
+    </div>
+  </div>
+
+  <div class="stats">
+    <div class="stat"><div class="n">-7.8 pts</div><div class="t">Drop in adults seeing friends socially at least monthly, 2014-18 to 2022-24 (64.6% to 56.8%)</div></div>
+    <div class="stat"><div class="n">92%</div><div class="t">Of the drop is behaviour change inside identical life situations, not demographics</div></div>
+    <div class="stat"><div class="n">12.7%</div><div class="t">Now say they never spend a social evening with friends, up from 8.5%</div></div>
+    <div class="stat"><div class="n">+6.3 pts</div><div class="t">How much a model trained on the old world overpredicts your 2022-24 social life</div></div>
+  </div>
+
+  <p class="foot">Bars show the weighted share of General Social Survey respondents in that exact
+  profile cell who spent social evenings with friends at least once a month (thin cells are shrunk
+  toward their age-band average; see the README for method). GSS cumulative file 1972-2024,
+  n=45,294 with valid friend-evening answers. Cross-checked against American Time Use Survey
+  diaries via Our World in Data. A Musing with Mike build.</p>
+</div>
+<script src="data.js"></script>
+<script>
+  const $ = id => document.getElementById(id);
+  function render() {
+    const row = GRID.find(r => r.ageband === $("ageband").value &&
+      r.marital === $("marital").value && r.kids === +$("kids").value &&
+      r.employed === +$("employed").value && r.sex === $("sex").value);
+    if (!row) return;
+    $("barOld").style.width = row.world_2014_18 + "%";
+    $("barNew").style.width = row.world_2022_24 + "%";
+    $("valOld").textContent = row.world_2014_18.toFixed(1) + "%";
+    $("valNew").textContent = row.world_2022_24.toFixed(1) + "%";
+    const d = (row.world_2022_24 - row.world_2014_18).toFixed(1);
+    $("delta").innerHTML = "Same life, different decade: <b>" + d +
+      " points</b> of monthly friend evenings, gone.";
+  }
+  ["ageband","marital","kids","employed","sex"].forEach(id =>
+    $(id).addEventListener("change", render));
+  render();
+</script>
+</body>
+</html>

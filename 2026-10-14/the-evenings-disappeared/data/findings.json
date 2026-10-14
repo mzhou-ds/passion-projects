@@ -1,0 +1,92 @@
+{
+ "friend_monthly_longrun_mean": 64.7,
+ "friend_monthly_2018": 64.7,
+ "friend_monthly_2021": 48.4,
+ "friend_monthly_2022_24": 56.8,
+ "friend_monthly_2022_24_se": 0.74,
+ "friend_monthly_2014_18": 64.6,
+ "friend_monthly_drop_pp": -7.8,
+ "friend_never_2022_24": 12.7,
+ "friend_never_2014_18": 8.5,
+ "friend_epm_2014_18": 3.2,
+ "friend_epm_2022_24": 2.84,
+ "friend_epm_change_pct": -11.3,
+ "friend_monthly_change_pp": -7.8,
+ "relatives_epm_2014_18": 6.22,
+ "relatives_epm_2022_24": 5.16,
+ "relatives_epm_change_pct": -17.1,
+ "relatives_monthly_change_pp": -8.0,
+ "bar_epm_2014_18": 1.16,
+ "bar_epm_2022_24": 1.01,
+ "bar_epm_change_pct": -12.7,
+ "bar_monthly_change_pp": -2.1,
+ "community_epm_2014_18": 2.88,
+ "community_epm_2022_24": 2.61,
+ "community_epm_change_pct": -9.4,
+ "community_monthly_change_pp": -4.8,
+ "age_era_drop_pp": {
+  "18-24": -8.4,
+  "25-34": -11.1,
+  "35-44": -7.7,
+  "45-54": -8.1,
+  "55-64": -6.4,
+  "65+": -2.0
+ },
+ "friend_monthly_by_marital_change_pp": {
+  "Divorced": -9.6,
+  "Married": -5.5,
+  "Never married": -13.7,
+  "Separated": -14.3,
+  "Widowed": -1.1
+ },
+ "bar_monthly_by_marital_change_pp": {
+  "Divorced": -7.9,
+  "Married": 0.3,
+  "Never married": -6.1,
+  "Separated": 4.7,
+  "Widowed": 3.6
+ },
+ "decomp": {
+  "cells_used": 132,
+  "n_pre": 5102,
+  "n_post": 4496,
+  "pre_rate_common_cells": 64.6,
+  "post_rate_common_cells": 56.8,
+  "total_change_pp": -7.8,
+  "composition_pp": -0.6,
+  "behaviour_pp": -7.1,
+  "behaviour_share_pct": 92.0
+ },
+ "very_happy_weekly_plus": 30.3,
+ "very_happy_once_never": 26.5,
+ "happiness_post_period": [
+  {
+   "friend_freq": "Weekly+",
+   "very_happy_pct": 24.1,
+   "n": 762
+  },
+  {
+   "friend_freq": "Monthly",
+   "very_happy_pct": 23.5,
+   "n": 1797
+  },
+  {
+   "friend_freq": "A few times a year",
+   "very_happy_pct": 22.4,
+   "n": 955
+  },
+  {
+   "friend_freq": "Once a year / never",
+   "very_happy_pct": 16.2,
+   "n": 989
+  }
+ ],
+ "hapmar_very_happy_1970s": 66.8,
+ "hapmar_very_happy_1990s": 62.3,
+ "hapmar_very_happy_2014-2018": 61.3,
+ "hapmar_very_happy_2022-2024": 60.0,
+ "n_socfrend_valid": 45294,
+ "n_total": 75699,
+ "year_min": 1972,
+ "year_max": 2024
+}

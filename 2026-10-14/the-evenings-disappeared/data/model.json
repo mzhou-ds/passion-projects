@@ -1,0 +1,77 @@
+{
+ "temporal": {
+  "auc_holdout_pre": 0.708,
+  "auc_post": 0.622,
+  "pred_mean_post": 63.2,
+  "actual_mean_post": 56.8,
+  "overprediction_pp": 6.3,
+  "n_train": 30448,
+  "n_post": 4532
+ },
+ "pooled_auc_insample": 0.738,
+ "shap_top10": [
+  [
+   "age",
+   0.37
+  ],
+  [
+   "marital_lbl_Married",
+   0.161
+  ],
+  [
+   "childs",
+   0.149
+  ],
+  [
+   "educ",
+   0.141
+  ],
+  [
+   "year",
+   0.132
+  ],
+  [
+   "attend",
+   0.122
+  ],
+  [
+   "log_size",
+   0.082
+  ],
+  [
+   "log_rinc",
+   0.062
+  ],
+  [
+   "tvhours_c",
+   0.058
+  ],
+  [
+   "hrs1_c",
+   0.04
+  ]
+ ],
+ "shap_corr_tvhours_c": -0.64,
+ "shap_corr_age": -0.92,
+ "shap_corr_year": -0.52,
+ "happiness_adjusted": {
+  "pre_2014_18": {
+   "Monthly": 34.3,
+   "Rarely/never": 26.5,
+   "Weekly+": 35.5,
+   "Yearly": 30.3
+  },
+  "post_2022_24": {
+   "Monthly": 23.0,
+   "Rarely/never": 17.8,
+   "Weekly+": 25.6,
+   "Yearly": 20.4
+  },
+  "logit_auc_pre": 0.64,
+  "logit_auc_post": 0.677
+ },
+ "happiness_penalty_pre_pp": 9.0,
+ "happiness_penalty_post_pp": 7.8,
+ "grid_cells": 132,
+ "grid_min_cell_n_post": 1
+}
