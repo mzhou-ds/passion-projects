@@ -1,0 +1,19 @@
+{
+  "track_only_auc": 0.679,
+  "plus_shelf_auc": 0.781,
+  "full_auc": 0.822,
+  "shap_top": {
+    "genre_shelf (all 17 tags)": 1.148,
+    "age_days": 1.015,
+    "artist_other_tracks": 0.681,
+    "len_min": 0.502,
+    "bpm": 0.363,
+    "artist_other_genres": 0.254,
+    "label_other_tracks": 0.175,
+    "minor": 0.161,
+    "n_artists": 0.109,
+    "price_usd": 0.074
+  },
+  "n_tracks": 1700,
+  "n_positive": 100
+}

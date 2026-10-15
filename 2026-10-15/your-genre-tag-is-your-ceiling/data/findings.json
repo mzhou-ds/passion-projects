@@ -1,0 +1,393 @@
+{
+  "snapshot": "2026-10-15",
+  "source": "Beatport overall Top 100 + 17 homepage-promoted genre Top 100s",
+  "partition": {
+    "chart_slots": 1800,
+    "genre_chart_slots": 1700,
+    "unique_tracks": 1700,
+    "tracks_on_2plus_genre_charts": 0,
+    "main_tracks_sourced_from_genre_charts": 100
+  },
+  "main_chart": {
+    "composition": {
+      "house": 30,
+      "tech-house": 20,
+      "indie-tech": 9,
+      "uk-garage-bassline": 8,
+      "drum-bass": 7,
+      "dance-pop": 6,
+      "melodic-house-techno": 4,
+      "bass-house": 3,
+      "afro-house": 3,
+      "deep-house": 2,
+      "progressive-house": 2,
+      "techno-peak-time-driving": 1,
+      "mainstage": 1,
+      "funky-house": 1,
+      "minimal-deep-tech": 1,
+      "indie-dance": 1,
+      "techno-raw-deep-hypnotic": 1
+    },
+    "house_family_share": 0.5,
+    "median_age_main": 27.0,
+    "median_age_nonmain": 55.5,
+    "median_main_rank_by_genre": {
+      "afro-house": 92.0,
+      "bass-house": 40.0,
+      "dance-pop": 27.5,
+      "deep-house": 11.0,
+      "drum-bass": 66.0,
+      "funky-house": 79.0,
+      "house": 44.5,
+      "indie-dance": 94.0,
+      "indie-tech": 37.0,
+      "mainstage": 69.0,
+      "melodic-house-techno": 69.0,
+      "minimal-deep-tech": 80.0,
+      "progressive-house": 38.0,
+      "tech-house": 47.5,
+      "techno-peak-time-driving": 46.0,
+      "techno-raw-deep-hypnotic": 98.0,
+      "uk-garage-bassline": 46.0
+    },
+    "genres_with_exactly_1_main_track": 6
+  },
+  "network": {
+    "artists": 1753,
+    "artists_2plus_genres": 246,
+    "share_artists_2plus_genres": 0.14,
+    "artists_3plus_genres": 70,
+    "max_genres": 6,
+    "top_crossers": [
+      {
+        "artist": "Chris Lake",
+        "tracks": 10,
+        "genres": 6
+      },
+      {
+        "artist": "Tiga",
+        "tracks": 10,
+        "genres": 6
+      },
+      {
+        "artist": "David Guetta",
+        "tracks": 14,
+        "genres": 5
+      },
+      {
+        "artist": "HUGEL",
+        "tracks": 13,
+        "genres": 5
+      },
+      {
+        "artist": "Chris Lorenzo",
+        "tracks": 8,
+        "genres": 5
+      },
+      {
+        "artist": "Dom Dolla",
+        "tracks": 8,
+        "genres": 5
+      },
+      {
+        "artist": "Kettama",
+        "tracks": 8,
+        "genres": 5
+      },
+      {
+        "artist": "Skrillex",
+        "tracks": 8,
+        "genres": 5
+      },
+      {
+        "artist": "Fred again..",
+        "tracks": 7,
+        "genres": 5
+      },
+      {
+        "artist": "Luke Dean",
+        "tracks": 6,
+        "genres": 5
+      }
+    ],
+    "top_by_tracks": [
+      {
+        "artist": "Cloonee",
+        "tracks": 17,
+        "genres": 3
+      },
+      {
+        "artist": "David Guetta",
+        "tracks": 14,
+        "genres": 5
+      },
+      {
+        "artist": "HUGEL",
+        "tracks": 13,
+        "genres": 5
+      },
+      {
+        "artist": "Block & Crown",
+        "tracks": 12,
+        "genres": 1
+      },
+      {
+        "artist": "Chris Lake",
+        "tracks": 10,
+        "genres": 6
+      },
+      {
+        "artist": "Calvin Harris",
+        "tracks": 10,
+        "genres": 4
+      },
+      {
+        "artist": "Tiga",
+        "tracks": 10,
+        "genres": 6
+      },
+      {
+        "artist": "CHRIS STASSY",
+        "tracks": 10,
+        "genres": 1
+      },
+      {
+        "artist": "Max Styler",
+        "tracks": 10,
+        "genres": 2
+      },
+      {
+        "artist": "Steve Tosi",
+        "tracks": 9,
+        "genres": 2
+      }
+    ],
+    "genre_pairs_shared_artists_top": [
+      {
+        "pair": [
+          "indie-tech",
+          "tech-house"
+        ],
+        "shared_artists": 25
+      },
+      {
+        "pair": [
+          "dance-pop",
+          "indie-tech"
+        ],
+        "shared_artists": 18
+      },
+      {
+        "pair": [
+          "dance-pop",
+          "mainstage"
+        ],
+        "shared_artists": 17
+      },
+      {
+        "pair": [
+          "bass-house",
+          "indie-tech"
+        ],
+        "shared_artists": 17
+      },
+      {
+        "pair": [
+          "house",
+          "tech-house"
+        ],
+        "shared_artists": 17
+      },
+      {
+        "pair": [
+          "indie-dance",
+          "indie-tech"
+        ],
+        "shared_artists": 16
+      },
+      {
+        "pair": [
+          "deep-house",
+          "house"
+        ],
+        "shared_artists": 15
+      },
+      {
+        "pair": [
+          "dance-pop",
+          "tech-house"
+        ],
+        "shared_artists": 15
+      },
+      {
+        "pair": [
+          "house",
+          "minimal-deep-tech"
+        ],
+        "shared_artists": 14
+      },
+      {
+        "pair": [
+          "bass-house",
+          "tech-house"
+        ],
+        "shared_artists": 13
+      }
+    ],
+    "genre_pairs_total_with_sharing": 96,
+    "graph": {
+      "nodes": 1753,
+      "edges": 1300,
+      "components": 809,
+      "largest_component": 323,
+      "isolated_artists": 467
+    },
+    "top_degree": [
+      [
+        "HUGEL",
+        24
+      ],
+      [
+        "David Guetta",
+        22
+      ],
+      [
+        "Cloonee",
+        18
+      ],
+      [
+        "Chris Lake",
+        15
+      ],
+      [
+        "ARTBAT",
+        13
+      ],
+      [
+        "Keinemusik",
+        12
+      ],
+      [
+        "Chris Lorenzo",
+        11
+      ],
+      [
+        "Aaron Sevilla",
+        11
+      ],
+      [
+        "Skrillex",
+        11
+      ],
+      [
+        "Dimitri Vegas & Like Mike",
+        11
+      ]
+    ],
+    "communities": {
+      "community_0": {
+        "size": 33,
+        "top_genres": {
+          "dance-pop": 8,
+          "bass-house": 6,
+          "drum-bass": 5
+        }
+      },
+      "community_1": {
+        "size": 31,
+        "top_genres": {
+          "mainstage": 16,
+          "dance-pop": 5,
+          "afro-house": 3
+        }
+      },
+      "community_2": {
+        "size": 25,
+        "top_genres": {
+          "techno-peak-time-driving": 6,
+          "melodic-house-techno": 5,
+          "bass-house": 5
+        }
+      },
+      "community_3": {
+        "size": 24,
+        "top_genres": {
+          "indie-tech": 9,
+          "dance-pop": 6,
+          "indie-dance": 4
+        }
+      },
+      "community_4": {
+        "size": 23,
+        "top_genres": {
+          "afro-house": 12,
+          "dance-pop": 5,
+          "indie-tech": 2
+        }
+      },
+      "community_5": {
+        "size": 22,
+        "top_genres": {
+          "indie-tech": 6,
+          "mainstage": 4,
+          "dance-pop": 4
+        }
+      }
+    }
+  },
+  "remix": {
+    "tracks_with_remixer": 144,
+    "share": 0.085,
+    "main_rate_with_remixer": 0.028,
+    "main_rate_without": 0.062,
+    "share_remixer_outranks_original": 0.229,
+    "main_rate_remixer_outranks": 0.03,
+    "main_rate_remixer_not_outrank": 0.027,
+    "top_remixers": [
+      [
+        "John Summit",
+        3
+      ],
+      [
+        "Boris Brejcha",
+        3
+      ],
+      [
+        "Kepler (UK)",
+        2
+      ],
+      [
+        "Adam Beyer",
+        2
+      ],
+      [
+        "Max Dean",
+        2
+      ],
+      [
+        "Armand Van Helden",
+        2
+      ],
+      [
+        "Carl Cox",
+        2
+      ],
+      [
+        "Dilby",
+        2
+      ],
+      [
+        "Radio Slave",
+        2
+      ],
+      [
+        "Crazibiza",
+        2
+      ]
+    ]
+  },
+  "collab_share_overall": 0.461,
+  "unique_labels_overall": 756,
+  "subgenre_tagged_share": 0.121,
+  "minor_key_share": 0.551
+}

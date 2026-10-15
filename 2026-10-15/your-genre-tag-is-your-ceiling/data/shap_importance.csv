@@ -1,0 +1,14 @@
+,mean_abs_shap
+genre_shelf (all 17 tags),1.1479279
+age_days,1.0150151
+artist_other_tracks,0.68113446
+len_min,0.50153524
+bpm,0.36333007
+artist_other_genres,0.2537173
+label_other_tracks,0.17538427
+minor,0.16063407
+n_artists,0.10917208
+price_usd,0.07403752
+explicit,0.04283748
+extended,0.03264402
+has_remixer,0.012528509

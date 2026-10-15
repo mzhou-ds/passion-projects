@@ -1,0 +1,18 @@
+genre_slug,genre,tracks,in_main,main_rate,median_age_days,share_le_14d,share_gt_365d,median_bpm,median_len_min,extended_share,collab_share,remixer_share,unique_labels,label_hhi,top_label,top_label_tracks,median_price_usd
+house,House,100,30,0.3,62.0,0.2,0.22,129.5,5.89,0.59,0.42,0.04,61,348.0,LTF Records,13,1.69
+tech-house,Tech House,100,20,0.2,43.0,0.27,0.14,129.0,5.43,0.7,0.58,0.02,70,314.0,Hellbent Records,13,1.69
+indie-tech,Indie Tech,100,9,0.09,69.0,0.24,0.16,127.0,5.28,0.68,0.68,0.04,59,340.0,Nu Moda,12,1.5899999999999999
+uk-garage-bassline,UK Garage / Bassline,100,8,0.08,112.0,0.19,0.21,135.0,4.74,0.5,0.41,0.06,57,382.0,ATW Records,10,1.49
+drum-bass,Drum & Bass,100,7,0.07,20.0,0.45,0.02,87.0,4.08,0.05,0.55,0.07,48,318.0,Souped Up Records,7,1.69
+dance-pop,Dance / Pop,100,6,0.06,240.5,0.13,0.38,128.0,4.96,0.68,0.62,0.08,74,192.0,Columbia (Sony),6,1.49
+melodic-house-techno,Melodic House & Techno,100,4,0.04,27.0,0.41,0.16,124.5,5.68,0.43,0.55,0.12,66,210.0,Keinemusik,5,1.69
+afro-house,Afro House,100,3,0.03,83.0,0.23,0.3,122.0,5.53,0.57,0.69,0.04,62,262.0,Make The Girls Dance Records,9,1.49
+bass-house,Bass House,100,3,0.03,51.5,0.2,0.09,130.0,4.46,0.69,0.51,0.02,69,208.0,Catch & Release,7,1.69
+deep-house,Deep House,100,2,0.02,153.0,0.23,0.4,127.0,6.26,0.21,0.38,0.15,68,320.0,Up The Stuss,11,1.49
+progressive-house,Progressive House,100,2,0.02,20.0,0.44,0.05,123.0,7.17,0.3,0.4,0.26,54,354.0,Meanwhile,10,1.69
+indie-dance,Indie Dance,100,1,0.01,118.0,0.22,0.39,125.0,5.62,0.27,0.37,0.09,79,174.0,Ninja Tune,6,1.49
+funky-house,Funky House,100,1,0.01,62.0,0.24,0.26,126.0,4.75,0.26,0.38,0.09,42,744.0,PornoStar Records,19,1.49
+minimal-deep-tech,Minimal / Deep Tech,100,1,0.01,103.0,0.23,0.23,130.0,5.93,0.21,0.18,0.04,65,230.0,Solid Grooves Records,7,1.49
+mainstage,Mainstage,100,1,0.01,114.5,0.14,0.33,130.0,4.69,0.73,0.55,0.11,66,226.0,EXTATIC Records,6,1.49
+techno-peak-time-driving,Techno (Peak Time / Driving),100,1,0.01,30.5,0.34,0.13,133.0,5.63,0.15,0.38,0.15,53,580.0,Drumcode,20,1.69
+techno-raw-deep-hypnotic,Techno (Raw / Deep / Hypnotic),100,1,0.01,41.0,0.22,0.11,140.0,5.37,0.03,0.18,0.06,51,488.0,Mutual Rytm,17,1.69
