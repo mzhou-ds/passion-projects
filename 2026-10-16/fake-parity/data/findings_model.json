@@ -1,0 +1,59 @@
+{
+ "auc_logreg_test": 0.497,
+ "auc_xgboost_test": 0.502,
+ "train_games": 10724,
+ "test_games": 3936,
+ "conditional_ot_rates": {
+  "overall": 0.2266,
+  "divisional": 0.2265,
+  "intra_conf_nondiv": 0.2335,
+  "inter_conf": 0.2216,
+  "both_bubble": 0.2258,
+  "not_both_bubble": 0.2267,
+  "late_season": 0.2296,
+  "early_season": 0.2257,
+  "late_both_bubble": 0.2392,
+  "late_inter_conf": 0.2227,
+  "mismatch_absdiff_gt_015": 0.2165,
+  "close_absdiff_lt_005": 0.232
+ },
+ "counts": {
+  "late_both_bubble_n": 1338,
+  "both_bubble_n": 2108,
+  "inter_conf_n": 5231
+ },
+ "shap_top": [
+  {
+   "feature": "away_ot_rate",
+   "mean_abs_shap": 0.10089779645204544
+  },
+  {
+   "feature": "abs_pct_diff",
+   "mean_abs_shap": 0.07751350104808807
+  },
+  {
+   "feature": "away_dist_cut",
+   "mean_abs_shap": 0.07163558155298233
+  },
+  {
+   "feature": "home_gp",
+   "mean_abs_shap": 0.0644034892320633
+  },
+  {
+   "feature": "away_pct",
+   "mean_abs_shap": 0.05694776028394699
+  },
+  {
+   "feature": "season_progress",
+   "mean_abs_shap": 0.05655795708298683
+  },
+  {
+   "feature": "home_ot_rate",
+   "mean_abs_shap": 0.05610406771302223
+  },
+  {
+   "feature": "home_pct",
+   "mean_abs_shap": 0.05505092442035675
+  }
+ ]
+}

@@ -1,0 +1,236 @@
+{
+ "validation": {
+  "team_seasons_checked": 372,
+  "mismatches": 1,
+  "mismatch_detail": [
+   {
+    "season_label": "2023-24",
+    "team": "MIN",
+    "pts_nhl": 88,
+    "official_points": 87
+   }
+  ]
+ },
+ "merchants": {
+  "top_team_seasons": [
+   {
+    "season_label": "2013-14",
+    "team": "NJD",
+    "wins": 35,
+    "reg_w": 26,
+    "ot_losses": 18,
+    "pts_nhl": 88,
+    "lp_share": 0.205
+   },
+   {
+    "season_label": "2014-15",
+    "team": "PHI",
+    "wins": 33,
+    "reg_w": 25,
+    "ot_losses": 18,
+    "pts_nhl": 84,
+    "lp_share": 0.214
+   },
+   {
+    "season_label": "2022-23",
+    "team": "CGY",
+    "wins": 38,
+    "reg_w": 31,
+    "ot_losses": 17,
+    "pts_nhl": 93,
+    "lp_share": 0.183
+   },
+   {
+    "season_label": "2015-16",
+    "team": "CAR",
+    "wins": 35,
+    "reg_w": 25,
+    "ot_losses": 16,
+    "pts_nhl": 86,
+    "lp_share": 0.186
+   },
+   {
+    "season_label": "2022-23",
+    "team": "SJS",
+    "wins": 22,
+    "reg_w": 16,
+    "ot_losses": 16,
+    "pts_nhl": 60,
+    "lp_share": 0.267
+   }
+  ],
+  "top_teams_12yr": [
+   {
+    "team": "PHI",
+    "otl": 134,
+    "pts": 988,
+    "lp_share": 0.136
+   },
+   {
+    "team": "DET",
+    "otl": 128,
+    "pts": 930,
+    "lp_share": 0.138
+   },
+   {
+    "team": "ANA",
+    "otl": 121,
+    "pts": 997,
+    "lp_share": 0.121
+   },
+   {
+    "team": "NJD",
+    "otl": 121,
+    "pts": 949,
+    "lp_share": 0.128
+   },
+   {
+    "team": "NYI",
+    "otl": 121,
+    "pts": 1061,
+    "lp_share": 0.114
+   }
+  ],
+  "top_playoff_teams": [
+   {
+    "season_label": "2023-24",
+    "team": "NYI",
+    "wins": 39,
+    "reg_w": 29,
+    "ot_losses": 16
+   },
+   {
+    "season_label": "2013-14",
+    "team": "CHI",
+    "wins": 46,
+    "reg_w": 39,
+    "ot_losses": 15
+   },
+   {
+    "season_label": "2013-14",
+    "team": "DET",
+    "wins": 39,
+    "reg_w": 30,
+    "ot_losses": 15
+   },
+   {
+    "season_label": "2016-17",
+    "team": "TOR",
+    "wins": 40,
+    "reg_w": 33,
+    "ot_losses": 15
+   },
+   {
+    "season_label": "2023-24",
+    "team": "BOS",
+    "wins": 47,
+    "reg_w": 36,
+    "ot_losses": 15
+   }
+  ]
+ },
+ "hope_raw_mar1_means": {
+  "nhl": 22.18,
+  "wl": 21.45,
+  "iihf": 21.82
+ },
+ "flips": [
+  {
+   "season": 20142015,
+   "season_label": "2014-15",
+   "system": "iihf",
+   "in": [
+    "LAK"
+   ],
+   "out": [
+    "CGY"
+   ]
+  },
+  {
+   "season": 20152016,
+   "season_label": "2015-16",
+   "system": "wl",
+   "in": [
+    "COL",
+    "DET"
+   ],
+   "out": [
+    "MIN",
+    "PHI"
+   ]
+  },
+  {
+   "season": 20162017,
+   "season_label": "2016-17",
+   "system": "wl",
+   "in": [
+    "TBL"
+   ],
+   "out": [
+    "TOR"
+   ]
+  },
+  {
+   "season": 20172018,
+   "season_label": "2017-18",
+   "system": "wl",
+   "in": [
+    "FLA",
+    "STL"
+   ],
+   "out": [
+    "COL",
+    "PHI"
+   ]
+  },
+  {
+   "season": 20172018,
+   "season_label": "2017-18",
+   "system": "iihf",
+   "in": [
+    "FLA"
+   ],
+   "out": [
+    "CBJ"
+   ]
+  },
+  {
+   "season": 20182019,
+   "season_label": "2018-19",
+   "system": "wl",
+   "in": [
+    "ARI"
+   ],
+   "out": [
+    "COL"
+   ]
+  },
+  {
+   "season": 20232024,
+   "season_label": "2023-24",
+   "system": "wl",
+   "in": [
+    "DET"
+   ],
+   "out": [
+    "NYI"
+   ]
+  }
+ ],
+ "n_field_flips_wl": 5,
+ "n_field_flips_iihf": 2,
+ "seasons_simulated": 10,
+ "hope_mar1_means": {
+  "nhl": 19.36,
+  "wl": 19.36,
+  "iihf": 18.82
+ },
+ "hope_mar1_total_teams": 32,
+ "ot_rate_first_season": 0.2496,
+ "ot_rate_last_season": 0.2066,
+ "ot_rate_all": 0.2266,
+ "total_games": 14660,
+ "total_loser_points": 3322,
+ "spread_ratio_nhl_vs_wl": 0.949,
+ "spread_ratio_nhl_vs_iihf": 1.016
+}

@@ -1,0 +1,17 @@
+feature,mean_abs_shap
+away_ot_rate,0.1008978
+abs_pct_diff,0.0775135
+away_dist_cut,0.07163558
+home_gp,0.06440349
+away_pct,0.05694776
+season_progress,0.056557957
+home_ot_rate,0.056104068
+home_pct,0.055050924
+home_dist_cut,0.054521557
+away_rest,0.036863916
+one_longshot,0.025506437
+home_rest,0.020041557
+inter_conf,0.009184941
+both_bubble,0.0055939876
+late_season,0.0054195393
+divisional,0.005233202
