@@ -1,0 +1,25 @@
+Build #41 - The Famous Tao Never Changes. Everything Else Gets Rewritten.
+Topic: philosophy. Corpus: Tao Te Ching in 4 English translations (Chalmers 1868,
+Legge 1891, Carus 1898, Linnell 2015), chapter-aligned to the Chinese source
+(Gutenberg #7337); control = Meditations, Long 1862 vs Chrystal 1902.
+
+1. Famous chapters drift LESS: anthology ten (1,8,11,25,33,42,56,76,78,81)
+   TF-IDF distance Legge->Linnell 0.717 vs 0.794 for the rest (permutation
+   p=0.007). Least reinvented overall: ch.25 (0.565). Most reinvented: ch.68
+   military advice (0.941), then 28, 21, 51, 48.
+2. Drift splits by cluster: the 38-chapter statecraft cluster carries the
+   highest drift and loses governance/war vocabulary (-2.5/1000); the nature/
+   metaphysics cluster absorbs the therapy/self vocabulary gain (+8.5/1000).
+   Overall 1868->2015: therapy/self +145%, governance/war -30%, nature flat.
+3. Sentence collapse: mean sentence 20.4 words (Legge) -> 11.9 (Linnell),
+   -42%, Cohen's d -2.08; control Meditations only 25.0 -> 21.5 (d -0.54).
+   Second person 1.1 -> 14.2 per 1000; modals -77%; imperatives ~5x;
+   negation +45%.
+4. Era is machine-detectable: XGBoost on language features only dates a
+   chapter at 55% CV accuracy (4 eras, chance 25%); 75% on the three clean
+   editions (chance 33%). Top SHAP: sentence length, tao/dao naming, modals.
+5. Small surprises: the 2015 "minimalist" is not the leanest (1.73 English
+   words per Chinese character vs Carus 1898 at 1.65; Legge 1.99). Carus
+   glosses Tao as "Reason" (8.6/1000) and almost never writes Tao/Dao.
+Control honesty: therapy words also rose in Chrystal's Marcus Aurelius
+(2.7 -> 4.2/1000); part of the softening is the century, not just the Tao.

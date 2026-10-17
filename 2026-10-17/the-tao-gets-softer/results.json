@@ -1,0 +1,515 @@
+{
+ "coverage": {
+  "carus": 76,
+  "chalmers": 67,
+  "legge": 81,
+  "linnell": 81
+ },
+ "era_panel_per_1000_words": {
+  "lex_therapy_self": {
+   "chalmers": 2.79,
+   "legge": 2.57,
+   "carus": 4.42,
+   "linnell": 6.82
+  },
+  "lex_governance_war": {
+   "chalmers": 11.16,
+   "legge": 8.91,
+   "carus": 9.39,
+   "linnell": 7.78
+  },
+  "lex_nature": {
+   "chalmers": 9.03,
+   "legge": 9.34,
+   "carus": 9.24,
+   "linnell": 8.6
+  },
+  "lex_reason_gloss": {
+   "chalmers": 1.5,
+   "legge": 0.37,
+   "carus": 8.63,
+   "linnell": 0.92
+  },
+  "second_person": {
+   "chalmers": 3.77,
+   "legge": 1.13,
+   "carus": 3.14,
+   "linnell": 14.24
+  },
+  "first_person": {
+   "chalmers": 12.51,
+   "legge": 12.93,
+   "carus": 10.81,
+   "linnell": 7.28
+  },
+  "modal_rate": {
+   "chalmers": 7.63,
+   "legge": 6.53,
+   "carus": 3.35,
+   "linnell": 1.73
+  },
+  "hedge_rate": {
+   "chalmers": 2.12,
+   "legge": 2.84,
+   "carus": 2.44,
+   "linnell": 3.76
+  },
+  "negation_rate": {
+   "chalmers": 31.36,
+   "legge": 29.17,
+   "carus": 38.0,
+   "linnell": 45.51
+  },
+  "sage_rate": {
+   "chalmers": 3.66,
+   "legge": 3.13,
+   "carus": 0.36,
+   "linnell": 4.34
+  },
+  "tao_dao_rate": {
+   "chalmers": 9.2,
+   "legge": 7.76,
+   "carus": 0.05,
+   "linnell": 7.03
+  },
+  "nominalization_rate": {
+   "chalmers": 20.23,
+   "legge": 22.84,
+   "carus": 19.19,
+   "linnell": 22.17
+  },
+  "mean_sentence_len": {
+   "chalmers": 14.03,
+   "legge": 20.39,
+   "carus": 11.5,
+   "linnell": 11.93
+  },
+  "imperative_rate": {
+   "chalmers": 0.66,
+   "legge": 1.54,
+   "carus": 0.81,
+   "linnell": 3.86
+  },
+  "question_rate": {
+   "chalmers": 2.19,
+   "legge": 5.62,
+   "carus": 5.01,
+   "linnell": 5.59
+  }
+ },
+ "era_words_total": {
+  "chalmers": 9798,
+  "legge": 10390,
+  "carus": 8030,
+  "linnell": 9090
+ },
+ "era_mean_chapter_words": {
+  "chalmers": 146.2,
+  "legge": 128.3,
+  "carus": 105.7,
+  "linnell": 112.2
+ },
+ "chapters_in_all_four": 64,
+ "mean_words_per_cn_char": {
+  "chalmers": 2.28,
+  "legge": 1.992,
+  "carus": 1.645,
+  "linnell": 1.725
+ },
+ "most_reinvented_legge_to_linnell": [
+  {
+   "chapter": 68,
+   "tfidf_distance": 0.941
+  },
+  {
+   "chapter": 28,
+   "tfidf_distance": 0.926
+  },
+  {
+   "chapter": 21,
+   "tfidf_distance": 0.914
+  },
+  {
+   "chapter": 51,
+   "tfidf_distance": 0.904
+  },
+  {
+   "chapter": 48,
+   "tfidf_distance": 0.902
+  },
+  {
+   "chapter": 19,
+   "tfidf_distance": 0.895
+  },
+  {
+   "chapter": 29,
+   "tfidf_distance": 0.891
+  },
+  {
+   "chapter": 32,
+   "tfidf_distance": 0.881
+  },
+  {
+   "chapter": 10,
+   "tfidf_distance": 0.877
+  },
+  {
+   "chapter": 2,
+   "tfidf_distance": 0.873
+  },
+  {
+   "chapter": 71,
+   "tfidf_distance": 0.872
+  },
+  {
+   "chapter": 47,
+   "tfidf_distance": 0.872
+  }
+ ],
+ "least_reinvented_legge_to_linnell": [
+  {
+   "chapter": 1,
+   "tfidf_distance": 0.645
+  },
+  {
+   "chapter": 20,
+   "tfidf_distance": 0.63
+  },
+  {
+   "chapter": 43,
+   "tfidf_distance": 0.613
+  },
+  {
+   "chapter": 46,
+   "tfidf_distance": 0.607
+  },
+  {
+   "chapter": 33,
+   "tfidf_distance": 0.596
+  },
+  {
+   "chapter": 50,
+   "tfidf_distance": 0.595
+  },
+  {
+   "chapter": 70,
+   "tfidf_distance": 0.582
+  },
+  {
+   "chapter": 25,
+   "tfidf_distance": 0.565
+  }
+ ],
+ "mean_tfidf_distance": {
+  "dist_chalmers_linnell": 0.8,
+  "dist_legge_linnell": 0.785,
+  "dist_carus_linnell": 0.761,
+  "dist_chalmers_legge": 0.727,
+  "dist_legge_carus": 0.763
+ },
+ "famous_chapters": {
+  "famous_set": [
+   1,
+   8,
+   11,
+   25,
+   33,
+   42,
+   56,
+   76,
+   78,
+   81
+  ],
+  "mean_drift_famous": 0.717,
+  "mean_drift_rest": 0.794,
+  "permutation_p_two_sided": 0.007
+ },
+ "era_classifier": {
+  "cv_accuracy_mean": 0.551,
+  "cv_accuracy_sd": 0.086,
+  "chance": 0.25,
+  "features": [
+   "lex_therapy_self",
+   "lex_governance_war",
+   "lex_nature",
+   "lex_reason_gloss",
+   "second_person",
+   "first_person",
+   "modal_rate",
+   "hedge_rate",
+   "negation_rate",
+   "sage_rate",
+   "tao_dao_rate",
+   "nominalization_rate",
+   "mean_sentence_len",
+   "imperative_rate",
+   "question_rate"
+  ],
+  "shap_importance": {
+   "mean_sentence_len": 0.918,
+   "tao_dao_rate": 0.506,
+   "modal_rate": 0.304,
+   "negation_rate": 0.279,
+   "sage_rate": 0.263,
+   "nominalization_rate": 0.228,
+   "first_person": 0.201,
+   "lex_reason_gloss": 0.201,
+   "question_rate": 0.182,
+   "second_person": 0.158,
+   "lex_governance_war": 0.151,
+   "lex_nature": 0.133,
+   "lex_therapy_self": 0.111,
+   "hedge_rate": 0.048,
+   "imperative_rate": 0.042
+  }
+ },
+ "era_classifier_no_chalmers": {
+  "cv_accuracy_mean": 0.752,
+  "chance": 0.333
+ },
+ "chapter_clusters": {
+  "0": {
+   "chapters": [
+    1,
+    3,
+    5,
+    6,
+    7,
+    9,
+    12,
+    13,
+    14,
+    15,
+    20,
+    25,
+    31,
+    33,
+    35,
+    41,
+    42,
+    43,
+    45,
+    46,
+    49,
+    50,
+    53,
+    55,
+    59,
+    63,
+    64,
+    66,
+    67,
+    70,
+    71,
+    75,
+    76,
+    77,
+    78,
+    80,
+    81
+   ],
+   "mean": {
+    "dist_legge_linnell": 0.727,
+    "dist_carus_linnell": 0.691,
+    "therapy_delta": 8.486,
+    "governance_delta": 0.532,
+    "expansion_delta": -0.348
+   }
+  },
+  "1": {
+   "chapters": [
+    4,
+    8,
+    10,
+    16,
+    17,
+    18,
+    19,
+    21,
+    22,
+    23,
+    24,
+    26,
+    27,
+    28,
+    29,
+    30,
+    32,
+    34,
+    36,
+    38,
+    39,
+    40,
+    44,
+    48,
+    51,
+    52,
+    54,
+    56,
+    57,
+    58,
+    60,
+    61,
+    62,
+    65,
+    68,
+    72,
+    73,
+    79
+   ],
+   "mean": {
+    "dist_legge_linnell": 0.838,
+    "dist_carus_linnell": 0.826,
+    "therapy_delta": 0.391,
+    "governance_delta": -2.465,
+    "expansion_delta": -0.439
+   }
+  },
+  "2": {
+   "chapters": [
+    2
+   ],
+   "mean": {
+    "dist_legge_linnell": 0.873,
+    "dist_carus_linnell": 0.866,
+    "therapy_delta": 15.402,
+    "governance_delta": 2.2,
+    "expansion_delta": 7.773
+   }
+  }
+ },
+ "cohens_d_legge_to_linnell": {
+  "lex_therapy_self": 0.37,
+  "lex_governance_war": -0.09,
+  "lex_nature": -0.05,
+  "lex_reason_gloss": 0.21,
+  "second_person": 0.7,
+  "first_person": -0.31,
+  "modal_rate": -0.55,
+  "hedge_rate": 0.09,
+  "negation_rate": 0.66,
+  "sage_rate": 0.19,
+  "tao_dao_rate": -0.06,
+  "nominalization_rate": -0.02,
+  "mean_sentence_len": -2.08,
+  "imperative_rate": 0.28,
+  "question_rate": -0.0
+ },
+ "cohens_d_long_to_chrystal_meditations": {
+  "lex_therapy_self": 0.9,
+  "lex_governance_war": 0.64,
+  "lex_nature": 0.24,
+  "lex_reason_gloss": -0.65,
+  "second_person": 0.62,
+  "first_person": 0.49,
+  "modal_rate": 0.83,
+  "hedge_rate": -0.03,
+  "negation_rate": 0.33,
+  "sage_rate": 0.0,
+  "tao_dao_rate": 0.0,
+  "nominalization_rate": 0.2,
+  "mean_sentence_len": -0.54,
+  "imperative_rate": 0.51,
+  "question_rate": 0.26
+ },
+ "mean_abs_d": {
+  "tao_1891_to_2015": 0.38,
+  "meditations_1862_to_1902": 0.42
+ },
+ "meditations_panel": {
+  "lex_therapy_self": {
+   "long_1862": 2.73,
+   "chrystal_1902": 4.19
+  },
+  "lex_governance_war": {
+   "long_1862": 1.35,
+   "chrystal_1902": 2.03
+  },
+  "lex_nature": {
+   "long_1862": 1.64,
+   "chrystal_1902": 1.89
+  },
+  "lex_reason_gloss": {
+   "long_1862": 2.11,
+   "chrystal_1902": 1.59
+  },
+  "second_person": {
+   "long_1862": 21.4,
+   "chrystal_1902": 26.9
+  },
+  "first_person": {
+   "long_1862": 13.06,
+   "chrystal_1902": 17.63
+  },
+  "modal_rate": {
+   "long_1862": 6.84,
+   "chrystal_1902": 8.42
+  },
+  "hedge_rate": {
+   "long_1862": 1.32,
+   "chrystal_1902": 1.3
+  },
+  "negation_rate": {
+   "long_1862": 19.13,
+   "chrystal_1902": 20.2
+  },
+  "sage_rate": {
+   "long_1862": 0.0,
+   "chrystal_1902": 0.0
+  },
+  "tao_dao_rate": {
+   "long_1862": 0.0,
+   "chrystal_1902": 0.0
+  },
+  "nominalization_rate": {
+   "long_1862": 16.11,
+   "chrystal_1902": 16.75
+  },
+  "mean_sentence_len": {
+   "long_1862": 25.02,
+   "chrystal_1902": 21.54
+  },
+  "imperative_rate": {
+   "long_1862": 4.67,
+   "chrystal_1902": 6.2
+  },
+  "question_rate": {
+   "long_1862": 10.92,
+   "chrystal_1902": 12.66
+  }
+ },
+ "headline_deltas_pct_1868_to_2015": {
+  "lex_therapy_self": 144.5,
+  "lex_governance_war": -30.3,
+  "lex_nature": -4.8,
+  "lex_reason_gloss": -38.8,
+  "second_person": 277.7,
+  "first_person": -41.9,
+  "modal_rate": -77.4,
+  "hedge_rate": 77.3,
+  "negation_rate": 45.1,
+  "sage_rate": 18.8,
+  "tao_dao_rate": -23.6,
+  "nominalization_rate": 9.6,
+  "mean_sentence_len": -15.0,
+  "imperative_rate": 483.4,
+  "question_rate": 155.6
+ },
+ "headline_deltas_pct_1891_to_2015": {
+  "lex_therapy_self": 165.6,
+  "lex_governance_war": -12.7,
+  "lex_nature": -7.9,
+  "lex_reason_gloss": 150.4,
+  "second_person": 1155.0,
+  "first_person": -43.7,
+  "modal_rate": -73.5,
+  "hedge_rate": 32.1,
+  "negation_rate": 56.0,
+  "sage_rate": 38.9,
+  "tao_dao_rate": -9.4,
+  "nominalization_rate": -2.9,
+  "mean_sentence_len": -41.5,
+  "imperative_rate": 150.1,
+  "question_rate": -0.6
+ }
+}
