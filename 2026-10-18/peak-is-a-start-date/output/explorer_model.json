@@ -1,0 +1,79 @@
+{
+ "bands": [
+  {
+   "band": "16-19",
+   "n": 357,
+   "peak_age_med": 26.5,
+   "yrs_to_peak_med": 8.4,
+   "peak_gl_med": 92.7
+  },
+  {
+   "band": "20-24",
+   "n": 596,
+   "peak_age_med": 29.5,
+   "yrs_to_peak_med": 7.9,
+   "peak_gl_med": 93.0
+  },
+  {
+   "band": "25-29",
+   "n": 369,
+   "peak_age_med": 34.0,
+   "yrs_to_peak_med": 7.2,
+   "peak_gl_med": 90.6
+  },
+  {
+   "band": "30-34",
+   "n": 297,
+   "peak_age_med": 38.5,
+   "yrs_to_peak_med": 6.5,
+   "peak_gl_med": 85.5
+  },
+  {
+   "band": "35-39",
+   "n": 246,
+   "peak_age_med": 43.0,
+   "yrs_to_peak_med": 6.0,
+   "peak_gl_med": 83.6
+  },
+  {
+   "band": "40-44",
+   "n": 239,
+   "peak_age_med": 46.5,
+   "yrs_to_peak_med": 4.6,
+   "peak_gl_med": 78.1
+  },
+  {
+   "band": "45-49",
+   "n": 203,
+   "peak_age_med": 51.5,
+   "yrs_to_peak_med": 3.9,
+   "peak_gl_med": 76.5
+  },
+  {
+   "band": "50-59",
+   "n": 280,
+   "peak_age_med": 57.5,
+   "yrs_to_peak_med": 3.5,
+   "peak_gl_med": 70.6
+  }
+ ],
+ "at_age": {
+  "50": {
+   "n": 550,
+   "retained_med": 96.7,
+   "xsection_retained": 85.4
+  },
+  "60": {
+   "n": 376,
+   "retained_med": 95.8,
+   "xsection_retained": 77.4
+  },
+  "70": {
+   "n": 143,
+   "retained_med": 91.7,
+   "xsection_retained": 68.9
+  }
+ },
+ "slope": 0.885,
+ "intercept": 9.96
+}

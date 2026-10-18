@@ -1,0 +1,4 @@
+data/openipf-latest.zip
+data/openipf-*/
+data/exit_panel.parquet
+__pycache__/

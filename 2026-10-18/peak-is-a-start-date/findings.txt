@@ -1,0 +1,7 @@
+Build #42 - The Peak Is a Start Date (fitness) - 2026-10-18
+181,299 careers rebuilt from 495,732 OpenIPF raw full-power entries (1990-2026).
+1) Peak age ~ start age: slope 0.885 (CI 0.876-0.894); women 0.927, men 0.870; finished careers 0.876. Start 45-49 -> peak 51.5; start 50-59 -> peak 57.5.
+2) Late starters peak lower/slower: career-best Goodlift 93 (teen starters) -> 71 (50s); early gains 5.0%/yr vs 1.7%/yr.
+3) Post-peak decline is slow: 94.7% retained at +5y, 91.0% at +10y.
+4) Within-lifter at 60: 95.8% of own peak vs cross-section 77.4%; at 70: 91.7% vs 68.9%.
+5) Exit: 27.8% after a PR vs 33.1% after a disaster meet; XGBoost AUC 0.68, meet result near-last in SHAP.

@@ -1,0 +1,36 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8">
+<title>When Will You Peak? - The Peak Is a Start Date</title>
+<style>body{font-family:system-ui,sans-serif;max-width:640px;margin:40px auto;padding:0 16px;color:#1c1c1c}
+h1{font-size:24px}label{display:block;margin:14px 0 4px;font-weight:600}
+input,select{padding:8px;font-size:16px}button{margin-top:18px;padding:10px 18px;font-size:16px;background:#1f6f54;color:#fff;border:0;border-radius:6px;cursor:pointer}
+#out{margin-top:24px;background:#f2f7f4;border:1px solid #d5e5dc;border-radius:8px;padding:16px;display:none}
+.big{font-size:30px;font-weight:700;color:#1f6f54}.note{color:#555;font-size:13px}</style></head><body>
+<h1>When will you peak?</h1>
+<p>The cross-section says strength peaks at 24. Careers say otherwise: in 2,774 long
+powerlifting careers, peak age moved almost one-for-one with the age a lifter started
+competing. Enter a start age and see the career clock, not the textbook curve.</p>
+<label>Age at first competition (or when you started)</label>
+<input id="start" type="number" min="14" max="75" value="32">
+<label>Sex</label>
+<select id="sex"><option value="M">Male</option><option value="F">Female</option></select>
+<br><button onclick="go()">Show my career clock</button>
+<div id="out"></div>
+<p class="note">Estimates from OpenIPF raw full-power careers with 5+ meets over 8+ years
+(regression slope 0.89 overall; women 0.93, men 0.87). A later peak is a lower peak on
+average: median career-best Goodlift falls from ~93 for teenage starters to ~71 for
+50-something starters. Lifters still competing at 60 held a median 95.8% of their own peak.</p>
+<script>const MODEL = {"bands": [{"band": "16-19", "n": 357, "peak_age_med": 26.5, "yrs_to_peak_med": 8.4, "peak_gl_med": 92.7}, {"band": "20-24", "n": 596, "peak_age_med": 29.5, "yrs_to_peak_med": 7.9, "peak_gl_med": 93.0}, {"band": "25-29", "n": 369, "peak_age_med": 34.0, "yrs_to_peak_med": 7.2, "peak_gl_med": 90.6}, {"band": "30-34", "n": 297, "peak_age_med": 38.5, "yrs_to_peak_med": 6.5, "peak_gl_med": 85.5}, {"band": "35-39", "n": 246, "peak_age_med": 43.0, "yrs_to_peak_med": 6.0, "peak_gl_med": 83.6}, {"band": "40-44", "n": 239, "peak_age_med": 46.5, "yrs_to_peak_med": 4.6, "peak_gl_med": 78.1}, {"band": "45-49", "n": 203, "peak_age_med": 51.5, "yrs_to_peak_med": 3.9, "peak_gl_med": 76.5}, {"band": "50-59", "n": 280, "peak_age_med": 57.5, "yrs_to_peak_med": 3.5, "peak_gl_med": 70.6}], "at_age": {"50": {"n": 550, "retained_med": 96.7, "xsection_retained": 85.4}, "60": {"n": 376, "retained_med": 95.8, "xsection_retained": 77.4}, "70": {"n": 143, "retained_med": 91.7, "xsection_retained": 68.9}}, "slope": 0.885, "intercept": 9.96};
+function go(){const s=+document.getElementById('start').value;
+ const slope = document.getElementById('sex').value==='F' ? 0.927 : 0.870;
+ const peak = Math.max(s+1, slope*s + (MODEL.intercept));
+ let band=null; for(const b of MODEL.bands){const[a,bb]=b.band.split('-').map(Number); if(s>=a&&s<=bb) band=b;}
+ const yrs = band? band.yrs_to_peak_med : Math.max(2, peak-s);
+ const gl = band? band.peak_gl_med : null;
+ document.getElementById('out').style.display='block';
+ document.getElementById('out').innerHTML =
+  'Your likely peak age: <span class="big">'+peak.toFixed(0)+'</span><br>'+
+  'Typical time from first meet to career best: <b>'+yrs.toFixed(1)+' years</b><br>'+
+  (gl? 'Median career-best Goodlift for lifters who started in your band: <b>'+gl+'</b> (100 = world-class threshold territory)<br>':'')+
+  'And after that peak, the median lifter still holds ~95% five years later and ~91% ten years later. The cliff is optional; showing up is the variable.';
+}
+</script></body></html>

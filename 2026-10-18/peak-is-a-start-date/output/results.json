@@ -1,0 +1,237 @@
+{
+ "data_file": "openipf-2026-10-17-c7782562.csv",
+ "entries": 495732,
+ "entries_raw_file": 1531081,
+ "careers_total": 181299,
+ "xsection": {
+  "peak_age": 24.0,
+  "retained": {
+   "40": 93.1,
+   "45": 89.2,
+   "50": 85.4,
+   "55": 82.5,
+   "60": 77.4,
+   "65": 74.3,
+   "70": 68.9
+  }
+ },
+ "long_careers": 2774,
+ "peak_regression": {
+  "slope": 0.885,
+  "slope_ci": [
+   0.876,
+   0.894
+  ],
+  "intercept": 9.96,
+  "n": 2596
+ },
+ "peak_by_start_band": [
+  {
+   "band": "16-19",
+   "n": 357,
+   "peak_age_med": 26.5,
+   "yrs_to_peak_med": 8.4,
+   "peak_gl_med": 92.7
+  },
+  {
+   "band": "20-24",
+   "n": 596,
+   "peak_age_med": 29.5,
+   "yrs_to_peak_med": 7.9,
+   "peak_gl_med": 93.0
+  },
+  {
+   "band": "25-29",
+   "n": 369,
+   "peak_age_med": 34.0,
+   "yrs_to_peak_med": 7.2,
+   "peak_gl_med": 90.6
+  },
+  {
+   "band": "30-34",
+   "n": 297,
+   "peak_age_med": 38.5,
+   "yrs_to_peak_med": 6.5,
+   "peak_gl_med": 85.5
+  },
+  {
+   "band": "35-39",
+   "n": 246,
+   "peak_age_med": 43.0,
+   "yrs_to_peak_med": 6.0,
+   "peak_gl_med": 83.6
+  },
+  {
+   "band": "40-44",
+   "n": 239,
+   "peak_age_med": 46.5,
+   "yrs_to_peak_med": 4.6,
+   "peak_gl_med": 78.1
+  },
+  {
+   "band": "45-49",
+   "n": 203,
+   "peak_age_med": 51.5,
+   "yrs_to_peak_med": 3.9,
+   "peak_gl_med": 76.5
+  },
+  {
+   "band": "50-59",
+   "n": 280,
+   "peak_age_med": 57.5,
+   "yrs_to_peak_med": 3.5,
+   "peak_gl_med": 70.6
+  }
+ ],
+ "peak_regression_by_sex": {
+  "M": {
+   "slope": 0.87,
+   "ci": [
+    0.858,
+    0.882
+   ],
+   "n": 1897,
+   "yrs_to_peak_med": 6.8
+  },
+  "F": {
+   "slope": 0.927,
+   "ci": [
+    0.908,
+    0.949
+   ],
+   "n": 699,
+   "yrs_to_peak_med": 7.1
+  }
+ },
+ "peak_regression_finished": {
+  "slope": 0.876,
+  "ci": [
+   0.849,
+   0.905
+  ],
+  "n": 366
+ },
+ "career_span_med": 9.7,
+ "peak_in_final_year_share": 0.333,
+ "retained_post_peak": {
+  "5": {
+   "n": 2808,
+   "retained_med": 94.7
+  },
+  "10": {
+   "n": 477,
+   "retained_med": 91.0
+  },
+  "15": {
+   "n": 42,
+   "retained_med": 89.2
+  }
+ },
+ "retained_at_age_within": {
+  "50": {
+   "n": 550,
+   "retained_med": 96.7,
+   "xsection_retained": 85.4
+  },
+  "60": {
+   "n": 376,
+   "retained_med": 95.8,
+   "xsection_retained": 77.4
+  },
+  "70": {
+   "n": 143,
+   "retained_med": 91.7,
+   "xsection_retained": 68.9
+  }
+ },
+ "exit_panel_n": 201426,
+ "exit_base_rate": 0.286,
+ "exit_by_vs_pb": [
+  {
+   "bin": "-100 to -10% vs PB",
+   "n": 6557,
+   "exit_rate": 0.331
+  },
+  {
+   "bin": "-10 to -5% vs PB",
+   "n": 11480,
+   "exit_rate": 0.3
+  },
+  {
+   "bin": "-5 to -2% vs PB",
+   "n": 21537,
+   "exit_rate": 0.273
+  },
+  {
+   "bin": "-2 to 0% vs PB",
+   "n": 39812,
+   "exit_rate": 0.304
+  },
+  {
+   "bin": "new PR",
+   "n": 121976,
+   "exit_rate": 0.278
+  }
+ ],
+ "exit_pr_vs_bad": {
+  "pr_exit": 0.278,
+  "pr_n": 122040,
+  "bad_exit": 0.311,
+  "bad_n": 18037
+ },
+ "exit_model": {
+  "auc": 0.682,
+  "shap": {
+   "meets_so_far": 0.3441,
+   "Goodlift": 0.2809,
+   "Age": 0.2563,
+   "days_since_last": 0.2365,
+   "career_year": 0.2046,
+   "vs_pb_pct": 0.0976,
+   "sex_m": 0.0666,
+   "BodyweightKg": 0.0423
+  }
+ },
+ "early_velocity": [
+  {
+   "band": "16-19",
+   "n": 9061,
+   "gain_pct_per_yr_med": 5.0
+  },
+  {
+   "band": "20-24",
+   "n": 11574,
+   "gain_pct_per_yr_med": 3.5
+  },
+  {
+   "band": "25-29",
+   "n": 6157,
+   "gain_pct_per_yr_med": 2.7
+  },
+  {
+   "band": "30-34",
+   "n": 3183,
+   "gain_pct_per_yr_med": 2.3
+  },
+  {
+   "band": "35-39",
+   "n": 2140,
+   "gain_pct_per_yr_med": 2.2
+  },
+  {
+   "band": "40-44",
+   "n": 1855,
+   "gain_pct_per_yr_med": 2.0
+  },
+  {
+   "band": "45-49",
+   "n": 1389,
+   "gain_pct_per_yr_med": 1.8
+  },
+  {
+   "band": "50-59",
+   "n": 1628,
+   "gain_pct_per_yr_med": 1.7
+  }
+ ]
+}
