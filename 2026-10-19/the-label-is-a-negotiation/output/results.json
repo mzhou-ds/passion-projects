@@ -1,0 +1,478 @@
+{
+ "n_products": 629114,
+ "source": "USDA FoodData Central, Global Branded Food Products Database, April 2025 release",
+ "n_categories": 249,
+ "n_brands": 28608,
+ "zero_window_census": [
+  {
+   "nutrient": "trans fat",
+   "n_reporting": 515289,
+   "n_print_zero_total": 509014,
+   "n_zero_window": 3585,
+   "pct_of_reporters": 0.7,
+   "n_zero_window_material": 364,
+   "material_cut_per100g": 1.0,
+   "median_serving_zero_window": 69.0,
+   "median_serving_all": 43.0,
+   "top_categories": [
+    {
+     "cat": "Ice Cream & Frozen Yogurt",
+     "n": 399
+    },
+    {
+     "cat": "Biscuits/Cookies (Shelf Stable)",
+     "n": 317
+    },
+    {
+     "cat": "Cakes, Cupcakes, Snack Cakes",
+     "n": 157
+    },
+    {
+     "cat": "Chili & Stew",
+     "n": 137
+    },
+    {
+     "cat": "Frozen Dinners & Entrees",
+     "n": 137
+    }
+   ]
+  },
+  {
+   "nutrient": "total fat",
+   "n_reporting": 618156,
+   "n_print_zero_total": 203740,
+   "n_zero_window": 8038,
+   "pct_of_reporters": 1.3,
+   "n_zero_window_material": 478,
+   "material_cut_per100g": 5.0,
+   "median_serving_zero_window": 56.0,
+   "median_serving_all": 43.0,
+   "top_categories": [
+    {
+     "cat": "Canned & Bottled Beans",
+     "n": 530
+    },
+    {
+     "cat": "Breads & Buns",
+     "n": 456
+    },
+    {
+     "cat": "Pasta by Shape & Type",
+     "n": 436
+    },
+    {
+     "cat": "Pepperoni, Salami & Cold Cuts",
+     "n": 398
+    },
+    {
+     "cat": "Candy",
+     "n": 368
+    }
+   ]
+  },
+  {
+   "nutrient": "saturated fat",
+   "n_reporting": 531756,
+   "n_print_zero_total": 210581,
+   "n_zero_window": 16830,
+   "pct_of_reporters": 3.16,
+   "n_zero_window_material": 3570,
+   "material_cut_per100g": 2.0,
+   "median_serving_zero_window": 49.0,
+   "median_serving_all": 43.0,
+   "top_categories": [
+    {
+     "cat": "Pickles, Olives, Peppers & Relishes",
+     "n": 1129
+    },
+    {
+     "cat": "Pepperoni, Salami & Cold Cuts",
+     "n": 831
+    },
+    {
+     "cat": "Breads & Buns",
+     "n": 776
+    },
+    {
+     "cat": "Cereal",
+     "n": 716
+    },
+    {
+     "cat": "Salad Dressing & Mayonnaise",
+     "n": 499
+    }
+   ]
+  },
+  {
+   "nutrient": "sugar",
+   "n_reporting": 589321,
+   "n_print_zero_total": 114880,
+   "n_zero_window": 681,
+   "pct_of_reporters": 0.12,
+   "n_zero_window_material": 46,
+   "material_cut_per100g": 10.0,
+   "median_serving_zero_window": 28.0,
+   "median_serving_all": 45.0,
+   "top_categories": [
+    {
+     "cat": "Biscuits/Cookies (Shelf Stable)",
+     "n": 50
+    },
+    {
+     "cat": "Seasoning Mixes, Salts, Marinades & Tenderizers",
+     "n": 41
+    },
+    {
+     "cat": "Non Alcoholic Beverages  Ready to Drink",
+     "n": 39
+    },
+    {
+     "cat": "Cheese",
+     "n": 31
+    },
+    {
+     "cat": "Biscuits/Cookies",
+     "n": 26
+    }
+   ]
+  },
+  {
+   "nutrient": "sodium",
+   "n_reporting": 619816,
+   "n_print_zero_total": 104368,
+   "n_zero_window": 10584,
+   "pct_of_reporters": 1.71,
+   "n_zero_window_material": 10,
+   "material_cut_per100g": 400.0,
+   "median_serving_zero_window": 40.0,
+   "median_serving_all": 43.0,
+   "top_categories": [
+    {
+     "cat": "Candy",
+     "n": 813
+    },
+    {
+     "cat": "Fruit & Vegetable Juice, Nectars & Fruit Drinks",
+     "n": 794
+    },
+    {
+     "cat": "Wholesome Snacks",
+     "n": 641
+    },
+    {
+     "cat": "Water",
+     "n": 576
+    },
+    {
+     "cat": "Popcorn, Peanuts, Seeds & Related Snacks",
+     "n": 517
+    }
+   ]
+  },
+  {
+   "nutrient": "cholesterol",
+   "n_reporting": 518783,
+   "n_print_zero_total": 305561,
+   "n_zero_window": 1168,
+   "pct_of_reporters": 0.23,
+   "n_zero_window_material": 79,
+   "material_cut_per100g": 10.0,
+   "median_serving_zero_window": 30.0,
+   "median_serving_all": 45.0,
+   "top_categories": [
+    {
+     "cat": "Biscuits/Cookies (Shelf Stable)",
+     "n": 125
+    },
+    {
+     "cat": "Popcorn, Peanuts, Seeds & Related Snacks",
+     "n": 110
+    },
+    {
+     "cat": "Chocolate",
+     "n": 74
+    },
+    {
+     "cat": "Cookies & Biscuits",
+     "n": 71
+    },
+    {
+     "cat": "Candy",
+     "n": 53
+    }
+   ]
+  },
+  {
+   "nutrient": "calories",
+   "n_reporting": 620505,
+   "n_print_zero_total": 36488,
+   "n_zero_window": 5062,
+   "pct_of_reporters": 0.82,
+   "n_zero_window_material": 2236,
+   "material_cut_per100g": 50.0,
+   "median_serving_zero_window": 15.0,
+   "median_serving_all": 43.0,
+   "top_categories": [
+    {
+     "cat": "Seasoning Mixes, Salts, Marinades & Tenderizers",
+     "n": 627
+    },
+    {
+     "cat": "Chewing Gum & Mints",
+     "n": 626
+    },
+    {
+     "cat": "Powdered Drinks",
+     "n": 410
+    },
+    {
+     "cat": "Pickles, Olives, Peppers & Relishes",
+     "n": 313
+    },
+    {
+     "cat": "Canned Soup",
+     "n": 290
+    }
+   ]
+  }
+ ],
+ "zero_window_total_pairs": 45948,
+ "zero_window_material_total": 6783,
+ "proximity": {
+  "sodium_140_low_sodium": {
+   "below": 29543,
+   "above": 27263,
+   "below_share": 0.52
+  },
+  "sodium_98_placebo": {
+   "below": 21275,
+   "above": 20021,
+   "below_share": 0.515
+  },
+  "sodium_182_placebo": {
+   "below": 35166,
+   "above": 19240,
+   "below_share": 0.646
+  },
+  "sodium_35_very_low": {
+   "below": 13554,
+   "above": 18183,
+   "below_share": 0.427
+  },
+  "satfat_1_low": {
+   "below": 29571,
+   "above": 18279,
+   "below_share": 0.618
+  },
+  "satfat_0.7_placebo": {
+   "below": 522,
+   "above": 404,
+   "below_share": 0.564
+  },
+  "fat_3_low_fat": {
+   "below": 21743,
+   "above": 20001,
+   "below_share": 0.521
+  },
+  "fat_2.1_placebo": {
+   "below": 18959,
+   "above": 16146,
+   "below_share": 0.54
+  },
+  "kcal_40_low_calorie": {
+   "below": 12442,
+   "above": 12216,
+   "below_share": 0.505
+  },
+  "kcal_28_placebo": {
+   "below": 11312,
+   "above": 11652,
+   "below_share": 0.493
+  },
+  "cholesterol_20_low": {
+   "below": 24900,
+   "above": 23322,
+   "below_share": 0.516
+  },
+  "potassium_140_no_claim_exists": {
+   "below": 13425,
+   "above": 14878,
+   "below_share": 0.474
+  }
+ },
+ "tiny_servings": {
+  "serving_lt_0.5g": 1329,
+  "serving_lt_1g": 5223,
+  "serving_lt_2g": 13132,
+  "serving_lt_5g": 24067,
+  "serving_lt_10g": 40872
+ },
+ "hideable_fat": {
+  "products_can_hide_ge_5g_per100g": 43107,
+  "products_can_hide_ge_10g_per100g": 32448,
+  "products_can_hide_ge_25g_per100g": 16011,
+  "products_can_hide_ge_50g_per100g": 8459,
+  "products_can_hide_ge_100g_per100g": 2048
+ },
+ "hideable_sugar": {
+  "products_can_hide_ge_5g_per100g": 43107,
+  "products_can_hide_ge_10g_per100g": 32448,
+  "products_can_hide_ge_25g_per100g": 16011,
+  "products_can_hide_ge_50g_per100g": 8459,
+  "products_can_hide_ge_100g_per100g": 2048
+ },
+ "hideable_trans_fat": {
+  "products_can_hide_ge_5g_per100g": 43107,
+  "products_can_hide_ge_10g_per100g": 32448,
+  "products_can_hide_ge_25g_per100g": 16011,
+  "products_can_hide_ge_50g_per100g": 8459,
+  "products_can_hide_ge_100g_per100g": 2048
+ },
+ "spray_contrast": {
+  "n_sprays": 668,
+  "spray_median_serving_g": 0.25,
+  "spray_share_fat_submitted_0_per100g": 0.862,
+  "spray_share_print_0_fat_and_0_kcal": 0.865,
+  "n_bottled_oils": 6572,
+  "bottled_median_fat_per100g": 93.33,
+  "bottled_median_serving_g": 15.0,
+  "bottled_median_kcal_serv": 120.0
+ },
+ "tictac": {
+  "n_skus": 66,
+  "serving_size_g": 0.4900000095367431,
+  "kcal_per100g": 388.0,
+  "sugar_submitted_per100g": 0.0
+ },
+ "zero_cal_sweetener": {
+  "n_skus": 232,
+  "share_sugar_ge_90_per100g": 0.582,
+  "median_serving_g": 1.0,
+  "median_sugar_per100g": 100.0
+ },
+ "counterfactual_flips": [
+  {
+   "label": "trans fat 0",
+   "eligible_now": 509014,
+   "lost_at_standard_serving": 2616,
+   "pct_lost": 0.5
+  },
+  {
+   "label": "total fat 0",
+   "eligible_now": 203740,
+   "lost_at_standard_serving": 3501,
+   "pct_lost": 1.7
+  },
+  {
+   "label": "saturated fat 0",
+   "eligible_now": 210581,
+   "lost_at_standard_serving": 7023,
+   "pct_lost": 3.3
+  },
+  {
+   "label": "sugar 0",
+   "eligible_now": 114880,
+   "lost_at_standard_serving": 1053,
+   "pct_lost": 0.9
+  },
+  {
+   "label": "calorie 0",
+   "eligible_now": 36488,
+   "lost_at_standard_serving": 2487,
+   "pct_lost": 6.8
+  },
+  {
+   "label": "low sodium (<=140mg)",
+   "eligible_now": 350085,
+   "lost_at_standard_serving": 28063,
+   "pct_lost": 8.0
+  },
+  {
+   "label": "low fat (<=3g)",
+   "eligible_now": 316011,
+   "lost_at_standard_serving": 18429,
+   "pct_lost": 5.8
+  },
+  {
+   "label": "low calorie (<=40)",
+   "eligible_now": 117603,
+   "lost_at_standard_serving": 18414,
+   "pct_lost": 15.7
+  },
+  {
+   "label": "low sat fat (<=1g)",
+   "eligible_now": 263687,
+   "lost_at_standard_serving": 17277,
+   "pct_lost": 6.6
+  }
+ ],
+ "counterfactual_zero_flips_total": 16680,
+ "grid_shares": {
+  "saturated fat (0.5g grid)": {
+   "on_grid_share": 0.973,
+   "n": 337943
+  },
+  "trans fat (0.5g grid)": {
+   "on_grid_share": 0.87,
+   "n": 9859
+  },
+  "total fat (0.5g grid, <5g)": {
+   "on_grid_share": 0.983,
+   "n": 422006
+  },
+  "cholesterol (5mg grid)": {
+   "on_grid_share": 0.73,
+   "n": 213920
+  },
+  "sodium (5mg grid)": {
+   "on_grid_share": 0.781,
+   "n": 516375
+  },
+  "calories (5 kcal grid)": {
+   "on_grid_share": 0.785,
+   "n": 587878
+  },
+  "fiber (1g grid)": {
+   "on_grid_share": 0.926,
+   "n": 323992
+  },
+  "potassium (10mg grid, placebo-ish)": {
+   "on_grid_share": 0.605,
+   "n": 210451
+  }
+ },
+ "fat_zero_model": {
+  "n": 120000,
+  "base_rate_prints_zero": 0.0186,
+  "auc_full": 1.0,
+  "auc_serving_only": 0.826,
+  "auc_content_only": 0.962,
+  "top_shap": {
+   "log_content100": 7.6844,
+   "log_serving": 2.2936,
+   "log_kcal100": 0.3452,
+   "serving_lt_30g": 0.1319,
+   "serving_lt_5g": 0.0463,
+   "cat_Breads & Buns": 0.0213,
+   "cat_Pasta by Shape & T": 0.0115,
+   "cat_Pickles, Olives, P": 0.0055
+  }
+ },
+ "kcal_zero_model": {
+  "n": 120000,
+  "base_rate_prints_zero": 0.0084,
+  "auc_full": 1.0,
+  "auc_serving_only": 0.926,
+  "auc_content_only": 0.909,
+  "top_shap": {
+   "log_content100": 4.6101,
+   "log_serving": 3.7734,
+   "log_kcal100": 0.4323,
+   "serving_lt_5g": 0.2503,
+   "serving_lt_30g": 0.182,
+   "cat_Pickles, Olives, P": 0.0416,
+   "cat_Soda": 0.0173,
+   "cat_Fruit & Vegetable ": 0.0017
+  }
+ }
+}

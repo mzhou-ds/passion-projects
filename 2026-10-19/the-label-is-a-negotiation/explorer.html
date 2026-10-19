@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Label Is a Negotiation — what will the label say?</title>
+<style>
+  body { font-family: Georgia, 'Times New Roman', serif; max-width: 760px; margin: 2rem auto; padding: 0 1rem; color: #1c1c1c; background: #fdfcf9; }
+  h1 { font-size: 1.7rem; margin-bottom: .2rem; }
+  .sub { color: #555; margin-top: 0; }
+  .card { border: 1.5px solid #1c1c1c; border-radius: 8px; padding: 1rem 1.2rem; margin: 1.2rem 0; background: #fff; }
+  label { display: block; font-size: .85rem; margin-top: .7rem; color: #444; }
+  input, select { width: 100%; padding: .45rem; font-size: 1rem; margin-top: .2rem; box-sizing: border-box; }
+  .row { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+  table { width: 100%; border-collapse: collapse; margin-top: .8rem; font-size: .95rem; }
+  th, td { border-bottom: 1px solid #ddd; padding: .35rem .3rem; text-align: right; }
+  th:first-child, td:first-child { text-align: left; }
+  .zero { color: #b03a2e; font-weight: bold; }
+  .note { font-size: .85rem; color: #555; }
+  .big { font-size: 1.15rem; }
+</style>
+</head>
+<body>
+<h1>The Label Is a Negotiation</h1>
+<p class="sub">Musing with Mike · daily build #43 · A Nutrition Facts panel is not a measurement. It is the output of three negotiated numbers: what is in the food, how big a serving the maker chose, and the FDA rounding grid the result is snapped to. Set the first two and watch the third decide what you get to read.</p>
+
+<div class="card">
+  <div class="row">
+    <div>
+      <label>Nutrient</label>
+      <select id="nutrient"></select>
+    </div>
+    <div>
+      <label>Serving size (g or ml) — the negotiated number</label>
+      <input id="serving" type="number" value="0.49" min="0.1" step="0.01">
+    </div>
+  </div>
+  <label>Actual content per 100 g (what a lab would find)</label>
+  <input id="content" type="number" value="95" min="0" step="0.1">
+  <table>
+    <tr><th></th><th>True amount</th><th>What the label prints</th></tr>
+    <tr><td>Per serving</td><td id="trueServ">—</td><td id="printed" class="big">—</td></tr>
+    <tr><td>At a 30 g serving</td><td id="true30">—</td><td id="printed30">—</td></tr>
+    <tr><td>At a 100 g serving</td><td id="true100">—</td><td id="printed100">—</td></tr>
+  </table>
+  <p class="note" id="verdict"></p>
+  <p class="note">Simplified 21 CFR 101.9(c) rounding: calories &lt;5 print as 0, then to the nearest 5 (to 50) or 10; fats &lt;0.5 g print as 0, then to the nearest 0.5 g (to 5 g) or 1 g; sodium &lt;5 mg prints as 0, then to the nearest 5 mg (to 140 mg) or 10 mg; cholesterol &lt;2 mg prints as 0, then to the nearest 5 mg; sugars and fiber &lt;0.5 g print as 0, then to the nearest gram. The defaults above are a breath mint: 95% sugar, served at 0.49 g.</p>
+</div>
+
+<div class="card">
+  <p class="big">The census behind this page</p>
+  <p class="note">Across 629,114 current US branded products (USDA FoodData Central, April 2025), 45,948 product–nutrient pairs print a 0 while the manufacturer's own per-100 g submission shows the nutrient is there. Relabeling every product at its own category's median serving kills 16,680 of those zeros and 82,183 "low" claim eligibilities. The serving is not describing the food. In about 99,000 cases, the serving <em>is</em> the label. Full method and findings in the README.</p>
+</div>
+
+<script>
+const RULES = {
+  sugar:   { name: "Sugar (g)",        unit: "g",  zero: 0.5, grid: [[1e9, 1]] },
+  fat:     { name: "Total fat (g)",    unit: "g",  zero: 0.5, grid: [[5, 0.5], [1e9, 1]] },
+  satfat:  { name: "Saturated fat (g)",unit: "g",  zero: 0.5, grid: [[5, 0.5], [1e9, 1]] },
+  transfat:{ name: "Trans fat (g)",    unit: "g",  zero: 0.5, grid: [[5, 0.5], [1e9, 1]] },
+  kcal:    { name: "Calories (kcal)",  unit: "kcal", zero: 5, grid: [[50, 5], [1e9, 10]] },
+  sodium:  { name: "Sodium (mg)",      unit: "mg", zero: 5,   grid: [[140, 5], [1e9, 10]] },
+  chol:    { name: "Cholesterol (mg)", unit: "mg", zero: 2,   grid: [[1e9, 5]] },
+  fiber:   { name: "Fiber (g)",        unit: "g",  zero: 0.5, grid: [[1e9, 1]] },
+};
+const sel = document.getElementById('nutrient');
+for (const [k, r] of Object.entries(RULES)) {
+  const o = document.createElement('option'); o.value = k; o.textContent = r.name; sel.appendChild(o);
+}
+sel.value = 'sugar';
+function labelValue(key, perServ) {
+  const r = RULES[key];
+  if (perServ < r.zero) return 0;
+  for (const [cap, step] of r.grid) if (perServ < cap || cap === 1e9) return Math.round(perServ / step) * step;
+}
+function fmt(x, unit) { return (Math.round(x * 100) / 100).toLocaleString() + ' ' + unit; }
+function update() {
+  const key = sel.value, r = RULES[key];
+  const serving = parseFloat(document.getElementById('serving').value) || 0;
+  const content = parseFloat(document.getElementById('content').value) || 0;
+  const perServ = content * serving / 100;
+  const printed = labelValue(key, perServ);
+  document.getElementById('trueServ').textContent = fmt(perServ, r.unit);
+  const p = document.getElementById('printed');
+  p.textContent = fmt(printed, r.unit);
+  p.className = printed === 0 && perServ > 0 ? 'zero big' : 'big';
+  document.getElementById('true30').textContent = fmt(content * 0.30, r.unit);
+  document.getElementById('printed30').textContent = fmt(labelValue(key, content * 0.30), r.unit);
+  document.getElementById('true100').textContent = fmt(content, r.unit);
+  document.getElementById('printed100').textContent = fmt(labelValue(key, content), r.unit);
+  const cap = r.zero * 100 / serving;
+  document.getElementById('verdict').textContent = printed === 0 && perServ > 0
+    ? `At a ${serving} g serving, the legal zero can hide up to ${fmt(cap, r.unit + ' per 100 g')} — the label reads 0 while the food is ${content}% ${r.name.split(' (')[0].toLowerCase()} by weight.`
+    : `At a ${serving} g serving, the legal zero can hide up to ${fmt(cap, r.unit + ' per 100 g')} before anything must be printed.`;
+}
+sel.addEventListener('change', update);
+document.getElementById('serving').addEventListener('input', update);
+document.getElementById('content').addEventListener('input', update);
+update();
+</script>
+</body>
+</html>

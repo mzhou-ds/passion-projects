@@ -1,0 +1,9 @@
+Build #43 - The Label Is a Negotiation (nutrition) - 2026-10-19
+629,114 current US branded products rebuilt from USDA FoodData Central GBFPD (April 2025), 249 categories, 28,608 brand owners.
+1) Claim-line bunching is a null: sodium @140mg below-share 0.520 vs placebo 98mg 0.515; kcal @40 0.505 vs placebo 0.493; fat @3g 0.521 vs placebo 0.540; only sat fat @1g shows a modest pile-up (0.618 vs 0.564 placebo).
+2) Zero-window census: 45,948 product-nutrient pairs print 0 while the maker's own per-100g data shows the nutrient (sat fat 16,830; sodium 10,584; fat 8,038; kcal 5,062; trans fat 3,585); 6,783 are material density (sprinkles 10g trans fat/100g print 0; BBQ rub 45% sugar prints 0g sugar). Lower bound: label-derived submissions (Tic Tac) are invisible to it.
+3) Calibrated servings: Tic Tac 66 SKUs at exactly 0.49g serving, 388 kcal/100g; Conagra oil sprays 83.33g fat/100g at 0.6g serving = 0.49998g per serving; 668 cooking sprays median serving 0.25g, 86% submit 0g fat/100g (they are oil), bottled oils median 93.3g fat/100g, 120 kcal/serving; 232 "Zero Calorie Sweetener" SKUs, 58% are >=90g sugar/100g.
+4) Hideable capacity: 2,048 products with sub-0.5g servings could hide even 100% fat/sugar behind a printed 0; 8,459 can hide >=50g/100g; 24,067 products have servings <5g.
+5) Standard-serving counterfactual: at each category's median serving, 16,680 printed zeros vanish and 82,183 claim eligibilities fall (low calorie loses 15.7% of eligible, low sodium 28,063 products) - ~99,000 serving-bought labels.
+6) XGBoost ablations: prints-0-fat predicted by content alone AUC 0.962, serving alone 0.826; prints-0-calories predicted better by serving alone (0.926) than by calorie density (0.909). SHAP: content first, serving second.
+7) Declaration grid measured: 98.3% of nonzero fat values exactly on the 0.5g grid, 97.3% sat fat, 92.6% fiber on 1g grid, vs 60.5% potassium control.
