@@ -1,0 +1,57 @@
+# The Error Bar Is Nine Years Wide: what one biological age reading is actually worth
+
+**Musing with Mike · daily build #44 · 2026-10-20 · topic: biohacking**
+
+A biological age report gives you a number like 34.2 and a verdict like "5 years younger." It never gives you the second number, the one every other measurement science prints next to the first: how far that reading could move if nothing about you changed at all.
+
+I wanted that number. So I rebuilt the best known lab based clock, Levine's PhenoAge, from its nine routine blood markers (albumin, creatinine, glucose, C-reactive protein, lymphocyte percentage, MCV, RDW, alkaline phosphatase, white blood cells) for 4,788 American adults in NHANES 2015 to 2018. Then I re-drew each person's blood hundreds of times, perturbing every marker by its published within-person biological variation from the EFLM Biological Variation Database plus ordinary assay imprecision. Your labs are not constants. They are draws. This build prices the draw.
+
+The short answer: for the median person, one PhenoAge reading carries a 95 percent interval **9.1 years wide**. The famous claims in this field are 2, 3, and in one case 8 years. Most of them fit inside one person's weather.
+
+**Try it:** open [`explorer.html`](explorer.html). Put in your own nine labs and age. You get the point estimate a report would sell you, and the interval it would not.
+
+## Findings
+
+**1. The error bar is nine years wide, and almost nobody's is small.** Median within-person standard deviation is 2.34 years, which makes the median 95 percent interval 9.1 years wide (interquartile range 8.6 to 9.7). 99.5 percent of people have an interval wider than 4 years. 97 percent have one wider than 8 years. And for 48.8 percent of people, the interval is wide enough to cover exactly average aging for their age, which means a single panel cannot statistically separate them from "aging normally" no matter what verdict the report prints. See `charts/01_noise_width.png`.
+
+**2. The weather is mostly one red cell marker nobody talks about.** Decomposing the noise one marker at a time (and again leaving one out; the two methods agree), red cell distribution width, RDW, contributes about 69 percent of all within-person noise variance. Glucose is second at 10 percent. The surprise is what does not matter: C-reactive protein swings wildly inside a person, a within-person CV around 42 percent, the largest in the panel by far, yet it contributes only about 3.6 percent of the noise, because PhenoAge takes its log and weights it lightly (coefficient 0.0954). RDW is the opposite shape: a quiet marker, CV under 4 percent, attached to the largest coefficient in the model, 0.3306 per percentage point. A routine half-point wobble in RDW, the kind iron status or a recovering cold produces, moves the clock more than a CRP spike does. Your biological age, week to week, is mostly a red cell width reading. See `charts/02_noise_decomposition.png`.
+
+**3. Doing nothing "rejuvenates" 27 percent of people by two years or more.** Take two independent draws of the same person's blood, truth held fixed, and subtract. 55.8 percent of people move at least 2 years in one direction or the other. 27.2 percent improve by 2 years or more. 28.6 percent get older by 2 years or more. The two draws still rank people well (correlation 0.94), and 82 percent of "accelerated ager" labels survive the retest, so the clock is not useless. It is a population instrument being read as a personal one. A two year before and after delta, the unit most transformation posts are denominated in, is the single noisiest statistic in the building. See `charts/03_regression_to_mean.png`.
+
+**4. Regression to the mean is real, smaller than the slogans, and aimed at exactly the people who buy.** Among buyers, meaning people whose true acceleration sits within 10 years of average, the highest first readings fall on retest with no intervention at all: top decile down 2.1 years on average, top quartile down 1.2 years, bottom quartile up 1.4 years. That is not enough to manufacture the biggest claims by itself, and this build does not pretend otherwise. But it stacks on top of finding 3 in every uncontrolled before and after design, and it has a preferred victim: the worse your first number looks, the more free improvement the second number hands you. It is worth rereading the Rejuvant paper (Demidenko et al., 2021) with this in hand. Forty two people, no control group, an average 8 year drop on a methylation test over about 7 months, and the authors note the benefit concentrated in the biologically oldest at baseline. That concentration is the fingerprint of regression to the mean. It does not prove the supplement did nothing. It means the design cannot tell.
+
+**5. The controlled evidence, plotted honestly, lives inside the band.** CALERIE, the best randomized trial in the field (220 adults, two years of calorie restriction), found no effect on the PhenoAge or GrimAge methylation clocks at all, and a 2 to 3 percent slowing on DunedinPACE, which is a rate, not a years number. The Fitzgerald diet and lifestyle pilot (43 men, 8 weeks) reported 1.96 years within the treatment group and 3.23 years against control on the Horvath clock. Both are methylation clocks, different instruments from the lab clock measured here, and group means in a controlled trial average the noise down, so these studies are not refuted by a personal error bar. What the error bar does refute is the personal version of the same numbers: your 2 year drop, your 3 year drop, read off two single panels, in your kitchen. See `charts/04_claims_vs_noise.png` and `data/claims.csv`.
+
+**6. Even between people, most of the non-age signal is this month's state.** PhenoAge's linear predictor decomposes exactly across people. Chronological age, the number the clock is handed, accounts for 62.6 percent of the variance. Of what is left, state markers take the majority: red cell and iron status 9.1 points, glucose control 8.1, inflammation 3.7, against 16.5 points for the slow background of albumin, creatinine, and alkaline phosphatase. RDW alone ties glucose as the largest single non-age term, and its correlation with acceleration is 0.51. Strip the birthdate out of "biological age" and what remains is, more often than not, a metabolic and iron snapshot wearing an aging costume. See `charts/05_signal_decomposition.png`.
+
+**7. Precision is buyable. Nobody buys it.** Averaging independent panels shrinks the interval with the square root of the count. Six panels averaged earns a 4 year interval. Twenty one panels earns a 2 year interval. Eighty three earns a 1 year interval. The honest version of this product exists and it is just arithmetic: test often, report the average and its band, never the delta between two singles. The market does the opposite, because a dashboard that says "somewhere between 4 years younger and 5 years older, check back in a year" does not convert, and a green "you are 5 years younger" does. The quarterly testing subscription several companies sell is, accidentally, the statistically right shape. They just report the wrong statistic from it. See `charts/06_repeats.png`.
+
+## How this differs from the noise work you may have seen
+
+The known reliability literature is about methylation clocks and laboratory technique. Higgins-Chen and colleagues (Nature Aging, 2022) re-ran the same blood on methylation arrays and found DNAm PhenoAge duplicates differing by a median of 2.4 years, up to 8.6. That is technical noise, and principal component methods can shrink it. This build measures a different clock (the clinical lab PhenoAge, the one computable from a standard panel and sold by lab based tests) and a different noise source: your own biology moving between draws. No array improvement fixes it, because the blood itself changed. If anything the two stack: a methylation test carries both its technical noise and the biological noise of the blood it sampled.
+
+## What would actually fix it
+
+Report intervals, not points. Average repeats, not deltas. And treat any single panel the way you would treat a single morning's weight: a draw from a distribution you are trying to shift over months, not a verdict. The clock earns its keep at the level Levine built it for, ranking risk across thousands of people, where it genuinely predicts mortality. Sold to one person as a scoreboard, it is a weather report formatted as a climate record.
+
+## Methods and caveats
+
+- Source: NHANES 2015-2016 and 2017-2018 (CDC), demographic, standard biochemistry, complete blood count, hs-CRP, and fasting glucose files. Adults 20 and over with all nine markers: n = 4,788. Raw XPT files are git-ignored; `src/download.py` refetches them.
+- PhenoAge uses the published Levine et al. (2018) coefficients exactly (`src/phenoage.py`). Raw PhenoAge runs about 6.3 years above chronological age in these modern cycles, a level shift against the 1988 to 1994 training cohort (assay and population drift; fasting glucose runs higher now). Every result here is about spread and change, not level, and acceleration is the standard residual from regressing PhenoAge on age with a cycle indicator, so the shift touches nothing reported.
+- Noise model: each marker is perturbed lognormally at total CV = sqrt(CVi squared + CVa squared), CVi from the EFLM Biological Variation Database, CVa from typical NHANES method imprecision. All values, per marker, are in `data/cvi_cva.csv`, stated so they can be argued with. Sensitivity checks in `output/results.json`: halving every CVi still leaves a median interval of 4.5 years; doubling CRP's CV moves the median interval only from 9.1 to 9.4 years; halving RDW's CV cuts it to 6.3 years. The headline survives being wrong about the inputs by a factor of two.
+- The perturbation model assumes markers move independently within a person. In reality some move together (an infection lifts CRP and white cells at once), which would widen, not narrow, the intervals for the inflammation cluster specifically. The independence assumption makes the headline conservative in that corner and is stated here rather than buried.
+- Lymphocyte percentage borrows the CVi of the lymphocyte count; percentages are somewhat more stable, which again makes the estimate conservative.
+- The retest simulation draws both tests from the same person's observed labs. Real retests weeks apart also include genuine short term change in state (that is partly the point), so read the simulated deltas as the floor of what a real before and after contains.
+- Claims in `data/claims.csv` are quoted from their papers: CALERIE (Waziry et al., Nature Aging 2023), Fitzgerald et al. (Aging 2021), Demidenko et al. (Aging 2021), Higgins-Chen et al. (Nature Aging 2022). Clocks differ across those rows and the table says which is which; the comparison that matters is claim size versus the size of an individual error bar, and the README keeps the group mean caveat attached to it.
+
+## Reproduce
+
+```
+python src/download.py     # NHANES XPT files, 2015-2018 cycles (~10 MB)
+python src/build_data.py   # -> data/nhanes_pheno.parquet (4,788 adults)
+python src/noise.py        # -> output/results.json (noise sections)
+python src/signal.py       # -> output/results.json (signal sections)
+python src/charts.py       # -> charts/*.png
+```
+
+Code, charts, the explorer, and all headline numbers are in the repo.

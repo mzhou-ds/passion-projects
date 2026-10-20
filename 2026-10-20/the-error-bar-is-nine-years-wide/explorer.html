@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Your biological age, with the error bar | Musing with Mike</title>
+<style>
+  body { font-family: Georgia, serif; max-width: 760px; margin: 2rem auto; padding: 0 1rem; color: #1a1a1a; line-height: 1.5; }
+  h1 { font-size: 1.6rem; margin-bottom: 0.2rem; }
+  .sub { color: #555; margin-top: 0; }
+  .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 0.5rem 1.5rem; margin: 1rem 0; }
+  label { display: flex; justify-content: space-between; align-items: center; font-size: 0.95rem; }
+  input { width: 90px; padding: 0.25rem; font-size: 0.95rem; }
+  button { background: #4C72B0; color: white; border: 0; padding: 0.6rem 1.2rem; font-size: 1rem; cursor: pointer; border-radius: 4px; }
+  #out { margin-top: 1.5rem; }
+  .bar-wrap { position: relative; height: 46px; background: #f0f0f0; border-radius: 4px; margin: 0.8rem 0; }
+  .band { position: absolute; top: 8px; height: 30px; background: rgba(196,78,82,0.35); border: 1px solid #C44E52; border-radius: 3px; }
+  .point { position: absolute; top: 4px; width: 3px; height: 38px; background: #1a1a1a; }
+  .zero { position: absolute; top: 0; width: 1px; height: 46px; background: #999; }
+  .note { font-size: 0.9rem; color: #444; }
+  canvas { width: 100%; height: 90px; }
+</style>
+</head>
+<body>
+<h1>Your biological age, with the error bar</h1>
+<p class="sub">PhenoAge (Levine 2018) from nine routine labs. Every consumer report prints the point.
+This page also prints the interval: 800 simulated re-draws of your own labs, using published
+within-person biological variation (EFLM) plus assay imprecision for each analyte.</p>
+
+<div class="grid">
+  <label>Age (years) <input id="age" type="number" value="40" step="1"></label>
+  <label>Albumin (g/L) <input id="albumin" type="number" value="46" step="0.5"></label>
+  <label>Creatinine (umol/L) <input id="creatinine" type="number" value="80" step="1"></label>
+  <label>Glucose, fasting (mmol/L) <input id="glucose" type="number" value="5.2" step="0.1"></label>
+  <label>CRP (mg/L) <input id="crp" type="number" value="1.0" step="0.1"></label>
+  <label>Lymphocytes (%) <input id="lymph" type="number" value="30" step="0.5"></label>
+  <label>MCV (fL) <input id="mcv" type="number" value="90" step="0.5"></label>
+  <label>RDW (%) <input id="rdw" type="number" value="12.5" step="0.1"></label>
+  <label>Alkaline phosphatase (U/L) <input id="alp" type="number" value="70" step="1"></label>
+  <label>WBC (1000 cells/uL) <input id="wbc" type="number" value="6.0" step="0.1"></label>
+</div>
+<button onclick="run()">Compute my number, honestly</button>
+
+<div id="out"></div>
+
+<script>
+const CV = { albumin: 3.69, creatinine: 6.41, glucose: 5.80, crp: 42.50,
+             lymph: 10.82, mcv: 1.64, rdw: 3.81, alp: 5.76, wbc: 11.18 };
+function pheno(v) {
+  const xb = -19.907 - 0.0336*v.albumin + 0.0095*v.creatinine + 0.1953*v.glucose
+    + 0.0954*Math.log(Math.max(v.crp/10, 0.01)) - 0.0120*v.lymph + 0.0268*v.mcv
+    + 0.3306*v.rdw + 0.00188*v.alp + 0.0554*v.wbc + 0.0804*v.age;
+  const g = 0.0076927;
+  let M = 1 - Math.exp(-Math.exp(xb) * (Math.exp(120*g) - 1) / g);
+  M = Math.min(Math.max(M, 1e-6), 1 - 1e-6);
+  return 141.50225 + Math.log(-0.00553 * Math.log(1 - M)) / 0.090165;
+}
+function randn() { let u=0,v=0; while(!u) u=Math.random(); while(!v) v=Math.random();
+  return Math.sqrt(-2*Math.log(u)) * Math.cos(2*Math.PI*v); }
+function logdraw(x, cvPct) { const s = Math.sqrt(Math.log(1 + Math.pow(cvPct/100, 2)));
+  return x * Math.exp(s * randn() - s*s/2); }
+function run() {
+  const v = {};
+  ["age","albumin","creatinine","glucose","crp","lymph","mcv","rdw","alp","wbc"]
+    .forEach(k => v[k] = parseFloat(document.getElementById(k).value));
+  const point = pheno(v);
+  const sims = [];
+  for (let i = 0; i < 800; i++) {
+    const d = { age: v.age,
+      albumin: logdraw(v.albumin, CV.albumin), creatinine: logdraw(v.creatinine, CV.creatinine),
+      glucose: logdraw(v.glucose, CV.glucose), crp: logdraw(v.crp, CV.crp),
+      lymph: Math.min(logdraw(v.lymph, CV.lymph), 95), mcv: logdraw(v.mcv, CV.mcv),
+      rdw: logdraw(v.rdw, CV.rdw), alp: logdraw(v.alp, CV.alp), wbc: logdraw(v.wbc, CV.wbc) };
+    sims.push(pheno(d));
+  }
+  sims.sort((a,b) => a-b);
+  const lo = sims[Math.floor(0.025*sims.length)], hi = sims[Math.floor(0.975*sims.length)];
+  const width = hi - lo;
+  const diff = point - v.age;
+  const k2 = Math.ceil(Math.pow(width/2, 2)), k4 = Math.ceil(Math.pow(width/4, 2));
+  const min = Math.min(lo, v.age) - 3, max = Math.max(hi, v.age) + 3;
+  const pct = x => ((x - min) / (max - min) * 100).toFixed(1) + "%";
+  document.getElementById("out").innerHTML = `
+    <h2>PhenoAge ${point.toFixed(1)}: you read ${diff >= 0 ? diff.toFixed(1) + " years older" : (-diff).toFixed(1) + " years younger"} than your age.</h2>
+    <div class="bar-wrap">
+      <div class="band" style="left:${pct(lo)}; width:${((hi-lo)/(max-min)*100).toFixed(1)}%"></div>
+      <div class="point" style="left:${pct(point)}"></div>
+      <div class="zero" style="left:${pct(v.age)}"></div>
+    </div>
+    <p>But re-draw your own blood on another ordinary week and the same formula lands anywhere in
+    <strong>${lo.toFixed(1)} to ${hi.toFixed(1)}</strong>, a ${width.toFixed(1)}-year-wide interval, with no change in you at all.
+    The thin grey line is your chronological age. The black tick is the number a report would sell you.</p>
+    <p class="note">To shrink that interval to 4 years wide you would need to average about <strong>${k4} panels</strong>;
+    to 2 years wide, about <strong>${k2} panels</strong>. One panel is a weather report. The average of many starts to be a climate.</p>`;
+}
+run();
+</script>
+</body>
+</html>

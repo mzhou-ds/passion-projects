@@ -1,0 +1,6 @@
+claim,design,n,effect_years,clock,source
+"CALERIE 2-year calorie restriction (best RCT in the field)","Randomised controlled trial, 2 years, 25% CR target",220,0.0,"DNAm PhenoAge / GrimAge (no effect; DunedinPACE pace slowed 2-3%, a rate not a years number)","Waziry et al., Nature Aging 2023"
+"Fitzgerald diet + lifestyle, within-group change","Pilot RCT, 8 weeks, men 50-72",43,-1.96,"Horvath DNAmAge (saliva)","Fitzgerald et al., Aging 2021"
+"Fitzgerald diet + lifestyle, vs control at end","Pilot RCT, 8 weeks, men 50-72",43,-3.23,"Horvath DNAmAge (saliva)","Fitzgerald et al., Aging 2021"
+"Rejuvant (calcium alpha-ketoglutarate + vitamins)","Retrospective, no control group, ~7 months",42,-7.96,"TruAge DNAm test","Demidenko et al., Aging 2021"
+"Same blood re-run on a methylation array (technical duplicates)","Technical replication study, 36 samples",36,2.4,"DNAm PhenoAge median absolute duplicate difference (max 8.6)","Higgins-Chen et al., Nature Aging 2022 (as the technical-noise benchmark this build is compared against)"

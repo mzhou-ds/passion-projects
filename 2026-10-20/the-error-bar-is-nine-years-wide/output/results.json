@@ -1,0 +1,152 @@
+{
+  "signal": {
+    "xb_variance_shares": {
+      "age": 0.6260283888340369,
+      "albumin": 0.08769737189033121,
+      "rdw": 0.08135084789669907,
+      "glucose": 0.08127117848258911,
+      "creatinine": 0.07235442285986542,
+      "lymph": 0.01435618128288917,
+      "crp": 0.013020783551530942,
+      "wbc": 0.009602601209190879,
+      "mcv": 0.009196792092230281,
+      "alp": 0.005121431900637065
+    },
+    "xb_group_shares": {
+      "Chronological age (the anchor)": 0.6260283888340369,
+      "Slow background (albumin, creatinine, ALP)": 0.1651732266508337,
+      "State: red-cell / iron status (RDW, MCV)": 0.09054763998892934,
+      "State: glucose control": 0.08127117848258911,
+      "State: inflammation (CRP, WBC, lymphocyte %)": 0.036979566043610995
+    },
+    "state_share_of_xb_variance": 0.20879838451512944,
+    "marker_accel_corr": {
+      "albumin": -0.5688714820306283,
+      "creatinine": 0.32130248734935374,
+      "glucose": 0.40399667000760153,
+      "crp": 0.258421968613386,
+      "lymph_pct": -0.2606754932654877,
+      "mcv": -0.15616607846030606,
+      "rdw": 0.5084248177650332,
+      "alp": 0.13706267552312862,
+      "wbc": 0.25272463820175073
+    }
+  },
+  "n_population": 4788,
+  "n_noise_sample": 2000,
+  "noise": {
+    "median_sd_years": 2.336123771643514,
+    "median_width95_years": 9.103269461049928,
+    "width95_iqr": [
+      8.63869654008995,
+      9.657632194377829
+    ],
+    "share_width_gt4y": 0.9945,
+    "share_width_gt6y": 0.992,
+    "share_width_gt8y": 0.9695,
+    "share_band_covers_zero_accel": 0.488
+  },
+  "decomposition": [
+    {
+      "marker": "rdw",
+      "label": "Red cell distribution width",
+      "total_cv_pct": 3.8078865529319543,
+      "oat_var": 3.56699874355166,
+      "oat_share": 0.6885875431486346,
+      "loo_share": 0.6840360571816171
+    },
+    {
+      "marker": "glucose",
+      "label": "Glucose (fasting)",
+      "total_cv_pct": 5.797413216254298,
+      "oat_var": 0.5270231558418011,
+      "oat_share": 0.10173863411631168,
+      "loo_share": 0.10878696923347149
+    },
+    {
+      "marker": "creatinine",
+      "label": "Creatinine",
+      "total_cv_pct": 6.407807737440318,
+      "oat_var": 0.23601675103097508,
+      "oat_share": 0.045561606947055654,
+      "loo_share": 0.04749608485679594
+    },
+    {
+      "marker": "wbc",
+      "label": "White blood cells",
+      "total_cv_pct": 11.183022847155415,
+      "oat_var": 0.20894025124670668,
+      "oat_share": 0.04033465235470568,
+      "loo_share": 0.04393656245341804
+    },
+    {
+      "marker": "lymph_pct",
+      "label": "Lymphocyte %",
+      "total_cv_pct": 10.824047302187846,
+      "oat_var": 0.1906249749953587,
+      "oat_share": 0.0367989989994015,
+      "loo_share": 0.031910332771607666
+    },
+    {
+      "marker": "mcv",
+      "label": "Mean cell volume",
+      "total_cv_pct": 1.6401219466856727,
+      "oat_var": 0.18857162595451396,
+      "oat_share": 0.03640261238058984,
+      "loo_share": 0.02601025531248242
+    },
+    {
+      "marker": "crp_mgdl",
+      "label": "C-reactive protein",
+      "total_cv_pct": 42.49517619683439,
+      "oat_var": 0.18416206664502036,
+      "oat_share": 0.035551373613886744,
+      "loo_share": 0.02411663784954561
+    },
+    {
+      "marker": "albumin",
+      "label": "Albumin",
+      "total_cv_pct": 3.6891733491393435,
+      "oat_var": 0.07096191759793738,
+      "oat_share": 0.013698769191947117,
+      "loo_share": 0.0337071003410618
+    },
+    {
+      "marker": "alp",
+      "label": "Alkaline phosphatase",
+      "total_cv_pct": 5.758472019555188,
+      "oat_var": 0.006867913843285531,
+      "oat_share": 0.0013258092474671456,
+      "loo_share": 0.0
+    }
+  ],
+  "retest": {
+    "share_improve_2y": 0.272,
+    "share_worsen_2y": 0.286,
+    "share_abs_change_ge2y": 0.558,
+    "mean_change_top_quartile_baseline": -0.7052061662237277,
+    "mean_change_top_decile_baseline": -0.38838362729324727,
+    "mean_change_bottom_quartile_baseline": 0.9092730159640924,
+    "corr_baseline_vs_change": -0.13961771236160261,
+    "top_quartile_label_survival": 0.816,
+    "accel_rank_corr_retest": 0.9441451684239663
+  },
+  "repeats_needed": {
+    "width_le_4y": 6,
+    "width_le_2y": 21,
+    "width_le_1y": 83
+  },
+  "sensitivity": {
+    "base_median_width": 9.103269461049928,
+    "half_all_cvi_width": 4.534633649830091,
+    "double_crp_width": 9.366765860865517,
+    "half_rdw_width": 6.348823264007578
+  },
+  "retest_consumer_band": {
+    "n": 1604,
+    "mean_change_top_quartile_baseline": -1.2166849339099346,
+    "mean_change_top_decile_baseline": -2.098293536676819,
+    "mean_change_bottom_quartile_baseline": 1.354121894165538,
+    "share_improve_2y": 0.26807980049875313
+  }
+}
