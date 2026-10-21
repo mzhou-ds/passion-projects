@@ -1,0 +1,1040 @@
+{
+  "n_union": 9051,
+  "n_demand": 5000,
+  "n_newest": 3010,
+  "demand_downloads_total": 2508505074,
+  "demand_downloads_alltime_total": 67036066370,
+  "demand_deriv_share_of_models": 0.4346,
+  "demand_deriv_share_of_downloads": 0.43485752144027756,
+  "demand_deriv_share_of_downloads_alltime": 0.20755614221461366,
+  "demand_relation_mix_downloads": {
+    "quantized": 0.6097909630106854,
+    "finetune": 0.3717585130057374,
+    "adapter": 0.01165953686583252,
+    "declared": 0.003560644837077408,
+    "merge": 0.003230342280667281
+  },
+  "union_deriv_share_of_models": 0.36780466246823557,
+  "union_deriv_share_of_downloads": 0.4347207087283545,
+  "union_deriv_share_of_downloads_alltime": 0.20838102235831898,
+  "union_relation_mix_downloads": {
+    "quantized": 0.609203687004498,
+    "finetune": 0.3721138003279792,
+    "adapter": 0.011854726424492472,
+    "declared": 0.003584684035971028,
+    "merge": 0.0032431022070592624
+  },
+  "hhi_family": 0.01277591372023249,
+  "effective_n_family": 78.27228814298869,
+  "top5_share_family": 0.1874807712667198,
+  "top10_share_family": 0.2613910670527111,
+  "top_family": [
+    {
+      "name": "nreimers/minilm-l6-h384-uncased",
+      "share": 0.08302916711580867
+    },
+    {
+      "name": "microsoft/minilm-l12-h384-uncased",
+      "share": 0.034082057033144354
+    },
+    {
+      "name": "qwen/qwen3.8-27b",
+      "share": 0.02945124519209962
+    },
+    {
+      "name": "baai/bge-small-en-v1.5",
+      "share": 0.022822820090496656
+    },
+    {
+      "name": "qwen/qwen3-0.6b-base",
+      "share": 0.01809548183517049
+    },
+    {
+      "name": "sentence-transformers/paraphrase-multilingual-minilm-l12-v2",
+      "share": 0.017316690107679646
+    },
+    {
+      "name": "google/electra-base-discriminator",
+      "share": 0.01659676052941482
+    },
+    {
+      "name": "minimaxai/minimax-h3",
+      "share": 0.015309223966911537
+    },
+    {
+      "name": "baai/bge-m3",
+      "share": 0.012721507455081193
+    },
+    {
+      "name": "google-bert/bert-base-uncased",
+      "share": 0.011966113726904105
+    },
+    {
+      "name": "google-t5/t5-small",
+      "share": 0.009752428748724947
+    },
+    {
+      "name": "qwen/qwen3.6-35b-a3b",
+      "share": 0.008771141915577405
+    },
+    {
+      "name": "qwen/qwen-image-2.1",
+      "share": 0.00783582389516825
+    },
+    {
+      "name": "qwen/qwen3-4b-base",
+      "share": 0.0076128496601159355
+    },
+    {
+      "name": "timm/mobilenetv3_small_100.lamb_in1k",
+      "share": 0.007359464085341531
+    }
+  ],
+  "hhi_root_org": 0.05395144440318871,
+  "effective_n_root_org": 18.53518494383251,
+  "top5_share_root_org": 0.43318625154991414,
+  "top10_share_root_org": 0.5571321599009051,
+  "top_root_org": [
+    {
+      "name": "qwen",
+      "share": 0.17496034094129165
+    },
+    {
+      "name": "nreimers",
+      "share": 0.08409487594283414
+    },
+    {
+      "name": "google",
+      "share": 0.06660289697305193
+    },
+    {
+      "name": "baai",
+      "share": 0.057232664381686636
+    },
+    {
+      "name": "microsoft",
+      "share": 0.0502954733110498
+    },
+    {
+      "name": "sentence-transformers",
+      "share": 0.034713427093510434
+    },
+    {
+      "name": "facebook",
+      "share": 0.029159173628205307
+    },
+    {
+      "name": "openai",
+      "share": 0.024761280590497224
+    },
+    {
+      "name": "timm",
+      "share": 0.017714180234502486
+    },
+    {
+      "name": "jonatasgrosman",
+      "share": 0.017597846804275587
+    },
+    {
+      "name": "minimaxai",
+      "share": 0.016834245398859415
+    },
+    {
+      "name": "google-bert",
+      "share": 0.01576099223788136
+    },
+    {
+      "name": "nvidia",
+      "share": 0.013593410415401854
+    },
+    {
+      "name": "openmed",
+      "share": 0.013286841372360724
+    },
+    {
+      "name": "deepseek-ai",
+      "share": 0.012050783278583076
+    }
+  ],
+  "hhi_root": 0.012761263922278606,
+  "effective_n_root": 78.36214391383291,
+  "top5_share_root": 0.1874807712667198,
+  "top10_share_root": 0.2613910670527111,
+  "top_root": [
+    {
+      "name": "nreimers/MiniLM-L6-H384-uncased",
+      "share": 0.08302916711580867
+    },
+    {
+      "name": "microsoft/MiniLM-L12-H384-uncased",
+      "share": 0.034082057033144354
+    },
+    {
+      "name": "Qwen/Qwen3.8-27B",
+      "share": 0.02945124519209962
+    },
+    {
+      "name": "BAAI/bge-small-en-v1.5",
+      "share": 0.022822820090496656
+    },
+    {
+      "name": "Qwen/Qwen3-0.6B-Base",
+      "share": 0.01809548183517049
+    },
+    {
+      "name": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+      "share": 0.017316690107679646
+    },
+    {
+      "name": "google/electra-base-discriminator",
+      "share": 0.01659676052941482
+    },
+    {
+      "name": "MiniMaxAI/MiniMax-H3",
+      "share": 0.015309223966911537
+    },
+    {
+      "name": "BAAI/bge-m3",
+      "share": 0.012721507455081193
+    },
+    {
+      "name": "google-bert/bert-base-uncased",
+      "share": 0.011966113726904105
+    },
+    {
+      "name": "google-t5/t5-small",
+      "share": 0.009752428748724947
+    },
+    {
+      "name": "Qwen/Qwen3.6-35B-A3B",
+      "share": 0.008771141915577405
+    },
+    {
+      "name": "Qwen/Qwen-Image-2.1",
+      "share": 0.00783582389516825
+    },
+    {
+      "name": "Qwen/Qwen3-4B-Base",
+      "share": 0.0076128496601159355
+    },
+    {
+      "name": "timm/mobilenetv3_small_100.lamb_in1k",
+      "share": 0.007359464085341531
+    }
+  ],
+  "gini_downloads_demand_models": 0.8018228613222251,
+  "top1pct_models_download_share": 0.38882854976437653,
+  "median_downloads_demand": 93418.5,
+  "share_demand_models_under_100_dl": 0.0,
+  "top_families": [
+    {
+      "family": "nreimers/minilm-l6-h384-uncased",
+      "root_org": "nreimers",
+      "n_models": 8,
+      "n_derivatives": 8,
+      "downloads": 208279087,
+      "downloadsAllTime": 4161344401,
+      "likes": 6378,
+      "max_depth": 2,
+      "share_of_demand_downloads": 0.08302916711580867
+    },
+    {
+      "family": "microsoft/minilm-l12-h384-uncased",
+      "root_org": "microsoft",
+      "n_models": 7,
+      "n_derivatives": 6,
+      "downloads": 85495013,
+      "downloadsAllTime": 1086986865,
+      "likes": 1081,
+      "max_depth": 3,
+      "share_of_demand_downloads": 0.034082057033144354
+    },
+    {
+      "family": "qwen/qwen3.8-27b",
+      "root_org": "qwen",
+      "n_models": 101,
+      "n_derivatives": 100,
+      "downloads": 73878598,
+      "downloadsAllTime": 183336792,
+      "likes": 54407,
+      "max_depth": 3,
+      "share_of_demand_downloads": 0.02945124519209962
+    },
+    {
+      "family": "baai/bge-small-en-v1.5",
+      "root_org": "baai",
+      "n_models": 3,
+      "n_derivatives": 2,
+      "downloads": 57251160,
+      "downloadsAllTime": 531376484,
+      "likes": 683,
+      "max_depth": 1,
+      "share_of_demand_downloads": 0.022822820090496656
+    },
+    {
+      "family": "qwen/qwen3-0.6b-base",
+      "root_org": "qwen",
+      "n_models": 31,
+      "n_derivatives": 30,
+      "downloads": 45392608,
+      "downloadsAllTime": 432337763,
+      "likes": 7185,
+      "max_depth": 3,
+      "share_of_demand_downloads": 0.01809548183517049
+    },
+    {
+      "family": "sentence-transformers/paraphrase-multilingual-minilm-l12-v2",
+      "root_org": "sentence-transformers",
+      "n_models": 3,
+      "n_derivatives": 2,
+      "downloads": 43439005,
+      "downloadsAllTime": 670421024,
+      "likes": 1500,
+      "max_depth": 1,
+      "share_of_demand_downloads": 0.017316690107679646
+    },
+    {
+      "family": "google/electra-base-discriminator",
+      "root_org": "google",
+      "n_models": 3,
+      "n_derivatives": 2,
+      "downloads": 41633058,
+      "downloadsAllTime": 978484800,
+      "likes": 227,
+      "max_depth": 1,
+      "share_of_demand_downloads": 0.01659676052941482
+    },
+    {
+      "family": "minimaxai/minimax-h3",
+      "root_org": "minimaxai",
+      "n_models": 34,
+      "n_derivatives": 33,
+      "downloads": 38403266,
+      "downloadsAllTime": 94977145,
+      "likes": 16221,
+      "max_depth": 2,
+      "share_of_demand_downloads": 0.015309223966911537
+    },
+    {
+      "family": "baai/bge-m3",
+      "root_org": "baai",
+      "n_models": 7,
+      "n_derivatives": 6,
+      "downloads": 31911966,
+      "downloadsAllTime": 365420392,
+      "likes": 4227,
+      "max_depth": 1,
+      "share_of_demand_downloads": 0.012721507455081193
+    },
+    {
+      "family": "google-bert/bert-base-uncased",
+      "root_org": "google-bert",
+      "n_models": 4,
+      "n_derivatives": 3,
+      "downloads": 30017057,
+      "downloadsAllTime": 3273329317,
+      "likes": 3051,
+      "max_depth": 1,
+      "share_of_demand_downloads": 0.011966113726904105
+    },
+    {
+      "family": "google-t5/t5-small",
+      "root_org": "google-t5",
+      "n_models": 1,
+      "n_derivatives": 0,
+      "downloads": 24464017,
+      "downloadsAllTime": 292843121,
+      "likes": 680,
+      "max_depth": 0,
+      "share_of_demand_downloads": 0.009752428748724947
+    },
+    {
+      "family": "qwen/qwen3.6-35b-a3b",
+      "root_org": "qwen",
+      "n_models": 28,
+      "n_derivatives": 27,
+      "downloads": 22002454,
+      "downloadsAllTime": 195885205,
+      "likes": 12665,
+      "max_depth": 2,
+      "share_of_demand_downloads": 0.008771141915577405
+    },
+    {
+      "family": "qwen/qwen-image-2.1",
+      "root_org": "qwen",
+      "n_models": 30,
+      "n_derivatives": 29,
+      "downloads": 19656204,
+      "downloadsAllTime": 21935361,
+      "likes": 15024,
+      "max_depth": 2,
+      "share_of_demand_downloads": 0.00783582389516825
+    },
+    {
+      "family": "qwen/qwen3-4b-base",
+      "root_org": "qwen",
+      "n_models": 18,
+      "n_derivatives": 17,
+      "downloads": 19096872,
+      "downloadsAllTime": 178849433,
+      "likes": 2332,
+      "max_depth": 2,
+      "share_of_demand_downloads": 0.0076128496601159355
+    },
+    {
+      "family": "timm/mobilenetv3_small_100.lamb_in1k",
+      "root_org": "timm",
+      "n_models": 1,
+      "n_derivatives": 0,
+      "downloads": 18461253,
+      "downloadsAllTime": 1181882849,
+      "likes": 152,
+      "max_depth": 0,
+      "share_of_demand_downloads": 0.007359464085341531
+    },
+    {
+      "family": "openai-community/gpt2",
+      "root_org": "openai-community",
+      "n_models": 1,
+      "n_derivatives": 0,
+      "downloads": 18446999,
+      "downloadsAllTime": 945409522,
+      "likes": 3884,
+      "max_depth": 0,
+      "share_of_demand_downloads": 0.007353781816588026
+    },
+    {
+      "family": "sentence-transformers/all-mpnet-base-v2",
+      "root_org": "sentence-transformers",
+      "n_models": 3,
+      "n_derivatives": 2,
+      "downloads": 18417277,
+      "downloadsAllTime": 1362153340,
+      "likes": 1434,
+      "max_depth": 1,
+      "share_of_demand_downloads": 0.007341933325505404
+    },
+    {
+      "family": "google/gemma-4-26b-a4b",
+      "root_org": "google",
+      "n_models": 27,
+      "n_derivatives": 26,
+      "downloads": 17623470,
+      "downloadsAllTime": 142348521,
+      "likes": 5183,
+      "max_depth": 3,
+      "share_of_demand_downloads": 0.007025487084982472
+    },
+    {
+      "family": "openai/clip-vit-base-patch32",
+      "root_org": "openai",
+      "n_models": 2,
+      "n_derivatives": 1,
+      "downloads": 17540603,
+      "downloadsAllTime": 706109470,
+      "likes": 1288,
+      "max_depth": 1,
+      "share_of_demand_downloads": 0.006992452669043315
+    },
+    {
+      "family": "qwen/qwen3.8-flash-next",
+      "root_org": "qwen",
+      "n_models": 31,
+      "n_derivatives": 30,
+      "downloads": 17405228,
+      "downloadsAllTime": 22107671,
+      "likes": 12454,
+      "max_depth": 2,
+      "share_of_demand_downloads": 0.00693848626434949
+    }
+  ],
+  "n_families_demand": 3255,
+  "top_families_root_split": [
+    {
+      "family": "nreimers/minilm-l6-h384-uncased",
+      "downloads": 208279087,
+      "root_own_downloads": 0,
+      "descendant_downloads": 208279087,
+      "n_models": 8
+    },
+    {
+      "family": "microsoft/minilm-l12-h384-uncased",
+      "downloads": 85495013,
+      "root_own_downloads": 47478,
+      "descendant_downloads": 85447535,
+      "n_models": 7
+    },
+    {
+      "family": "qwen/qwen3.8-27b",
+      "downloads": 73878598,
+      "root_own_downloads": 7729432,
+      "descendant_downloads": 66149166,
+      "n_models": 101
+    },
+    {
+      "family": "baai/bge-small-en-v1.5",
+      "downloads": 57251160,
+      "root_own_downloads": 56560669,
+      "descendant_downloads": 690491,
+      "n_models": 3
+    },
+    {
+      "family": "qwen/qwen3-0.6b-base",
+      "downloads": 45392608,
+      "root_own_downloads": 645510,
+      "descendant_downloads": 44747098,
+      "n_models": 31
+    },
+    {
+      "family": "sentence-transformers/paraphrase-multilingual-minilm-l12-v2",
+      "downloads": 43439005,
+      "root_own_downloads": 43006495,
+      "descendant_downloads": 432510,
+      "n_models": 3
+    },
+    {
+      "family": "google/electra-base-discriminator",
+      "downloads": 41633058,
+      "root_own_downloads": 40973910,
+      "descendant_downloads": 659148,
+      "n_models": 3
+    },
+    {
+      "family": "minimaxai/minimax-h3",
+      "downloads": 38403266,
+      "root_own_downloads": 5007397,
+      "descendant_downloads": 33395869,
+      "n_models": 34
+    },
+    {
+      "family": "baai/bge-m3",
+      "downloads": 31911966,
+      "root_own_downloads": 31032360,
+      "descendant_downloads": 879606,
+      "n_models": 7
+    },
+    {
+      "family": "google-bert/bert-base-uncased",
+      "downloads": 30017057,
+      "root_own_downloads": 29726871,
+      "descendant_downloads": 290186,
+      "n_models": 4
+    },
+    {
+      "family": "google-t5/t5-small",
+      "downloads": 24464017,
+      "root_own_downloads": 24464017,
+      "descendant_downloads": 0,
+      "n_models": 1
+    },
+    {
+      "family": "qwen/qwen3.6-35b-a3b",
+      "downloads": 22002454,
+      "root_own_downloads": 3682645,
+      "descendant_downloads": 18319809,
+      "n_models": 28
+    }
+  ],
+  "top_root_org_totals": [
+    {
+      "org": "qwen",
+      "downloads": 438888903,
+      "share": 0.17496034094129165
+    },
+    {
+      "org": "nreimers",
+      "downloads": 210952423,
+      "share": 0.08409487594283414
+    },
+    {
+      "org": "google",
+      "downloads": 167073705,
+      "share": 0.06660289697305193
+    },
+    {
+      "org": "baai",
+      "downloads": 143568429,
+      "share": 0.057232664381686636
+    },
+    {
+      "org": "microsoft",
+      "downloads": 126166450,
+      "share": 0.0502954733110498
+    },
+    {
+      "org": "sentence-transformers",
+      "downloads": 87078808,
+      "share": 0.034713427093510434
+    },
+    {
+      "org": "facebook",
+      "downloads": 73145935,
+      "share": 0.029159173628205307
+    },
+    {
+      "org": "openai",
+      "downloads": 62113798,
+      "share": 0.024761280590497224
+    },
+    {
+      "org": "timm",
+      "downloads": 44436111,
+      "share": 0.017714180234502486
+    },
+    {
+      "org": "jonatasgrosman",
+      "downloads": 44144288,
+      "share": 0.017597846804275587
+    },
+    {
+      "org": "minimaxai",
+      "downloads": 42228790,
+      "share": 0.016834245398859415
+    },
+    {
+      "org": "google-bert",
+      "downloads": 39536529,
+      "share": 0.01576099223788136
+    }
+  ],
+  "qwen_family_count_demand": 97,
+  "qwen_download_share": 0.17496034094129165,
+  "n_families_union": 6313,
+  "families_single_model_share": 0.9003643275780137,
+  "depth_download_share": {
+    "0": 0.5653608085944817,
+    "1": 0.34308710591031477,
+    "2": 0.08255632055380885,
+    "3": 0.00890163357907563,
+    "4": 7.80867465767781e-05,
+    "5": 1.6044615742323988e-05
+  },
+  "max_depth_demand": 5,
+  "deep_examples": [
+    {
+      "id": "mudler/locate-anything.cpp-gguf",
+      "root": "Qwen/Qwen2.5-3B",
+      "depth": 3,
+      "relation": "quantized",
+      "downloads": 9434087
+    },
+    {
+      "id": "HuggingFaceTB/SmolVLM2-500M-Video-Instruct",
+      "root": "HuggingFaceTB/SmolLM2-360M",
+      "depth": 3,
+      "relation": "quantized",
+      "downloads": 1443498
+    },
+    {
+      "id": "bartowski/MiMo-V2.6-Distill-Qwen-9B-GGUF",
+      "root": "Qwen/Qwen3.5-9B-Base",
+      "depth": 3,
+      "relation": "quantized",
+      "downloads": 914001
+    },
+    {
+      "id": "Comfy-Org/ltx-2",
+      "root": "google/gemma-3-12b",
+      "depth": 3,
+      "relation": "finetune",
+      "downloads": 856500
+    },
+    {
+      "id": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ",
+      "root": "Qwen/Qwen2.5-7B",
+      "depth": 3,
+      "relation": "quantized",
+      "downloads": 732288
+    },
+    {
+      "id": "Qwen/Qwen2.5-Math-PRM-7B",
+      "root": "Qwen/Qwen2.5-7B",
+      "depth": 3,
+      "relation": "finetune",
+      "downloads": 720436
+    },
+    {
+      "id": "Xenova/ms-marco-MiniLM-L-6-v2",
+      "root": "microsoft/MiniLM-L12-H384-uncased",
+      "depth": 3,
+      "relation": "quantized",
+      "downloads": 702743
+    },
+    {
+      "id": "empero-ai/Qwen3.8-4B-Distill-GGUF",
+      "root": "Qwen/Qwen3.5-4B-Base",
+      "depth": 3,
+      "relation": "quantized",
+      "downloads": 558147
+    },
+    {
+      "id": "Orion-zhen/Qwen2.5-Coder-7B-Instruct-AWQ",
+      "root": "Qwen/Qwen2.5-7B",
+      "depth": 3,
+      "relation": "quantized",
+      "downloads": 528460
+    },
+    {
+      "id": "Qwen/Qwen2.5-Coder-7B-Instruct-GPTQ-Int4",
+      "root": "Qwen/Qwen2.5-7B",
+      "depth": 3,
+      "relation": "quantized",
+      "downloads": 473323
+    }
+  ],
+  "vintage_download_share": {
+    "2022_or_earlier": 0.3454775918065374,
+    "2026": 0.23297615462586863,
+    "2025": 0.1718508411516173,
+    "2024": 0.13318967079753255,
+    "2023": 0.1165057416184441
+  },
+  "vintage_model_share": {
+    "2026": 0.3156,
+    "2025": 0.2932,
+    "2024": 0.1622,
+    "2022_or_earlier": 0.143,
+    "2023": 0.086
+  },
+  "downloads_weighted_median_model": "BAAI/bge-reranker-v2-m3",
+  "downloads_weighted_median_created": "2024-03-15T13:32:18.000Z",
+  "pre2023_share_of_downloads": 0.3454775918065374,
+  "pre2023_share_of_models_demand": 0.143,
+  "task_download_share": {
+    "text-generation": 0.1626922154672907,
+    "sentence-similarity": 0.1599129326696351,
+    "unspecified": 0.11759941610546648,
+    "image-text-to-text": 0.11061914160593003,
+    "automatic-speech-recognition": 0.07087404599764426,
+    "feature-extraction": 0.06120486762866321,
+    "fill-mask": 0.04405221147262467,
+    "text-ranking": 0.03871972873673366,
+    "image-classification": 0.026588731946890213,
+    "text-classification": 0.025111866686222218,
+    "time-series-forecasting": 0.024632783341940332,
+    "zero-shot-image-classification": 0.02145539889786964
+  },
+  "task_model_share_top": {
+    "text-generation": 0.2184,
+    "unspecified": 0.1648,
+    "image-text-to-text": 0.1224,
+    "token-classification": 0.0858,
+    "automatic-speech-recognition": 0.0504,
+    "text-to-image": 0.036,
+    "sentence-similarity": 0.0356,
+    "feature-extraction": 0.0348,
+    "image-classification": 0.031,
+    "text-classification": 0.0298,
+    "fill-mask": 0.0216,
+    "text-to-speech": 0.0146
+  },
+  "text_generation_share_of_downloads": 0.1626922154672907,
+  "text_generation_share_of_models": 0.2184,
+  "newest_median_downloads": 0.0,
+  "newest_share_zero_downloads": 0.6727574750830565,
+  "newest_share_under_10_dl": 0.8475083056478405,
+  "newest_share_under_100_dl": 0.9461794019933555,
+  "newest_deriv_share_of_models": 0.2691029900332226,
+  "newest_share_zero_likes": 0.9591362126245847,
+  "newest_top10_share_of_newest_downloads": 0.32887627659403906,
+  "corr_log_likes_log_downloads_demand": 0.36761517002930305,
+  "spearman_likes_downloads_demand": 0.32940037191524196,
+  "share_demand_models_zero_likes": 0.1426,
+  "infrastructure_index_by_task": [
+    {
+      "pipeline_tag": "image-classification",
+      "n": 112,
+      "med_dl_per_like": 18128.5,
+      "downloads": 62572895,
+      "likes": 4807
+    },
+    {
+      "pipeline_tag": "automatic-speech-recognition",
+      "n": 229,
+      "med_dl_per_like": 13159.594405594406,
+      "downloads": 171503531,
+      "likes": 48739
+    },
+    {
+      "pipeline_tag": "token-classification",
+      "n": 134,
+      "med_dl_per_like": 11279.935028248587,
+      "downloads": 22442947,
+      "likes": 6962
+    },
+    {
+      "pipeline_tag": "text-ranking",
+      "n": 35,
+      "med_dl_per_like": 7345.714285714285,
+      "downloads": 96987887,
+      "likes": 3768
+    },
+    {
+      "pipeline_tag": "image-feature-extraction",
+      "n": 54,
+      "med_dl_per_like": 7312.25,
+      "downloads": 18053396,
+      "likes": 5724
+    },
+    {
+      "pipeline_tag": "zero-shot-image-classification",
+      "n": 66,
+      "med_dl_per_like": 6630.222701149425,
+      "downloads": 53766804,
+      "likes": 8373
+    },
+    {
+      "pipeline_tag": "time-series-forecasting",
+      "n": 46,
+      "med_dl_per_like": 6522.200000000001,
+      "downloads": 61791462,
+      "likes": 4557
+    },
+    {
+      "pipeline_tag": "sentence-similarity",
+      "n": 172,
+      "med_dl_per_like": 5343.783333333333,
+      "downloads": 400812301,
+      "likes": 31730
+    },
+    {
+      "pipeline_tag": "feature-extraction",
+      "n": 150,
+      "med_dl_per_like": 3778.199883292935,
+      "downloads": 150252533,
+      "likes": 24287
+    },
+    {
+      "pipeline_tag": "fill-mask",
+      "n": 107,
+      "med_dl_per_like": 3350.25,
+      "downloads": 110070575,
+      "likes": 18317
+    },
+    {
+      "pipeline_tag": "unspecified",
+      "n": 652,
+      "med_dl_per_like": 3227.8591229595286,
+      "downloads": 280217835,
+      "likes": 103322
+    },
+    {
+      "pipeline_tag": "text-classification",
+      "n": 130,
+      "med_dl_per_like": 3037.553956834532,
+      "downloads": 60869487,
+      "likes": 22359
+    },
+    {
+      "pipeline_tag": "image-segmentation",
+      "n": 34,
+      "med_dl_per_like": 2405.275,
+      "downloads": 5931655,
+      "likes": 6382
+    },
+    {
+      "pipeline_tag": "image-to-text",
+      "n": 35,
+      "med_dl_per_like": 1796.909090909091,
+      "downloads": 8191489,
+      "likes": 8507
+    },
+    {
+      "pipeline_tag": "text-generation",
+      "n": 1021,
+      "med_dl_per_like": 1783.2692307692307,
+      "downloads": 401858984,
+      "likes": 348415
+    },
+    {
+      "pipeline_tag": "translation",
+      "n": 47,
+      "med_dl_per_like": 1598.0,
+      "downloads": 34016711,
+      "likes": 8096
+    },
+    {
+      "pipeline_tag": "any-to-any",
+      "n": 56,
+      "med_dl_per_like": 1518.210873911181,
+      "downloads": 24469189,
+      "likes": 17123
+    },
+    {
+      "pipeline_tag": "image-text-to-text",
+      "n": 592,
+      "med_dl_per_like": 1473.5470085470085,
+      "downloads": 275555005,
+      "likes": 236210
+    },
+    {
+      "pipeline_tag": "text-to-speech",
+      "n": 67,
+      "med_dl_per_like": 1228.5755076142132,
+      "downloads": 42479282,
+      "likes": 37154
+    },
+    {
+      "pipeline_tag": "image-to-video",
+      "n": 48,
+      "med_dl_per_like": 731.0002840729752,
+      "downloads": 19755588,
+      "likes": 27836
+    },
+    {
+      "pipeline_tag": "text-to-image",
+      "n": 166,
+      "med_dl_per_like": 686.4406193754821,
+      "downloads": 32517736,
+      "likes": 107681
+    },
+    {
+      "pipeline_tag": "text-to-video",
+      "n": 35,
+      "med_dl_per_like": 610.6372549019608,
+      "downloads": 4309496,
+      "likes": 11063
+    },
+    {
+      "pipeline_tag": "image-to-image",
+      "n": 51,
+      "med_dl_per_like": 350.0272727272727,
+      "downloads": 8244452,
+      "likes": 33612
+    }
+  ],
+  "top100_liked_share_also_top5000_downloaded": 0.79,
+  "third_party_share_of_deriv_downloads": 0.7284593251732715,
+  "third_party_share_of_deriv_models": 0.7942936033133916,
+  "name_quant_share_of_deriv_downloads": 0.27122633058071394,
+  "name_quant_share_of_deriv_models": 0.5135757017947538,
+  "first_party_deriv_downloads_by_org": [
+    {
+      "org": "qwen",
+      "downloads": 180405995
+    },
+    {
+      "org": "google",
+      "downloads": 36811722
+    },
+    {
+      "org": "mistralai",
+      "downloads": 6311315
+    },
+    {
+      "org": "openai",
+      "downloads": 6049052
+    },
+    {
+      "org": "deepseek-ai",
+      "downloads": 5848080
+    },
+    {
+      "org": "meta-llama",
+      "downloads": 5830754
+    },
+    {
+      "org": "nvidia",
+      "downloads": 5142676
+    },
+    {
+      "org": "huggingfacetb",
+      "downloads": 4411554
+    }
+  ],
+  "top_repackagers_by_downloads": [
+    {
+      "author": "sentence-transformers",
+      "downloads": 205970674
+    },
+    {
+      "author": "cross-encoder",
+      "downloads": 86508232
+    },
+    {
+      "author": "Comfy-Org",
+      "downloads": 85787280
+    },
+    {
+      "author": "unsloth",
+      "downloads": 50712863
+    },
+    {
+      "author": "lmstudio-community",
+      "downloads": 34723408
+    },
+    {
+      "author": "nvidia",
+      "downloads": 13611813
+    },
+    {
+      "author": "mudler",
+      "downloads": 12739805
+    },
+    {
+      "author": "Xenova",
+      "downloads": 11860857
+    },
+    {
+      "author": "hexgrad",
+      "downloads": 10551349
+    },
+    {
+      "author": "handy-computer",
+      "downloads": 9487213
+    }
+  ],
+  "originals_top_orgs_by_downloads": [
+    {
+      "org": "BAAI",
+      "share_of_original_downloads": 0.09510507602910008
+    },
+    {
+      "org": "sentence-transformers",
+      "share_of_original_downloads": 0.06094229073624367
+    },
+    {
+      "org": "google",
+      "share_of_original_downloads": 0.05821136623976037
+    },
+    {
+      "org": "Qwen",
+      "share_of_original_downloads": 0.05206561482860407
+    },
+    {
+      "org": "facebook",
+      "share_of_original_downloads": 0.03870249467472968
+    },
+    {
+      "org": "openai",
+      "share_of_original_downloads": 0.03440503825036952
+    },
+    {
+      "org": "timm",
+      "share_of_original_downloads": 0.031098483911309587
+    },
+    {
+      "org": "jonatasgrosman",
+      "share_of_original_downloads": 0.030923389379395958
+    },
+    {
+      "org": "google-bert",
+      "share_of_original_downloads": 0.02768383545938843
+    },
+    {
+      "org": "microsoft",
+      "share_of_original_downloads": 0.024551576449483904
+    },
+    {
+      "org": "OpenMed",
+      "share_of_original_downloads": 0.023510604628805325
+    },
+    {
+      "org": "intfloat",
+      "share_of_original_downloads": 0.019661543980372908
+    }
+  ],
+  "n_authors_demand": 1241,
+  "n_authors_of_originals_demand": 725,
+  "n_root_orgs_demand": 881
+}
