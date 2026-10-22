@@ -1,0 +1,1010 @@
+{
+  "us_pr": [
+    {
+      "year": 2014,
+      "total": 1015480,
+      "n_countries": 202,
+      "hhi": 415.3,
+      "effective_n": 24.08,
+      "top1_country": "Mexico",
+      "top1_share": 0.132,
+      "top3_share": 0.2837,
+      "top5_share": 0.3789,
+      "top10_share": 0.5105
+    },
+    {
+      "year": 2015,
+      "total": 1050450,
+      "n_countries": 202,
+      "hhi": 452.3,
+      "effective_n": 22.11,
+      "top1_country": "Mexico",
+      "top1_share": 0.151,
+      "top3_share": 0.283,
+      "top5_share": 0.3886,
+      "top10_share": 0.5219
+    },
+    {
+      "year": 2016,
+      "total": 1181820,
+      "n_countries": 202,
+      "hhi": 438.8,
+      "effective_n": 22.79,
+      "top1_country": "Mexico",
+      "top1_share": 0.1477,
+      "top3_share": 0.2732,
+      "top5_share": 0.3796,
+      "top10_share": 0.5194
+    },
+    {
+      "year": 2017,
+      "total": 1125800,
+      "n_countries": 201,
+      "hhi": 442.1,
+      "effective_n": 22.62,
+      "top1_country": "Mexico",
+      "top1_share": 0.1515,
+      "top3_share": 0.2729,
+      "top5_share": 0.3785,
+      "top10_share": 0.5172
+    },
+    {
+      "year": 2018,
+      "total": 1095560,
+      "n_countries": 201,
+      "hhi": 441.4,
+      "effective_n": 22.66,
+      "top1_country": "Mexico",
+      "top1_share": 0.1477,
+      "top3_share": 0.2771,
+      "top5_share": 0.3841,
+      "top10_share": 0.522
+    },
+    {
+      "year": 2019,
+      "total": 1030660,
+      "n_countries": 201,
+      "hhi": 425.5,
+      "effective_n": 23.5,
+      "top1_country": "Mexico",
+      "top1_share": 0.1514,
+      "top3_share": 0.2647,
+      "top5_share": 0.3577,
+      "top10_share": 0.5037
+    },
+    {
+      "year": 2020,
+      "total": 706830,
+      "n_countries": 199,
+      "hhi": 396.2,
+      "effective_n": 25.24,
+      "top1_country": "Mexico",
+      "top1_share": 0.1419,
+      "top3_share": 0.2662,
+      "top5_share": 0.3511,
+      "top10_share": 0.4824
+    },
+    {
+      "year": 2021,
+      "total": 739020,
+      "n_countries": 200,
+      "hhi": 511.2,
+      "effective_n": 19.56,
+      "top1_country": "Mexico",
+      "top1_share": 0.1451,
+      "top3_share": 0.339,
+      "top5_share": 0.4094,
+      "top10_share": 0.5335
+    },
+    {
+      "year": 2022,
+      "total": 1017010,
+      "n_countries": 202,
+      "hhi": 491.3,
+      "effective_n": 20.35,
+      "top1_country": "Mexico",
+      "top1_share": 0.1364,
+      "top3_share": 0.3281,
+      "top5_share": 0.4037,
+      "top10_share": 0.5386
+    },
+    {
+      "year": 2023,
+      "total": 1172280,
+      "n_countries": 204,
+      "hhi": 472.6,
+      "effective_n": 21.16,
+      "top1_country": "Mexico",
+      "top1_share": 0.154,
+      "top3_share": 0.2902,
+      "top5_share": 0.3995,
+      "top10_share": 0.545
+    },
+    {
+      "year": 2024,
+      "total": 1361700,
+      "n_countries": 203,
+      "hhi": 561.0,
+      "effective_n": 17.82,
+      "top1_country": "Mexico",
+      "top1_share": 0.1488,
+      "top3_share": 0.3364,
+      "top5_share": 0.4366,
+      "top10_share": 0.5831
+    }
+  ],
+  "ca_pr": [
+    {
+      "year": 2015,
+      "total": 271155,
+      "n_countries": 166,
+      "hhi": 708.3,
+      "effective_n": 14.12,
+      "top1_country": "Philippines",
+      "top1_share": 0.1875,
+      "top3_share": 0.4043,
+      "top5_share": 0.4889,
+      "top10_share": 0.6099
+    },
+    {
+      "year": 2016,
+      "total": 295675,
+      "n_countries": 162,
+      "hhi": 666.0,
+      "effective_n": 15.01,
+      "top1_country": "Philippines",
+      "top1_share": 0.1415,
+      "top3_share": 0.3942,
+      "top5_share": 0.5232,
+      "top10_share": 0.6307
+    },
+    {
+      "year": 2017,
+      "total": 285795,
+      "n_countries": 167,
+      "hhi": 721.6,
+      "effective_n": 13.86,
+      "top1_country": "India",
+      "top1_share": 0.1805,
+      "top3_share": 0.4295,
+      "top5_share": 0.5036,
+      "top10_share": 0.6078
+    },
+    {
+      "year": 2018,
+      "total": 320300,
+      "n_countries": 163,
+      "hhi": 767.6,
+      "effective_n": 13.03,
+      "top1_country": "India",
+      "top1_share": 0.2185,
+      "top3_share": 0.4207,
+      "top5_share": 0.4924,
+      "top10_share": 0.6107
+    },
+    {
+      "year": 2019,
+      "total": 340460,
+      "n_countries": 165,
+      "hhi": 859.9,
+      "effective_n": 11.63,
+      "top1_country": "India",
+      "top1_share": 0.2514,
+      "top3_share": 0.4219,
+      "top5_share": 0.4906,
+      "top10_share": 0.6084
+    },
+    {
+      "year": 2020,
+      "total": 183605,
+      "n_countries": 157,
+      "hhi": 754.0,
+      "effective_n": 13.26,
+      "top1_country": "India",
+      "top1_share": 0.2335,
+      "top3_share": 0.3832,
+      "top5_share": 0.4526,
+      "top10_share": 0.5792
+    },
+    {
+      "year": 2021,
+      "total": 405185,
+      "n_countries": 166,
+      "hhi": 1160.9,
+      "effective_n": 8.61,
+      "top1_country": "India",
+      "top1_share": 0.3158,
+      "top3_share": 0.4368,
+      "top5_share": 0.5066,
+      "top10_share": 0.6342
+    },
+    {
+      "year": 2022,
+      "total": 436820,
+      "n_countries": 162,
+      "hhi": 930.9,
+      "effective_n": 10.74,
+      "top1_country": "India",
+      "top1_share": 0.2707,
+      "top3_share": 0.398,
+      "top5_share": 0.4993,
+      "top10_share": 0.627
+    },
+    {
+      "year": 2023,
+      "total": 471040,
+      "n_countries": 166,
+      "hhi": 1053.3,
+      "effective_n": 9.49,
+      "top1_country": "India",
+      "top1_share": 0.2967,
+      "top3_share": 0.4215,
+      "top5_share": 0.5014,
+      "top10_share": 0.6193
+    },
+    {
+      "year": 2024,
+      "total": 482945,
+      "n_countries": 166,
+      "hhi": 886.6,
+      "effective_n": 11.28,
+      "top1_country": "India",
+      "top1_share": 0.2637,
+      "top3_share": 0.3927,
+      "top5_share": 0.4788,
+      "top10_share": 0.6071
+    }
+  ],
+  "ca_pr_2025_q1": [
+    {
+      "year": 2025,
+      "total": 103915,
+      "n_countries": 154,
+      "hhi": 1106.1,
+      "effective_n": 9.04,
+      "top1_country": "India",
+      "top1_share": 0.3044,
+      "top3_share": 0.4336,
+      "top5_share": 0.5224,
+      "top10_share": 0.6335
+    }
+  ],
+  "ca_study": [
+    {
+      "year": 2015,
+      "total": 352275,
+      "n_countries": 188,
+      "hhi": 1430.7,
+      "effective_n": 6.99,
+      "top1_country": "China, People's Republic of",
+      "top1_share": 0.3345,
+      "top3_share": 0.5302,
+      "top5_share": 0.6208,
+      "top10_share": 0.7382
+    },
+    {
+      "year": 2016,
+      "total": 410550,
+      "n_countries": 186,
+      "hhi": 1461.3,
+      "effective_n": 6.84,
+      "top1_country": "China, People's Republic of",
+      "top1_share": 0.3192,
+      "top3_share": 0.5561,
+      "top5_share": 0.6374,
+      "top10_share": 0.7453
+    },
+    {
+      "year": 2017,
+      "total": 490710,
+      "n_countries": 187,
+      "hhi": 1523.8,
+      "effective_n": 6.56,
+      "top1_country": "China, People's Republic of",
+      "top1_share": 0.2843,
+      "top3_share": 0.5819,
+      "top5_share": 0.6547,
+      "top10_share": 0.7604
+    },
+    {
+      "year": 2018,
+      "total": 566850,
+      "n_countries": 186,
+      "hhi": 1619.8,
+      "effective_n": 6.17,
+      "top1_country": "India",
+      "top1_share": 0.3025,
+      "top3_share": 0.595,
+      "top5_share": 0.6702,
+      "top10_share": 0.7726
+    },
+    {
+      "year": 2019,
+      "total": 637710,
+      "n_countries": 187,
+      "hhi": 1732.3,
+      "effective_n": 5.77,
+      "top1_country": "India",
+      "top1_share": 0.3427,
+      "top3_share": 0.6008,
+      "top5_share": 0.6719,
+      "top10_share": 0.7729
+    },
+    {
+      "year": 2020,
+      "total": 527095,
+      "n_countries": 184,
+      "hhi": 1716.5,
+      "effective_n": 5.83,
+      "top1_country": "India",
+      "top1_share": 0.3405,
+      "top3_share": 0.5965,
+      "top5_share": 0.6653,
+      "top10_share": 0.7712
+    },
+    {
+      "year": 2021,
+      "total": 616295,
+      "n_countries": 188,
+      "hhi": 1596.1,
+      "effective_n": 6.27,
+      "top1_country": "India",
+      "top1_share": 0.351,
+      "top3_share": 0.5631,
+      "top5_share": 0.6166,
+      "top10_share": 0.7302
+    },
+    {
+      "year": 2022,
+      "total": 803550,
+      "n_countries": 188,
+      "hhi": 1798.6,
+      "effective_n": 5.56,
+      "top1_country": "India",
+      "top1_share": 0.396,
+      "top3_share": 0.5598,
+      "top5_share": 0.6202,
+      "top10_share": 0.7231
+    },
+    {
+      "year": 2023,
+      "total": 1037130,
+      "n_countries": 188,
+      "hhi": 1871.9,
+      "effective_n": 5.34,
+      "top1_country": "India",
+      "top1_share": 0.4109,
+      "top3_share": 0.5559,
+      "top5_share": 0.6259,
+      "top10_share": 0.7176
+    },
+    {
+      "year": 2024,
+      "total": 996340,
+      "n_countries": 188,
+      "hhi": 1742.5,
+      "effective_n": 5.74,
+      "top1_country": "India",
+      "top1_share": 0.3943,
+      "top3_share": 0.5395,
+      "top5_share": 0.6087,
+      "top10_share": 0.7038
+    }
+  ],
+  "ca_peak": {
+    "year": 2021,
+    "total": 405185,
+    "n_countries": 166,
+    "hhi": 1160.9,
+    "effective_n": 8.61,
+    "top1_country": "India",
+    "top1_share": 0.3158,
+    "top3_share": 0.4368,
+    "top5_share": 0.5066,
+    "top10_share": 0.6342
+  },
+  "ca_decomp_2024": {
+    "year": 2024,
+    "hhi": 886.6,
+    "contributors": [
+      {
+        "country": "India",
+        "share": 0.2637,
+        "hhi_points": 695.6,
+        "pct_of_hhi": 78.5
+      },
+      {
+        "country": "Philippines",
+        "share": 0.0669,
+        "hhi_points": 44.8,
+        "pct_of_hhi": 5.1
+      },
+      {
+        "country": "China, People's Republic of",
+        "share": 0.0621,
+        "hhi_points": 38.5,
+        "pct_of_hhi": 4.3
+      },
+      {
+        "country": "Cameroon, Federal Republic of",
+        "share": 0.0439,
+        "hhi_points": 19.3,
+        "pct_of_hhi": 2.2
+      },
+      {
+        "country": "Nigeria",
+        "share": 0.0422,
+        "hhi_points": 17.8,
+        "pct_of_hhi": 2.0
+      },
+      {
+        "country": "Eritrea",
+        "share": 0.0344,
+        "hhi_points": 11.8,
+        "pct_of_hhi": 1.3
+      },
+      {
+        "country": "Afghanistan",
+        "share": 0.0254,
+        "hhi_points": 6.5,
+        "pct_of_hhi": 0.7
+      },
+      {
+        "country": "Pakistan",
+        "share": 0.0248,
+        "hhi_points": 6.1,
+        "pct_of_hhi": 0.7
+      }
+    ]
+  },
+  "ca_decomp_peak": {
+    "year": 2021,
+    "hhi": 1160.9,
+    "contributors": [
+      {
+        "country": "India",
+        "share": 0.3158,
+        "hhi_points": 997.1,
+        "pct_of_hhi": 85.9
+      },
+      {
+        "country": "China, People's Republic of",
+        "share": 0.0766,
+        "hhi_points": 58.6,
+        "pct_of_hhi": 5.1
+      },
+      {
+        "country": "Philippines",
+        "share": 0.0445,
+        "hhi_points": 19.8,
+        "pct_of_hhi": 1.7
+      },
+      {
+        "country": "Nigeria",
+        "share": 0.0385,
+        "hhi_points": 14.8,
+        "pct_of_hhi": 1.3
+      },
+      {
+        "country": "France",
+        "share": 0.0313,
+        "hhi_points": 9.8,
+        "pct_of_hhi": 0.8
+      },
+      {
+        "country": "United States of America",
+        "share": 0.0295,
+        "hhi_points": 8.7,
+        "pct_of_hhi": 0.7
+      },
+      {
+        "country": "Brazil",
+        "share": 0.0282,
+        "hhi_points": 7.9,
+        "pct_of_hhi": 0.7
+      },
+      {
+        "country": "Iran",
+        "share": 0.0279,
+        "hhi_points": 7.8,
+        "pct_of_hhi": 0.7
+      }
+    ]
+  },
+  "us_decomp_2024": {
+    "year": 2024,
+    "hhi": 561.0,
+    "contributors": [
+      {
+        "country": "Mexico",
+        "share": 0.1488,
+        "hhi_points": 221.4,
+        "pct_of_hhi": 39.5
+      },
+      {
+        "country": "Cuba",
+        "share": 0.1352,
+        "hhi_points": 182.7,
+        "pct_of_hhi": 32.6
+      },
+      {
+        "country": "China, People's Republic",
+        "share": 0.0525,
+        "hhi_points": 27.5,
+        "pct_of_hhi": 4.9
+      },
+      {
+        "country": "Dominican Republic",
+        "share": 0.0511,
+        "hhi_points": 26.1,
+        "pct_of_hhi": 4.7
+      },
+      {
+        "country": "India",
+        "share": 0.0491,
+        "hhi_points": 24.1,
+        "pct_of_hhi": 4.3
+      },
+      {
+        "country": "Afghanistan",
+        "share": 0.0369,
+        "hhi_points": 13.7,
+        "pct_of_hhi": 2.4
+      },
+      {
+        "country": "Philippines",
+        "share": 0.0359,
+        "hhi_points": 12.9,
+        "pct_of_hhi": 2.3
+      },
+      {
+        "country": "Vietnam",
+        "share": 0.0287,
+        "hhi_points": 8.2,
+        "pct_of_hhi": 1.5
+      }
+    ]
+  },
+  "diaspora_lens": {
+    "ca": {
+      "India": {
+        "2015": {
+          "persons": 39335,
+          "share": 0.1451
+        },
+        "2016": {
+          "persons": 39705,
+          "share": 0.1343
+        },
+        "2017": {
+          "persons": 51585,
+          "share": 0.1805
+        },
+        "2018": {
+          "persons": 69985,
+          "share": 0.2185
+        },
+        "2019": {
+          "persons": 85595,
+          "share": 0.2514
+        },
+        "2020": {
+          "persons": 42880,
+          "share": 0.2335
+        },
+        "2021": {
+          "persons": 127945,
+          "share": 0.3158
+        },
+        "2022": {
+          "persons": 118250,
+          "share": 0.2707
+        },
+        "2023": {
+          "persons": 139780,
+          "share": 0.2967
+        },
+        "2024": {
+          "persons": 127375,
+          "share": 0.2637
+        }
+      },
+      "China, People's Republic of": {
+        "2015": {
+          "persons": 19455,
+          "share": 0.0717
+        },
+        "2016": {
+          "persons": 26785,
+          "share": 0.0906
+        },
+        "2017": {
+          "persons": 30255,
+          "share": 0.1059
+        },
+        "2018": {
+          "persons": 29710,
+          "share": 0.0928
+        },
+        "2019": {
+          "persons": 30245,
+          "share": 0.0888
+        },
+        "2020": {
+          "persons": 16515,
+          "share": 0.0899
+        },
+        "2021": {
+          "persons": 31025,
+          "share": 0.0766
+        },
+        "2022": {
+          "persons": 31870,
+          "share": 0.073
+        },
+        "2023": {
+          "persons": 31785,
+          "share": 0.0675
+        },
+        "2024": {
+          "persons": 29970,
+          "share": 0.0621
+        }
+      },
+      "Philippines": {
+        "2015": {
+          "persons": 50845,
+          "share": 0.1875
+        },
+        "2016": {
+          "persons": 41850,
+          "share": 0.1415
+        },
+        "2017": {
+          "persons": 40900,
+          "share": 0.1431
+        },
+        "2018": {
+          "persons": 35045,
+          "share": 0.1094
+        },
+        "2019": {
+          "persons": 27810,
+          "share": 0.0817
+        },
+        "2020": {
+          "persons": 10970,
+          "share": 0.0597
+        },
+        "2021": {
+          "persons": 18020,
+          "share": 0.0445
+        },
+        "2022": {
+          "persons": 22100,
+          "share": 0.0506
+        },
+        "2023": {
+          "persons": 26965,
+          "share": 0.0572
+        },
+        "2024": {
+          "persons": 32320,
+          "share": 0.0669
+        }
+      },
+      "Nigeria": {
+        "2015": {
+          "persons": 4095,
+          "share": 0.0151
+        },
+        "2016": {
+          "persons": 4415,
+          "share": 0.0149
+        },
+        "2017": {
+          "persons": 5445,
+          "share": 0.0191
+        },
+        "2018": {
+          "persons": 10915,
+          "share": 0.0341
+        },
+        "2019": {
+          "persons": 12595,
+          "share": 0.037
+        },
+        "2020": {
+          "persons": 6360,
+          "share": 0.0346
+        },
+        "2021": {
+          "persons": 15590,
+          "share": 0.0385
+        },
+        "2022": {
+          "persons": 22135,
+          "share": 0.0507
+        },
+        "2023": {
+          "persons": 17465,
+          "share": 0.0371
+        },
+        "2024": {
+          "persons": 20390,
+          "share": 0.0422
+        }
+      },
+      "France": {
+        "2015": {
+          "persons": 5840,
+          "share": 0.0215
+        },
+        "2016": {
+          "persons": 6390,
+          "share": 0.0216
+        },
+        "2017": {
+          "persons": 6620,
+          "share": 0.0232
+        },
+        "2018": {
+          "persons": 6175,
+          "share": 0.0193
+        },
+        "2019": {
+          "persons": 4960,
+          "share": 0.0146
+        },
+        "2020": {
+          "persons": 4600,
+          "share": 0.0251
+        },
+        "2021": {
+          "persons": 12690,
+          "share": 0.0313
+        },
+        "2022": {
+          "persons": 14150,
+          "share": 0.0324
+        },
+        "2023": {
+          "persons": 10075,
+          "share": 0.0214
+        },
+        "2024": {
+          "persons": 9940,
+          "share": 0.0206
+        }
+      }
+    },
+    "us": {
+      "India": {
+        "2015": {
+          "persons": 64120,
+          "share": 0.061
+        },
+        "2016": {
+          "persons": 64690,
+          "share": 0.0547
+        },
+        "2017": {
+          "persons": 60390,
+          "share": 0.0536
+        },
+        "2018": {
+          "persons": 59820,
+          "share": 0.0546
+        },
+        "2019": {
+          "persons": 54500,
+          "share": 0.0529
+        },
+        "2020": {
+          "persons": 46360,
+          "share": 0.0656
+        },
+        "2021": {
+          "persons": 93450,
+          "share": 0.1265
+        },
+        "2022": {
+          "persons": 127010,
+          "share": 0.1249
+        },
+        "2023": {
+          "persons": 78070,
+          "share": 0.0666
+        },
+        "2024": {
+          "persons": 66800,
+          "share": 0.0491
+        }
+      },
+      "China, People's Republic": {
+        "2015": {
+          "persons": 74560,
+          "share": 0.071
+        },
+        "2016": {
+          "persons": 81770,
+          "share": 0.0692
+        },
+        "2017": {
+          "persons": 71570,
+          "share": 0.0636
+        },
+        "2018": {
+          "persons": 65210,
+          "share": 0.0595
+        },
+        "2019": {
+          "persons": 62250,
+          "share": 0.0604
+        },
+        "2020": {
+          "persons": 41480,
+          "share": 0.0587
+        },
+        "2021": {
+          "persons": 49850,
+          "share": 0.0675
+        },
+        "2022": {
+          "persons": 67950,
+          "share": 0.0668
+        },
+        "2023": {
+          "persons": 59260,
+          "share": 0.0506
+        },
+        "2024": {
+          "persons": 71470,
+          "share": 0.0525
+        }
+      },
+      "Mexico": {
+        "2015": {
+          "persons": 158620,
+          "share": 0.151
+        },
+        "2016": {
+          "persons": 174530,
+          "share": 0.1477
+        },
+        "2017": {
+          "persons": 170580,
+          "share": 0.1515
+        },
+        "2018": {
+          "persons": 161860,
+          "share": 0.1477
+        },
+        "2019": {
+          "persons": 156050,
+          "share": 0.1514
+        },
+        "2020": {
+          "persons": 100330,
+          "share": 0.1419
+        },
+        "2021": {
+          "persons": 107230,
+          "share": 0.1451
+        },
+        "2022": {
+          "persons": 138770,
+          "share": 0.1364
+        },
+        "2023": {
+          "persons": 180530,
+          "share": 0.154
+        },
+        "2024": {
+          "persons": 202600,
+          "share": 0.1488
+        }
+      },
+      "Philippines": {
+        "2015": {
+          "persons": 56480,
+          "share": 0.0538
+        },
+        "2016": {
+          "persons": 53290,
+          "share": 0.0451
+        },
+        "2017": {
+          "persons": 49150,
+          "share": 0.0437
+        },
+        "2018": {
+          "persons": 47260,
+          "share": 0.0431
+        },
+        "2019": {
+          "persons": 45920,
+          "share": 0.0446
+        },
+        "2020": {
+          "persons": 25490,
+          "share": 0.0361
+        },
+        "2021": {
+          "persons": 27510,
+          "share": 0.0372
+        },
+        "2022": {
+          "persons": 36000,
+          "share": 0.0354
+        },
+        "2023": {
+          "persons": 49200,
+          "share": 0.042
+        },
+        "2024": {
+          "persons": 48820,
+          "share": 0.0359
+        }
+      },
+      "Cuba": {
+        "2015": {
+          "persons": 54400,
+          "share": 0.0518
+        },
+        "2016": {
+          "persons": 66520,
+          "share": 0.0563
+        },
+        "2017": {
+          "persons": 65030,
+          "share": 0.0578
+        },
+        "2018": {
+          "persons": 76490,
+          "share": 0.0698
+        },
+        "2019": {
+          "persons": 41640,
+          "share": 0.0404
+        },
+        "2020": {
+          "persons": 16370,
+          "share": 0.0232
+        },
+        "2021": {
+          "persons": 23080,
+          "share": 0.0312
+        },
+        "2022": {
+          "persons": 36640,
+          "share": 0.036
+        },
+        "2023": {
+          "persons": 81600,
+          "share": 0.0696
+        },
+        "2024": {
+          "persons": 184040,
+          "share": 0.1352
+        }
+      }
+    }
+  },
+  "counterfactual_2024": {
+    "ca_actual_effective_n": 11.28,
+    "ca_with_us_shape_effective_n": 17.82,
+    "ca_actual_hhi": 886.6,
+    "ca_with_us_shape_hhi": 561.0
+  },
+  "per_capita_2024": {
+    "ca_pr_per_100k_residents": 1162.9,
+    "us_pr_per_100k_residents": 401.1
+  },
+  "supplier_shock_2024": {
+    "india_persons": 127375,
+    "india_share": 0.2637,
+    "total_loss_if_india_minus_25pct": 31843,
+    "pct_of_total_intake": 6.59
+  }
+}

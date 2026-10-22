@@ -1,0 +1,2432 @@
+country,year,persons
+Afghanistan,2015,2625
+Albania,2015,565
+Algeria,2015,2830
+Andorra,2015,0
+Angola,2015,15
+Antigua and Barbuda,2015,35
+Argentina,2015,230
+Armenia,2015,310
+Australia,2015,1470
+Austria,2015,105
+Azerbaijan,2015,95
+Azores,2015,0
+"Bahama Islands, The",2015,65
+Bahrain,2015,25
+Bangladesh,2015,3310
+Barbados,2015,145
+Belarus,2015,210
+Belgium,2015,375
+Belize,2015,10
+"Benin, Republic of",2015,260
+Bermuda,2015,0
+Bhutan,2015,410
+Bolivia,2015,60
+Bosnia-Herzegovina,2015,190
+"Botswana, Republic of",2015,90
+Brazil,2015,1730
+Brunei,2015,5
+Bulgaria,2015,370
+Burkina-Faso,2015,240
+Burundi,2015,945
+Cambodia,2015,205
+"Cameroon, Federal Republic of",2015,2030
+Cape Verde Islands,2015,0
+Central African Republic,2015,455
+"Chad, Republic of",2015,70
+Chile,2015,255
+"China, People's Republic of",2015,19455
+Colombia,2015,2180
+Comoros,2015,5
+"Congo, Democratic Republic of the",2015,1675
+"Congo, People's Republic of the",2015,135
+Costa Rica,2015,115
+Country not stated,2015,0
+Croatia,2015,510
+Cuba,2015,835
+Curacao,2015,0
+Cyprus,2015,15
+Czech Republic,2015,280
+Denmark,2015,60
+"Djibouti, Republic of",2015,145
+Dominica,2015,5
+Dominican Republic,2015,600
+"East Timor, Democratic Republic of",2015,0
+Ecuador,2015,225
+Egypt,2015,3760
+El Salvador,2015,660
+"Equatorial Guinea, Republic of",2015,0
+Eritrea,2015,2210
+Estonia,2015,45
+Ethiopia,2015,1355
+Fiji,2015,225
+Finland,2015,75
+France,2015,5840
+French Polynesia,2015,0
+Gabon Republic,2015,40
+Gambia,2015,20
+Georgia,2015,95
+Germany,2015,1280
+Ghana,2015,375
+Greece,2015,480
+Grenada,2015,115
+Guadeloupe,2015,0
+Guatemala,2015,240
+"Guinea, Republic of",2015,250
+Guinea-Bissau,2015,0
+Guyana,2015,545
+Haiti,2015,2715
+Holy See,2015,0
+Honduras,2015,425
+Hong Kong SAR,2015,890
+Hungary,2015,760
+Iceland,2015,25
+India,2015,39335
+"Indonesia, Republic of",2015,380
+Iran,2015,11630
+Iraq,2015,3980
+"Ireland, Republic of",2015,2155
+Israel,2015,2165
+Italy,2015,885
+"Ivory Coast, Republic of",2015,1370
+Jamaica,2015,3420
+Japan,2015,1000
+Jordan,2015,1110
+Kazakhstan,2015,335
+Kenya,2015,375
+Kiribati,2015,0
+"Korea, People's Democratic Republic of",2015,0
+"Korea, Republic of",2015,4105
+"Kosovo, Republic of",2015,240
+Kuwait,2015,0
+Kyrgyzstan,2015,125
+Laos,2015,5
+Latvia,2015,125
+Lebanon,2015,2105
+Lesotho,2015,0
+Liberia,2015,150
+Libya,2015,245
+Liechtenstein,2015,0
+Lithuania,2015,130
+Luxembourg,2015,0
+Macau SAR,2015,10
+Macedonia,2015,220
+Madagascar,2015,95
+Malawi,2015,15
+Malaysia,2015,320
+"Maldives, Republic of",2015,0
+"Mali, Republic of",2015,180
+Malta,2015,0
+"Marshall Islands, Republic of the",2015,0
+Mauritania,2015,100
+Mauritius,2015,710
+Mexico,2015,3220
+"Micronesia, Federated States of",2015,0
+Moldova,2015,930
+Monaco,2015,0
+"Mongolia, People's Republic of",2015,25
+"Montenegro, Republic of",2015,20
+Morocco,2015,2710
+Mozambique,2015,0
+Myanmar (Burma),2015,435
+Namibia,2015,90
+Nauru,2015,0
+Nepal,2015,1535
+"Netherlands Antilles, The",2015,0
+"Netherlands, The",2015,535
+Nevis,2015,0
+New Caledonia,2015,0
+New Zealand,2015,330
+Nicaragua,2015,85
+"Niger, Republic of the",2015,70
+Nigeria,2015,4095
+"Northern Mariana Islands, Commonwealth of the",2015,0
+Norway,2015,30
+"Notes:
+— Please note that all values between 0 and 5 are shown as “--”. This is done to prevent individuals from being identified when IRCC data is compiled and compared to other publicly available statistics. All other values are rounded to the closest multiple of 5 for the same reason; as a result of rounding, data may not sum to the totals indicated.
+— Data are preliminary and subject to change.",2015,0
+Oman,2015,0
+Other,2015,0
+Pakistan,2015,11300
+"Palau, Republic of",2015,0
+Palestinian Authority (Gaza/West Bank),2015,400
+"Panama, Republic of",2015,30
+Papua New Guinea,2015,5
+Paraguay,2015,15
+Peru,2015,550
+Philippines,2015,50845
+Poland,2015,975
+Portugal,2015,830
+Puerto Rico,2015,0
+Qatar,2015,0
+Reunion,2015,0
+Romania,2015,1175
+Russia,2015,2120
+Rwanda,2015,355
+"Samoa, American",2015,0
+"Samoa, Independent State of",2015,0
+San Marino,2015,0
+Sao Tome and Principe,2015,0
+Saudi Arabia,2015,155
+Senegal,2015,645
+"Serbia, Republic of",2015,610
+Seychelles,2015,0
+Sierra Leone,2015,80
+Singapore,2015,260
+Sint-Maarten,2015,0
+Slovak Republic,2015,205
+Slovenia,2015,25
+Solomon Islands,2015,0
+"Somalia, Democratic Republic of",2015,1165
+"Source: IRCC, March 31, 2025",2015,0
+"South Africa, Republic of",2015,940
+"South Sudan, Republic of",2015,50
+Spain,2015,730
+Sri Lanka,2015,1785
+St. Kitts-Nevis,2015,25
+St. Lucia,2015,435
+St. Vincent and the Grenadines,2015,480
+Stateless,2015,1045
+"Sudan, Democratic Republic of",2015,330
+Surinam,2015,0
+Swaziland,2015,15
+Sweden,2015,175
+Switzerland,2015,255
+Syria,2015,9850
+Taiwan,2015,620
+Tajikistan,2015,35
+"Tanzania, United Republic of",2015,145
+Thailand,2015,485
+"Togo, Republic of",2015,265
+Tonga,2015,0
+"Trinidad and Tobago, Republic of",2015,345
+Tunisia,2015,1275
+Turkey,2015,870
+Turkmenistan,2015,0
+Turks and Caicos Islands,2015,0
+Tuvalu,2015,0
+Uganda,2015,180
+Ukraine,2015,2345
+United Arab Emirates,2015,0
+United Kingdom and Overseas Territories,2015,5360
+United States of America,2015,7655
+Uruguay,2015,25
+Uzbekistan,2015,185
+Vanuatu,2015,0
+Venezuela,2015,910
+Vietnam,2015,2600
+"Virgin Islands, British",2015,0
+Western Sahara,2015,0
+Yemen,2015,205
+Zambia,2015,30
+Zimbabwe,2015,230
+Afghanistan,2016,2655
+Albania,2016,510
+Algeria,2016,2815
+Andorra,2016,0
+Angola,2016,15
+Antigua and Barbuda,2016,25
+Argentina,2016,260
+Armenia,2016,355
+Australia,2016,1710
+Austria,2016,100
+Azerbaijan,2016,115
+Azores,2016,0
+"Bahama Islands, The",2016,80
+Bahrain,2016,5
+Bangladesh,2016,3230
+Barbados,2016,135
+Belarus,2016,340
+Belgium,2016,455
+Belize,2016,50
+"Benin, Republic of",2016,295
+Bermuda,2016,0
+Bhutan,2016,105
+Bolivia,2016,110
+Bosnia-Herzegovina,2016,145
+"Botswana, Republic of",2016,55
+Brazil,2016,1725
+Brunei,2016,0
+Bulgaria,2016,370
+Burkina-Faso,2016,280
+Burundi,2016,635
+Cambodia,2016,255
+"Cameroon, Federal Republic of",2016,2100
+Cape Verde Islands,2016,0
+Central African Republic,2016,90
+"Chad, Republic of",2016,90
+Chile,2016,250
+"China, People's Republic of",2016,26785
+Colombia,2016,2445
+Comoros,2016,0
+"Congo, Democratic Republic of the",2016,2490
+"Congo, People's Republic of the",2016,195
+Costa Rica,2016,135
+Country not stated,2016,0
+Croatia,2016,630
+Cuba,2016,1110
+Curacao,2016,0
+Cyprus,2016,5
+Czech Republic,2016,330
+Denmark,2016,85
+"Djibouti, Republic of",2016,265
+Dominica,2016,10
+Dominican Republic,2016,600
+"East Timor, Democratic Republic of",2016,0
+Ecuador,2016,255
+Egypt,2016,3090
+El Salvador,2016,630
+"Equatorial Guinea, Republic of",2016,0
+Eritrea,2016,4655
+Estonia,2016,25
+Ethiopia,2016,1930
+Fiji,2016,185
+Finland,2016,75
+France,2016,6390
+French Polynesia,2016,0
+Gabon Republic,2016,30
+Gambia,2016,35
+Georgia,2016,120
+Germany,2016,1205
+Ghana,2016,480
+Greece,2016,425
+Grenada,2016,110
+Guadeloupe,2016,0
+Guatemala,2016,190
+"Guinea, Republic of",2016,415
+Guinea-Bissau,2016,0
+Guyana,2016,510
+Haiti,2016,2930
+Holy See,2016,0
+Honduras,2016,360
+Hong Kong SAR,2016,1370
+Hungary,2016,510
+Iceland,2016,0
+India,2016,39705
+"Indonesia, Republic of",2016,445
+Iran,2016,6465
+Iraq,2016,2420
+"Ireland, Republic of",2016,2250
+Israel,2016,2445
+Italy,2016,1000
+"Ivory Coast, Republic of",2016,1765
+Jamaica,2016,3560
+Japan,2016,1035
+Jordan,2016,915
+Kazakhstan,2016,395
+Kenya,2016,465
+Kiribati,2016,0
+"Korea, People's Democratic Republic of",2016,0
+"Korea, Republic of",2016,4010
+"Kosovo, Republic of",2016,195
+Kuwait,2016,25
+Kyrgyzstan,2016,250
+Laos,2016,0
+Latvia,2016,135
+Lebanon,2016,1915
+Lesotho,2016,0
+Liberia,2016,140
+Libya,2016,310
+Liechtenstein,2016,0
+Lithuania,2016,190
+Luxembourg,2016,0
+Macau SAR,2016,10
+Macedonia,2016,140
+Madagascar,2016,140
+Malawi,2016,10
+Malaysia,2016,365
+"Maldives, Republic of",2016,0
+"Mali, Republic of",2016,210
+Malta,2016,0
+"Marshall Islands, Republic of the",2016,0
+Mauritania,2016,30
+Mauritius,2016,555
+Mexico,2016,3390
+"Micronesia, Federated States of",2016,0
+Moldova,2016,1090
+Monaco,2016,0
+"Mongolia, People's Republic of",2016,85
+"Montenegro, Republic of",2016,10
+Morocco,2016,2110
+Mozambique,2016,0
+Myanmar (Burma),2016,420
+Namibia,2016,50
+Nauru,2016,0
+Nepal,2016,760
+"Netherlands Antilles, The",2016,0
+"Netherlands, The",2016,520
+Nevis,2016,0
+New Caledonia,2016,0
+New Zealand,2016,495
+Nicaragua,2016,55
+"Niger, Republic of the",2016,75
+Nigeria,2016,4415
+"Northern Mariana Islands, Commonwealth of the",2016,0
+Norway,2016,70
+"Notes:
+— Please note that all values between 0 and 5 are shown as “--”. This is done to prevent individuals from being identified when IRCC data is compiled and compared to other publicly available statistics. All other values are rounded to the closest multiple of 5 for the same reason; as a result of rounding, data may not sum to the totals indicated.
+— Data are preliminary and subject to change.",2016,0
+Oman,2016,0
+Other,2016,0
+Pakistan,2016,11350
+"Palau, Republic of",2016,0
+Palestinian Authority (Gaza/West Bank),2016,410
+"Panama, Republic of",2016,20
+Papua New Guinea,2016,5
+Paraguay,2016,25
+Peru,2016,445
+Philippines,2016,41850
+Poland,2016,1000
+Portugal,2016,860
+Puerto Rico,2016,0
+Qatar,2016,0
+Reunion,2016,0
+Romania,2016,1365
+Russia,2016,2400
+Rwanda,2016,365
+"Samoa, American",2016,0
+"Samoa, Independent State of",2016,0
+San Marino,2016,0
+Sao Tome and Principe,2016,0
+Saudi Arabia,2016,170
+Senegal,2016,595
+"Serbia, Republic of",2016,480
+Seychelles,2016,0
+Sierra Leone,2016,75
+Singapore,2016,260
+Sint-Maarten,2016,0
+Slovak Republic,2016,280
+Slovenia,2016,15
+Solomon Islands,2016,0
+"Somalia, Democratic Republic of",2016,1315
+"Source: IRCC, March 31, 2025",2016,0
+"South Africa, Republic of",2016,1070
+"South Sudan, Republic of",2016,75
+Spain,2016,645
+Sri Lanka,2016,1540
+St. Kitts-Nevis,2016,25
+St. Lucia,2016,335
+St. Vincent and the Grenadines,2016,430
+Stateless,2016,840
+"Sudan, Democratic Republic of",2016,450
+Surinam,2016,0
+Swaziland,2016,0
+Sweden,2016,180
+Switzerland,2016,210
+Syria,2016,35005
+Taiwan,2016,795
+Tajikistan,2016,15
+"Tanzania, United Republic of",2016,110
+Thailand,2016,460
+"Togo, Republic of",2016,250
+Tonga,2016,0
+"Trinidad and Tobago, Republic of",2016,320
+Tunisia,2016,1305
+Turkey,2016,920
+Turkmenistan,2016,0
+Turks and Caicos Islands,2016,0
+Tuvalu,2016,0
+Uganda,2016,180
+Ukraine,2016,3345
+United Arab Emirates,2016,0
+United Kingdom and Overseas Territories,2016,5810
+United States of America,2016,8480
+Uruguay,2016,40
+Uzbekistan,2016,210
+Vanuatu,2016,0
+Venezuela,2016,1010
+Vietnam,2016,2450
+"Virgin Islands, British",2016,0
+Western Sahara,2016,0
+Yemen,2016,155
+Zambia,2016,40
+Zimbabwe,2016,280
+Afghanistan,2017,3460
+Albania,2017,650
+Algeria,2017,2635
+Andorra,2017,0
+Angola,2017,25
+Antigua and Barbuda,2017,65
+Argentina,2017,235
+Armenia,2017,250
+Australia,2017,1870
+Austria,2017,105
+Azerbaijan,2017,110
+Azores,2017,0
+"Bahama Islands, The",2017,125
+Bahrain,2017,25
+Bangladesh,2017,3190
+Barbados,2017,190
+Belarus,2017,310
+Belgium,2017,515
+Belize,2017,70
+"Benin, Republic of",2017,200
+Bermuda,2017,0
+Bhutan,2017,55
+Bolivia,2017,85
+Bosnia-Herzegovina,2017,95
+"Botswana, Republic of",2017,60
+Brazil,2017,2750
+Brunei,2017,0
+Bulgaria,2017,305
+Burkina-Faso,2017,260
+Burundi,2017,800
+Cambodia,2017,225
+"Cameroon, Federal Republic of",2017,2285
+Cape Verde Islands,2017,0
+Central African Republic,2017,230
+"Chad, Republic of",2017,120
+Chile,2017,310
+"China, People's Republic of",2017,30255
+Colombia,2017,2230
+Comoros,2017,0
+"Congo, Democratic Republic of the",2017,2355
+"Congo, People's Republic of the",2017,160
+Costa Rica,2017,135
+Country not stated,2017,0
+Croatia,2017,580
+Cuba,2017,885
+Curacao,2017,0
+Cyprus,2017,5
+Czech Republic,2017,310
+Denmark,2017,80
+"Djibouti, Republic of",2017,180
+Dominica,2017,15
+Dominican Republic,2017,660
+"East Timor, Democratic Republic of",2017,0
+Ecuador,2017,200
+Egypt,2017,2870
+El Salvador,2017,720
+"Equatorial Guinea, Republic of",2017,0
+Eritrea,2017,4690
+Estonia,2017,20
+Ethiopia,2017,1910
+Fiji,2017,150
+Finland,2017,95
+France,2017,6620
+French Polynesia,2017,0
+Gabon Republic,2017,30
+Gambia,2017,45
+Georgia,2017,135
+Germany,2017,1140
+Ghana,2017,685
+Greece,2017,405
+Grenada,2017,120
+Guadeloupe,2017,0
+Guatemala,2017,245
+"Guinea, Republic of",2017,375
+Guinea-Bissau,2017,0
+Guyana,2017,430
+Haiti,2017,2355
+Holy See,2017,0
+Honduras,2017,380
+Hong Kong SAR,2017,1360
+Hungary,2017,695
+Iceland,2017,10
+India,2017,51585
+"Indonesia, Republic of",2017,500
+Iran,2017,4735
+Iraq,2017,4740
+"Ireland, Republic of",2017,1975
+Israel,2017,1870
+Italy,2017,1060
+"Ivory Coast, Republic of",2017,1395
+Jamaica,2017,3830
+Japan,2017,1090
+Jordan,2017,790
+Kazakhstan,2017,335
+Kenya,2017,470
+Kiribati,2017,0
+"Korea, People's Democratic Republic of",2017,5
+"Korea, Republic of",2017,3970
+"Kosovo, Republic of",2017,145
+Kuwait,2017,5
+Kyrgyzstan,2017,120
+Laos,2017,5
+Latvia,2017,105
+Lebanon,2017,1360
+Lesotho,2017,0
+Liberia,2017,45
+Libya,2017,490
+Liechtenstein,2017,0
+Lithuania,2017,140
+Luxembourg,2017,0
+Macau SAR,2017,5
+Macedonia,2017,70
+Madagascar,2017,110
+Malawi,2017,5
+Malaysia,2017,365
+"Maldives, Republic of",2017,0
+"Mali, Republic of",2017,185
+Malta,2017,0
+"Marshall Islands, Republic of the",2017,0
+Mauritania,2017,50
+Mauritius,2017,725
+Mexico,2017,3135
+"Micronesia, Federated States of",2017,0
+Moldova,2017,685
+Monaco,2017,0
+"Mongolia, People's Republic of",2017,80
+"Montenegro, Republic of",2017,5
+Morocco,2017,2265
+Mozambique,2017,0
+Myanmar (Burma),2017,165
+Namibia,2017,115
+Nauru,2017,0
+Nepal,2017,1110
+"Netherlands Antilles, The",2017,0
+"Netherlands, The",2017,495
+Nevis,2017,0
+New Caledonia,2017,0
+New Zealand,2017,420
+Nicaragua,2017,90
+"Niger, Republic of the",2017,50
+Nigeria,2017,5445
+"Northern Mariana Islands, Commonwealth of the",2017,0
+Norway,2017,50
+"Notes:
+— Please note that all values between 0 and 5 are shown as “--”. This is done to prevent individuals from being identified when IRCC data is compiled and compared to other publicly available statistics. All other values are rounded to the closest multiple of 5 for the same reason; as a result of rounding, data may not sum to the totals indicated.
+— Data are preliminary and subject to change.",2017,0
+Oman,2017,0
+Other,2017,0
+Pakistan,2017,7655
+"Palau, Republic of",2017,0
+Palestinian Authority (Gaza/West Bank),2017,335
+"Panama, Republic of",2017,35
+Papua New Guinea,2017,0
+Paraguay,2017,50
+Peru,2017,420
+Philippines,2017,40900
+Poland,2017,995
+Portugal,2017,790
+Puerto Rico,2017,0
+Qatar,2017,0
+Reunion,2017,0
+Romania,2017,980
+Russia,2017,2285
+Rwanda,2017,345
+"Samoa, American",2017,0
+"Samoa, Independent State of",2017,0
+San Marino,2017,0
+Sao Tome and Principe,2017,0
+Saudi Arabia,2017,210
+Senegal,2017,515
+"Serbia, Republic of",2017,370
+Seychelles,2017,0
+Sierra Leone,2017,30
+Singapore,2017,320
+Sint-Maarten,2017,0
+Slovak Republic,2017,265
+Slovenia,2017,30
+Solomon Islands,2017,0
+"Somalia, Democratic Republic of",2017,1385
+"Source: IRCC, March 31, 2025",2017,0
+"South Africa, Republic of",2017,1555
+"South Sudan, Republic of",2017,110
+Spain,2017,675
+Sri Lanka,2017,2150
+St. Kitts-Nevis,2017,25
+St. Lucia,2017,385
+St. Vincent and the Grenadines,2017,470
+Stateless,2017,935
+"Sudan, Democratic Republic of",2017,430
+Surinam,2017,0
+Swaziland,2017,20
+Sweden,2017,175
+Switzerland,2017,190
+Syria,2017,12060
+Taiwan,2017,795
+Tajikistan,2017,30
+"Tanzania, United Republic of",2017,200
+Thailand,2017,595
+"Togo, Republic of",2017,205
+Tonga,2017,0
+"Trinidad and Tobago, Republic of",2017,375
+Tunisia,2017,1430
+Turkey,2017,1115
+Turkmenistan,2017,10
+Turks and Caicos Islands,2017,0
+Tuvalu,2017,0
+Uganda,2017,210
+Ukraine,2017,3300
+United Arab Emirates,2017,5
+United Kingdom and Overseas Territories,2017,5310
+United States of America,2017,9140
+Uruguay,2017,5
+Uzbekistan,2017,185
+Vanuatu,2017,0
+Venezuela,2017,1010
+Vietnam,2017,2500
+"Virgin Islands, British",2017,0
+Western Sahara,2017,0
+Yemen,2017,240
+Zambia,2017,85
+Zimbabwe,2017,420
+Afghanistan,2018,3560
+Albania,2018,645
+Algeria,2018,3225
+Andorra,2018,0
+Angola,2018,20
+Antigua and Barbuda,2018,70
+Argentina,2018,270
+Armenia,2018,200
+Australia,2018,2180
+Austria,2018,80
+Azerbaijan,2018,295
+Azores,2018,0
+"Bahama Islands, The",2018,180
+Bahrain,2018,35
+Bangladesh,2018,3200
+Barbados,2018,180
+Belarus,2018,255
+Belgium,2018,415
+Belize,2018,60
+"Benin, Republic of",2018,485
+Bermuda,2018,0
+Bhutan,2018,10
+Bolivia,2018,120
+Bosnia-Herzegovina,2018,155
+"Botswana, Republic of",2018,50
+Brazil,2018,3945
+Brunei,2018,0
+Bulgaria,2018,185
+Burkina-Faso,2018,295
+Burundi,2018,1095
+Cambodia,2018,205
+"Cameroon, Federal Republic of",2018,2275
+Cape Verde Islands,2018,0
+Central African Republic,2018,245
+"Chad, Republic of",2018,205
+Chile,2018,370
+"China, People's Republic of",2018,29710
+Colombia,2018,2265
+Comoros,2018,0
+"Congo, Democratic Republic of the",2018,2385
+"Congo, People's Republic of the",2018,195
+Costa Rica,2018,160
+Country not stated,2018,0
+Croatia,2018,540
+Cuba,2018,780
+Curacao,2018,0
+Cyprus,2018,10
+Czech Republic,2018,395
+Denmark,2018,90
+"Djibouti, Republic of",2018,200
+Dominica,2018,15
+Dominican Republic,2018,775
+"East Timor, Democratic Republic of",2018,0
+Ecuador,2018,290
+Egypt,2018,3515
+El Salvador,2018,680
+"Equatorial Guinea, Republic of",2018,0
+Eritrea,2018,5690
+Estonia,2018,20
+Ethiopia,2018,2020
+Fiji,2018,150
+Finland,2018,90
+France,2018,6175
+French Polynesia,2018,0
+Gabon Republic,2018,25
+Gambia,2018,45
+Georgia,2018,155
+Germany,2018,1275
+Ghana,2018,895
+Greece,2018,410
+Grenada,2018,110
+Guadeloupe,2018,0
+Guatemala,2018,225
+"Guinea, Republic of",2018,350
+Guinea-Bissau,2018,0
+Guyana,2018,425
+Haiti,2018,2110
+Holy See,2018,0
+Honduras,2018,390
+Hong Kong SAR,2018,1525
+Hungary,2018,750
+Iceland,2018,20
+India,2018,69985
+"Indonesia, Republic of",2018,445
+Iran,2018,5505
+Iraq,2018,5335
+"Ireland, Republic of",2018,1775
+Israel,2018,1800
+Italy,2018,1180
+"Ivory Coast, Republic of",2018,1480
+Jamaica,2018,3865
+Japan,2018,1040
+Jordan,2018,985
+Kazakhstan,2018,405
+Kenya,2018,465
+Kiribati,2018,0
+"Korea, People's Democratic Republic of",2018,0
+"Korea, Republic of",2018,4800
+"Kosovo, Republic of",2018,230
+Kuwait,2018,5
+Kyrgyzstan,2018,160
+Laos,2018,0
+Latvia,2018,70
+Lebanon,2018,1505
+Lesotho,2018,0
+Liberia,2018,70
+Libya,2018,460
+Liechtenstein,2018,0
+Lithuania,2018,120
+Luxembourg,2018,0
+Macau SAR,2018,0
+Macedonia,2018,85
+Madagascar,2018,140
+Malawi,2018,10
+Malaysia,2018,430
+"Maldives, Republic of",2018,0
+"Mali, Republic of",2018,270
+Malta,2018,0
+"Marshall Islands, Republic of the",2018,0
+Mauritania,2018,55
+Mauritius,2018,565
+Mexico,2018,3310
+"Micronesia, Federated States of",2018,0
+Moldova,2018,405
+Monaco,2018,0
+"Mongolia, People's Republic of",2018,65
+"Montenegro, Republic of",2018,5
+Morocco,2018,2775
+Mozambique,2018,0
+Myanmar (Burma),2018,180
+Namibia,2018,125
+Nauru,2018,0
+Nepal,2018,1400
+"Netherlands Antilles, The",2018,0
+"Netherlands, The",2018,540
+Nevis,2018,0
+New Caledonia,2018,0
+New Zealand,2018,450
+Nicaragua,2018,125
+"Niger, Republic of the",2018,45
+Nigeria,2018,10915
+"Northern Mariana Islands, Commonwealth of the",2018,0
+Norway,2018,65
+"Notes:
+— Please note that all values between 0 and 5 are shown as “--”. This is done to prevent individuals from being identified when IRCC data is compiled and compared to other publicly available statistics. All other values are rounded to the closest multiple of 5 for the same reason; as a result of rounding, data may not sum to the totals indicated.
+— Data are preliminary and subject to change.",2018,0
+Oman,2018,10
+Other,2018,0
+Pakistan,2018,9485
+"Palau, Republic of",2018,0
+Palestinian Authority (Gaza/West Bank),2018,460
+"Panama, Republic of",2018,35
+Papua New Guinea,2018,0
+Paraguay,2018,50
+Peru,2018,550
+Philippines,2018,35045
+Poland,2018,910
+Portugal,2018,865
+Puerto Rico,2018,0
+Qatar,2018,0
+Reunion,2018,0
+Romania,2018,805
+Russia,2018,2135
+Rwanda,2018,455
+"Samoa, American",2018,0
+"Samoa, Independent State of",2018,0
+San Marino,2018,0
+Sao Tome and Principe,2018,0
+Saudi Arabia,2018,310
+Senegal,2018,600
+"Serbia, Republic of",2018,495
+Seychelles,2018,0
+Sierra Leone,2018,55
+Singapore,2018,350
+Sint-Maarten,2018,0
+Slovak Republic,2018,310
+Slovenia,2018,15
+Solomon Islands,2018,0
+"Somalia, Democratic Republic of",2018,2135
+"Source: IRCC, March 31, 2025",2018,0
+"South Africa, Republic of",2018,1815
+"South Sudan, Republic of",2018,175
+Spain,2018,715
+Sri Lanka,2018,2160
+St. Kitts-Nevis,2018,5
+St. Lucia,2018,320
+St. Vincent and the Grenadines,2018,370
+Stateless,2018,895
+"Sudan, Democratic Republic of",2018,715
+Surinam,2018,0
+Swaziland,2018,0
+Sweden,2018,205
+Switzerland,2018,245
+Syria,2018,12045
+Taiwan,2018,960
+Tajikistan,2018,50
+"Tanzania, United Republic of",2018,155
+Thailand,2018,540
+"Togo, Republic of",2018,350
+Tonga,2018,0
+"Trinidad and Tobago, Republic of",2018,515
+Tunisia,2018,1935
+Turkey,2018,2085
+Turkmenistan,2018,0
+Turks and Caicos Islands,2018,0
+Tuvalu,2018,0
+Uganda,2018,270
+Ukraine,2018,3135
+United Arab Emirates,2018,5
+United Kingdom and Overseas Territories,2018,5660
+United States of America,2018,10895
+Uruguay,2018,20
+Uzbekistan,2018,195
+Vanuatu,2018,0
+Venezuela,2018,1520
+Vietnam,2018,3045
+"Virgin Islands, British",2018,0
+Western Sahara,2018,0
+Yemen,2018,550
+Zambia,2018,55
+Zimbabwe,2018,605
+Afghanistan,2019,3890
+Albania,2019,620
+Algeria,2019,3705
+Andorra,2019,0
+Angola,2019,50
+Antigua and Barbuda,2019,115
+Argentina,2019,300
+Armenia,2019,200
+Australia,2019,2135
+Austria,2019,105
+Azerbaijan,2019,390
+Azores,2019,0
+"Bahama Islands, The",2019,210
+Bahrain,2019,25
+Bangladesh,2019,3400
+Barbados,2019,260
+Belarus,2019,245
+Belgium,2019,465
+Belize,2019,45
+"Benin, Republic of",2019,335
+Bermuda,2019,0
+Bhutan,2019,5
+Bolivia,2019,110
+Bosnia-Herzegovina,2019,115
+"Botswana, Republic of",2019,45
+Brazil,2019,5290
+Brunei,2019,0
+Bulgaria,2019,165
+Burkina-Faso,2019,230
+Burundi,2019,1560
+Cambodia,2019,240
+"Cameroon, Federal Republic of",2019,2945
+Cape Verde Islands,2019,0
+Central African Republic,2019,375
+"Chad, Republic of",2019,185
+Chile,2019,455
+"China, People's Republic of",2019,30245
+Colombia,2019,2275
+Comoros,2019,0
+"Congo, Democratic Republic of the",2019,2290
+"Congo, People's Republic of the",2019,170
+Costa Rica,2019,185
+Country not stated,2019,0
+Croatia,2019,425
+Cuba,2019,600
+Curacao,2019,0
+Cyprus,2019,5
+Czech Republic,2019,375
+Denmark,2019,65
+"Djibouti, Republic of",2019,255
+Dominica,2019,5
+Dominican Republic,2019,650
+"East Timor, Democratic Republic of",2019,0
+Ecuador,2019,300
+Egypt,2019,3660
+El Salvador,2019,740
+"Equatorial Guinea, Republic of",2019,0
+Eritrea,2019,7025
+Estonia,2019,20
+Ethiopia,2019,2475
+Fiji,2019,155
+Finland,2019,110
+France,2019,4960
+French Polynesia,2019,0
+Gabon Republic,2019,30
+Gambia,2019,30
+Georgia,2019,185
+Germany,2019,1520
+Ghana,2019,1020
+Greece,2019,415
+Grenada,2019,65
+Guadeloupe,2019,0
+Guatemala,2019,210
+"Guinea, Republic of",2019,315
+Guinea-Bissau,2019,0
+Guyana,2019,410
+Haiti,2019,1460
+Holy See,2019,0
+Honduras,2019,325
+Hong Kong SAR,2019,1545
+Hungary,2019,805
+Iceland,2019,35
+India,2019,85595
+"Indonesia, Republic of",2019,510
+Iran,2019,6055
+Iraq,2019,4435
+"Ireland, Republic of",2019,1620
+Israel,2019,1320
+Italy,2019,1405
+"Ivory Coast, Republic of",2019,1855
+Jamaica,2019,3975
+Japan,2019,1110
+Jordan,2019,1000
+Kazakhstan,2019,405
+Kenya,2019,515
+Kiribati,2019,0
+"Korea, People's Democratic Republic of",2019,0
+"Korea, Republic of",2019,6110
+"Kosovo, Republic of",2019,160
+Kuwait,2019,15
+Kyrgyzstan,2019,110
+Laos,2019,5
+Latvia,2019,75
+Lebanon,2019,1960
+Lesotho,2019,0
+Liberia,2019,30
+Libya,2019,615
+Liechtenstein,2019,0
+Lithuania,2019,110
+Luxembourg,2019,0
+Macau SAR,2019,10
+Macedonia,2019,90
+Madagascar,2019,115
+Malawi,2019,0
+Malaysia,2019,370
+"Maldives, Republic of",2019,0
+"Mali, Republic of",2019,325
+Malta,2019,0
+"Marshall Islands, Republic of the",2019,0
+Mauritania,2019,65
+Mauritius,2019,795
+Mexico,2019,3465
+"Micronesia, Federated States of",2019,0
+Moldova,2019,275
+Monaco,2019,0
+"Mongolia, People's Republic of",2019,75
+"Montenegro, Republic of",2019,0
+Morocco,2019,3015
+Mozambique,2019,0
+Myanmar (Burma),2019,210
+Namibia,2019,115
+Nauru,2019,0
+Nepal,2019,1410
+"Netherlands Antilles, The",2019,0
+"Netherlands, The",2019,565
+Nevis,2019,0
+New Caledonia,2019,0
+New Zealand,2019,605
+Nicaragua,2019,95
+"Niger, Republic of the",2019,35
+Nigeria,2019,12595
+"Northern Mariana Islands, Commonwealth of the",2019,0
+Norway,2019,55
+"Notes:
+— Please note that all values between 0 and 5 are shown as “--”. This is done to prevent individuals from being identified when IRCC data is compiled and compared to other publicly available statistics. All other values are rounded to the closest multiple of 5 for the same reason; as a result of rounding, data may not sum to the totals indicated.
+— Data are preliminary and subject to change.",2019,0
+Oman,2019,0
+Other,2019,0
+Pakistan,2019,10800
+"Palau, Republic of",2019,0
+Palestinian Authority (Gaza/West Bank),2019,585
+"Panama, Republic of",2019,65
+Papua New Guinea,2019,0
+Paraguay,2019,90
+Peru,2019,505
+Philippines,2019,27810
+Poland,2019,910
+Portugal,2019,850
+Puerto Rico,2019,0
+Qatar,2019,0
+Reunion,2019,0
+Romania,2019,670
+Russia,2019,2265
+Rwanda,2019,545
+"Samoa, American",2019,0
+"Samoa, Independent State of",2019,0
+San Marino,2019,0
+Sao Tome and Principe,2019,0
+Saudi Arabia,2019,310
+Senegal,2019,480
+"Serbia, Republic of",2019,545
+Seychelles,2019,0
+Sierra Leone,2019,35
+Singapore,2019,315
+Sint-Maarten,2019,0
+Slovak Republic,2019,385
+Slovenia,2019,25
+Solomon Islands,2019,0
+"Somalia, Democratic Republic of",2019,3280
+"Source: IRCC, March 31, 2025",2019,0
+"South Africa, Republic of",2019,1795
+"South Sudan, Republic of",2019,255
+Spain,2019,655
+Sri Lanka,2019,2230
+St. Kitts-Nevis,2019,20
+St. Lucia,2019,280
+St. Vincent and the Grenadines,2019,325
+Stateless,2019,1015
+"Sudan, Democratic Republic of",2019,1255
+Surinam,2019,5
+Swaziland,2019,5
+Sweden,2019,235
+Switzerland,2019,220
+Syria,2019,10120
+Taiwan,2019,1015
+Tajikistan,2019,30
+"Tanzania, United Republic of",2019,220
+Thailand,2019,485
+"Togo, Republic of",2019,410
+Tonga,2019,0
+"Trinidad and Tobago, Republic of",2019,600
+Tunisia,2019,1980
+Turkey,2019,2830
+Turkmenistan,2019,10
+Turks and Caicos Islands,2019,0
+Tuvalu,2019,0
+Uganda,2019,440
+Ukraine,2019,3000
+United Arab Emirates,2019,15
+United Kingdom and Overseas Territories,2019,5635
+United States of America,2019,10785
+Uruguay,2019,25
+Uzbekistan,2019,130
+Vanuatu,2019,0
+Venezuela,2019,1585
+Vietnam,2019,4230
+"Virgin Islands, British",2019,0
+Western Sahara,2019,0
+Yemen,2019,670
+Zambia,2019,70
+Zimbabwe,2019,560
+Afghanistan,2020,1655
+Albania,2020,285
+Algeria,2020,2720
+Andorra,2020,0
+Angola,2020,15
+Antigua and Barbuda,2020,15
+Argentina,2020,195
+Armenia,2020,85
+Australia,2020,1180
+Austria,2020,50
+Azerbaijan,2020,200
+Azores,2020,0
+"Bahama Islands, The",2020,100
+Bahrain,2020,5
+Bangladesh,2020,1630
+Barbados,2020,125
+Belarus,2020,125
+Belgium,2020,345
+Belize,2020,30
+"Benin, Republic of",2020,225
+Bermuda,2020,0
+Bhutan,2020,0
+Bolivia,2020,85
+Bosnia-Herzegovina,2020,30
+"Botswana, Republic of",2020,15
+Brazil,2020,3705
+Brunei,2020,0
+Bulgaria,2020,95
+Burkina-Faso,2020,175
+Burundi,2020,805
+Cambodia,2020,145
+"Cameroon, Federal Republic of",2020,1590
+Cape Verde Islands,2020,0
+Central African Republic,2020,105
+"Chad, Republic of",2020,50
+Chile,2020,310
+"China, People's Republic of",2020,16515
+Colombia,2020,1530
+Comoros,2020,0
+"Congo, Democratic Republic of the",2020,860
+"Congo, People's Republic of the",2020,75
+Costa Rica,2020,100
+Country not stated,2020,0
+Croatia,2020,215
+Cuba,2020,410
+Curacao,2020,0
+Cyprus,2020,0
+Czech Republic,2020,205
+Denmark,2020,60
+"Djibouti, Republic of",2020,355
+Dominica,2020,15
+Dominican Republic,2020,390
+"East Timor, Democratic Republic of",2020,0
+Ecuador,2020,155
+Egypt,2020,1905
+El Salvador,2020,465
+"Equatorial Guinea, Republic of",2020,0
+Eritrea,2020,2640
+Estonia,2020,0
+Ethiopia,2020,1095
+Fiji,2020,45
+Finland,2020,65
+France,2020,4600
+French Polynesia,2020,0
+Gabon Republic,2020,0
+Gambia,2020,10
+Georgia,2020,100
+Germany,2020,780
+Ghana,2020,550
+Greece,2020,240
+Grenada,2020,30
+Guadeloupe,2020,0
+Guatemala,2020,130
+"Guinea, Republic of",2020,195
+Guinea-Bissau,2020,0
+Guyana,2020,220
+Haiti,2020,985
+Holy See,2020,0
+Honduras,2020,205
+Hong Kong SAR,2020,1055
+Hungary,2020,605
+Iceland,2020,0
+India,2020,42880
+"Indonesia, Republic of",2020,295
+Iran,2020,3815
+Iraq,2020,1950
+"Ireland, Republic of",2020,1035
+Israel,2020,765
+Italy,2020,760
+"Ivory Coast, Republic of",2020,1195
+Jamaica,2020,2035
+Japan,2020,615
+Jordan,2020,540
+Kazakhstan,2020,290
+Kenya,2020,295
+Kiribati,2020,0
+"Korea, People's Democratic Republic of",2020,10
+"Korea, Republic of",2020,3290
+"Kosovo, Republic of",2020,120
+Kuwait,2020,0
+Kyrgyzstan,2020,45
+Laos,2020,0
+Latvia,2020,20
+Lebanon,2020,1275
+Lesotho,2020,0
+Liberia,2020,5
+Libya,2020,490
+Liechtenstein,2020,0
+Lithuania,2020,60
+Luxembourg,2020,0
+Macau SAR,2020,0
+Macedonia,2020,25
+Madagascar,2020,75
+Malawi,2020,5
+Malaysia,2020,235
+"Maldives, Republic of",2020,0
+"Mali, Republic of",2020,155
+Malta,2020,0
+"Marshall Islands, Republic of the",2020,0
+Mauritania,2020,20
+Mauritius,2020,420
+Mexico,2020,2435
+"Micronesia, Federated States of",2020,0
+Moldova,2020,175
+Monaco,2020,0
+"Mongolia, People's Republic of",2020,40
+"Montenegro, Republic of",2020,0
+Morocco,2020,2985
+Mozambique,2020,0
+Myanmar (Burma),2020,50
+Namibia,2020,75
+Nauru,2020,0
+Nepal,2020,560
+"Netherlands Antilles, The",2020,0
+"Netherlands, The",2020,300
+Nevis,2020,0
+New Caledonia,2020,0
+New Zealand,2020,390
+Nicaragua,2020,60
+"Niger, Republic of the",2020,15
+Nigeria,2020,6360
+"Northern Mariana Islands, Commonwealth of the",2020,0
+Norway,2020,20
+"Notes:
+— Please note that all values between 0 and 5 are shown as “--”. This is done to prevent individuals from being identified when IRCC data is compiled and compared to other publicly available statistics. All other values are rounded to the closest multiple of 5 for the same reason; as a result of rounding, data may not sum to the totals indicated.
+— Data are preliminary and subject to change.",2020,0
+Oman,2020,5
+Other,2020,0
+Pakistan,2020,6225
+"Palau, Republic of",2020,0
+Palestinian Authority (Gaza/West Bank),2020,475
+"Panama, Republic of",2020,20
+Papua New Guinea,2020,0
+Paraguay,2020,15
+Peru,2020,255
+Philippines,2020,10970
+Poland,2020,420
+Portugal,2020,560
+Puerto Rico,2020,0
+Qatar,2020,5
+Reunion,2020,0
+Romania,2020,330
+Russia,2020,1390
+Rwanda,2020,295
+"Samoa, American",2020,0
+"Samoa, Independent State of",2020,0
+San Marino,2020,0
+Sao Tome and Principe,2020,0
+Saudi Arabia,2020,180
+Senegal,2020,275
+"Serbia, Republic of",2020,200
+Seychelles,2020,0
+Sierra Leone,2020,25
+Singapore,2020,175
+Sint-Maarten,2020,0
+Slovak Republic,2020,300
+Slovenia,2020,0
+Solomon Islands,2020,0
+"Somalia, Democratic Republic of",2020,1010
+"Source: IRCC, March 31, 2025",2020,0
+"South Africa, Republic of",2020,1120
+"South Sudan, Republic of",2020,100
+Spain,2020,385
+Sri Lanka,2020,1335
+St. Kitts-Nevis,2020,5
+St. Lucia,2020,160
+St. Vincent and the Grenadines,2020,175
+Stateless,2020,525
+"Sudan, Democratic Republic of",2020,845
+Surinam,2020,5
+Swaziland,2020,0
+Sweden,2020,150
+Switzerland,2020,160
+Syria,2020,4885
+Taiwan,2020,575
+Tajikistan,2020,10
+"Tanzania, United Republic of",2020,140
+Thailand,2020,290
+"Togo, Republic of",2020,255
+Tonga,2020,0
+"Trinidad and Tobago, Republic of",2020,295
+Tunisia,2020,1440
+Turkey,2020,2120
+Turkmenistan,2020,5
+Turks and Caicos Islands,2020,0
+Tuvalu,2020,0
+Uganda,2020,245
+Ukraine,2020,1680
+United Arab Emirates,2020,0
+United Kingdom and Overseas Territories,2020,3410
+United States of America,2020,6380
+Uruguay,2020,0
+Uzbekistan,2020,80
+Vanuatu,2020,0
+Venezuela,2020,1055
+Vietnam,2020,2620
+"Virgin Islands, British",2020,0
+Western Sahara,2020,0
+Yemen,2020,585
+Zambia,2020,20
+Zimbabwe,2020,335
+Afghanistan,2021,8565
+Albania,2021,550
+Algeria,2021,3075
+Andorra,2021,0
+Angola,2021,145
+Antigua and Barbuda,2021,120
+Argentina,2021,410
+Armenia,2021,85
+Australia,2021,2075
+Austria,2021,105
+Azerbaijan,2021,515
+Azores,2021,0
+"Bahama Islands, The",2021,370
+Bahrain,2021,5
+Bangladesh,2021,3005
+Barbados,2021,255
+Belarus,2021,175
+Belgium,2021,575
+Belize,2021,70
+"Benin, Republic of",2021,350
+Bermuda,2021,0
+Bhutan,2021,10
+Bolivia,2021,145
+Bosnia-Herzegovina,2021,65
+"Botswana, Republic of",2021,35
+Brazil,2021,11415
+Brunei,2021,0
+Bulgaria,2021,165
+Burkina-Faso,2021,330
+Burundi,2021,1260
+Cambodia,2021,105
+"Cameroon, Federal Republic of",2021,2560
+Cape Verde Islands,2021,0
+Central African Republic,2021,105
+"Chad, Republic of",2021,215
+Chile,2021,775
+"China, People's Republic of",2021,31025
+Colombia,2021,4055
+Comoros,2021,0
+"Congo, Democratic Republic of the",2021,1825
+"Congo, People's Republic of the",2021,215
+Costa Rica,2021,255
+Country not stated,2021,0
+Croatia,2021,255
+Cuba,2021,690
+Curacao,2021,0
+Cyprus,2021,5
+Czech Republic,2021,355
+Denmark,2021,120
+"Djibouti, Republic of",2021,290
+Dominica,2021,35
+Dominican Republic,2021,960
+"East Timor, Democratic Republic of",2021,0
+Ecuador,2021,595
+Egypt,2021,3220
+El Salvador,2021,850
+"Equatorial Guinea, Republic of",2021,0
+Eritrea,2021,5380
+Estonia,2021,25
+Ethiopia,2021,2145
+Fiji,2021,65
+Finland,2021,105
+France,2021,12690
+French Polynesia,2021,0
+Gabon Republic,2021,30
+Gambia,2021,85
+Georgia,2021,225
+Germany,2021,1440
+Ghana,2021,1055
+Greece,2021,420
+Grenada,2021,105
+Guadeloupe,2021,0
+Guatemala,2021,295
+"Guinea, Republic of",2021,400
+Guinea-Bissau,2021,0
+Guyana,2021,495
+Haiti,2021,2865
+Holy See,2021,0
+Honduras,2021,425
+Hong Kong SAR,2021,2295
+Hungary,2021,745
+Iceland,2021,0
+India,2021,127945
+"Indonesia, Republic of",2021,600
+Iran,2021,11310
+Iraq,2021,2695
+"Ireland, Republic of",2021,2685
+Israel,2021,1100
+Italy,2021,1720
+"Ivory Coast, Republic of",2021,1105
+Jamaica,2021,4045
+Japan,2021,1405
+Jordan,2021,950
+Kazakhstan,2021,455
+Kenya,2021,825
+Kiribati,2021,0
+"Korea, People's Democratic Republic of",2021,0
+"Korea, Republic of",2021,8240
+"Kosovo, Republic of",2021,150
+Kuwait,2021,20
+Kyrgyzstan,2021,75
+Laos,2021,0
+Latvia,2021,75
+Lebanon,2021,1830
+Lesotho,2021,0
+Liberia,2021,35
+Libya,2021,880
+Liechtenstein,2021,0
+Lithuania,2021,95
+Luxembourg,2021,5
+Macau SAR,2021,15
+Macedonia,2021,75
+Madagascar,2021,225
+Malawi,2021,10
+Malaysia,2021,400
+"Maldives, Republic of",2021,0
+"Mali, Republic of",2021,260
+Malta,2021,5
+"Marshall Islands, Republic of the",2021,0
+Mauritania,2021,70
+Mauritius,2021,695
+Mexico,2021,5145
+"Micronesia, Federated States of",2021,0
+Moldova,2021,230
+Monaco,2021,0
+"Mongolia, People's Republic of",2021,135
+"Montenegro, Republic of",2021,0
+Morocco,2021,2955
+Mozambique,2021,5
+Myanmar (Burma),2021,110
+Namibia,2021,60
+Nauru,2021,0
+Nepal,2021,1020
+"Netherlands Antilles, The",2021,0
+"Netherlands, The",2021,500
+Nevis,2021,0
+New Caledonia,2021,0
+New Zealand,2021,770
+Nicaragua,2021,335
+"Niger, Republic of the",2021,70
+Nigeria,2021,15590
+"Northern Mariana Islands, Commonwealth of the",2021,0
+Norway,2021,65
+"Notes:
+— Please note that all values between 0 and 5 are shown as “--”. This is done to prevent individuals from being identified when IRCC data is compiled and compared to other publicly available statistics. All other values are rounded to the closest multiple of 5 for the same reason; as a result of rounding, data may not sum to the totals indicated.
+— Data are preliminary and subject to change.",2021,0
+Oman,2021,0
+Other,2021,25
+Pakistan,2021,8475
+"Palau, Republic of",2021,0
+Palestinian Authority (Gaza/West Bank),2021,980
+"Panama, Republic of",2021,120
+Papua New Guinea,2021,0
+Paraguay,2021,20
+Peru,2021,675
+Philippines,2021,18020
+Poland,2021,675
+Portugal,2021,890
+Puerto Rico,2021,0
+Qatar,2021,0
+Reunion,2021,0
+Romania,2021,610
+Russia,2021,2000
+Rwanda,2021,710
+"Samoa, American",2021,0
+"Samoa, Independent State of",2021,0
+San Marino,2021,0
+Sao Tome and Principe,2021,0
+Saudi Arabia,2021,410
+Senegal,2021,675
+"Serbia, Republic of",2021,395
+Seychelles,2021,0
+Sierra Leone,2021,40
+Singapore,2021,235
+Sint-Maarten,2021,0
+Slovak Republic,2021,280
+Slovenia,2021,10
+Solomon Islands,2021,0
+"Somalia, Democratic Republic of",2021,2080
+"Source: IRCC, March 31, 2025",2021,0
+"South Africa, Republic of",2021,1610
+"South Sudan, Republic of",2021,150
+Spain,2021,920
+Sri Lanka,2021,2015
+St. Kitts-Nevis,2021,15
+St. Lucia,2021,200
+St. Vincent and the Grenadines,2021,270
+Stateless,2021,1110
+"Sudan, Democratic Republic of",2021,1745
+Surinam,2021,0
+Swaziland,2021,10
+Sweden,2021,270
+Switzerland,2021,300
+Syria,2021,5595
+Taiwan,2021,1250
+Tajikistan,2021,35
+"Tanzania, United Republic of",2021,295
+Thailand,2021,435
+"Togo, Republic of",2021,330
+Tonga,2021,0
+"Trinidad and Tobago, Republic of",2021,490
+Tunisia,2021,2630
+Turkey,2021,4625
+Turkmenistan,2021,40
+Turks and Caicos Islands,2021,0
+Tuvalu,2021,0
+Uganda,2021,615
+Ukraine,2021,3195
+United Arab Emirates,2021,0
+United Kingdom and Overseas Territories,2021,6560
+United States of America,2021,11950
+Uruguay,2021,65
+Uzbekistan,2021,115
+Vanuatu,2021,0
+Venezuela,2021,2615
+Vietnam,2021,5765
+"Virgin Islands, British",2021,0
+Western Sahara,2021,0
+Yemen,2021,1385
+Zambia,2021,85
+Zimbabwe,2021,505
+Afghanistan,2022,23745
+Albania,2022,525
+Algeria,2022,6175
+Andorra,2022,0
+Angola,2022,230
+Antigua and Barbuda,2022,100
+Argentina,2022,360
+Armenia,2022,135
+Australia,2022,1265
+Austria,2022,90
+Azerbaijan,2022,350
+Azores,2022,0
+"Bahama Islands, The",2022,270
+Bahrain,2022,0
+Bangladesh,2022,4060
+Barbados,2022,190
+Belarus,2022,135
+Belgium,2022,605
+Belize,2022,35
+"Benin, Republic of",2022,640
+Bermuda,2022,0
+Bhutan,2022,0
+Bolivia,2022,120
+Bosnia-Herzegovina,2022,55
+"Botswana, Republic of",2022,20
+Brazil,2022,7340
+Brunei,2022,0
+Bulgaria,2022,135
+Burkina-Faso,2022,500
+Burundi,2022,1585
+Cambodia,2022,220
+"Cameroon, Federal Republic of",2022,6260
+Cape Verde Islands,2022,10
+Central African Republic,2022,895
+"Chad, Republic of",2022,240
+Chile,2022,610
+"China, People's Republic of",2022,31870
+Colombia,2022,3785
+Comoros,2022,5
+"Congo, Democratic Republic of the",2022,3255
+"Congo, People's Republic of the",2022,295
+Costa Rica,2022,190
+Country not stated,2022,0
+Croatia,2022,185
+Cuba,2022,825
+Curacao,2022,0
+Cyprus,2022,0
+Czech Republic,2022,185
+Denmark,2022,40
+"Djibouti, Republic of",2022,320
+Dominica,2022,15
+Dominican Republic,2022,890
+"East Timor, Democratic Republic of",2022,0
+Ecuador,2022,470
+Egypt,2022,2885
+El Salvador,2022,645
+"Equatorial Guinea, Republic of",2022,0
+Eritrea,2022,7660
+Estonia,2022,0
+Ethiopia,2022,2660
+Fiji,2022,85
+Finland,2022,65
+France,2022,14150
+French Polynesia,2022,0
+Gabon Republic,2022,75
+Gambia,2022,60
+Georgia,2022,235
+Germany,2022,900
+Ghana,2022,1245
+Greece,2022,260
+Grenada,2022,105
+Guadeloupe,2022,0
+Guatemala,2022,310
+"Guinea, Republic of",2022,530
+Guinea-Bissau,2022,0
+Guyana,2022,440
+Haiti,2022,4400
+Holy See,2022,0
+Honduras,2022,370
+Hong Kong SAR,2022,3695
+Hungary,2022,430
+Iceland,2022,0
+India,2022,118250
+"Indonesia, Republic of",2022,480
+Iran,2022,11110
+Iraq,2022,3480
+"Ireland, Republic of",2022,950
+Israel,2022,895
+Italy,2022,1090
+"Ivory Coast, Republic of",2022,2990
+Jamaica,2022,4245
+Japan,2022,885
+Jordan,2022,1135
+Kazakhstan,2022,445
+Kenya,2022,985
+Kiribati,2022,0
+"Korea, People's Democratic Republic of",2022,0
+"Korea, Republic of",2022,5465
+"Kosovo, Republic of",2022,155
+Kuwait,2022,25
+Kyrgyzstan,2022,80
+Laos,2022,5
+Latvia,2022,45
+Lebanon,2022,4095
+Lesotho,2022,0
+Liberia,2022,85
+Libya,2022,585
+Liechtenstein,2022,0
+Lithuania,2022,65
+Luxembourg,2022,5
+Macau SAR,2022,5
+Macedonia,2022,35
+Madagascar,2022,335
+Malawi,2022,20
+Malaysia,2022,295
+"Maldives, Republic of",2022,0
+"Mali, Republic of",2022,375
+Malta,2022,0
+"Marshall Islands, Republic of the",2022,0
+Mauritania,2022,80
+Mauritius,2022,1025
+Mexico,2022,5230
+"Micronesia, Federated States of",2022,0
+Moldova,2022,210
+Monaco,2022,0
+"Mongolia, People's Republic of",2022,85
+"Montenegro, Republic of",2022,0
+Morocco,2022,6380
+Mozambique,2022,0
+Myanmar (Burma),2022,190
+Namibia,2022,60
+Nauru,2022,0
+Nepal,2022,1430
+"Netherlands Antilles, The",2022,0
+"Netherlands, The",2022,390
+Nevis,2022,0
+New Caledonia,2022,0
+New Zealand,2022,410
+Nicaragua,2022,305
+"Niger, Republic of the",2022,90
+Nigeria,2022,22135
+"Northern Mariana Islands, Commonwealth of the",2022,0
+Norway,2022,25
+"Notes:
+— Please note that all values between 0 and 5 are shown as “--”. This is done to prevent individuals from being identified when IRCC data is compiled and compared to other publicly available statistics. All other values are rounded to the closest multiple of 5 for the same reason; as a result of rounding, data may not sum to the totals indicated.
+— Data are preliminary and subject to change.",2022,0
+Oman,2022,0
+Other,2022,0
+Pakistan,2022,11600
+"Palau, Republic of",2022,0
+Palestinian Authority (Gaza/West Bank),2022,870
+"Panama, Republic of",2022,60
+Papua New Guinea,2022,0
+Paraguay,2022,30
+Peru,2022,665
+Philippines,2022,22100
+Poland,2022,510
+Portugal,2022,875
+Puerto Rico,2022,0
+Qatar,2022,0
+Reunion,2022,0
+Romania,2022,480
+Russia,2022,1625
+Rwanda,2022,1030
+"Samoa, American",2022,0
+"Samoa, Independent State of",2022,0
+San Marino,2022,0
+Sao Tome and Principe,2022,0
+Saudi Arabia,2022,290
+Senegal,2022,1005
+"Serbia, Republic of",2022,355
+Seychelles,2022,0
+Sierra Leone,2022,40
+Singapore,2022,300
+Sint-Maarten,2022,0
+Slovak Republic,2022,185
+Slovenia,2022,0
+Solomon Islands,2022,10
+"Somalia, Democratic Republic of",2022,2940
+"Source: IRCC, March 31, 2025",2022,0
+"South Africa, Republic of",2022,1740
+"South Sudan, Republic of",2022,375
+Spain,2022,585
+Sri Lanka,2022,2505
+St. Kitts-Nevis,2022,15
+St. Lucia,2022,180
+St. Vincent and the Grenadines,2022,250
+Stateless,2022,925
+"Sudan, Democratic Republic of",2022,1570
+Surinam,2022,0
+Swaziland,2022,0
+Sweden,2022,180
+Switzerland,2022,240
+Syria,2022,8505
+Taiwan,2022,1040
+Tajikistan,2022,55
+"Tanzania, United Republic of",2022,235
+Thailand,2022,385
+"Togo, Republic of",2022,560
+Tonga,2022,0
+"Trinidad and Tobago, Republic of",2022,505
+Tunisia,2022,4675
+Turkey,2022,2425
+Turkmenistan,2022,15
+Turks and Caicos Islands,2022,0
+Tuvalu,2022,0
+Uganda,2022,630
+Ukraine,2022,3580
+United Arab Emirates,2022,10
+United Kingdom and Overseas Territories,2022,4500
+United States of America,2022,10415
+Uruguay,2022,50
+Uzbekistan,2022,100
+Vanuatu,2022,0
+Venezuela,2022,1545
+Vietnam,2022,5455
+"Virgin Islands, British",2022,0
+Western Sahara,2022,0
+Yemen,2022,820
+Zambia,2022,70
+Zimbabwe,2022,615
+Afghanistan,2023,20180
+Albania,2023,655
+Algeria,2023,5250
+Andorra,2023,0
+Angola,2023,230
+Antigua and Barbuda,2023,110
+Argentina,2023,490
+Armenia,2023,240
+Australia,2023,1260
+Austria,2023,90
+Azerbaijan,2023,245
+Azores,2023,0
+"Bahama Islands, The",2023,405
+Bahrain,2023,0
+Bangladesh,2023,5025
+Barbados,2023,265
+Belarus,2023,215
+Belgium,2023,550
+Belize,2023,65
+"Benin, Republic of",2023,685
+Bermuda,2023,0
+Bhutan,2023,25
+Bolivia,2023,125
+Bosnia-Herzegovina,2023,60
+"Botswana, Republic of",2023,30
+Brazil,2023,7230
+Brunei,2023,0
+Bulgaria,2023,135
+Burkina-Faso,2023,430
+Burundi,2023,1030
+Cambodia,2023,175
+"Cameroon, Federal Republic of",2023,11690
+Cape Verde Islands,2023,0
+Central African Republic,2023,340
+"Chad, Republic of",2023,250
+Chile,2023,745
+"China, People's Republic of",2023,31785
+Colombia,2023,4650
+Comoros,2023,5
+"Congo, Democratic Republic of the",2023,5315
+"Congo, People's Republic of the",2023,250
+Costa Rica,2023,260
+Country not stated,2023,0
+Croatia,2023,145
+Cuba,2023,1040
+Curacao,2023,0
+Cyprus,2023,0
+Czech Republic,2023,210
+Denmark,2023,55
+"Djibouti, Republic of",2023,310
+Dominica,2023,30
+Dominican Republic,2023,730
+"East Timor, Democratic Republic of",2023,0
+Ecuador,2023,775
+Egypt,2023,2515
+El Salvador,2023,555
+"Equatorial Guinea, Republic of",2023,0
+Eritrea,2023,10680
+Estonia,2023,5
+Ethiopia,2023,3825
+Fiji,2023,100
+Finland,2023,90
+France,2023,10075
+French Polynesia,2023,0
+Gabon Republic,2023,75
+Gambia,2023,120
+Georgia,2023,225
+Germany,2023,1160
+Ghana,2023,1645
+Greece,2023,305
+Grenada,2023,50
+Guadeloupe,2023,0
+Guatemala,2023,270
+"Guinea, Republic of",2023,525
+Guinea-Bissau,2023,0
+Guyana,2023,465
+Haiti,2023,3020
+Holy See,2023,0
+Honduras,2023,440
+Hong Kong SAR,2023,7535
+Hungary,2023,365
+Iceland,2023,5
+India,2023,139780
+"Indonesia, Republic of",2023,625
+Iran,2023,10690
+Iraq,2023,2335
+"Ireland, Republic of",2023,1015
+Israel,2023,980
+Italy,2023,1205
+"Ivory Coast, Republic of",2023,2595
+Jamaica,2023,4340
+Japan,2023,1015
+Jordan,2023,1265
+Kazakhstan,2023,485
+Kenya,2023,1220
+Kiribati,2023,0
+"Korea, People's Democratic Republic of",2023,0
+"Korea, Republic of",2023,5205
+"Kosovo, Republic of",2023,155
+Kuwait,2023,25
+Kyrgyzstan,2023,135
+Laos,2023,0
+Latvia,2023,65
+Lebanon,2023,4560
+Lesotho,2023,0
+Liberia,2023,65
+Libya,2023,490
+Liechtenstein,2023,0
+Lithuania,2023,80
+Luxembourg,2023,0
+Macau SAR,2023,15
+Macedonia,2023,60
+Madagascar,2023,345
+Malawi,2023,35
+Malaysia,2023,370
+"Maldives, Republic of",2023,0
+"Mali, Republic of",2023,430
+Malta,2023,0
+"Marshall Islands, Republic of the",2023,0
+Mauritania,2023,120
+Mauritius,2023,1150
+Mexico,2023,5735
+"Micronesia, Federated States of",2023,0
+Moldova,2023,140
+Monaco,2023,0
+"Mongolia, People's Republic of",2023,145
+"Montenegro, Republic of",2023,0
+Morocco,2023,6405
+Mozambique,2023,5
+Myanmar (Burma),2023,255
+Namibia,2023,60
+Nauru,2023,0
+Nepal,2023,1765
+"Netherlands Antilles, The",2023,0
+"Netherlands, The",2023,435
+Nevis,2023,0
+New Caledonia,2023,0
+New Zealand,2023,410
+Nicaragua,2023,265
+"Niger, Republic of the",2023,100
+Nigeria,2023,17465
+"Northern Mariana Islands, Commonwealth of the",2023,0
+Norway,2023,50
+"Notes:
+— Please note that all values between 0 and 5 are shown as “--”. This is done to prevent individuals from being identified when IRCC data is compiled and compared to other publicly available statistics. All other values are rounded to the closest multiple of 5 for the same reason; as a result of rounding, data may not sum to the totals indicated.
+— Data are preliminary and subject to change.",2023,0
+Oman,2023,0
+Other,2023,0
+Pakistan,2023,11855
+"Palau, Republic of",2023,0
+Palestinian Authority (Gaza/West Bank),2023,730
+"Panama, Republic of",2023,55
+Papua New Guinea,2023,0
+Paraguay,2023,35
+Peru,2023,750
+Philippines,2023,26965
+Poland,2023,535
+Portugal,2023,1000
+Puerto Rico,2023,0
+Qatar,2023,0
+Reunion,2023,0
+Romania,2023,465
+Russia,2023,1770
+Rwanda,2023,1015
+"Samoa, American",2023,0
+"Samoa, Independent State of",2023,0
+San Marino,2023,0
+Sao Tome and Principe,2023,0
+Saudi Arabia,2023,235
+Senegal,2023,935
+"Serbia, Republic of",2023,280
+Seychelles,2023,0
+Sierra Leone,2023,95
+Singapore,2023,275
+Sint-Maarten,2023,0
+Slovak Republic,2023,155
+Slovenia,2023,35
+Solomon Islands,2023,5
+"Somalia, Democratic Republic of",2023,5175
+"Source: IRCC, March 31, 2025",2023,0
+"South Africa, Republic of",2023,2065
+"South Sudan, Republic of",2023,325
+Spain,2023,660
+Sri Lanka,2023,2705
+St. Kitts-Nevis,2023,50
+St. Lucia,2023,200
+St. Vincent and the Grenadines,2023,240
+Stateless,2023,1085
+"Sudan, Democratic Republic of",2023,2005
+Surinam,2023,5
+Swaziland,2023,5
+Sweden,2023,240
+Switzerland,2023,210
+Syria,2023,9350
+Taiwan,2023,1070
+Tajikistan,2023,45
+"Tanzania, United Republic of",2023,280
+Thailand,2023,480
+"Togo, Republic of",2023,675
+Tonga,2023,0
+"Trinidad and Tobago, Republic of",2023,535
+Tunisia,2023,3465
+Turkey,2023,2075
+Turkmenistan,2023,20
+Turks and Caicos Islands,2023,0
+Tuvalu,2023,0
+Uganda,2023,675
+Ukraine,2023,3115
+United Arab Emirates,2023,10
+United Kingdom and Overseas Territories,2023,5000
+United States of America,2023,10640
+Uruguay,2023,60
+Uzbekistan,2023,185
+Vanuatu,2023,0
+Venezuela,2023,1385
+Vietnam,2023,6600
+"Virgin Islands, British",2023,0
+Western Sahara,2023,0
+Yemen,2023,655
+Zambia,2023,80
+Zimbabwe,2023,555
+Afghanistan,2024,12285
+Albania,2024,610
+Algeria,2024,8255
+Andorra,2024,0
+Angola,2024,205
+Antigua and Barbuda,2024,65
+Argentina,2024,435
+Armenia,2024,215
+Australia,2024,1005
+Austria,2024,80
+Azerbaijan,2024,210
+Azores,2024,0
+"Bahama Islands, The",2024,385
+Bahrain,2024,5
+Bangladesh,2024,4530
+Barbados,2024,240
+Belarus,2024,290
+Belgium,2024,495
+Belize,2024,45
+"Benin, Republic of",2024,870
+Bermuda,2024,0
+Bhutan,2024,10
+Bolivia,2024,205
+Bosnia-Herzegovina,2024,65
+"Botswana, Republic of",2024,0
+Brazil,2024,5985
+Brunei,2024,0
+Bulgaria,2024,95
+Burkina-Faso,2024,515
+Burundi,2024,1280
+Cambodia,2024,175
+"Cameroon, Federal Republic of",2024,21200
+Cape Verde Islands,2024,0
+Central African Republic,2024,260
+"Chad, Republic of",2024,300
+Chile,2024,865
+"China, People's Republic of",2024,29970
+Colombia,2024,8865
+Comoros,2024,5
+"Congo, Democratic Republic of the",2024,4375
+"Congo, People's Republic of the",2024,235
+Costa Rica,2024,185
+Country not stated,2024,0
+Croatia,2024,110
+Cuba,2024,865
+Curacao,2024,0
+Cyprus,2024,0
+Czech Republic,2024,160
+Denmark,2024,35
+"Djibouti, Republic of",2024,195
+Dominica,2024,50
+Dominican Republic,2024,765
+"East Timor, Democratic Republic of",2024,0
+Ecuador,2024,685
+Egypt,2024,2615
+El Salvador,2024,545
+"Equatorial Guinea, Republic of",2024,0
+Eritrea,2024,16595
+Estonia,2024,0
+Ethiopia,2024,4245
+Fiji,2024,90
+Finland,2024,45
+France,2024,9940
+French Polynesia,2024,0
+Gabon Republic,2024,145
+Gambia,2024,120
+Georgia,2024,280
+Germany,2024,935
+Ghana,2024,1615
+Greece,2024,240
+Grenada,2024,75
+Guadeloupe,2024,0
+Guatemala,2024,295
+"Guinea, Republic of",2024,615
+Guinea-Bissau,2024,0
+Guyana,2024,370
+Haiti,2024,5175
+Holy See,2024,0
+Honduras,2024,460
+Hong Kong SAR,2024,3510
+Hungary,2024,310
+Iceland,2024,0
+India,2024,127375
+"Indonesia, Republic of",2024,480
+Iran,2024,11145
+Iraq,2024,1660
+"Ireland, Republic of",2024,830
+Israel,2024,835
+Italy,2024,835
+"Ivory Coast, Republic of",2024,3145
+Jamaica,2024,3725
+Japan,2024,900
+Jordan,2024,1270
+Kazakhstan,2024,375
+Kenya,2024,1090
+Kiribati,2024,0
+"Korea, People's Democratic Republic of",2024,0
+"Korea, Republic of",2024,4370
+"Kosovo, Republic of",2024,115
+Kuwait,2024,10
+Kyrgyzstan,2024,95
+Laos,2024,5
+Latvia,2024,30
+Lebanon,2024,4335
+Lesotho,2024,0
+Liberia,2024,120
+Libya,2024,325
+Liechtenstein,2024,0
+Lithuania,2024,65
+Luxembourg,2024,0
+Macau SAR,2024,10
+Macedonia,2024,60
+Madagascar,2024,690
+Malawi,2024,35
+Malaysia,2024,375
+"Maldives, Republic of",2024,0
+"Mali, Republic of",2024,475
+Malta,2024,5
+"Marshall Islands, Republic of the",2024,0
+Mauritania,2024,125
+Mauritius,2024,1715
+Mexico,2024,6415
+"Micronesia, Federated States of",2024,0
+Moldova,2024,120
+Monaco,2024,0
+"Mongolia, People's Republic of",2024,135
+"Montenegro, Republic of",2024,10
+Morocco,2024,7635
+Mozambique,2024,5
+Myanmar (Burma),2024,335
+Namibia,2024,40
+Nauru,2024,0
+Nepal,2024,2000
+"Netherlands Antilles, The",2024,0
+"Netherlands, The",2024,375
+Nevis,2024,0
+New Caledonia,2024,0
+New Zealand,2024,420
+Nicaragua,2024,360
+"Niger, Republic of the",2024,110
+Nigeria,2024,20390
+"Northern Mariana Islands, Commonwealth of the",2024,0
+Norway,2024,45
+"Notes:
+— Please note that all values between 0 and 5 are shown as “--”. This is done to prevent individuals from being identified when IRCC data is compiled and compared to other publicly available statistics. All other values are rounded to the closest multiple of 5 for the same reason; as a result of rounding, data may not sum to the totals indicated.
+— Data are preliminary and subject to change.",2024,0
+Oman,2024,0
+Other,2024,10
+Pakistan,2024,11965
+"Palau, Republic of",2024,0
+Palestinian Authority (Gaza/West Bank),2024,780
+"Panama, Republic of",2024,75
+Papua New Guinea,2024,0
+Paraguay,2024,60
+Peru,2024,935
+Philippines,2024,32320
+Poland,2024,445
+Portugal,2024,630
+Puerto Rico,2024,0
+Qatar,2024,0
+Reunion,2024,0
+Romania,2024,405
+Russia,2024,1810
+Rwanda,2024,1245
+"Samoa, American",2024,0
+"Samoa, Independent State of",2024,0
+San Marino,2024,0
+Sao Tome and Principe,2024,0
+Saudi Arabia,2024,230
+Senegal,2024,1065
+"Serbia, Republic of",2024,225
+Seychelles,2024,0
+Sierra Leone,2024,100
+Singapore,2024,230
+Sint-Maarten,2024,0
+Slovak Republic,2024,120
+Slovenia,2024,0
+Solomon Islands,2024,5
+"Somalia, Democratic Republic of",2024,5805
+"Source: IRCC, March 31, 2025",2024,0
+"South Africa, Republic of",2024,1585
+"South Sudan, Republic of",2024,545
+Spain,2024,570
+Sri Lanka,2024,3810
+St. Kitts-Nevis,2024,25
+St. Lucia,2024,160
+St. Vincent and the Grenadines,2024,185
+Stateless,2024,1995
+"Sudan, Democratic Republic of",2024,1955
+Surinam,2024,0
+Swaziland,2024,10
+Sweden,2024,180
+Switzerland,2024,165
+Syria,2024,7745
+Taiwan,2024,1250
+Tajikistan,2024,15
+"Tanzania, United Republic of",2024,285
+Thailand,2024,555
+"Togo, Republic of",2024,1075
+Tonga,2024,0
+"Trinidad and Tobago, Republic of",2024,495
+Tunisia,2024,5705
+Turkey,2024,2455
+Turkmenistan,2024,5
+Turks and Caicos Islands,2024,0
+Tuvalu,2024,0
+Uganda,2024,935
+Ukraine,2024,6775
+United Arab Emirates,2024,5
+United Kingdom and Overseas Territories,2024,4130
+United States of America,2024,9325
+Uruguay,2024,45
+Uzbekistan,2024,180
+Vanuatu,2024,0
+Venezuela,2024,3240
+Vietnam,2024,6710
+"Virgin Islands, British",2024,0
+Western Sahara,2024,0
+Yemen,2024,765
+Zambia,2024,85
+Zimbabwe,2024,600
+Afghanistan,2025,1740
+Albania,2025,125
+Algeria,2025,1175
+Andorra,2025,0
+Angola,2025,30
+Antigua and Barbuda,2025,15
+Argentina,2025,125
+Armenia,2025,45
+Australia,2025,180
+Austria,2025,10
+Azerbaijan,2025,35
+Azores,2025,0
+"Bahama Islands, The",2025,85
+Bahrain,2025,0
+Bangladesh,2025,910
+Barbados,2025,50
+Belarus,2025,95
+Belgium,2025,105
+Belize,2025,10
+"Benin, Republic of",2025,175
+Bermuda,2025,0
+Bhutan,2025,10
+Bolivia,2025,35
+Bosnia-Herzegovina,2025,5
+"Botswana, Republic of",2025,0
+Brazil,2025,1405
+Brunei,2025,0
+Bulgaria,2025,5
+Burkina-Faso,2025,135
+Burundi,2025,250
+Cambodia,2025,35
+"Cameroon, Federal Republic of",2025,4655
+Cape Verde Islands,2025,0
+Central African Republic,2025,70
+"Chad, Republic of",2025,80
+Chile,2025,270
+"China, People's Republic of",2025,6270
+Colombia,2025,2290
+Comoros,2025,5
+"Congo, Democratic Republic of the",2025,1020
+"Congo, People's Republic of the",2025,50
+Costa Rica,2025,55
+Country not stated,2025,0
+Croatia,2025,5
+Cuba,2025,235
+Curacao,2025,0
+Cyprus,2025,0
+Czech Republic,2025,60
+Denmark,2025,10
+"Djibouti, Republic of",2025,40
+Dominica,2025,10
+Dominican Republic,2025,175
+"East Timor, Democratic Republic of",2025,0
+Ecuador,2025,175
+Egypt,2025,425
+El Salvador,2025,145
+"Equatorial Guinea, Republic of",2025,0
+Eritrea,2025,2410
+Estonia,2025,0
+Ethiopia,2025,1140
+Fiji,2025,10
+Finland,2025,30
+France,2025,2005
+French Polynesia,2025,0
+Gabon Republic,2025,20
+Gambia,2025,25
+Georgia,2025,45
+Germany,2025,190
+Ghana,2025,445
+Greece,2025,50
+Grenada,2025,10
+Guadeloupe,2025,0
+Guatemala,2025,75
+"Guinea, Republic of",2025,145
+Guinea-Bissau,2025,0
+Guyana,2025,80
+Haiti,2025,1310
+Holy See,2025,0
+Honduras,2025,125
+Hong Kong SAR,2025,100
+Hungary,2025,75
+Iceland,2025,0
+India,2025,31630
+"Indonesia, Republic of",2025,115
+Iran,2025,1840
+Iraq,2025,245
+"Ireland, Republic of",2025,295
+Israel,2025,165
+Italy,2025,175
+"Ivory Coast, Republic of",2025,640
+Jamaica,2025,835
+Japan,2025,160
+Jordan,2025,260
+Kazakhstan,2025,75
+Kenya,2025,255
+Kiribati,2025,0
+"Korea, People's Democratic Republic of",2025,0
+"Korea, Republic of",2025,910
+"Kosovo, Republic of",2025,50
+Kuwait,2025,10
+Kyrgyzstan,2025,20
+Laos,2025,0
+Latvia,2025,15
+Lebanon,2025,515
+Lesotho,2025,0
+Liberia,2025,20
+Libya,2025,100
+Liechtenstein,2025,0
+Lithuania,2025,15
+Luxembourg,2025,0
+Macau SAR,2025,0
+Macedonia,2025,10
+Madagascar,2025,140
+Malawi,2025,5
+Malaysia,2025,95
+"Maldives, Republic of",2025,0
+"Mali, Republic of",2025,80
+Malta,2025,0
+"Marshall Islands, Republic of the",2025,0
+Mauritania,2025,15
+Mauritius,2025,390
+Mexico,2025,1455
+"Micronesia, Federated States of",2025,0
+Moldova,2025,50
+Monaco,2025,0
+"Mongolia, People's Republic of",2025,15
+"Montenegro, Republic of",2025,0
+Morocco,2025,1245
+Mozambique,2025,0
+Myanmar (Burma),2025,60
+Namibia,2025,5
+Nauru,2025,0
+Nepal,2025,565
+"Netherlands Antilles, The",2025,0
+"Netherlands, The",2025,95
+Nevis,2025,0
+New Caledonia,2025,0
+New Zealand,2025,80
+Nicaragua,2025,55
+"Niger, Republic of the",2025,25
+Nigeria,2025,4575
+"Northern Mariana Islands, Commonwealth of the",2025,0
+Norway,2025,10
+"Notes:
+— Please note that all values between 0 and 5 are shown as “--”. This is done to prevent individuals from being identified when IRCC data is compiled and compared to other publicly available statistics. All other values are rounded to the closest multiple of 5 for the same reason; as a result of rounding, data may not sum to the totals indicated.
+— Data are preliminary and subject to change.",2025,0
+Oman,2025,0
+Other,2025,0
+Pakistan,2025,2400
+"Palau, Republic of",2025,0
+Palestinian Authority (Gaza/West Bank),2025,65
+"Panama, Republic of",2025,10
+Papua New Guinea,2025,0
+Paraguay,2025,10
+Peru,2025,205
+Philippines,2025,7155
+Poland,2025,80
+Portugal,2025,160
+Puerto Rico,2025,0
+Qatar,2025,0
+Reunion,2025,0
+Romania,2025,65
+Russia,2025,340
+Rwanda,2025,210
+"Samoa, American",2025,0
+"Samoa, Independent State of",2025,0
+San Marino,2025,0
+Sao Tome and Principe,2025,0
+Saudi Arabia,2025,30
+Senegal,2025,215
+"Serbia, Republic of",2025,50
+Seychelles,2025,5
+Sierra Leone,2025,20
+Singapore,2025,50
+Sint-Maarten,2025,0
+Slovak Republic,2025,30
+Slovenia,2025,0
+Solomon Islands,2025,0
+"Somalia, Democratic Republic of",2025,1190
+"Source: IRCC, March 31, 2025",2025,0
+"South Africa, Republic of",2025,365
+"South Sudan, Republic of",2025,155
+Spain,2025,125
+Sri Lanka,2025,930
+St. Kitts-Nevis,2025,15
+St. Lucia,2025,30
+St. Vincent and the Grenadines,2025,25
+Stateless,2025,395
+"Sudan, Democratic Republic of",2025,835
+Surinam,2025,0
+Swaziland,2025,0
+Sweden,2025,40
+Switzerland,2025,30
+Syria,2025,750
+Taiwan,2025,240
+Tajikistan,2025,0
+"Tanzania, United Republic of",2025,60
+Thailand,2025,115
+"Togo, Republic of",2025,210
+Tonga,2025,0
+"Trinidad and Tobago, Republic of",2025,110
+Tunisia,2025,840
+Turkey,2025,425
+Turkmenistan,2025,0
+Turks and Caicos Islands,2025,0
+Tuvalu,2025,0
+Uganda,2025,190
+Ukraine,2025,2445
+United Arab Emirates,2025,0
+United Kingdom and Overseas Territories,2025,900
+United States of America,2025,1960
+Uruguay,2025,0
+Uzbekistan,2025,45
+Vanuatu,2025,0
+Venezuela,2025,430
+Vietnam,2025,1240
+"Virgin Islands, British",2025,0
+Western Sahara,2025,0
+Yemen,2025,115
+Zambia,2025,10
+Zimbabwe,2025,155
