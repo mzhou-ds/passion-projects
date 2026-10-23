@@ -1,0 +1,11 @@
+feature,mean_abs_shap,corr
+ever_married,0.8055,-0.981
+educ,0.2586,0.773
+attend,0.2329,-0.867
+race,0.1955,-0.733
+cohort,0.1917,0.32
+relig,0.1205,0.342
+wrkstat,0.1057,0.087
+female,0.1033,-0.706
+region,0.0847,0.699
+degree,0.0763,0.501

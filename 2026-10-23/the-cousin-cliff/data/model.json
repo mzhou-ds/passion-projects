@@ -1,0 +1,110 @@
+{
+  "us_tfr_2023": 1.624,
+  "ca_tfr_2023": 1.349,
+  "cn_tfr_2023": 0.999,
+  "us_cousin_peak": {
+    "year": 1990,
+    "cousins": 11.15,
+    "aunts_uncles": 5.38
+  },
+  "us_1980": {
+    "year": 1980,
+    "tfr": 1.861,
+    "tfr_parents_birth_year": 3.197,
+    "aunts_uncles": 4.39,
+    "expected_siblings": 0.86,
+    "expected_cousins": 8.18,
+    "reunion_kin": 19.4,
+    "projected": false
+  },
+  "us_1990": {
+    "year": 1990,
+    "tfr": 2.072,
+    "tfr_parents_birth_year": 3.691,
+    "aunts_uncles": 5.38,
+    "expected_siblings": 1.07,
+    "expected_cousins": 11.15,
+    "reunion_kin": 23.6,
+    "projected": false
+  },
+  "us_2000": {
+    "year": 2000,
+    "tfr": 2.03,
+    "tfr_parents_birth_year": 2.318,
+    "aunts_uncles": 2.64,
+    "expected_siblings": 1.03,
+    "expected_cousins": 5.35,
+    "reunion_kin": 15.0,
+    "projected": false
+  },
+  "us_2010": {
+    "year": 2010,
+    "tfr": 1.916,
+    "tfr_parents_birth_year": 1.847,
+    "aunts_uncles": 1.69,
+    "expected_siblings": 0.92,
+    "expected_cousins": 3.25,
+    "reunion_kin": 11.9,
+    "projected": false
+  },
+  "us_2023": {
+    "year": 2023,
+    "tfr": 1.624,
+    "tfr_parents_birth_year": 1.988,
+    "aunts_uncles": 1.98,
+    "expected_siblings": 0.62,
+    "expected_cousins": 3.21,
+    "reunion_kin": 11.8,
+    "projected": false
+  },
+  "us_2055_proj": {
+    "year": 2055,
+    "tfr": 1.624,
+    "tfr_parents_birth_year": 1.624,
+    "aunts_uncles": 1.25,
+    "expected_siblings": 0.62,
+    "expected_cousins": 2.03,
+    "reunion_kin": 9.9,
+    "projected": true
+  },
+  "ca_1990": {
+    "year": 1990,
+    "tfr": 1.696,
+    "tfr_parents_birth_year": 3.761,
+    "aunts_uncles": 5.52,
+    "expected_siblings": 0.7,
+    "expected_cousins": 9.37,
+    "reunion_kin": 21.6,
+    "projected": false
+  },
+  "ca_2023": {
+    "year": 2023,
+    "tfr": 1.349,
+    "tfr_parents_birth_year": 1.693,
+    "aunts_uncles": 1.39,
+    "expected_siblings": 0.35,
+    "expected_cousins": 1.87,
+    "reunion_kin": 9.6,
+    "projected": false
+  },
+  "cn_1990": {
+    "year": 1990,
+    "tfr": 2.514,
+    "tfr_parents_birth_year": 3.863,
+    "aunts_uncles": 5.73,
+    "expected_siblings": 1.51,
+    "expected_cousins": 14.4,
+    "reunion_kin": 27.6,
+    "projected": false
+  },
+  "cn_2023": {
+    "year": 2023,
+    "tfr": 0.999,
+    "tfr_parents_birth_year": 1.628,
+    "aunts_uncles": 1.26,
+    "expected_siblings": 0.0,
+    "expected_cousins": 1.25,
+    "reunion_kin": 8.5,
+    "projected": false
+  }
+}

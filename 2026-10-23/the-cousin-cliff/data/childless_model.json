@@ -1,0 +1,12 @@
+{
+  "n": 18987,
+  "base_childless_pct": 17.7,
+  "test_auc": 0.785,
+  "top_features": [
+    "ever_married",
+    "educ",
+    "attend",
+    "race",
+    "cohort"
+  ]
+}

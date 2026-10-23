@@ -1,0 +1,122 @@
+{
+  "sibs_by_decade": [
+    {
+      "decade": 1920,
+      "n": 3118,
+      "mean_sibs": 3.53,
+      "only_child_pct": 6.4,
+      "four_plus_sibs_pct": 48.5
+    },
+    {
+      "decade": 1930,
+      "n": 7129,
+      "mean_sibs": 3.36,
+      "only_child_pct": 7.3,
+      "four_plus_sibs_pct": 45.1
+    },
+    {
+      "decade": 1940,
+      "n": 11339,
+      "mean_sibs": 3.21,
+      "only_child_pct": 5.9,
+      "four_plus_sibs_pct": 40.4
+    },
+    {
+      "decade": 1950,
+      "n": 14791,
+      "mean_sibs": 3.45,
+      "only_child_pct": 3.2,
+      "four_plus_sibs_pct": 44.0
+    },
+    {
+      "decade": 1960,
+      "n": 11349,
+      "mean_sibs": 3.21,
+      "only_child_pct": 3.1,
+      "four_plus_sibs_pct": 38.8
+    },
+    {
+      "decade": 1970,
+      "n": 7462,
+      "mean_sibs": 2.79,
+      "only_child_pct": 4.8,
+      "four_plus_sibs_pct": 30.1
+    },
+    {
+      "decade": 1980,
+      "n": 5174,
+      "mean_sibs": 2.77,
+      "only_child_pct": 4.9,
+      "four_plus_sibs_pct": 28.6
+    },
+    {
+      "decade": 1990,
+      "n": 2530,
+      "mean_sibs": 2.79,
+      "only_child_pct": 4.9,
+      "four_plus_sibs_pct": 30.7
+    }
+  ],
+  "completed_fertility_by_decade": [
+    {
+      "decade": 1920,
+      "n": 3096,
+      "mean_childs": 3.13,
+      "childless_pct": 10.3,
+      "childless_men_pct": 11.2,
+      "childless_women_pct": 9.6
+    },
+    {
+      "decade": 1930,
+      "n": 5551,
+      "mean_childs": 3.16,
+      "childless_pct": 8.1,
+      "childless_men_pct": 8.9,
+      "childless_women_pct": 7.4
+    },
+    {
+      "decade": 1940,
+      "n": 6759,
+      "mean_childs": 2.4,
+      "childless_pct": 11.8,
+      "childless_men_pct": 13.5,
+      "childless_women_pct": 10.3
+    },
+    {
+      "decade": 1950,
+      "n": 6791,
+      "mean_childs": 2.16,
+      "childless_pct": 15.8,
+      "childless_men_pct": 17.9,
+      "childless_women_pct": 14.0
+    },
+    {
+      "decade": 1960,
+      "n": 3921,
+      "mean_childs": 2.17,
+      "childless_pct": 15.9,
+      "childless_men_pct": 18.0,
+      "childless_women_pct": 14.2
+    },
+    {
+      "decade": 1970,
+      "n": 928,
+      "mean_childs": 2.19,
+      "childless_pct": 13.6,
+      "childless_men_pct": 15.3,
+      "childless_women_pct": 12.2
+    }
+  ],
+  "childless_model": {
+    "n": 18987,
+    "base_childless_pct": 17.7,
+    "test_auc": 0.785,
+    "top_features": [
+      "ever_married",
+      "educ",
+      "attend",
+      "race",
+      "cohort"
+    ]
+  }
+}

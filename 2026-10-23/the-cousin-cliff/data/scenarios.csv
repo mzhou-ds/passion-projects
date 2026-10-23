@@ -1,0 +1,7 @@
+scenario,aunts_uncles,kids_per_aunt_uncle,siblings,expected_cousins
+"US baby, 1990 (cousin peak)",5.38,2.072,1.07,11.15
+"US baby, 2023",1.98,1.624,0.62,3.22
+"Canadian baby, 2023",1.39,1.349,0.35,1.88
+"China baby, 2023",1.26,0.999,0.0,1.26
+"US baby, 2055 (TFR flat at 2023)",1.25,1.624,0.62,2.03
+Child of two only-child parents (one-child-era scenario),0.0,1.624,0.62,0.0

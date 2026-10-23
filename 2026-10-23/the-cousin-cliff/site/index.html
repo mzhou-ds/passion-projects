@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Cousin Cliff - kin calculator</title>
+<style>
+  body { font-family: Georgia, serif; max-width: 760px; margin: 2rem auto; padding: 0 1rem; color: #222; line-height: 1.5; }
+  h1 { font-size: 1.9rem; margin-bottom: .2rem; }
+  .sub { color: #666; margin-top: 0; }
+  label { display: block; margin: 1rem 0 .3rem; font-weight: bold; }
+  input[type=range] { width: 100%; }
+  select { width: 100%; padding: .5rem; font-size: 1rem; }
+  .big { font-size: 2.6rem; font-weight: bold; color: #b34700; }
+  .grid { display: flex; gap: 2rem; flex-wrap: wrap; margin-top: 1rem; }
+  .card { border: 1px solid #ddd; border-radius: 8px; padding: 1rem 1.2rem; flex: 1; min-width: 200px; }
+  .note { color: #666; font-size: .9rem; margin-top: 2rem; }
+</style>
+</head>
+<body>
+<h1>The Cousin Cliff</h1>
+<p class="sub">Cousins = aunts &amp; uncles &times; their kids. Move either leg and watch the product move twice as fast. Musing with Mike.</p>
+
+<label for="preset">Start from a preset family tree</label>
+<select id="preset"></select>
+
+<label for="aunts">Aunts + uncles: <span id="auntsVal"></span></label>
+<input type="range" id="aunts" min="0" max="8" step="0.1">
+
+<label for="kids">Kids per aunt/uncle: <span id="kidsVal"></span></label>
+<input type="range" id="kids" min="0" max="4" step="0.05">
+
+<label for="sibs">Your own siblings: <span id="sibsVal"></span></label>
+<input type="range" id="sibs" min="0" max="5" step="0.1">
+
+<div class="grid">
+  <div class="card"><div>Expected first cousins</div><div class="big" id="cousins"></div></div>
+  <div class="card"><div>Reunion kin (2 parents + 4 grandparents + siblings + aunts/uncles + cousins)</div><div class="big" id="reunion"></div></div>
+</div>
+
+<p class="note">Presets come from the period-fertility kinship model in this project (UN World Population Prospects TFR via Our World in Data; generation gap 29 years). "Child of two only-child parents" is an arithmetic scenario, not a measurement: if both parents have no siblings, first cousins through them are zero whatever the local fertility rate is. The reunion count is the size of the tree at birth, before mortality - not the size of any real room in any real year.</p>
+
+<script src="data.js"></script>
+<script>
+  const sel = document.getElementById('preset');
+  window.PRESETS.forEach((p, i) => {
+    const o = document.createElement('option'); o.value = i; o.textContent = p.label; sel.appendChild(o);
+  });
+  const A = document.getElementById('aunts'), K = document.getElementById('kids'), S = document.getElementById('sibs');
+  function render() {
+    const a = +A.value, k = +K.value, s = +S.value;
+    document.getElementById('auntsVal').textContent = a.toFixed(1);
+    document.getElementById('kidsVal').textContent = k.toFixed(2);
+    document.getElementById('sibsVal').textContent = s.toFixed(1);
+    const c = a * k;
+    document.getElementById('cousins').textContent = c.toFixed(1);
+    document.getElementById('reunion').textContent = (6 + a + s + c).toFixed(1);
+  }
+  function applyPreset() {
+    const p = window.PRESETS[+sel.value];
+    A.value = p.aunts; K.value = p.kidsPer; S.value = p.sibs; render();
+  }
+  sel.addEventListener('change', applyPreset);
+  [A, K, S].forEach(el => el.addEventListener('input', render));
+  sel.value = 0; applyPreset();
+</script>
+</body>
+</html>
