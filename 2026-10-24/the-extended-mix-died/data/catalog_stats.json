@@ -1,0 +1,820 @@
+{
+  "n_tracks": 13471,
+  "n_stems": 8531,
+  "catalog_by_era": [
+    {
+      "panel_query": "dance",
+      "era": "1990s",
+      "n": 384,
+      "median_s": 302.107,
+      "p25_s": 238.26624999999999,
+      "p75_s": 378.26975000000004,
+      "share_long": 0.3697916666666667,
+      "share_short": 0.10677083333333333,
+      "share_extended_tag": 0.0,
+      "share_radio_tag": 0.052083333333333336,
+      "share_remix_tag": 0.041666666666666664
+    },
+    {
+      "panel_query": "dance",
+      "era": "2000-04",
+      "n": 396,
+      "median_s": 276.6665,
+      "p25_s": 226.413,
+      "p75_s": 358.34675000000004,
+      "share_long": 0.3207070707070707,
+      "share_short": 0.15656565656565657,
+      "share_extended_tag": 0.027777777777777776,
+      "share_radio_tag": 0.0707070707070707,
+      "share_remix_tag": 0.05808080808080808
+    },
+    {
+      "panel_query": "dance",
+      "era": "2005-09",
+      "n": 484,
+      "median_s": 284.46,
+      "p25_s": 220.253,
+      "p75_s": 356.51625,
+      "share_long": 0.3512396694214876,
+      "share_short": 0.18181818181818182,
+      "share_extended_tag": 0.026859504132231406,
+      "share_radio_tag": 0.0371900826446281,
+      "share_remix_tag": 0.0640495867768595
+    },
+    {
+      "panel_query": "dance",
+      "era": "2010-14",
+      "n": 1447,
+      "median_s": 261.036,
+      "p25_s": 210.45999999999998,
+      "p75_s": 336.969,
+      "share_long": 0.28127159640635796,
+      "share_short": 0.24740843123704215,
+      "share_extended_tag": 0.031098825155494125,
+      "share_radio_tag": 0.05874222529371113,
+      "share_remix_tag": 0.1713890808569454
+    },
+    {
+      "panel_query": "dance",
+      "era": "2015-19",
+      "n": 1737,
+      "median_s": 227.467,
+      "p25_s": 194.421,
+      "p75_s": 279.563,
+      "share_long": 0.1445020149683362,
+      "share_short": 0.37535981577432354,
+      "share_extended_tag": 0.008635578583765112,
+      "share_radio_tag": 0.015544041450777202,
+      "share_remix_tag": 0.2003454231433506
+    },
+    {
+      "panel_query": "dance",
+      "era": "2020-26",
+      "n": 2514,
+      "median_s": 204.24349999999998,
+      "p25_s": 171.79125,
+      "p75_s": 250.68525,
+      "share_long": 0.08671439936356404,
+      "share_short": 0.5437549721559268,
+      "share_extended_tag": 0.01988862370723946,
+      "share_radio_tag": 0.005568814638027049,
+      "share_remix_tag": 0.14836913285600636
+    },
+    {
+      "panel_query": "dance",
+      "era": "pre-1990",
+      "n": 1,
+      "median_s": 271.467,
+      "p25_s": 271.467,
+      "p75_s": 271.467,
+      "share_long": 0.0,
+      "share_short": 0.0,
+      "share_extended_tag": 0.0,
+      "share_radio_tag": 0.0,
+      "share_remix_tag": 0.0
+    },
+    {
+      "panel_query": "hiphop",
+      "era": "1990s",
+      "n": 55,
+      "median_s": 254.293,
+      "p25_s": 236.0045,
+      "p75_s": 285.463,
+      "share_long": 0.01818181818181818,
+      "share_short": 0.18181818181818182,
+      "share_extended_tag": 0.0,
+      "share_radio_tag": 0.01818181818181818,
+      "share_remix_tag": 0.01818181818181818
+    },
+    {
+      "panel_query": "hiphop",
+      "era": "2000-04",
+      "n": 174,
+      "median_s": 255.6335,
+      "p25_s": 223.21675,
+      "p75_s": 290.84675,
+      "share_long": 0.04597701149425287,
+      "share_short": 0.1724137931034483,
+      "share_extended_tag": 0.0,
+      "share_radio_tag": 0.022988505747126436,
+      "share_remix_tag": 0.040229885057471264
+    },
+    {
+      "panel_query": "hiphop",
+      "era": "2005-09",
+      "n": 221,
+      "median_s": 239.58,
+      "p25_s": 210.6,
+      "p75_s": 262.933,
+      "share_long": 0.04524886877828054,
+      "share_short": 0.23529411764705882,
+      "share_extended_tag": 0.0,
+      "share_radio_tag": 0.00904977375565611,
+      "share_remix_tag": 0.09502262443438914
+    },
+    {
+      "panel_query": "hiphop",
+      "era": "2010-14",
+      "n": 343,
+      "median_s": 241.613,
+      "p25_s": 213.22,
+      "p75_s": 281.047,
+      "share_long": 0.09329446064139942,
+      "share_short": 0.21865889212827988,
+      "share_extended_tag": 0.008746355685131196,
+      "share_radio_tag": 0.0029154518950437317,
+      "share_remix_tag": 0.061224489795918366
+    },
+    {
+      "panel_query": "hiphop",
+      "era": "2015-19",
+      "n": 602,
+      "median_s": 226.365,
+      "p25_s": 195.13825,
+      "p75_s": 263.19100000000003,
+      "share_long": 0.061461794019933555,
+      "share_short": 0.35714285714285715,
+      "share_extended_tag": 0.0,
+      "share_radio_tag": 0.0,
+      "share_remix_tag": 0.06478405315614617
+    },
+    {
+      "panel_query": "hiphop",
+      "era": "2020-26",
+      "n": 543,
+      "median_s": 198.822,
+      "p25_s": 161.7425,
+      "p75_s": 237.5395,
+      "share_long": 0.049723756906077346,
+      "share_short": 0.5985267034990792,
+      "share_extended_tag": 0.007366482504604052,
+      "share_radio_tag": 0.001841620626151013,
+      "share_remix_tag": 0.034990791896869246
+    },
+    {
+      "panel_query": "pop",
+      "era": "1990s",
+      "n": 55,
+      "median_s": 278.136,
+      "p25_s": 228.39999999999998,
+      "p75_s": 316.9465,
+      "share_long": 0.10909090909090909,
+      "share_short": 0.10909090909090909,
+      "share_extended_tag": 0.0,
+      "share_radio_tag": 0.03636363636363636,
+      "share_remix_tag": 0.01818181818181818
+    },
+    {
+      "panel_query": "pop",
+      "era": "2000-04",
+      "n": 76,
+      "median_s": 213.1465,
+      "p25_s": 203.226,
+      "p75_s": 230.31025,
+      "share_long": 0.0,
+      "share_short": 0.4473684210526316,
+      "share_extended_tag": 0.0,
+      "share_radio_tag": 0.0,
+      "share_remix_tag": 0.05263157894736842
+    },
+    {
+      "panel_query": "pop",
+      "era": "2005-09",
+      "n": 197,
+      "median_s": 229.219,
+      "p25_s": 202.373,
+      "p75_s": 251.84,
+      "share_long": 0.03553299492385787,
+      "share_short": 0.2893401015228426,
+      "share_extended_tag": 0.01015228426395939,
+      "share_radio_tag": 0.01015228426395939,
+      "share_remix_tag": 0.04060913705583756
+    },
+    {
+      "panel_query": "pop",
+      "era": "2010-14",
+      "n": 478,
+      "median_s": 231.0,
+      "p25_s": 214.24,
+      "p75_s": 254.018,
+      "share_long": 0.0502092050209205,
+      "share_short": 0.200836820083682,
+      "share_extended_tag": 0.0041841004184100415,
+      "share_radio_tag": 0.0041841004184100415,
+      "share_remix_tag": 0.02301255230125523
+    },
+    {
+      "panel_query": "pop",
+      "era": "2015-19",
+      "n": 521,
+      "median_s": 208.128,
+      "p25_s": 187.958,
+      "p75_s": 232.251,
+      "share_long": 0.015355086372360844,
+      "share_short": 0.525911708253359,
+      "share_extended_tag": 0.005758157389635317,
+      "share_radio_tag": 0.0019193857965451055,
+      "share_remix_tag": 0.0710172744721689
+    },
+    {
+      "panel_query": "pop",
+      "era": "2020-26",
+      "n": 871,
+      "median_s": 202.246,
+      "p25_s": 176.453,
+      "p75_s": 230.747,
+      "share_long": 0.030998851894374284,
+      "share_short": 0.5763490241102182,
+      "share_extended_tag": 0.009184845005740528,
+      "share_radio_tag": 0.001148105625717566,
+      "share_remix_tag": 0.06659012629161883
+    },
+    {
+      "panel_query": "pop",
+      "era": "pre-1990",
+      "n": 32,
+      "median_s": 255.45999999999998,
+      "p25_s": 232.2535,
+      "p75_s": 299.94325,
+      "share_long": 0.1875,
+      "share_short": 0.0625,
+      "share_extended_tag": 0.0,
+      "share_radio_tag": 0.0,
+      "share_remix_tag": 0.03125
+    },
+    {
+      "panel_query": "rock",
+      "era": "1990s",
+      "n": 374,
+      "median_s": 235.0465,
+      "p25_s": 182.259,
+      "p75_s": 276.201,
+      "share_long": 0.05614973262032086,
+      "share_short": 0.3342245989304813,
+      "share_extended_tag": 0.0,
+      "share_radio_tag": 0.0053475935828877,
+      "share_remix_tag": 0.0
+    },
+    {
+      "panel_query": "rock",
+      "era": "2000-04",
+      "n": 385,
+      "median_s": 217.0,
+      "p25_s": 189.771,
+      "p75_s": 265.56,
+      "share_long": 0.05194805194805195,
+      "share_short": 0.43376623376623374,
+      "share_extended_tag": 0.0,
+      "share_radio_tag": 0.0,
+      "share_remix_tag": 0.01038961038961039
+    },
+    {
+      "panel_query": "rock",
+      "era": "2005-09",
+      "n": 402,
+      "median_s": 235.065,
+      "p25_s": 199.3655,
+      "p75_s": 276.507,
+      "share_long": 0.08208955223880597,
+      "share_short": 0.35323383084577115,
+      "share_extended_tag": 0.0,
+      "share_radio_tag": 0.0,
+      "share_remix_tag": 0.0024875621890547263
+    },
+    {
+      "panel_query": "rock",
+      "era": "2010-14",
+      "n": 337,
+      "median_s": 231.685,
+      "p25_s": 201.893,
+      "p75_s": 271.53,
+      "share_long": 0.06824925816023739,
+      "share_short": 0.35014836795252224,
+      "share_extended_tag": 0.0,
+      "share_radio_tag": 0.0,
+      "share_remix_tag": 0.01483679525222552
+    },
+    {
+      "panel_query": "rock",
+      "era": "2015-19",
+      "n": 277,
+      "median_s": 230.0,
+      "p25_s": 197.834,
+      "p75_s": 266.644,
+      "share_long": 0.07942238267148015,
+      "share_short": 0.3249097472924188,
+      "share_extended_tag": 0.0,
+      "share_radio_tag": 0.018050541516245487,
+      "share_remix_tag": 0.032490974729241874
+    },
+    {
+      "panel_query": "rock",
+      "era": "2020-26",
+      "n": 493,
+      "median_s": 219.293,
+      "p25_s": 183.584,
+      "p75_s": 257.532,
+      "share_long": 0.04259634888438134,
+      "share_short": 0.4340770791075051,
+      "share_extended_tag": 0.002028397565922921,
+      "share_radio_tag": 0.002028397565922921,
+      "share_remix_tag": 0.006085192697768763
+    },
+    {
+      "panel_query": "rock",
+      "era": "pre-1990",
+      "n": 72,
+      "median_s": 268.2845,
+      "p25_s": 202.794,
+      "p75_s": 298.21549999999996,
+      "share_long": 0.1388888888888889,
+      "share_short": 0.2638888888888889,
+      "share_extended_tag": 0.0,
+      "share_radio_tag": 0.0,
+      "share_remix_tag": 0.0
+    }
+  ],
+  "stems_by_era": [
+    {
+      "panel": "dance",
+      "era": "1990s",
+      "n_stems": 220,
+      "share_multi": 0.33636363636363636,
+      "share_true_versioned": 0.2,
+      "share_radio_club_pair": 0.06818181818181818,
+      "median_spread_s": 89.20700000000001
+    },
+    {
+      "panel": "dance",
+      "era": "2000-04",
+      "n_stems": 243,
+      "share_multi": 0.25102880658436216,
+      "share_true_versioned": 0.17695473251028807,
+      "share_radio_club_pair": 0.0823045267489712,
+      "median_spread_s": 138.86699999999996
+    },
+    {
+      "panel": "dance",
+      "era": "2005-09",
+      "n_stems": 295,
+      "share_multi": 0.21016949152542372,
+      "share_true_versioned": 0.14915254237288136,
+      "share_radio_club_pair": 0.0711864406779661,
+      "median_spread_s": 116.3
+    },
+    {
+      "panel": "dance",
+      "era": "2010-14",
+      "n_stems": 733,
+      "share_multi": 0.32332878581173263,
+      "share_true_versioned": 0.17053206002728513,
+      "share_radio_club_pair": 0.0723055934515689,
+      "median_spread_s": 62.74799999999999
+    },
+    {
+      "panel": "dance",
+      "era": "2015-19",
+      "n_stems": 1042,
+      "share_multi": 0.23224568138195778,
+      "share_true_versioned": 0.10460652591170826,
+      "share_radio_club_pair": 0.019193857965451054,
+      "median_spread_s": 51.194500000000005
+    },
+    {
+      "panel": "dance",
+      "era": "2020-26",
+      "n_stems": 1535,
+      "share_multi": 0.1504885993485342,
+      "share_true_versioned": 0.06775244299674267,
+      "share_radio_club_pair": 0.019543973941368076,
+      "median_spread_s": 52.60299999999998
+    },
+    {
+      "panel": "dance",
+      "era": "pre-1990",
+      "n_stems": 1,
+      "share_multi": 0.0,
+      "share_true_versioned": 0.0,
+      "share_radio_club_pair": 0.0,
+      "median_spread_s": NaN
+    },
+    {
+      "panel": "hiphop",
+      "era": "1990s",
+      "n_stems": 43,
+      "share_multi": 0.20930232558139536,
+      "share_true_versioned": 0.0,
+      "share_radio_club_pair": 0.0,
+      "median_spread_s": 2.026999999999987
+    },
+    {
+      "panel": "hiphop",
+      "era": "2000-04",
+      "n_stems": 137,
+      "share_multi": 0.1897810218978102,
+      "share_true_versioned": 0.014598540145985401,
+      "share_radio_club_pair": 0.0,
+      "median_spread_s": 0.6799999999999784
+    },
+    {
+      "panel": "hiphop",
+      "era": "2005-09",
+      "n_stems": 145,
+      "share_multi": 0.19310344827586207,
+      "share_true_versioned": 0.034482758620689655,
+      "share_radio_club_pair": 0.0,
+      "median_spread_s": 2.394500000000008
+    },
+    {
+      "panel": "hiphop",
+      "era": "2010-14",
+      "n_stems": 254,
+      "share_multi": 0.0984251968503937,
+      "share_true_versioned": 0.011811023622047244,
+      "share_radio_club_pair": 0.0,
+      "median_spread_s": 3.002999999999986
+    },
+    {
+      "panel": "hiphop",
+      "era": "2015-19",
+      "n_stems": 498,
+      "share_multi": 0.05823293172690763,
+      "share_true_versioned": 0.004016064257028112,
+      "share_radio_club_pair": 0.0,
+      "median_spread_s": 2.9639999999999986
+    },
+    {
+      "panel": "hiphop",
+      "era": "2020-26",
+      "n_stems": 395,
+      "share_multi": 0.05569620253164557,
+      "share_true_versioned": 0.005063291139240506,
+      "share_radio_club_pair": 0.0,
+      "median_spread_s": 6.202500000000001
+    },
+    {
+      "panel": "pop",
+      "era": "1990s",
+      "n_stems": 44,
+      "share_multi": 0.11363636363636363,
+      "share_true_versioned": 0.022727272727272728,
+      "share_radio_club_pair": 0.022727272727272728,
+      "median_spread_s": 9.408999999999992
+    },
+    {
+      "panel": "pop",
+      "era": "2000-04",
+      "n_stems": 50,
+      "share_multi": 0.26,
+      "share_true_versioned": 0.04,
+      "share_radio_club_pair": 0.0,
+      "median_spread_s": 4.47999999999999
+    },
+    {
+      "panel": "pop",
+      "era": "2005-09",
+      "n_stems": 137,
+      "share_multi": 0.15328467153284672,
+      "share_true_versioned": 0.014598540145985401,
+      "share_radio_club_pair": 0.0,
+      "median_spread_s": 12.159999999999997
+    },
+    {
+      "panel": "pop",
+      "era": "2010-14",
+      "n_stems": 293,
+      "share_multi": 0.16382252559726962,
+      "share_true_versioned": 0.023890784982935155,
+      "share_radio_club_pair": 0.0034129692832764505,
+      "median_spread_s": 1.2164999999999964
+    },
+    {
+      "panel": "pop",
+      "era": "2015-19",
+      "n_stems": 346,
+      "share_multi": 0.1329479768786127,
+      "share_true_versioned": 0.011560693641618497,
+      "share_radio_club_pair": 0.0,
+      "median_spread_s": 18.33250000000001
+    },
+    {
+      "panel": "pop",
+      "era": "2020-26",
+      "n_stems": 545,
+      "share_multi": 0.10458715596330276,
+      "share_true_versioned": 0.027522935779816515,
+      "share_radio_club_pair": 0.005504587155963303,
+      "median_spread_s": 30.486999999999995
+    },
+    {
+      "panel": "pop",
+      "era": "pre-1990",
+      "n_stems": 15,
+      "share_multi": 0.6,
+      "share_true_versioned": 0.26666666666666666,
+      "share_radio_club_pair": 0.06666666666666667,
+      "median_spread_s": 33.14699999999999
+    },
+    {
+      "panel": "rock",
+      "era": "1990s",
+      "n_stems": 228,
+      "share_multi": 0.2982456140350877,
+      "share_true_versioned": 0.008771929824561403,
+      "share_radio_club_pair": 0.0,
+      "median_spread_s": 1.4380000000000024
+    },
+    {
+      "panel": "rock",
+      "era": "2000-04",
+      "n_stems": 219,
+      "share_multi": 0.2374429223744292,
+      "share_true_versioned": 0.0365296803652968,
+      "share_radio_club_pair": 0.0045662100456621,
+      "median_spread_s": 1.6895000000000095
+    },
+    {
+      "panel": "rock",
+      "era": "2005-09",
+      "n_stems": 274,
+      "share_multi": 0.19343065693430658,
+      "share_true_versioned": 0.014598540145985401,
+      "share_radio_club_pair": 0.0036496350364963502,
+      "median_spread_s": 3.5430000000000064
+    },
+    {
+      "panel": "rock",
+      "era": "2010-14",
+      "n_stems": 236,
+      "share_multi": 0.11440677966101695,
+      "share_true_versioned": 0.01694915254237288,
+      "share_radio_club_pair": 0.00423728813559322,
+      "median_spread_s": 13.893
+    },
+    {
+      "panel": "rock",
+      "era": "2015-19",
+      "n_stems": 230,
+      "share_multi": 0.08260869565217391,
+      "share_true_versioned": 0.008695652173913044,
+      "share_radio_club_pair": 0.0,
+      "median_spread_s": 19.17199999999997
+    },
+    {
+      "panel": "rock",
+      "era": "2020-26",
+      "n_stems": 334,
+      "share_multi": 0.0658682634730539,
+      "share_true_versioned": 0.014970059880239521,
+      "share_radio_club_pair": 0.0,
+      "median_spread_s": 19.718500000000006
+    },
+    {
+      "panel": "rock",
+      "era": "pre-1990",
+      "n_stems": 39,
+      "share_multi": 0.358974358974359,
+      "share_true_versioned": 0.10256410256410256,
+      "share_radio_club_pair": 0.0,
+      "median_spread_s": 2.921500000000009
+    }
+  ],
+  "dance_hist": [
+    {
+      "era": "1990s",
+      "bin": "2:00-3:00",
+      "share": 0.028645833333333332,
+      "n": 384
+    },
+    {
+      "era": "1990s",
+      "bin": "3:00-3:45",
+      "share": 0.14322916666666666,
+      "n": 384
+    },
+    {
+      "era": "1990s",
+      "bin": "3:45-4:30",
+      "share": 0.19270833333333334,
+      "n": 384
+    },
+    {
+      "era": "1990s",
+      "bin": "4:30-5:30",
+      "share": 0.24479166666666666,
+      "n": 384
+    },
+    {
+      "era": "1990s",
+      "bin": "5:30-7:00",
+      "share": 0.2265625,
+      "n": 384
+    },
+    {
+      "era": "1990s",
+      "bin": "7:00-10:00",
+      "share": 0.1328125,
+      "n": 384
+    },
+    {
+      "era": "2000-04",
+      "bin": "2:00-3:00",
+      "share": 0.03787878787878788,
+      "n": 396
+    },
+    {
+      "era": "2000-04",
+      "bin": "3:00-3:45",
+      "share": 0.18181818181818182,
+      "n": 396
+    },
+    {
+      "era": "2000-04",
+      "bin": "3:45-4:30",
+      "share": 0.22474747474747475,
+      "n": 396
+    },
+    {
+      "era": "2000-04",
+      "bin": "4:30-5:30",
+      "share": 0.20959595959595959,
+      "n": 396
+    },
+    {
+      "era": "2000-04",
+      "bin": "5:30-7:00",
+      "share": 0.21464646464646464,
+      "n": 396
+    },
+    {
+      "era": "2000-04",
+      "bin": "7:00-10:00",
+      "share": 0.09848484848484848,
+      "n": 396
+    },
+    {
+      "era": "2005-09",
+      "bin": "2:00-3:00",
+      "share": 0.05165289256198347,
+      "n": 484
+    },
+    {
+      "era": "2005-09",
+      "bin": "3:00-3:45",
+      "share": 0.21074380165289255,
+      "n": 484
+    },
+    {
+      "era": "2005-09",
+      "bin": "3:45-4:30",
+      "share": 0.17148760330578514,
+      "n": 484
+    },
+    {
+      "era": "2005-09",
+      "bin": "4:30-5:30",
+      "share": 0.20041322314049587,
+      "n": 484
+    },
+    {
+      "era": "2005-09",
+      "bin": "5:30-7:00",
+      "share": 0.2190082644628099,
+      "n": 484
+    },
+    {
+      "era": "2005-09",
+      "bin": "7:00-10:00",
+      "share": 0.10950413223140495,
+      "n": 484
+    },
+    {
+      "era": "2010-14",
+      "bin": "2:00-3:00",
+      "share": 0.09191430545957152,
+      "n": 1447
+    },
+    {
+      "era": "2010-14",
+      "bin": "3:00-3:45",
+      "share": 0.20801658604008294,
+      "n": 1447
+    },
+    {
+      "era": "2010-14",
+      "bin": "3:45-4:30",
+      "share": 0.22183828610919143,
+      "n": 1447
+    },
+    {
+      "era": "2010-14",
+      "bin": "4:30-5:30",
+      "share": 0.17208016586040084,
+      "n": 1447
+    },
+    {
+      "era": "2010-14",
+      "bin": "5:30-7:00",
+      "share": 0.20801658604008294,
+      "n": 1447
+    },
+    {
+      "era": "2010-14",
+      "bin": "7:00-10:00",
+      "share": 0.0663441603317208,
+      "n": 1447
+    },
+    {
+      "era": "2015-19",
+      "bin": "2:00-3:00",
+      "share": 0.12147380541162925,
+      "n": 1737
+    },
+    {
+      "era": "2015-19",
+      "bin": "3:00-3:45",
+      "share": 0.32872769142199193,
+      "n": 1737
+    },
+    {
+      "era": "2015-19",
+      "bin": "3:45-4:30",
+      "share": 0.23719055843408174,
+      "n": 1737
+    },
+    {
+      "era": "2015-19",
+      "bin": "4:30-5:30",
+      "share": 0.13759355210132412,
+      "n": 1737
+    },
+    {
+      "era": "2015-19",
+      "bin": "5:30-7:00",
+      "share": 0.09326424870466321,
+      "n": 1737
+    },
+    {
+      "era": "2015-19",
+      "bin": "7:00-10:00",
+      "share": 0.03914795624640184,
+      "n": 1737
+    },
+    {
+      "era": "2020-26",
+      "bin": "2:00-3:00",
+      "share": 0.25019888623707237,
+      "n": 2514
+    },
+    {
+      "era": "2020-26",
+      "bin": "3:00-3:45",
+      "share": 0.3353221957040573,
+      "n": 2514
+    },
+    {
+      "era": "2020-26",
+      "bin": "3:45-4:30",
+      "share": 0.17462211614956244,
+      "n": 2514
+    },
+    {
+      "era": "2020-26",
+      "bin": "4:30-5:30",
+      "share": 0.09944311853619729,
+      "n": 2514
+    },
+    {
+      "era": "2020-26",
+      "bin": "5:30-7:00",
+      "share": 0.06443914081145585,
+      "n": 2514
+    },
+    {
+      "era": "2020-26",
+      "bin": "7:00-10:00",
+      "share": 0.01988862370723946,
+      "n": 2514
+    }
+  ]
+}

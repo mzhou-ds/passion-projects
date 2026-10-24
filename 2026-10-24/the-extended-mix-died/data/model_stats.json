@@ -1,0 +1,113 @@
+{
+  "models": {
+    "audio_era": {
+      "n": 220,
+      "auc_heldout": 0.617,
+      "shap": [
+        {
+          "feature": "rms_first3_share",
+          "mean_abs_shap": 0.8469132781028748
+        },
+        {
+          "feature": "seconds",
+          "mean_abs_shap": 0.6653404831886292
+        },
+        {
+          "feature": "cent_last5",
+          "mean_abs_shap": 0.574472188949585
+        },
+        {
+          "feature": "rms_cv_10",
+          "mean_abs_shap": 0.46965882182121277
+        },
+        {
+          "feature": "lf_share_mean",
+          "mean_abs_shap": 0.32032376527786255
+        },
+        {
+          "feature": "rms_slope_15",
+          "mean_abs_shap": 0.3099925220012665
+        },
+        {
+          "feature": "cent_rise",
+          "mean_abs_shap": 0.295266330242157
+        },
+        {
+          "feature": "cent_first3",
+          "mean_abs_shap": 0.18356174230575562
+        },
+        {
+          "feature": "cent_mean",
+          "mean_abs_shap": 0.12314537167549133
+        },
+        {
+          "feature": "dark_share_30",
+          "mean_abs_shap": 0.08828973025083542
+        },
+        {
+          "feature": "dark_share_10",
+          "mean_abs_shap": 0.00968523696064949
+        }
+      ]
+    },
+    "long_cut": {
+      "n": 13471,
+      "base_rate_long": 0.1231,
+      "auc_heldout": 0.815,
+      "shap": [
+        {
+          "feature": "spread_s",
+          "mean_abs_shap": 0.5530173182487488
+        },
+        {
+          "feature": "panel_query_dance",
+          "mean_abs_shap": 0.5260961055755615
+        },
+        {
+          "feature": "year",
+          "mean_abs_shap": 0.4751536250114441
+        },
+        {
+          "feature": "n_versions",
+          "mean_abs_shap": 0.4318813979625702
+        },
+        {
+          "feature": "is_remix_tag",
+          "mean_abs_shap": 0.12923914194107056
+        },
+        {
+          "feature": "panel_query_pop",
+          "mean_abs_shap": 0.11673484742641449
+        },
+        {
+          "feature": "collection_is_remix_pkg",
+          "mean_abs_shap": 0.08008098602294922
+        },
+        {
+          "feature": "is_radio_tag",
+          "mean_abs_shap": 0.07947323471307755
+        },
+        {
+          "feature": "is_extended_tag",
+          "mean_abs_shap": 0.042590100318193436
+        },
+        {
+          "feature": "panel_query_hiphop",
+          "mean_abs_shap": 0.028507638722658157
+        },
+        {
+          "feature": "panel_query_rock",
+          "mean_abs_shap": 0.020767197012901306
+        },
+        {
+          "feature": "is_club_tag",
+          "mean_abs_shap": 0.01870022714138031
+        },
+        {
+          "feature": "multi",
+          "mean_abs_shap": 0.006841502618044615
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,422 @@
+[
+  {
+    "panel": "dance",
+    "artist_query": "The Prodigy",
+    "file": "dance__the_prodigy.json",
+    "n": 198
+  },
+  {
+    "panel": "dance",
+    "artist_query": "Fatboy Slim",
+    "file": "dance__fatboy_slim.json",
+    "n": 200
+  },
+  {
+    "panel": "dance",
+    "artist_query": "The Chemical Brothers",
+    "file": "dance__the_chemical_brothers.json",
+    "n": 200
+  },
+  {
+    "panel": "dance",
+    "artist_query": "Daft Punk",
+    "file": "dance__daft_punk.json",
+    "n": 200
+  },
+  {
+    "panel": "dance",
+    "artist_query": "Underworld",
+    "file": "dance__underworld.json",
+    "n": 198
+  },
+  {
+    "panel": "dance",
+    "artist_query": "Basement Jaxx",
+    "file": "dance__basement_jaxx.json",
+    "n": 196
+  },
+  {
+    "panel": "dance",
+    "artist_query": "Groove Armada",
+    "file": "dance__groove_armada.json",
+    "n": 199
+  },
+  {
+    "panel": "dance",
+    "artist_query": "Moby",
+    "file": "dance__moby.json",
+    "n": 199
+  },
+  {
+    "panel": "dance",
+    "artist_query": "Paul Oakenfold",
+    "file": "dance__paul_oakenfold.json",
+    "n": 200
+  },
+  {
+    "panel": "dance",
+    "artist_query": "Ti\u00ebsto",
+    "file": "dance__tiesto.json",
+    "n": 196
+  },
+  {
+    "panel": "dance",
+    "artist_query": "Armin van Buuren",
+    "file": "dance__armin_van_buuren.json",
+    "n": 189
+  },
+  {
+    "panel": "dance",
+    "artist_query": "Paul van Dyk",
+    "file": "dance__paul_van_dyk.json",
+    "n": 199
+  },
+  {
+    "panel": "dance",
+    "artist_query": "Above & Beyond",
+    "file": "dance__above_and_beyond.json",
+    "n": 200
+  },
+  {
+    "panel": "dance",
+    "artist_query": "deadmau5",
+    "file": "dance__deadmau5.json",
+    "n": 199
+  },
+  {
+    "panel": "dance",
+    "artist_query": "Calvin Harris",
+    "file": "dance__calvin_harris.json",
+    "n": 200
+  },
+  {
+    "panel": "dance",
+    "artist_query": "Avicii",
+    "file": "dance__avicii.json",
+    "n": 199
+  },
+  {
+    "panel": "dance",
+    "artist_query": "Swedish House Mafia",
+    "file": "dance__swedish_house_mafia.json",
+    "n": 182
+  },
+  {
+    "panel": "dance",
+    "artist_query": "Skrillex",
+    "file": "dance__skrillex.json",
+    "n": 200
+  },
+  {
+    "panel": "dance",
+    "artist_query": "Diplo",
+    "file": "dance__diplo.json",
+    "n": 200
+  },
+  {
+    "panel": "dance",
+    "artist_query": "Disclosure",
+    "file": "dance__disclosure.json",
+    "n": 200
+  },
+  {
+    "panel": "dance",
+    "artist_query": "Flume",
+    "file": "dance__flume.json",
+    "n": 200
+  },
+  {
+    "panel": "dance",
+    "artist_query": "Martin Garrix",
+    "file": "dance__martin_garrix.json",
+    "n": 198
+  },
+  {
+    "panel": "dance",
+    "artist_query": "Zedd",
+    "file": "dance__zedd.json",
+    "n": 197
+  },
+  {
+    "panel": "dance",
+    "artist_query": "Marshmello",
+    "file": "dance__marshmello.json",
+    "n": 200
+  },
+  {
+    "panel": "dance",
+    "artist_query": "Illenium",
+    "file": "dance__illenium.json",
+    "n": 200
+  },
+  {
+    "panel": "dance",
+    "artist_query": "ODESZA",
+    "file": "dance__odesza.json",
+    "n": 200
+  },
+  {
+    "panel": "dance",
+    "artist_query": "Fred again..",
+    "file": "dance__fred_again.json",
+    "n": 187
+  },
+  {
+    "panel": "dance",
+    "artist_query": "Peggy Gou",
+    "file": "dance__peggy_gou.json",
+    "n": 170
+  },
+  {
+    "panel": "dance",
+    "artist_query": "Dom Dolla",
+    "file": "dance__dom_dolla.json",
+    "n": 163
+  },
+  {
+    "panel": "dance",
+    "artist_query": "FISHER",
+    "file": "dance__fisher.json",
+    "n": 199
+  },
+  {
+    "panel": "dance",
+    "artist_query": "John Summit",
+    "file": "dance__john_summit.json",
+    "n": 195
+  },
+  {
+    "panel": "dance",
+    "artist_query": "Four Tet",
+    "file": "dance__four_tet.json",
+    "n": 199
+  },
+  {
+    "panel": "dance",
+    "artist_query": "Bicep",
+    "file": "dance__bicep.json",
+    "n": 199
+  },
+  {
+    "panel": "dance",
+    "artist_query": "Jamie xx",
+    "file": "dance__jamie_xx.json",
+    "n": 197
+  },
+  {
+    "panel": "dance",
+    "artist_query": "KAYTRANADA",
+    "file": "dance__kaytranada.json",
+    "n": 198
+  },
+  {
+    "panel": "dance",
+    "artist_query": "David Guetta",
+    "file": "dance__david_guetta.json",
+    "n": 200
+  },
+  {
+    "panel": "pop",
+    "artist_query": "Madonna",
+    "file": "pop__madonna.json",
+    "n": 200
+  },
+  {
+    "panel": "pop",
+    "artist_query": "Britney Spears",
+    "file": "pop__britney_spears.json",
+    "n": 199
+  },
+  {
+    "panel": "pop",
+    "artist_query": "Lady Gaga",
+    "file": "pop__lady_gaga.json",
+    "n": 198
+  },
+  {
+    "panel": "pop",
+    "artist_query": "Dua Lipa",
+    "file": "pop__dua_lipa.json",
+    "n": 199
+  },
+  {
+    "panel": "pop",
+    "artist_query": "Taylor Swift",
+    "file": "pop__taylor_swift.json",
+    "n": 200
+  },
+  {
+    "panel": "pop",
+    "artist_query": "Billie Eilish",
+    "file": "pop__billie_eilish.json",
+    "n": 186
+  },
+  {
+    "panel": "pop",
+    "artist_query": "The Weeknd",
+    "file": "pop__the_weeknd.json",
+    "n": 200
+  },
+  {
+    "panel": "pop",
+    "artist_query": "Ariana Grande",
+    "file": "pop__ariana_grande.json",
+    "n": 200
+  },
+  {
+    "panel": "pop",
+    "artist_query": "Justin Bieber",
+    "file": "pop__justin_bieber.json",
+    "n": 200
+  },
+  {
+    "panel": "pop",
+    "artist_query": "Rihanna",
+    "file": "pop__rihanna.json",
+    "n": 200
+  },
+  {
+    "panel": "pop",
+    "artist_query": "Katy Perry",
+    "file": "pop__katy_perry.json",
+    "n": 200
+  },
+  {
+    "panel": "pop",
+    "artist_query": "Ed Sheeran",
+    "file": "pop__ed_sheeran.json",
+    "n": 200
+  },
+  {
+    "panel": "hiphop",
+    "artist_query": "Jay-Z",
+    "file": "hiphop__jay-z.json",
+    "n": 200
+  },
+  {
+    "panel": "hiphop",
+    "artist_query": "Kanye West",
+    "file": "hiphop__kanye_west.json",
+    "n": 200
+  },
+  {
+    "panel": "hiphop",
+    "artist_query": "Drake",
+    "file": "hiphop__drake.json",
+    "n": 200
+  },
+  {
+    "panel": "hiphop",
+    "artist_query": "Kendrick Lamar",
+    "file": "hiphop__kendrick_lamar.json",
+    "n": 199
+  },
+  {
+    "panel": "hiphop",
+    "artist_query": "Eminem",
+    "file": "hiphop__eminem.json",
+    "n": 200
+  },
+  {
+    "panel": "hiphop",
+    "artist_query": "Nicki Minaj",
+    "file": "hiphop__nicki_minaj.json",
+    "n": 200
+  },
+  {
+    "panel": "hiphop",
+    "artist_query": "Travis Scott",
+    "file": "hiphop__travis_scott.json",
+    "n": 200
+  },
+  {
+    "panel": "hiphop",
+    "artist_query": "Cardi B",
+    "file": "hiphop__cardi_b.json",
+    "n": 200
+  },
+  {
+    "panel": "hiphop",
+    "artist_query": "50 Cent",
+    "file": "hiphop__50_cent.json",
+    "n": 200
+  },
+  {
+    "panel": "hiphop",
+    "artist_query": "Snoop Dogg",
+    "file": "hiphop__snoop_dogg.json",
+    "n": 200
+  },
+  {
+    "panel": "rock",
+    "artist_query": "Radiohead",
+    "file": "rock__radiohead.json",
+    "n": 199
+  },
+  {
+    "panel": "rock",
+    "artist_query": "The Strokes",
+    "file": "rock__the_strokes.json",
+    "n": 200
+  },
+  {
+    "panel": "rock",
+    "artist_query": "Arctic Monkeys",
+    "file": "rock__arctic_monkeys.json",
+    "n": 200
+  },
+  {
+    "panel": "rock",
+    "artist_query": "Coldplay",
+    "file": "rock__coldplay.json",
+    "n": 200
+  },
+  {
+    "panel": "rock",
+    "artist_query": "U2",
+    "file": "rock__u2.json",
+    "n": 200
+  },
+  {
+    "panel": "rock",
+    "artist_query": "Oasis",
+    "file": "rock__oasis.json",
+    "n": 200
+  },
+  {
+    "panel": "rock",
+    "artist_query": "Nirvana",
+    "file": "rock__nirvana.json",
+    "n": 199
+  },
+  {
+    "panel": "rock",
+    "artist_query": "Foo Fighters",
+    "file": "rock__foo_fighters.json",
+    "n": 200
+  },
+  {
+    "panel": "rock",
+    "artist_query": "Red Hot Chili Peppers",
+    "file": "rock__red_hot_chili_peppers.json",
+    "n": 200
+  },
+  {
+    "panel": "rock",
+    "artist_query": "The Killers",
+    "file": "rock__the_killers.json",
+    "n": 200
+  },
+  {
+    "panel": "rock",
+    "artist_query": "Green Day",
+    "file": "rock__green_day.json",
+    "n": 200
+  },
+  {
+    "panel": "rock",
+    "artist_query": "Linkin Park",
+    "file": "rock__linkin_park.json",
+    "n": 200
+  }
+]

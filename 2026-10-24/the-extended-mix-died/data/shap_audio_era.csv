@@ -1,0 +1,12 @@
+feature,mean_abs_shap
+rms_first3_share,0.8469133
+seconds,0.6653405
+cent_last5,0.5744722
+rms_cv_10,0.46965882
+lf_share_mean,0.32032377
+rms_slope_15,0.30999252
+cent_rise,0.29526633
+cent_first3,0.18356174
+cent_mean,0.12314537
+dark_share_30,0.08828973
+dark_share_10,0.009685237
