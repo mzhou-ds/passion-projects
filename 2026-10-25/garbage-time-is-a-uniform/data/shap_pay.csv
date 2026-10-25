@@ -1,0 +1,5 @@
+feature,mean_abs_shap
+xG/att,0.00997387
+coin-flip goals/att,0.005466441
+decided goals/att,0.0043417504
+middle goals/att,0.0033035874

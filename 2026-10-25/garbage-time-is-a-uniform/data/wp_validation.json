@@ -1,0 +1,7 @@
+{
+  "oos_seasons": "fit 2019-20..2022-23, scored 2023-24..2024-25",
+  "n_test_shots": 238999,
+  "brier_empirical_surface": 0.17290392128024926,
+  "brier_constant_baseline": 0.2500033774768102,
+  "note": "MoneyPuck's homeWinProbability column is empty in the public 2024-25 file; not used."
+}

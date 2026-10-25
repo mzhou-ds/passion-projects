@@ -1,0 +1,4 @@
+data/raw/
+data/shots_slim.parquet
+data/shots_leverage.parquet
+__pycache__/

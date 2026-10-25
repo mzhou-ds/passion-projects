@@ -1,0 +1,19 @@
+{
+  "model_a_uniform": {
+    "heldout_corr": 0.14489855432832172,
+    "target_mean": 0.25809122161361364,
+    "n": 803
+  },
+  "model_b_pay": {
+    "heldout_corr": 0.6841691914084691,
+    "target_mean": 0.08231024595858187,
+    "n": 524
+  },
+  "model_b_linear_betas": {
+    "const": 0.01728296249078563,
+    "decided_rate": 0.22749798444306732,
+    "mid_rate": 0.24452050904710768,
+    "clutch_rate": 0.4177327897356193,
+    "xg_rate": 0.5194001529445705
+  }
+}

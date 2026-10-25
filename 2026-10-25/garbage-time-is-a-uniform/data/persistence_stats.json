@@ -1,0 +1,17 @@
+{
+  "n_panel": 803,
+  "n_stay": 674,
+  "n_switch": 129,
+  "corr_own_share_next_stay": 0.04338344161168586,
+  "corr_own_share_next_switch": 0.08270397821146298,
+  "corr_own_share_next_all": 0.04859194345535125,
+  "corr_new_team_share_next_switch": 0.34096227631871695,
+  "corr_old_team_share_next_switch": 0.10430107351233639,
+  "corr_team_share_same_season": 0.3755299974958463,
+  "team_panel_n": 153,
+  "corr_raw_gd_next_win_share": 0.6188699894295393,
+  "corr_lev_gd_next_win_share": 0.6172397423593471,
+  "corr_win_share_next_win_share": 0.6506326057920611,
+  "corr_raw_gd_same_win_share": 0.9433487718010386,
+  "corr_lev_gd_same_win_share": 0.9556551020124319
+}

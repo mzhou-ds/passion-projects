@@ -1,0 +1,27 @@
+{
+  "regular_season_goals": 43774,
+  "decided_share_of_goals": 0.2540777630556952,
+  "decided_share_of_shots": 0.21332850240764495,
+  "decided_share_of_goals_no_empty_net": 0.21064339079764985,
+  "playoff_decided_share_of_goals": 0.24872026498042757,
+  "empty_net_goals": 2415,
+  "empty_net_share_of_all_goals": 0.05516973545940513,
+  "empty_net_mean_leverage": 0.056943976562989225,
+  "empty_net_share_of_decided_goals": 0.21668764610681532,
+  "mean_leverage_all_goals": 0.5361979488838339,
+  "conversion_decided": 0.0874216123681713,
+  "conversion_coinflip": 0.0665603585342495,
+  "conversion_decided_no_en": 0.06855239427288454,
+  "conversion_coinflip_no_en": 0.06655260747676586,
+  "ovechkin": {
+    "shooterPlayerId": 8471214.0,
+    "shooterName": "Alex Ovechkin",
+    "goals": 238,
+    "decided_goals": 89,
+    "leverage_goals": 107.1036996385993,
+    "empty_net_goals": 31,
+    "seasons": 6,
+    "decided_share": 0.3739495798319328,
+    "leverage_per_goal": 0.45001554469999705
+  }
+}
