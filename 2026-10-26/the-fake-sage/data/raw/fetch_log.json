@@ -1,0 +1,310 @@
+[
+ {
+  "name": "Laozi",
+  "wikiquote_page": "Laozi",
+  "wikipedia": "Laozi",
+  "tradition": "east",
+  "wikiquote_ok": true,
+  "pageviews": {
+   "2024": 4607902,
+   "2025": 2888437
+  }
+ },
+ {
+  "name": "Confucius",
+  "wikiquote_page": "Confucius",
+  "wikipedia": "Confucius",
+  "tradition": "east",
+  "wikiquote_ok": true,
+  "pageviews": {
+   "2024": 1634914,
+   "2025": 994428
+  }
+ },
+ {
+  "name": "Mencius",
+  "wikiquote_page": "Mencius",
+  "wikipedia": "Mencius",
+  "tradition": "east",
+  "wikiquote_ok": true,
+  "pageviews": {
+   "2024": 138217,
+   "2025": 112543
+  }
+ },
+ {
+  "name": "Zhuangzi",
+  "wikiquote_page": "Zhuangzi",
+  "wikipedia": "Zhuangzi",
+  "tradition": "east",
+  "wikiquote_ok": true,
+  "pageviews": {
+   "2024": 10215,
+   "2025": 8122
+  }
+ },
+ {
+  "name": "Buddha",
+  "wikiquote_page": "Gautama Buddha",
+  "wikipedia": "Buddha",
+  "tradition": "east",
+  "wikiquote_ok": true,
+  "pageviews": {
+   "2024": 124794,
+   "2025": 87412
+  }
+ },
+ {
+  "name": "Sun Tzu",
+  "wikiquote_page": "Sun Tzu",
+  "wikipedia": "Sun_Tzu",
+  "tradition": "east",
+  "wikiquote_ok": true,
+  "pageviews": {
+   "2024": 597927,
+   "2025": 414855
+  }
+ },
+ {
+  "name": "Rumi",
+  "wikiquote_page": "Rumi",
+  "wikipedia": "Rumi",
+  "tradition": "east",
+  "wikiquote_ok": true,
+  "pageviews": {
+   "2024": 1293306,
+   "2025": 812159
+  }
+ },
+ {
+  "name": "Khalil Gibran",
+  "wikiquote_page": "Kahlil Gibran",
+  "wikipedia": "Kahlil_Gibran",
+  "tradition": "east",
+  "wikiquote_ok": true,
+  "pageviews": {
+   "2024": 651987,
+   "2025": 390820
+  }
+ },
+ {
+  "name": "Alan Watts",
+  "wikiquote_page": "Alan Watts",
+  "wikipedia": "Alan_Watts",
+  "tradition": "bridge",
+  "wikiquote_ok": true,
+  "pageviews": {
+   "2024": 944313,
+   "2025": 629905
+  }
+ },
+ {
+  "name": "Socrates",
+  "wikiquote_page": "Socrates",
+  "wikipedia": "Socrates",
+  "tradition": "west",
+  "wikiquote_ok": true,
+  "pageviews": {
+   "2024": 1856855,
+   "2025": 1266809
+  }
+ },
+ {
+  "name": "Plato",
+  "wikiquote_page": "Plato",
+  "wikipedia": "Plato",
+  "tradition": "west",
+  "wikiquote_ok": true,
+  "pageviews": {
+   "2024": 1909768,
+   "2025": 1188079
+  }
+ },
+ {
+  "name": "Aristotle",
+  "wikiquote_page": "Aristotle",
+  "wikipedia": "Aristotle",
+  "tradition": "west",
+  "wikiquote_ok": true,
+  "pageviews": {
+   "2024": 2246348,
+   "2025": 1551094
+  }
+ },
+ {
+  "name": "Heraclitus",
+  "wikiquote_page": "Heraclitus",
+  "wikipedia": "Heraclitus",
+  "tradition": "west",
+  "wikiquote_ok": true,
+  "pageviews": {
+   "2024": 491284,
+   "2025": 392098
+  }
+ },
+ {
+  "name": "Epicurus",
+  "wikiquote_page": "Epicurus",
+  "wikipedia": "Epicurus",
+  "tradition": "west",
+  "wikiquote_ok": true,
+  "pageviews": {
+   "2024": 397289,
+   "2025": 276083
+  }
+ },
+ {
+  "name": "Marcus Aurelius",
+  "wikiquote_page": "Marcus Aurelius",
+  "wikipedia": "Marcus_Aurelius",
+  "tradition": "west",
+  "wikiquote_ok": true,
+  "pageviews": {
+   "2024": 3344701,
+   "2025": 2187939
+  }
+ },
+ {
+  "name": "Epictetus",
+  "wikiquote_page": "Epictetus",
+  "wikipedia": "Epictetus",
+  "tradition": "west",
+  "wikiquote_ok": true,
+  "pageviews": {
+   "2024": 393068,
+   "2025": 276109
+  }
+ },
+ {
+  "name": "Seneca",
+  "wikiquote_page": "Seneca the Younger",
+  "wikipedia": "Seneca_the_Younger",
+  "tradition": "west",
+  "wikiquote_ok": true,
+  "pageviews": {
+   "2024": 1011784,
+   "2025": 491735
+  }
+ },
+ {
+  "name": "Voltaire",
+  "wikiquote_page": "Voltaire",
+  "wikipedia": "Voltaire",
+  "tradition": "west",
+  "wikiquote_ok": true,
+  "pageviews": {
+   "2024": 1120143,
+   "2025": 800849
+  }
+ },
+ {
+  "name": "Jean-Jacques Rousseau",
+  "wikiquote_page": "Jean-Jacques Rousseau",
+  "wikipedia": "Jean-Jacques_Rousseau",
+  "tradition": "west",
+  "wikiquote_ok": true,
+  "pageviews": {
+   "2024": 959400,
+   "2025": 628131
+  }
+ },
+ {
+  "name": "Immanuel Kant",
+  "wikiquote_page": "Immanuel Kant",
+  "wikipedia": "Immanuel_Kant",
+  "tradition": "west",
+  "wikiquote_ok": true,
+  "pageviews": {
+   "2024": 1241782,
+   "2025": 923483
+  }
+ },
+ {
+  "name": "Arthur Schopenhauer",
+  "wikiquote_page": "Arthur Schopenhauer",
+  "wikipedia": "Arthur_Schopenhauer",
+  "tradition": "west",
+  "wikiquote_ok": true,
+  "pageviews": {
+   "2024": 754851,
+   "2025": 603346
+  }
+ },
+ {
+  "name": "Søren Kierkegaard",
+  "wikiquote_page": "Søren Kierkegaard",
+  "wikipedia": "Søren_Kierkegaard",
+  "tradition": "west",
+  "wikiquote_ok": true,
+  "pageviews": {
+   "2024": 754790,
+   "2025": 563554
+  }
+ },
+ {
+  "name": "Friedrich Nietzsche",
+  "wikiquote_page": "Friedrich Nietzsche",
+  "wikipedia": "Friedrich_Nietzsche",
+  "tradition": "west",
+  "wikiquote_ok": true,
+  "pageviews": {
+   "2024": 2225999,
+   "2025": 1606902
+  }
+ },
+ {
+  "name": "Ralph Waldo Emerson",
+  "wikiquote_page": "Ralph Waldo Emerson",
+  "wikipedia": "Ralph_Waldo_Emerson",
+  "tradition": "west",
+  "wikiquote_ok": true,
+  "pageviews": {
+   "2024": 1019923,
+   "2025": 572785
+  }
+ },
+ {
+  "name": "Henry David Thoreau",
+  "wikiquote_page": "Henry David Thoreau",
+  "wikipedia": "Henry_David_Thoreau",
+  "tradition": "west",
+  "wikiquote_ok": true,
+  "pageviews": {
+   "2024": 1024508,
+   "2025": 654624
+  }
+ },
+ {
+  "name": "William James",
+  "wikiquote_page": "William James",
+  "wikipedia": "William_James",
+  "tradition": "west",
+  "wikiquote_ok": true,
+  "pageviews": {
+   "2024": 453511,
+   "2025": 325820
+  }
+ },
+ {
+  "name": "John Stuart Mill",
+  "wikiquote_page": "John Stuart Mill",
+  "wikipedia": "John_Stuart_Mill",
+  "tradition": "west",
+  "wikiquote_ok": true,
+  "pageviews": {
+   "2024": 584858,
+   "2025": 396337
+  }
+ },
+ {
+  "name": "Bertrand Russell",
+  "wikiquote_page": "Bertrand Russell",
+  "wikipedia": "Bertrand_Russell",
+  "tradition": "west",
+  "wikiquote_ok": true,
+  "pageviews": {
+   "2024": 989885,
+   "2025": 725942
+  }
+ }
+]

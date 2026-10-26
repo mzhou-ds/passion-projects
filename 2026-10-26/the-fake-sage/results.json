@@ -1,0 +1,746 @@
+{
+ "n_quotes": 4253,
+ "n_thinkers": 28,
+ "status_totals": {
+  "sourced": 3653,
+  "unsourced": 453,
+  "misattributed": 107,
+  "disputed": 40
+ },
+ "pooled_fake_share_checked": 0.038684210526315786,
+ "pooled_unverified_share_all": 0.1410768869033623,
+ "per_thinker": [
+  {
+   "thinker": "Laozi",
+   "tradition": "east",
+   "sourced": 38,
+   "disputed": 2,
+   "misattributed": 7,
+   "unsourced": 0,
+   "total": 47,
+   "fake_share_checked": 0.19148936170212766,
+   "unverified_share_all": 0.19148936170212766,
+   "pageviews_2024": 4607902
+  },
+  {
+   "thinker": "Voltaire",
+   "tradition": "west",
+   "sourced": 115,
+   "disputed": 5,
+   "misattributed": 15,
+   "unsourced": 63,
+   "total": 198,
+   "fake_share_checked": 0.14814814814814814,
+   "unverified_share_all": 0.41919191919191917,
+   "pageviews_2024": 1120143
+  },
+  {
+   "thinker": "Sun Tzu",
+   "tradition": "east",
+   "sourced": 39,
+   "disputed": 3,
+   "misattributed": 3,
+   "unsourced": 0,
+   "total": 45,
+   "fake_share_checked": 0.13333333333333333,
+   "unverified_share_all": 0.13333333333333333,
+   "pageviews_2024": 597927
+  },
+  {
+   "thinker": "Buddha",
+   "tradition": "east",
+   "sourced": 54,
+   "disputed": 0,
+   "misattributed": 8,
+   "unsourced": 0,
+   "total": 62,
+   "fake_share_checked": 0.12903225806451613,
+   "unverified_share_all": 0.12903225806451613,
+   "pageviews_2024": 124794
+  },
+  {
+   "thinker": "Aristotle",
+   "tradition": "west",
+   "sourced": 103,
+   "disputed": 6,
+   "misattributed": 9,
+   "unsourced": 0,
+   "total": 118,
+   "fake_share_checked": 0.1271186440677966,
+   "unverified_share_all": 0.1271186440677966,
+   "pageviews_2024": 2246348
+  },
+  {
+   "thinker": "Heraclitus",
+   "tradition": "west",
+   "sourced": 39,
+   "disputed": 4,
+   "misattributed": 1,
+   "unsourced": 0,
+   "total": 44,
+   "fake_share_checked": 0.11363636363636363,
+   "unverified_share_all": 0.11363636363636363,
+   "pageviews_2024": 491284
+  },
+  {
+   "thinker": "Socrates",
+   "tradition": "west",
+   "sourced": 96,
+   "disputed": 0,
+   "misattributed": 12,
+   "unsourced": 3,
+   "total": 111,
+   "fake_share_checked": 0.1111111111111111,
+   "unverified_share_all": 0.13513513513513514,
+   "pageviews_2024": 1856855
+  },
+  {
+   "thinker": "Plato",
+   "tradition": "west",
+   "sourced": 26,
+   "disputed": 3,
+   "misattributed": 0,
+   "unsourced": 0,
+   "total": 29,
+   "fake_share_checked": 0.10344827586206896,
+   "unverified_share_all": 0.10344827586206896,
+   "pageviews_2024": 1909768
+  },
+  {
+   "thinker": "Friedrich Nietzsche",
+   "tradition": "west",
+   "sourced": 89,
+   "disputed": 2,
+   "misattributed": 5,
+   "unsourced": 0,
+   "total": 96,
+   "fake_share_checked": 0.07291666666666667,
+   "unverified_share_all": 0.07291666666666667,
+   "pageviews_2024": 2225999
+  },
+  {
+   "thinker": "Rumi",
+   "tradition": "east",
+   "sourced": 67,
+   "disputed": 0,
+   "misattributed": 5,
+   "unsourced": 370,
+   "total": 442,
+   "fake_share_checked": 0.06944444444444445,
+   "unverified_share_all": 0.8484162895927602,
+   "pageviews_2024": 1293306
+  },
+  {
+   "thinker": "Confucius",
+   "tradition": "east",
+   "sourced": 117,
+   "disputed": 0,
+   "misattributed": 7,
+   "unsourced": 0,
+   "total": 124,
+   "fake_share_checked": 0.056451612903225805,
+   "unverified_share_all": 0.056451612903225805,
+   "pageviews_2024": 1634914
+  },
+  {
+   "thinker": "Khalil Gibran",
+   "tradition": "east",
+   "sourced": 77,
+   "disputed": 0,
+   "misattributed": 3,
+   "unsourced": 0,
+   "total": 80,
+   "fake_share_checked": 0.0375,
+   "unverified_share_all": 0.0375,
+   "pageviews_2024": 651987
+  },
+  {
+   "thinker": "Epictetus",
+   "tradition": "west",
+   "sourced": 78,
+   "disputed": 0,
+   "misattributed": 3,
+   "unsourced": 0,
+   "total": 81,
+   "fake_share_checked": 0.037037037037037035,
+   "unverified_share_all": 0.037037037037037035,
+   "pageviews_2024": 393068
+  },
+  {
+   "thinker": "Epicurus",
+   "tradition": "west",
+   "sourced": 27,
+   "disputed": 1,
+   "misattributed": 0,
+   "unsourced": 0,
+   "total": 28,
+   "fake_share_checked": 0.03571428571428571,
+   "unverified_share_all": 0.03571428571428571,
+   "pageviews_2024": 397289
+  },
+  {
+   "thinker": "Henry David Thoreau",
+   "tradition": "west",
+   "sourced": 230,
+   "disputed": 1,
+   "misattributed": 7,
+   "unsourced": 0,
+   "total": 238,
+   "fake_share_checked": 0.03361344537815126,
+   "unverified_share_all": 0.03361344537815126,
+   "pageviews_2024": 1024508
+  },
+  {
+   "thinker": "Immanuel Kant",
+   "tradition": "west",
+   "sourced": 151,
+   "disputed": 1,
+   "misattributed": 4,
+   "unsourced": 0,
+   "total": 156,
+   "fake_share_checked": 0.03205128205128205,
+   "unverified_share_all": 0.03205128205128205,
+   "pageviews_2024": 1241782
+  },
+  {
+   "thinker": "Bertrand Russell",
+   "tradition": "west",
+   "sourced": 463,
+   "disputed": 8,
+   "misattributed": 5,
+   "unsourced": 0,
+   "total": 476,
+   "fake_share_checked": 0.0273109243697479,
+   "unverified_share_all": 0.0273109243697479,
+   "pageviews_2024": 989885
+  },
+  {
+   "thinker": "William James",
+   "tradition": "west",
+   "sourced": 177,
+   "disputed": 0,
+   "misattributed": 4,
+   "unsourced": 0,
+   "total": 181,
+   "fake_share_checked": 0.022099447513812154,
+   "unverified_share_all": 0.022099447513812154,
+   "pageviews_2024": 453511
+  },
+  {
+   "thinker": "Søren Kierkegaard",
+   "tradition": "west",
+   "sourced": 183,
+   "disputed": 1,
+   "misattributed": 2,
+   "unsourced": 0,
+   "total": 186,
+   "fake_share_checked": 0.016129032258064516,
+   "unverified_share_all": 0.016129032258064516,
+   "pageviews_2024": 754790
+  },
+  {
+   "thinker": "Marcus Aurelius",
+   "tradition": "west",
+   "sourced": 322,
+   "disputed": 1,
+   "misattributed": 4,
+   "unsourced": 0,
+   "total": 327,
+   "fake_share_checked": 0.01529051987767584,
+   "unverified_share_all": 0.01529051987767584,
+   "pageviews_2024": 3344701
+  },
+  {
+   "thinker": "John Stuart Mill",
+   "tradition": "west",
+   "sourced": 163,
+   "disputed": 1,
+   "misattributed": 1,
+   "unsourced": 0,
+   "total": 165,
+   "fake_share_checked": 0.012121212121212121,
+   "unverified_share_all": 0.012121212121212121,
+   "pageviews_2024": 584858
+  },
+  {
+   "thinker": "Seneca",
+   "tradition": "west",
+   "sourced": 266,
+   "disputed": 1,
+   "misattributed": 2,
+   "unsourced": 0,
+   "total": 269,
+   "fake_share_checked": 0.011152416356877323,
+   "unverified_share_all": 0.011152416356877323,
+   "pageviews_2024": 1011784
+  },
+  {
+   "thinker": "Alan Watts",
+   "tradition": "bridge",
+   "sourced": 89,
+   "disputed": 0,
+   "misattributed": 0,
+   "unsourced": 0,
+   "total": 89,
+   "fake_share_checked": 0.0,
+   "unverified_share_all": 0.0,
+   "pageviews_2024": 944313
+  },
+  {
+   "thinker": "Arthur Schopenhauer",
+   "tradition": "west",
+   "sourced": 179,
+   "disputed": 0,
+   "misattributed": 0,
+   "unsourced": 2,
+   "total": 181,
+   "fake_share_checked": 0.0,
+   "unverified_share_all": 0.011049723756906077,
+   "pageviews_2024": 754851
+  },
+  {
+   "thinker": "Ralph Waldo Emerson",
+   "tradition": "west",
+   "sourced": 377,
+   "disputed": 0,
+   "misattributed": 0,
+   "unsourced": 0,
+   "total": 377,
+   "fake_share_checked": 0.0,
+   "unverified_share_all": 0.0,
+   "pageviews_2024": 1019923
+  },
+  {
+   "thinker": "Mencius",
+   "tradition": "east",
+   "sourced": 14,
+   "disputed": 0,
+   "misattributed": 0,
+   "unsourced": 15,
+   "total": 29,
+   "fake_share_checked": 0.0,
+   "unverified_share_all": 0.5172413793103449,
+   "pageviews_2024": 138217
+  },
+  {
+   "thinker": "Jean-Jacques Rousseau",
+   "tradition": "west",
+   "sourced": 45,
+   "disputed": 0,
+   "misattributed": 0,
+   "unsourced": 0,
+   "total": 45,
+   "fake_share_checked": 0.0,
+   "unverified_share_all": 0.0,
+   "pageviews_2024": 959400
+  },
+  {
+   "thinker": "Zhuangzi",
+   "tradition": "east",
+   "sourced": 29,
+   "disputed": 0,
+   "misattributed": 0,
+   "unsourced": 0,
+   "total": 29,
+   "fake_share_checked": 0.0,
+   "unverified_share_all": 0.0,
+   "pageviews_2024": 10215
+  }
+ ],
+ "fame_vs_fake": {
+  "spearman_rho": 0.3244915890842104,
+  "p": 0.09204638831549368,
+  "n": 28
+ },
+ "fame_vs_unverified": {
+  "spearman_rho": 0.20471381235054995,
+  "p": 0.296034747962123,
+  "n": 28
+ },
+ "east_west": {
+  "east": {
+   "median_fake_share": 0.06294802867383513,
+   "mean_fake_share": 0.07715637630595593,
+   "median_unverified": 0.13118279569892471,
+   "n_thinkers": 8
+  },
+  "west": {
+   "median_fake_share": 0.03205128205128205,
+   "mean_fake_share": 0.048363095377384265,
+   "median_unverified": 0.03205128205128205,
+   "n_thinkers": 19
+  }
+ },
+ "east_west_fake_p": 0.22853857307134642,
+ "east_west_unverified_p": 0.02064896755162242,
+ "dialect": {
+  "words": {
+   "fake_mean": 20.20408163265306,
+   "sourced_mean": 56.39173282233781,
+   "fake_median": 15.0,
+   "sourced_median": 34.0,
+   "cohens_d": -0.5685655474312429,
+   "mannwhitney_p": 1.3746941372350833e-18
+  },
+  "second_person_per_k": {
+   "fake_mean": 25.704292373503176,
+   "sourced_mean": 9.915789362672285,
+   "fake_median": 0.0,
+   "sourced_median": 0.0,
+   "cohens_d": 0.5025280977749793,
+   "mannwhitney_p": 0.054831242815046345
+  },
+  "first_person_per_k": {
+   "fake_mean": 33.14535808214855,
+   "sourced_mean": 20.788131859651326,
+   "fake_median": 0.0,
+   "sourced_median": 0.0,
+   "cohens_d": 0.2908814033171374,
+   "mannwhitney_p": 0.025703808877872287
+  },
+  "therapy_per_k": {
+   "fake_mean": 23.551268542794247,
+   "sourced_mean": 9.961307381153986,
+   "fake_median": 0.0,
+   "sourced_median": 0.0,
+   "cohens_d": 0.5438212945023934,
+   "mannwhitney_p": 0.1829325316217434
+  },
+  "nature_per_k": {
+   "fake_mean": 3.418767674469955,
+   "sourced_mean": 4.811465579755496,
+   "fake_median": 0.0,
+   "sourced_median": 0.0,
+   "cohens_d": -0.08456340578545432,
+   "mannwhitney_p": 0.0014595545717428816
+  },
+  "govern_per_k": {
+   "fake_mean": 7.544602564060242,
+   "sourced_mean": 5.745076622209255,
+   "fake_median": 0.0,
+   "sourced_median": 0.0,
+   "cohens_d": 0.09351383864184613,
+   "mannwhitney_p": 0.07813151720972017
+  },
+  "questions": {
+   "fake_mean": 0.05442176870748299,
+   "sourced_mean": 0.15658362989323843,
+   "fake_median": 0.0,
+   "sourced_median": 0.0,
+   "cohens_d": -0.15710632496122856,
+   "mannwhitney_p": 0.00293208827238197
+  },
+  "exclamations": {
+   "fake_mean": 0.013605442176870748,
+   "sourced_mean": 0.05557076375581713,
+   "fake_median": 0.0,
+   "sourced_median": 0.0,
+   "cohens_d": -0.13342957597747354,
+   "mannwhitney_p": 0.042096922952828755
+  }
+ },
+ "paired_thinkers": [
+  {
+   "thinker": "Aristotle",
+   "therapy_diff": 21.326520370617974,
+   "second_diff": 0.0,
+   "words_ratio": 0.45
+  },
+  {
+   "thinker": "Bertrand Russell",
+   "therapy_diff": 38.344897478114994,
+   "second_diff": 4.84309820768373,
+   "words_ratio": 0.35555555555555557
+  },
+  {
+   "thinker": "Buddha",
+   "therapy_diff": 56.21240947732869,
+   "second_diff": 19.702095943975948,
+   "words_ratio": 0.6857142857142857
+  },
+  {
+   "thinker": "Confucius",
+   "therapy_diff": 41.914857241166565,
+   "second_diff": 62.88907171260112,
+   "words_ratio": 0.6875
+  },
+  {
+   "thinker": "Epictetus",
+   "therapy_diff": 17.543859649122805,
+   "second_diff": 227.3391812865497,
+   "words_ratio": 8.0
+  },
+  {
+   "thinker": "Friedrich Nietzsche",
+   "therapy_diff": 5.799153668223875,
+   "second_diff": 19.140466439204104,
+   "words_ratio": 1.1785714285714286
+  },
+  {
+   "thinker": "Henry David Thoreau",
+   "therapy_diff": -5.984072858197184,
+   "second_diff": 37.03039182150635,
+   "words_ratio": 0.4444444444444444
+  },
+  {
+   "thinker": "Heraclitus",
+   "therapy_diff": 14.316239316239315,
+   "second_diff": 0.0,
+   "words_ratio": 13.0
+  },
+  {
+   "thinker": "Immanuel Kant",
+   "therapy_diff": -6.926280554797801,
+   "second_diff": 8.17212535244199,
+   "words_ratio": 0.1956521739130435
+  },
+  {
+   "thinker": "Khalil Gibran",
+   "therapy_diff": 36.52108579859569,
+   "second_diff": 7.234667429047253,
+   "words_ratio": 0.2909090909090909
+  },
+  {
+   "thinker": "Laozi",
+   "therapy_diff": -0.022682251399075426,
+   "second_diff": 4.592079581413332,
+   "words_ratio": 0.3125
+  },
+  {
+   "thinker": "Marcus Aurelius",
+   "therapy_diff": 19.515299682953106,
+   "second_diff": -7.688397362398408,
+   "words_ratio": 0.8620689655172413
+  },
+  {
+   "thinker": "Plato",
+   "therapy_diff": -6.5470743380169445,
+   "second_diff": -10.683072886725068,
+   "words_ratio": 0.13432835820895522
+  },
+  {
+   "thinker": "Rumi",
+   "therapy_diff": 5.32373503676887,
+   "second_diff": 15.42934021201403,
+   "words_ratio": 1.1904761904761905
+  },
+  {
+   "thinker": "Seneca",
+   "therapy_diff": -7.234287983307977,
+   "second_diff": -15.026209140084728,
+   "words_ratio": 0.3333333333333333
+  },
+  {
+   "thinker": "Socrates",
+   "therapy_diff": -0.05413902749512012,
+   "second_diff": 8.660385717476487,
+   "words_ratio": 0.23484848484848486
+  },
+  {
+   "thinker": "Sun Tzu",
+   "therapy_diff": 23.80952380952381,
+   "second_diff": 64.25022583559169,
+   "words_ratio": 10.5
+  },
+  {
+   "thinker": "Søren Kierkegaard",
+   "therapy_diff": -11.082608053925219,
+   "second_diff": 84.6757536311784,
+   "words_ratio": 0.10606060606060606
+  },
+  {
+   "thinker": "Voltaire",
+   "therapy_diff": 8.202071914299836,
+   "second_diff": 7.78702478706299,
+   "words_ratio": 0.6578947368421053
+  },
+  {
+   "thinker": "William James",
+   "therapy_diff": -6.498012705773971,
+   "second_diff": -4.381876284229382,
+   "words_ratio": 0.35964912280701755
+  }
+ ],
+ "paired_therapy_wilcoxon_p": 0.03623390197753906,
+ "paired_second_wilcoxon_p": 0.008418773595809824,
+ "fake_dialect_by_tradition": {
+  "east_n": 38,
+  "west_n": 109,
+  "east_therapy": 42.364877769289535,
+  "west_therapy": 16.99239560144727,
+  "east_second": 42.3264717350744,
+  "west_second": 19.909404155707698,
+  "east_words_med": 15.0,
+  "west_words_med": 15.0
+ },
+ "sourced_dialect_by_tradition": {
+  "east_therapy": 15.076330509174008,
+  "west_therapy": 9.137422369673866,
+  "east_second": 13.119094591334976,
+  "west_second": 9.255130113240815
+ },
+ "classifier": {
+  "auc": 0.7420115048483122,
+  "balanced_accuracy_at_0.5": 0.6591674720805376,
+  "n_fake": 147,
+  "n_sourced": 3653,
+  "shap_mean_abs": {
+   "words": 1.8514800071716309,
+   "second_person_per_k": 0.22247247397899628,
+   "first_person_per_k": 0.2794879972934723,
+   "therapy_per_k": 0.2583678960800171,
+   "nature_per_k": 0.11597007513046265,
+   "govern_per_k": 0.12764644622802734,
+   "questions": 0.15815824270248413,
+   "exclamations": 0.09146878868341446
+  }
+ },
+ "most_modern_sounding_fakes": [
+  {
+   "thinker": "Søren Kierkegaard",
+   "proba": 0.96,
+   "text": "If you label me, you negate me."
+  },
+  {
+   "thinker": "Khalil Gibran",
+   "proba": 0.95,
+   "text": "And God said, Love your enemy, & I obeyed Him & loved myself."
+  },
+  {
+   "thinker": "Socrates",
+   "proba": 0.942,
+   "text": "As for me, all I know is that I know nothing."
+  },
+  {
+   "thinker": "Rumi",
+   "proba": 0.94,
+   "text": "We carry inside us the wonders we seek outside us."
+  },
+  {
+   "thinker": "Voltaire",
+   "proba": 0.94,
+   "text": "Defend me from my friends; I can defend myself from my enemies."
+  },
+  {
+   "thinker": "Epictetus",
+   "proba": 0.938,
+   "text": "You become what you give your attention to."
+  },
+  {
+   "thinker": "Buddha",
+   "proba": 0.929,
+   "text": "You yourself, as much as anybody in the entire universe deserve your love and affection"
+  },
+  {
+   "thinker": "Buddha",
+   "proba": 0.922,
+   "text": "Believe nothing, no matter where you read it or who has said it, not even if I have said it, unless it agrees with your own reason and your own common sense."
+  },
+  {
+   "thinker": "Laozi",
+   "proba": 0.903,
+   "text": "What I hear, I forget. What I say, I remember. What I do, I understand."
+  },
+  {
+   "thinker": "Sun Tzu",
+   "proba": 0.902,
+   "text": "Keep your friends close, and your enemies closer."
+  },
+  {
+   "thinker": "Rumi",
+   "proba": 0.895,
+   "text": "Whenever we manage to love without expectations, calculations, negotiations, we are indeed in heaven."
+  },
+  {
+   "thinker": "Buddha",
+   "proba": 0.89,
+   "text": "There is no way to happiness; happiness is the way."
+  }
+ ],
+ "sourced_that_sound_fake": [
+  {
+   "thinker": "Marcus Aurelius",
+   "proba": 0.926,
+   "text": "For we carry our fate with us — and it carries us. (Hays translation)"
+  },
+  {
+   "thinker": "Ralph Waldo Emerson",
+   "proba": 0.926,
+   "text": "That what we seek we shall find; what we flee from flees from us."
+  },
+  {
+   "thinker": "Seneca",
+   "proba": 0.924,
+   "text": "As our acts and our thoughts are, so will our lives be."
+  },
+  {
+   "thinker": "Marcus Aurelius",
+   "proba": 0.913,
+   "text": "The best revenge is not to be like your enemy."
+  },
+  {
+   "thinker": "Ralph Waldo Emerson",
+   "proba": 0.9,
+   "text": "The real and lasting victories are those of peace, and not of war."
+  },
+  {
+   "thinker": "Arthur Schopenhauer",
+   "proba": 0.895,
+   "text": "My body and my will are one."
+  },
+  {
+   "thinker": "Jean-Jacques Rousseau",
+   "proba": 0.894,
+   "text": "He thinks like a philosopher, but governs like a king."
+  },
+  {
+   "thinker": "Bertrand Russell",
+   "proba": 0.894,
+   "text": "Power may be defined as the production of intended effects."
+  }
+ ],
+ "example_misattributed": {
+  "Laozi": [
+   "I am not at all interested in immortality, only in the taste of tea.",
+   "Give a man a fish and you feed him for a day. Teach him how to fish and you feed him for a lifetime.",
+   "Kindness in words creates confidence. Kindness in thinking creates profoundness. Kindness in giving creates love.",
+   "What I hear, I forget. What I say, I remember. What I do, I understand."
+  ],
+  "Confucius": [
+   "The journey of a thousand miles begins with a single step.",
+   "Better a diamond with a flaw than a pebble without.",
+   "Before you embark on a journey of revenge, dig two graves.",
+   "No matter how busy you may think you are, you must find time for reading, or surrender yourself to self-chosen ignorance."
+  ],
+  "Buddha": [
+   "To understand everything is to forgive everything.",
+   "I do not believe in a fate that falls on men however they act; but I do believe in a fate that falls on them unless they act.",
+   "Siddhartha Gautama, the Buddha, drew a circle with a piece of red chalk and said: \"When men, even unknowingly, are to meet one day, whatever may befall each, whatever the diverging paths, on the said day, they will inevitably come together in the red circle.\"",
+   "We are what we think. All that we are arises with our thoughts. With our thoughts we make the world."
+  ],
+  "Rumi": [
+   "Come, come, whoever you are. Wanderer, worshipper, lover of leaving — it doesn't matter, Ours is not a caravan of despair. Come, even if you have broken your vow a hundred times, Come, come again, come.",
+   "Your task is not to seek for love, but merely to seek and find all the barriers within yourself that you have built against it.",
+   "Whenever we manage to love without expectations, calculations, negotiations, we are indeed in heaven.",
+   "We carry inside us the wonders we seek outside us."
+  ],
+  "Socrates": [
+   "Know thyself.",
+   "The children now love luxury; they have bad manners, contempt for authority; they show disrespect for elders and love chatter in place of exercise. Children are now tyrants, not the servants of their households. They no longer rise when elders enter the room. ",
+   "Education is the kindling of a flame, not the filling of a vessel.",
+   "The secret of change is to focus all of your energy, not on fighting the old, but on building the new."
+  ],
+  "Voltaire": [
+   "Anything that is too stupid to be spoken is sung.",
+   "Business is the salt of life.",
+   "Cherish those who seek the truth but beware of those who find it.",
+   "Defend me from my friends; I can defend myself from my enemies."
+  ],
+  "Marcus Aurelius": [
+   "Live a good life. If there are gods and they are just, then they will not care how devout you have been, but will welcome you based on the virtues you have lived by. If there are gods, but unjust, then you should not want to worship them. If there are no gods,",
+   "Everything we hear is an opinion, not a fact. Everything we see is a perspective, not the truth.",
+   "The object in life is not to be on the side of the majority, but to escape finding oneself in the ranks of the insane.",
+   "When you arise in the morning, think of what a precious privilege it is to be alive – to breathe, to think, to enjoy, to love."
+  ]
+ }
+}

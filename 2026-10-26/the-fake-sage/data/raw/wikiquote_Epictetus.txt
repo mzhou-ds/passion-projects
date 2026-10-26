@@ -1,0 +1,398 @@
+[[File:Epictetus from L. Annaei Senecae philosophi Opera, 1605, title page detail.png|thumb|right|For what is it that everyone is seeking? To live securely, to be happy, to do everything as they wish to do, not to be hindered, not to be subject to compulsion.]]
+'''{{w|Epictetus}}''' ({{w|Ancient Greek}}: Ἐπίκτητος, ''Epíktētos''; c. 50 – c. 135 AD) was a [[w:Ancient Greece|Greek]] [[w:Stoicism|Stoic]] [[w:Philosophy|philosopher]]. He was born into slavery in {{w|Phrygia}} and lived in [[w:Ancient Rome|Rome]] until his banishment, after which he spent the rest of his life in {{w|Nicopolis}} in northwestern Greece. His teachings were written down and published by his pupil [[Arrian]] in his ''{{w|Discourses of Epictetus|Discourses}}'' and ''{{w|Enchiridion of Epictetus|Enchiridion}}''.
+
+== Quotes ==
+=== ''Discourses'' ===
+[[File:Epicteti Enchiridion Latinis versibus adumbratum (Oxford 1715) frontispiece - greyscale.jpg|thumb|right|It is difficulties that show what men are.]]
+[[File:Epictetus - from Voltaire's Romances translated from the French - 1889 edition.jpg|thumb|right|First say to yourself what you would be; and then do what you have to do.]]
+[[File:Notice sur les traductions françaises du Manuel d'Épictète - frontispiece.png|thumb|right|Although life is a matter of indifference, the use which you make of it is not a matter of indifference.]]
+:<small>Greek text cited from H. Schenkl, [https://archive.org/details/ldpd_10922736_000 ''Epicteti Dissertationes''] (Leipzig, 1916).</small>
+
+====Book I====
+* Τῷ λογικῷ ζώῳ μόνον ἀφόρητόν ἐστι τὸ ἄλογον, τὸ δ᾿ εὔλογον φορητόν.
+** To the rational being only the irrational is unendurable, but the rational is endurable.
+** ''Variant translation:'' To a reasonable creature, that alone is insupportable which is unreasonable; but everything reasonable may be supported.
+** I.2.1
+
+* Τὸ δ᾿ ἀπάγξασθαι οὐκ ἔστιν ἀφόρητον; — Ὅταν γοῦν πάθῃ τις ὅτι εὔλογον, ἀπελθὼν ἀπήγξατο.
+** "But to be hanged—is that not unendurable?" Even so, when a man feels that it is reasonable, he goes off and hangs himself.
+** I.2.3
+
+* καίτοι ὅ γε θεὸς οὐ μόνον ἔδωκεν ἡμῖν τὰς δυνάμεις ταύτας, καθ᾿ ἃς οἴσομεν πᾶν τὸ ἀποβαῖνον μὴ ταπεινούμενοι μηδὲ συγκλώμενοι ὑπ᾿ αὐτοῦ, ἀλλ᾿ ὃ ἦν ἀγαθοῦ βασιλέως καὶ ταῖς ἀληθείαις πατρός, ἀκώλυτον τοῦτο ἔδωκεν, ἀνανάγκαστον, ἀπαραπόδιστον, ὅλον αὐτὸ ἐφ᾿ ἡμῖν ἐποίησεν.
+** Yet God hath not only granted these faculties, by which we may bear every event without being depressed or broken by it, but like a good prince and a true father, hath placed their exercise above restraint, compulsion, or hindrance, and wholly within our own control.
+** I.6.40
+
+* καὶ ἁπλῶς οὔτε θάνατος οὔτε φυγὴ οὔτε πόνος οὔτε ἄλλο τι τῶν τοιούτων αἴτιόν ἐστι τοῦ πράττειν τι ἢ μὴ πράττειν ἡμᾶς, ἀλλ᾿ ὑπολήψεις καὶ δόγματα.
+** In a word, neither death, nor exile, nor pain, nor anything of this kind is the real cause of our doing or not doing any action, but our inward opinions and principles.
+** I.11.33
+
+* λόγου γὰρ μέγεθος οὐ μήκει οὐδ᾿ ὕψει κρίνεται, ἀλλὰ δόγμασιν.
+** Reason is not measured by size or height, but by principle.
+** I.12.26
+
+* Ἀνδράποδον, οὐκ ἀνέξῃ τοῦ ἀδελφοῦ τοῦ σαυτοῦ, ὃς ἔχει τὸν Δία πρόγονον, ὥσπερ υἱὸς ἐκ τῶν αὐτῶν σπερμάτων γέγονεν καὶ τῆς αὐτῆς ἄνωθεν καταβολῆς, ἀλλ᾿ εἰ ἔν τινι τοιαύτῃ χώρᾳ κατετάγης ὑπερεχούσῃ, εὐθὺς τύραννον καταστήσεις σεαυτόν;
+** O slavish man! will you not bear with your own brother, who has God for his Father, as being a son from the same stock, and of the same high descent? But if you chance to be placed in some superior station, will you presently set yourself up for a tyrant?
+** I.13.3–4
+
+* ὅταν κλείσητε τὰς θύρας καὶ σκότος ἔνδον ποιήσητε, μέμνησθε μηδέποτε λέγειν ὅτι μόνοι ἐστέ· οὐ γὰρ ἐστέ, ἀλλ᾿ ὁ θεὸς ἔνδον ἐστὶ καὶ ὁ ὑμέτερος δαίμων ἐστίν. καὶ τίς τούτοις χρεία φωτὸς εἰς τὸ βλέπειν τί ποιεῖτε;
+** When you close your doors, and make darkness within, remember never to say that you are alone, for you are not alone; nay, God is within, and your genius is within. And what need have they of light to see what you are doing?
+** I.14.13–14
+
+* Οὐδέν, ἔφη, τῶν μεγάλων ἄφνω γίνεται, ὅπου γε οὐδ᾿ ὁ βότρυς οὐδὲ σύκον. ἄν μοι νῦν λέγῃς ὅτι 'θέλω σύκον', ἀποκρινοῦμαί σοι ὅτι 'χρόνου δεῖ'. ἄφες ἀνθήσῃ πρῶτον, εἶτα προβάλῃ τὸν καρπόν, εἶτα πεπανθῇ.
+** No thing great is created suddenly, any more than a bunch of grapes or a fig. If you tell me that you desire a fig, I answer you that there must be time. Let it first blossom, then bear fruit, then ripen.
+** I.15.7
+
+* ἓν τῶν γεγονότων ἀπήρκει πρὸς τὸ αἰσθέσθαι τῆς προνοίας τῷ γε αἰδήμονι καὶ εὐχαρίστῳ.
+** Any one thing in the creation is sufficient to demonstrate a Providence to an humble and grateful mind.
+** I.16.7
+
+* εἰ γοῦν ἀηδὼν ἤμην, ἐποίουν τὰ τῆς ἀηδόνος, εἰ κύκνος, τὰ τοῦ κύκνου.
+** Were I a nightingale, I would act the part of a nightingale; were I a swan, the part of a swan.
+** I.16.20
+
+* Ἐπειδὴ λόγος ἐστὶν ὁ διαρθρῶν καὶ ἐξεργαζόμενος τὰ λοιπά, ἔδει δ᾿ αὐτὸν μὴ ἀδιάρθρωτον εἶναι.
+** Since it is Reason which shapes and regulates all other things, it ought not itself to be left in disorder.
+** I.17.1
+
+* Εἰ ἀληθές ἐστι τὸ ὑπὸ τῶν φιλοσόφων λεγόμενον ὅτι πᾶσιν ἀνθρώποις μία ἀρχὴ καθάπερ τοῦ συγκαταθέσθαι τὸ παθεῖν ὅτι ὑπάρχει καὶ τοῦ ἀνανεῦσαι τὸ παθεῖν ὅτι οὐχ ὑπάρχει καὶ νὴ Δία τοῦ ἐπισχεῖν τὸ παθεῖν ὅτι ἄδηλόν ἐστιν, οὕτως καὶ τοῦ ὁρμῆσαι ἐπί ⟨τι⟩ τὸ παθεῖν ὅτι ἐμοὶ συμφέρει.
+** If what the philosophers say be true,—that all men's actions proceed from one source; that as they assent from a persuasion that a thing is so, and dissent from a persuasion that it is not, and suspend their judgment from a persuasion that it is uncertain,—so likewise they seek a thing from a persuasion that it is for their advantage.
+** I.18.1
+
+* ἔδει νὴ τοὺς θεοὺς μελετᾶν ἐπὶ τῶν μικρῶν καὶ ἀπ᾿ ἐκείνων ἀρχομένους διαβαίνειν ἐπὶ τὰ μείζω.
+** Practice yourself, for heaven's sake, in little things; and thence proceed to greater.
+** I.18.18
+
+* τὸ κοχλίου ἀγαθὸν οὐκ εἰκὸς εἶναι ⟨ἐν⟩ τῷ κελύφει, τὸ οὖν τοῦ ἀνθρώπου εἰκός;
+** It is unlikely that the good of a snail should reside in its shell: so is it likely that the good of a man should?
+** I.20.17
+
+* τίνες εἰσὶν οὗτοι, ὑφ᾿ ὧν εἴωθας λέγειν ὅτι μαίνονται; τί οὖν; ὑπὸ τῶν μαινομένων θαυμάζεσθαι θέλεις;
+** Who are those people by whom you wish to be admired? Are they not these about whom you are in the habit of saying that they are mad? What then? Do you wish to be admired by the mad? 
+** I.21.4
+
+* εἰ συμφέρει μοι ἀγρὸν ἔχειν, συμφέρει μοι ἱμάτιον ἔχειν, συμφέρει μοι καὶ κλέψαι αὐτὸ ἐκ βαλανείου. ἔνθεν πόλεμοι, στάσεις, τυραννίδες, ἐπιβουλαί.
+** If it is my interest to have a farm, it is my interest to take it away from my neighbour; if it is my interest to have a cloak, it is my interest also to steal it from a bath. This is the source of wars, seditions, tyrannies, plots.
+** I.22.14
+
+* Αἱ περιστάσεις εἰσὶν αἱ τοὺς ἄνδρας δεικνύουσαι.
+** It is difficulties that show what men are.
+** I.24.1
+
+* Εἰ ταῦτα ἀληθῆ ἐστι καὶ μὴ βλακεύομεν μηδ᾿ ὑποκρινόμεθα ὅτι τὸ ἀγαθὸν τοῦ ἀνθρώπου ἐν προαιρέσει καὶ τὸ κακόν, τὰ δ᾿ ἄλλα πάντα οὐδὲν πρὸς ἡμᾶς, τί ἔτι ταρασσόμεθα, τί ἔτι φοβούμεθα;
+** If these things are true; and if we are not stupid or insincere when we say that the good or ill of man lies within his own will, and that all beside is nothing to us, why are we still troubled? Why do we still fear?
+** I.25.1
+
+* καπνὸν πεποίηκεν ἐν τῷ οἰκήματι; ἂν μέτριον, μενῶ· ἂν λίαν πολύν, ἐξέρχομαι. τούτου γὰρ μεμνῆσθαι καὶ κρατεῖν, ὅτι ἡ θύρα ἤνοικται.
+** If the room is smoky, if only moderately, I will stay; if there is too much smoke I will go. Remember this, keep a firm hold on it, the door is always open.
+** I.25.18
+
+* οὐδέν ἐστι τὸ ἀνθέλκον ὡς πρὸς τὸ ἀκολουθῆσαι τοῖς διδασκομένοις, ἐπὶ δὲ τῶν βιωτικῶν πολλὰ τὰ περισπῶντα.
+** In theory there is nothing to hinder our following what we are taught; but in life there are many things to draw us aside.
+** I.26.3
+
+* Τετραχῶς αἱ φαντασίαι γίνονται ἡμῖν· ἢ γὰρ ἔστι τινὰ ⟨καὶ⟩ οὕτως φαίνεται ἢ οὐκ ὄντα οὐδὲ φαίνεται ὅτι ἔστιν ἢ ἔστι καὶ οὐ φαίνεται ἢ οὐκ ἔστι καὶ φαίνεται. λοιπὸν ἐν πᾶσι τούτοις εὐστοχεῖν ἔργον ἐστὶ τοῦ πεπαιδευμένου.
+** Appearances to the mind are of four kinds. Things either are what they appear to be; or they neither are, nor appear to be; or they are, and do not appear to be; or they are not, and yet appear to be. Rightly to aim in all these cases is the wise man's task.
+** I.27.1
+
+* ἀνθρώπῳ μέτρον πάσης πράξεως τὸ φαινόμενον.
+** For human beings, the measure of every action is the impression of the senses.
+** I.28.10
+
+* Οὐσία τοῦ ἀγαθοῦ προαίρεσις ποιά, τοῦ κακοῦ προαίρεσις ποιά.
+** The essence of the good is a certain kind of moral purpose, and that of the evil is a certain kind of moral purpose.
+** I.29.1
+
+* οὐ γὰρ λογάριά ἐστι τὰ λείποντα νῦν, ἀλλὰ γέμει τὰ βιβλία τῶν Στωικῶν λογαρίων.
+** For what is lacking now is not quibbles; nay, the books of the Stoics are full of quibbles.
+** I.29.56
+
+====Book II====
+[[File:MS. Canon. Misc. 378 fols. 78r - Bodleian library - Altercatio Hadriani Augusti et Epicteti philosophi.jpg|thumb|right|It is impossible for anyone to begin to learn that which he thinks he already knows]]
+
+* οὐ γὰρ θάνατος ἢ πόνος φοβερόν, ἀλλὰ τὸ φοβεῖσθαι πόνον ἢ θάνατον.
+** For it is not death or pain that is to be feared, but the fear of pain or death.
+** Variant: For death or pain is not formidable, but the fear of pain or death. ([http://classics.mit.edu/Epictetus/discourses.2.two.html Book II, ch. 1])
+** II.1.13
+
+* τί γάρ ἐστι παιδίον; ἄγνοια. τί ἐστι παιδίον; ἀμαθία. ἐπεὶ ὅπου οἶδεν, κἀκεῖνα οὐδὲν ἡμῶν ἔλαττον ἔχει.
+** For what is a child? Ignorance. What is a child? Want of instruction. For where a child has knowledge, he is no worse than we are.
+** II.1.16
+
+* οὐ γὰρ τοῖς πολλοῖς περὶ τούτων πιστευτέον, οἳ λέγουσιν μόνοις ἐξεῖναι παιδεύεσθαι τοῖς ἐλευθέροις, ἀλλὰ τοῖς φιλοσόφοις μᾶλλον, οἳ λέγουσιν μόνους τοὺς παιδευθέντας ἐλευθέρους εἶναι.
+** For on these matters we should not trust the multitude who say that none ought to be educated but the free, but rather to philosophers, who say that the educated alone are free.
+** Variant: ...Only the educated are free.
+** II.1.22
+
+* μόνον τοῦτο εἰδὼς φαίνου, πῶς μήτ᾿ ἀποτύχῃς ποτὲ μήτε περιπέσῃς.
+** Show that you know this only—how you may never either fail to get what you desire or fall into what you avoid.
+** II.1.37
+
+* Αἱ ὗλαι ἀδιάφοροι, ἡ δὲ χρῆσις αὐτῶν οὐκ ἀδιάφορος.
+** Materials are indifferent, but the use which we make of them is not a matter of indifference.
+** II.5.1
+
+* οὕτως τὸ ζῆν ἀδιάφορον, ἡ χρῆσις οὐκ ἀδιάφορος.
+** Although life is a matter of indifference, the use which you make of it is not a matter of indifference.
+** II.6.2
+
+* δείξω ὑμῖν νεῦρα φιλοσόφου. ποῖα νεῦρα; ὄρεξιν ἀναπότευκτον, ἔκκλισιν ἀπερίπτωτον, ὁρμὴν καθήκουσαν, πρόθεσιν ἐπιμελῆ, συγκατάθεσιν ἀπρόπτωτον.
+** Shall I show you the sinews of a philosopher? "What sinews are those?" — A will undisappointed; evils avoided; powers daily exercised, careful resolutions; unerring decisions.
+** II.8.29
+
+* Ἴδ᾿ ἀρχὴ φιλοσοφιας· αἴσθησις μάχης τῆς πρὸς ἀλλήλους τῶν ἀνθρώπων καὶ ζήτησις τοῦ παρ᾿ ὃ γίνεται ἡ μάχη καὶ κατάγνωσις καὶ ἀπιστία πρὸς τὸ ψιλῶς δοκοῦν, ἔρευνα δέ τις περὶ τὸ δοκοῦν εἰ ὀρθῶς δοκεῖ καὶ εὕρεσις κανόνος τινός, οἷον ἐπὶ βαρῶν τὸν ζυγὸν εὕρομεν, οἷον ἐπὶ εὐθέων καὶ στρεβλῶν τὴν στάθμην.
+** Look now, this is the starting point of philosophy: the recognition that different people have conflicting opinions, the rejection of mere opinion so that it comes to be viewed with mistrust, an investigation of opinion to determine whether it is rightly held, and the discovery of a standard of judgement, comparable to the balance that we have devised for the determining of weights, or the carpenter's rule for determining whether things are straight or crooked.
+** II.11.13
+
+* Ὅταν ἀγωνιῶντα ἴδω ἄνθρωπον, λέγω· οὗτος τί ποτε θέλει; εἰ μὴ τῶν οὐκ ἐφ᾿ αὑτῷ τι ἤθελεν, πῶς ἂν ἔτι ἠγωνία;
+** When I see someone in anxiety, I say to myself, What can it be that this fellow wants? For if he did not want something that was outside of his control, how could he still remain in anxiety?
+** II.13.1
+
+* Τί οὖν ἔτι θαυμάζομεν εἰ περὶ μὲν τὰς ὕλας τετρίμεθα, ἐν δὲ ταῖς ἐνεργείαις ταπεινοί, ἀσχήμονες, οὐδενὸς ἄξιοι, δειλοί, ἀταλαίπωροι, ὅλοι ἀτυχήματα;
+** Why, then, do we wonder any longer that, although in material things we are thoroughly experienced, nevertheless in our actions we are dejected, unseemly, worthless, cowardly, unwilling to stand the strain, utter failures one and all?
+** II.16.18
+
+* τόλμησον ἀναβλέψας πρὸς τὸν θεὸν εἰπεῖν ὅτι 'χρῶ μοι λοιπὸν εἰς ὃ ἂν θέλῃς· ὁμογνωμονῶ σοι, σός εἰμι· οὐδὲν παραιτοῦμαι τῶν σοὶ δοκούντων· ὅπου θέλεις, ἄγε· ἣν θέλεις ἐσθῆτα περίθες.'
+** Be bold to look towards God and say, "Use me henceforward for whatever you want; I am of one mind with you; I am yours; I refuse nothing that seems good to you; lead me where you will; wrap me in what clothes you will."
+** II.16.42
+
+* Τί πρῶτόν ἐστιν ἔργον τοῦ φιλοσοφοῦντος; ἀποβαλεῖν οἴησιν· ἀμήχανον γάρ, ἅ τις εἰδέναι οἴεται, ταῦτα ἄρξασθαι μανθανειν.
+** What is the first business of one who practices philosophy? To get rid of self-conceit. For it is impossible for anyone to begin to learn that which he thinks he already knows.
+** II.17.1
+
+* Πᾶσα ἕξις καὶ δύναμις ὑπὸ τῶν καταλλήλων ἔργων συνέχεται καὶ αὔξεται, ἡ περιπατητικὴ ὑπὸ τοῦ περιπατεῖν, ἡ τροχαστικὴ ὑπὸ τοῦ τρέχειν. ἂν θέλῃς ἀναγνωστικὸς εἶναι, ἀναγίγνωσκε· ἂν γραφικόν, γράφε.
+** Every habit and faculty is confirmed and strengthened by the corresponding actions, that of walking by walking, that of running by running. If you would be a good reader, read; if a writer, write.
+** II.18.1
+
+* καθόλου οὖν εἴ τι ποιεῖν ἐθέλῃς, ἑκτικὸν ποίει αὐτό· εἴ τι μὴ ποιεῖν ἐθέλῃς, μὴ ποίει αὐτό, ἀλλ᾿ ἔθισον ἄλλο τι πράττειν μᾶλλον ἀντ᾿ αὐτοῦ.
+** Whatever you would make habitual, practice it; and if you would not make a thing habitual, do not practice it, but accustom yourself to something else.
+** II.18.4
+
+* τὸ πρῶτον δ᾿ ὑπὸ τῆς ὀξύτητος μὴ συναρπασθῇς, ἀλλ᾿ εἰπὲ 'ἔκδεξαί με μικρόν, φαντασία· ἄφες ἴδω τίς εἶ καὶ περὶ τίνος, ἄφες σε δοκιμάσω.'
+** Be not swept off your feet by the vividness of the impression, but say, "Impression, wait for me a little. Let me see what you are and what you represent. Let me try you."
+** II.18.24
+** Reported in ''Bartlett's Quotations'' (1919) as "Be not hurried away by excitement, but say, "Semblance, wait for me a little".
+
+* δείξατέ μοι τινα νοσοῦντα καὶ εὐτυχοῦντα, κινδυνεύοντα καὶ εὐτυχοῦντα, ἀποθνῄσκοντα καὶ εὐτυχοῦντα, πεφυγαδευμένον καὶ εὐτυχοῦντα, ἀδοξοῦντα καὶ εὐτυχοῦντα. δείξατ᾿· ἐπιθυμῶ τινα νὴ τοὺς θεοὺς ἰδεῖν Στωικόν.
+** Show me someone who is ill and yet happy, in danger and yet happy, dying and yet happy, exiled and yet happy. Show me such a person; by the gods, how greatly I long to see a Stoic!
+** II.19.24
+
+* Τοῖς ὑγιέσι καὶ ἐναργέσιν ἐξ ἀνάγκης καὶ οἱ ἀντιλέγοντες προσχρῶνται.
+** The propositions which are true and evident must of necessity be employed even by those who contradict them.
+** II.20.1
+
+* Τῶν περὶ αὑτοὺς κακῶν τὰ μὲν ῥᾳδίως ὁμολογοῦσιν ἄνθρωποι, τὰ δ᾿ οὐ ῥᾳδίως.
+** Some of their faults people readily admit, but others not so readily.
+** II.21.1
+
+* τὰ παιδία τὰ πιθανὰ καὶ δριμέα τίνα οὐκ ἐκκαλεῖται πρὸς τὸ συμπαίζειν αὐτοῖς καὶ συνέρπειν καὶ πρὸς τὸ συμψελλίζειν;
+** Who is not tempted by attractive and wide-awake children to join their sports, and crawl on all fours with them, and talk baby talk with them?
+** II.24.18
+
+====Book III====
+[[File:Epicteto, y Phocilides en español con consonantes, 1635, frontispiece - detail.png|thumb|right|For freedom is not acquired by satisfying yourself with what you desire, but by destroying your desire.]]
+
+* γνῶθι πρῶτον τίς εἶ καὶ οὕτως κόσμει σεαυτόν.
+** Know, first, who you are, and then adorn yourself accordingly.
+** III.1.24
+
+* τὶ γάρ ἐστι τὸ κλαίειν καὶ οἰμώζειν; δόγμα. τί δυστυχία; δόγμα. τί στάσις, τί διχόνοια, τί μέμψις, τί κατηγορία, τί ἀσέβεια, τί φλυαρία; ταῦτα πάντα δόγματά ἐστι.
+** Why, what is weeping and sighing? A judgement. What is misfortune? A judgement. What are strife, disagreement, fault-finding, accusing, impiety, foolishness? They are all judgements.
+** III.3.18–19
+
+* τί οὖν δεῖ λέγειν αὐτὸν ἐφ᾿ ἑκάστου τῶν τραχέων; ὅτι 'ἕνεκα τούτου ἐγυμναζόμην, ἐπὶ τοῦτο ἤσκουν'.
+** What should a philosopher say, then, in the face of each of the hardships of life? "It was for this that I've been training myself, it was for this that I was practising."
+** III.10.7
+
+* δύο γὰρ ταῦτα πρόχειρα ἔχειν δεῖ· ὅτι ἔξω τῆς προαιρέσεως οὐδέν ἐστιν οὔτε ἀγαθὸν οὔτε κακὸν καὶ ὅτι οὐ δεῖ προηγεῖσθαι τῶν πραγμάτων, ἀλλ᾿ ἐπακολουθεῖν.
+** Two principles we should always have ready — that there is nothing good or evil save in the will; and that we are not to lead events, but to follow them.
+** III.10.18
+
+* Ἑκάστου ἔργου σκόπει τὰ καθηγούμενα καὶ τὰ ἀκόλουθα καὶ οὕτως ἔρχου ἐπ᾿ αὐτό.
+** In each separate thing that you do consider the matters which come first, and those which follow after, and only then approach the thing itself.
+** III.15.1 (= Enchiridion 29.1).
+
+* δοκεῖς ὅτι ταῦτα ποιῶν δύνασαι φιλοσοφεῖν; δοκεῖς ὅτι δύνασαι ὡσαύτως ἐσθίειν, ὡσαύτως πίνειν, ὁμοίως ὀργίζεσθαι, ὁμοίως δυσαρεστεῖν;
+** Do you suppose that you can do the things you do now, and yet be a philosopher? Do you suppose that you can eat in the same fashion, drink in the same fashion, give way to anger and to irritation, just as you do now?
+** III.15.10 (= Enchiridion 29.10).
+
+* παῖς γὰρ ἐν μουσικοῖς ὁ ἄμουσος, ἐν γραμματικοῖς ὁ ἀγράμματος, ἐν βίῳ ὁ ἀπαίδευτος.
+** For he who is unmusical is a child in music; he who is without letters is a child in learning; he who is untaught, is a child in life.
+** III.19.6
+
+* καὶ γὰρ τοῦτο λίαν κομψὸν τῷ Κυνικῷ παραπέπλεκται· δέρεσθαι αὐτὸν δεῖ ὡς ὄνον καὶ δερόμενον φιλεῖν αὐτοὺς τοὺς δέροντας ὡς πατέρα πάντων, ὡς ἀδελφόν.
+** For this too is a very pleasant strand woven into the Cynic's pattern of life; he must needs be flogged like an ass, and while he is being flogged he must love the men who flog him, as though he were the father or brother of them all.
+** III.22.54
+
+* Τίς εἶναι θέλεις, σαυτῷ πρῶτον ἐιπέ· εἶθ᾿ οὕτως ποίει ἃ ποιεῖς.
+** First say to yourself what you would be; and then do what you have to do.
+** III.23.1
+
+* Τὸ ἄλλου παρὰ φύσιν σοὶ κακὸν μὴ γινέσθω· οὐ γὰρ συνταπεινοῦσθαι πέφυκας οὐδὲ συνατυχεῖν, ἀλλὰ συνευτυχεῖν. ἂν δέ τις ἀτυχῇ, μέμνησο, ὅτι παρ᾿ αὑτὸν ἀτυχεῖ. ὁ γὰρ θεὸς πάντας ἀνθρώπους ἐπὶ τὸ εὐδαιμονεῖν, ἐπὶ τὸ εὐσταθεῖν ἐποίησεν.
+** Let not that which in the case of another is contrary to nature become an evil for you; for you are born not to be humiliated along with others, nor to share in their misfortunes, but to share in their good fortune. If, however, someone is unfortunate, remember that his misfortune concerns himself. For God made all mankind to be happy, to be serene.
+** III.24.1
+
+* οὐκ οἶσθ᾿, ὅτι ἀνὴρ καλὸς κἀγαθὸς οὐδὲν ποιεῖ τοῦ δόξαι ἕνεκα, ἀλλὰ τοῦ πεπρᾶχθαι καλῶς;
+** Don't you know that a good and excellent person does nothing for the sake of appearances, but only for the sake of having acted right?
+** III.24.50
+
+====Book IV====
+* ἐκεῖνο δέ μοι εἰπέ· οὐδέποτ᾿ ἠράσθης τινός; [. . .] Οὐδέποθ᾿ ὑπὸ τῆς ἐρωμένης ἐπετάγης οὐδὲν ὧν οὐκ ἤθελες; οὐδέποτέ σου τὸ δουλάριον ἐκολάκευσας; οὐδέποτ᾿ αὐτοῦ τοὺς πόδας κατεφίλησας; καίτοι τοῦ Καίσαρος ἄν σέ τις ἀναγκάσῃ, ὕβριν αὐτὸ ἡγῇ καὶ ὑπερβολὴν τυραννίδος. τί οὖν ἄλλο ἐστὶ δουλεία;
+** But tell me this: did you never love any person? [. . .] Were you never commanded by the person beloved to do something which you did not wish to do? Have you never flattered your little slave? Have you never kissed her feet? And yet if any man compelled you to kiss Caesar's feet, you would think it an insult and excessive tyranny. What else then is slavery? (tr. [https://books.google.com/books?id=7e0NAAAAYAAJ&pg=PA296 G. Long, 1890])
+** IV.1.15–17
+
+* τί γάρ ἐστιν, ὃ ζητεῖ πᾶς ἄνθρωπος; εὐσταθῆσαι, εὐδαιμονῆσαι, πάντα ὡς θέλει ποιεῖν, μὴ κωλύεσθαι, μὴ ἀναγκάζεσθαι.
+** For what is it that everyone is seeking? To live securely, to be happy, to do everything as they wish to do, not to be hindered, not to be subject to compulsion.
+** IV.1.46
+
+* οὐ γὰρ ἐκπληρώσει τῶν ἐπιθυμουμένων ἐλευθερία παρασκευάζεται, ἀλλὰ ἀνασκευῇ τῆς ἐπιθυμίας.
+** For freedom is not acquired by satisfying yourself with what you desire, but by destroying your desire.
+** IV.1.175
+
+* ὀλίγου δὲ χρεία ἐστὶ πρὸς τὴν ἀπώλειαν τὴν πάντων καὶ ἀνατροπήν, μικρᾶς ἀποστροφῆς τοῦ λόγου.
+** Little is needed to ruin and upset everything, only a slight aberration from reason.
+** IV.3.4
+
+===''The Enchiridion''===
+[[File:Epictetus portrait from Les Morales de Plutarque, Sénèque, Socrate et Epictète, 1653, Indian ink.png|thumb|right|It isn't the things themselves that disturb people, but the judgements that they form about them.&mdash;''Enchiridion'' 5]]
+:<small> Greek text cited from G. Boter, ''Epictetus. Encheiridion'' (Berlin-New York, 2007).</small>
+:<small> Translations cited from E. Carter, [https://archive.org/details/bim_eighteenth-century_all-the-works-of-epictet_epictetus_1759/mode/2up ''All the Works of Epictetus''] (Dublin, 1759), unless otherwise noted.</small>
+
+* Τῶν ὄντων τὰ μέν ἐστιν ἐφ᾿ ἡμῖν, τὰ δὲ οὐκ ἐφ᾿ ἡμῖν. ἐφ᾿ ἡμῖν μὲν ὑπόληψις, ὁρμή, ὄρεξις, ἔκκλισις, καὶ ἑνὶ λόγῳ ὅσα ἡμέτερα ἔργα· οὐκ ἐφ᾿ ἡμῖν δὲ τὸ σῶμα, ἡ κτῆσις, δόξαι, ἀρχαί, καὶ ἑνὶ λόγῳ ὅσα οὐχ ἡμέτερα ἔργα.
+** Some things are in our control and others not. Things in our control are opinion, pursuit, desire, aversion, and, in a word, whatever are our own actions. Things not in our control are body, property, reputation, command, and, in one word, whatever are not our own actions.
+** 1.1
+
+* Ταράσσει τοὺς ἀνθρώπους οὐ τὰ πράγματα, ἀλλὰ τὰ περὶ τῶν πραγμάτων δόγματα.
+** Men are disturbed, not by things, but by the principles and notions which they form concerning things.
+** 5a
+
+* Απαιδεύτου ἔργον τὸ ἄλλοις ἐγκαλεῖν ἐφ᾿ οἷς αὐτὸς πράσσει κακῶς· ἠργμένου παιδεύεσθαι τὸ ἑαυτῷ· πεπαιδευμένου τὸ μήτε ἄλλῳ μήτε ἑαυτῷ.
+** It is the act of an ill-instructed man to blame others for his own bad condition; it is the act of one who has begun to be instructed, to lay the blame on himself; and of one whose instruction is completed, neither to blame another, nor himself.
+** 5b (tr. [https://archive.org/details/discoursesofepic033057mbp/page/380/mode/2up G. Long, 1888])
+
+* Ἐφ' ἑκάστου τῶν προσπιπτόντων μέμνησο ἐπιστρέφων ἐπὶ σεαυτὸν ζητεῖν, τίνα δύναμιν ἔχεις πρὸς τὴν χρῆσιν αὐτοῦ. ἐὰν καλὸν ἴδῃς ἢ καλήν, εὑρήσεις δύναμιν πρὸς ταῦτα ἐγκράτειαν· ἐὰν πόνος προσφέρηται, εὑρήσεις καρτερίαν· ἂν λοιδορία, εὑρήσεις ἀνεξικακίαν. καὶ οὕτως ἐθιζόμενόν σε οὐ συναρπάσουσιν αἱ φαντασίαι.
+** With every accident, ask yourself what abilities you have for making a proper use of it. If you see an attractive person, you will find that self-restraint is the ability you have against your desire. If you are in pain, you will find fortitude. If you hear unpleasant language, you will find patience. And thus habituated, the appearances of things will not hurry you away along with them.
+** 10
+
+* Μέμνησο ὅτι ὡς ἐν συμποσίῳ σε δεῖ ἀναστρέφεσθαι. περιφερόμενον γέγονέ τι κατὰ σέ· ἐκτείνας τὴν χεῖρα κοσμίως μετάλαβε. παρέρχεται· μὴ κάτεχε. οὔπω ἥκει· μὴ ἐπίβαλλε πόρρω τὴν ὄρεξιν, ἀλλὰ περίμενε μέχρις ἂν γένηται κατὰ σέ. οὕτω πρὸς τέκνα, οὕτω πρὸς γυναῖκα, οὕτω πρὸς ἀρχάς, οὕτω πρὸς πλοῦτον.
+** Remember that you ought to behave in life as you would at a banquet. As something is being passed around it comes to you; stretch out your hand, take a portion of it politely. It passes on; do not detain it. Or it has not come to you yet; do not project your desire to meet it, but wait until it comes in front of you. So act toward children, so toward a wife, so toward office, so toward wealth.
+** 15
+
+* Μέμνησο ὅτι οὐχ ὁ λοιδορῶν ἢ τύπτων ὑβρίζει, ἀλλὰ τὸ δόγμα τὸ περὶ τούτων ὡς ὑβριζόντων. ὅταν οὖν ἐρεθίσῃ σέ τις, ἴσθι ὅτι ἡ σή σε ὑπόληψις ἠρέθισε.
+** Remember that it is not he who gives abuse or blows who affronts, but the view we take of these things as insulting. When, therefore, any one provokes you, be assured that it is your own opinion which provokes you.
+** 20
+
+* Εἰ μὲν τὸ σῶμά σού τις ἐπέτρεπε τῷ ἀπαντήσαντι, ἠγανάκτεις ἄν· ὅτι δὲ σὺ τὴν γνώμην τὴν σεαυτοῦ ἐπιτρέπεις τῷ τυχόντι, ἵνα, ἐὰν λοιδορήσηταί σοι, ταραχθῇ ἐκείνη καὶ συγχυθῇ, οὐκ αἰσχύνῃ τούτου ἕνεκα;
+** If a person gave your body to any stranger he met on his way, you would certainly be angry. And do you feel no shame in handing over your own mind to be confused and mystified by anyone who happens to verbally attack you? (28) [tr. Elizabeth Carter]
+** 28
+*** Alternative translation ([http://books.google.com/books?id=9WRzxtTBkPgC&lpg=PA19&ots=hXwTf1JmW6&pg=PA19 N. P. White, 1983]):
+*** If someone turned your body over to just any person who happened to meet you, you would be angry. But are you not ashamed that you turn over your own faculty of judgment to whoever happens along, so that if he abuses you it is upset and confused?
+
+* ἐάν τίς σοι ἀπαγγείλῃ ὅτι ὁ δεῖνά σε κακῶς λέγει, μὴ ἀπολογοῦ πρὸς τὰ λεχθέντα, ἀλλὰ ἀποκρίνου διότι "ἠγνόει γὰρ τὰ ἄλλα τὰ προσόντα μοι κακά, ἐπεὶ οὐκ ἂν ταῦτα μόνα ἔλεγεν."
+** If a man has reported to you, that a certain person speaks ill of you, do not make any defense (answer) to what has been told you: but reply, The man did not know the rest of my faults, for he would not have mentioned these only.
+** 33.9 (tr. [https://archive.org/details/discoursesofepic033057mbp/page/394/mode/2up G. Long, 1888])
+
+* Ὅταν τι διαγνοὺς ὅτι ποιητέον ἐστὶ ποιῇς, μηδέποτε φύγῃς ὀφθῆναι πράσσων αὐτό, κἂν ἀλλοῖόν τι οἱ πολλοὶ μέλλωσι περὶ αὐτοῦ ὑπολαμβάνειν. εἰ μὲν γὰρ οὐκ ὀρθῶς ποιεῖς, αὐτὸ τὸ ἔργον φεῦγε· εἰ δὲ ὀρθῶς, τί φοβῇ τοὺς ἐπιπλήξοντας οὐκ ὀρθῶς;
+** When you do anything from a clear judgment that it ought to be done, never shun the being seen to do it, even though the world should make a wrong supposition about it; for, if you don't act right, shun the action itself; but, if you do, why are you afraid of those who censure you wrongly?
+** 35
+
+* Πᾶν πρᾶγμα δύο ἔχει λαβάς, τὴν μὲν φορητήν, τὴν δὲ ἀφόρητον. ὁ ἀδελφὸς ἐὰν ἀδικῇ, ἐντεῦθεν αὐτὸ μὴ λάμβανε ὅτι ἀδικεῖ (αὕτη γὰρ ἡ λαβή ἐστιν αὐτοῦ οὐ φορητή), ἀλλ᾿ ἐκεῖθεν μᾶλλον ὅτι ἀδελφός, ὅτι σύντροφος, καὶ λήψῃ αὐτὸ καθ᾿ ὃ φορητόν ἐστιν.
+** Everything has two handles, the one by which it may be carried, the other by which it cannot. If your brother acts unjustly, don't lay hold on the action by the handle of his injustice, for by that it cannot be carried; but by the opposite, that he is your brother, that he was brought up with you; and thus you will lay hold on it, as it is to be carried.
+** 43
+
+* Οὗτοι οἱ λόγοι ἀσύνακτοι· "ἐγώ σου πλουσιώτερός εἰμι, ἐγώ σου ἄρα κρείττων"· "ἐγώ σου λογιώτερος, ἐγώ σου ἄρα κρείττων". ἐκεῖνοι δὲ μᾶλλον συνακτικοί· "ἐγώ σου πλουσιώτερός εἰμι, ἡ ἐμὴ ἄρα κτῆσις τῆς σῆς κρείττων"· "ἐγώ σου λογιώτερος, ἡ ἐμὴ ἄρα λέξις τῆς σῆς κρείττων". σὺ δέ γε οὔτε κτῆσις εἶ οὔτε λέξις.
+** These reasonings are unconnected: "I am richer than you, therefore I am better"; "I am more eloquent than you, therefore I am better." The connection is rather this: "I am richer than you, therefore my property is greater than yours;" "I am more eloquent than you, therefore my style is better than yours." But you, after all, are neither property nor style.
+** 44
+
+* Λούεταί τις ταχέως· μὴ εἴπῃς ὅτι "κακῶς", ἀλλ᾿ ὅτι "ταχέως". πίνει τις πολὺν οἶνον· μὴ εἴπῃς ὅτι "κακῶς", ἀλλ᾿ ὅτι "πολύν". πρὶν ἢ γὰρ διαγνῶναι τὸ δόγμα, πόθεν οἶσθα εἰ κακῶς; οὕτως οὐ συμβήσεταί σοι ἄλλων μὲν φαντασίας καταληπτικὰς λαμβάνειν, ἄλλοις δὲ συγκατατίθεσθαι.
+** Does anyone bathe in a mighty little time? Don't say that he does it ill, but in a mighty little time. Does anyone drink a great quantity of wine? Don't say that he does ill, but that he drinks a great quantity. For, unless you perfectly understand the principle from which anyone acts, how should you know if he acts ill? Thus you will not run the hazard of assenting to any appearances but such as you fully comprehend.
+** 45
+
+* Μηδαμοῦ σεαυτὸν εἴπῃς φιλόσοφον, μηδὲ λάλει τὸ πολὺ ἐν ἰδιώταις περὶ θεωρημάτων, ἀλλὰ ποίει τὰ ἀπὸ τῶν θεωρημάτων. οἷον ἐν συμποσίῳ μὴ λέγε πῶς δεῖ ἐσθίειν, ἀλλ᾿ ἔσθιε ὡς δεῖ. μέμνησο γὰρ ὅτι οὕτως ἀφῃρήκει πανταχόθεν Σωκράτης τὸ ἐπιδεικτικὸν ὥστε ἤρχοντο πρὸς αὐτὸν βουλόμενοι φιλοσόφοις ὑπ᾿ αὐτοῦ συσταθῆναι, κἀκεῖνος ἀπῆγεν αὐτούς· οὕτως ἠνείχετο παρορώμενος. κἂν περὶ θεωρήματός τινος ἐν ἰδιώταις ἐμπίπτῃ λόγος, σιώπα τὸ πολύ· μέγας γὰρ ὁ κίνδυνος εὐθὺς ἐξεμέσαι ἃ οὐκ ἔπεψας. καὶ ὅταν εἴπῃ σοί τις ὅτι οὐδὲν οἶσθα καὶ σὺ μὴ δηχθῇς, τότε ἴσθι ὅτι ἄρχῃ τοῦ ἔργου. ἐπεὶ καὶ τὰ πρόβατα οὐ χόρτον φέροντα τοῖς ποιμέσιν ἐπιδεικνύει πόσον ἔφαγεν, ἀλλὰ τὴν νομὴν ἔσω πέψαντα ἔρια ἔξω φέρει καὶ γάλα· καὶ σὺ τοίνυν μὴ τὰ θεωρήματα τοῖς ἰδιώταις ἐπιδείκνυε, ἀλλ᾿ ἀπ᾿ αὐτῶν πεφθέντων τὰ ἔργα.
+** Never call yourself a philosopher, nor talk a great deal among the unlearned about theorems, but act conformably to them. Thus, at an entertainment, don't talk how persons ought to eat, but eat as you ought. For remember that in this manner [[Socrates]] also universally avoided all ostentation. And when persons came to him and desired to be recommended by him to philosophers, he took and recommended them, so well did he bear being overlooked. So that if ever any talk should happen among the unlearned concerning philosophic theorems, be you, for the most part, silent. For there is great danger in immediately throwing out what you have not digested. And, if anyone tells you that you know nothing, and you are not nettled at it, then you may be sure that you have begun your business. For sheep don't throw up the grass to show the shepherds how much they have eaten; but, inwardly digesting their food, they outwardly produce wool and milk. Thus, therefore, do you likewise not show theorems to the unlearned, but the actions produced by them after they have been digested.
+** 46.1–2
+
+* Ὅσα προτίθεσαι, τούτοις ὡς νόμοις ἔμμενε, ὡς ἀσεβήσων ἂν παραβῇς τι τούτων. τί δὲ ἐρεῖ τις περί σου, μὴ ἐπιστρέφου· τοῦτο γὰρ οὐκέτι ἐστὶ σόν. Εἰς ποῖον ἔτι χρόνον ἀναβάλλῃ τὸ τῶν βελτίστων ἀξιοῦν σεαυτὸν καὶ ἐν μηδενὶ παραβαίνειν τὸν αἱροῦντα λόγον; παρείληφας τὰ θεωρήματα· οἷς ἔδει συμβάλλειν συμβέβληκας. ποῖον ἔτι διδάσκαλον προσδοκᾷς, ἵνα εἰς ἐκεῖνον ὑπερθῇ τὴν ἐπανόρθωσιν ποιῆσαι τὴν σεαυτοῦ; [. . .] πᾶν τὸ βέλτιστον φαινόμενον ἔστω σοι νόμος ἀπαράβατος.
+** Whatever moral rules you have deliberately proposed to yourself abide by them as they were laws, and as if you would be guilty of impiety by violating any of them. Don't regard what anyone says of you, for this, after all, is no concern of yours. How long, then, will you put off thinking yourself worthy of the highest improvements and follow the distinctions of reason? You have received the philosophical theorems, with which you ought to be familiar, and you have been familiar with them. What other master, then, do you wait for, to throw upon that the delay of reforming yourself? [. . .] Let whatever appears to be the best be to you an inviolable law.
+** 50–51.2
+
+* Ὁ πρῶτος καὶ ἀναγκαιότατος τόπος ἐστὶν ἐν φιλοσοφίᾳ ὁ τῆς χρήσεως τῶν δογμάτων, οἷον ὁ τοῦ μὴ ψεύδεσθαι· ὁ δεύτερος ὁ τῶν ἀποδείξεων, οἷον πόθεν ὅτι οὐ δεῖ ψεύδεσθαι· τρίτος ὁ αὐτῶν τούτων βεβαιωτικὸς καὶ διαρθρωτικός, οἷον πόθεν ὅτι τοῦτο ἀπόδειξις· τί γάρ ἐστιν ἀπόδειξις, τί ἀκολουθία, τί μάχη, τί ἀληθές, τί ψεῦδος; οὐκοῦν ὁ μὲν τρίτος τόπος ἀναγκαῖος διὰ τὸν δεύτερον, ὁ δὲ δεύτερος διὰ τὸν πρῶτον· ὁ δὲ ἀναγκαιότατος καὶ ὅπου ἀναπαύεσθαι δεῖ, ὁ πρῶτος. ἡμεῖς δὲ ἔμπαλιν ποιοῦμεν· ἐν γὰρ τῷ τρίτῳ τόπῳ διατρίβομεν καὶ περὶ ἐκεῖνόν ἐστιν ἡμῖν ἡ πᾶσα σπουδή, τοῦ δὲ πρώτου παντελῶς ἀμελοῦμεν.
+** The first and most necessary topic in philosophy is that of the use of moral theorems, such as, "We ought not to lie;" the second is that of demonstrations, such as, "What is the origin of our obligation not to lie;" the third gives strength and articulation to the other two, such as, "What is the origin of this is a demonstration." For what is demonstration? What is consequence? What contradiction? What truth? What falsehood? The third topic, then, is necessary on the account of the second, and the second on the account of the first. But the most necessary, and that whereon we ought to rest, is the first. But we act just on the contrary. For we spend all our time on the third topic, and employ all our diligence about that, and entirely neglect the first.
+** 52.1–2
+
+* Ἐπὶ παντὸς πρόχειρα ἑκτέον ταῦτα·<br> <br>"Ἄγου δέ μ᾿, ὦ Ζεῦ, καὶ σὺ καὶ ἡ Πεπρωμένη,<br>ὅποι ποθ᾿ ὑμῖν εἰμι διατεταγμένος·<br>ὡς ἕψομαί γ’ ἄοκνος· ἢν δὲ μὴ θέλω<br>κακὸς γενόμενος, οὐδὲν ἧττον ἕψομαι."<br> <br>"Ὅστις δ᾿ ἀνάγκῃ συγκεχώρηκεν καλῶς,<br>σοφὸς παρ᾿ ἡμῖν καὶ τὰ θεῖ᾿ ἐπίσταται."<br> <br>"Ἀλλ’, ὦ Κρίτων, εἰ ταύτῃ τοῖς θεοῖς φίλον, ταύτῃ γινέσθω."<br>"Ἐμὲ δὲ Ἄνυτος καὶ Μέλητος ἀποκτεῖναι μὲν δύνανται, βλάψαι δὲ οὔ."
+** Upon all occasions we ought to have these maxims ready at hand:<br> <br>''Conduct me, Jove, and you, O Destiny,<br>Wherever your decrees have fixed my station.''<br> <br>''Whoever yields properly to Fate, is deemed<br>Wise among men, and knows the laws of heaven.''<br> <br>And this third:<br> <br>''O Crito, if it thus pleases the gods, thus let it be.<br>Anytus and Melitus may kill me indeed, but hurt me they cannot.''
+** 53 (the quoted maxims are: Cleanthes, fragment 527 SVF; Euripides, fragment 965.5–6 TrGF; Plato, ''Crito'' 43d & ''Apology of Socrates'' 30c–d)
+
+===''Fragments''===
+Other Roman writings contain quotes and passages purporting to come from Epictetus. Among the ''Fragments'', twenty-nine are considered genuine and another eight are considered doubtful. (There are also some Roman anthologies of quotes dating from around the 6th-century which list over one-hundred Epictetus 'quotations'. These [https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0236%3Atext%3Dfrag%3Abook%3D0 later fragments] appear in 18th and 19th century translations of Epictetus, but are now rejected by modern scholarship.)
+
+====Genuine fragments====
+* Ψυχάριον εἶ βαστάζον νεκρόν, ὡς Ἐπίκτητος ἔλεγεν.
+** You are a little soul carrying a corpse around, as Epictetus used to say.
+** Fragment 26 ([https://en.wikisource.org/wiki/Epictetus,_the_Discourses_as_reported_by_Arrian,_the_Manual,_and_Fragments/Fragments Oldfather translation]). This fragment originates from Marcus Aurelius, ''Meditations'', IV. 41.
+
+{{Disputed begin}}
+====Doubtful fragments====
+* Οὔτε ναῦν ἐξ ἑνὸς ἀγκυρίου οὔτε βίον ἐκ μιᾶς ἐλπίδος ἁρμοστέον.
+** We ought neither to fasten our ship to one small anchor nor our life to a single hope. 
+** Fragment 30 ([https://en.wikisource.org/wiki/Epictetus,_the_Discourses_as_reported_by_Arrian,_the_Manual,_and_Fragments/Fragments Oldfather translation])
+
+* Τῶν ἡδέων τὰ σπανιώτατα γινόμενα μάλιστα τέρπει.
+** Those of our pleasures which come most rarely give the greatest delight. 
+** Fragment 33 ([https://en.wikisource.org/wiki/Epictetus,_the_Discourses_as_reported_by_Arrian,_the_Manual,_and_Fragments/Fragments Oldfather translation])
+
+* Οὐδεὶς ἐλεύθερος ἑαυτοῦ μὴ κρατῶν.
+** No man is free who is not master of himself.
+** Fragment 35 ([https://en.wikisource.org/wiki/Epictetus,_the_Discourses_as_reported_by_Arrian,_the_Manual,_and_Fragments/Fragments Oldfather translation])
+{{Disputed end}}
+
+{{Misattributed begin}}
+
+==Misattributed==
+*The greater the difficulty, the more glory in surmounting it. Skilful pilots gain their reputation from storms and tempests.
+**This quote is frequently attributed to Epictetus, e.g. by Brigid Delaney, ''[https://www.theguardian.com/commentisfree/2020/mar/18/remaining-calm-in-adversity-what-stoicism-can-teach-us-during-the-coronavirus-pandemic How not to panic during the coronavirus pandemic: welcome hard times like a Stoic]'', The Guardian, 17 March 2020. The quote is also frequently attributed to [[Epicurus]]. In fact this quotation first appears as two separated sentences in "[https://books.google.com/books?id=C1tkNyJWuwEC&pg=PA175 An Essay on the Vindication of Epicurus and his Doctrine]" (1712) by [[w:Charles de Saint-Évremond|Charles de Saint-Évremond]]: "the greater the difficulty the more glory in surmounting it. ... Skilful pilots gain their reputation from storms and tempests."
+
+*Other people’s views and troubles can be contagious. Don’t sabotage yourself by unwittingly adopting negative, unproductive attitudes through your associations with others.
+**This quote is frequently attributed to Epictetus, e.g. by Brigid Delaney, ''[https://www.theguardian.com/lifeandstyle/2023/nov/22/stoicism-book-news-brigid-delaney Six ways to make your life easier and more peaceful – by using stoic principles]'', The Guardian, 22 November 2023. This quotation originates from the 1995 book: ''The Art of Living: the classic manual on virtue, happiness, and effectiveness'', page 23, by Sharon Lebell, a book which "interprets" Epictetus.
+
+* You become what you give your attention to.
+** This quote has been attributed to Epictetus since around 2016. (e.g. in this [https://web.archive.org/web/20220321040332/https://www.thephilosophyofeverything.com/blog/2016/6/30/the-philosophy-of-attention thephilosophyofeverything blog].) Sometimes appears in an extended form, e.g. by [https://web.archive.org/web/20230611010209/https://dailystoic.com/you-become-what-you-give-your-attention-to/ The Daily Stoic]: "You become what you give your attention to. If you yourself don't choose what thoughts and images you expose yourself to, someone else will." These quotations originate from the 1995 book: ''The Art of Living: the classic manual on virtue, happiness, and effectiveness'', pages 52–53, by Sharon Lebell.
+
+* Tentative efforts lead to tentative outcomes. Therefore, give yourself fully to your endeavors. Decide to construct your character through excellent actions, and determine to pay the price for a worthy goal. The trials you encounter will introduce you to your strengths. Remain steadfast... and one day you will build something that endures, something worthy of your potential.
+** Has been ascribed to Epictetus since the late 1990s, (e.g. [https://books.google.com/books?id=7SBbAAAAYAAJ&q=%22Therefore,+give+yourself+fully+to+your+endeavors%22 The Nassau Herald (1999), page 220]). The first sentence ("Tentative efforts lead to tentative outcomes") appears in the 1995 book: ''The Art of Living: the classic manual on virtue, happiness, and effectiveness'', page 39, by Sharon Lebell.
+
+* Don't explain your philosophy. Embody it.
+** Has been ascribed to Epictetus since around 2016, (e.g. on [https://web.archive.org/web/20180925074300/https://dailystoic.com/stoic-quotes/ this Daily Stoic web page]). It may be an attempt to summarise the start of [https://en.wikisource.org/wiki/Epictetus,_the_Discourses_as_reported_by_Arrian,_the_Manual,_and_Fragments/Manual#46 Enchiridion 46]: "On no occasion call yourself a philosopher, and do not, for the most part, talk among laymen about your philosophic principles, but do what follows from your principles."
+
+{{Misattributed end}}
+
+== Quotes about Epictetus ==
+* Οὔτε συνέγραψα ἐγὼ τοὺς Ἐπικτήτου λόγους οὕτως ὅπως ἄν τις συγγράψειε τὰ τοιαῦτα οὔτε ἐξήνεγκα εἰς ἀνθρώπους αὐτός, ὅς γε οὐδὲ συγγράψαι φημί. ὅσα δὲ ἤκουον αὐτοῦ λέγοντος, ταῦτα αὐτὰ ἐπειράθην αὐτοῖς ὀνόμασιν ὡς οἷόν τε ἦν γραψάμενος ὑπομνήματα εἰς ὕστερον ἐμαυτῷ διαφυλάξαι τῆς ἐκείνου διανοίας καὶ παρρησίας. ἔστι δὴ τοιαῦτα ὥσπερ εἰκὸς ὁποῖα ἄν τις αὐτόθεν ὁρμηθεὶς εἴποι πρὸς ἕτερον, οὐχ ὁποῖα ἂν ἐπὶ τῷ ὕστερον ἐντυγχάνειν τινὰς αὐτοῖς συγγράφοι.
+** I have not composed these [[w:Discourses of Epictetus|Words of Epictetus]] as one might be said to "compose" books of this kind, nor have I of my own act published them to the world; indeed, I acknowledge that I have not "composed" them at all. But whatever I heard him say I used to write down, word for word, as best I could, endeavouring to preserve it as a memorial, for my own future use, of his way of thinking and the frankness of his speech. They are, accordingly, as you might expect, such remarks as one man might make off-hand to another, not such as he would compose for men to read in after time.
+** {{w|Arrian}}, [https://en.wikisource.org/wiki/Epictetus,_the_Discourses_as_reported_by_Arrian,_the_Manual,_and_Fragments/Book_1#cite_ref-1 Prefatory letter to Lucius Gellius on The Discourses (Oldfather translation)]
+
+* The manner in which Epictetus, [[Michel_de_Montaigne|Montaigne]], and Salomon de Tultie wrote, is the most usual, the most suggestive, the most remembered, and the oftener quoted; because it is entirely composed of thoughts born from the common talk of life.
+** Note: Salomon de Tultie was a pseudonym adopted by Pascal as the author of the ''Provincial Letters''.
+** [[Blaise Pascal]], [[Blaise_Pascal#Pens.C3.A9es_.281669.29|Pensées]], [http://www.gutenberg.org/files/18269/18269-h/18269-h.htm#p_18 18] (1669).
+
+* The phenomenon of the [[will]] [in Epictetus ] [...] a different mental ability whose chief characteristic is that it speaks an imperative even when it commands ''nothing'' but our ability to think. The goal is to annihilate reality insofar it concerns me.
+** [[Hannah Arendt]], [https://yewtu.be/watch?v=cXH9KyU8v0M Lecture on Thinking]
+
+* Epictetus is a thinker we cannot forget, once we have encountered him, because he gets under our skin. He provokes and he irritates, but he deals so trenchantly with life’s everyday challenges that no one who knows his work can simply dismiss it as theoretically invalid or practically useless. In times of stress, as modern Epictetans have attested, his recommendations make their presence felt.
+** {{w|A. A. Long}}, ''Epictetus: A Stoic and Socratic Guide to Life'', page 1. Oxford University Press
+
+== External links ==
+{{wikipedia}}
+* [http://www.iep.utm.edu/e/epictetu.htm Epictetus] at The Internet Encyclopedia of Philosophy
+* [http://classics.mit.edu/Epictetus/discourses.html Discourses] at The Internet Classics Archive
+* [http://theosophy.org/tlodocs/teachers/Epictetus.htm Epictetus] at Theosophy Library Online
+* [http://www.san.beck.org/Epictetus.html The Encheiridion] online
+* [http://epictetus.org/ Epictetus Research]
+
+{{Ancient Greek schools of philosophy}}
+
+[[Category:Philosophers from Greece]]
+[[Category:Stoics]]
+[[Category:1st century births]]
+[[Category:2nd century deaths]]
+[[Category:Slaves]]

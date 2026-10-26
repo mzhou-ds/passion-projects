@@ -1,0 +1,853 @@
+[[File:Aristotle. Line engraving by P. Fidanza after Raphael Sanzio Wellcome V0000205.jpg|thumb|In all things of nature there is something of the marvelous.]]
+[[File:Johann Jakob Dorner d Ä (attr) Aristoteles.jpg|thumb|Practical life is not necessarily directed toward other people, as some think; and it is not the case that practical thoughts are only those which result from action for the sake of what ensues. On the contrary, much more practical are those mental activities and reflections which have their goal in themselves and take place for their own sake.]]
+[[File:Aristotle Theophrastus Strato Lebiedzki Rahl.jpg|thumb|That which is desirable on its own account and for the sake of knowing it is more of the nature of wisdom than that which is desirable on account of its results.]]
+[[File:Aristotle Altemps Inv8575.jpg|thumb|right|The [[greatest]] thing by far is to have a command of [[metaphor]]. This alone cannot be imparted by another; it is the mark of [[genius]], for to make good metaphors implies an [[eye]] for resemblances.]]
+[[File:Aristoteles Louvre.jpg|thumb|right|[[Piety]] requires us to [[honor]] [[truth]] above our [[friends]].]]
+'''[[w:Aristotle|Aristotle]]''' (Ἀριστοτέλης ''Aristotelēs''; [[384 BC]] – [[322 BC]]) was a Greek [[philosopher]] and [[polymath]] during the [[w:Classical Greece|Classical period]] in [[w:Ancient Greece|Ancient Greece]]. Taught by [[Plato]], he was the teacher of [[Theophrastus]] and founder of the [[w:Lyceum (Classical)|Lyceum]], the [[w:Peripatetic school|Peripatetic school]] of [[philosophy]], and the [[w:Aristotelianism|Aristotelian]] tradition. His writings cover many subjects including [[w:Physics (Aristotle)|physics]], [[biology]], [[zoology]], [[metaphysics]], [[logic]], [[ethics]], [[aesthetics]], [[w:Poetics (Aristotle)|poetry]], [[theatre]], [[music]], [[rhetoric]], [[psychology]], [[linguistics]], [[economics]], [[politics]], [[w:meteorology|meteorology]], [[w:History of geology|geology]] and [[government]]. Aristotle provided a complex synthesis of the various philosophies existing prior to him. It was above all from his teachings that [[w:Western civilization|the West]] inherited its intellectual [[w:lexicon|lexicon]], as well as problems and methods of inquiry. As a result, his philosophy has exerted a unique influence on almost every form of knowledge in the West and it continues to be a subject of contemporary philosophical discussion.
+
+:'''''See also [[Politics (Aristotle)]]'''''
+
+== Quotes ==
+:<small>''Quotations from Aristotle are often cited by [[w:Bekker numbers|Bekker numbers]], which are keyed to the original Greek and therefore independent of the translation used. In this lemma quotes are arranged by Bekker numbers (as far as possible).''</small>
+*Philosophy is the science of truth.
+
+* My lectures are published and not published; they will be intelligible to those who heard them, and to none beside.
+** Letter to [[Alexander the Great]] as quoted by [[William Whewell]], ''[[History of the Inductive Sciences]]'' (1837), Ch. 2, Sect. 2<!-- ; possibly a story invented and circulated by those who found Aristotle's work beyond their comprehension. --> 
+
+* [[w:Nature does not do anything in vain|Nature does not do anything in vain]].
+
+=== ''Categories'' ===
+:<small>''[[:w:Categories (Aristotle)|Categories]]'' (Greek Κατηγορίαι Katēgoriai; Latin ''Categoriae'')</small> 
+
+* Of things said without any combination, each signifies either [[substance]] or [[quantity]] or [[qualification]] or a [[relative]] or [[where]] or [[time|when]] or [[place|being-in-a-position]] or [[Ownership|having]] or [[doing]] or [[being affected]]. To give a rough idea, examples of substance are man, horse; of quantity: four-foot, five-foot; of qualification: white, grammatical; of a relative: double, half, larger; of where: in the Lyceum, in the market-place; of when: yesterday, last-year; of being-in-a-position: is-lying, is sitting; of having: has-shoes-on, has-armour-on; of doing: cutting, burning; of being-affected: being-cut, being-burned.
+** 1b25-2a10; {{w|J. L. Ackrill}} (tr.), 1984-1995
+
+=== On Interpretation ===
+{{expand}}
+regarding the [[w:Square of opposition]]
+
+=== Prior Analytics ===
+{{expand}}
+regarding the [[w:syllogism|syllogism]] and [[w:deductive reasoning|deductive reasoning]]
+
+=== ''Posterior Analytics'' ===
+:<small>''{{w|Posterior Analytics}}'' (Greek: Ἀναλυτικὰ Ὕστερα; Latin: ''Analytica Posteriora'')</small> 
+
+* Knowledge of the fact differs from knowledge of the reason for the fact.
+** [[s:Organon_(Owen)/The_Posterior_Analytics/Book_1#Chapter_13|I.13]], 78a.22
+
+* The premises of demonstrative knowledge must be true, primary, immediate, more knowable than and prior to the conclusion, which is further related to them as effect to cause... The premises must be the cause of the conclusion, more knowable than it, and prior to it; its causes, since we possess scientific knowledge of a thing only when we know its cause; prior, in order to be causes; antecedently known, this antecedent knowledge being not our mere understanding of the meaning, but knowledge of the fact as well. Now 'prior' and 'more knowable' are ambiguous terms, for there is a difference between what is prior and more knowable in the order of being and what is prior and knowable to man. I mean that objects nearer to sense are prior and more knowable to man; objects without qualification prior and more knowable are those further from sense. Now the most universal causes are furthest from sense and particular causes are nearest to sense, and they are thus exactly opposed to each other.
+** [[s:Organon_(Owen)/The_Posterior_Analytics/Book_1#Chapter_2|I.2]], 71b.9 sqq
+
+* We may assume the superiority ''ceteris paribus'' [all things being equal] of the demonstration which derives from fewer postulates or hypotheses—in short from fewer premisses; for... given that all these are equally well known, where they are fewer knowledge will be more speedily acquired, and that is a [[wiktionary:desideratum#Noun|desideratum]]. The argument implied in our contention that demonstration from fewer assumptions is superior may be set out in universal form...
+** [[s:Organon_(Owen)/The_Posterior_Analytics/Book_1#Chapter_25|Book I, Part 25]]
+** Also known as [[w:Occam's razor|Occam's razor]] or the principle of [[wiktionary:parsimony#Noun|parsimony]] / economy (''lex parsimoniae'')
+** [[w:Richard McKeon|Richard McKeon]] (tr.) (1963), p. 150
+
+=== ''Physics'' ===
+:<small>''[[:w:Physics (Aristotle)|The Physics]]'' (Greek: Φυσικὴ ἀκρόασις Phusike akroasis; Latin: ''Physica'', or ''Physicae Auscultationes'', meaning "lectures on nature"), 184a–267b26, as translated by [[w:Thomas Taylor (neoplatonist)|Thomas Taylor]], ''The Physics, or Physical Ausculation of Aristotle'' (1806) unless otherwise noted.</small>
+{{See also|Aristotelian physics}} 
+
+* The science which has to do with nature clearly concerns itself for the most part with bodies and magnitudes and their properties and movements, but also with the principles of this sort of substance, as many as they may be.
+** ''On the Heavens'' Book I, pg. 1 ([[w:3rd Century BC|350 BCE]])
+
+* The natural way of doing this [seeking scientific knowledge or explanation of fact] is to start from the things which are more knowable and obvious to us and proceed towards those which are clearer and more knowable by nature; for the same things are not 'knowable relatively to us' and 'knowable' without qualification. So in the present inquiry we must follow this method and advance from what is more obscure by nature, but clearer to us, towards what is more clear and more knowable by nature. Now what is to us plain and obvious at first is rather confused masses, the elements and principles of which became known to us by later analysis...
+** A.1, 184a.16 sqq, [http://classics.mit.edu//Aristotle/physics.html source:], Book I, Part 1, Tr. R. P. Hardie, R. K. Gaye.
+
+* But it is better to assume principles less in number and finite, as [[Empedocles]] makes them to be. All philosophers... make principles to be contraries... (for [[Parmenides]] makes principles to be hot and cold, and these he demominates fire and earth) as those who introduce as principles the rare and the dense. But [[Democritus]] makes the principles to be the solid and the void; of which the former, he says, has the relation of being, and the latter of non-being. ...it is necessary that principles should be neither produced from each other, nor from other things; and that from these all things should be generated. But these requisites are inherent in the first contraries: for, because they are first, they are not from other things; and because they are contraries, they are not from each other.
+** Book I, Ch. VI, pp. 53-55.
+
+* It is necessary that every thing which is harmonized, should be generated from that which is void of harmony, and that which is void of harmony from that which is harmonized. ...But there is no difference, whether this is asserted of harmony, or of order, or composition... the same reason will apply to all of these.
+** Book I, Ch. VI, p. 57.
+
+* [T]he ancient philosophers... all of them assert that the elements, and those things which are called by them principles, are contraries, though they establish them without reason, as if they were compelled to assert this by truth itself. They differ, however... that some of them assume prior, and others posterior principles; and some of them things more known according to reason, but others such as are more known according to sense: for some establish the hot and the cold, others the moist and the dry, others the odd and the even, and others strife and friendship, as the causes of generation. ...in a certain respect they assert the same things, and speak differently from each other. They assert different things... but the same things, so far as they speak analogously. For they assume principles from the same co-ordination; since, of contraries, some contain, and others are contained.
+** Book I, Ch. VI, pp. 57-59.
+
+* [U]niversal is known according to reason, but that which is particular, according to sense...
+** Book I, Ch. VI, p. 59.
+
+* This opinion... appears to be ancient... that the ''one, excess and defect'', are the principles of things... It is not... probable that there are more than three principles... [E]ssence is one certain genus of being: so that principles will differ from each other in prior and posterior alone, but not in genus, for in one genus there is always one contrariety, and all contrarieties appear to be referred to one. That there is neither one element, therefore, nor more than two or three, is evident.
+** Book I, Ch. VII, pp. 62-63.
+
+* [T]he first philosophers, in investigating the truth and the nature of things, wandered, as if led by ignorance, into a certain... path. Hence, they say that no being is either generated or corrupted, because it is necessary that what is generated should be generated either from being or non-being: but both these are impossible; for neither can being be generated, since it already is; and from nothing, nothing can be generated... And thus... they said that there were not many things, but that being alone had a subsistence. ...the ancient philosophers ...through this ignorance added so much to their want of knowledge, as to fancy that nothing else was generated or had a being; but they subverted all generation.
+** Book I, Ch. IX, pp. 73-76.
+
+* [A]ll things as subsist from nature appear to contain in themselves a principle of motion and permanency; some according to place, others according to increase and diminuation; and others according to change in quality.
+** Book II, Ch. I, p. 88.
+
+* According to one mode... nature is thus denominated, viz. the first subject matter to every thing which contains in itself the principle of motion and mutation. But after another mode it is denominated form, which subsists according to definition: for as art is called that which subsists according to art, and that which is artificial; so likewise nature is both called that which is according to nature, and that which is natural. ...that which is composed from these is not nature, but consists from nature; as, for instance, man. And this is nature in a greater degree than matter: for every thing is then said to be, when it is form in energy... ''entelecheia'', rather than when it is incapacity.
+** Book II, Ch. I, pp. 93-94.
+
+* [L]et us consider, with respect to causes, what they are, and how many there are in number... this also must be done by us in discoursing concerning generation and corruption, and all physical mutation... knowing the principles of these...<br />Cause... is after one manner said to be that, from which, being inherent, something is produced... But after another manner cause is form and paradigm (and this is the definition of the essence of a thing) and the genera of this. ...But it happens... that there are also many causes of the same thing, and this is not from accident. ...seed, a physician, he who consults, and, in short, he who makes, are all of them causes, as that whence the principle of mutation, or permanency, or motion is derived. ...It is, however, necessary always to investigate the supreme cause of every thing ...Further still, it is necessary to investigate the genera of genera; and the particulars of particulars... We should also explore the capacities of the capabilities, and the energizers of the things affected by energy.
+** Book II, Ch. III, pp. 107-113.
+
+* Fortune... and chance, are said to be in the number of causes... [W]ith some it is dubious whether these things have subsistence or not. For, say they, nothing is produced from fortune, but there is a definite cause of all such things... For if fortune were any thing, it would truly appear to be absurd; and some one might doubt why no one of the ancient wise men, when assigning the causes of generation and corruption, has ever defined any thing concerning fortune. ...[M]any things are produced, and have a subsistence, from fortune and chance... They did not, however, think that fortune was any thing belonging to friendship or strife, or fire, or intellect, or any thing else of things of this kind. They are chargeable, therefore, with absurdity, whether they did not conceive that it had a substance, or whether fancying that it had, they omitted it; especially since it was sometimes employed by them. Thus [[Empedocles]] says that the air...{{center/s}}''Thus it then chanc'd to run, tho' varying oft.''{{center/e}}He also says that the greater part of... animals were generated by fortune. But there are some who assign chance to the cause of this heaven, and of all mundane natures... [W]e must consider... whether chance or fortune are the same... or different from each other, and how they fall into definite causes.
+** Book II, Ch. IV, pp. 113-115.
+
+* [S]ince causes are four in number, to know them all is the business of the natural philosopher, who also referring to the cause ''why'' a thing is to all of them, viz. to matter, form, that which moves, and for the sake of which a thing subsists, physically assigns a reason. Frequently, however, three of these causes pass into one: for the cause why a thing is, and that for the sake of which it is, are one. But that which motion first originates, is in species the same with these...  [T]here are three treatises; once concerning that which is immoveable; another concerning that which is moved, indeed, but is incorruptible; and a third concerning corruptible natures. So the cause of why a thing is, is assigned by him who refers to matter, to essence, and to the first mover... But there are two principles which are naturally motive; of which, one is not physical, because it does not contain in itself  the principle of motion. And if there is any thing which moves without being moved, it is of this kind; as is that which is perfectly immoveable, that which is the first of all things, together with essence and form: for it is the end, and that for the sake of which a thing subsists. So that since nature is for the sake of something, it is also necessary to know this cause.
+** Book II, Ch. VII, pp. 124-126.
+
+* Since... nature is a principle of motion and mutation... it is necessary that we should not be ignorant of what motion is... But motion appears to belong to things continuous; and the infinite first presents itself to the view in that which is continuous. ...[F]requently ...those who define the continuous, employ the nature or the infinite, as if that which is divisible to infinity is continuous.
+** Book III, Ch. I, pp. 135-136.
+
+* [I]t is impossible for motion to subsist without place, and void, and time.
+** Book III, Ch. I, p. 136.
+
+* There is... something which is in energy only; and there is something which is both in energy and capacity. ...of relatives, one is predicated as according to excess and defect: another according to the effective and passive, and, in short, the motive, and that which may be moved... Motion, however, has not a substance separate from things... But each of the categories subsists in a twofold manner in all things. Thus... one thing pertaining to it is form, and another privation. ...So the species of motion and mutation are as many as those of being. But since in every genus of things, there is that which is in [[w:Potentiality and actuality|entelecheia]], and that which is in capacity; motion is the entelecheia of that which is in capacity... That there is energy, therefore, and that a thing then happens to be moved, when this energy exists, and neither prior nor posterior to it, is manifest. ... [N]either motion nor mutation can be placed in any other genus; nor have those who have advanced a different opinion concerning it spoken rightly. ...for by some motion is said to be difference, inequality, and non-being; though it is not necessary that any of these should be moved... Neither is mutation into these, nor from these, rather than from their opposites. ...The cause, however, why motion appears to be indefinite, is because it can neither be simply referred to the capacity, nor to the energy of beings. ...[I]t is difficult to apprehend what motion is: for it is necessary to refer it either to privation, or to capacity, or to simple energy; but it does not appear that it can be any of these. The above-mentioned mode, therfore remains, viz. that it is a certain energy; but... difficult to be perceived, but which may have a subsistence.
+** Book III, Ch. I, pp. 137-147.
+
+* Since the science of nature is conversant with magnitudes, motion, and time, each of which must necessarily be either infinite or finite...[we] should speculate the infinite, and consider whether it is or not; and if it is what it is. ...[A]ll those who appear to have touched on a philosophy of this kind... consider it as a certain principle of beings. Some, indeed, as the [[Pythagoras|Pythagoreans]] and [[Plato]], consider it, ''per se'', not as being an accident to any thing else, but as having an essential subsistence... the Pythagoreans... consider the infinite as subsisting in sensibles; for they do not make number to be separate; and they assert that what is beyond the heavens is infinite; but Plato says that beyond the heavens there is not any body, nor ideas, because these are no where: he affirms, however, that the infinite is both in sensibles, and in ideas. ...Plato establishes two infinities, viz. the great and the small.
+** Book III, Ch. IV, pp. 150-152.
+
+* All those... who discourse concerning nature, always subject a certain other nature of... elements, to the infinite... But no one of those who make the elements to be finite introduces infinity. Such, however, as make infinite elements, as [[Anaxagoras]] and [[Democritus]], say that the infinite is continuous by contact. ...Rationally, too, do all philosophers consider the infinite as a principle; for it cannot be in vain, nor can any other power be present with it than that of a principle: for all things are either the principle, or from the principle; but of the infinite there is no principle, since otherwise it would have an end. ...it is also unbegotten and uncorruptible, as being a certain principle: for... end is the corruption of everything. ...It likewise appears to comprehend and govern all things, as those assert who do not introduce other causes beside the infinite... It would seem also that this is divine: for it is immortal and indestructible, as [[Anaximander]] says, and most of the physiologists.
+** Book III, Ch. IV, pp. 152-155.
+
+* [B]ecause that which is finite is always bounded with reference to something... it is necessary that there should be no end... [N]umber also appears to be infinite, and mathematical magnitudes, and that which is beyond the heavens. And since that which is beyond is infinite, body also appears to be infinite, and it would seem that there are infinite worlds; for why is there rather void here than there? ...If also there is a vacuum, and an infinite place, it is necessary that there should be an infinite body: for in things which have a perpetual subsistence, capacity differs nothing from being. The speculation of the infinite is, however, attended with doubt: for many impossibilities happen both to those who do not admit that it has a subsistence, and to those who do. ...It is ...especially the province of a natural philosopher to consider if there be a sensible infinite magnitude.
+** Book III, Ch. V, p. 156.
+
+* [T]hey pronounce absurdly who thus speak, as the [[Pythagoras|Pythagoreans]] assert: for at the same time they make the infinite to be essence, and distribute it into parts.
+** Book III, Ch. VI, p. 158.
+
+* [I]t is impossible that each of the elements should be infinite. For that is body which has interval on all sides; and that is infinite which has extension without bound.
+** Book III, Ch. VII, p. 159.
+
+* [I]t's gravity is the cause; and that which is heavy abides in the middle, and the earth is in the middle: in like manner also, the infinite will abide in itself, through some other cause... and will itself support itself. ...[T]he places of the whole and the part are of the same species; as of the whole earth and a clod, the place is downward; and of the whole of fire, and a spark, the place is upward. So that if the place of the infinite is in itself, there will be the same place also of a part of the infinite.
+** Book III, Ch. VII, p. 162.
+
+* [H]ow will one part of the infinite be above, and another below? Or how will it have extremes or a middle? Further still, every sensible body is in place; but the species and differences of place are upward and downward, before and behind, to the right hand and to the left: and these things not only thus subsist with relation to us, and by position, but have a definite subsistence in the universe itself. But it is impossible that these things should be in the infinite: and... that there should be an infinite place. But every body is in place; and therefore it is also impossible that there should be an infinite body. ...[T]herefore ...there is not an infinite body in energy.
+** Book III, Ch. VII, pp. 163-164.
+
+* [T]he infinite is in capacity. That, however, which is infinite in capacity is not to be assumed as that which is infinite in energy. ...[I]t has its being in capacity, and in division and diminution. ...[I]t is always possible to assume something beyond it. It does not, however, on this account surpass every definite magnitude; as in division it surpasses every definite magnitude, and will be less.
+** Book III, Ch. VIII, pp. 164-166.
+
+* [[Plato]]... introduces two infinities, because both in increase and diminution there appears to be transcendency, and a progression to infinity. Though... he did not use them: for neither is there infinity in numbers by diminution or division; since unity is a minimum: nor by increase; for he extends number as far as to the decad.
+** Book III, Ch. VIII, p. 167.
+
+* The infinite... happens to subsist in a way contrary to what is asserted by others: for the infinite is not that beyond which there is nothing, but it is that of which there is always something beyond. ...But that pertaining to which there is nothing beyond is perfect and whole. ...that of which nothing is absent pertaining to the parts ...the whole is that pertaining to which there is nothing beyond. But that pertaining to which something external is absent, that is not all ...But nothing is perfect which has not an end; and the end is a bound. On this account... [[Parmenides]] spoke better than [[Melissus of Samos|Melissus]]: for the latter says that the infinite is a whole; but the former, that the whole is finite, and equally balanced from the middle: for to conjoin the infinite with the universe and the whole, is not to connect line with line.
+** Book III, Ch. IX, pp. 168-169.
+
+=== ''On the Heavens'' ===
+:<small>''{{w|On the Heavens}}'' (Greek: Περὶ οὐρανοῦ, Latin: ''De Caelo'' or ''De Caelo et Mundo''), 268a1 - 313b23</small> 
+
+* The bodies of which the world is composed are solids, and therefore have three dimensions. Now, three is the most perfect number,—it is the first of numbers, for of ''one'' we do not speak as a number, of ''two'' we say both, but ''three'' is the first number of which we say ''all''. Moreover, it has a beginning, a middle, and an end.
+** I. 1. as translated by [[William Whewell]] and as quoted by [[Florian Cajori]], ''A History of Physics in its Elementary Branches'' (1899) as Aristotle's proof that the world is perfect.
+
+* The least initial deviation from the truth is multiplied later a thousandfold.
+** I.5. 271b8-10. This line begins the Prologue of [[Mortimer J. Adler]]’s book, ''Ten Philosophical Mistake''s
+
+* ...suppose &alpha; without weight, but &beta; possessing weight; and let &alpha; pass over space &gamma;&delta;, but &beta; in the same time pass over a space &gamma;&epsilon;,—for that which has weight will be carried through the larger space. If now the heavy body be divided in the proportion that space &gamma;&epsilon; bears to &gamma;&delta;, ... and if the whole is carried through the whole space &gamma;&epsilon;, then it must be that a part in the same time would be carried through &gamma;&delta;...
+** Book III Ch. II as quoted by Florian Cajori (1899), as Aristotle's explanation of why bodies fall quicker in exact proportion to their weight.
+
+* That body is heavier than another which, in an equal bulk, moves downward quicker.
+** IV. 1. as quoted by [[Florian Cajori]] (1899)
+
+=== ''[[w:On the Soul|De Anima]]'' ===
+
+* Sound is the motion of that which is able to be moved, after the manner in which those things are moved, that rebound from smooth bodies, when any one strikes them. Not every thing... sounds... but it is necessary, that the body which is struck should be equable, that the air may collectively rebound, and be shaken. The differences, however, of bodies which sound, are manifested in the sound, which is in energy; for, as colours are not perceived without light, so neither are the sharp and the flat perceived without sound. But these things are asserted metaphorically, from those which pertain to the touch; for the sharp moves the sense much in a short time, but the flat a little in a long time. The sharp, therefore, is not rapid, and the flat slow; but such a motion is produced of the one, on account of [[wiktionary:celerity#Noun|celerity]], and of the other on account of slowness, that, also, which is perceived in the touch, appears to be analogous to the acute and obtuse, for the acute, as it were, stings; but the obtuse, as it were, impels: because the one moves in a short, but the other in a long time.  Hence it happens that the one is swift but the other slow. Let it therefore be thus determined concerning sound.
+** Book II: On the soul; In:  Aristotle (1808). ''Works,'' Vol. 4. p. 62 (''412a-424b'')
+
+* It is not necessary to ask whether soul and body are one, just as it is not necessary to ask whether the wax and its shape are one, nor generally whether the matter of each thing and that of which it is the matter are one. For even if one and being are spoken of in several ways, what is properly so spoken of is the actuality.
+** ''De Anima'' ii 1, 412b6–9: About the {{w|Mind–body problem}}
+
+* But voice is a certain sound of that which is animated; for nothing inanimate emits a voice; but they are said to emit a voice from [[wiktionary:similitude#Noun|similitude]], as a pipe, and a lyre, and such other inanimate things, have extension, [[wiktionary:modulation#Noun|modulation]], and dialect; for thus it appears, because voice, also, has these.
+** Book II: On the soul; In:  Aristotle (1808). ''Works,'' Vol. 4. p. 63 (''412a-424b'')
+
+=== ''History of Animals'' ===
+* The male has more teeth than the female in mankind, and sheep, and goats, and swine. This has not been observed in other animals.
+** Book II, ch. III, section 13. [https://books.google.com/books?id=X7pfAAAAMAAJ&newbks=1&newbks_redir=0&dq=aristotle%20%22history%20of%20animals%22&pg=PA31#v=onepage&q=%22male%20has%20more%20teeth%20than%20the%20female%22&f=false Google Books]
+
+=== ''Parts of Animals'' ===
+
+Original Greek text [[wikisource:el:Περί ζώων μορίων]],
+English translation [[wikisource:On the Parts of Animals]] by [[wikisource:Author:William Ogle]]
+
+* ''{{lang|el|καθάπερ Ἡράκλειτος λέγεται πρὸς τοὺς ξένους εἰπεῖν τοὺς βουλομένους ἐντυχεῖν αὐτῷ, οἳ ἐπειδὴ προσιόντες εἶδον αὐτὸν θερόμενον πρὸς τῷ ἰπνῷ ἔστησαν (ἐκέλευε γὰρ αὐτοὺς εἰσιέναι θαρροῦντας· εἶναι γὰρ καὶ ἐνταῦθα θεούς), οὕτω καὶ πρὸς τὴν ζήτησιν περὶ ἑκάστου τῶν ζῴων προσιέναι δεῖ μὴ δυσωπούμενον ὡς ἐν ἅπασιν ὄντος τινὸς φυσικοῦ καὶ καλοῦ.}}''
+** Every realm of nature is marvellous: and as [[Heraclitus]], when the strangers who came to visit him found him warming himself at the furnace in the kitchen and hesitated to go in, is reported to have bidden them not to be afraid to enter, as even in that kitchen divinities were present, so we should venture on the study of every kind of animal without distaste; for each and all will reveal to us something natural and something beautiful.
+** Book I, Part 5
+
+*The brain is not responsible for any of the sensations.. the correct view [is] that the seat and source of sensation is the region of the heart….the motions of pleasure and pain, and generally all sensation plainly have their source in the heart.
+** Book II, Part 10
+
+* The essential nature (concerning the soul) cannot be corporeal, yet it is also clear that this soul is present in a particular bodily part, and this one of the parts having control over the rest (heart).
+** Parva Naturalia 467b.13–16
+
+=== ''Generation of Animals'' ===
+* Nature flies from the [[infinite]], for the infinite is unending or imperfect, and Nature ever seeks an end.
+** Book I, 715b.15
+
+* Nature makes nothing in vain.
+** Book II, Ch. 5
+
+* Concerning the generation of animals akin to them, as hornets and wasps, the facts in all cases are similar to a certain extent, but are devoid of the extraordinary features which characterize bees; this we should expect, for they have nothing divine about them as the bees have.
+** Book III, 761a.2
+
+* Just as it sometimes happens that deformed offspring are produced by deformed parents, and sometimes not, so the offspring produced by a female are sometimes female, sometimes not, but male, because the female is as it were a deformed male.
+** ''Generation of Animals'' as translated by Arthur Leslie Peck (1943), p. 175
+
+=== ''Metaphysics'' ===
+[[File:Plato Aristotle della Robbia OPA Florence.jpg|thumb|right|The [[wise]] man must not be ordered but must [[order]], and he must not [[obey]] another, but the less wise must obey him.]]
+
+* Music directly represents the passion of the soul. If one listens to the wrong kind of music, he will become the wrong kind of person.
+** Aristotle, ''Complete works of Aristotle, Vol. I''
+
+* [[All]] men by [[nature]] [[desire]] to [[know]]. An indication of this is the [[delight]] we take in our [[senses]]; for even apart from their usefulness they are loved for themselves; and above all others the sense of [[sight]]. For not only with a view to action, but even when we are not going to do anything, we prefer sight to almost everything else. The reason is that this, most of all the senses, makes us know and brings to light many differences between things. 
+** [[s:Metaphysics_(Ross,_1908)/Book_1|Metaphysics Book I, 980a.21]]: Opening paragraph of ''Metaphysics''
+** Variant: All men by nature desire knowledge.
+** The first sentence is in the ''Oxford Dictionary of Scientific Quotations'' (2005), 21:10
+
+*But as more arts were invented, and some were directed to the necessities of life, others to recreation, the inventors of the latter were naturally always regarded as wiser than the inventors of the former, because their branches of knowledge did not aim at utility. ... This is why the mathematical arts were founded in Egypt; for there the priestly caste was allowed to be at leisure.
+** Book A(I).1 981b20-24
+*** See also [[Charles Sanders Peirce]] ''The Scientific Attitude and Fallibilism''
+
+* For it is owing to their [[wonder]] that men both now begin and at first began to philosophize; they wondered originally at the obvious difficulties, then advanced little by little and stated difficulties about the greater matters, e.g. about the phenomena of the moon and those of the sun and of the stars, and about the genesis of the universe. And a man who is puzzled and wonders thinks himself ignorant (whence even the lover of myth is in a sense a lover of Wisdom, for the myth is composed of wonders); therefore since they philosophized order to escape from ignorance, evidently they were pursuing science in order to know, and not for any utilitarian end. &mdash; Metaphysics by Aristotle &ndash; Book 1, ClassicalWisdom.com 
+** Variant: [And] one who experiences a difficulty and who feels wonder thinks that he does not understand..., so that, if it is to escape ignorance that they have practised philosophy, then it is clearly for the sake of knowing, and not for any practical purpose, that they have pursued understanding.
+** The second sentence is in Metaphysics A 2, 928<sup>b</sup> 17&ndash;20, ''Aristotle: Metaphysics Beta: Symposium Aristotelicum,'' Michel Crubellier & Andre´ Laks, eds. (Oxford University Press, 2009), p. 4.
+
+* οὐ γὰρ δεῖν ἐπιτάττεσθαι τὸν σοφὸν ἀλλ᾽ ἐπιτάττειν, καὶ οὐ τοῦτον ἑτέρῳ πείθεσθαι, ἀλλὰ τούτῳ τὸν ἧττον σοφόν.
+** The wise man must not be ordered but must order, and he must not obey another, but the less wise must obey him.
+*** 982a.15, W. Ross, trans., ''The Basic Works of Aristotle'' (2001), p. 691.
+
+*That which is desirable on its own account and for the sake of knowing it is more of the nature of wisdom than that which is desirable on account of its results.
+** 982a16, ''Complete Works'', vol. 2, p. 1554
+
+* τὸ γὰρ αὐτὸ ἅμα ὑπάρχειν τε καὶ μὴ ὑπάρχειν ἀδύνατον τῷ αὐτῷ καὶ κατὰ τὸ αὐτό （καὶ ὅσα ἄλλα προσδιορισαίμεθ᾽ ἄν, ἔστω προσδιωρισμένα πρὸς τὰς λογικὰς δυσχερείας）: αὕτη δὴ πασῶν ἐστὶ βεβαιοτάτη τῶν ἀρχῶν: ἔχει γὰρ τὸν εἰρημένον διορισμόν. ἀδύνατον γὰρ ὁντινοῦν ταὐτὸν ὑπολαμβάνειν εἶναι καὶ μὴ εἶναι, καθάπερ τινὲς οἴονται λέγειν Ἡράκλειτον.[https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0051%3Abook%3D4%3Asection%3D1005b]
+** "It is impossible for the same attribute at once to belong and not to belong to the same thing and in the same relation"; and we must add any further qualifications that may be necessary to meet logical objections. This is the most certain of principles, since it possesses the required definition; for it is impossible for anyone to suppose that the same thing is and is not, as some imagine that Heraclitus says.
+** Book IV, 1005
+
+* πάντων γὰρ ὅσα πλείω μέρη ἔχει καὶ μὴ ἔστιν οἷον σωρὸς τὸ πᾶν.
+** The totality is not, as it were, a mere heap, but the whole is something besides the parts.
+** Book VIII, 1045a.8–10
+** Cf. [[Euclid]], ''Elements'', Book I, Common Notion 5: "τὸ ὅλον τοῦ μέρους μεῖζον. [The whole is greater than the part.]"
+
+* εἰ οὖν οὕτως εὖ ἔχει, ὡς ἡμεῖς ποτέ, ὁ θεὸς ἀεί, θαυμαστόν: εἰ δὲ μᾶλλον, ἔτι θαυμασιώτερον. ἔχει δὲ ὧδε. καὶ ζωὴ δέ γε ὑπάρχει: ἡ γὰρ νοῦ ἐνέργεια ζωή, ἐκεῖνος δὲ ἡ ἐνέργεια: ἐνέργεια δὲ ἡ καθ᾽ αὑτὴν ἐκείνου ζωὴ ἀρίστη καὶ ἀΐδιος.[https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0051%3Abook%3D12%3Asection%3D1072b]
+** If, then, God is always in that good state in which we sometimes are, this compels our wonder; and if in a better this compels it yet more. And God ''is'' in a better state. And life also belongs to God; for '''the actuality of thought is life''', and God is that actuality; and God's self-dependent actuality is life most good and eternal.
+** Book XII, 1072b.24
+
+* Those who assert that the mathematical sciences say nothing of the beautiful or the good are in error. For these sciences say and prove a great deal about them; if they do not expressly mention them, but prove attributes which are their results or definitions, it is not true that they tell us nothing about them. The chief forms of beauty are order and symmetry and definiteness, which the mathematical sciences demonstrate in a special degree.
+** Book XIII, 1078a.33
+
+===''The Ethics Of Aristotle (Vol. I)''===
+<small>Translated by Arthur L Humphreys, 1902, ([https://archive.org/details/in.ernet.dli.2015.218683 Full text multiple formats])</small>
+*Every [[art]], and every [[system]], and in like manner every [[action]] and [[purpose]] aims, it is [[thought]], at some [[Goodness|good]]; for which reason a common and by no means a bad description of the good is, ‘that at which all things aim.’ (Bk I, Ch I)
+[[File:Sheep in Dipkarpaz, Northern Cyprus.jpg|thumb|He is the best of all who [[thinks]] for himself in all things.  He, too, is [[Goodness|good]] who takes advice from a wiser. But he who neither  thinks for himself, nor [[Listening|lays to heart]] another's [[wisdom]], this is a useless man.   ~  [[Hesiod]]  ]] 
+*But it is clear there is a difference in the ends proposed: for in some cases they are activities, and in others results beyond the mere activities, and where there are certain ends beyond and beside the actions, the [[results]] are naturally superior to the [[activities]]. Now, as there are numerous kinds of actions and numerous arts and sciences, it follows that the ends are also various. Thus the end of the healing art is [[health]], of ship-building ships, of strategy victory, of economy wealth. (Bk I, Ch I)
+
+*If, then, in the sphere of action there is some one end which we desire for its own sake, and for the sake of which we desire every thing else; and if we do not choose every thing for the sake of something else, for this would go on without limit, and our  desire would be idle and futile, it is clear that this must be the [[common good|supreme good]], and the best thing of all. (Bk I, Ch I)
+
+*And surely to know what this [[Goodness|good]] is, is of great importance for the [[conduct]] of [[life]], for in that case we shall be like archers shooting at a definite mark, and shall be  more likely to do what is [[Righteousness|right]]. But, if this  is the case, we must [[try]] to [[comprehend]], in outline at least, what it is and to which of the sciences it belongs. (Bk I, Ch I)
+
+*Perhaps then we must begin with such  [[Fact|facts]] as are known to us from individual experience. It is necessary therefore that the person who is to study, with any tolerable chance of profit, the principles of [[Nobility|nobleness]] and [[justice]] and [[politics]] generally, should have received a good [[Morality|moral]] training. (Bk I, Ch II)
+
+*If a man knows what it is [[Righteousness|right]] to do, he does not require a formal reason. And a person that has been thus trained, either possesses these first principles already, or can easily acquire them. (Bk I, Ch II)
+
+*As for him who neither possesses nor can acquire them, let him take to heart the words of [[Hesiod]]: <BR>''‘ He is the best of all who [[thinks]] for himself in all things.<BR> He, too, is good who takes advice from a wiser (person).<BR> But he who neither  thinks for himself, nor lays to heart another's wisdom, this is a useless man.’''<BR> (Bk. 1, Chapter II)
+
+*Now men seem, not unreasonably, to form their notions of the supreme [[Goodness|good]] and of [[happiness]] from the lives of men. 
+
+*The majority of mankind and people who lack refinement conceive it to be [[pleasure]], and hence they approve a life of [[Sensuality|sensual]] enjoyment. (Bk. 1, Chapter III)
+
+*There are three lines of life which stand out prominently to view: the life of [[pleasure]], the [[Politics|political]] life,  and the life of [[reflection]]. 
+
+*Now the mass of mankind are plainly... choosing a life like that of brute animals...  (Bk. 1, Chapter III)
+
+*The refined and active, on the other hand, prefer [[Honor|honour]], which I suppose may be said to be the [[Results|end]] of the political life. Yet honour is plainly too [[Superficiality|superficial]] to be the object of our search, because  it appears to depend rather on those who give than on those who receive it, whereas we feel instinctively that the good must be something proper to a man, which cannot  easily be taken from him.  (Bk. 1, Chapter III)
+
+*Men seem to pursue honour in order that they may believe themselves to be good. Accordingly, they seek to be honoured by the [[wise]], and by those who know them well, and on the score of virtue; it is clear, therefore, that in their opinion at any  rate, [[virtue]] is superior to honour. Perhaps, then, one ought to say that virtue rather than honour is the end of the political life; yet even virtue is plainly too imperfect: for it seems that a man might have all the virtues and yet be asleep, or fail to achieve anything all his life; moreover, such a person may suffer the greatest evils and misfortunes. And no one, in this case, would call a man, who passed his life in this manner, happy, except for argument's sake.  (Bk. 1, Chapter III)
+
+*The third kind of life is the life of [[contemplation]] (Bk. 1, Chapter III)
+
+*As for the life of money-making, it is  one of constraint, and wealth is manifestly not the good of which we are in search, for it is only useful as a means to something else, and for this reason there is less to be said for it than for the ends mentioned before, which are, at any rate, desired for their own sakes.     (Bk. 1, Chapter III)
+
+*But it is better perhaps to examine next the [[Common good|universal good]], and to [[Enquire|enquire]] in what sense the expression is used. Though such an investigation is likely to be difficult, because the persons who have introduced these ideas are our friends. Yet it will perhaps appear the best, and indeed the right course, at least for the preservation of truth, to do away with private feelings, especially as we are [[Philosophy|philosophers]]; for since both are dear to us, we are bound to prefer the [[truth]].  (Bk. 1, Chapter III)
+
+*A person might fairly doubt also what in the world they mean by the ‘absolute’ this that or the other, since, as they would themselves allow, the account of the humanity is one and the same in the absolute man, and in any individual man: for so far as the individual and the absolute man are both man, they will not differ at all: and if so, then the essential good and any particular good will not differ, in so far as both are good. Nor will it do to say that the [[eternity]] of the absolute good makes it to be more good; for a white thing which has lasted white ever so long, is no whiter than that which only lasts for a day.   (Bk. 1, Chapter III)
+
+=== ''Nicomachean Ethics''<!--'Nicomachean Ethics' redirects here--> === 
+[[File:Scuola di atene 01.jpg|thumb| It is the mark of an [[educated]] man to look for precision in each class of things just so far as the [[nature]] of the subject admits; it is evidently equally [[foolish]] to accept [[probable]] [[reasoning]] from a [[mathematician]] and to demand from a [[rhetorician]] [[scientific]] [[proofs]].]]
+[[File:Swallow flying drinking.jpg|thumb|One [[swallow]] does not make a [[summer]], nor does one [[day]]; and so too one day, or a short [[time]], does not make a man [[blessed]] and [[happy]].]]
+
+Original Greek text [[wikisource:el:Ηθικά Νικομάχεια]], 
+English translation published in [[w:Loeb Classical Library]] 
+[https://archive.org/details/in.ernet.dli.2015.183486] 
+by [[wikisource:Author:Harris Rackham]].  
+Rackham translation also available from [[w:Perseus Digital Library]]
+[https://data.perseus.org./texts/urn:cts:greekLit:tlg0086.tlg010.perseus-eng1].
+[[wikisource:Nicomachean Ethics]] (Chase, Ross) 
+was not used because the two editions did not have [[w:Bekker numbering]].
+
+==== Book I ====
+
+* If there is some end of the things we do, which we desire for its own sake, clearly this must be the good. Will not knowledge of it, then, have a great influence on life? Shall we not, like archers who have a mark to aim at, be more likely to hit upon what we should? If so, we must try, in outline at least, to determine what it is.
+** [[s:Nicomachean_Ethics_(Ross)/Book_One#Part_2|Book I§2 1094a.18]]
+
+* '''It is the mark of an educated man to look for precision in each class of things just so far as the nature of the subject admits; it is evidently equally foolish to accept probable reasoning from a mathematician and to demand from a rhetorician scientific proofs.'''
+** Book I, 1094b.24
+
+* The life of money-making is one undertaken under compulsion, and wealth is evidently not the good we are seeking; for it is merely useful and for the sake of something else.
+** Book I, 1096a.5
+
+* '''While both are dear, Piety requires us to honor truth above our friends.'''
+** [[s:Nicomachean_Ethics_(Ross)/Book_One#Part_6|Book I chapter 6, 1096a.16]]
+
+* Life seems to be common even to plants, but we are seeking what is peculiar to man. Let us exclude, therefore, the life of nutrition and growth. Next there would be a life of perception, but it also seems to be common even to the horse, the ox, and every animal. There remains, then, an active life of the element that has a rational principle; of this, one part has such a principle in the sense of being obedient to one, the other in the sense of possessing one and exercising thought. And, as "life of the rational element" also has two meanings, we must state that life in the sense of activity is what we mean; for this seems to be the more proper sense of the term. Now if the function of man is an activity of soul which follows or implies a rational principle, and if we say "so-and-so" and "a good so-and-so" have a function which is the same in kind, e.g. a lyre, and a good lyre-player, and so without qualification in all cases, eminence in respect of goodness being added to the name of the function (for the function of a lyre-player is to play the lyre, and that of a good lyre-player is to do so well): if this is the case, and we state the function of man to be a certain kind of life, and this to be an activity or actions of the soul implying a rational principle, and the function of a good man to be the good and noble performance of these, and if any action is well performed when it is performed in accordance with the appropriate excellence: if this is the case, '''human good turns out to be activity of soul in accordance with virtue, and if there are more than one virtue, in accordance with the best and most complete.''' <br /> But we must add "in a complete life." For '''one swallow does not make a summer, nor does one day; and so too one day, or a short time, does not make a man blessed and happy.'''
+** Book I, 1098a; §7 as translated by W. D. Ross
+** Variants:
+** '''[[wikt:one swallow does not a summer make|One swallow does not a summer make.]]'''
+*** As quoted in ''A History of Ancient Philosophy: From the Beginning to Augustine'' (1998) by Karsten Friis Johansen, p. 382
+** One swallow (they say) no Sommer doth make.
+*** [[John Davies]], in ''The Scourge of Folly'' (1611)
+** One swallow yet did never summer make.
+*** As rendered by [[w:William Painter (author)|William Painter]] in ''Chaucer Newly Painted'' (1623)
+** '''One swallow does not make a spring, nor does one sunny day'''; similarly, one day or a short time does not make a man blessed and happy.
+*** As translated in ''Philosophical Grounds of Rationality: Intentions, Categories, Ends'' (1988), by Richard E. Grandy and ‎Richard Warner, p. 483
+
+* '''Let this serve as an outline of the good; for we must presumably first sketch it roughly, and then later fill in the details.''' But it would seem that any one is capable of carrying on and articulating what has once been well outlined, and that time is a good discoverer or partner in such a work; to which facts the advances of the arts are due; for any one can add what is lacking. And we must also remember what has been said before, and not look for precision in all things alike, but in each class of things such precision as accords with the subject-matter, and so much as is appropriate to the inquiry. For a carpenter and a geometer investigate the right angle in different ways; the former does so in so far as the right angle is useful for his work, while the latter inquires what it is or what sort of thing it is; for he is a spectator of the truth. '''We must act in the same way, then, in all other matters as well, that our main task may not be subordinated to minor questions. Nor must we demand the cause in all matters alike; it is enough in some cases that the fact be well established, as in the case of the first principles; the fact is the primary thing or first principle.''' Now of first principles we see some by induction, some by perception, some by a certain habituation, and others too in other ways. But each set of principles we must try to investigate in the natural way, and we must take pains to state them definitely, since they have a great influence on what follows. For the beginning is thought to be more than half of the whole, and many of the questions we ask are cleared up by it. 
+** Book I, 1098a-b; §7 as translated by W. D. Ross
+
+* For some identify happiness with virtue, some with practical wisdom, others with a kind of philosophic wisdom, others with these, or one of these, accompanied by pleasure or not without pleasure; while others include also external prosperity. Now ... it is not probable that these should be entirely mistaken, but rather that they should be right in at least some one respect or even in most respects. 
+** Book I, 1098b.23
+
+* τὸ μὲν γὰρ ἥδεσθαι τῶν ψυχικῶν, ἑκάστῳ δ᾽ ἐστὶν ἡδὺ πρὸς ὃ λέγεται φιλοτοιοῦτος... Τοῖς μὲν οὖν πολλοῖς τὰ ἡδέα μάχεται διὰ τὸ μὴ φύσει τοιαῦτ᾽ εἶναι, τοῖς δὲ φιλοκάλοις ἐστὶν ἡδέα τὰ φύσει ἡδέα: τοιαῦται δ᾽ αἱ κατ᾽ ἀρετὴν πράξεις...  Ἄριστον ἄρα καὶ κάλλιστον καὶ ἥδιστον ἡ εὐδαιμονία, καὶ οὐ διώρισται ταῦτα κατὰ τὸ Δηλιακὸν ἐπίγραμμα: “κάλλιστον τὸ δικαιότατον, λῷστον δ᾽ ὑγιαίνειν: ἥδιστον δὲ πέφυχ᾽ οὗ τις ἐρᾷ τὸ τυχεῖν."
+**For pleasure is a state of soul, and to each man that which he is said to be a lover of is pleasant.... Now for most men their pleasures are in conflict with one another because these are not by nature pleasant, but the lovers of what is noble find pleasant the things that are by nature pleasant; and virtuous actions are such... Happiness then is the best, noblest, and most pleasant thing in the world, and these attributes are not severed as in the inscription at Delos: Most noble is that which is justest, and best is health; but pleasantest is it to win what we love.
+** [https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0053%3Abekker%20page%3D1099a Book I, 1099a.6]
+** Perhaps the origin of "Happiness is the highest good".
+
+* '''Everything that depends on the action of nature is by nature as good as it can be''', and similarly everything that depends on art or any rational cause, and especially if it depends on the best of all causes. To entrust to chance what is greatest and most noble would be a very defective arrangement.
+** Book I, 1099b.22: Quoted in ''Oxford Dictionary of Scientific Quotations'' (2005), 21:8.
+
+* The truly good and wise man will bear all kinds of fortune in a seemly way, and will always act in the noblest manner that the circumstances allow.
+** Book I, 1101a
+
+* May not we then confidently pronounce that man happy who realizes complete goodness in action, and is adequately furnished with external goods? Or should we add, that he must also be destined to go on living not for any casual period but throughout a complete lifetime in the same manner, and to die accordingly, because the future is hidden from us, and we conceive happiness as an end, something utterly and absolutely final and complete? If this is so, we shall pronounce those of the living who possess and are destined to go on possessing the good things we have specified to be supremely blessed, though on the human scale of bliss.
+** Book I, 1101a.10
+
+==== Book II ====
+<!--
+https://data.perseus.org./citations/urn:cts:greekLit:tlg0086.tlg010.perseus-eng1:1103a.1
+https://data.perseus.org./citations/urn:cts:greekLit:tlg0086.tlg010.perseus-eng1:1103a.14
+https://data.perseus.org./citations/urn:cts:greekLit:tlg0086.tlg010.perseus-eng1:1103a.20
+-->
+
+* For the things we have to learn before we can do, we learn by doing.
+** Book II, 1103a.33: Cited in: ''Oxford Dictionary of Scientific Quotations'' (2005), 21:9
+
+* For legislators make the citizens good by forming habits in them, and this is the wish of every legislator, and those who do not effect it miss their mark, and it is in this that a good constitution differs from a bad one.
+** Book II, 1103b.4
+
+* .... In a word, acts of any kind produce habits or characters of the same kind. Hence we ought to make sure that our acts are of a certain kind; for the resulting character varies as they vary. It makes no small difference, therefore, whether a man be trained in his youth up in this way or that, but a great difference, or rather all the difference.
+** Book II, 1103b
+
+* It is well said, then, that it is by doing just acts that the just man is produced, and by doing temperate acts the temperate man; without doing these no one would have even a prospect of becoming good. But most people do not do these, but take refuge in theory and think they are being philosophers and will become good in this way, behaving somewhat like patients who listen attentively to their doctors, but do none of the things they are ordered to do.
+** Book II, 1105b.9
+
+* Again, it is possible to fail in many ways (for evil belongs to the class of the unlimited ... and good to that of the limited), while to succeed is possible only in one way (for which reason also one is easy and the other difficult&mdash;to miss the mark easy, to hit it difficult); for these reasons also, then, excess and defect are characteristic of vice, and the mean of virtue; For men are good in but one way, but bad in many.
+** Book II, 1106b.28
+
+* ''{{lang|el|ἔστιν ἄρα ἡ ἀρετὴ ἕξις προαιρετική, ἐν μεσότητι οὖσα τῇ πρὸς ἡμᾶς, ὡρισμένῃ λόγῳ καὶ ᾧ ἂν ὁ φρόνιμος ὁρίσειεν. μεσότης δὲ δύο κακιῶν, τῆς μὲν καθ᾽ ὑπερβολὴν τῆς δὲ κατ᾽ ἔλλειψιν:}}''
+** Virtue then is a settled disposition of the mind as regards the choice of actions and feelings, consisting essentially in the observance of the mean relative to us, this being determined by principle, that is, as the prudent man would determine it. And it is a mean state between two vices, one of excess and one of defect.
+** Book II, [[wikisource:el:Ηθικά Νικομάχεια/2#1106b|1106b]].28-1107a.3. Rackham [https://archive.org/details/in.ernet.dli.2015.183486/page/94/mode/2up], [https://data.perseus.org./citations/urn:cts:greekLit:tlg0086.tlg010.perseus-eng1:1106b.20].
+** On [[w:Golden mean (philosophy)#Aristotle]].
+
+* The vices respectively fall short of or exceed what is right in both passions and actions, while virtue both finds and chooses that which is intermediate. 
+** Book II, 1107a.4
+**Variant:  Some vices miss what is right because they are deficient, others because they are excessive, in feelings or in actions, while virtue finds and chooses the mean.
+
+* In cases of this sort, let us say adultery, rightness and wrongness do not depend on committing it with the right woman at the right time and in the right manner, but the mere fact of committing such action at all is to do wrong.
+** Book II, 1107a.15
+
+* οὕτω δὲ καὶ τὸ μὲν ὀργισθῆναι παντὸς καὶ ῥᾴδιον, καὶ τὸ δοῦναι ἀργύριον καὶ δαπανῆσαι· τὸ δ᾽ ᾧ καὶ ὅσον καὶ ὅτε καὶ οὗ ἕνεκα καὶ ὥς, οὐκέτι παντὸς οὐδὲ ῥᾴδιον
+** ''' Any one can get angry — that is easy — or give or spend money; but to do this to the right person, to the right extent, at the right time, with the right motive, and in the right way, that is not for every one, nor is it easy.'''
+** Book II, 1109a.27.
+** Variant translation: '''Anybody can become angry, that is easy; but to be angry with the right person, and to the right degree, and at the right time, for the right purpose, and in the right way, that is not within everybody's power and is not easy.'''
+*** As quoted in ''The Child: At Home and School'' (1944) by Edith M. Leonard, Lillian E. Miles, and Catherine S. Van der Kar, p. 203
+
+* κατὰ τὸν δεύτερον, φασί, πλοῦν τὰ ἐλάχιστα ληπτέον τῶν κακῶν
+** We must as second best, as people say, take the least of the evils.
+** Book II, 1109a.34 (cf. ''Nicomachean Ethics'', 1131b: ἔστι γὰρ τὸ ἔλαττον κακὸν μᾶλλον αἱρετὸν τοῦ μείζονος [the lesser of two evils is more desirable than the greater])
+
+==== Book III ====
+<!--
+https://data.perseus.org./citations/urn:cts:greekLit:tlg0086.tlg010.perseus-eng1:1109b.20
+https://data.perseus.org./citations/urn:cts:greekLit:tlg0086.tlg010.perseus-eng1:pos=33.30
+https://data.perseus.org./citations/urn:cts:greekLit:tlg0086.tlg010.perseus-eng1:1110a.1
+-->
+
+* Therefore only an utterly senseless person can fail to know that '''our characters are the result of our conduct'''.
+** Book III, 5.12
+**''Variant'': Now not to know that it is from the exercise of activities on particular objects that states of character are produced is the mark of a thoroughly senseless person.
+
+* '''What it lies in our power to do, it lies in our power not to do.'''
+** Book III, 5
+
+==== Book VII ====
+
+* μεταβολὴ δὲ πάντων γλυκύ
+** Change in all things is sweet.
+** Book VII, 14
+** Remark: While this quote is known as Aristotle's, he did not propose it as his own saying, but as a citation from another author. The full text is: "But 'change in all things is sweet', as the poet says, because of some vice."
+
+==== Book VIII ====
+
+* ἄνευ γὰρ φίλων οὐδεὶς ἕλοιτ᾽ ἂν ζῆν, ἔχων τὰ λοιπὰ ἀγαθὰ πάντα
+** Without friends no one would choose to live, though he had all other goods.
+** Book VIII, 1155a.5
+
+* '''When people are friends, they have no need of justice, but when they are just, they need friendship in addition.'''
+** Book VIII, 1155a.26
+
+==== Book IX ====
+
+* The best friend is he that, when he wishes a person's good, wishes it for that person's own sake.
+** Book IX, 1168b.1
+** Variants: My best friend is the man who in wishing me well wishes it for my sake. <br> '''The best friend is the man who in wishing me well wishes it for my sake.'''
+
+==== Book X ====
+
+* After these matters we ought perhaps next to discuss pleasure. For it is thought to be most intimately connected with our human nature, which is the reason why in educating the young we steer them by the rudders of pleasure and pain; it is thought, too, that to enjoy the things we ought and to hate the things we ought has the greatest bearing on virtue of character. For these things extend right through life, with a weight and power of their own in respect both to virtue and to the happy life, since men choose what is pleasant and avoid what is painful; and such things, it will be thought, we should least of all omit to discuss, especially since they admit of much dispute.
+** Book X, 1172a.17
+
+* And happiness is thought to depend on leisure; for '''we are busy that we may have leisure, and make [[war]] that we may live in [[peace]].'''
+** Book X, 1177b.4
+
+* Now the activity of the practical virtues is exhibited in political or military affairs, but the actions concerned with these seem to be unleisurely. Warlike actions are completely so (for no one chooses to be at war, or provokes war, for the sake of being at war; any one would seem absolutely murderous if he were to make enemies of his friends in order to bring about battle and slaughter); but the action of the statesman is also unleisurely, and-apart from the political action itself—aims at despotic power and honours, or at all events happiness, for him and his fellow citizens—a happiness different from political action, and evidently sought as being different. So if among virtuous actions political and military actions are distinguished by nobility and greatness, and these are unleisurely and aim at an end and are not desirable for their own sake, but the activity of reason, which is contemplative, seems both to be superior in serious worth and to aim at no end beyond itself, and to have its pleasure proper to itself (and this augments the activity), and the self-sufficiency, leisureliness, unweariedness (so far as this is possible for man), and all the other attributes ascribed to the supremely happy man are evidently those connected with this activity, it follows that this will be the complete happiness of man, if it be allowed a complete term of life.
+** Book X, 1177b.6
+
+=== ''Eudemian Ethics'' ===
+* '''Misfortune shows those who are not really [[friends]].'''
+**''{{w|Eudemian Ethics}}'', Book VII, 1238a.20
+
+=== ''Economics'' ===
+* For well-being and health, again, the homestead should be airy in summer, and sunny in winter. A homestead possessing these qualities would be longer than it is deep; and its main front would face the south.
+** [http://artflx.uchicago.edu/perseus-cgi/citequery3.pl?dbname=PerseusGreekTexts&getid=1&query=Arist.%20Oec.%201345a.20 1345a.20], ''Economics'' (''Oeconomica''), Greek Texts and Translations, Perseus under PhiloLogic.
+
+=== ''Rhetoric'' ===
+* Rhetoric is the counterpart of Dialectic. Both alike are concerned with such things as come, more or less, within the general ken of all men and belong to no definite science. Accordingly, all men make use, more or less, of both; for to a certain extent all men attempt to discuss statements and to maintain them, to defend themselves and to attack others.
+** Book I, pg. 1
+
+* It is absurd to hold that a man ought to be ashamed of being unable to defend himself with his limbs but not of being unable to defend himself with reason when the use of reason is more distinctive of a human being than the use of his limbs.
+** Book I, 1355b.1
+
+* Evils draw men together.
+** Book I, 1362b.39: quoting a proverb
+
+* Thus every action must be due to one or other of seven causes: chance, nature, compulsion, habit, reasoning, anger, or appetite. 
+** Book I, 1369a.5
+** Variant: All human actions have one or more of these seven causes: chance, nature, compulsions, habit, reason, passion and desire.
+
+* The young have exalted notions, because they have not been humbled by life or learned its necessary limitations; moreover, their hopeful disposition makes them think themselves equal to great things—and that means having exalted notions. They would always rather do noble deeds than useful ones: Their lives are regulated more by moral feeling than by reasoning.... All their mistakes are due to excess and vehemence and their neglect of the maxim of [[w:Chilon|Chilon]] [The maxim was Μηδὲν ἄγαν, Ne quid nimis, Never go to extremes.]. They overdo everything; they love too much, hate too much, and the same with everything else. And they think they know everything, and confidently affirm it, and this is the cause of their excess in everything.
+** καὶ μεγαλόψυχοι （οὐ γὰρ ὑπὸ τοῦ βίου πω τεταπείνωνται, ἀλλὰ τῶν ἀναγκαίων ἄπειροί εἰσιν, καὶ τὸ ἀξιοῦν αὑτὸν μεγάλων μεγαλοψυχία: τοῦτο δ᾽ εὐέλπιδος）. καὶ μᾶλλον αἱροῦνται πράττειν τὰ καλὰ τῶν συμφερόντων: τῷ γὰρ ἤθει ζῶσι μᾶλλον ἢ τῷ λογισμῷ, ...  καὶ ἅπαντα ἐπὶ τὸ μᾶλλον καὶ σφοδρότερον ἁμαρτάνουσι, παρὰ τὸ Χιλώνειον （πάντα γὰρ ἄγαν πράττουσιν: φιλοῦσι γὰρ ἄγαν καὶ μισοῦσιν ἄγαν καὶ τἆλλα πάντα ὁμοίως）, καὶ εἰδέναι ἅπαντα οἴονται καὶ διισχυρίζονται （τοῦτο γὰρ αἴτιόν ἐστιν καὶ τοῦ πάντα ἄγαν）
+** [http://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0060%3Abekker%20page%3D1389a Book II, 1389a.31], [http://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0060%3Abekker%20page%3D1389b 1389b]
+
+* Wit is cultured insolence.<!--John Henry Freese's translation-->
+** Book II, 1389b.11 
+
+* It is simplicity that makes the uneducated more effective than the educated when addressing popular audiences.
+** Book II, 1395b.27
+
+=== ''Poetics'' ===
+* A [[tragedy]], then, is the [[imitation]] of an [[action]]  that is serious and also, as having magnitude, complete in itself; in language ... not in a narrative form; with incidents arousing [[pity]] and [[fear]], wherewith to accomplish its [[w:catharsis|catharsis]] of such [[emotions]].
+** 1449b.24
+
+* '''A whole is that which has [[beginning]], middle, and [[end]].'''
+** 1450b.26
+
+* διὸ καὶ φιλοσοφώτερον καὶ σπουδαιότερον ποίησις ἱστορίας ἐστίν: ἡ μὲν γὰρ ποίησις μᾶλλον τὰ καθόλου, ἡ δ᾽ ἱστορία τὰ καθ᾽ ἕκαστον λέγει.
+** '''[[Poetry]] is finer and more [[philosophical]] than [[history]]; for poetry expresses the universal, and history only the particular.'''
+** 1451b.6
+
+* διὸ εὐφυοῦς ἡ ποιητική ἐστιν ἢ μανικοῦ
+** '''Poetry demands a [[man]] with a special [[gift]] for it, or else one with a touch of madness in him.'''
+** 1455a.33
+
+* But the [[greatest]] thing by far is to have a command of [[metaphor]]. This alone cannot be imparted by another; it is the mark of [[genius]], for to make [[good]] metaphors implies an [[eye]] for resemblances.
+** 1459a.4
+
+* [[Homer]] has taught all other [[poets]] the [[art]] of telling lies skillfully.
+** 1460a.19
+** Variant: It is [[Homer]] who has chiefly taught other poets the art of telling lies skillfully.
+
+* '''For the [[purposes]] of poetry a convincing impossibility is preferable to an unconvincing possibility.'''
+** 1461b.11
+
+=== ''The Lives and Opinions of Eminent Philosophers'' ===
+:<small>[[Diogenes Laërtius]], [https://books.google.com/books?id=9-YFAAAAQAAJ&printsec=frontcover ''The Lives and Opinions of Eminent Philosophers'']. Literally translated by C. D. Yonge; Henry G. Bohn, 1853. [Dicta attributed to Aristotle in ''The Lives and Opinions of Eminent Philosophers'' by Diogenes Laërtius.]</small>
+* The roots of education ... are bitter, but the fruit is sweet.
+* I have gained this by philosophy ... I do without being ordered what some are constrained to do by their fear of the law.
+* Liars ... when they speak the truth they are not believed.
+* Hope is the dream of a waking man.
+** p. 187
+
+* A friend is one soul abiding in two bodies.
+** p. 188; also reported in various sources as:<br>Friendship is a single soul dwelling in two bodies. <br> A true friend is one soul in two bodies. <br> Love is composed of a single soul inhabiting two bodies. <br> What is a friend? A single soul dwelling in two bodies.
+
+{{disputed begin}}
+
+== Disputed ==
+[[File:Arabic aristotle cropped.jpg|thumb| Remember that [[time]] slurs over everything, lets all [[deeds]] fade, blurs all [[writings]] and kills all [[memories]]. Except are only those which dig into the hearts of men by [[love]].]]
+
+* ''[[w:Amicus Plato, sed magis amica veritas|Amicus Plato, sed magis amica veritas]].''
+**''' [[Plato]] is dear to me, but dearer still is truth.'''
+** Variant: Plato is my friend, but the truth is more my friend.
+** A similar statement was attributed to Aristotle in antiquityː "Φίλος μὲν Σωκράτης, ἀλλὰ φιλτέρα ἀλήθεια." ["[[Socrates]] is a friend, but truth is a greater."] — [[w:Ammonius Hermiae|Ammonius Hermiae]], ''Life of Aristotle'' (as translated in [http://archive.org/details/dictionaryquota02harbgoog ''Dictionary of Quotations''] (1906) by Thomas Benfield Harbottle, p. 527). The variant mentioned above may possibly be derived from a reduction of a statement known to have been made by [[Isaac Newton]], who at the head of notes he titled ''Quaestiones Quaedam Philosophicae'' (''Certain Philosophical Questions'') wrote in Latin: ''"Amicus Plato— amicus Aristoteles— magis amica veritas"'' which translates to: "'''Plato is my friend— Aristotle is my friend— but my greatest friend is truth.'''" (c. 1664)
+** Another possible origin of the "dear is Plato" statement is in the ''Nicomachean Ethics''; the Ross translation (of 1096a.11–1096a.16) provides:'' "We had perhaps better consider the universal good and discuss thoroughly what is meant by it, although such an inquiry is made an uphill one by the fact that the Forms have been introduced by friends of our own. Yet it would perhaps be thought to be better, indeed to be our duty, for the sake of maintaining the truth even to destroy what touches us closely, especially as we are philosophers; for, '''while both are dear, piety requires us to honour truth above our friends'''." ''<br> Note that the last clause, when quoted by itself loses the connection to "the friends" who introduced "the Forms", Plato above all. Therefore the misattribution could be the result of the "quote" actually being a paraphrase which identifies Plato where Aristotle only alludes to him circumspectly.
+** According to the notes in ''Plato: Republic Book X'', edited by John Ferguson, p. 71, «the familiar 'amicus Plato sed magis amica veritas' is found in [[Cervantes]]' ''Don Quixote'' II 8 and cannot be traced further back. Cf. Roger Bacon ''Op. mai.'' I vii, '<i>amicus est Socrates, magister meus, sed magis est amica veritas</i>'. For the opposite view, see [[Cicero]], ''[[w:Tusculanae Disputationes|T.D.]]'' I 17,39, '<i>errare mehercule malo cum Platone . . . quam cum istis vera sentire</i>'.»
+
+* The single harmony produced by all the heavenly bodies singing and dancing together springs from one source and ends by achieving one purpose, and has rightly bestowed the name not of "disordered" but of "ordered universe" upon the whole.
+** [[w:Pseudo-Aristotle|Pseudo-Aristotle]], ''[[w:On the Universe|De Mundo]]'', [https://archive.org/stream/worksofaristotle03arisuoft#page/n181/mode/2up/search/heavenly 399a]
+
+* '''Remember that time slurs over everything, let all deeds fade, blurs all writings and kills all memories. Except are only those which dig into the hearts of men by love.'''
+** "The Letter of Aristotle to Alexander on the Policy toward the Cities", translated from ''Lettre d'Aristote à Alexandre sur la politique envers les cités'', an Arabic text translated and edited by Józef Bielawski and Marian Plezia (1970), p. 72; translated from an ancient Greek text that survived only in Arabic translation, there is little acceptance that this is an authentic letter of Aristotle.
+
+* It is the mark of an educated mind to be able to entertain a thought without accepting it.
+** Attributed to Aristotle in [[w:Lowell L. Bennion|Lowell L. Bennion]], [http://books.google.gr/books?id=2HPUAAAAMAAJ&q= ''Religion and the Pursuit of Truth''], Deseret Book Company, 1959, p. 52, and in [http://books.google.gr/books?id=irofAQAAMAAJ&q= ''American Opinion'', Volume 24], [[w:Robert W. Welch, Jr.|Robert Welch, Inc.]], 1981, p. 23. [http://publicnoises.blogspot.fi/2009/02/aristotle-and-accuracy.html Possibly a discombobulation] of the Nicomachean Ethics Book I, 1094b.24 quote above.
+
+* Man is a goal-seeking animal. His life only has meaning if he is reaching out and striving for goals.
+** Attributed to Aristotle in Bernhoff A. Dahl, [http://books.google.gr/books?id=B1Z2XP_DamQC&dq= ''Optimize Your Life!''], Trionics International Inc., 2005, p. 111.
+
+* '''Happiness depends upon ourselves'''
+** An interpretative gloss of Aristotle's position in ''Nicomachean Ethics'' book 1 section 9, tacitly inserted by J. A. K. Thomson in his English translation ''The Ethics of Aristotle'' (1955). The original Greek at [https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0053%3Abekker%20page%3D1099b Book I 1099b.29]<!--Used to say http://perseus.uchicago.edu/perseus-cgi/citequery3.pl?dbname=GreekFeb2011&getid=0&query=Arist.%20Eth.%20Nic.%201099b.25 but this no longer works.-->, reads ὁμολογούμενα δὲ ταῦτ' ἂν εἴη καὶ τοῖς ἐν ἀρχῇ, which  W. D. Ross translates fairly literally as ''[a]nd this will be found to agree with what we said at the outset''. Thomson's much freer translation renders the same passage thus: ''[t]he conclusion that happiness depends upon ourselves is in harmony with what I said in the first of these lectures''; the words "that happiness depends upon ourselves" were added by Thomson to clarify what "the conclusion" is, but they do not appear in the original Greek of Aristotle.<ref>See http://www.mikrosapoplous.gr/aristotle/nicom1b.htm#I9 for the original Greek and Ross's translation;  Thomson's translation can be viewed on [https://books.google.com/books?id=9SFrNWmO654C&dq=%22happiness+depends+upon+ourselves%22+aristotle&focus=searchwithinvolume&q=%22happiness+depends+upon+ourselves%22+ Google Books].</ref> Rackham's earlier English translation added a similar gloss, but averted confusion by confining it to a footnote.<ref>Rackham's translation of this passage is available [http://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0054%3Abook%3D1%3Achapter%3D9%3Asection%3D8 here]</ref>
+
+*What is the essence of life? To serve others and to do good.
+**Often given as a saying of Aristotle with no reference.
+{{disputed end}}
+
+{{Misattributed begin}}
+
+==Misattributed==
+* We are what we repeatedly do. Excellence, then, is not an act, but a habit.
+** Variant: We are what we repeatedly do, therefore excellence is not an act, but a habit.
+** Source: [[Will Durant]], ''The Story of Philosophy: The Lives and Opinions of the World's Greatest Philosophers'' (1926), reprinted in Simon & Schuster/Pocket Books, 1991, {{ISBN|0-671-73916-6}}], Ch. II: Aristotle and Greek Science; part VII: Ethics and the Nature of Happiness: "Excellence is an art won by training and habituation: we do not act rightly because we have virtue or excellence, but we rather have these because we have acted rightly; 'these virtues are formed in man by his doing the actions'; we are what we repeatedly do. Excellence, then, is not an act but a habit: 'the good of man is a working of the soul in the way of excellence in a complete life... for as it is not one swallow or one fine day that makes a spring, so it is not one day or a short time that makes a man blessed and happy'" (p. 76). The quoted phrases within the quotation are from the ''Nicomachean Ethics,'' Book II, 4; Book I, 7.  The misattribution is from taking Durant's summation of Aristotle's ideas as being the words of Aristotle himself.
+
+* The aim of art is to represent not the outward appearance of things, but their inward significance.
+** Source: [[Will Durant]], ''The Story of Philosophy: The Lives and Opinions of the World's Greatest Philosophers'' (1926), reprinted in Simon & Schuster/Pocket Books, 1991, {{ISBN|0-671-73916-6}}], Ch. II: Aristotle and Greek Science; part VI: Psychology and the Nature of Art: "Artistic creation, says Aristotle, springs from the formative impulse and the craving for emotional expression. Essentially the form of art is an imitation of reality; it holds the mirror up to nature. There is in man a pleasure in imitation, apparently missing in lower animals. Yet the aim of art is to represent not the outward appearance of things, but their inward significance; for this, and not the external mannerism and detail, is their reality."
+
+* We live in deeds, not years; in thoughts not breaths; // In feelings, not in figures on a dial. // We should count time by heart throbs. He most lives // Who thinks most, feels the noblest, acts the best.
+** This is actually from the poem "We live in deeds..." by [[Philip James Bailey]].  This explains the strange pattern of capitalization.
+
+* The worst form of inequality is to try to make unequal things equal. (Whilst a paraphrase this is based on Aristotle's writings as Aristotle stated "For instance, it is thought that justice is equality, and so it is, though not for everybody but only for those who are equals; and it is thought that inequality is just, for so indeed it is, though not for everybody, but for those who are unequal" in https://www.loebclassics.com/view/aristotle-politics/1932/pb_LCL264.211.xml Politics, III. V. 8.
+** This quote has been misattributed to Aristotle for a long time. A translation of the "Politics" of [[Heinrich von Treitschke]] published in 1916 (Dugden and De Bille) refers to "the time-honored truth, laid down by Aristotle, that the greatest wrong is to equalize the unequal." The wording presented above first appears in 1974 in an explanation of Aristotle's politics in ''Time'' magazine, before being condensed to an epigram as "Aristotle's Axiom" in ''Peter's People'' (1979) by [[Laurence J. Peter]]
+
+* There is only one way to avoid criticism: do nothing, say nothing and be nothing.
+** Source: [[Elbert Hubbard]], ''Little Journeys to the Homes of American Statesmen'' (1898), [http://hdl.handle.net/2027/osu.32435065322687?urlappend=%3Bseq=458 p. 370]: "If you would escape moral and physical assassination, do nothing, say nothing, be nothing—court obscurity, for only in oblivion does safety lie."  Other versions of the saying were repeated in several of Hubbard's later writings.
+
+* Suffering becomes beautiful when anyone bears great calamities with cheerfulness, not through insensibility but through greatness of mind.
+** Widely attributed since the mid to late 19th century, this apparently derives from a gloss or commentary on the following passage from Aristotle's ''Nicomachean Ethics'' (c. 325 BC), Book 1, Ch. XI (Bekker No. 1100b.13–14):
+*** ὅμως δὲ καὶ ἐν τούτοις διαλάμπει τὸ καλόν, ἐπειδὰν φέρῃ τις εὐκόλως πολλὰς καὶ μεγάλας ἀτυχίας, μὴ δι᾽ ἀναλγησίαν, ἀλλὰ γεννάδας ὢν καὶ μεγαλόψυχος. εἰ δ᾽ εἰσὶν αἱ ἐνέργειαι κύριαι τῆς ζωῆς, καθάπερ εἴπομεν, οὐδεὶς ἂν γένοιτο τῶν μακαρίων ἄθλιος
+**** But nevertheless, even in these [misfortunes], nobility of the soul is conspicuous, when a man bears and digests many and great misfortunes, not from insensibility, but because he is high spirited and magnanimous. But if the energies are the things that constitute the bliss or the misery of life, as we said, no happy man can ever become miserable.
+***** ''A New Translation of the Nicomachean Ethics of Aristotle'' (1835), 3rd. ed., Oxford: J. Vincent. p. 30
+**** Nevertheless even under these [misfortunes] the force of nobility shines out, when a man bears calmly many great disasters, not from insensibility, but because he is generous and of a great soul. Setting happiness then, as we do, not in the outward surroundings of man, but in his inward state, we may fairly say that no one who has attained to the bliss of virtue will ever justly become an object of pity or contempt.
+***** St. George William Joseph Stock, ''Lectures in the Lyceum or Aristotle's ethics for English readers'' (1897), p. 47
+
+* Those who can, do, those who cannot, teach.
+** This and many similar quotes with the same general meaning are misattributed to Aristotle as a result of Twitter attribution decay. The original source of the quote remains anonymous. The oldest reference resides in the works of George Bernard Shaw, ''[[Man and Superman]]'' (1903): "Maxims for Revolutionists", where he claims that "He who can, does. He who cannot, teaches.".
+** However, the related quote, "'''Those who can, do. Those who understand, teach'''" likely originates from Lee Shulman<ref>Shulman, L. S. (1986). Those who understand: Knowledge growth in teaching. ''Educational Researcher'', ''15''(2), 4 - 14. Stable URL: http://www.jstor.org/stable/1175860</ref> in his explanation of Aristotlean views on professional mastery:
+   Aristotle, whose works formed the heart of the medieval curriculum, made these observations in Metaphysics (cited in Wheelwright, 1951):
+   "We regard master-craftsmen as superior not merely because they have a grasp of theory and know the reasons for acting as they do. Broadly speaking, what distinguishes the man who knows from the ignorant man is an ability to teach, and this is why we hold that art and not experience has the character of genuine knowledge (episteme)--namely, that artists can teach and others (i.e., those who have not acquired an art by study but have merely picked up some skill empirically) cannot." . . .
+   "With Aristotle we declare that the ultimate test of understanding rests on the ability to transform one's knowledge into teaching. Those who can, do. Those who understand, teach."
+
+* Humour is the only test of gravity, and gravity of humour. For a subject which would not bear raillery is suspicious; and a jest which would not bear a serious examination is certainly false wit.
+** [[Anthony Ashley-Cooper, 3rd Earl of Shaftesbury]], ''Sensus Communis: An Essay on the Freedom of Wit and Humour'' (1709), Part 1, Sec. 5,  incorrectly attributing it to Gorgias via Aristotle.
+
+* Tolerance and apathy are the last virtues of a dying society.
+** Not in any of Aristotle's extant works. [https://sententiaeantiquae.com/2018/09/29/racists-use-this-fake-quote-from-aristotle/]
+
+{{Misattributed end}}
+
+==Quotes about Aristotle==
+[[File:Helena Petrovna Blavatsky.jpg|thumb|Aristotle was no trustworthy witness. He misrepresented Plato, and he almost caricatured the doctrines of Pythagoras. There is a canon of interpretation, which should guide us in our examinations of every philosophical opinion: "The human mind has, under the necessary operation of its own laws, been compelled to entertain the same fundamental ideas, and the human heart to cherish the same feelings in all ages." ~ [[H.P. Blavatsky]]]]
+[[File:Portrait of Aristotle, set on a restored bust, Colosseum.jpg|thumb|He penetrated into the whole [[universe]] of things, and subjected its scattered [[wealth]] to [[intelligence]]; and to him the greater number of the [[philosophical]] [[sciences]] owe their origin and distinction. ~ [[Georg Wilhelm Friedrich Hegel]] ]]
+[[File:The School of Aristotle (The Lyceum) (7263536048).jpg|thumb|Most expositions of Aristotle's [[doctrines]], when they have not been dictated by a [[spirit]] of virulent detraction, or unsympathetic indifference, have carefully suppressed all, or nearly all, the [[absurdities]], and only retained what seemed plausible and consistent. But in this procedure their [[historical]] [[significance]] disappears. ~ [[George Henry Lewes]] ]]
+[[File:Porträt des Aristoteles.JPG |thumb|Aristotle's [[logical]] [[writings]] show [[great]] [[ability]], and would have been useful to [[mankind]] if they had appeared at a time when [[intellectual]] originality was still active. Unfortunately, they appeared at the very [[end]] of the creative period of [[Greek]] [[thought]], and therefore came to be [[accepted]] as [[authoritative]]. By the time that logical originality revived, a reign of two thousand years had made Aristotle very difficult to dethrone. Throughout modern times, practically every advance in [[science]], in logic, or in [[philosophy]] has had to be made in the teeth of opposition from Aristotle's disciples. ~ [[Bertrand Russell ]] ]]
+[[File:The School of Aristotle (The Lyceum) (7263511120).jpg|thumb|"Man is a [[political]] [[animal]]", said Aristotle, telling one of the greatest [[lies]] in [[human]] [[history]]. Man has more in common with the hills, or with the [[stars]], than with other men. ~ [[Colin Wilson]] ]]
+[[File:Aristotle_and_Phyllis.jpg|thumb|200px|ONCE upon a time, Aristotle taught [[Alexander the Great|Alexander]] that he should restrain himself from frequently approaching his wife, who was very beautiful, lest he should impede his spirit from seeking the general good. Alexander acquiesed to him. The queen, when she perceived this and was upset, began to draw Aristotle to love her. Many times she crossed paths with him alone, with bare feet and disheveled hair, so that she might entice him. <br> At last, being enticed, he began to solicit her carnally. She says, <br> "This I will certainly not do, unless I see a sign of love, lest you be testing me. Therefore, come to my chamber crawling on hand and foot, in order to carry me like a horse. Then I'll know that you aren't deluding me." <br> When he had consented to that condition, she secretly told the matter to Alexander, who lying in wait apprehended him carrying the queen. When Alexander wished to kill Aristotle, in order to excuse himself, Aristotle says, <br> If thus it happened to me, an old man most wise, that I was deceived by a woman, you can see that I taught you well, that it could happen to you, a young man." <br> Hearing that, the king spared him, and made progress in Aristotle's teachings. ~ Anonymous, [http://www2.latech.edu/~bmagee/201/phyllis/phyllis.htm ''Phyllis and Aristotle''].]]
+
+===A===
+
+* I was very fortunate. I was curious and handicapped as a young person. And so I read everything I could get my hands on and I have a good memory. And I have a lot of energy. It's a blessing. So I continued to learn. I'm hungry for knowledge still. Not every young person is blessed or visited with that combination. So he or she desperately needs to go to a university and be introduced to some of the great ideas of humankind. One needs to worry over the question of "Why am I here, what am I doing here of all things in this place, this life?" One needs to know Aristotle and Plato. One needs it desperately. One must have Leopold and Pascal. Must! I mean desperately, if one is to be at ease anywhere. One should have read the African folk tale to see what the West African calls deep thinking. One must worry over ideas that if I come forward how far do we have to go before we meet? And when we meet will I go through you and you go through me and continue until we meet someone else? This is an African concept. Do we stay once we meet or do I actually go right through you and pass through you and continue on that road. Is that what life is? All this knowledge is available at universities and one is more likely to run into a great teacher at a university than one is at a pool hall. It just follows.
+** [[Maya Angelou]], 1986 interview in ''Conversations with Maya Angelou'' (1989)
+
+* Once upon a time, Aristotle taught [[Alexander the Great|Alexander]] that he should restrain himself from frequently approaching his wife, who was very beautiful, lest he should impede his spirit from seeking the general good. Alexander acquiesed to him. The queen, when she perceived this and was upset, began to draw Aristotle to love her. Many times she crossed paths with him alone, with bare feet and disheveled hair, so that she might entice him. <br> At last, being enticed, he began to solicit her carnally. She says, <br> "This I will certainly not do, unless I see a sign of love, lest you be testing me. Therefore, come to my chamber crawling on hand and foot, in order to carry me like a horse. Then I'll know that you aren't deluding me." <br> When he had consented to that condition, she secretly told the matter to Alexander, who lying in wait apprehended him carrying the queen. When Alexander wished to kill Aristotle, in order to excuse himself, Aristotle says, <br> If thus it happened to me, an old man most wise, that I was deceived by a woman, you can see that I taught you well, that it could happen to you, a young man." <br> Hearing that, the king spared him, and made progress in Aristotle's teachings. 
+** Anonymous, [http://www2.latech.edu/~bmagee/201/phyllis/phyllis.htm ''Phyllis and Aristotle''].
+
+===B===
+
+* Aristotle, notwithstanding that for political reasons of his own he maintained a prudent silence as to certain esoteric matters, expressed very clearly his opinion on the subject. It was his belief that human souls are emanations of God, that are finally re-absorbed into Divinity. (p. 13)
+** [[H.P. Blavatsky]],  [https://www.theosophy-ult.org.uk/wp-content/uploads/2013/12/isis-unveiled-vol1.pdf ''Isis Unveiled: A Master-Key to the  Mysteries of Ancient and Modern Science and Theology'', Vol. I, Before the Veil,] (1877)
+
+* [[Robert Grosseteste|Robert]] [Grosseteste] became much interested in science and scientific method... He was conscious of the dual approach by means of induction and deduction (resolution and composition); i.e., from the empirical knowledge one proceeds to probable general principles, and from these as premises one them derives conclusions which constitute verifications or falsifications of the principles. This approach to science was not that far removed from Aristotle...
+** [[Carl B. Boyer]], ''The Rainbow: From Myth to Mathematics'' (1959)
+
+===C===
+
+* Some 2,000 years ago Aristotle declared that eels were generated spontaneously from mud.
+** [[Rachel Carson]] "Chesapeake Eels Seek the Sargasso Sea" article included in ''Lost Woods: The Discovered Writing of Rachel Carson'' (1998)
+
+* [Aristotle] totally misrepresents [[Plato]]'s doctrine of "Ideas." ... It is also pertinent to inquire, what is the difference between the "formal cause" of Aristotle and the archetypal ideas of Plato? ... Yet Aristotle is forever congratulating himself that he alone has properly treated the "formal" and the "final cause"!
+** Benjamin Franklin Cocker, in ''Christianity and Greek Philosophy'' (1870), p. 299
+
+* Aristotle was the first genuine scientist in history. . . . Every scientist is in his debt.
+** ''[[w:The Encyclopædia Britannica|The Encyclopædia Britannica]]'', cited in the article: ''[http://wol.jw.org/en/wol/d/r1/lp-e/2011489 Who Made the Laws That Govern Our Universe?]''
+
+* According to Aristotle, scientific investigation and explanation was a twofold process, the first inductive and the second deductive. The investigator must begin with what was prior in the order of knowing, that is, with the facts observed through the senses, and he must ascend through induction to generalizations or universal forms or causes which were most remote from sensory experience, yet causing that experience and therefore prior in the order of nature. [Footnote:] The idea that the order of demonstration was the order of nature came from [[Plato]]. Aristotle said that the order of discovery was the reverse of the order of demonstration.
+** [[w:Alistair Cameron Crombie|A. C. Crombie]], ''Robert Grosseteste and the Origins of Experimental Science'' (1953)
+
+* The model of scientific knowledge, in which effects could be shown to follow necessarily from their causes as conclusions from premises, Aristotle held to be mathematics, and where mathematics could be used in the natural sciences their conclusions were also exact and necessary. ... Of the inductive process by which the investigator passed from sensory experience of particular facts or connexions to a grasp of the prior demonstrative principles that explained them, Aristotle gave a clear psychological account. The final stage in the process was the sudden act by which the intuitive reason or [[w:Nous|''νοῦς'']], after a number of experiences of facts, grasped the universal or theory explaining them, or penetrated to knowledge of the substance causing and connecting them.
+** [[w:Alistair Cameron Crombie|A. C. Crombie]], ''Robert Grosseteste and the Origins of Experimental Science'' (1953) citing ''Posterior Analytics'' i. I, 184<sup>a</sup>26 sqq
+
+===D===
+
+* Is the ordinary person incompetent? No judgment is more decisive for one's [[political philosophy]]. It was perhaps the single most important difference in judgment between Plato and Aristotle.
+** [[Robert A. Dahl]], ''After the Revolution?'' (1970; 1990), p. 26
+
+* It is difficult to be enthusiastic about Aristotle, because it was difficult for him to be enthusiastic about anything... He realized too completely the Delphic command to avoid excess: he is so anxious to pare away extremes that at last nothing is left. He is so fearful of disorder that he forgets to be fearful of slavery; he.is so timid of uncertain change that he prefers a certain changelessness that near resembles death. He lacks that Heraclitean sense of flux which justifies the conservative in believing that all permanent change is gradual, and justifies the radical in believing that no changelessness is permanent. He forgets that Plato's communism was meant only for the elite, the unselfish and ungreedy few; and he comes deviously to a Platonic result when he says that though property should be private, its use should be as far as possible common. He does not see (and perhaps he could not be expected in his early day to see) that individual control of the means of production was stimulating and salutary only when these means were so simple as to be purchasable by any man; and that their increasing complexity and cost lead to a dangerous centralization of ownership and power, and to an artificial and finally disruptive inequality.
+** [[Will Durant]], ''The Story of Philosophy: The Lives and Opinions of the World's Greatest Philosophers'' (1926), reprinted in Simon & Schuster/Pocket Books, 1991
+
+* From quotations I had seen I had a high notion of Aristotle's merits, but I had not the most remote notion what a wonderful man he was. [[Linnaeus]] and [[Cuvier]] have been my two gods, though in very different ways, but they were mere schoolboys to old Aristotle. 
+** [[Charles Darwin]], letter (1882) to [[w:William Ogle (physician, classicist and statistician)|William Ogle]], in [[w:Francis Darwin|Francis Darwin]] (ed.), ''Life and Letters of Charles Darwin'' (London: John Murray, 1887), Vol. III, p. 252
+
+* It is pretty definitely settled, among men competent to form a judgment, that '''Aristotle was the best educated man that ever walked on the surface of this earth'''. He is still, as he was in Dante's time, the "master of those that know." It is, therefore, not without reason that we look to him, not only as the best exponent of ancient education, but as one of the worthiest guides and examples in education generally. That we may not lose the advantage of his example, it will be well, before we consider his educational theories, to cast a glance at his life, the process of his development, and his work.
+** [[w:Thomas Davidson (philosopher)|Thomas Davidson]], in ''Aristotle and Ancient Educational Ideals'' (1892), p. 154
+
+* I sit with Shakespeare and he winces not. Across the color-line I move arm in arm with Balzac and Dumas, where smiling men and welcoming women glide in gilded halls. From out the caves of the evening that swing between the strong-limbed earth and the tracery of the stars, I summon Aristotle and Aurelius and what soul I will, and they come all graciously with no scorn nor condescension. So, wed with Truth, I dwell above the Veil. Is this the life you grudge us, O knightly America? Is this the life you long to change into the dull red hideousness of Georgia? Are you so afraid lest peering from this high Pisgah, between Philistine and Amalekite, we sight the Promised Land?
+** [[W E B Du Bois]], ''The Souls of Black Folk''
+
+===F===
+
+* [[w:John Philoponus|John Philoponus]] (c. 490-570) of Alexandria... refuted Aristotle's theory that the velocities of falling bodies in a given medium are proportional to their weight, making the observation that "if one lets fall simultaneously from the same height two bodies differing greatly in weight, one will find that the ratio of the times of their motion does not correspond to the ratios of their weights, but the difference in time is a very small one." ...He also criticized Aristotle's ''[[w:Antiperistasis|antiperistasis]]'' theory of projectile motion, which states that the air displaced by the object flows back to push it from behind. Instead Philoponus concluded that "some incorporeal kinetic power is imparted by the thrower to the object thrown" and that "if an arrow or a stone is projected by force in a void, the same will happen much more easily, nothing being necessary except the thrower." This is the famous "[[w:Theory of impetus|impetus theory]]," which was revived in medieval Islam and again in fourteenth century Europe, giving rise to the beginning of modern dynamics.
+** [[John Freely]], ''Before Galileo: The Birth of Modern Science in Medieval Europe'' (2012)
+
+===G===
+
+* We have in our age new accidents and observations, and such, that I question not in the least, but if Aristotle were now alive, they would make him change his opinion; which may be easily collected from the very manner of his discoursing: For when he writeth that he e­steemeth the Heavens inalterable, &c. because no new thing was seen to be begot therein, or any old to be dissolved, he seems im­plicitely to hint unto us, that when he should see any such accident, he would hold the contrary; and confront, as indeed it is meet, sensible experiments to natural reason: for had he not made any reckoning of the senses, he would not then from the not seeing of any sensible mutation, have argued immutability. 
+** [[Galileo Galilei]], ''[[Dialogue Concerning the Two Chief World Systems]]'' (1632)  as quoted in the Salusbury translation, ''[[The Systeme of the World: in Four Dialogues]]'' (1661) p. 37
+
+* I do believe for certain, that he [Aristotle] first procured, by the help of the senses, such experiments and observations as he could, to assure him as much as was possible of the conclusion, and that he afterwards sought out the means how to demonstrate it; for this is the usual course in demonstrative sciences. And the reason thereof is, because when the conclusion is true, by the help of the [[wiktionary:wiki/resolutive|resolutive]] method, one may hit upon some proposition before demonstrated, or come to some principle known ''per se''; but if the conclusion be false, a man may proceed ''in infinitum'', and never meet with any truth already known.
+** [[Galileo Galilei]], ''[[Dialogue Concerning the Two Chief World Systems]]'', [[The Systeme of the World: in Four Dialogues#The First Dialogue|Salusbury translation]] (1661) p. 37 as quoted by [[Edwin Arthur Burtt]], ''[[The Metaphysical Foundations of Modern Physical Science]]'' (1925)
+
+* The group of philosophical ideas that concerns us has been called ''essentialism'' by [[Karl Popper|Popper]], who has traced the impact of [[Plato]]'s metaphysics on political thinking down to modern times. Even before Plato, Greek philosophy began to experience difficulties in dealing with change. If things grew, or passed away, they seem somehow unreal, suggesting that they belonged only to a world of appearances. [[Heraclitus]], in adopting the notion that material things are illusory, maintained that all that really exists  is "fire"—that is, process. ...To Plato, true reality exists in the essence, Idea, or ''[[w:Theory of forms|eidos]]''. ...In the hands of Aristotle, essentialist metaphysics became somewhat altered. ...[H]e held that [essences] did not exist apart from things. His works embraced the concepts of [[teleology]], empiricism, and natural science... to understand a thing was to know its essence, or to define it. ...A true system of knowledge thus became essentially a classification scheme... Plato and Aristotle... both embraced the notion that ideas or classes are more than just abstractions—that is... both advocated forms of "[[Philosophical realism|realism]]." ...Aristotle ...advocated heirarchical classification... classes were differentiated... by properties held in common... An implication, of enormous historical importance, was that it became very difficult to classify things which change, or... grade into one another, or even to conceive or to discuss them. Indeed, the very attempt to reason in terms of essences almost forces one to ignore everything dynamic or transitory. One could hardly design a philosophy better suited to predispose one toward dogmatic reasoning and static concepts. The [[Charles Darwin|Darwinian]] revolution thus depended upon the collapse of  the Western intellectual tradition.<!--pp. 50-52-->
+** {{w|Michael Ghiselin}}, ''The Triumph of the Darwinian Method'' (1969)
+
+* Aristotle... justly reproves [[Democritus]] for saying, that if no medium were interposed, a [[wiktionary:pismire#Noun|pismire]] would be visible in the heavens; asserting, on the contrary, that if vacuity alone intervened, nothing possibly could be seen, because all vision is performed by changes or motions in the organ of sight; and all such changes or motions imply an interposed medium. Between the perceptions of the eye and of the ear there is a striking analogy. Bodies are only visible by their colour; and colour is only perceptible in light; and unless different motions were excited by light in the eye, colour and the distinctions of colour would no more be visible, than, independently of different vibrations communicated to the ear, sound, and the distinctions of sound, would be audible. When the vibrations in a given time are many, the sensation of sharpness or shrillness follows; when the vibrations are, in the same time, comparatively few, the sensation of flatness is the result: but the first sound does not excite many vibrations because it is shrill or sharp, but it is sharp because it excites many vibrations; and the second sound does not excite few vibrations because it is flat or grave, but it is grave because it excites few vibrations. 
+** [[w:John Gillies|John Gillies]], ''Aristotle's Ethics: Comprising His Practical Philosophy'' (1893)
+
+* On the authority of Aristotle... motion in the planetary world was somehow directed by the more perfect motion in higher spheres, and so on, up to the outermost sphere of fixed stars, indistinguishable from the [[w:Unmoved mover|prime mover]]. This implied a refined [[w:Animism|animistic]] and pantheistic world view, incomparably more rational than the ancient world views of Babylonians and Egyptians, among others, but a world view, nonetheless, hardly compatible with the idea of "[[w:Inertia#History and development of the concept|inertial motion]]" which is implied in [[w:Jean Buridan|Buridan's]] concept of "[[w:Theory of impetus#Buridanist impetus|impetus]]"... a momentous breaking point... which was to bear fruit... in the hands, first of [[Nicolaus Copernicus|Copernicus]] and then of [[Isaac Newton|Newton]].
+** Julio A. Gonzalo, ''The Intelligible Universe: An Overview of the Last Thirteen Billion Years'' (2008) 2nd edn
+
+* The followers of Aristotle were called [[wiktionary:peripatetic#Noun|peripatetics]] because the "master of them that know" valued the linkage between cogitation and [[wiktionary:ambulation#Noun|ambulation]] (the covered walk in Aristotle's [[w:Lyceum|Lyceum]] was a ''peripatos'').<!--p. 259-->
+** [[Stephen Jay Gould]], "Evolution by Walking",  ''Dinosaur in a Haystack: Reflections in Natural History'' (1995)
+
+* Time for us embraces a whole field of 'before and after', but Aristotle says: 'Before and after are involved in motion, but time is these so far as they are numbered' (''Phys.'' 223a28). Elsewhere he defines time as 'the ''number'' of motion in respect of before and after', and he could seriously discuss the question whether there could be time without conscious and thinking beings; 'for if there could be no one to count, there could be nothing counted. ...If nothing can count but soul, and within soul mind, there cannot be time without soul, but only the substratum of time' (ibid. 219b2, 223a22)
+** [[w:W. K. C. Guthrie|W. K. C. Guthrie]], ''A History of Greek Philosophy'' Vol. 1, "The Earlier Presocratics and the Pythagoreans" (1962)
+
+===H===
+
+* As we now know, in the evolution of the structure of human activities, profitability works as a signal that guides selection towards what makes man more fruitful; only what is more profitable will, as a rule, nourish more people, for it sacrifices less than it adds. So much was at least sensed by some Greeks prior to Aristotle. Indeed, in the fifth century - that is, before Aristotle - the first truly great historian began his history of the Peloponnesian War by reflecting how early people `without commerce, without freedom of communication either by land or sea, cultivating no more of their territory than the exigencies of life required, could never rise above nomadic life' and consequently `neither built large cities nor attained to any other form of greatness' (Thucydides, Crawly translation, 1,1,2). But Aristotle ignored this insight.<br>Had the Athenians followed Aristotle's counsel - counsel blind both to economics and to evolution - their city would rapidly have shrunk into a village, for his view of human ordering led him to an ethics appropriate only to, if anywhere at all, a stationary state. Nonetheless his doctrines came to dominate philosophical and religious thinking for the next two thousand years - despite the fact that much of that same philosophical and religious thinking took place within a highly dynamic, rapidly extending, order.(...) The anti-commercial attitude of the mediaeval and early modern Church, condemnation of interest as usury, its teaching of the just price, and its contemptuous treatment of gain is Aristotelian through and through. (...) Notwithstanding, and indeed wholly neglecting, the existence of this great advance, a view that is still permeated by Aristotelian thought, a naive and childlike animistic view of the world (Piaget, 1929:359), has come to dominate social theory and is the foundation of socialist thought.
+** [[Friedrich Hayek]], ''The Fatal Conceit'' (1988), Ch. 3:  The Evolution of the Market: Trade and Civilisation
+
+* Current scientific and philosophical usage is so deeply influenced by the Aristotelian tradition, which knows nothing of evolution, that existing dichotomies and contrasts not only usually fail to capture correctly the processes underlying the problems and conflicts discussed in chapter one, but actually hinder understanding of those problems and conflicts themselves.
+** [[Friedrich Hayek]], ''The Fatal Conceit'' (1988), Appendix A: 'Natural' Versus 'Artificial'
+
+* [A]s to the [[w:Sphere|spherical]] shape of the [[earth]]... Aristotle begins by answering an objection raised by the partisans of a flat earth... His answer is confused... He has, however, some positive proofs based on observation. (1) In partial [[eclipse]]s of the moon the line separating the bright from the dark portion is always convex (circular)—unlike the line of demarcation in the phases of the moon, which may be straight or curved in either direction—this proves that the earth, to the interposition of which lunar eclipses are due, must be spherical. ...[H]is explanation shows that he had sufficiently grasped this truth. (2) Certain stars seen above the horizon in [[Egypt]] and in [[Cyprus]] are not visible further north, and... certain stars set there which in more northern latitudes remain always above the horizon. ...[I]t follows not only that the earth is spherical, but also that it is not a very large sphere. He adds that this makes it not improbable that people are right when they say that the region about the {{w|Pillars of Heracles}} is joined on to [[India]], one sea connecting them. It is here, too, that he quotes the result arrived at by mathematicians of his time, that the circumference of the earth is 400,000 [[w:Stadion (unit)|stades]]. He is clear that the earth is much smaller than some of the stars. On the other hand, the moon is smaller than the earth. Naturally, Aristotle has ''a priori'' reasons for the sphericity of the earth. Thus, using once more his theory of heavy bodies tending to the centre, he assumes that, whether the heavy particles forming the earth are supposed to come together from all directions alike and collect in the centre or not, they will arrange themselves uniformly all round, i.e. in the shape of a sphere, since, if there is any greater mass at one part than at another, the greater mass will push the smaller until the even collection of matter all round the centre produces equilibrium.
+** [[Thomas Little Heath]], ''Aristarchus of Samos, the Ancient Copernicus'' (1913) Oxford at the Clarendon Press, Ch. XVII. Aristotle, [https://archive.org/details/aristarchusofsam00heat/page/235/mode/1up?view=theater pp. 235-237.]
+
+* If order is to be maintained in existence — and that after all is what God wills, for He is not a God of confusion — first and foremost it must be remembered that every man is an individual man, is himself conscious of being an individual man. '''If once men are permitted to coalesce into what Aristotle calls "the multitude," a characteristic of beasts, this abstraction (instead of being regarded as less than nothing, as in fact it is, less than the lowliest individual man) will be regarded as something, and no long time will elapse before this abstraction becomes God.'''
+** [[Soren Kierkegaard]], ''The Sickness Unto Death'' 1849, p. 151 Hannay
+
+* He penetrated into the whole universe of things, and subjected its scattered wealth to intelligence; and to him the greater number of the philosophical sciences owe their origin and distinction.
+** [[Georg Wilhelm Friedrich Hegel]], ''Vorlesungen über die Gesch. der Philos.'' (1833) II. 298, as quoted in ''[[Aristotle: a Chapter from the History of Science]]'' by [[George Henry Lewes]]
+
+* Unfortunately... the philosophy of Aristotle laid it down as a principle, that the celestial motions were regulated by laws proper to themselves, and bearing no affinity to those which prevail on earth. By thus drawing a broad and impassable line of separation between celestial and terrestrial mechanics, it placed the former altogether out of the pale of experimental research, while it at the same time impeded the progress of the latter by the assumption of principles respecting natural and unnatural motions, hastily adopted from the most superficial and cursory and remark, undeserving even the name of observation. Astronomy therefore continued for ages a science of mere record, in which theory had no part, except in so far as it attempted to conciliate the inequalities of the celestial motions with that assumed law of uniform circular revolution which was alone considered consistent with the perfection of the heavenly mechanism.
+** [[John Herschel]], [http://books.google.com/books?id=YY49AAAAcAAJ ''A Preliminary Discourse on the Study of Natural Philosophy''] (1831)
+
+* In the old philosophy, a curious conjunction of ethical and physical prejudices had led to the notion that there was something ethically bad and physically obstructive about matter. Aristotle attributes all irregularities and apparent [[wiktionary:dysteleology#Noun|dysteleologies]] in nature to the disobedience, or sluggish yielding, of matter to the shaping and guiding influence of those reasons and causes which were hypostatised in his ideal 'Forms.'
+** [[Thomas Henry Huxley]], ''[[The Advance of Science in the Last Half-Century]]'' (1889)
+
+===J===
+
+* '''Aristotle was the first accurate critic and truest judge — nay, the greatest philosopher the world ever had'''; for he noted the vices of all knowledges, in all creatures, and out of many men's perfections in a science he formed still one Art.
+** [[Ben Jonson]], ''The works of Ben Jonson'', Vol. 9 (1816), p. 240
+
+===K===
+
+* Aristotle had not been popular in the ancient world, but his ideas were picked up by the materialistically-minded Arabs as they were developing their culture, and from there his works were introduced into Western Europe. They became the rage, stimulating a whole intellectual revival. It soon became necessary for the church to deal with this point of view, and through the genius of [[Thomas Aquinas]] all of the church ideas were rewritten within the framework of Aristotle's ideas with their mythological character reduced to a bare minimum.
+** [[Morton Kelsey]], ''Myth, History & Faith: The Mysteries of Christian Myth & Imagination'' (1974)
+
+*  [A] comparison was undertaken between this book—or the related work ''On the Harmonies''...—and Aristotle's books ''On the Heavens'' and ''Metaphysics''... I have nothing to worry about in the case of Aristotle... [[w:Matthias, Holy Roman Emperor|His Most Serene Highness]] cannot dislike whatever is the more convincing, whether it be that the world was first made at a fixed beginning in time as was my work ''On the Harmonies'', or will be destroyed at some time, or is merely liable to destruction, like the alterations of the [[w:Aether (classical element)|ether]] and the celestial atmosphere; nor will he ever prefer the Master Aristotle to the truth of which Aristotle was ignorant.<!--p. 6, 1995 edition-->
+** [[Johannes Kepler]], ''Epitome of Copernican Astronomy'' (1939) Tr. {{w|Charles Glenn Wallis}} of ''Epitome Astronomiae Copernicanae'' (1618-1621) 
+
+* Aristotle wrote a ten-book History of Animals without ever considering the possibility that animals actually had a history. 
+** [[Elizabeth Kolbert]] The Sixth Extinction: An Unnatural History (2015)
+
+===L===
+
+* Most expositions of Aristotle's doctrines, when they have not been dictated by a spirit of virulent detraction, or unsympathetic indifference, have carefully suppressed all, or nearly all, the absurdities, and only retained what seemed plausible and consistent. But in this procedure their historical significance disappears.
+** [[George Henry Lewes]], ''[[Aristotle: a Chapter from the History of Science]]'' (1864)
+
+* Aristotle... seems utterly destitute of any sense of the Ineffable. There is no quality more noticeable in him than his unhesitating confidence in the adequacy of the human mind to comprehend the universe... He never seems to be visited by misgivings as to the compass of human faculty, because his unhesitating mind is destitute of awe. He has no abiding consciousness of the fact deeply impressed on other minds, that the circle of the Knowable is extremely limited; and that beyond it lies a vast mystery... impenetrable. Hence the existence of Evil is no perplexity to his soul; it is accepted as a simple fact. Instead of being troubled by it, saddened by it, he quietly explains it as the consequence of Nature not having correctly written her meaning. This mystery which has darkened so many sensitive meditative minds with anguish he considered to be only bad orthography.
+** [[George Henry Lewes]], ''[[Aristotle: a Chapter from the History of Science]]'' (1864)
+
+* [[Roger Bacon]] expressed a feeling which afterwards moved many minds, when he said that if he had the power he would burn all the works of the Stagirite, since the study of them was not simply loss of time, but multiplication of ignorance. Yet in spite of this outbreak every page is studded with citations from Aristotle, of whom he everywhere speaks in the highest admiration.
+** [[George Henry Lewes]], ''[[Aristotle: a Chapter from the History of Science]]'' (1864)
+
+* Aristotle forever, but Truth even for longer than that.
+** [[w:Francis Lieber|Francis Lieber]], in a letter to [[w:Samuel Austin Allibone|S. A. Allibone]], New York, May, 1857, in ''The Life And Letters of Francis Lieber'' (1882), p. 295
+
+* Aristotle, that histrionic mountebank, who from behind a Greek mask has so long bewitched the Church of Christ, that most cunning juggler of souls, who, if he had not been accredited as human blood and bone, we should have been justified in maintaining to be the veritable devil.
+** [[Martin Luther]], in a letter to John Stuart Blackie, 1516. In ''Four Phases of Morals'' (1871)
+
+===M===
+
+* Aristotle sees no difference between the falling of a leaf or a stone and the death of the good and noble people in the ship; nor does he distinguish between the destruction of a multitude of ants by an ox depositing on them his excrement and the death of worshippers killed by the fall of the house when its foundations give way. In short, the opinion of Aristotle is this: Everything is the result of management which is constant, which does not come to an end and does not change any of its properties, as ''e.g.'', the heavenly beings, and everything which continues according to a certain rule... But that which is not constant, and does not follow a certain rule... is due to chance and not to management; it is in no relation to Divine Providence. Aristotle holds that it is even impossible to ascribe to Providence that management of these things. ...It is the belief of those who turned away from our Law and said: "God hath forsaken the earth." ([[s:Bible_(World_English)/Ezekiel#Chapter_9|Ezek. ix.]] 9)
+** [[Maimonides]], [[Maimonides#Guide_for_the_Perplexed_.28c._1190.29|''Guide for the Perplexed'' (c. 1190)]]
+
+* When I saw that Moses' version of the Genesis of the world did not fit sufficiently in many ways with Aristotle and the rest of the philosophers, I began to have doubts about the truth of all philosophers and started to investigate the secrets of nature.
+** [[Gerardus Mercator]], ''Evangelicæ Historiæ: Quadripartita Monas Sive Harmonia Quatuor Evangelistarum'' ("Harmonization of the Gospels") (1592), dedicatory letter. Quoted in Jean Van Raemdonck, ''Gerard Mercator: sa vie et ses oeuvres'' (1869), [http://books.google.com/books?id=18NNAAAAcAAJ&pg=PA25 p. 25, footnote 2]
+
+* In his discussion on [[slavery]] Aristotle said that when the shuttle wove by itself and the [[w:Plectrum|plectrum]] played by itself chief workmen would not need helpers nor masters slaves. At the time he wrote, he believed that he was establishing the eternal validity of slavery; but for us today he was in reality justifying the existence of the machine. Work, it is true, is the constant form of man's interaction with his environment, if by work one means the sum total of exertions necessary to maintain life; and the lack of work usually means an impairment of function and a breakdown in organic relationship that leads to substitute forms of work, such as invalidism and neurosis. But work in the form of unwilling drudgery or of that sedentary routine which... the Athenians so properly despised—work in these forms is the true province of machines. Instead of reducing human beings to work-mechanisms, we can now transfer the main part of burden to automatic machines. This potentially... is perhaps the largest justification of the mechanical developments of the last thousand years.
+** [[Lewis Mumford]], ''Technics and Civilization'' (1934)
+
+===P===
+
+* The first clear expression of the idea of an element occurs in the teachings of the Greek philosophers. ... '''Aristotle''' ... who summarized the theories of earlier thinkers, '''developed the view that all substances were made of a primary matter'''... '''On this, different forms could be impressed... so the idea of the transmutation of the elements arose. Aristotle's elements are really ''fundamental properties'' of matter'''.... hotness, coldness, moistness, and dryness. By combining these in pairs, he obtained what are called the four elements, fire, air, earth and water... a fifth, immaterial, one was added, which appears in later writings as the ''quintessence''. This corresponds with the ether. '''The elements were supposed to settle out naturally''' into the earth (below), water (the oceans), air (the atmosphere), fire and ether (the sky and heavenly bodies).
+** [[J. R. Partington]], ''A Short History of Chemistry'' (1937)
+
+* The victory of orthodox [[Christianity|Christian]] doctrine over classical thought was to some extent a {{w|Pyrrhic victory}}, for the [[theology]] that triumphed over [[w:Ancient Greek philosophy|Greek philosophy]] has continued to be shaped ever since by the language and the thought of classical [[metaphysics]]. For example, the [[w:Fourth Council of the Lateran|Fourth Lateran Council]] in 1215 decreed that "in the sacrament of the altar... the bread is transubstantiated into the body [of Christ]." ...Most of the theological expositions of the term "{{w|transubstantiation}}" have interpreted "substance" [according] to the meaning given this term ...in the fifth book of Aristotle's ''Metaphysics''; transubstantiation, then, would appear to be tied to the acceptance of Aristotelian metaphysics or even of [[Aristotelian physics]]. ...Transubstantiation is an individual instance of what has been called the problem of "the [[wikt:Hellenize#Verb|hellenization]] of Christianity."
+** [[Jaroslav Pelikan]], ''The Shape of Death: Life, Death, and Immortality in the Early Fathers'' (1961) pp. 44-45, as quoted by {{w|Frank J. Tipler}}, ''The Physics of Immortality'' (1994) p. 332.
+
+===R===
+
+* All the things that Aristotle has said are inconsistent because they are poorly systematized and can be called to mind only by the use of arbitrary mnemonic devices.
+** {{w|Petrus Ramus}}, ''Quaecumque ab Aristotele dicta essent, commentitia esse'' (1536) his university thesis, as paraphrased by [[Walter J. Ong]], ''Ramus, Method, and the Decay of Dialogue: From the Art of Discourse to the Art of Reason'' (1958) pp. 46-47.
+
+* It appears to me that there can be no question, that '''Aristotle stands forth, not only as the greatest figure in antiquity, but as the greatest intellect that has ever appeared upon the face of this earth.'''
+** [[w:George Romanes|George J. Romanes]], as quoted in ''"The most important question in the world.": Is mankind advancing?'' (1910), p. 38
+
+* Aristotle, as a philosopher, is in many ways very different from all his predecessors. He is the first to write like a professor: his treatises are systematic, his discussions are divided into heads, he is a professional teacher, not an inspired prophet. His work is critical, careful, pedestrian, without any trace of Bacchic enthusiasm. The Orphic elements in [[Plato]] are watered down in Aristotle, and mixed with a strong dose of common sense; where he is Platonic, one feels that his natural temperament has been overpowered by the teaching to which he has been subjected. He is not passionate, or in any profound sense religious. The errors of his predecessors were the glorious errors of youth attempting the impossible; his errors are those of age which cannot free itself of habitual prejudices. He is best in detail and in criticism; he fails in large construction, for lack of fundamental clarity and Titanic fire.
+** [[Bertrand Russell]], ''[[A History of Western Philosophy]]'' (1945), Book One, Part II, Chapter XIX, Aristotle's Metaphysics, p. 161
+
+* I do not agree with [[Plato]], but if anything could make me do so, it would be Aristotle's arguments against him. 
+** [[Bertrand Russell]], ''[[A History of Western Philosophy]]'' (1945), Book One, Part II, Ch. XXI, Aristotle's Politics, p. 189 
+
+* I conclude that the Aristotelian doctrines are wholly false, with the exception of the formal theory of the syllogism, which is unimportant. Any person in the present day who wishes to learn logic will be wasting his time if he reads Aristotle or any of his disciples. Nonetheless, Aristotle's logical writings show great ability, and would have been useful to mankind if they had appeared at a time when intellectual originality was still active. Unfortunately, they appeared at the very end of the creative period of Greek thought, and therefore came to be accepted as authoritative. By the time that logical originality revived, a reign of two thousand years had made Aristotle very difficult to dethrone. '''Throughout modern times, practically every advance in science, in logic, or in philosophy has had to be made in the teeth of opposition from Aristotle's disciples.'''
+** [[Bertrand Russell]], ''[[A History of Western Philosophy]]'' (1945), Book One, Part II, Chapter XXII, p. 202
+
+* '''Aristotle is the last Greek philosopher who faces the world cheerfully'''; after him, all have, in one form or another, a philosophy of retreat.
+** [[Bertrand Russell]], ''[[A History of Western Philosophy]]'' (1945), Book One, Part II, Ch. XXVI, p. 232
+
+* Aristotle, so far as I know, was the first man to proclaim explicitly that man is a rational animal. His reason for this view was one which does not now seem very impressive; it was, that some people can do sums.
+**[[Bertrand Russell]], "An Outline of Intellectual Rubbish", in ''Unpopular Essays'' (1950), p. 71
+
+* Aristotle could have avoided the mistake of thinking that women have fewer teeth than men, by the simple device of asking Mrs Aristotle to keep her mouth open while he counted.
+**[[Bertrand Russell]], "An Outline of Intellectual Rubbish", ''Unpopular Essays'' (1950).
+
+* To modern educated people, it seems obvious that matters of fact are to be ascertained by observation, not by consulting ancient authorities. But this is an entirely modern conception, which hardly existed before the seventeenth century. Aristotle maintained that women have fewer teeth than men; although he was twice married, it never occurred to him to verify this statement by examining his wives' mouths. He said also that children would be healthier if conceived when the wind is in the north. One gathers that the two Mrs. Aristotles both had to run out and look at the weathercock every evening before going to bed. He states that a man bitten by a mad dog will not go mad, but any other animal will (Hiss. Am., 704a); that the bite of the shrewmouse is dangerous to horses, especially if the mouse is pregnant (ibid., 604b); that elephants suffering from insomnia can be cured by rubbing their shoulders with salt, olive oil, and warm water (ibid., 605a); and so on and so on. Nevertheless, classical dons, who have never observed any animal except the cat and the dog, continue to praise Aristotle for his fidelity to observation.
+** [[Bertrand Russell]], ''The Impact of Science on Society'' (1951), p. 7
+
+* Socrates and Plato had no time for Athenian democracy, and wanted a revived aristocratic government for their city. But both were moral radicals; they thought ordinary morality was radically misguided, and that public opinion should be ignored when it was at odds with one's conscience or reason. Things are very different in Aristotle. Plato's concern for the balance of the soul was shared by Aristotle, but not his ethical radicalism.
+** [[Alan Ryan]], Introduction in ''Justice'' (1993) edited by Alan Ryan
+
+* Justice is of two kinds, justice in distribution and justice in rectification. ... Aristotle thinks primarily of setting things straight, and denies that rectificatory justice contains an element of 'tit for tat'.
+** [[Alan Ryan]], Introduction in ''Justice'' (1993) edited by Alan Ryan
+
+* Aristotle's genius was for showing the ways in which we might construct the "best practicable state." This was not mere practicality; the goals of political life are not wholly mundane. The polity comes into existence for the sake of mere life, but it continues to exist for the sake of the good life. The good life is richly characterized, involving as it does the pursuit of justice, the expansion of the human capacities used in political debate, and the development of all the public and private virtues that a successful state can shelter—military courage, marital fidelity, devotion to the physical and psychological welfare of our children, and so on indefinitely.
+** [[Alan Ryan]], ''On Politics: A History of Political Thought: From Herodotus to the Present'' (2012), Ch. 3: Aristotle: Politics Is Not Philosophy
+
+===S===
+
+* Aristotle, who foresaw so many things, never dreamed of the social truth. [[Georges Cuvier|Cuvier]], whose sagacity is so highly lauded, was constrained to yield homage to the genius of Aristotle in Natural History; for myself, who am at this date in full possession of social truth, in politics Aristotle only inspires me with profound pity.
+** [[Jules Sandeau]], in ''Money-Bags and Titles: A Hit at the Follies of the Age'' (1850), Ch. XVIII, p. 185 (said by Timoleon to his father Levrault).
+
+* The old Greek philosophy, which in Europe in the later middle ages was synonymous with the works of Aristotle, considered motion as a thing for which a cause must be found: a velocity required a force to produce and to maintain it. The great discovery of [[Galileo]] was that not velocity, but acceleration requires a force. This is the law of inertia of which the real content is: the natural phenomena are described by differential equations of the second order.
+** [[Willem de Sitter]], The Astronomical Aspect  of the Theory of Relativity (1933)
+
+* Men often speak of virtue without using the word but saying instead "the quality of life" or "the great society" or "ethical" or even "square." But do we know what virtue is? Socrates arrived at the conclusion that it is the greatest good for a human being to make everyday speeches about virtue-apparently without ever finding a completely satisfactory definition of it. However, if we seek the most elaborate and least ambiguous answer to this truly vital question, we shall turn to Aristotle's ''Ethics''. There we read among other things that there is a virtue of the first order called magnanimity—the habit of claiming high honors for oneself with the understanding that one is worthy of them. We also read there that sense of shame is not a virtue: sense of shame is becoming for the young who, due to their immaturity, cannot help making mistakes, but not for mature and well-bred men who simply always do the right and proper thing. Wonderful as all this is-we have received a very different message from a very different quarter.
+** [[Leo Strauss]], "Niccolo Machiavelli", in ''History of Political Philosophy'' (3rd ed., 1987) edited by Leo Strauss and Joseph Cropsey
+
+*Aristotle...is the first man [Greek], so far as I know, to have collected books.
+**Strabo, Geography, 13.1.54. quoted in C. K. Raju, ''Cultural Foundations of Mathematics'', [https://archive.org/details/culturalfoundati0000raju/page/214/mode/2up Vol. 10, Pt. 4]: ''The Nature of Mathematical Proof and the Transmission of the Calculus from India to Europe'' (India: Pearson Longman, 2007)
+
+===T===
+
+* Aristotle... distinguished ''four'' sorts of explanatory factor... and in later centuries these came to be known as his 'four causes'. The name is unfortunate, since nowadays we usually restrict the term 'cause' to one of his four types... they would have been better called his 'four ''be''causes'—since he was concerned to distinguish, not the different varieties of cause and effect, but rather the different senses in which the question 'Why?' can be asked... [W]e could give four different answers, whose relevance would depend on our precise interpretation of the question. We could refer to: (i) The material constitution... or 'From what?'... (ii) The form, essence, or 'What was it?'... (iii) The precipitating cause or 'By What?'... (iv) The end [destination or purpose], or 'In aid of what?'... These four types of explanation are not necessarily rivals. ...all four types can frequently be cited without inconsistency. Indeed, apart from a few phenomena... which have no function and so 'just happen', Aristotle thought ''all'' natural events called for explanation in all four ways.<!--pp. 83-84, paperback edition-->
+** {{w|Stephen Toulmin}}, {{w|June Goodfield}}, ''The Architecture of Matter'' (1962)
+
+* The metaphysical doctrine of 'permanent essences' drew empirical support from the success of Aristotle's zoological theory of fixed species, which was its most convincing application to our actual experience of the world. ...[T]he doctrine of fixed organic species simply exemplified, in the special sphere of biology, the permanent character of all 'rationally intelligible' entities. Conversely, [[Charles Darwin|Darwin]] demonstrated that Aristotle's most favored examples failed to support... the metaphysical assumption on which orthodox Greek natural philosophy had been based. Species were not... permanent entities; the earlier 'typological' or 'essentialist' approach to taxonomy inherited from Aristotle misrepresented the long term history of living things. ...However irrelevant the empirical details of Darwin's work may be to general philosophy, the abstract form of his explanatory schema has a much broader significance. So, when Darwin and his successors showed that the whole zoological concepts of 'species' must be reanalysed in populational terms, their demonstration knocked away [a] prop from the traditional metaphysical debate.<!--p. 355-->
+** {{w|Stephen Toulmin}}, ''Human Understanding'' (1972) Vol. 1 ''The Collective Use and Evolution of Concepts''.
+
+* In matter-theory, as in astronomy, the Church's commitment to Aristotle was in due course to prove an embarassment. In both branches of science his speculative distinction between terrestrial and celestial matter was insecure from the very beginning. His own most loyal commentator, {{w|Alexander of Aphrodisias}}... had already dreamt of a theory [[Unification in science and mathematics|unifying]] all things, and [[w:John Philoponus|John Philoponos]]... had rejected the distinction between terrestrial and celestial matter outright. Nevertheless, it was still an axiom of {{w|scholasticism}} almost a thousand years later.<!--p. 140, paperback edition-->
+** {{w|Stephen Toulmin}}, {{w|June Goodfield}}, ''The Architecture of Matter'' (1962)
+
+* '''Thus to the plain man there may be no metaphor in Aristotle's "substance"''', Descartes' "machine of nature,"  Newtonian "force" and "attraction," Thomas Young's "kinetic energy" and Michelangelo's figure of Leda. Placed in their customary contexts these present nothing to him but the face of literal truth. To the initiated, however, who are aware of the "gross original" senses as well as the now literal senses , they may become [[metaphors]]. There are no metaphors ''per se''....
+** [[Colin Murray Turbayne]], ''The Myth of Metaphor'' (1962) [https://catalog.hathitrust.org/Search/Home?type%5B%5D=author&lookfor%5B%5D=Colin%20Murray%20Turbayne&page=1&pagesize=100&ft=ft] p. 18.
+
+===U===
+
+*Aristotle's works are full of platitudes in much the same way that Shakespeare's Hamlet is full of quotations.
+** [[w:J. O. Urmson|J. O. Urmson]], ''Aristotle's Ethics'', Blackwell, 1988, p. 71.
+
+===V===
+
+* It is an age of Intellectual slaveries; If they meet  any thing extraordinary, they prune it with distinctions, or dawb it with false Glosses,  til it looks like the  Traditions of Aristotle. His followers are so confident of his principles they seek not to understand what others speak, but to make others speak what they understand... Their Aristotle is a Poet in text, his principles are but Fancies, and they stand more on our Concessions, then his Bottom.  Hence it is that his followers, notwithstanding the Assistance of so many Ages, can fetch nothing out of him but Notions: And these indeed they use, as He sayeth [[w:Lycophron (sophist)|Lycophron]] did his Epithets, Non ut Condimentis, sed ut Cibis, Their Compositions are a meer Tympanie of Terms...  It is better then a Fight in Quixot, to observe what Duels, and Digladiations they have about Him.  One will make him  speak Sense another Non-sense and a third both, [[Thomas Aquinas|Aquinas]] palps him gently, [[Duns Scotus|Scotus]] makes him  winch and he is taught like an ape to shew severall tricks. If we look on his adversaries the least amongst them hath foyld him, but [[w:Bernardino Telesio|Telesius]] knocked him in the head, and [[Tommaso Campanella|Campanella]] hath  quite discomposed him... Aristotle thrives by scuffles and the world cryes him up, when trueth cryes him down.
+** [[Thomas Vaughan (philosopher)|Thomas Vaughan]], ''Anthroposophia Theomagica''  , ([https://archive.org/details/anthroposophiath00vaug full text]), (1650)   
+
+* "We've got to purge Aristotle from our system."<br />"I've never read him so why do I have to purge him from my system?"<br />"It's proof of his grip on Western Man that he dominates the thinking of people who have never heard of him."
+** [[Peter De Vries]], ''Reuben, Reuben'' (1984), p. 37; quoted in John B. Morrall's ''Aristotle'' (2013), p. 12.
+
+===W===
+
+* Aristotle especially, both by speculation and observation... reached something like the modern idea of a succession of higher organizations from lower, and made the fruitful suggestion of "a perfecting principle" in Nature. With the coming in of Christian theology this tendency toward a yet truer theory of evolution was mainly stopped, but the old crude view remained...
+** [[Andrew Dickson White]], ''[[A History of the Warfare of Science with Theology in Christendom]]'', Ch. 1 (1896)
+
+* As man loses touch with his 'inner being', his instinctive depths, he finds himself trapped in the world of consciousness, that is to say, ''in the world of other people''. Any poet knows this truth; when other people sicken him, he turns to hidden resources of power inside himself, and he knows then that other people don't matter a damn. He knows the 'secret life' inside him is the reality; other people are mere shadows in comparison. but the 'shadows' themselves cling to one another. 'Man is a political animal', said Aristotle, telling one of the greatest lies in human history. Man has more in common with the hills, or with the [[Stars|stars]], than with other men.
+** [[Colin Wilson]] in ''The Mind Parasites'', p. 170 (1967)
+
+===Z===
+
+* [Professor] Jin [Canrong] suggested that Aristotle’s works may have been written some seventeen centuries later. He concluded that if the West has lied for so long about Aristotle, Chinese are authorized to believe they lie about pretty much everything.<br>…He claims that Aristotle’s works are mentioned only in sources from the 13th century and later. This is false, as Aristotle’s theories started being debated mentioning his name and his school shortly after his death, whose date is traditionally fixed at 322 BCE, and even before. Aristotle seems to be much better documented than [[Confucius]]…<br>…The theory that Aristotle did not exist may be ridiculed abroad, but if the [ [[Chinese Communist Party]] ] wanted to test just how much fake news about Western history and supposed Western conspiracies Chinese are prepared to swallow, the answer it got was—quite a lot.
+** Zhou Kexin (pseudonym), [https://bitterwinter.org/chinas-latest-fake-news-aristotle-did-not-exist/ "China’s Latest Fake News: “Aristotle Did Not Exist”"], ''Bitter Winter'' (November 9, 2023)
+
+== See also ==
+* [[Aristotelian physics]]
+* ''[[Aristotle: a Chapter from the History of Science]]''
+* ''[[A History of Western Philosophy]]''
+* {{w|Scholasticism}}
+
+==Sources==
+The quotations above may have come from these or other translations:
+*''The Works of Aristotle.'' Ed. W. David Ross. 12 vols. Oxford: Clarendon, 1908.
+**This was for years the standard translation of Aristotle. It was reprinted in ''[[w:Great Books of the Western World|Great Books of the Western World]]'' (1952).
+*''The Complete Works of Aristotle: The Revised Oxford Translation.'' Ed. Jonathan Barnes. 2 vols. Princeton, NJ: Princeton Univ. Press, 1984.
+**A revised edition of Ross's compilation of translations. Much more compact.
+
+==References==
+{{reflist}}
+
+==External links==
+{{Sister project links}}
+
+* [http://www.utm.edu/research/iep/a/aristotl.htm The Internet Encyclopedia of Philosophy: Aristotle.].
+* [http://www-history.mcs.st-andrews.ac.uk/Mathematicians/Aristotle.html St. Andrew's: Aristotle].
+* [https://books.google.co.id/books?id=czM8AAAAcAAJ&lpg=PT14&ots=YkhUSSUKFT&dq=.%20%3A%3A%3A%3A%3A%3A%20%D9%8A%D9%8E%20%D9%8A%D9%8E%D8%A9%20%3A%3A%3A%3A%3A%20%3A%3A%20%3A%3A%3A%3A%3A%3A%20%D8%B9%D8%A9%20%D9%8A%20%D8%AA%D9%8A%D8%AA%D9%8A%3A%20%D9%8A%D9%8E%20%3A%3A%3A%3A%20%D9%8A%D9%8E%D8%A9%20%D9%8A%D9%8E%20%3A%3A%3A%3A%20%D8%AA%D9%8A%3A%20%D8%A8%D9%8A%20%D8%AC%D9%8A%20%D8%AC%D9%8A%20%D8%AC%D9%8A%20%D8%AC%D9%8A&hl=id&pg=PT43#v=onepage&q=.%20::::::%20&f=false Descriptio universae naturae ex Aristotele: pars prior]
+* [http://plato.stanford.edu/entries/aristotle-logic/ Stanford Encyclopedia of Philosophy: Aristotle's Logic.]
+* [http://Aristotle.thefreelibrary.com/ Brief biography and e-texts.]
+{{Ancient Greek schools of philosophy}}
+{{Peripatetics}}
+{{Philosophy of science}}
+{{Social and political philosophers}}
+
+[[Category:Philosophers from Greece]]
+[[Category:BCE deaths]]
+[[Category:BCE births]]
+[[Category:Polymaths]]
+[[Category:Natural philosophers]]
+[[Category:Mathematicians from Greece]]
+[[Category:Biologists from Greece]]
+[[Category:Physicists from Greece]]
+[[Category:Cosmologists]]
+[[Category:Meteorologists]]
+[[Category:Logicians from Greece]]
+[[Category:Zoologists]]
+[[Category:Literary critics]]
+[[Category:Cultural critics]]
+[[Category:Social critics]]
+[[Category:Academics from Greece]]
