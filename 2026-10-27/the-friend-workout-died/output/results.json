@@ -1,0 +1,998 @@
+{
+ "n_respondents": 258954,
+ "n_fitness_episodes": 48258,
+ "years": [
+  2003,
+  2025
+ ],
+ "yearly": [
+  {
+   "year": 2003,
+   "participation_note": null,
+   "alone_share_min": 0.4819552263177039,
+   "alone_share_ep": 0.5805316999432376,
+   "friend_share_min": 0.13375642373055477,
+   "partner_share_min": 0.16965337818323825,
+   "mean_dur_alone": 45.28104745919559,
+   "mean_dur_social": 67.36027638942195
+  },
+  {
+   "year": 2004,
+   "participation_note": null,
+   "alone_share_min": 0.5143911430926262,
+   "alone_share_ep": 0.6163080080124641,
+   "friend_share_min": 0.14800516505738703,
+   "partner_share_min": 0.14650704071694196,
+   "mean_dur_alone": 44.619168305325545,
+   "mean_dur_social": 67.65963699571924
+  },
+  {
+   "year": 2005,
+   "participation_note": null,
+   "alone_share_min": 0.5177658811106023,
+   "alone_share_ep": 0.6076864866259102,
+   "friend_share_min": 0.11348660490234912,
+   "partner_share_min": 0.14254097237736632,
+   "mean_dur_alone": 44.38193635795968,
+   "mean_dur_social": 64.02905069852139
+  },
+  {
+   "year": 2006,
+   "participation_note": null,
+   "alone_share_min": 0.48908509521935684,
+   "alone_share_ep": 0.5901233239494844,
+   "friend_share_min": 0.1492206899546598,
+   "partner_share_min": 0.148073588569473,
+   "mean_dur_alone": 45.019915042625705,
+   "mean_dur_social": 67.71086937119415
+  },
+  {
+   "year": 2007,
+   "participation_note": null,
+   "alone_share_min": 0.5298623903955284,
+   "alone_share_ep": 0.606648756853292,
+   "friend_share_min": 0.10090240441604047,
+   "partner_share_min": 0.1757119991652485,
+   "mean_dur_alone": 50.18870072436659,
+   "mean_dur_social": 68.67910678471753
+  },
+  {
+   "year": 2008,
+   "participation_note": null,
+   "alone_share_min": 0.5325290292178106,
+   "alone_share_ep": 0.6167006617788304,
+   "friend_share_min": 0.1356380178984419,
+   "partner_share_min": 0.14217264086070494,
+   "mean_dur_alone": 47.48202215133057,
+   "mean_dur_social": 67.06206331576864
+  },
+  {
+   "year": 2009,
+   "participation_note": null,
+   "alone_share_min": 0.5094571283406328,
+   "alone_share_ep": 0.5924772685121619,
+   "friend_share_min": 0.14760681093259184,
+   "partner_share_min": 0.1978861901935049,
+   "mean_dur_alone": 48.85110975620751,
+   "mean_dur_social": 68.38543500742931
+  },
+  {
+   "year": 2010,
+   "participation_note": null,
+   "alone_share_min": 0.4691905671083339,
+   "alone_share_ep": 0.5643685078377615,
+   "friend_share_min": 0.17457544616317147,
+   "partner_share_min": 0.1694095933921636,
+   "mean_dur_alone": 48.60140794614798,
+   "mean_dur_social": 71.23307862121608
+  },
+  {
+   "year": 2011,
+   "participation_note": null,
+   "alone_share_min": 0.5054147038177533,
+   "alone_share_ep": 0.5894841768616885,
+   "friend_share_min": 0.16220560152667926,
+   "partner_share_min": 0.13890057570354464,
+   "mean_dur_alone": 53.4450660895769,
+   "mean_dur_social": 75.10056380462778
+  },
+  {
+   "year": 2012,
+   "participation_note": null,
+   "alone_share_min": 0.4697169988163913,
+   "alone_share_ep": 0.5691494672104916,
+   "friend_share_min": 0.15830057566633982,
+   "partner_share_min": 0.16766749592657465,
+   "mean_dur_alone": 52.40173447235418,
+   "mean_dur_social": 78.14780599000733
+  },
+  {
+   "year": 2013,
+   "participation_note": null,
+   "alone_share_min": 0.5149759473081067,
+   "alone_share_ep": 0.5936718618942359,
+   "friend_share_min": 0.1307286260124107,
+   "partner_share_min": 0.12888368731969874,
+   "mean_dur_alone": 49.94463609687565,
+   "mean_dur_social": 68.72816540660061
+  },
+  {
+   "year": 2014,
+   "participation_note": null,
+   "alone_share_min": 0.4930878123319701,
+   "alone_share_ep": 0.5663736987674532,
+   "friend_share_min": 0.12210025774839316,
+   "partner_share_min": 0.16912500500383848,
+   "mean_dur_alone": 48.02323561363831,
+   "mean_dur_social": 64.48331322801451
+  },
+  {
+   "year": 2015,
+   "participation_note": null,
+   "alone_share_min": 0.5300459718957865,
+   "alone_share_ep": 0.6038433616687886,
+   "friend_share_min": 0.12224215205262955,
+   "partner_share_min": 0.1614675409500923,
+   "mean_dur_alone": 44.947939351719704,
+   "mean_dur_social": 60.744782687264674
+  },
+  {
+   "year": 2016,
+   "participation_note": null,
+   "alone_share_min": 0.4628022933572965,
+   "alone_share_ep": 0.5927546691347582,
+   "friend_share_min": 0.1572621815014389,
+   "partner_share_min": 0.18789075986457,
+   "mean_dur_alone": 42.84012726722763,
+   "mean_dur_social": 72.37828191048753
+  },
+  {
+   "year": 2017,
+   "participation_note": null,
+   "alone_share_min": 0.46134326196578174,
+   "alone_share_ep": 0.5522397685692444,
+   "friend_share_min": 0.1142769857869342,
+   "partner_share_min": 0.18713680892375317,
+   "mean_dur_alone": 44.884681625527946,
+   "mean_dur_social": 64.63507004503059
+  },
+  {
+   "year": 2018,
+   "participation_note": null,
+   "alone_share_min": 0.4564310329493742,
+   "alone_share_ep": 0.5825868135371589,
+   "friend_share_min": 0.11671775888924688,
+   "partner_share_min": 0.14828398026245304,
+   "mean_dur_alone": 42.74953819132527,
+   "mean_dur_social": 71.05676035250582
+  },
+  {
+   "year": 2019,
+   "participation_note": null,
+   "alone_share_min": 0.5226114735392355,
+   "alone_share_ep": 0.610545040749529,
+   "friend_share_min": 0.09814742120114123,
+   "partner_share_min": 0.15373325196621845,
+   "mean_dur_alone": 46.348358400819414,
+   "mean_dur_social": 66.37245213855225
+  },
+  {
+   "year": 2021,
+   "participation_note": null,
+   "alone_share_min": 0.5767104488926516,
+   "alone_share_ep": 0.6511187506910788,
+   "friend_share_min": 0.05650888928847713,
+   "partner_share_min": 0.19679621349938184,
+   "mean_dur_alone": 47.11018746633042,
+   "mean_dur_social": 64.53229846624824
+  },
+  {
+   "year": 2022,
+   "participation_note": null,
+   "alone_share_min": 0.5583546923378216,
+   "alone_share_ep": 0.6317842918719154,
+   "friend_share_min": 0.0735679595033905,
+   "partner_share_min": 0.17113454948806395,
+   "mean_dur_alone": 48.97190719353699,
+   "mean_dur_social": 66.4625469751222
+  },
+  {
+   "year": 2023,
+   "participation_note": null,
+   "alone_share_min": 0.5489076392340617,
+   "alone_share_ep": 0.6460842916672973,
+   "friend_share_min": 0.0715926988711084,
+   "partner_share_min": 0.16036656327305648,
+   "mean_dur_alone": 46.09936879398627,
+   "mean_dur_social": 69.1592889539174
+  },
+  {
+   "year": 2024,
+   "participation_note": null,
+   "alone_share_min": 0.5817262281215504,
+   "alone_share_ep": 0.6567424553848334,
+   "friend_share_min": 0.06902123713716503,
+   "partner_share_min": 0.16157769873774394,
+   "mean_dur_alone": 46.29418784525482,
+   "mean_dur_social": 63.685924531806236
+  },
+  {
+   "year": 2025,
+   "participation_note": null,
+   "alone_share_min": 0.5367374017618142,
+   "alone_share_ep": 0.6183238654287918,
+   "friend_share_min": 0.1052270409933858,
+   "partner_share_min": 0.14787536784164917,
+   "mean_dur_alone": 46.25480540989477,
+   "mean_dur_social": 64.67601325527566
+  }
+ ],
+ "participation": [
+  {
+   "TUYEAR": 2003,
+   "participation": 0.13156107033178857,
+   "min_per_capita": 9.121577403885341
+  },
+  {
+   "TUYEAR": 2004,
+   "participation": 0.13158248782054432,
+   "min_per_capita": 9.002476475480137
+  },
+  {
+   "TUYEAR": 2005,
+   "participation": 0.1331594018649626,
+   "min_per_capita": 9.373246858461716
+  },
+  {
+   "TUYEAR": 2006,
+   "participation": 0.1313754301422133,
+   "min_per_capita": 8.784346037098786
+  },
+  {
+   "TUYEAR": 2007,
+   "participation": 0.14388124296056864,
+   "min_per_capita": 10.668137514798838
+  },
+  {
+   "TUYEAR": 2008,
+   "participation": 0.13810447761466818,
+   "min_per_capita": 9.895682868819257
+  },
+  {
+   "TUYEAR": 2009,
+   "participation": 0.14251475588092238,
+   "min_per_capita": 10.431940860059001
+  },
+  {
+   "TUYEAR": 2010,
+   "participation": 0.14700280993965,
+   "min_per_capita": 11.002015812131013
+  },
+  {
+   "TUYEAR": 2011,
+   "participation": 0.15334041447581045,
+   "min_per_capita": 11.791274263684404
+  },
+  {
+   "TUYEAR": 2012,
+   "participation": 0.1545665684149345,
+   "min_per_capita": 11.914864155065482
+  },
+  {
+   "TUYEAR": 2013,
+   "participation": 0.15165325301032348,
+   "min_per_capita": 10.87510420205935
+  },
+  {
+   "TUYEAR": 2014,
+   "participation": 0.15641003213470306,
+   "min_per_capita": 11.038052031394088
+  },
+  {
+   "TUYEAR": 2015,
+   "participation": 0.17025821430050536,
+   "min_per_capita": 11.73288567119494
+  },
+  {
+   "TUYEAR": 2016,
+   "participation": 0.17683740418338467,
+   "min_per_capita": 12.70297601070807
+  },
+  {
+   "TUYEAR": 2017,
+   "participation": 0.1623305297570804,
+   "min_per_capita": 11.6954628917422
+  },
+  {
+   "TUYEAR": 2018,
+   "participation": 0.16363735487356215,
+   "min_per_capita": 11.950723016436099
+  },
+  {
+   "TUYEAR": 2019,
+   "participation": 0.1635963262138669,
+   "min_per_capita": 11.889748605968213
+  },
+  {
+   "TUYEAR": 2021,
+   "participation": 0.18586206190601945,
+   "min_per_capita": 13.08278053175473
+  },
+  {
+   "TUYEAR": 2022,
+   "participation": 0.17862803856049286,
+   "min_per_capita": 12.667885196490001
+  },
+  {
+   "TUYEAR": 2023,
+   "participation": 0.18563961444637622,
+   "min_per_capita": 13.474772649674428
+  },
+  {
+   "TUYEAR": 2024,
+   "participation": 0.18846325951861662,
+   "min_per_capita": 13.269460367168056
+  },
+  {
+   "TUYEAR": 2025,
+   "participation": 0.20515622855171722,
+   "min_per_capita": 14.98147633684568
+  }
+ ],
+ "era_table": [
+  {
+   "set": "fitness",
+   "era": "2003-07",
+   "n_episodes": 12079,
+   "alone_share_min": 0.5077256700467002,
+   "alone_share_ep": 0.600656672915927,
+   "friend_share_min": 0.12770153537876108,
+   "partner_share_min": 0.1571918064045628,
+   "family_share_min": 0.19663785578136536,
+   "mean_dur": 54.423482082681296,
+   "mean_dur_alone": 46.00331629142091,
+   "mean_dur_social": 67.08834568891403,
+   "home_share_min": 0.2205661186287751
+  },
+  {
+   "set": "fitness",
+   "era": "2008-12",
+   "n_episodes": 11214,
+   "alone_share_min": 0.495847166056613,
+   "alone_share_ep": 0.5859791318974878,
+   "friend_share_min": 0.15637243766403008,
+   "partner_share_min": 0.16298027552794137,
+   "family_share_min": 0.17994404375136236,
+   "mean_dur": 59.309143759860135,
+   "mean_dur_alone": 50.18654974852522,
+   "mean_dur_social": 72.22069032975833,
+   "home_share_min": 0.20967856663419304
+  },
+  {
+   "set": "fitness",
+   "era": "2013-19",
+   "n_episodes": 15107,
+   "alone_share_min": 0.49081422938318203,
+   "alone_share_ep": 0.5863550269248071,
+   "friend_share_min": 0.12322709753361864,
+   "partner_share_min": 0.16298042692277168,
+   "family_share_min": 0.18923880794054235,
+   "mean_dur": 54.36556778183735,
+   "mean_dur_alone": 45.50723201908094,
+   "mean_dur_social": 66.92254306927984,
+   "home_share_min": 0.20135232199859743
+  },
+  {
+   "set": "fitness",
+   "era": "2021-25",
+   "n_episodes": 9858,
+   "alone_share_min": 0.5596691984362595,
+   "alone_share_ep": 0.6402971397077649,
+   "friend_share_min": 0.07623246301888002,
+   "partner_share_min": 0.16667331468824387,
+   "family_share_min": 0.16199939235799812,
+   "mean_dur": 53.63343121850778,
+   "mean_dur_alone": 46.879765030886155,
+   "mean_dur_social": 65.65544610869219,
+   "home_share_min": 0.2900756123146205
+  },
+  {
+   "set": "sport",
+   "era": "2003-07",
+   "n_episodes": 2136,
+   "alone_share_min": 0.07250977354344902,
+   "alone_share_ep": 0.09226642133834043,
+   "friend_share_min": 0.4832042788858807,
+   "partner_share_min": 0.06956752049676163,
+   "family_share_min": 0.21215385866827013,
+   "mean_dur": 127.86970598099765,
+   "mean_dur_alone": 100.48946614879426,
+   "mean_dur_social": 130.6527656849557,
+   "home_share_min": 0.047456877761291136
+  },
+  {
+   "set": "sport",
+   "era": "2008-12",
+   "n_episodes": 1782,
+   "alone_share_min": 0.09634083671233083,
+   "alone_share_ep": 0.11053022799393383,
+   "friend_share_min": 0.5350144892363492,
+   "partner_share_min": 0.0725958941164547,
+   "family_share_min": 0.19163632874056802,
+   "mean_dur": 126.7646643710312,
+   "mean_dur_alone": 110.49116655882767,
+   "mean_dur_social": 128.7868954575187,
+   "home_share_min": 0.07723096937205415
+  },
+  {
+   "set": "sport",
+   "era": "2013-19",
+   "n_episodes": 1522,
+   "alone_share_min": 0.06969723245117392,
+   "alone_share_ep": 0.10097815538018859,
+   "friend_share_min": 0.46152375053380074,
+   "partner_share_min": 0.08458627664143745,
+   "family_share_min": 0.21425881033438446,
+   "mean_dur": 125.88977146091514,
+   "mean_dur_alone": 86.89175031670277,
+   "mean_dur_social": 130.27003014115388,
+   "home_share_min": 0.07281008759599403
+  },
+  {
+   "set": "sport",
+   "era": "2021-25",
+   "n_episodes": 748,
+   "alone_share_min": 0.13727690405809787,
+   "alone_share_ep": 0.1780541199974889,
+   "friend_share_min": 0.3523869325662963,
+   "partner_share_min": 0.07962625702617096,
+   "family_share_min": 0.17496660152494065,
+   "mean_dur": 126.68688868966535,
+   "mean_dur_alone": 97.67358297755412,
+   "mean_dur_social": 132.9718993484843,
+   "home_share_min": 0.10221230457909233
+  },
+  {
+   "set": "broad1301",
+   "era": "2003-07",
+   "n_episodes": 16268,
+   "alone_share_min": 0.3385048100819865,
+   "alone_share_ep": 0.48322346043582604,
+   "friend_share_min": 0.253767753593308,
+   "partner_share_min": 0.13493986106984696,
+   "family_share_min": 0.22662979095310312,
+   "mean_dur": 75.35800848597603,
+   "mean_dur_alone": 52.789341659229606,
+   "mean_dur_social": 96.46134512475034,
+   "home_share_min": 0.14994031022751367
+  },
+  {
+   "set": "broad1301",
+   "era": "2008-12",
+   "n_episodes": 14426,
+   "alone_share_min": 0.35935207860060175,
+   "alone_share_ep": 0.48770328957416914,
+   "friend_share_min": 0.2723140086350576,
+   "partner_share_min": 0.13988097075187952,
+   "family_share_min": 0.20418857617255096,
+   "mean_dur": 76.37725059516268,
+   "mean_dur_alone": 56.27668368432598,
+   "mean_dur_social": 95.5128655722181,
+   "home_share_min": 0.16244293398394863
+  },
+  {
+   "set": "broad1301",
+   "era": "2013-19",
+   "n_episodes": 18326,
+   "alone_share_min": 0.37867597818330645,
+   "alone_share_ep": 0.5116949017461349,
+   "friend_share_min": 0.21069750616478672,
+   "partner_share_min": 0.14672831022489574,
+   "family_share_min": 0.2141444699891934,
+   "mean_dur": 68.18965298841695,
+   "mean_dur_alone": 50.46324178578561,
+   "mean_dur_social": 86.7651588987123,
+   "home_share_min": 0.1641797452569217
+  },
+  {
+   "set": "broad1301",
+   "era": "2021-25",
+   "n_episodes": 11340,
+   "alone_share_min": 0.4542237271471969,
+   "alone_share_ep": 0.579428723873709,
+   "friend_share_min": 0.13202257203195727,
+   "partner_share_min": 0.15640646764754124,
+   "family_share_min": 0.18749512282790087,
+   "mean_dur": 64.45869909473798,
+   "mean_dur_alone": 50.53023666851049,
+   "mean_dur_social": 83.64819601779563,
+   "home_share_min": 0.23836330603831032
+  }
+ ],
+ "headline_ses": {
+  "2003-07": {
+   "alone_share_min": 0.5077256700467002,
+   "se": 0.008621843824118871,
+   "n_resp": 9478
+  },
+  "2021-25": {
+   "alone_share_min": 0.5596691984362595,
+   "se": 0.009817197946768509,
+   "n_resp": 7457
+  }
+ },
+ "gym": [
+  {
+   "era": "2003-07",
+   "n_gym_episodes": 1038,
+   "gym_share_min": 0.11334093618453411,
+   "gym_alone_share_min": 0.6297584229378195,
+   "gym_friend_share_min": 0.11053904312972378,
+   "away_nongym_alone_share_min": 0.4330953933854587
+  },
+  {
+   "era": "2008-12",
+   "n_gym_episodes": 2183,
+   "gym_share_min": 0.2281316343700837,
+   "gym_alone_share_min": 0.6146003490534276,
+   "gym_friend_share_min": 0.13402415934945988,
+   "away_nongym_alone_share_min": 0.37493576367847214
+  },
+  {
+   "era": "2013-19",
+   "n_gym_episodes": 3395,
+   "gym_share_min": 0.25467810413632086,
+   "gym_alone_share_min": 0.5754602609804413,
+   "gym_friend_share_min": 0.10969388391695106,
+   "away_nongym_alone_share_min": 0.37696689090949853
+  },
+  {
+   "era": "2021-25",
+   "n_gym_episodes": 1659,
+   "gym_share_min": 0.21606813792276902,
+   "gym_alone_share_min": 0.5770129425444925,
+   "gym_friend_share_min": 0.0633935002088423,
+   "away_nongym_alone_share_min": 0.4348686558519533
+  }
+ ],
+ "by_activity": [
+  {
+   "code": 130131,
+   "label": "Walking",
+   "n": 17246,
+   "alone_min_all": 0.5157222284636188,
+   "alone_min_0307": 0.5316074277815194,
+   "alone_min_2125": 0.5274540266358413,
+   "dur_alone": 43.370789581645525,
+   "dur_social": 53.0150011113696,
+   "friend_min": 0.07638872886702205
+  },
+  {
+   "code": 130134,
+   "label": "Working out, unspec.",
+   "n": 8808,
+   "alone_min_all": 0.6937969037342301,
+   "alone_min_0307": 0.695946958105985,
+   "alone_min_2125": 0.7621984982943293,
+   "dur_alone": 47.12188899810276,
+   "dur_social": 54.780405282335074,
+   "friend_min": 0.0701807342831746
+  },
+  {
+   "code": 130133,
+   "label": "Weightlifting",
+   "n": 4682,
+   "alone_min_all": 0.640981795371731,
+   "alone_min_0307": 0.6457062429557812,
+   "alone_min_2125": 0.6700038232851979,
+   "dur_alone": 50.84224826316038,
+   "dur_social": 60.059019941374366,
+   "friend_min": 0.09653074385771047
+  },
+  {
+   "code": 130132,
+   "label": "Water sports",
+   "n": 4084,
+   "alone_min_all": 0.14867504932608194,
+   "alone_min_0307": 0.14731552263115744,
+   "alone_min_2125": 0.16250196392619304,
+   "dur_alone": 61.599746463475185,
+   "dur_social": 108.6551602784728,
+   "friend_min": 0.20024181575961159
+  },
+  {
+   "code": 130128,
+   "label": "Cardio equipment",
+   "n": 3805,
+   "alone_min_all": 0.7588168444286053,
+   "alone_min_0307": 0.7552271718014436,
+   "alone_min_2125": 0.8158065230542025,
+   "dur_alone": 37.56639780710438,
+   "dur_social": 37.67985823783244,
+   "friend_min": 0.05216236240672973
+  },
+  {
+   "code": 130124,
+   "label": "Running",
+   "n": 3295,
+   "alone_min_all": 0.7100712847906467,
+   "alone_min_0307": 0.7029701559343537,
+   "alone_min_2125": 0.7562954401216151,
+   "dur_alone": 46.80411967918136,
+   "dur_social": 57.44810485829234,
+   "friend_min": 0.10989065224198018
+  },
+  {
+   "code": 130104,
+   "label": "Biking",
+   "n": 2198,
+   "alone_min_all": 0.5384125816165524,
+   "alone_min_0307": 0.49686222297199784,
+   "alone_min_2125": 0.6417066084495197,
+   "dur_alone": 59.350635955268956,
+   "dur_social": 76.74716617532371,
+   "friend_min": 0.12052648745577497
+  },
+  {
+   "code": 130136,
+   "label": "Yoga",
+   "n": 1198,
+   "alone_min_all": 0.5699175496713295,
+   "alone_min_0307": 0.649084389843279,
+   "alone_min_2125": 0.5938319538909349,
+   "dur_alone": 44.04945018288726,
+   "dur_social": 61.81278674575632,
+   "friend_min": 0.09412744887868539
+  },
+  {
+   "code": 130101,
+   "label": "Aerobics",
+   "n": 807,
+   "alone_min_all": 0.4718908115033844,
+   "alone_min_0307": 0.5940573249319728,
+   "alone_min_2125": 0.48846016036033346,
+   "dur_alone": 43.82504445340602,
+   "dur_social": 61.12948338916003,
+   "friend_min": 0.09876575687158796
+  },
+  {
+   "code": 130116,
+   "label": "Hiking",
+   "n": 758,
+   "alone_min_all": 0.1959866920073222,
+   "alone_min_0307": 0.22512477869935993,
+   "alone_min_2125": 0.26906339465691537,
+   "dur_alone": 120.91246750848563,
+   "dur_social": 122.51376800302386,
+   "friend_min": 0.27329143552074303
+  },
+  {
+   "code": 130109,
+   "label": "Dancing",
+   "n": 711,
+   "alone_min_all": 0.08394453518882695,
+   "alone_min_0307": 0.05889937718409501,
+   "alone_min_2125": 0.14398927965697433,
+   "dur_alone": 73.26555537949686,
+   "dur_social": 118.41268895975179,
+   "friend_min": 0.4850302260469943
+  },
+  {
+   "code": 130125,
+   "label": "Ski/skate/snowboard",
+   "n": 393,
+   "alone_min_all": 0.1646233967157831,
+   "alone_min_0307": 0.16392602612082816,
+   "alone_min_2125": 0.2513064142627742,
+   "dur_alone": 175.18533944482502,
+   "dur_social": 151.36500889235333,
+   "friend_min": 0.25310310156126875
+  }
+ ],
+ "companion_classes": [
+  {
+   "companion": "Alone",
+   "n": 28800,
+   "share_ep": 0.6047300564966402,
+   "mean_dur": 46.90791194631532,
+   "median_dur": 40.0
+  },
+  {
+   "companion": "Spouse/partner",
+   "n": 6939,
+   "share_ep": 0.1349258792188675,
+   "mean_dur": 63.452069648092134,
+   "median_dur": 60.0
+  },
+  {
+   "companion": "Family",
+   "n": 4790,
+   "share_ep": 0.0912211687491171,
+   "mean_dur": 70.95722867472266,
+   "median_dur": 60.0
+  },
+  {
+   "companion": "Other people",
+   "n": 3906,
+   "share_ep": 0.09080448504509825,
+   "mean_dur": 57.82879798666937,
+   "median_dur": 60.0
+  },
+  {
+   "companion": "Friends",
+   "n": 3823,
+   "share_ep": 0.07831841049027707,
+   "mean_dur": 82.63486947488428,
+   "median_dur": 60.0
+  }
+ ],
+ "demographics": [
+  {
+   "dim": "ageband",
+   "group": "15-24",
+   "era": "2003-07",
+   "n": 1405,
+   "alone_share_min": 0.33779989929510346,
+   "friend_share_min": 0.2856900781517778,
+   "partner_share_min": 0.051492122198429184
+  },
+  {
+   "dim": "ageband",
+   "group": "15-24",
+   "era": "2021-25",
+   "n": 688,
+   "alone_share_min": 0.4896504252989286,
+   "friend_share_min": 0.16924630146795483,
+   "partner_share_min": 0.018378838986833762
+  },
+  {
+   "dim": "ageband",
+   "group": "25-34",
+   "era": "2003-07",
+   "n": 1785,
+   "alone_share_min": 0.47598910995758525,
+   "friend_share_min": 0.10020595015119188,
+   "partner_share_min": 0.20410428566215624
+  },
+  {
+   "dim": "ageband",
+   "group": "25-34",
+   "era": "2021-25",
+   "n": 1277,
+   "alone_share_min": 0.5374671859599887,
+   "friend_share_min": 0.08760748350015998,
+   "partner_share_min": 0.17477119371793187
+  },
+  {
+   "dim": "ageband",
+   "group": "35-44",
+   "era": "2003-07",
+   "n": 2602,
+   "alone_share_min": 0.4946013746384147,
+   "friend_share_min": 0.08271618970129661,
+   "partner_share_min": 0.18582332218170972
+  },
+  {
+   "dim": "ageband",
+   "group": "35-44",
+   "era": "2021-25",
+   "n": 1551,
+   "alone_share_min": 0.5172679706428118,
+   "friend_share_min": 0.04874578132866139,
+   "partner_share_min": 0.23510097695244517
+  },
+  {
+   "dim": "ageband",
+   "group": "45-54",
+   "era": "2003-07",
+   "n": 2327,
+   "alone_share_min": 0.5956421636685383,
+   "friend_share_min": 0.06609510604369993,
+   "partner_share_min": 0.18006292697538798
+  },
+  {
+   "dim": "ageband",
+   "group": "45-54",
+   "era": "2021-25",
+   "n": 1337,
+   "alone_share_min": 0.575198932061776,
+   "friend_share_min": 0.041993535579418546,
+   "partner_share_min": 0.18122033724306533
+  },
+  {
+   "dim": "ageband",
+   "group": "55-64",
+   "era": "2003-07",
+   "n": 1619,
+   "alone_share_min": 0.6136837159984848,
+   "friend_share_min": 0.07349939837099144,
+   "partner_share_min": 0.19589058495448325
+  },
+  {
+   "dim": "ageband",
+   "group": "55-64",
+   "era": "2021-25",
+   "n": 1469,
+   "alone_share_min": 0.6153549431223941,
+   "friend_share_min": 0.03696338796893433,
+   "partner_share_min": 0.22204886750524672
+  },
+  {
+   "dim": "ageband",
+   "group": "65+",
+   "era": "2003-07",
+   "n": 2341,
+   "alone_share_min": 0.6299524522813359,
+   "friend_share_min": 0.0835381459152493,
+   "partner_share_min": 0.17630428334030057
+  },
+  {
+   "dim": "ageband",
+   "group": "65+",
+   "era": "2021-25",
+   "n": 3536,
+   "alone_share_min": 0.6326124062812414,
+   "friend_share_min": 0.042773800191435354,
+   "partner_share_min": 0.21172393421750646
+  },
+  {
+   "dim": "TESEX",
+   "group": "1",
+   "era": "2003-07",
+   "n": 5512,
+   "alone_share_min": 0.5642569743907224,
+   "friend_share_min": 0.11417939084514725,
+   "partner_share_min": 0.16075503779536762
+  },
+  {
+   "dim": "TESEX",
+   "group": "1",
+   "era": "2021-25",
+   "n": 4814,
+   "alone_share_min": 0.6041494035889069,
+   "friend_share_min": 0.07855113220565384,
+   "partner_share_min": 0.16496435298646245
+  },
+  {
+   "dim": "TESEX",
+   "group": "2",
+   "era": "2003-07",
+   "n": 6567,
+   "alone_share_min": 0.44732121800810914,
+   "friend_share_min": 0.14215012701161878,
+   "partner_share_min": 0.153384446179183
+  },
+  {
+   "dim": "TESEX",
+   "group": "2",
+   "era": "2021-25",
+   "n": 5044,
+   "alone_share_min": 0.5088206237795998,
+   "friend_share_min": 0.07358182274320796,
+   "partner_share_min": 0.1686269537593809
+  }
+ ],
+ "time_of_day": [
+  {
+   "block": "<6a",
+   "n": 2940,
+   "alone_share_ep": 0.7832716831785128,
+   "share_of_episodes": 0.06588911425653567
+  },
+  {
+   "block": "6-8a",
+   "n": 10627,
+   "alone_share_ep": 0.7028684776634734,
+   "share_of_episodes": 0.2070859783051965
+  },
+  {
+   "block": "9-11a",
+   "n": 9372,
+   "alone_share_ep": 0.6091216801460594,
+   "share_of_episodes": 0.17878289499968172
+  },
+  {
+   "block": "12-3p",
+   "n": 11053,
+   "alone_share_ep": 0.5577643472898102,
+   "share_of_episodes": 0.21960833383527
+  },
+  {
+   "block": "4-6p",
+   "n": 9200,
+   "alone_share_ep": 0.5343239962268481,
+   "share_of_episodes": 0.21174593332301175
+  },
+  {
+   "block": "7-9p",
+   "n": 4471,
+   "alone_share_ep": 0.5342696545023851,
+   "share_of_episodes": 0.10502079040388103
+  },
+  {
+   "block": "10p+",
+   "n": 595,
+   "alone_share_ep": 0.5836528223023065,
+   "share_of_episodes": 0.011866954876423388
+  }
+ ],
+ "home_away": [
+  {
+   "era": "2003-07",
+   "where": "home",
+   "n": 3486,
+   "alone_share_min": 0.6703952339243485
+  },
+  {
+   "era": "2003-07",
+   "where": "away",
+   "n": 8593,
+   "alone_share_min": 0.4616930363864757
+  },
+  {
+   "era": "2008-12",
+   "where": "home",
+   "n": 3124,
+   "alone_share_min": 0.6908303726466848
+  },
+  {
+   "era": "2008-12",
+   "where": "away",
+   "n": 8090,
+   "alone_share_min": 0.44411656942907396
+  },
+  {
+   "era": "2013-19",
+   "where": "home",
+   "n": 4068,
+   "alone_share_min": 0.6913184845346644
+  },
+  {
+   "era": "2013-19",
+   "where": "away",
+   "n": 11039,
+   "alone_share_min": 0.4402637820991179
+  },
+  {
+   "era": "2021-25",
+   "where": "home",
+   "n": 3706,
+   "alone_share_min": 0.7592244005197956
+  },
+  {
+   "era": "2021-25",
+   "where": "away",
+   "n": 6152,
+   "alone_share_min": 0.47813080020813276
+  }
+ ],
+ "spillover": {
+  "exercise all alone": 28.206738301999522,
+  "had social exercise": 37.44873284926469
+ },
+ "decomposition": {
+  "era1": {
+   "home": {
+    "share": 0.2205661186287751,
+    "alone": 0.6703952339243485
+   },
+   "away": {
+    "share": 0.7794338813712249,
+    "alone": 0.4616930363864757
+   }
+  },
+  "era4": {
+   "home": {
+    "share": 0.2900756123146205,
+    "alone": 0.7592244005197956
+   },
+   "away": {
+    "share": 0.7099243876853795,
+    "alone": 0.47813080020813276
+   }
+  },
+  "composition_pp": 1.4506784081980793,
+  "within_pp": 3.743674430757851,
+  "total_pp": 5.194352838955931
+ }
+}
