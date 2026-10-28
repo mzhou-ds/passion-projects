@@ -1,0 +1,331 @@
+{
+ "n_pairs": 24139,
+ "cycles": [
+  "2007-08",
+  "2009-10",
+  "2011-12",
+  "2013-14",
+  "2015-16",
+  "2017-18"
+ ],
+ "shift": {
+  "first": {
+   "median_abs_h": 1.0,
+   "q25_abs_h": 0.33333333333333304,
+   "q75_abs_h": 2.0,
+   "mean_abs_h": 1.5949805647399542,
+   "share_gt1h": 0.3980012338160747,
+   "share_gt2h": 0.2275335122519726,
+   "share_gt3h": 0.13950242473946856,
+   "se_median": 0.0
+  },
+  "mid": {
+   "median_abs_h": 1.2552813520050639,
+   "q25_abs_h": 0.5810134756146459,
+   "q75_abs_h": 2.215424540802284,
+   "mean_abs_h": 1.599580660900621,
+   "share_gt1h": 0.5878718239319902,
+   "share_gt2h": 0.2946835911325496,
+   "share_gt3h": 0.13734411060562252,
+   "se_median": 0.015155083771943445
+  },
+  "last": {
+   "median_abs_h": 1.0,
+   "q25_abs_h": 0.5,
+   "q75_abs_h": 2.0,
+   "mean_abs_h": 1.5186016009021126,
+   "share_gt1h": 0.459832044772526,
+   "share_gt2h": 0.24074038709496434,
+   "share_gt3h": 0.11049779009724127,
+   "se_median": 0.0
+  },
+  "window": {
+   "median_abs_h": 1.5833333333333321,
+   "q25_abs_h": 0.75,
+   "q75_abs_h": 3.0,
+   "mean_abs_h": 2.3176514665541523,
+   "share_gt1h": 0.6129064364674183,
+   "share_gt2h": 0.3910263211036096,
+   "share_gt3h": 0.2415997565153898,
+   "se_median": 0.11289406996986752
+  }
+ },
+ "icc": {
+  "first": {
+   "icc": 0.38866500406777477,
+   "within_sd_h": 1.884631621678338,
+   "between_sd_h": 1.502707880131595,
+   "reliability_2day_avg": 0.5597678387937624
+  },
+  "mid": {
+   "icc": 0.30656925846956246,
+   "within_sd_h": 1.5506484425722433,
+   "between_sd_h": 1.0310413983986837,
+   "reliability_2day_avg": 0.46927364390718856
+  },
+  "last": {
+   "icc": 0.2995241397246028,
+   "within_sd_h": 1.5415570060075587,
+   "between_sd_h": 1.0080426734089694,
+   "reliability_2day_avg": 0.4609751070696977
+  },
+  "window": {
+   "icc": 0.3217457221369613,
+   "within_sd_h": 2.3547995389082472,
+   "between_sd_h": 1.6218626105695746,
+   "reliability_2day_avg": 0.4868496515604709
+  },
+  "kcal": {
+   "icc": 0.44528272795483814,
+   "within_sd_h": 657.2251196398228,
+   "between_sd_h": 588.8385501146009,
+   "reliability_2day_avg": 0.6161877110161552
+  },
+  "after20": {
+   "icc": 0.263879833477345,
+   "within_sd_h": 0.16346911066701217,
+   "between_sd_h": 0.0978733475586895,
+   "reliability_2day_avg": 0.4175710799203523
+  }
+ },
+ "levels": {
+  "first": {
+   "median_day": 8.0
+  },
+  "mid": {
+   "median_day": 14.85318680796117
+  },
+  "last": {
+   "median_day": 20.0
+  },
+  "window": {
+   "median_day": 12.0
+  },
+  "kcal_mean": 2097.513246891124
+ },
+ "ends": {
+  "corr_first_last_shift": 0.05822069674208063,
+  "share_same_direction": 0.38088576249255235,
+  "median_abs_window_change_h": 1.5833333333333321
+ },
+ "pair_type": {
+  "both_weekday": {
+   "n": 10823,
+   "share": 0.4715277367341529,
+   "median_abs_mid_shift_h": 1.2123371459515604,
+   "median_abs_last_shift_h": 1.0,
+   "median_abs_first_shift_h": 0.5
+  },
+  "both_weekend": {
+   "n": 908,
+   "share": 0.06144245180392968,
+   "median_abs_mid_shift_h": 1.2564909248017737,
+   "median_abs_last_shift_h": 1.0,
+   "median_abs_first_shift_h": 1.0
+  },
+  "mixed": {
+   "n": 12408,
+   "share": 0.46702981146191747,
+   "median_abs_mid_shift_h": 1.310937785008349,
+   "median_abs_last_shift_h": 1.0,
+   "median_abs_first_shift_h": 1.0
+  }
+ },
+ "weekend_day_effect": {
+  "mid_later_h": 0.16722106524173377,
+  "last_later_h": -0.045107875673825217,
+  "kcal_diff": 74.17122748721529
+ },
+ "segments": {
+  "age": {
+   "20s": {
+    "n": 3990,
+    "median_abs_mid_shift_h": 1.4468428877210424,
+    "median_abs_last_shift_h": 1.0,
+    "share_gt2h_mid": 0.36741195371948643
+   },
+   "30s": {
+    "n": 4215,
+    "median_abs_mid_shift_h": 1.2711503222454055,
+    "median_abs_last_shift_h": 1.0,
+    "share_gt2h_mid": 0.3039761982056892
+   },
+   "40s": {
+    "n": 4310,
+    "median_abs_mid_shift_h": 1.249167051255761,
+    "median_abs_last_shift_h": 1.0,
+    "share_gt2h_mid": 0.2984359711474481
+   },
+   "50s": {
+    "n": 4253,
+    "median_abs_mid_shift_h": 1.2829627622376327,
+    "median_abs_last_shift_h": 1.0,
+    "share_gt2h_mid": 0.2779634091542283
+   },
+   "60s": {
+    "n": 4537,
+    "median_abs_mid_shift_h": 1.120415683328049,
+    "median_abs_last_shift_h": 1.0,
+    "share_gt2h_mid": 0.2483923033166265
+   },
+   "70s": {
+    "n": 2834,
+    "median_abs_mid_shift_h": 1.1089745924675882,
+    "median_abs_last_shift_h": 1.0,
+    "share_gt2h_mid": 0.2238896260677841
+   }
+  },
+  "sex": {
+   "1.0": {
+    "n": 11490,
+    "median_abs_mid_shift_h": 1.3066195611206224,
+    "median_abs_last_shift_h": 1.0,
+    "share_gt2h_mid": 0.3124068324715029
+   },
+   "2.0": {
+    "n": 12649,
+    "median_abs_mid_shift_h": 1.207033053187469,
+    "median_abs_last_shift_h": 1.0,
+    "share_gt2h_mid": 0.2783040970634079
+   }
+  },
+  "race": {
+   "1.0": {
+    "n": 3675,
+    "median_abs_mid_shift_h": 1.3545106406610876,
+    "median_abs_last_shift_h": 1.0,
+    "share_gt2h_mid": 0.32731539028153733
+   },
+   "2.0": {
+    "n": 2560,
+    "median_abs_mid_shift_h": 1.3633313078783265,
+    "median_abs_last_shift_h": 1.0,
+    "share_gt2h_mid": 0.31787440262262207
+   },
+   "3.0": {
+    "n": 9879,
+    "median_abs_mid_shift_h": 1.203797457672145,
+    "median_abs_last_shift_h": 1.0,
+    "share_gt2h_mid": 0.2728759865098792
+   },
+   "4.0": {
+    "n": 5246,
+    "median_abs_mid_shift_h": 1.52607933555667,
+    "median_abs_last_shift_h": 1.5,
+    "share_gt2h_mid": 0.39048625984853913
+   },
+   "5.0": {
+    "n": 2779,
+    "median_abs_mid_shift_h": 1.2181305803006912,
+    "median_abs_last_shift_h": 1.0,
+    "share_gt2h_mid": 0.28769323607937186
+   }
+  },
+  "cycle": {
+   "2007-08": {
+    "n": 4191,
+    "median_abs_mid_shift_h": 1.2540027164546765,
+    "median_abs_last_shift_h": 1.0,
+    "share_gt2h_mid": 0.2940526413996462
+   },
+   "2009-10": {
+    "n": 4556,
+    "median_abs_mid_shift_h": 1.22369075415694,
+    "median_abs_last_shift_h": 1.0,
+    "share_gt2h_mid": 0.2925304798251104
+   },
+   "2011-12": {
+    "n": 3911,
+    "median_abs_mid_shift_h": 1.2465089116064416,
+    "median_abs_last_shift_h": 1.0,
+    "share_gt2h_mid": 0.2907531834052929
+   },
+   "2013-14": {
+    "n": 4047,
+    "median_abs_mid_shift_h": 1.2850903195597216,
+    "median_abs_last_shift_h": 1.0,
+    "share_gt2h_mid": 0.2880488890062977
+   },
+   "2015-16": {
+    "n": 3755,
+    "median_abs_mid_shift_h": 1.2113226505459276,
+    "median_abs_last_shift_h": 1.0,
+    "share_gt2h_mid": 0.28724008614295377
+   },
+   "2017-18": {
+    "n": 3679,
+    "median_abs_mid_shift_h": 1.3439690917938059,
+    "median_abs_last_shift_h": 1.0,
+    "share_gt2h_mid": 0.31467815220033873
+   }
+  }
+ },
+ "intake_link": {
+  "kcal_per_hour_later_midpoint": 38.44154489034697,
+  "se_midpoint": 4.652148939058504,
+  "kcal_per_hour_wider_window": 49.3651998697829,
+  "se_window": 2.7853542533663846,
+  "r2": 0.03609083601120877,
+  "kcal_per_10pp_after20": 14.308392319514523,
+  "se_after20_10pp": 4.555036270211175
+ },
+ "delta_bins": [
+  {
+   "bin": "(-8.0, -2.0]",
+   "n": 4524.0,
+   "d_kcal_mean": -208.95279716360966,
+   "d_kcal_rel": -107.23760326645608
+  },
+  {
+   "bin": "(-2.0, -1.0]",
+   "n": 3917.0,
+   "d_kcal_mean": -154.1023850561517,
+   "d_kcal_rel": -52.38719115899811
+  },
+  {
+   "bin": "(-1.0, -0.5]",
+   "n": 2507.0,
+   "d_kcal_mean": -130.04773955460038,
+   "d_kcal_rel": -28.3325456574468
+  },
+  {
+   "bin": "(-0.5, 0.5]",
+   "n": 5020.0,
+   "d_kcal_mean": -105.00967742884151,
+   "d_kcal_rel": -3.2944835316879306
+  },
+  {
+   "bin": "(0.5, 1.0]",
+   "n": 2129.0,
+   "d_kcal_mean": -55.80414632082872,
+   "d_kcal_rel": 45.91104757632486
+  },
+  {
+   "bin": "(1.0, 2.0]",
+   "n": 3077.0,
+   "d_kcal_mean": 36.950216626998646,
+   "d_kcal_rel": 138.66541052415224
+  },
+  {
+   "bin": "(2.0, 8.0]",
+   "n": 2875.0,
+   "d_kcal_mean": -32.69032536054837,
+   "d_kcal_rel": 69.02486853660521
+  }
+ ],
+ "stranger": {
+  "stranger_mean_abs_mid_gap_h": 2.065754076727561,
+  "own_mean_abs_mid_shift_h": 1.599580660900621,
+  "own_as_share_of_stranger_gap": 0.7743325688770162,
+  "between_person_iqr_mid_h": 1.9284879363078815,
+  "share_own_shift_exceeds_between_iqr": 0.3103694355237098,
+  "same_direction_share_movers": 0.5064178225284891,
+  "mean_d_kcal_day2_minus_day1": -101.71519389715358
+ },
+ "fourth_meal": {
+  "share_days_snack_pm_ge300": 0.16066519818928374,
+  "share_days_any_snack_pm": 0.39625835423860994,
+  "median_snack_pm_when_present": 244.0,
+  "snack_share_of_after20_kcal": 0.39122549890081215
+ }
+}

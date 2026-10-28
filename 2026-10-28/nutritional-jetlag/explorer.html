@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Your Eating Clock Wobble — Musing with Mike</title>
+<style>
+body{font-family:Georgia,serif;margin:2rem auto;max-width:640px;padding:0 1rem;color:#222}
+h1{font-size:1.5rem} select{font-size:1rem;padding:.3rem;margin:.2rem}
+.big{font-size:2.6rem;font-weight:bold;color:#1b6f5e}
+.card{border:1px solid #ddd;border-radius:8px;padding:1rem;margin-top:1rem}
+small{color:#666}
+</style></head><body>
+<h1>How far does your eating clock move between two ordinary days?</h1>
+<p>Pick people like you. The numbers are the median day-to-day shift in the
+calorie-weighted midpoint of the eating day, measured in NHANES two-day
+24-hour recalls (2007–2018, adults 20–79).</p>
+<label>Age <select id="age"></select></label>
+<label>Your two days <select id="pair">
+<option value="both_weekday">both weekdays</option>
+<option value="mixed">one weekday, one weekend</option>
+<option value="both_weekend">both weekend</option></select></label>
+<label>Clock reading <select id="clock">
+<option value="mid">calorie midpoint</option>
+<option value="first">first bite</option>
+<option value="last">last bite</option>
+<option value="window">eating window</option></select></label>
+<div class="card"><div class="big" id="out">–</div>
+<div id="sub"></div></div>
+<p><small>Median absolute shift between recall day 1 and day 2. Based on real
+NHANES respondents in that cell; small cells (n &lt; 60) are omitted.</small></p>
+<script>
+const CELLS = [{"age": "20s", "pair": "both_weekday", "n": 1695, "first": 1.0, "mid": 1.42, "last": 1.0, "window": 2.0, "gt2": 35.8}, {"age": "20s", "pair": "both_weekend", "n": 158, "first": 1.0, "mid": 1.35, "last": 1.0, "window": 1.75, "gt2": 34.7}, {"age": "20s", "pair": "mixed", "n": 2137, "first": 1.5, "mid": 1.48, "last": 1.25, "window": 2.4, "gt2": 37.9}, {"age": "30s", "pair": "both_weekday", "n": 1829, "first": 0.75, "mid": 1.22, "last": 1.0, "window": 1.5, "gt2": 28.5}, {"age": "30s", "pair": "both_weekend", "n": 211, "first": 1.0, "mid": 1.4, "last": 1.5, "window": 2.0, "gt2": 30.3}, {"age": "30s", "pair": "mixed", "n": 2175, "first": 1.5, "mid": 1.31, "last": 1.0, "window": 2.0, "gt2": 32.3}, {"age": "40s", "pair": "both_weekday", "n": 1836, "first": 0.5, "mid": 1.19, "last": 1.0, "window": 1.5, "gt2": 28.2}, {"age": "40s", "pair": "both_weekend", "n": 200, "first": 1.0, "mid": 1.4, "last": 1.5, "window": 2.0, "gt2": 32.0}, {"age": "40s", "pair": "mixed", "n": 2274, "first": 1.0, "mid": 1.31, "last": 1.0, "window": 1.75, "gt2": 31.1}, {"age": "50s", "pair": "both_weekday", "n": 1923, "first": 0.5, "mid": 1.29, "last": 1.0, "window": 1.5, "gt2": 28.7}, {"age": "50s", "pair": "both_weekend", "n": 141, "first": 1.0, "mid": 1.38, "last": 1.0, "window": 1.5, "gt2": 25.4}, {"age": "50s", "pair": "mixed", "n": 2189, "first": 1.0, "mid": 1.24, "last": 1.0, "window": 1.75, "gt2": 27.1}, {"age": "60s", "pair": "both_weekday", "n": 2185, "first": 0.5, "mid": 1.05, "last": 1.0, "window": 1.25, "gt2": 25.5}, {"age": "60s", "pair": "both_weekend", "n": 133, "first": 0.74, "mid": 0.75, "last": 1.0, "window": 1.33, "gt2": 15.5}, {"age": "60s", "pair": "mixed", "n": 2219, "first": 1.0, "mid": 1.24, "last": 1.0, "window": 1.5, "gt2": 25.4}, {"age": "70s", "pair": "both_weekday", "n": 1355, "first": 0.5, "mid": 1.08, "last": 1.0, "window": 1.25, "gt2": 22.3}, {"age": "70s", "pair": "both_weekend", "n": 65, "first": 1.0, "mid": 0.88, "last": 1.0, "window": 1.5, "gt2": 16.4}, {"age": "70s", "pair": "mixed", "n": 1414, "first": 0.5, "mid": 1.17, "last": 1.0, "window": 1.25, "gt2": 23.1}];
+const ages = [...new Set(CELLS.map(c=>c.age))];
+const ageSel = document.getElementById('age');
+ages.forEach(a=>{const o=document.createElement('option');o.value=a;o.textContent=a;ageSel.appendChild(o);});
+function upd(){
+  const a=ageSel.value, p=document.getElementById('pair').value,
+        k=document.getElementById('clock').value;
+  const c=CELLS.find(x=>x.age===a&&x.pair===p);
+  if(!c){document.getElementById('out').textContent='not enough data';document.getElementById('sub').textContent='';return;}
+  document.getElementById('out').textContent=c[k].toFixed(2)+' hours';
+  document.getElementById('sub').textContent=
+    `Median shift for ${a} adults (n=${c.n.toLocaleString()}). `+
+    `${c.gt2}% of them moved their calorie midpoint by more than 2 hours between the two days.`;
+}
+document.querySelectorAll('select').forEach(s=>s.addEventListener('change',upd));
+upd();
+</script></body></html>

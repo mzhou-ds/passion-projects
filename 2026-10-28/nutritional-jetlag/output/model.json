@@ -1,0 +1,40 @@
+{
+ "n_model": 21942,
+ "r2_test": 0.11887355370984454,
+ "mae_test_h": 1.0327197653405553,
+ "baseline_mae_h": 1.0444146288038403,
+ "shap_top": [
+  {
+   "feature": "mean_after20",
+   "mean_abs_shap_h": 0.35215532779693604
+  },
+  {
+   "feature": "mean_mid",
+   "mean_abs_shap_h": 0.23411200940608978
+  },
+  {
+   "feature": "mean_window",
+   "mean_abs_shap_h": 0.10697720944881439
+  },
+  {
+   "feature": "mean_kcal",
+   "mean_abs_shap_h": 0.07401151955127716
+  },
+  {
+   "feature": "RIDAGEYR",
+   "mean_abs_shap_h": 0.07358293980360031
+  },
+  {
+   "feature": "RIAGENDR",
+   "mean_abs_shap_h": 0.05820149555802345
+  },
+  {
+   "feature": "DMDEDUC2",
+   "mean_abs_shap_h": 0.04979854077100754
+  },
+  {
+   "feature": "DMDMARTL",
+   "mean_abs_shap_h": 0.04584018886089325
+  }
+ ]
+}
