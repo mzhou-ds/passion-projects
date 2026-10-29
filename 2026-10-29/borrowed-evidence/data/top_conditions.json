@@ -1,0 +1,86 @@
+{
+ "Ashwagandha": {
+  "Stress": 8,
+  "Strength": 3,
+  "Sexual Health": 3,
+  "Anxiety": 3,
+  "Sleep": 2
+ },
+ "Cold water immersion": {
+  "Cold-water Immersion": 3,
+  "Cold Exposure": 3,
+  "Fatigue": 3,
+  "Soccer": 2,
+  "Cold Water Immersion": 2
+ },
+ "Creatine": {
+  "Sarcopenia": 12,
+  "Major Depressive Disorder": 12,
+  "Creatine": 7,
+  "Depression": 6,
+  "Cognition": 5
+ },
+ "Intermittent fasting": {
+  "Intermittent Fasting": 26,
+  "Obesity": 20,
+  "Metabolic Syndrome": 8,
+  "Weight Loss": 6,
+  "Polycystic Ovary Syndrome": 5
+ },
+ "Ketogenic diet": {
+  "Obesity": 34,
+  "Ketogenic Dieting": 27,
+  "Epilepsy": 16,
+  "Ketogenic Diet": 15,
+  "Insulin Resistance": 7
+ },
+ "Methylene blue": {
+  "Septic Shock": 12,
+  "Breast Cancer": 6,
+  "Methylene Blue": 6,
+  "Sentinel Lymph Node": 5,
+  "Sepsis": 4
+ },
+ "NMN": {
+  "Aging": 4,
+  "Diminished Ovarian Reserve": 2,
+  "Healthy Volunteers": 2,
+  "Healthy Adults": 2,
+  "Postoperative Prevention of Tumor": 1
+ },
+ "Nicotinamide riboside": {
+  "Aging": 6,
+  "Parkinson Disease": 4,
+  "Obesity": 2,
+  "Acute Kidney Injury": 2,
+  "Peripheral Artery Disease": 2
+ },
+ "Photobiomodulation": {
+  "Photobiomodulation": 14,
+  "Photobiomodulation Therapy": 12,
+  "Xerostomia": 9,
+  "Breast Cancer": 9,
+  "Head and Neck Cancer": 8
+ },
+ "Rapamycin": {
+  "Kidney Transplantation": 16,
+  "Lymphoma": 13,
+  "Advanced Cancer": 12,
+  "Unspecified Adult Solid Tumor, Protocol Specific": 11,
+  "Aging": 10
+ },
+ "Sauna": {
+  "Blood Pressure": 4,
+  "Bronchiectasis": 2,
+  "Cardiovascular Risk Factor": 2,
+  "Hyperthermia": 2,
+  "Core Body Temperature 101.3 F": 1
+ },
+ "Time-restricted eating": {
+  "Obesity": 39,
+  "Time Restricted Eating": 25,
+  "Time Restricted Feeding": 24,
+  "Metabolic Syndrome": 14,
+  "Overweight and Obesity": 14
+ }
+}

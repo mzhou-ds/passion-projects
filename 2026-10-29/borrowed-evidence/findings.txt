@@ -1,0 +1,11 @@
+Borrowed Evidence (build #53, 2026-10-29, biohacking) - headline findings
+Source: ClinicalTrials.gov API v2, 1,907 matched trials, 12 interventions, fetched 2026-10-29.
+
+1. 68.9% of all matched trials exclude healthy volunteers entirely; only 25.9% enroll healthy adults under 40. Excluding capped rapamycin: 60.9% patient-only, 32.8% young-healthy.
+2. Rapamycin: 93.9% patient-only, 4.3% young-healthy; top conditions kidney transplantation, lymphoma, advanced cancer. Its "decades of research" are mostly transplant/oncology history.
+3. Ketogenic diet 73.8% patient-only (obesity, epilepsy); methylene blue 75.4% (septic shock, breast cancer surgery); photobiomodulation 65.9% (oral mucositis, head/neck cancer); nicotinamide riboside 62.2% patient-only, 27.8% of trials set minimum age 50+.
+4. Exceptions: cold water immersion 14.7% patient-only / 79.4% young-healthy; ashwagandha 26.3% / 71.1%. Studied in healthy people from the start.
+5. Literature size vs young-healthy share: r = -0.77 (log trials). Longevity drugs as a category: 84.8% patient-only, 11.4% young-healthy.
+6. Trial volume boomed (150+/yr by 2023, ex-rapamycin) but young-healthy share stuck around one-third since 2011 (33.5% 2016-20, 32.7% 2021+).
+7. Median enrollment ~40 participants in both groups; healthy-volunteer trials complete more often (57.6% vs 47.4%).
+Caveats: registry flag is sponsor-reported; "accepts healthy volunteers" is not "only healthy volunteers"; rapamycin capped at 5 pages (460 trials) and excluded from trend; trial counts are not effect sizes.
