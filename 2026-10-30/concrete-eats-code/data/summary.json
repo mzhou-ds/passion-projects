@@ -1,0 +1,305 @@
+{
+ "crossover": {
+  "MSFT": {
+   "sustained_crossover_year": 2023,
+   "latest_year": 2026,
+   "latest_capex": 115.9,
+   "latest_rnd": 35.6,
+   "latest_ratio": 3.26,
+   "capex_2019": 13.9,
+   "capex_intensity_2019": 0.111,
+   "capex_intensity_latest": 0.349,
+   "capex_multiple_2019_to_latest": 8.33
+  },
+  "GOOGL": {
+   "sustained_crossover_year": 2024,
+   "latest_year": 2025,
+   "latest_capex": 91.4,
+   "latest_rnd": 61.1,
+   "latest_ratio": 1.5,
+   "capex_2019": 23.5,
+   "capex_intensity_2019": 0.145,
+   "capex_intensity_latest": 0.227,
+   "capex_multiple_2019_to_latest": 3.88
+  },
+  "META": {
+   "sustained_crossover_year": 2025,
+   "latest_year": 2025,
+   "latest_capex": 69.7,
+   "latest_rnd": 57.4,
+   "latest_ratio": 1.21,
+   "capex_2019": 15.1,
+   "capex_intensity_2019": 0.214,
+   "capex_intensity_latest": 0.347,
+   "capex_multiple_2019_to_latest": 4.61
+  }
+ },
+ "combined": [
+  {
+   "cal_year": 2013,
+   "revenue": 141.2,
+   "rnd": 19.0,
+   "capex": 13.0,
+   "capex_over_rnd": 0.7
+  },
+  {
+   "cal_year": 2014,
+   "revenue": 165.3,
+   "rnd": 23.9,
+   "capex": 18.3,
+   "capex_over_rnd": 0.8
+  },
+  {
+   "cal_year": 2015,
+   "revenue": 186.5,
+   "rnd": 29.1,
+   "capex": 18.4,
+   "capex_over_rnd": 0.6
+  },
+  {
+   "cal_year": 2016,
+   "revenue": 209.1,
+   "rnd": 31.9,
+   "capex": 23.0,
+   "capex_over_rnd": 0.7
+  },
+  {
+   "cal_year": 2017,
+   "revenue": 248.1,
+   "rnd": 37.4,
+   "capex": 28.0,
+   "capex_over_rnd": 0.7
+  },
+  {
+   "cal_year": 2018,
+   "revenue": 303.0,
+   "rnd": 46.4,
+   "capex": 50.7,
+   "capex_over_rnd": 1.1
+  },
+  {
+   "cal_year": 2019,
+   "revenue": 358.4,
+   "rnd": 56.5,
+   "capex": 52.6,
+   "capex_over_rnd": 0.9
+  },
+  {
+   "cal_year": 2020,
+   "revenue": 411.5,
+   "rnd": 65.3,
+   "capex": 52.9,
+   "capex_over_rnd": 0.8
+  },
+  {
+   "cal_year": 2021,
+   "revenue": 543.7,
+   "rnd": 76.9,
+   "capex": 64.0,
+   "capex_over_rnd": 0.8
+  },
+  {
+   "cal_year": 2022,
+   "revenue": 597.7,
+   "rnd": 99.4,
+   "capex": 86.6,
+   "capex_over_rnd": 0.9
+  },
+  {
+   "cal_year": 2023,
+   "revenue": 654.2,
+   "rnd": 111.1,
+   "capex": 87.4,
+   "capex_over_rnd": 0.8
+  },
+  {
+   "cal_year": 2024,
+   "revenue": 759.6,
+   "rnd": 122.7,
+   "capex": 134.3,
+   "capex_over_rnd": 1.1
+  },
+  {
+   "cal_year": 2025,
+   "revenue": 885.5,
+   "rnd": 150.9,
+   "capex": 225.7,
+   "capex_over_rnd": 1.5
+  }
+ ],
+ "nvda_capture": [
+  {
+   "nvda_fy_end_year": 2022,
+   "nvda_revenue": 26.914,
+   "cal": 2021,
+   "hyper_capex": 63.952,
+   "capture": 0.421
+  },
+  {
+   "nvda_fy_end_year": 2023,
+   "nvda_revenue": 26.974,
+   "cal": 2022,
+   "hyper_capex": 86.557,
+   "capture": 0.312
+  },
+  {
+   "nvda_fy_end_year": 2024,
+   "nvda_revenue": 60.922,
+   "cal": 2023,
+   "hyper_capex": 87.403,
+   "capture": 0.697
+  },
+  {
+   "nvda_fy_end_year": 2025,
+   "nvda_revenue": 130.497,
+   "cal": 2024,
+   "hyper_capex": 134.268,
+   "capture": 0.972
+  },
+  {
+   "nvda_fy_end_year": 2026,
+   "nvda_revenue": 215.938,
+   "cal": 2025,
+   "hyper_capex": 225.689,
+   "capture": 0.957
+  }
+ ],
+ "counterfactual": {
+  "MSFT": {
+   "base_productivity_19_20": 1.081,
+   "window": [
+    2024,
+    2025,
+    2026
+   ],
+   "actual_drev_3yr": 119.9,
+   "predicted_drev_3yr": 243.3,
+   "shortfall": 123.3,
+   "latest_productivity": 0.533,
+   "productivity_change_pct": -50.7
+  },
+  "GOOGL": {
+   "base_productivity_19_20": 1.083,
+   "window": [
+    2023,
+    2024,
+    2025
+   ],
+   "actual_drev_3yr": 120.0,
+   "predicted_drev_3yr": 190.9,
+   "shortfall": 70.9,
+   "latest_productivity": 0.681,
+   "productivity_change_pct": -37.2
+  },
+  "META": {
+   "base_productivity_19_20": 1.115,
+   "window": [
+    2023,
+    2024,
+    2025
+   ],
+   "actual_drev_3yr": 84.4,
+   "predicted_drev_3yr": 149.4,
+   "shortfall": 65.0,
+   "latest_productivity": 0.63,
+   "productivity_change_pct": -43.5
+  }
+ },
+ "productivity_table": {
+  "2008": {
+   "MSFT": null,
+   "GOOGL": null,
+   "META": null
+  },
+  "2009": {
+   "MSFT": null,
+   "GOOGL": null,
+   "META": null
+  },
+  "2010": {
+   "MSFT": null,
+   "GOOGL": null,
+   "META": null
+  },
+  "2011": {
+   "MSFT": 1.278,
+   "GOOGL": null,
+   "META": null
+  },
+  "2012": {
+   "MSFT": 2.303,
+   "GOOGL": null,
+   "META": null
+  },
+  "2013": {
+   "MSFT": 1.723,
+   "GOOGL": null,
+   "META": 1.841
+  },
+  "2014": {
+   "MSFT": 1.402,
+   "GOOGL": null,
+   "META": 1.977
+  },
+  "2015": {
+   "MSFT": 1.266,
+   "GOOGL": null,
+   "META": 2.246
+  },
+  "2016": {
+   "MSFT": 0.673,
+   "GOOGL": 1.115,
+   "META": 2.235
+  },
+  "2017": {
+   "MSFT": 0.434,
+   "GOOGL": 1.345,
+   "META": 2.05
+  },
+  "2018": {
+   "MSFT": 0.597,
+   "GOOGL": 1.274,
+   "META": 1.508
+  },
+  "2019": {
+   "MSFT": 1.03,
+   "GOOGL": 1.157,
+   "META": 1.204
+  },
+  "2020": {
+   "MSFT": 1.133,
+   "GOOGL": 1.01,
+   "META": 1.026
+  },
+  "2021": {
+   "MSFT": 1.155,
+   "GOOGL": 1.714,
+   "META": 1.268
+  },
+  "2022": {
+   "MSFT": 1.208,
+   "GOOGL": 1.543,
+   "META": 0.706
+  },
+  "2023": {
+   "MSFT": 0.949,
+   "GOOGL": 1.413,
+   "META": 0.636
+  },
+  "2024": {
+   "MSFT": 0.799,
+   "GOOGL": 0.795,
+   "META": 0.488
+  },
+  "2025": {
+   "MSFT": 0.609,
+   "GOOGL": 0.681,
+   "META": 0.63
+  },
+  "2026": {
+   "MSFT": 0.533,
+   "GOOGL": null,
+   "META": null
+  }
+ }
+}

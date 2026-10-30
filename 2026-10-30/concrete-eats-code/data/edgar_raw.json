@@ -1,0 +1,34 @@
+{
+ "MSFT": {
+  "entityName": "MICROSOFT CORPORATION",
+  "cik": 789019,
+  "revenue_tag": "RevenueFromContractWithCustomerExcludingAssessedTax,Revenues,SalesRevenueNet",
+  "rnd_tag": "ResearchAndDevelopmentExpense",
+  "capex_tag": "PaymentsToAcquirePropertyPlantAndEquipment",
+  "depr_tag": "Depreciation"
+ },
+ "GOOGL": {
+  "entityName": "Alphabet Inc.",
+  "cik": 1652044,
+  "revenue_tag": "RevenueFromContractWithCustomerExcludingAssessedTax,Revenues",
+  "rnd_tag": "ResearchAndDevelopmentExpense",
+  "capex_tag": "PaymentsToAcquirePropertyPlantAndEquipment",
+  "depr_tag": "Depreciation"
+ },
+ "META": {
+  "entityName": "Meta Platforms, Inc.",
+  "cik": 1326801,
+  "revenue_tag": "RevenueFromContractWithCustomerExcludingAssessedTax,Revenues",
+  "rnd_tag": "ResearchAndDevelopmentExpense",
+  "capex_tag": "PaymentsToAcquirePropertyPlantAndEquipment",
+  "depr_tag": "DepreciationDepletionAndAmortization"
+ },
+ "NVDA": {
+  "entityName": "NVIDIA CORP",
+  "cik": 1045810,
+  "revenue_tag": "RevenueFromContractWithCustomerExcludingAssessedTax,Revenues",
+  "rnd_tag": "ResearchAndDevelopmentExpense",
+  "capex_tag": "PaymentsToAcquireProductiveAssets",
+  "depr_tag": "Depreciation,DepreciationDepletionAndAmortization"
+ }
+}

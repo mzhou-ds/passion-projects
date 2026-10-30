@@ -1,0 +1,5 @@
+Build #54, 2026-10-30, tech-industry: Concrete Eats Code
+1. Crossover is recent and staggered: MSFT FY2023 (FY2026 capex $115.9B vs R&D $35.6B, 3.26x), GOOGL 2024 ($91.4B vs $61.1B, 1.50x), META 2025 ($69.7B vs $57.4B, 1.21x). Combined 2025 capex $225.7B vs R&D $150.9B; 2019 was $52.6B vs $56.5B. Capex intensity 14.7% -> 25.5% of revenue.
+2. Marginal return roughly halved: 3-yr revenue growth per capex $ down 50.7% MSFT, 43.5% META, 37.2% GOOGL vs 2019-20 baseline. Mechanical counterfactual shortfall ~$259B combined.
+3. NVIDIA total revenue ~0.96x big-three combined capex (FY2026 $215.9B vs cal-2025 $225.7B), up from 0.31x in FY2023. Scale comparison with stated caveats, not a flow trace.
+4. Panel model honesty check: 1-yr-ahead growth NOT predicted by capex intensity out of sample (LOCO R2 negative; persistence baseline wins). Payoff window is multi-year.
