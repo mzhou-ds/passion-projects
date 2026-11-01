@@ -1,0 +1,98 @@
+[
+  {
+    "city": "vancouver",
+    "country": "CA",
+    "status": "ok",
+    "elements": 1491
+  },
+  {
+    "city": "toronto",
+    "country": "CA",
+    "status": "ok",
+    "elements": 3910
+  },
+  {
+    "city": "montreal",
+    "country": "CA",
+    "status": "ok",
+    "elements": 3098
+  },
+  {
+    "city": "calgary",
+    "country": "CA",
+    "status": "ok",
+    "elements": 1072
+  },
+  {
+    "city": "edmonton",
+    "country": "CA",
+    "status": "ok",
+    "elements": 832
+  },
+  {
+    "city": "ottawa",
+    "country": "CA",
+    "status": "ok",
+    "elements": 896
+  },
+  {
+    "city": "winnipeg",
+    "country": "CA",
+    "status": "ok",
+    "elements": 499
+  },
+  {
+    "city": "halifax",
+    "country": "CA",
+    "status": "ok",
+    "elements": 333
+  },
+  {
+    "city": "san-francisco",
+    "country": "US",
+    "status": "ok",
+    "elements": 1941
+  },
+  {
+    "city": "los-angeles",
+    "country": "US",
+    "status": "ok",
+    "elements": 2645
+  },
+  {
+    "city": "new-york",
+    "country": "US",
+    "status": "ok",
+    "elements": 9730
+  },
+  {
+    "city": "seattle",
+    "country": "US",
+    "status": "ok",
+    "elements": 1436
+  },
+  {
+    "city": "boston",
+    "country": "US",
+    "status": "ok",
+    "elements": 1350
+  },
+  {
+    "city": "chicago",
+    "country": "US",
+    "status": "ok",
+    "elements": 2685
+  },
+  {
+    "city": "houston",
+    "country": "US",
+    "status": "ok",
+    "elements": 2376
+  },
+  {
+    "city": "portland",
+    "country": "US",
+    "status": "ok",
+    "elements": 1325
+  }
+]

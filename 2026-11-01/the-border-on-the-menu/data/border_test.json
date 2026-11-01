@@ -1,0 +1,21 @@
+{
+  "n_cities": 16,
+  "total_restaurants": 35619,
+  "total_tagged": 26972,
+  "ols": {
+    "cross_border_coef": 0.06449610115973986,
+    "km_z_coef": 0.005944210698117367,
+    "const": 0.07700228927316097,
+    "r2": 0.30549640768011266,
+    "p_perm_border": 0.0,
+    "n_pairs": 120
+  },
+  "loocv_country_accuracy": 1.0,
+  "loocv_null_mean": 0.44521875,
+  "loocv_null_p": 0.0005,
+  "entropy_ca_mean": 3.7028783280582775,
+  "entropy_us_mean": 3.758532379371547,
+  "chinese_specificity_ca": 0.047337133304218126,
+  "chinese_specificity_us": 0.057915060574293346,
+  "families_kept": 190
+}

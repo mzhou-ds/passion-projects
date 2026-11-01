@@ -1,0 +1,41 @@
+THE BORDER ON THE MENU — findings (2026-11-01)
+35,619 restaurants in 16 city cores (8 Canada, 8 US), 26,972 with a cuisine tag (75.7%).
+Source: OpenStreetMap cuisine tags, via BBBike city extracts and Geofabrik
+province extracts (Overpass was unusable on 2026-11-01: all four mirrors timed
+out even on a tiny test query).
+
+1. You can taste the border. A logistic regression on cuisine shares picks the
+   right country for all 16 cities in leave-one-city-out validation (16/16).
+   Shuffled labels average 44.5%; permutation p = 0.0005.
+
+2. Menus jump at the border, they do not drift with distance. Mean cuisine
+   distance is 0.077 within a country and 0.142 across it. In a regression on
+   120 city pairs, the cross-border coefficient is +0.065 (permutation
+   p < 0.0002) while a standard deviation of kilometres adds only +0.006.
+
+3. Vancouver and Seattle are the proof. They are 191 km apart with menu
+   distance 0.148. Portland and Seattle are 234 km apart with distance 0.017.
+   Boston to New York is 302 km at 0.016. Vancouver's top cuisine is Japanese
+   (21.4% of tagged restaurants); Seattle's is Italian (14.6%), then American
+   and Mexican. Same coast, different menu.
+
+4. The border is a wall for some cuisines and a sieve for others. Mexican
+   food: 3.2% of Canadian tagged restaurants vs 11.4% in the US (0.28x).
+   Indian (1.95x) and Vietnamese (1.80x) lean Canadian. Italian is identical
+   on both sides (15.7% vs 16.0%, 0.98x). Even "American" food leans south
+   (8.2% vs 13.7%, 0.60x).
+
+5. Two hypotheses died. Canadian menus are NOT more diverse: mean cuisine
+   entropy 3.70 in Canada vs 3.76 in the US. And Chinese menus are NOT more
+   regionally specific north of the border: only 4.7% of Canadian
+   Chinese-family restaurants carry a regional tag (Sichuan, Cantonese,
+   dim sum) vs 5.8% in the US.
+
+6. The national dish is a rounding error. "Canadian" cuisine tags appear on
+   0.68% of Canadian tagged restaurants and 0.01% of American ones. French
+   tags are as common in US cities (1.22%) as Canadian ones (0.99%): Montreal
+   does not make French food Canadian.
+
+Caveats: OSM tags are crowd-mapped, so coverage varies (61% Halifax to 86%
+Seattle) and all shares are among tagged restaurants. City cores are fixed
+bboxes, not metro areas, so this is downtown menus, not whole metros.
