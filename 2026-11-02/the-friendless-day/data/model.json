@@ -1,0 +1,142 @@
+{
+ "zero_friend": {
+  "auc": 0.702,
+  "base_rate": 0.794,
+  "shap": [
+   {
+    "feature": "TEAGE",
+    "mean_abs_shap": 0.2963
+   },
+   {
+    "feature": "era_2021-25",
+    "mean_abs_shap": 0.2272
+   },
+   {
+    "feature": "weekend",
+    "mean_abs_shap": 0.1677
+   },
+   {
+    "feature": "TRNUMHOU",
+    "mean_abs_shap": 0.156
+   },
+   {
+    "feature": "spouse_in_hh",
+    "mean_abs_shap": 0.1386
+   },
+   {
+    "feature": "work_hrs",
+    "mean_abs_shap": 0.1073
+   },
+   {
+    "feature": "has_kids_hh",
+    "mean_abs_shap": 0.0442
+   },
+   {
+    "feature": "era_2003-07",
+    "mean_abs_shap": 0.0287
+   },
+   {
+    "feature": "era_2013-19",
+    "mean_abs_shap": 0.0241
+   },
+   {
+    "feature": "TELFS_5",
+    "mean_abs_shap": 0.0228
+   },
+   {
+    "feature": "TESEX",
+    "mean_abs_shap": 0.0181
+   },
+   {
+    "feature": "era_2008-12",
+    "mean_abs_shap": 0.0175
+   },
+   {
+    "feature": "TELFS_1",
+    "mean_abs_shap": 0.0104
+   },
+   {
+    "feature": "TELFS_2",
+    "mean_abs_shap": 0.0064
+   },
+   {
+    "feature": "TELFS_4",
+    "mean_abs_shap": 0.0036
+   },
+   {
+    "feature": "TELFS_3",
+    "mean_abs_shap": 0.0021
+   }
+  ]
+ },
+ "zero_family": {
+  "auc": 0.85,
+  "base_rate": 0.415,
+  "shap": [
+   {
+    "feature": "has_kids_hh",
+    "mean_abs_shap": 0.9811
+   },
+   {
+    "feature": "TRNUMHOU",
+    "mean_abs_shap": 0.6063
+   },
+   {
+    "feature": "TESEX",
+    "mean_abs_shap": 0.2723
+   },
+   {
+    "feature": "spouse_in_hh",
+    "mean_abs_shap": 0.1564
+   },
+   {
+    "feature": "weekend",
+    "mean_abs_shap": 0.142
+   },
+   {
+    "feature": "TEAGE",
+    "mean_abs_shap": 0.13
+   },
+   {
+    "feature": "TELFS_1",
+    "mean_abs_shap": 0.0885
+   },
+   {
+    "feature": "work_hrs",
+    "mean_abs_shap": 0.086
+   },
+   {
+    "feature": "era_2021-25",
+    "mean_abs_shap": 0.0687
+   },
+   {
+    "feature": "TELFS_5",
+    "mean_abs_shap": 0.0196
+   },
+   {
+    "feature": "era_2013-19",
+    "mean_abs_shap": 0.0157
+   },
+   {
+    "feature": "era_2008-12",
+    "mean_abs_shap": 0.0132
+   },
+   {
+    "feature": "era_2003-07",
+    "mean_abs_shap": 0.0114
+   },
+   {
+    "feature": "TELFS_2",
+    "mean_abs_shap": 0.0062
+   },
+   {
+    "feature": "TELFS_4",
+    "mean_abs_shap": 0.0025
+   },
+   {
+    "feature": "TELFS_3",
+    "mean_abs_shap": 0.0016
+   }
+  ]
+ }
+}

@@ -1,0 +1,916 @@
+{
+ "n_respondents": 250165,
+ "n_episodes_with_who": 3971031,
+ "n_episodes_total": 4994172,
+ "coverage_pct": 79.5,
+ "mean_eligible_min": 802.8,
+ "friend": [
+  {
+   "era": "2003-07",
+   "n": 72920,
+   "mean_min": 56.0,
+   "zero_share_pct": 76.9,
+   "mean_if_positive": 242.3,
+   "median_if_positive": 188.0,
+   "brief_share_of_positive_pct": 6.5,
+   "long_share_of_positive_pct": 67.8
+  },
+  {
+   "era": "2008-12",
+   "n": 64037,
+   "mean_min": 54.5,
+   "zero_share_pct": 77.2,
+   "mean_if_positive": 239.6,
+   "median_if_positive": 190.0,
+   "brief_share_of_positive_pct": 6.1,
+   "long_share_of_positive_pct": 67.5
+  },
+  {
+   "era": "2013-19",
+   "n": 73623,
+   "mean_min": 46.9,
+   "zero_share_pct": 79.4,
+   "mean_if_positive": 227.5,
+   "median_if_positive": 180.0,
+   "brief_share_of_positive_pct": 6.2,
+   "long_share_of_positive_pct": 65.5
+  },
+  {
+   "era": "2021-25",
+   "n": 39585,
+   "mean_min": 25.5,
+   "zero_share_pct": 88.7,
+   "mean_if_positive": 226.6,
+   "median_if_positive": 180.0,
+   "brief_share_of_positive_pct": 6.5,
+   "long_share_of_positive_pct": 67.4
+  }
+ ],
+ "friend_decomp": {
+  "delta_mean": -30.5,
+  "extensive": -28.6,
+  "intensive": -1.8
+ },
+ "family": [
+  {
+   "era": "2003-07",
+   "n": 72920,
+   "mean_min": 190.1,
+   "zero_share_pct": 39.9,
+   "mean_if_positive": 316.2,
+   "median_if_positive": 305.0,
+   "brief_share_of_positive_pct": 4.6,
+   "long_share_of_positive_pct": 75.6
+  },
+  {
+   "era": "2008-12",
+   "n": 64037,
+   "mean_min": 193.4,
+   "zero_share_pct": 40.2,
+   "mean_if_positive": 323.5,
+   "median_if_positive": 320.0,
+   "brief_share_of_positive_pct": 4.4,
+   "long_share_of_positive_pct": 76.3
+  },
+  {
+   "era": "2013-19",
+   "n": 73623,
+   "mean_min": 182.8,
+   "zero_share_pct": 42.7,
+   "mean_if_positive": 319.0,
+   "median_if_positive": 305.0,
+   "brief_share_of_positive_pct": 4.8,
+   "long_share_of_positive_pct": 75.8
+  },
+  {
+   "era": "2021-25",
+   "n": 39585,
+   "mean_min": 162.5,
+   "zero_share_pct": 47.3,
+   "mean_if_positive": 308.2,
+   "median_if_positive": 280.0,
+   "brief_share_of_positive_pct": 4.6,
+   "long_share_of_positive_pct": 74.2
+  }
+ ],
+ "family_decomp": {
+  "delta_mean": -27.6,
+  "extensive": -23.4,
+  "intensive": -4.2
+ },
+ "partner": [
+  {
+   "era": "2003-07",
+   "n": 72920,
+   "mean_min": 172.5,
+   "zero_share_pct": 47.2,
+   "mean_if_positive": 326.9,
+   "median_if_positive": 300.0,
+   "brief_share_of_positive_pct": 2.9,
+   "long_share_of_positive_pct": 80.1
+  },
+  {
+   "era": "2008-12",
+   "n": 64037,
+   "mean_min": 172.0,
+   "zero_share_pct": 49.2,
+   "mean_if_positive": 338.7,
+   "median_if_positive": 315.0,
+   "brief_share_of_positive_pct": 2.7,
+   "long_share_of_positive_pct": 81.4
+  },
+  {
+   "era": "2013-19",
+   "n": 73623,
+   "mean_min": 174.6,
+   "zero_share_pct": 49.1,
+   "mean_if_positive": 343.3,
+   "median_if_positive": 323.0,
+   "brief_share_of_positive_pct": 2.7,
+   "long_share_of_positive_pct": 81.8
+  },
+  {
+   "era": "2021-25",
+   "n": 39585,
+   "mean_min": 175.0,
+   "zero_share_pct": 50.0,
+   "mean_if_positive": 349.9,
+   "median_if_positive": 350.0,
+   "brief_share_of_positive_pct": 2.5,
+   "long_share_of_positive_pct": 82.5
+  }
+ ],
+ "partner_decomp": {
+  "delta_mean": 2.5,
+  "extensive": -9.2,
+  "intensive": 11.5
+ },
+ "sibling": [
+  {
+   "era": "2003-07",
+   "n": 72920,
+   "mean_min": 16.8,
+   "zero_share_pct": 92.3,
+   "mean_if_positive": 218.3,
+   "median_if_positive": 180.0,
+   "brief_share_of_positive_pct": 10.4,
+   "long_share_of_positive_pct": 60.0
+  },
+  {
+   "era": "2008-12",
+   "n": 64037,
+   "mean_min": 19.7,
+   "zero_share_pct": 91.6,
+   "mean_if_positive": 236.2,
+   "median_if_positive": 195.0,
+   "brief_share_of_positive_pct": 10.1,
+   "long_share_of_positive_pct": 61.6
+  },
+  {
+   "era": "2013-19",
+   "n": 73623,
+   "mean_min": 18.1,
+   "zero_share_pct": 92.4,
+   "mean_if_positive": 238.8,
+   "median_if_positive": 195.0,
+   "brief_share_of_positive_pct": 9.3,
+   "long_share_of_positive_pct": 62.3
+  },
+  {
+   "era": "2021-25",
+   "n": 39585,
+   "mean_min": 17.6,
+   "zero_share_pct": 91.7,
+   "mean_if_positive": 212.5,
+   "median_if_positive": 180.0,
+   "brief_share_of_positive_pct": 9.8,
+   "long_share_of_positive_pct": 55.6
+  }
+ ],
+ "sibling_decomp": {
+  "delta_mean": 0.8,
+  "extensive": 1.3,
+  "intensive": -0.5
+ },
+ "alone": [
+  {
+   "era": "2003-07",
+   "n": 72920,
+   "mean_min": 284.3,
+   "zero_share_pct": 6.3,
+   "mean_if_positive": 303.3,
+   "median_if_positive": 254.0,
+   "brief_share_of_positive_pct": 4.3,
+   "long_share_of_positive_pct": 75.3
+  },
+  {
+   "era": "2008-12",
+   "n": 64037,
+   "mean_min": 318.5,
+   "zero_share_pct": 6.5,
+   "mean_if_positive": 340.7,
+   "median_if_positive": 300.0,
+   "brief_share_of_positive_pct": 3.9,
+   "long_share_of_positive_pct": 78.1
+  },
+  {
+   "era": "2013-19",
+   "n": 73623,
+   "mean_min": 345.7,
+   "zero_share_pct": 6.2,
+   "mean_if_positive": 368.6,
+   "median_if_positive": 338.0,
+   "brief_share_of_positive_pct": 3.2,
+   "long_share_of_positive_pct": 80.4
+  },
+  {
+   "era": "2021-25",
+   "n": 39585,
+   "mean_min": 405.0,
+   "zero_share_pct": 5.9,
+   "mean_if_positive": 430.6,
+   "median_if_positive": 420.0,
+   "brief_share_of_positive_pct": 2.5,
+   "long_share_of_positive_pct": 85.2
+  }
+ ],
+ "alone_decomp": {
+  "delta_mean": 120.7,
+  "extensive": 1.2,
+  "intensive": 119.8
+ },
+ "friend_buckets": [
+  {
+   "era": "2003-07",
+   "zero": 76.9,
+   "1-29": 1.5,
+   "30-119": 5.9,
+   "120+": 15.7
+  },
+  {
+   "era": "2008-12",
+   "zero": 77.2,
+   "1-29": 1.4,
+   "30-119": 6.0,
+   "120+": 15.4
+  },
+  {
+   "era": "2013-19",
+   "zero": 79.4,
+   "1-29": 1.3,
+   "30-119": 5.8,
+   "120+": 13.5
+  },
+  {
+   "era": "2021-25",
+   "zero": 88.7,
+   "1-29": 0.7,
+   "30-119": 2.9,
+   "120+": 7.6
+  }
+ ],
+ "zero_by_age": [
+  {
+   "era": "2003-07",
+   "ageband": "15-24",
+   "n": 8612,
+   "zero_friend_pct": 55.3,
+   "friend_mean": 137.5,
+   "zero_family_pct": 26.0
+  },
+  {
+   "era": "2003-07",
+   "ageband": "25-34",
+   "n": 12086,
+   "zero_friend_pct": 78.8,
+   "friend_mean": 49.8,
+   "zero_family_pct": 33.0
+  },
+  {
+   "era": "2003-07",
+   "ageband": "35-44",
+   "n": 16081,
+   "zero_friend_pct": 82.9,
+   "friend_mean": 35.1,
+   "zero_family_pct": 26.4
+  },
+  {
+   "era": "2003-07",
+   "ageband": "45-54",
+   "n": 13753,
+   "zero_friend_pct": 83.9,
+   "friend_mean": 31.4,
+   "zero_family_pct": 42.1
+  },
+  {
+   "era": "2003-07",
+   "ageband": "55-64",
+   "n": 9930,
+   "zero_friend_pct": 83.7,
+   "friend_mean": 32.2,
+   "zero_family_pct": 57.3
+  },
+  {
+   "era": "2003-07",
+   "ageband": "65+",
+   "n": 12458,
+   "zero_friend_pct": 78.3,
+   "friend_mean": 43.3,
+   "zero_family_pct": 62.7
+  },
+  {
+   "era": "2008-12",
+   "ageband": "15-24",
+   "n": 6719,
+   "zero_friend_pct": 55.9,
+   "friend_mean": 123.8,
+   "zero_family_pct": 24.1
+  },
+  {
+   "era": "2008-12",
+   "ageband": "25-34",
+   "n": 10496,
+   "zero_friend_pct": 78.6,
+   "friend_mean": 56.8,
+   "zero_family_pct": 35.0
+  },
+  {
+   "era": "2008-12",
+   "ageband": "35-44",
+   "n": 13047,
+   "zero_friend_pct": 82.9,
+   "friend_mean": 36.7,
+   "zero_family_pct": 24.9
+  },
+  {
+   "era": "2008-12",
+   "ageband": "45-54",
+   "n": 11894,
+   "zero_friend_pct": 83.6,
+   "friend_mean": 32.9,
+   "zero_family_pct": 39.7
+  },
+  {
+   "era": "2008-12",
+   "ageband": "55-64",
+   "n": 9920,
+   "zero_friend_pct": 83.3,
+   "friend_mean": 34.8,
+   "zero_family_pct": 57.2
+  },
+  {
+   "era": "2008-12",
+   "ageband": "65+",
+   "n": 11961,
+   "zero_friend_pct": 80.3,
+   "friend_mean": 38.6,
+   "zero_family_pct": 63.7
+  },
+  {
+   "era": "2013-19",
+   "ageband": "15-24",
+   "n": 6394,
+   "zero_friend_pct": 60.9,
+   "friend_mean": 99.4,
+   "zero_family_pct": 26.6
+  },
+  {
+   "era": "2013-19",
+   "ageband": "25-34",
+   "n": 11143,
+   "zero_friend_pct": 80.4,
+   "friend_mean": 49.6,
+   "zero_family_pct": 38.1
+  },
+  {
+   "era": "2013-19",
+   "ageband": "35-44",
+   "n": 13417,
+   "zero_friend_pct": 83.8,
+   "friend_mean": 35.4,
+   "zero_family_pct": 24.9
+  },
+  {
+   "era": "2013-19",
+   "ageband": "45-54",
+   "n": 12433,
+   "zero_friend_pct": 84.7,
+   "friend_mean": 31.4,
+   "zero_family_pct": 40.2
+  },
+  {
+   "era": "2013-19",
+   "ageband": "55-64",
+   "n": 12746,
+   "zero_friend_pct": 85.6,
+   "friend_mean": 29.4,
+   "zero_family_pct": 58.9
+  },
+  {
+   "era": "2013-19",
+   "ageband": "65+",
+   "n": 17490,
+   "zero_friend_pct": 81.3,
+   "friend_mean": 36.0,
+   "zero_family_pct": 64.3
+  },
+  {
+   "era": "2021-25",
+   "ageband": "15-24",
+   "n": 2800,
+   "zero_friend_pct": 78.5,
+   "friend_mean": 51.6,
+   "zero_family_pct": 30.3
+  },
+  {
+   "era": "2021-25",
+   "ageband": "25-34",
+   "n": 5285,
+   "zero_friend_pct": 88.0,
+   "friend_mean": 28.9,
+   "zero_family_pct": 46.0
+  },
+  {
+   "era": "2021-25",
+   "ageband": "35-44",
+   "n": 6430,
+   "zero_friend_pct": 91.5,
+   "friend_mean": 18.7,
+   "zero_family_pct": 29.5
+  },
+  {
+   "era": "2021-25",
+   "ageband": "45-54",
+   "n": 5378,
+   "zero_friend_pct": 92.2,
+   "friend_mean": 17.6,
+   "zero_family_pct": 39.5
+  },
+  {
+   "era": "2021-25",
+   "ageband": "55-64",
+   "n": 6614,
+   "zero_friend_pct": 91.9,
+   "friend_mean": 18.2,
+   "zero_family_pct": 60.8
+  },
+  {
+   "era": "2021-25",
+   "ageband": "65+",
+   "n": 13078,
+   "zero_friend_pct": 90.1,
+   "friend_mean": 19.6,
+   "zero_family_pct": 69.6
+  }
+ ],
+ "zero_by_subgroup": [
+  {
+   "group": "weekend",
+   "value": false,
+   "era": "2003-07",
+   "n": 36281,
+   "zero_friend_pct": 77.9,
+   "friend_mean": 48.4
+  },
+  {
+   "group": "weekend",
+   "value": true,
+   "era": "2003-07",
+   "n": 36639,
+   "zero_friend_pct": 74.3,
+   "friend_mean": 74.8
+  },
+  {
+   "group": "weekend",
+   "value": false,
+   "era": "2021-25",
+   "n": 20058,
+   "zero_friend_pct": 89.8,
+   "friend_mean": 20.2
+  },
+  {
+   "group": "weekend",
+   "value": true,
+   "era": "2021-25",
+   "n": 19527,
+   "zero_friend_pct": 86.1,
+   "friend_mean": 39.0
+  },
+  {
+   "group": "has_kids_hh",
+   "value": false,
+   "era": "2003-07",
+   "n": 37828,
+   "zero_friend_pct": 76.5,
+   "friend_mean": 56.2
+  },
+  {
+   "group": "has_kids_hh",
+   "value": true,
+   "era": "2003-07",
+   "n": 35092,
+   "zero_friend_pct": 77.5,
+   "friend_mean": 55.7
+  },
+  {
+   "group": "has_kids_hh",
+   "value": false,
+   "era": "2021-25",
+   "n": 27840,
+   "zero_friend_pct": 88.6,
+   "friend_mean": 27.1
+  },
+  {
+   "group": "has_kids_hh",
+   "value": true,
+   "era": "2021-25",
+   "n": 11745,
+   "zero_friend_pct": 88.9,
+   "friend_mean": 22.7
+  },
+  {
+   "group": "spouse_in_hh",
+   "value": false,
+   "era": "2003-07",
+   "n": 34507,
+   "zero_friend_pct": 67.4,
+   "friend_mean": 90.3
+  },
+  {
+   "group": "spouse_in_hh",
+   "value": true,
+   "era": "2003-07",
+   "n": 38413,
+   "zero_friend_pct": 84.7,
+   "friend_mean": 27.9
+  },
+  {
+   "group": "spouse_in_hh",
+   "value": false,
+   "era": "2021-25",
+   "n": 18947,
+   "zero_friend_pct": 84.8,
+   "friend_mean": 36.0
+  },
+  {
+   "group": "spouse_in_hh",
+   "value": true,
+   "era": "2021-25",
+   "n": 20638,
+   "zero_friend_pct": 92.6,
+   "friend_mean": 15.3
+  }
+ ],
+ "location": [
+  {
+   "era": "2003-07",
+   "home_share_of_friend_min_pct": 18.3,
+   "home_only_share_of_friend_days_pct": 10.9,
+   "away_only_share_of_friend_days_pct": 73.5
+  },
+  {
+   "era": "2008-12",
+   "home_share_of_friend_min_pct": 18.9,
+   "home_only_share_of_friend_days_pct": 11.1,
+   "away_only_share_of_friend_days_pct": 73.7
+  },
+  {
+   "era": "2013-19",
+   "home_share_of_friend_min_pct": 17.9,
+   "home_only_share_of_friend_days_pct": 10.8,
+   "away_only_share_of_friend_days_pct": 77.1
+  },
+  {
+   "era": "2021-25",
+   "home_share_of_friend_min_pct": 21.1,
+   "home_only_share_of_friend_days_pct": 13.5,
+   "away_only_share_of_friend_days_pct": 74.8
+  }
+ ],
+ "sibling_by_age": [
+  {
+   "era": "2003-07",
+   "ageband": "15-24",
+   "n": 8612,
+   "sibling_mean": 76.6,
+   "any_sibling_pct": 35.5
+  },
+  {
+   "era": "2003-07",
+   "ageband": "25-34",
+   "n": 12086,
+   "sibling_mean": 9.8,
+   "any_sibling_pct": 4.3
+  },
+  {
+   "era": "2003-07",
+   "ageband": "35-44",
+   "n": 16081,
+   "sibling_mean": 2.4,
+   "any_sibling_pct": 1.3
+  },
+  {
+   "era": "2003-07",
+   "ageband": "45-54",
+   "n": 13753,
+   "sibling_mean": 2.2,
+   "any_sibling_pct": 1.0
+  },
+  {
+   "era": "2003-07",
+   "ageband": "55-64",
+   "n": 9930,
+   "sibling_mean": 2.9,
+   "any_sibling_pct": 1.0
+  },
+  {
+   "era": "2003-07",
+   "ageband": "65+",
+   "n": 12458,
+   "sibling_mean": 2.4,
+   "any_sibling_pct": 0.7
+  },
+  {
+   "era": "2008-12",
+   "ageband": "15-24",
+   "n": 6719,
+   "sibling_mean": 89.8,
+   "any_sibling_pct": 38.2
+  },
+  {
+   "era": "2008-12",
+   "ageband": "25-34",
+   "n": 10496,
+   "sibling_mean": 8.5,
+   "any_sibling_pct": 4.9
+  },
+  {
+   "era": "2008-12",
+   "ageband": "35-44",
+   "n": 13047,
+   "sibling_mean": 4.2,
+   "any_sibling_pct": 1.8
+  },
+  {
+   "era": "2008-12",
+   "ageband": "45-54",
+   "n": 11894,
+   "sibling_mean": 4.2,
+   "any_sibling_pct": 1.5
+  },
+  {
+   "era": "2008-12",
+   "ageband": "55-64",
+   "n": 9920,
+   "sibling_mean": 4.1,
+   "any_sibling_pct": 1.2
+  },
+  {
+   "era": "2008-12",
+   "ageband": "65+",
+   "n": 11961,
+   "sibling_mean": 3.9,
+   "any_sibling_pct": 0.8
+  },
+  {
+   "era": "2013-19",
+   "ageband": "15-24",
+   "n": 6394,
+   "sibling_mean": 87.0,
+   "any_sibling_pct": 36.3
+  },
+  {
+   "era": "2013-19",
+   "ageband": "25-34",
+   "n": 11143,
+   "sibling_mean": 10.8,
+   "any_sibling_pct": 5.0
+  },
+  {
+   "era": "2013-19",
+   "ageband": "35-44",
+   "n": 13417,
+   "sibling_mean": 2.6,
+   "any_sibling_pct": 1.3
+  },
+  {
+   "era": "2013-19",
+   "ageband": "45-54",
+   "n": 12433,
+   "sibling_mean": 2.9,
+   "any_sibling_pct": 1.2
+  },
+  {
+   "era": "2013-19",
+   "ageband": "55-64",
+   "n": 12746,
+   "sibling_mean": 2.7,
+   "any_sibling_pct": 1.1
+  },
+  {
+   "era": "2013-19",
+   "ageband": "65+",
+   "n": 17490,
+   "sibling_mean": 3.0,
+   "any_sibling_pct": 0.9
+  },
+  {
+   "era": "2021-25",
+   "ageband": "15-24",
+   "n": 2800,
+   "sibling_mean": 82.8,
+   "any_sibling_pct": 39.4
+  },
+  {
+   "era": "2021-25",
+   "ageband": "25-34",
+   "n": 5285,
+   "sibling_mean": 11.4,
+   "any_sibling_pct": 5.9
+  },
+  {
+   "era": "2021-25",
+   "ageband": "35-44",
+   "n": 6430,
+   "sibling_mean": 3.3,
+   "any_sibling_pct": 2.0
+  },
+  {
+   "era": "2021-25",
+   "ageband": "45-54",
+   "n": 5378,
+   "sibling_mean": 4.0,
+   "any_sibling_pct": 1.5
+  },
+  {
+   "era": "2021-25",
+   "ageband": "55-64",
+   "n": 6614,
+   "sibling_mean": 3.4,
+   "any_sibling_pct": 1.5
+  },
+  {
+   "era": "2021-25",
+   "ageband": "65+",
+   "n": 13078,
+   "sibling_mean": 4.4,
+   "any_sibling_pct": 1.3
+  }
+ ],
+ "yearly": [
+  {
+   "year": 2003,
+   "n": 20718,
+   "zero_friend_pct": 76.3,
+   "friend_mean": 60.2,
+   "zero_family_pct": 39.0
+  },
+  {
+   "year": 2004,
+   "n": 13973,
+   "zero_friend_pct": 76.3,
+   "friend_mean": 60.1,
+   "zero_family_pct": 40.4
+  },
+  {
+   "year": 2005,
+   "n": 13038,
+   "zero_friend_pct": 77.2,
+   "friend_mean": 56.4,
+   "zero_family_pct": 40.7
+  },
+  {
+   "year": 2006,
+   "n": 12943,
+   "zero_friend_pct": 77.2,
+   "friend_mean": 51.7,
+   "zero_family_pct": 39.5
+  },
+  {
+   "year": 2007,
+   "n": 12248,
+   "zero_friend_pct": 77.4,
+   "friend_mean": 51.9,
+   "zero_family_pct": 40.0
+  },
+  {
+   "year": 2008,
+   "n": 12723,
+   "zero_friend_pct": 78.9,
+   "friend_mean": 50.3,
+   "zero_family_pct": 40.3
+  },
+  {
+   "year": 2009,
+   "n": 13133,
+   "zero_friend_pct": 77.5,
+   "friend_mean": 51.1,
+   "zero_family_pct": 39.6
+  },
+  {
+   "year": 2010,
+   "n": 13260,
+   "zero_friend_pct": 76.5,
+   "friend_mean": 58.3,
+   "zero_family_pct": 39.9
+  },
+  {
+   "year": 2011,
+   "n": 12478,
+   "zero_friend_pct": 76.6,
+   "friend_mean": 56.5,
+   "zero_family_pct": 40.7
+  },
+  {
+   "year": 2012,
+   "n": 12443,
+   "zero_friend_pct": 76.8,
+   "friend_mean": 56.3,
+   "zero_family_pct": 40.5
+  },
+  {
+   "year": 2013,
+   "n": 11384,
+   "zero_friend_pct": 76.0,
+   "friend_mean": 56.7,
+   "zero_family_pct": 41.2
+  },
+  {
+   "year": 2014,
+   "n": 11592,
+   "zero_friend_pct": 77.8,
+   "friend_mean": 51.7,
+   "zero_family_pct": 42.3
+  },
+  {
+   "year": 2015,
+   "n": 10905,
+   "zero_friend_pct": 77.1,
+   "friend_mean": 50.4,
+   "zero_family_pct": 41.8
+  },
+  {
+   "year": 2016,
+   "n": 10491,
+   "zero_friend_pct": 78.3,
+   "friend_mean": 49.1,
+   "zero_family_pct": 42.4
+  },
+  {
+   "year": 2017,
+   "n": 10223,
+   "zero_friend_pct": 81.0,
+   "friend_mean": 43.6,
+   "zero_family_pct": 43.8
+  },
+  {
+   "year": 2018,
+   "n": 9593,
+   "zero_friend_pct": 82.0,
+   "friend_mean": 41.9,
+   "zero_family_pct": 42.5
+  },
+  {
+   "year": 2019,
+   "n": 9435,
+   "zero_friend_pct": 83.3,
+   "friend_mean": 35.5,
+   "zero_family_pct": 44.7
+  },
+  {
+   "year": 2021,
+   "n": 9087,
+   "zero_friend_pct": 89.7,
+   "friend_mean": 23.6,
+   "zero_family_pct": 46.0
+  },
+  {
+   "year": 2022,
+   "n": 8136,
+   "zero_friend_pct": 89.6,
+   "friend_mean": 24.8,
+   "zero_family_pct": 46.9
+  },
+  {
+   "year": 2023,
+   "n": 8548,
+   "zero_friend_pct": 88.3,
+   "friend_mean": 26.5,
+   "zero_family_pct": 48.0
+  },
+  {
+   "year": 2024,
+   "n": 7668,
+   "zero_friend_pct": 88.1,
+   "friend_mean": 25.8,
+   "zero_family_pct": 48.3
+  },
+  {
+   "year": 2025,
+   "n": 6146,
+   "zero_friend_pct": 88.1,
+   "friend_mean": 26.9,
+   "zero_family_pct": 47.2
+  }
+ ]
+}
