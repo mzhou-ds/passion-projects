@@ -1,0 +1,46 @@
+{
+  "cv_r2_mean": 0.5704597457457401,
+  "cv_r2_folds": [
+    0.28167560083580756,
+    0.7445828587947416,
+    0.4897096830520533,
+    0.4677466344969863,
+    0.868583951549112
+  ],
+  "cluster_names": {
+    "0": "pop crossovers",
+    "1": "quiet craftsmen",
+    "2": "single machines",
+    "3": "catalog engines"
+  },
+  "cluster_profiles": {
+    "0": {
+      "lifetime_single_ep": 109.14,
+      "recent_rate": 11.9,
+      "single_share": 0.89,
+      "collab_share": 0.75,
+      "pop_share": 0.41
+    },
+    "1": {
+      "lifetime_single_ep": 26.33,
+      "recent_rate": 3.44,
+      "single_share": 0.85,
+      "collab_share": 0.51,
+      "pop_share": 0.02
+    },
+    "2": {
+      "lifetime_single_ep": 95.08,
+      "recent_rate": 8.0,
+      "single_share": 0.94,
+      "collab_share": 0.73,
+      "pop_share": 0.07
+    },
+    "3": {
+      "lifetime_single_ep": 207.4,
+      "recent_rate": 16.4,
+      "single_share": 0.9,
+      "collab_share": 0.82,
+      "pop_share": 0.06
+    }
+  }
+}

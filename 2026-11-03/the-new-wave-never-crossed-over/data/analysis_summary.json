@@ -1,0 +1,68 @@
+{
+  "raw_album_details": 4888,
+  "deduped_releases": 4036,
+  "singles_eps": 3195,
+  "dated_share_single_ep": 1.0,
+  "excluded_artists": {
+    "Armin van Buuren": "Deezer's artist-albums endpoint returns only album-type items (424, mostly radio episodes and compilations) for this artist; his singles exist on Deezer but are not returned, so singles+EPs cannot be measured consistently with the rest of the panel."
+  },
+  "cohorts": {
+    "pioneer": {
+      "n_artists": 11,
+      "mean_lifetime_single_ep": 144.72727272727272,
+      "mean_recent_rate": 11.606060606060607,
+      "median_recent_rate": 9.333333333333334,
+      "mean_median_year": 2019.409090909091,
+      "mean_single_share": 0.8772624421987771,
+      "mean_collab_share": 0.7706593122794246,
+      "mean_pop_share": 0.14452209607206398,
+      "mean_dance_share": 0.935449376317024,
+      "mean_career_age": 18.0,
+      "mean_revisit_share_recent": 0.1325159102559557,
+      "mean_new_title_recent_rate": 10.212121212121211,
+      "median_new_title_recent_rate": 8.000000000000002
+    },
+    "peak-edm": {
+      "n_artists": 12,
+      "mean_lifetime_single_ep": 104.5,
+      "mean_recent_rate": 9.694444444444445,
+      "median_recent_rate": 9.333333333333334,
+      "mean_median_year": 2020.625,
+      "mean_single_share": 0.9243124307689574,
+      "mean_collab_share": 0.7693274842630942,
+      "mean_pop_share": 0.20782118341343814,
+      "mean_dance_share": 0.9445181348235474,
+      "mean_career_age": 12.166666666666666,
+      "mean_revisit_share_recent": 0.07982039745189226,
+      "mean_new_title_recent_rate": 8.972222222222223,
+      "median_new_title_recent_rate": 8.166666666666668
+    },
+    "new-wave": {
+      "n_artists": 8,
+      "mean_lifetime_single_ep": 43.625,
+      "mean_recent_rate": 5.75,
+      "median_recent_rate": 5.666666666666666,
+      "mean_median_year": 2023.125,
+      "mean_single_share": 0.9076015959505175,
+      "mean_collab_share": 0.5247115969821022,
+      "mean_pop_share": 0.007536606373815676,
+      "mean_dance_share": 0.9213632680769063,
+      "mean_career_age": 7.0,
+      "mean_revisit_share_recent": 0.06186619484316853,
+      "mean_new_title_recent_rate": 5.375,
+      "median_new_title_recent_rate": 4.833333333333334
+    }
+  },
+  "mannwhitney_pioneer_vs_newwave_recent_rate": {
+    "U": 63.0,
+    "p": 0.12628205138949236
+  },
+  "mannwhitney_peak_vs_newwave_recent_rate": {
+    "U": 75.5,
+    "p": 0.036814986772955215
+  },
+  "mannwhitney_pioneer_vs_newwave_newtitle_rate": {
+    "U": 58.5,
+    "p": 0.24663744229588902
+  }
+}
