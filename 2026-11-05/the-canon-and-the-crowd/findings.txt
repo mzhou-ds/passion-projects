@@ -1,0 +1,225 @@
+CANON VS CROWD — headline numbers
+Panel: 70 philosophers + 22 concept articles; 3773 in-panel links.
+Spearman canon PageRank vs crowd Ngram: rho=0.58 (p=1.06e-07, n=70)
+Spearman canon PageRank vs crowd pageviews: rho=0.37 (p=0.00143)
+  Western only (Ngram): rho=0.71 (p=6.59e-10)
+  Eastern only (Ngram): rho=0.13 (p=0.681)
+Ngram vs pageviews (two crowd measures agree): rho=0.69 (p=2.8e-11)
+
+Top 5 canon (PageRank): ['Plato', 'Aristotle', 'Thomas Aquinas', 'Immanuel Kant', 'David Hume']
+Top 5 crowd, books (Ngram 2000-19): ['Bertrand Russell', 'Aristotle', 'Karl Marx', 'Immanuel Kant', 'Plato']
+Top 5 crowd, pageviews (median monthly 2023-26): ['Karl Marx', 'Marcus Aurelius', 'Gautama Buddha', 'Friedrich Nietzsche', 'Aristotle']
+
+Tradition medians:
+           pagerank_med  dist_med  dist_mean     ngram_med   pv_med   n
+tradition                                                              
+Eastern        0.008721       2.0   1.769231  2.032569e-07   8807.0  13
+Western        0.011142       2.0   1.701754  1.521266e-06  48779.0  57
+Gender medians:
+        pagerank_med     ngram_med   pv_med   n
+gender                                         
+F           0.009317  3.147189e-07  33685.5  10
+M           0.011271  1.473886e-06  47723.5  60
+
+Communities: 3 (greedy modularity)
+[
+  {
+    "community": 0,
+    "size": 42,
+    "philosophers": 42,
+    "traditions": {
+      "Western": 36,
+      "Eastern": 6
+    },
+    "concepts": [],
+    "members": [
+      "Adam Smith",
+      "Albert Camus",
+      "Arthur Schopenhauer",
+      "Augustine of Hippo",
+      "Averroes",
+      "Ayn Rand",
+      "Baruch Spinoza",
+      "Bertrand Russell",
+      "Confucius",
+      "David Hume",
+      "Friedrich Nietzsche",
+      "Georg Wilhelm Friedrich Hegel",
+      "George Berkeley",
+      "Gottfried Wilhelm Leibniz",
+      "Han Fei",
+      "Hannah Arendt",
+      "Immanuel Kant",
+      "Iris Murdoch",
+      "Jacques Derrida",
+      "Jean-Jacques Rousseau",
+      "Jean-Paul Sartre",
+      "John Locke",
+      "John Stuart Mill",
+      "Karl Marx",
+      "Karl Popper",
+      "Laozi",
+      "Maimonides",
+      "Martha Nussbaum",
+      "Martin Heidegger",
+      "Mary Wollstonecraft",
+      "Mencius",
+      "Michel Foucault",
+      "Mozi",
+      "Ren\u00e9 Descartes",
+      "Simone Weil",
+      "Simone de Beauvoir",
+      "S\u00f8ren Kierkegaard",
+      "Thomas Aquinas",
+      "Thomas Hobbes",
+      "Voltaire",
+      "Willard Van Orman Quine",
+      "Xunzi"
+    ]
+  },
+  {
+    "community": 1,
+    "size": 35,
+    "philosophers": 13,
+    "traditions": {
+      "Eastern": 7,
+      "Western": 6
+    },
+    "concepts": [
+      "Phenomenology (philosophy)",
+      "Taoism",
+      "Existentialism",
+      "Aesthetics",
+      "Rationalism",
+      "Political philosophy",
+      "Utilitarianism",
+      "Epicureanism",
+      "Hindu philosophy",
+      "Confucianism",
+      "Epistemology",
+      "Stoicism",
+      "Ethics",
+      "Indian philosophy",
+      "Analytic philosophy",
+      "Empiricism",
+      "Philosophy",
+      "Zen",
+      "Logic",
+      "Chinese philosophy",
+      "Buddhism",
+      "Metaphysics"
+    ],
+    "members": [
+      "Adi Shankara",
+      "Aesthetics",
+      "Analytic philosophy",
+      "Avicenna",
+      "Buddhism",
+      "Chinese philosophy",
+      "Confucianism",
+      "Dogen",
+      "Empiricism",
+      "Epicureanism",
+      "Epistemology",
+      "Ethics",
+      "Existentialism",
+      "G. E. M. Anscombe",
+      "Gautama Buddha",
+      "Gottlob Frege",
+      "Hindu philosophy",
+      "Indian philosophy",
+      "John Rawls",
+      "Logic",
+      "Ludwig Wittgenstein",
+      "Metaphysics",
+      "Nagarjuna",
+      "Nishida Kitaro",
+      "Phenomenology",
+      "Philippa Foot",
+      "Philosophy",
+      "Political philosophy",
+      "Rationalism",
+      "Stoicism",
+      "Taoism",
+      "Utilitarianism",
+      "Wang Yangming",
+      "Zen",
+      "Zhuangzi"
+    ]
+  },
+  {
+    "community": 2,
+    "size": 15,
+    "philosophers": 15,
+    "traditions": {
+      "Western": 15
+    },
+    "concepts": [],
+    "members": [
+      "Aristotle",
+      "Cicero",
+      "Diogenes of Sinope",
+      "Epictetus",
+      "Epicurus",
+      "Heraclitus",
+      "Hypatia",
+      "Marcus Aurelius",
+      "Parmenides",
+      "Plato",
+      "Pyrrho",
+      "Seneca the Younger",
+      "Socrates",
+      "Thales",
+      "Zeno of Citium"
+    ]
+  }
+]
+
+Philosopher-philosopher edges: cross-tradition 278, within Western 976, within Eastern 38
+Edge densities: cross-tradition 0.375, within Western 0.612, within Eastern 0.487
+Bridge top 10 (share of East-West shortest paths): [('Laozi', 0.064), ('Nishida Kitaro', 0.056), ('Metaphysics', 0.036), ('Philosophy', 0.029), ('Immanuel Kant', 0.028), ('Plato', 0.027), ('Epistemology', 0.025), ('Ethics', 0.025), ('Aristotle', 0.024), ('David Hume', 0.019)]
+Schopenhauer (the textbook bridge candidate) ranks #25 of 92 on bridge score (0.008)
+Western figures most linked-to from Eastern articles: [('Immanuel Kant', 10), ('David Hume', 9), ('Aristotle', 8), ('Friedrich Nietzsche', 8), ('Georg Wilhelm Friedrich Hegel', 8), ('John Locke', 8), ('Plato', 8), ('Thomas Aquinas', 8), ('Baruch Spinoza', 8), ('Gottfried Wilhelm Leibniz', 8)]
+
+Quotability mechanism (n=13 Gutenberg texts):
+  median sentence length vs crowd Ngram: rho=0.67 (p=0.0115)
+  median sentence length vs crowd pageviews: rho=0.31 (p=0.297)
+  aphorism share (<10 words) vs crowd Ngram: rho=-0.42 (p=0.156)
+  aphorism share (<10 words) vs crowd pageviews: rho=-0.12 (p=0.707)
+  median sentence length vs canon PageRank: rho=0.42 (p=0.149)
+
+Biggest canon wins (central in the field's graph, rarely named in books):
+         figure tradition  canon_rank  crowd_rank_ngram  rank_gap_ngram
+           Mozi   Eastern          14                67             -53
+          Laozi   Eastern           6                52             -46
+       Averroes   Western          15                56             -41
+          Xunzi   Eastern          24                60             -36
+Martha Nussbaum   Western           8                36             -28
+Biggest crowd wins (named in books far more than the graph would predict):
+            figure tradition  canon_rank  crowd_rank_ngram  rank_gap_ngram
+    Gautama Buddha   Eastern          55                 7              48
+   Jacques Derrida   Western          51                15              36
+Seneca the Younger   Western          56                26              30
+    René Descartes   Western          41                16              25
+         Karl Marx   Western          25                 3              22
+
+Ngram rank movement 1900 -> 2019 (largest rises):
+             figure tradition  ngram_rank_1900  ngram_rank_2019  ngram_rank_move
+    Jacques Derrida   Western               62               17               45
+   Martin Heidegger   Western               47               13               34
+   Jean-Paul Sartre   Western               60               28               32
+  Søren Kierkegaard   Western               52               22               30
+    Michel Foucault   Western               36                7               29
+      Hannah Arendt   Western               49               24               25
+Ludwig Wittgenstein   Western               44               20               24
+      Gottlob Frege   Western               57               35               22
+Largest falls:
+            figure tradition  ngram_rank_1900  ngram_rank_2019  ngram_rank_move
+   Marcus Aurelius   Western               22               50              -28
+            Thales   Western               32               55              -23
+           Hypatia   Western               33               56              -23
+          Voltaire   Western                8               29              -21
+         Epictetus   Western               30               51              -21
+Seneca the Younger   Western                7               26              -19
+            Pyrrho   Western               48               66              -18
+   George Berkeley   Western               50               67              -17

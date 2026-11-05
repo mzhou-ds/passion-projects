@@ -1,0 +1,117 @@
+"""Panel definition for The Canon and the Crowd.
+
+Philosophers: 70 names with Wikipedia article titles, tradition,
+and gender flag. Concepts: 21 articles that structure the field.
+Ngram phrases are the book-search spellings for each figure; figures
+with no clean book spelling get ngram=None and are graph-only.
+"""
+
+PHILOSOPHERS = [
+    # (wikipedia title, tradition, gender, ngram phrase(s))
+    ("Thales", "Western", "M", ["Thales"]),
+    ("Heraclitus", "Western", "M", ["Heraclitus"]),
+    ("Parmenides", "Western", "M", ["Parmenides"]),
+    ("Socrates", "Western", "M", ["Socrates"]),
+    ("Plato", "Western", "M", ["Plato"]),
+    ("Aristotle", "Western", "M", ["Aristotle"]),
+    ("Epicurus", "Western", "M", ["Epicurus"]),
+    ("Zeno of Citium", "Western", "M", ["Zeno"]),
+    ("Diogenes of Sinope", "Western", "M", ["Diogenes"]),
+    ("Pyrrho", "Western", "M", ["Pyrrho"]),
+    ("Cicero", "Western", "M", ["Cicero"]),
+    ("Marcus Aurelius", "Western", "M", ["Marcus Aurelius"]),
+    ("Seneca the Younger", "Western", "M", ["Seneca"]),
+    ("Epictetus", "Western", "M", ["Epictetus"]),
+    ("Augustine of Hippo", "Western", "M", ["Augustine"]),
+    ("Thomas Aquinas", "Western", "M", ["Aquinas"]),
+    ("Maimonides", "Western", "M", ["Maimonides"]),
+    ("Avicenna", "Western", "M", ["Avicenna"]),
+    ("Averroes", "Western", "M", ["Averroes"]),
+    ("René Descartes", "Western", "M", ["Descartes"]),
+    ("Baruch Spinoza", "Western", "M", ["Spinoza"]),
+    ("John Locke", "Western", "M", ["Locke"]),
+    ("Gottfried Wilhelm Leibniz", "Western", "M", ["Leibniz"]),
+    ("George Berkeley", "Western", "M", ["George Berkeley"]),
+    ("David Hume", "Western", "M", ["Hume"]),
+    ("Immanuel Kant", "Western", "M", ["Kant"]),
+    ("Georg Wilhelm Friedrich Hegel", "Western", "M", ["Hegel"]),
+    ("Arthur Schopenhauer", "Western", "M", ["Schopenhauer"]),
+    ("Søren Kierkegaard", "Western", "M", ["Kierkegaard"]),
+    ("Friedrich Nietzsche", "Western", "M", ["Nietzsche"]),
+    ("Karl Marx", "Western", "M", ["Marx"]),
+    ("John Stuart Mill", "Western", "M", ["John Stuart Mill"]),
+    ("Ludwig Wittgenstein", "Western", "M", ["Wittgenstein"]),
+    ("Bertrand Russell", "Western", "M", ["Russell"]),
+    ("Jean-Paul Sartre", "Western", "M", ["Sartre"]),
+    ("Albert Camus", "Western", "M", ["Camus"]),
+    ("Martin Heidegger", "Western", "M", ["Heidegger"]),
+    ("Michel Foucault", "Western", "M", ["Foucault"]),
+    ("Jacques Derrida", "Western", "M", ["Derrida"]),
+    ("John Rawls", "Western", "M", ["Rawls"]),
+    ("Hannah Arendt", "Western", "F", ["Arendt"]),
+    ("Karl Popper", "Western", "M", ["Popper"]),
+    ("Willard Van Orman Quine", "Western", "M", ["Quine"]),
+    ("Gottlob Frege", "Western", "M", ["Frege"]),
+    ("Thomas Hobbes", "Western", "M", ["Hobbes"]),
+    ("Jean-Jacques Rousseau", "Western", "M", ["Rousseau"]),
+    ("Voltaire", "Western", "M", ["Voltaire"]),
+    ("Adam Smith", "Western", "M", ["Adam Smith"]),
+    ("Hypatia", "Western", "F", ["Hypatia"]),
+    ("Mary Wollstonecraft", "Western", "F", ["Wollstonecraft"]),
+    ("Simone de Beauvoir", "Western", "F", ["de Beauvoir"]),
+    ("Ayn Rand", "Western", "F", ["Ayn Rand"]),
+    ("Iris Murdoch", "Western", "F", ["Iris Murdoch"]),
+    ("Philippa Foot", "Western", "F", ["Philippa Foot"]),
+    ("G. E. M. Anscombe", "Western", "F", ["Anscombe"]),
+    ("Martha Nussbaum", "Western", "F", ["Nussbaum"]),
+    ("Simone Weil", "Western", "F", ["Simone Weil"]),
+    ("Laozi", "Eastern", "M", ["Laozi", "Lao Tzu"]),
+    ("Confucius", "Eastern", "M", ["Confucius"]),
+    ("Zhuang Zhou", "Eastern", "M", ["Zhuangzi", "Chuang Tzu"]),
+    ("Mencius", "Eastern", "M", ["Mencius"]),
+    ("Mozi", "Eastern", "M", ["Mozi"]),
+    ("Han Fei", "Eastern", "M", ["Han Fei"]),
+    ("Xunzi (philosopher)", "Eastern", "M", ["Xunzi"]),
+    ("Wang Yangming", "Eastern", "M", ["Wang Yangming"]),
+    ("Gautama Buddha", "Eastern", "M", ["Buddha"]),
+    ("Nagarjuna", "Eastern", "M", ["Nagarjuna"]),
+    ("Adi Shankara", "Eastern", "M", ["Shankara"]),
+    ("Dogen", "Eastern", "M", ["Dogen"]),
+    ("Nishida Kitaro", "Eastern", "M", ["Nishida"]),
+]
+
+CONCEPTS = [
+    "Philosophy", "Metaphysics", "Ethics", "Epistemology", "Logic",
+    "Aesthetics", "Political philosophy", "Stoicism", "Epicureanism",
+    "Taoism", "Buddhism", "Confucianism", "Hindu philosophy", "Zen",
+    "Existentialism", "Utilitarianism", "Empiricism", "Rationalism",
+    "Phenomenology (philosophy)", "Analytic philosophy", "Chinese philosophy",
+    "Indian philosophy",
+]
+
+# Gutenberg texts for the quotability mechanism test.
+# (figure, title search for Gutendex, author search)
+GUTENBERG = [
+    ("Marcus Aurelius", "Meditations", "Marcus Aurelius"),
+    ("Seneca the Younger", "Letters from a Stoic", "Seneca"),
+    ("Epictetus", "Discourses of Epictetus", "Epictetus"),
+    ("Laozi", "Tao Te Ching", "Laozi"),
+    ("Confucius", "Analects", "Confucius"),
+    ("Zhuang Zhou", "Chuang Tzu", "Zhuangzi"),
+    ("Mencius", "Mencius", "Mencius"),
+    ("Gautama Buddha", "Dhammapada", "Buddha"),
+    ("Friedrich Nietzsche", "Beyond Good and Evil", "Nietzsche"),
+    ("Immanuel Kant", "Critique of Pure Reason", "Kant"),
+    ("David Hume", "Enquiry Concerning Human Understanding", "Hume"),
+    ("René Descartes", "Meditations on First Philosophy", "Descartes"),
+    ("Plato", "Republic", "Plato"),
+    ("Aristotle", "Nicomachean Ethics", "Aristotle"),
+    ("Arthur Schopenhauer", "Studies in Pessimism", "Schopenhauer"),
+]
+
+# Display names where the article title differs from the name readers know.
+DISPLAY_NAMES = {
+    "Zhuang Zhou": "Zhuangzi",
+    "Xunzi (philosopher)": "Xunzi",
+    "Phenomenology (philosophy)": "Phenomenology",
+}

@@ -1,0 +1,67 @@
+{
+  "Laozi": {
+    "gutenberg_id": 216,
+    "title": "The Tao Teh King, or the Tao and its Characteristics",
+    "file": "gutenberg_216.txt"
+  },
+  "Friedrich Nietzsche": {
+    "gutenberg_id": 4363,
+    "title": "Beyond Good and Evil",
+    "file": "gutenberg_4363.txt"
+  },
+  "Immanuel Kant": {
+    "gutenberg_id": 4280,
+    "title": "The Critique of Pure Reason",
+    "file": "gutenberg_4280.txt"
+  },
+  "David Hume": {
+    "gutenberg_id": 9662,
+    "title": "An Enquiry Concerning Human Understanding",
+    "file": "gutenberg_9662.txt"
+  },
+  "Plato": {
+    "gutenberg_id": 1497,
+    "title": "The Republic",
+    "file": "gutenberg_1497.txt"
+  },
+  "Aristotle": {
+    "gutenberg_id": 8438,
+    "title": "The Nicomachean ethics of Aristotle",
+    "file": "gutenberg_8438.txt"
+  },
+  "Arthur Schopenhauer": {
+    "gutenberg_id": 10732,
+    "title": "The Essays of Arthur Schopenhauer; Studies in Pessimism",
+    "file": "gutenberg_10732.txt"
+  },
+  "Marcus Aurelius": {
+    "gutenberg_id": 2680,
+    "title": "Meditations",
+    "file": "gutenberg_2680.txt"
+  },
+  "Epictetus": {
+    "gutenberg_id": 10661,
+    "title": "A Selection from the Discourses of Epictetus with the Encheiridion",
+    "file": "gutenberg_10661.txt"
+  },
+  "Confucius": {
+    "gutenberg_id": 3330,
+    "title": "The Analects of Confucius (from the Chinese Classics)",
+    "file": "gutenberg_3330.txt"
+  },
+  "Gautama Buddha": {
+    "gutenberg_id": 35185,
+    "title": "The Buddha's Path of Virtue: A Translation of the Dhammapada",
+    "file": "gutenberg_35185.txt"
+  },
+  "Ren\u00e9 Descartes": {
+    "gutenberg_id": 70091,
+    "title": "Six metaphysical meditations",
+    "file": "gutenberg_70091.txt"
+  },
+  "Zhuang Zhou": {
+    "gutenberg_id": 59709,
+    "title": "Chuang Tzu: Mystic, Moralist, and Social Reformer",
+    "file": "gutenberg_59709.txt"
+  }
+}

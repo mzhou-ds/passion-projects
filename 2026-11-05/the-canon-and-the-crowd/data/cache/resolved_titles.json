@@ -1,0 +1,462 @@
+{
+  "Aristotle": {
+    "requested": null,
+    "disambiguation": false,
+    "pageid": 308
+  },
+  "Arthur Schopenhauer": {
+    "requested": null,
+    "disambiguation": false,
+    "pageid": 700
+  },
+  "Albert Camus": {
+    "requested": null,
+    "disambiguation": false,
+    "pageid": 983
+  },
+  "Avicenna": {
+    "requested": null,
+    "disambiguation": false,
+    "pageid": 1130
+  },
+  "Adam Smith": {
+    "requested": null,
+    "disambiguation": false,
+    "pageid": 1814
+  },
+  "Augustine of Hippo": {
+    "requested": null,
+    "disambiguation": false,
+    "pageid": 2030
+  },
+  "Baruch Spinoza": {
+    "requested": null,
+    "disambiguation": false,
+    "pageid": 3408
+  },
+  "Bertrand Russell": {
+    "requested": null,
+    "disambiguation": false,
+    "pageid": 4163
+  },
+  "Cicero": {
+    "requested": null,
+    "disambiguation": false,
+    "pageid": 6046
+  },
+  "David Hume": {
+    "requested": null,
+    "disambiguation": false,
+    "pageid": 7925
+  },
+  "Epicurus": {
+    "requested": null,
+    "disambiguation": false,
+    "pageid": 10073
+  },
+  "Epictetus": {
+    "requested": null,
+    "disambiguation": false,
+    "pageid": 10407
+  },
+  "Friedrich Nietzsche": {
+    "requested": null,
+    "disambiguation": false,
+    "pageid": 10671
+  },
+  "George Berkeley": {
+    "requested": null,
+    "disambiguation": false,
+    "pageid": 11958
+  },
+  "Gottfried Wilhelm Leibniz": {
+    "requested": null,
+    "disambiguation": false,
+    "pageid": 12281
+  },
+  "Georg Wilhelm Friedrich Hegel": {
+    "requested": null,
+    "disambiguation": false,
+    "pageid": 12598
+  },
+  "Heraclitus": {
+    "requested": null,
+    "disambiguation": false,
+    "pageid": 13792
+  },
+  "Immanuel Kant": {
+    "requested": null,
+    "disambiguation": false,
+    "pageid": 14631
+  },
+  "John Stuart Mill": {
+    "requested": null,
+    "disambiguation": false,
+    "pageid": 15626
+  },
+  "Jean-Jacques Rousseau": {
+    "requested": null,
+    "disambiguation": false,
+    "pageid": 15941
+  },
+  "John Locke": {
+    "requested": null,
+    "disambiguation": false,
+    "pageid": 16143
+  },
+  "Jean-Paul Sartre": {
+    "requested": null,
+    "disambiguation": false,
+    "pageid": 16340
+  },
+  "Karl Popper": {
+    "requested": null,
+    "disambiguation": false,
+    "pageid": 16623
+  },
+  "Karl Marx": {
+    "requested": null,
+    "disambiguation": false,
+    "pageid": 16743
+  },
+  "Ludwig Wittgenstein": {
+    "requested": null,
+    "disambiguation": false,
+    "pageid": 17741
+  },
+  "Maimonides": {
+    "requested": null,
+    "disambiguation": false,
+    "pageid": 19445
+  },
+  "Mary Wollstonecraft": {
+    "requested": null,
+    "disambiguation": false,
+    "pageid": 19834
+  },
+  "Marcus Aurelius": {
+    "requested": null,
+    "disambiguation": false,
+    "pageid": 20155
+  },
+  "Plato": {
+    "requested": null,
+    "disambiguation": false,
+    "pageid": 22954
+  },
+  "Parmenides": {
+    "requested": null,
+    "disambiguation": false,
+    "pageid": 23575
+  },
+  "Ren\u00e9 Descartes": {
+    "requested": null,
+    "disambiguation": false,
+    "pageid": 25525
+  },
+  "S\u00f8ren Kierkegaard": {
+    "requested": null,
+    "disambiguation": false,
+    "pageid": 27069
+  },
+  "Thomas Hobbes": {
+    "requested": null,
+    "disambiguation": false,
+    "pageid": 29823
+  },
+  "Thales of Miletus": {
+    "requested": "Thales",
+    "disambiguation": false,
+    "pageid": 30072
+  },
+  "Voltaire": {
+    "requested": null,
+    "disambiguation": false,
+    "pageid": 32375
+  },
+  "Willard Van Orman Quine": {
+    "requested": null,
+    "disambiguation": false,
+    "pageid": 33833
+  },
+  "Zeno of Citium": {
+    "requested": null,
+    "disambiguation": false,
+    "pageid": 37142
+  },
+  "Martin Heidegger": {
+    "requested": null,
+    "disambiguation": false,
+    "pageid": 37304
+  },
+  "Hypatia": {
+    "requested": null,
+    "disambiguation": false,
+    "pageid": 38375
+  },
+  "Michel Foucault": {
+    "requested": null,
+    "disambiguation": false,
+    "pageid": 47643
+  },
+  "Averroes": {
+    "requested": null,
+    "disambiguation": false,
+    "pageid": 47836
+  },
+  "Gottlob Frege": {
+    "requested": null,
+    "disambiguation": false,
+    "pageid": 48416
+  },
+  "Jacques Derrida": {
+    "requested": null,
+    "disambiguation": false,
+    "pageid": 53255
+  },
+  "Seneca the Younger": {
+    "requested": null,
+    "disambiguation": false,
+    "pageid": 75150
+  },
+  "Hannah Arendt": {
+    "requested": null,
+    "disambiguation": false,
+    "pageid": 95184
+  },
+  "John Rawls": {
+    "requested": null,
+    "disambiguation": false,
+    "pageid": 123612
+  },
+  "Pyrrho": {
+    "requested": null,
+    "disambiguation": false,
+    "pageid": 140651
+  },
+  "Diogenes": {
+    "requested": "Diogenes of Sinope",
+    "disambiguation": false,
+    "pageid": 234264
+  },
+  "Thomas Aquinas": {
+    "requested": null,
+    "disambiguation": false,
+    "pageid": 21490957
+  },
+  "Socrates": {
+    "requested": null,
+    "disambiguation": false,
+    "pageid": 25664190
+  },
+  "Ayn Rand": {
+    "requested": null,
+    "disambiguation": false,
+    "pageid": 339
+  },
+  "Aesthetics": {
+    "requested": null,
+    "disambiguation": false,
+    "pageid": 2130
+  },
+  "The Buddha": {
+    "requested": "Gautama Buddha",
+    "disambiguation": false,
+    "pageid": 3395
+  },
+  "Confucianism": {
+    "requested": null,
+    "disambiguation": false,
+    "pageid": 5820
+  },
+  "Chinese philosophy": {
+    "requested": null,
+    "disambiguation": false,
+    "pageid": 5822
+  },
+  "Confucius": {
+    "requested": null,
+    "disambiguation": false,
+    "pageid": 5823
+  },
+  "Epistemology": {
+    "requested": null,
+    "disambiguation": false,
+    "pageid": 9247
+  },
+  "Ethics": {
+    "requested": null,
+    "disambiguation": false,
+    "pageid": 9258
+  },
+  "Existentialism": {
+    "requested": null,
+    "disambiguation": false,
+    "pageid": 9593
+  },
+  "Empiricism": {
+    "requested": null,
+    "disambiguation": false,
+    "pageid": 10174
+  },
+  "Metaphysics": {
+    "requested": null,
+    "disambiguation": false,
+    "pageid": 18895
+  },
+  "Nagarjuna": {
+    "requested": null,
+    "disambiguation": false,
+    "pageid": 22149
+  },
+  "Political philosophy": {
+    "requested": null,
+    "disambiguation": false,
+    "pageid": 23040
+  },
+  "Taoism": {
+    "requested": null,
+    "disambiguation": false,
+    "pageid": 30365
+  },
+  "Utilitarianism": {
+    "requested": null,
+    "disambiguation": false,
+    "pageid": 31792
+  },
+  "Epicureanism": {
+    "requested": null,
+    "disambiguation": false,
+    "pageid": 39393
+  },
+  "Iris Murdoch": {
+    "requested": null,
+    "disambiguation": false,
+    "pageid": 60315
+  },
+  "Simone de Beauvoir": {
+    "requested": null,
+    "disambiguation": false,
+    "pageid": 62034
+  },
+  "Rationalism": {
+    "requested": null,
+    "disambiguation": false,
+    "pageid": 63753
+  },
+  "Laozi": {
+    "requested": null,
+    "disambiguation": false,
+    "pageid": 65119
+  },
+  "D\u014dgen": {
+    "requested": "Dogen",
+    "disambiguation": false,
+    "pageid": 75340
+  },
+  "Analytic philosophy": {
+    "requested": null,
+    "disambiguation": false,
+    "pageid": 159211
+  },
+  "Simone Weil": {
+    "requested": null,
+    "disambiguation": false,
+    "pageid": 179955
+  },
+  "Adi Shankara": {
+    "requested": null,
+    "disambiguation": false,
+    "pageid": 186184
+  },
+  "Mozi": {
+    "requested": null,
+    "disambiguation": false,
+    "pageid": 196578
+  },
+  "Mencius": {
+    "requested": null,
+    "disambiguation": false,
+    "pageid": 197033
+  },
+  "Hindu philosophy": {
+    "requested": null,
+    "disambiguation": false,
+    "pageid": 307365
+  },
+  "Indian philosophy": {
+    "requested": null,
+    "disambiguation": false,
+    "pageid": 310169
+  },
+  "Martha Nussbaum": {
+    "requested": null,
+    "disambiguation": false,
+    "pageid": 341297
+  },
+  "G. E. M. Anscombe": {
+    "requested": null,
+    "disambiguation": false,
+    "pageid": 593083
+  },
+  "Han Fei": {
+    "requested": null,
+    "disambiguation": false,
+    "pageid": 608287
+  },
+  "Wang Yangming": {
+    "requested": null,
+    "disambiguation": false,
+    "pageid": 619526
+  },
+  "Kitar\u014d Nishida": {
+    "requested": "Nishida Kitaro",
+    "disambiguation": false,
+    "pageid": 1032989
+  },
+  "Philippa Foot": {
+    "requested": null,
+    "disambiguation": false,
+    "pageid": 1385364
+  },
+  "Buddhism": {
+    "requested": null,
+    "disambiguation": false,
+    "pageid": 3267529
+  },
+  "Philosophy": {
+    "requested": null,
+    "disambiguation": false,
+    "pageid": 13692155
+  },
+  "Stoicism": {
+    "requested": null,
+    "disambiguation": false,
+    "pageid": 19224834
+  },
+  "Zen": {
+    "requested": null,
+    "disambiguation": false,
+    "pageid": 30153241
+  },
+  "Logic": {
+    "requested": null,
+    "disambiguation": false,
+    "pageid": 46426065
+  },
+  "Zhuang Zhou": {
+    "requested": null,
+    "disambiguation": false,
+    "pageid": null
+  },
+  "Xunzi (philosopher)": {
+    "requested": null,
+    "disambiguation": false,
+    "pageid": null
+  },
+  "Phenomenology (philosophy)": {
+    "requested": null,
+    "disambiguation": false,
+    "pageid": null
+  }
+}
