@@ -1,0 +1,53 @@
+Build #60 — The Clock Is Training Age (2026-11-06, fitness)
+OpenPowerlifting, revision 4a1c65a7 (2026-10-31), 4,059,941 rows
+Scope: raw, full-power (SBD), sanctioned, first meet >= 2010
+Panel: 331,682 lifters, 858,029 meets
+Peak sample: 55,577 completed careers (>= 3 meets, no meet in last 2 years)
+
+HEADLINE
+- Age at best total tracks age at first meet almost 1-for-1: regression slope
+  0.99, intercept 2.5 years, r = 0.98, n = 55,577 (men 0.99, women 1.00).
+- Median age at best total is 26.0 (men 25.5, women 27.5), but the median
+  training age at best is only 1.6 years. The peak is ~1.6 years after you
+  start, at whatever age you start.
+- By starting cohort, median age at best: <25 -> 22.0; 25-34 -> 31.0;
+  35-44 -> 41.5; 45+ -> 54.0. Median training age at best is 1.4-1.6 years
+  in every cohort.
+
+LATE STARTERS AT MATCHED TRAINING AGE (best total 4-8 years after first meet, n = 7,144)
+- Men, median best DOTS: <25: 420.1; 25-34: 417.6; 35-44: 389.0; 45+: 336.2
+- Women, median best DOTS: <25: 389.3; 25-34: 390.3; 35-44: 347.6; 45+: 309.8
+- Starting at 25-34 costs nothing: 99.4% (men) / 100.3% (women) of <25 starters.
+- Starting at 35-44 costs ~7-11%. Starting at 45+ costs ~20% (80.0% men, 79.6% women).
+- Same result at training age >= 5 years: 80.2% men, 79.3% women.
+
+THE GAINS CURVE (lifters with >= 5 meets; total as % of lifetime best)
+- Year 0 (first year): 87.2% (<25), 90.3% (25-34), 91.1% (35-44), 91.9% (45+)
+- Year 1: ~95-96% in every cohort. Year 2: ~96-97%. Then flat for young
+  starters; 45+ starters fade to 90.4% by year 10 vs 97.2% for <25.
+- Median years to reach 95% of lifetime best: 1.0 in every cohort.
+- Only 1.2% of completed careers peak >= 8 years after their first meet.
+
+THE AGE DECLINE IS REAL (pre-registered hypothesis 3 FAILED)
+- Median best DOTS by age band, raw: peaks 391 at 25-29, falls to 310 at 55-59
+  (81% of the 30-34 band).
+- Same curve holding training age fixed at 4-8 years: 418 at 25-29, 331 at 55-59
+  (80% of the 30-34 band). The decline does NOT flatten. Age costs strength
+  even at equal training age; the level gap just opens late (after ~45).
+
+ATTRITION: THE SPORT IS A REVOLVING DOOR
+- 47.8% of lifters (158,581 of 331,682) compete exactly once and never return.
+- Median career: 2 meets. 14.3% reach 5+ meets; 2.9% reach 10+.
+- Median completed career span: 2.1 years.
+
+COMEBACKS
+- 16,063 lifters (4.8%) returned after a gap of 3+ years.
+- Median regain within 2 years of returning: 104.5% of pre-gap best.
+- 80.1% regained >= 95% of pre-gap best; 88.9% regained >= 90%.
+
+SERIOUS LIFTERS PEAK LATER, BUT NOT MUCH LATER
+- Lifters with >= 5 meets: median training age at best 2.6 years.
+- Lifters with >= 10 meets: 4.1 years. Careers spanning >= 5 years: 5.1 years.
+
+STARTING AGE MIX
+- 56.8% of lifters start at 25 or younger; 6.7% start at 45+.
