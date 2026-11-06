@@ -50,6 +50,21 @@ data actually shows (e.g. the attrition/comeback finding).
   from this VM (connection reset); the GitLab Pages host of the same file
   worked. Verified same revision (4a1c65a7) and row count.
 
+## Outcome vs pre-registration (2026-11-06)
+
+Hypotheses 1, 2 and 4 CONFIRMED. Hypothesis 3 FAILED and is reported as a null:
+- Slope of age-at-best on age-at-first is 0.99 (r=0.98, n=55,577); training age
+  at best is 1.4-1.6y in every starting cohort.
+- At matched training age (4-8y), 25-34 starters reach 99-100% of <25 starters'
+  peak DOTS; 45+ starters reach ~80%.
+- The age decline does NOT flatten at fixed training age (55-59 band is 80% of
+  the 30-34 band, vs 81% raw). Age genuinely costs strength; the level gap just
+  opens late.
+- Attrition: 47.8% one-and-done; median career 2 meets. Comebacks (n=16,063)
+  regain a median 104.5% of pre-gap best within 2 years.
+- Gains curve: median lifter at ~90% of lifetime best in year 0, ~95% by year 1,
+  at every starting age.
+
 ## Scope decisions
 - Raw, full-power (Event=SBD), sanctioned meets only; TotalKg>0, Dots>0, Age known.
 - Lifter key = Name + Sex (OPL has no lifter ID; standard practice, noted as a limit).
