@@ -1,0 +1,50 @@
+{
+  "n_breakfast": 22406,
+  "n_snack": 36110,
+  "logreg_auc": 0.9646697722739022,
+  "xgb_auc": 0.9848434901140614,
+  "xgb_nutrients_only_auc": 0.8872684089754653,
+  "shap_nutrients_only": [
+    {
+      "feature": "caffeine_per_100kcal",
+      "mean_abs_shap": 0.7903728485107422
+    },
+    {
+      "feature": "prot_share",
+      "mean_abs_shap": 0.7325273752212524
+    },
+    {
+      "feature": "sodium_per_100kcal",
+      "mean_abs_shap": 0.41040709614753723
+    },
+    {
+      "feature": "sugar_per_100kcal",
+      "mean_abs_shap": 0.3277946710586548
+    },
+    {
+      "feature": "fat_share",
+      "mean_abs_shap": 0.2492244988679886
+    },
+    {
+      "feature": "carb_share",
+      "mean_abs_shap": 0.24159769713878632
+    },
+    {
+      "feature": "fiber_per_100kcal",
+      "mean_abs_shap": 0.16692526638507843
+    }
+  ],
+  "shap_sugar_direction": 0.09266322745218009,
+  "single_feature_auc": {
+    "sugar_per_100kcal": 0.4568007810808534,
+    "prot_share": 0.7010617248401725,
+    "fat_share": 0.4765064770805144,
+    "carb_share": 0.45539343089056794,
+    "fiber_per_100kcal": 0.4782286652409008,
+    "sodium_per_100kcal": 0.6365840623263843,
+    "caffeine_per_100kcal": 0.6559387559317394,
+    "log_kcal": 0.6462685767351461,
+    "t_h": 0.048543192195986115,
+    "n_items": 0.7943897985432435
+  }
+}

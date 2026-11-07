@@ -1,0 +1,479 @@
+{
+  "sensitivity_min_kcal": {
+    "0": {
+      "n": 22406,
+      "sugar_per_100kcal": 6.4801309186270695,
+      "above_25pct": 55.539318971764295,
+      "above_30pct": 46.2222769250363,
+      "median_sugar_share_pct": 27.21490483833983
+    },
+    "100": {
+      "n": 18836,
+      "sugar_per_100kcal": 6.385010540339672,
+      "above_25pct": 53.22160244086648,
+      "above_30pct": 42.86973478609028,
+      "median_sugar_share_pct": 25.386308548968227
+    },
+    "200": {
+      "n": 15540,
+      "sugar_per_100kcal": 6.174511493820287,
+      "above_25pct": 50.47707346256944,
+      "above_30pct": 39.40293609332075,
+      "median_sugar_share_pct": 23.84382893476178
+    },
+    "300": {
+      "n": 11828,
+      "sugar_per_100kcal": 5.957146695760888,
+      "above_25pct": 47.673653237903245,
+      "above_30pct": 36.62297561543797,
+      "median_sugar_share_pct": 22.567734913003285
+    }
+  },
+  "trend_by_foodgrp": [
+    {
+      "cycle": "2007-08",
+      "breakfast_sugar_per_100kcal": 6.806178038705625,
+      "sugar_share_Milk & dairy": 22.522525876077175,
+      "kcal_share_Milk & dairy": 15.361810444396049,
+      "sugar_share_Meat, poultry, fish": 0.5918556648743861,
+      "kcal_share_Meat, poultry, fish": 8.300681388920694,
+      "sugar_share_Eggs": 1.4621345434029975,
+      "kcal_share_Eggs": 9.883523575640691,
+      "sugar_share_Legumes, nuts, seeds": 1.0372619816804323,
+      "kcal_share_Legumes, nuts, seeds": 2.510883902641781,
+      "sugar_share_Grains": 25.544798352498965,
+      "kcal_share_Grains": 40.57919405429192,
+      "sugar_share_Fruit": 21.34834231137395,
+      "kcal_share_Fruit": 8.319120280392008,
+      "sugar_share_Vegetables": 0.9982652151781919,
+      "kcal_share_Vegetables": 3.6415550229410023,
+      "sugar_share_Fats & oils": 0.08060217997740889,
+      "kcal_share_Fats & oils": 2.3150102911768182,
+      "sugar_share_Sugars, sweets & beverages": 26.414213874936486,
+      "kcal_share_Sugars, sweets & beverages": 9.088221039599034
+    },
+    {
+      "cycle": "2009-10",
+      "breakfast_sugar_per_100kcal": 6.8971465689460025,
+      "sugar_share_Milk & dairy": 22.98785994637745,
+      "kcal_share_Milk & dairy": 15.767934586418807,
+      "sugar_share_Meat, poultry, fish": 0.4459343348994036,
+      "kcal_share_Meat, poultry, fish": 6.896153071590744,
+      "sugar_share_Eggs": 1.0299533845296371,
+      "kcal_share_Eggs": 9.431468268402678,
+      "sugar_share_Legumes, nuts, seeds": 0.7420297662270475,
+      "kcal_share_Legumes, nuts, seeds": 3.1065160457760954,
+      "sugar_share_Grains": 24.941972167485936,
+      "kcal_share_Grains": 40.98743539671007,
+      "sugar_share_Fruit": 22.335293941989782,
+      "kcal_share_Fruit": 8.768791966441288,
+      "sugar_share_Vegetables": 1.5619678716245968,
+      "kcal_share_Vegetables": 3.514201862815389,
+      "sugar_share_Fats & oils": 0.03385791533237022,
+      "kcal_share_Fats & oils": 2.3426463136387077,
+      "sugar_share_Sugars, sweets & beverages": 25.92113067153376,
+      "kcal_share_Sugars, sweets & beverages": 9.184852488206227
+    },
+    {
+      "cycle": "2011-12",
+      "breakfast_sugar_per_100kcal": 6.760574943363258,
+      "sugar_share_Milk & dairy": 22.739526191116052,
+      "kcal_share_Milk & dairy": 14.545548269512768,
+      "sugar_share_Meat, poultry, fish": 0.5408419913289074,
+      "kcal_share_Meat, poultry, fish": 6.628633456692075,
+      "sugar_share_Eggs": 1.1316696865570928,
+      "kcal_share_Eggs": 9.963126687765774,
+      "sugar_share_Legumes, nuts, seeds": 0.5498259893525659,
+      "kcal_share_Legumes, nuts, seeds": 2.851104799847771,
+      "sugar_share_Grains": 25.17874076488562,
+      "kcal_share_Grains": 42.36202393544368,
+      "sugar_share_Fruit": 21.360560489278395,
+      "kcal_share_Fruit": 8.313515176965678,
+      "sugar_share_Vegetables": 1.3300557760800387,
+      "kcal_share_Vegetables": 3.568598533283765,
+      "sugar_share_Fats & oils": 0.040040689569932064,
+      "kcal_share_Fats & oils": 2.0258225176414424,
+      "sugar_share_Sugars, sweets & beverages": 27.128738421831372,
+      "kcal_share_Sugars, sweets & beverages": 9.741626622847042
+    },
+    {
+      "cycle": "2013-14",
+      "breakfast_sugar_per_100kcal": 6.486831950203093,
+      "sugar_share_Milk & dairy": 21.80116798943608,
+      "kcal_share_Milk & dairy": 14.754790664367512,
+      "sugar_share_Meat, poultry, fish": 0.6130858399243889,
+      "kcal_share_Meat, poultry, fish": 6.9690485236988025,
+      "sugar_share_Eggs": 1.1202234314931738,
+      "kcal_share_Eggs": 9.740040963838537,
+      "sugar_share_Legumes, nuts, seeds": 0.5463907589287142,
+      "kcal_share_Legumes, nuts, seeds": 2.7401496273878023,
+      "sugar_share_Grains": 24.86545311984364,
+      "kcal_share_Grains": 41.93009107044096,
+      "sugar_share_Fruit": 18.133327159529973,
+      "kcal_share_Fruit": 6.95093597951464,
+      "sugar_share_Vegetables": 2.346361083167456,
+      "kcal_share_Vegetables": 3.5773684797583765,
+      "sugar_share_Fats & oils": 0.06898105710381174,
+      "kcal_share_Fats & oils": 2.0872517087575972,
+      "sugar_share_Sugars, sweets & beverages": 30.505009560572766,
+      "kcal_share_Sugars, sweets & beverages": 11.25032298223578
+    },
+    {
+      "cycle": "2015-16",
+      "breakfast_sugar_per_100kcal": 6.15601694826849,
+      "sugar_share_Milk & dairy": 20.97258627798124,
+      "kcal_share_Milk & dairy": 14.07446100501948,
+      "sugar_share_Meat, poultry, fish": 0.764098102059969,
+      "kcal_share_Meat, poultry, fish": 8.467667031089757,
+      "sugar_share_Eggs": 1.0528119131615086,
+      "kcal_share_Eggs": 9.811571064897638,
+      "sugar_share_Legumes, nuts, seeds": 0.8976413787617081,
+      "kcal_share_Legumes, nuts, seeds": 3.0357176209581613,
+      "sugar_share_Grains": 26.41603053896239,
+      "kcal_share_Grains": 41.90973280543028,
+      "sugar_share_Fruit": 20.119778854870237,
+      "kcal_share_Fruit": 7.390499231862655,
+      "sugar_share_Vegetables": 1.9767363424998383,
+      "kcal_share_Vegetables": 2.986286353441243,
+      "sugar_share_Fats & oils": 0.03492559167815122,
+      "kcal_share_Fats & oils": 2.132227679063263,
+      "sugar_share_Sugars, sweets & beverages": 27.76539100002495,
+      "kcal_share_Sugars, sweets & beverages": 10.191837208237526
+    },
+    {
+      "cycle": "2017-18",
+      "breakfast_sugar_per_100kcal": 5.831918884538439,
+      "sugar_share_Milk & dairy": 20.82151757577588,
+      "kcal_share_Milk & dairy": 14.13154979798945,
+      "sugar_share_Meat, poultry, fish": 0.6532243729551735,
+      "kcal_share_Meat, poultry, fish": 7.543748268219232,
+      "sugar_share_Eggs": 0.698263236317894,
+      "kcal_share_Eggs": 10.06184552402749,
+      "sugar_share_Legumes, nuts, seeds": 1.5897962440258742,
+      "kcal_share_Legumes, nuts, seeds": 4.415905272637059,
+      "sugar_share_Grains": 27.158571874588183,
+      "kcal_share_Grains": 40.738249528613494,
+      "sugar_share_Fruit": 16.40242873680503,
+      "kcal_share_Fruit": 5.933655056701456,
+      "sugar_share_Vegetables": 3.135285858554762,
+      "kcal_share_Vegetables": 4.31885004186925,
+      "sugar_share_Fats & oils": 0.10729958262754057,
+      "kcal_share_Fats & oils": 2.475040644004328,
+      "sugar_share_Sugars, sweets & beverages": 29.433612518349662,
+      "kcal_share_Sugars, sweets & beverages": 10.38115586593825
+    }
+  ],
+  "group_sugar_per_cycle_raw": [
+    {
+      "group": "Milk & dairy",
+      "per_cycle": [
+        {
+          "cycle": "2007-08",
+          "sugar_g_per_breakfast": 1013300093.7573514
+        },
+        {
+          "cycle": "2009-10",
+          "sugar_g_per_breakfast": 1106885735.2502546
+        },
+        {
+          "cycle": "2011-12",
+          "sugar_g_per_breakfast": 1129256031.732019
+        },
+        {
+          "cycle": "2013-14",
+          "sugar_g_per_breakfast": 1039578683.8271484
+        },
+        {
+          "cycle": "2015-16",
+          "sugar_g_per_breakfast": 1007130220.1353526
+        },
+        {
+          "cycle": "2017-18",
+          "sugar_g_per_breakfast": 960817882.2927024
+        }
+      ]
+    },
+    {
+      "group": "Meat, poultry, fish",
+      "per_cycle": [
+        {
+          "cycle": "2007-08",
+          "sugar_g_per_breakfast": 26627892.626601413
+        },
+        {
+          "cycle": "2009-10",
+          "sugar_g_per_breakfast": 21472131.60815535
+        },
+        {
+          "cycle": "2011-12",
+          "sugar_g_per_breakfast": 26858478.747052096
+        },
+        {
+          "cycle": "2013-14",
+          "sugar_g_per_breakfast": 29234716.729419783
+        },
+        {
+          "cycle": "2015-16",
+          "sugar_g_per_breakfast": 36692960.96974912
+        },
+        {
+          "cycle": "2017-18",
+          "sugar_g_per_breakfast": 30143319.59237033
+        }
+      ]
+    },
+    {
+      "group": "Eggs",
+      "per_cycle": [
+        {
+          "cycle": "2007-08",
+          "sugar_g_per_breakfast": 65782189.70945063
+        },
+        {
+          "cycle": "2009-10",
+          "sugar_g_per_breakfast": 49593164.04258106
+        },
+        {
+          "cycle": "2011-12",
+          "sugar_g_per_breakfast": 56199272.08387268
+        },
+        {
+          "cycle": "2013-14",
+          "sugar_g_per_breakfast": 53417339.89061054
+        },
+        {
+          "cycle": "2015-16",
+          "sugar_g_per_breakfast": 50557364.733632416
+        },
+        {
+          "cycle": "2017-18",
+          "sugar_g_per_breakfast": 32221657.310048766
+        }
+      ]
+    },
+    {
+      "group": "Legumes, nuts, seeds",
+      "per_cycle": [
+        {
+          "cycle": "2007-08",
+          "sugar_g_per_breakfast": 46666953.30136676
+        },
+        {
+          "cycle": "2009-10",
+          "sugar_g_per_breakfast": 35729387.82834509
+        },
+        {
+          "cycle": "2011-12",
+          "sugar_g_per_breakfast": 27304628.498459335
+        },
+        {
+          "cycle": "2013-14",
+          "sugar_g_per_breakfast": 26054392.42051921
+        },
+        {
+          "cycle": "2015-16",
+          "sugar_g_per_breakfast": 43105878.66523732
+        },
+        {
+          "cycle": "2017-18",
+          "sugar_g_per_breakfast": 73361831.33159125
+        }
+      ]
+    },
+    {
+      "group": "Grains",
+      "per_cycle": [
+        {
+          "cycle": "2007-08",
+          "sugar_g_per_breakfast": 1149273696.3882773
+        },
+        {
+          "cycle": "2009-10",
+          "sugar_g_per_breakfast": 1200977962.5245047
+        },
+        {
+          "cycle": "2011-12",
+          "sugar_g_per_breakfast": 1250388624.6878943
+        },
+        {
+          "cycle": "2013-14",
+          "sugar_g_per_breakfast": 1185697713.0591502
+        },
+        {
+          "cycle": "2015-16",
+          "sugar_g_per_breakfast": 1268531324.6148796
+        },
+        {
+          "cycle": "2017-18",
+          "sugar_g_per_breakfast": 1253243977.9987364
+        }
+      ]
+    },
+    {
+      "group": "Fruit",
+      "per_cycle": [
+        {
+          "cycle": "2007-08",
+          "sugar_g_per_breakfast": 960472967.5838215
+        },
+        {
+          "cycle": "2009-10",
+          "sugar_g_per_breakfast": 1075464106.4752893
+        },
+        {
+          "cycle": "2011-12",
+          "sugar_g_per_breakfast": 1060775918.150755
+        },
+        {
+          "cycle": "2013-14",
+          "sugar_g_per_breakfast": 864679378.2354071
+        },
+        {
+          "cycle": "2015-16",
+          "sugar_g_per_breakfast": 966177324.942232
+        },
+        {
+          "cycle": "2017-18",
+          "sugar_g_per_breakfast": 756897127.5028071
+        }
+      ]
+    },
+    {
+      "group": "Vegetables",
+      "per_cycle": [
+        {
+          "cycle": "2007-08",
+          "sugar_g_per_breakfast": 44912468.597014576
+        },
+        {
+          "cycle": "2009-10",
+          "sugar_g_per_breakfast": 75210130.91490144
+        },
+        {
+          "cycle": "2011-12",
+          "sugar_g_per_breakfast": 66051222.66202673
+        },
+        {
+          "cycle": "2013-14",
+          "sugar_g_per_breakfast": 111885150.73157603
+        },
+        {
+          "cycle": "2015-16",
+          "sugar_g_per_breakfast": 94925388.85685994
+        },
+        {
+          "cycle": "2017-18",
+          "sugar_g_per_breakfast": 144679114.19211674
+        }
+      ]
+    },
+    {
+      "group": "Fats & oils",
+      "per_cycle": [
+        {
+          "cycle": "2007-08",
+          "sugar_g_per_breakfast": 3626333.7858968778
+        },
+        {
+          "cycle": "2009-10",
+          "sugar_g_per_breakfast": 1630288.4911484455
+        },
+        {
+          "cycle": "2011-12",
+          "sugar_g_per_breakfast": 1988440.2969319704
+        },
+        {
+          "cycle": "2013-14",
+          "sugar_g_per_breakfast": 3289330.02982841
+        },
+        {
+          "cycle": "2015-16",
+          "sugar_g_per_breakfast": 1677171.25436757
+        },
+        {
+          "cycle": "2017-18",
+          "sugar_g_per_breakfast": 4951385.38177579
+        }
+      ]
+    },
+    {
+      "group": "Sugars, sweets & beverages",
+      "per_cycle": [
+        {
+          "cycle": "2007-08",
+          "sugar_g_per_breakfast": 1188389150.633833
+        },
+        {
+          "cycle": "2009-10",
+          "sugar_g_per_breakfast": 1248125308.2629802
+        },
+        {
+          "cycle": "2011-12",
+          "sugar_g_per_breakfast": 1347226465.4354117
+        },
+        {
+          "cycle": "2013-14",
+          "sugar_g_per_breakfast": 1454617372.0821414
+        },
+        {
+          "cycle": "2015-16",
+          "sugar_g_per_breakfast": 1333329327.1205912
+        },
+        {
+          "cycle": "2017-18",
+          "sugar_g_per_breakfast": 1358226706.8278706
+        }
+      ]
+    }
+  ],
+  "kids_trend": [
+    {
+      "cycle": "2007-08",
+      "breakfast_sugar_per_100kcal": 7.866999104536953,
+      "snack_sugar_per_100kcal": 8.335918730813326,
+      "breakfast_above_25pct": 71.98139750376298
+    },
+    {
+      "cycle": "2009-10",
+      "breakfast_sugar_per_100kcal": 7.554004776751591,
+      "snack_sugar_per_100kcal": 8.444572820643682,
+      "breakfast_above_25pct": 67.98840008690667
+    },
+    {
+      "cycle": "2011-12",
+      "breakfast_sugar_per_100kcal": 7.564315488743896,
+      "snack_sugar_per_100kcal": 8.087599942504815,
+      "breakfast_above_25pct": 70.6995938014022
+    },
+    {
+      "cycle": "2013-14",
+      "breakfast_sugar_per_100kcal": 7.319249287734736,
+      "snack_sugar_per_100kcal": 7.967985012599509,
+      "breakfast_above_25pct": 67.90836296113554
+    },
+    {
+      "cycle": "2015-16",
+      "breakfast_sugar_per_100kcal": 7.258815903882562,
+      "snack_sugar_per_100kcal": 7.757039577827976,
+      "breakfast_above_25pct": 65.83223741893731
+    },
+    {
+      "cycle": "2017-18",
+      "breakfast_sugar_per_100kcal": 7.0286731005309315,
+      "snack_sugar_per_100kcal": 7.657230680308369,
+      "breakfast_above_25pct": 62.87079139039111
+    }
+  ],
+  "median_breakfast_sugar_g": 17.475,
+  "median_breakfast_kcal": 316.0,
+  "median_snack_sugar_g": 11.754999999999999,
+  "median_breakfast_sugar_tsp": 4.36875,
+  "median_snack_sugar_tsp": 2.9387499999999998,
+  "breakfast_sugar_share_deciles_pct": [
+    3.588785046728972,
+    11.947368421052634,
+    27.999999999999996,
+    43.52974504249293,
+    66.96774193548387
+  ]
+}

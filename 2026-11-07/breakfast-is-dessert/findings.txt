@@ -1,0 +1,30 @@
+Build #61 — Breakfast Is Dessert (2026-11-07, nutrition)
+NHANES 2007-2018, day 1, adults 20-79, n=24,156 person-days, WTDRD1 weights.
+
+1. Breakfast is the second-sweetest meal, and it is not close: 6.48 g sugar/100 kcal
+   (95% CI 6.39-6.57) vs snack 7.46 (7.36-7.57), lunch 4.03, dinner 3.45.
+   Breakfast sits 0.98 from the snack line and 2.45 from lunch. Median breakfast:
+   27.2% of calories from sugar (median dinner: 10.9%).
+2. Most breakfasts are dessert by the numbers: 55.5% of adult breakfasts are over
+   25% sugar calories, 46.2% over 30%, and 38.2% are sweeter than the median snack
+   occasion. Even among substantial breakfasts (>=300 kcal), 47.7% are over 25%.
+   The median breakfast carries 17.5 g sugar (4.4 tsp) — more than the median snack
+   (11.8 g, 2.9 tsp).
+3. Kids' breakfasts ARE as sweet as snacks: 7.41 g/100 kcal vs the adult snack's
+   7.46; 67.7% over 25% sugar calories, 56.7% over 30%.
+4. Breakfast quietly got 15% less sweet, 2007-2018 (6.90 -> 5.87; share over 25%
+   fell 59.7% -> 49.1%). Snacks fell too (7.87 -> 7.09). No single food group drove
+   it; fruit's share of breakfast sugar fell 21.3% -> 16.4% while sugars/sweets
+   rose 26.4% -> 29.4%.
+5. A third of America's sugar is eaten before noon (32.2%). Breakfast supplies
+   19.9% of daily sugar on 16.0% of daily calories.
+6. No income gradient: breakfast sweetness is flat across poverty bands
+   (6.49 / 6.33 / 6.59). The BMI gradient runs backwards: leanest eat sweetest
+   (7.12 at BMI<18.5 -> 6.09 at BMI 30+).
+7. Classifier: nutrients alone separate breakfast from snack well (XGBoost AUC
+   0.89), on protein, caffeine and sodium — but sugar alone cannot (AUC 0.46,
+   worse than a coin flip). Sugar is the one nutrient that does not distinguish
+   the two occasions.
+8. Where breakfast sugar comes from: sugars/sweets/beverages 27.9%, grains 25.7%,
+   milk & dairy 22.0%, fruit 20.0%. Cereal (FNDDS 57) is 8.9%; milk (11) 17.9%;
+   nonalcoholic beverages (92) 12.1%.

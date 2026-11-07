@@ -1,0 +1,515 @@
+{
+  "n_person_days_adult_d1": 24156,
+  "n_occasions_adult_d1": 135625,
+  "meals_adult_d1": {
+    "breakfast": {
+      "n": 22406,
+      "sugar_per_100kcal": 6.4801309186270695,
+      "sugar_per_100kcal_ci": [
+        6.388840797395756,
+        6.568322335925073
+      ],
+      "median_sugar_share_pct": 27.21490483833983,
+      "median_kcal": 316.0,
+      "median_sugar_g": 17.475,
+      "mean_kcal": 363.21572128599155
+    },
+    "dinner": {
+      "n": 24323,
+      "sugar_per_100kcal": 3.4475129981838446,
+      "sugar_per_100kcal_ci": [
+        3.391694527745551,
+        3.4973002478487114
+      ],
+      "median_sugar_share_pct": 10.93092105263158,
+      "median_kcal": 642.0,
+      "median_sugar_g": 16.3,
+      "mean_kcal": 757.7495563806559
+    },
+    "drink": {
+      "n": 19810,
+      "sugar_per_100kcal": 10.264451635713355,
+      "sugar_per_100kcal_ci": [
+        9.91002436862725,
+        10.64040355323379
+      ],
+      "median_sugar_share_pct": 99.88641395504865,
+      "median_kcal": 4.0,
+      "median_sugar_g": 5.397605346934028e-79,
+      "mean_kcal": 83.14271406360095
+    },
+    "lunch": {
+      "n": 21203,
+      "sugar_per_100kcal": 4.026036191205401,
+      "sugar_per_100kcal_ci": [
+        3.958300208448978,
+        4.0994240554626815
+      ],
+      "median_sugar_share_pct": 12.8212927756654,
+      "median_kcal": 525.0,
+      "median_sugar_g": 15.31,
+      "mean_kcal": 606.9236288183304
+    },
+    "other": {
+      "n": 11773,
+      "sugar_per_100kcal": 12.54447867044097,
+      "sugar_per_100kcal_ci": [
+        11.70046064345537,
+        13.454694838836263
+      ],
+      "median_sugar_share_pct": 400.0,
+      "median_kcal": 5.397605346934028e-79,
+      "median_sugar_g": 5.397605346934028e-79,
+      "mean_kcal": 87.16654596424362
+    },
+    "snack": {
+      "n": 36110,
+      "sugar_per_100kcal": 7.457154190399848,
+      "sugar_per_100kcal_ci": [
+        7.357741234306847,
+        7.5660394314890524
+      ],
+      "median_sugar_share_pct": 34.58090880384375,
+      "median_kcal": 163.0,
+      "median_sugar_g": 11.754999999999999,
+      "mean_kcal": 239.7902956793221
+    }
+  },
+  "evening_snack": {
+    "n": 11466,
+    "sugar_per_100kcal": 7.405572580770313,
+    "sugar_per_100kcal_ci": [
+      7.242133565097802,
+      7.585489394040042
+    ],
+    "median_sugar_share_pct": 34.70532697276883
+  },
+  "median_snack_sugar_share": 0.34580908803843746,
+  "breakfast_above_median_snack_pct": 38.18933009751247,
+  "breakfast_above_25pct_pct": 55.539318971764295,
+  "breakfast_above_30pct_pct": 46.2222769250363,
+  "snack_above_25pct_pct": 61.21416758270125,
+  "dinner_above_25pct_pct": 18.475902929429118,
+  "lunch_above_25pct_pct": 25.677160697183965,
+  "breakfast_above_evening_snack_median_pct": 37.95908570240426,
+  "sugar_before_noon_pct": 32.172214724777895,
+  "sugar_from_breakfast_pct": 19.879318552297452,
+  "kcal_from_breakfast_pct": 16.006185344034588,
+  "sugar_from_snacks_pct": 25.038536657303645,
+  "trend": [
+    {
+      "cycle": "2007-08",
+      "breakfast_sugar_per_100kcal": 6.897281895948386,
+      "snack_sugar_per_100kcal": 7.8665336700634425,
+      "breakfast_above_25pct": 59.737482321617996,
+      "n_breakfast": 3508
+    },
+    {
+      "cycle": "2009-10",
+      "breakfast_sugar_per_100kcal": 6.951850127223034,
+      "snack_sugar_per_100kcal": 7.662300016919729,
+      "breakfast_above_25pct": 59.22621420112802,
+      "n_breakfast": 3959
+    },
+    {
+      "cycle": "2011-12",
+      "breakfast_sugar_per_100kcal": 6.7768327827007475,
+      "snack_sugar_per_100kcal": 7.538565908867195,
+      "breakfast_above_25pct": 57.80197450456955,
+      "n_breakfast": 3338
+    },
+    {
+      "cycle": "2013-14",
+      "breakfast_sugar_per_100kcal": 6.4793526705296065,
+      "snack_sugar_per_100kcal": 7.3971792967174235,
+      "breakfast_above_25pct": 55.76285358099532,
+      "n_breakfast": 4065
+    },
+    {
+      "cycle": "2015-16",
+      "breakfast_sugar_per_100kcal": 6.145690648378,
+      "snack_sugar_per_100kcal": 7.321789833910131,
+      "breakfast_above_25pct": 53.47923828636523,
+      "n_breakfast": 3966
+    },
+    {
+      "cycle": "2017-18",
+      "breakfast_sugar_per_100kcal": 5.868223544781421,
+      "snack_sugar_per_100kcal": 7.090608597509926,
+      "breakfast_above_25pct": 49.143650197427476,
+      "n_breakfast": 3570
+    }
+  ],
+  "breakfast_by_age": [
+    {
+      "group": "20-29",
+      "n": 3226,
+      "sugar_per_100kcal": 6.590286208679975,
+      "above_25pct": 58.492388143850285,
+      "median_kcal": 352.5
+    },
+    {
+      "group": "30-44",
+      "n": 5833,
+      "sugar_per_100kcal": 6.531727600185951,
+      "above_25pct": 56.01733257460959,
+      "median_kcal": 322.0
+    },
+    {
+      "group": "45-59",
+      "n": 6136,
+      "sugar_per_100kcal": 6.530907062739022,
+      "above_25pct": 56.36939705357966,
+      "median_kcal": 304.0
+    },
+    {
+      "group": "60-79",
+      "n": 7211,
+      "sugar_per_100kcal": 6.277562366750292,
+      "above_25pct": 52.18781118899531,
+      "median_kcal": 308.0
+    }
+  ],
+  "breakfast_by_sex": [
+    {
+      "group": "1.0",
+      "n": 10482,
+      "sugar_per_100kcal": 6.2321484719134475,
+      "above_25pct": 53.467911468967046,
+      "median_kcal": 375.0
+    },
+    {
+      "group": "2.0",
+      "n": 11924,
+      "sugar_per_100kcal": 6.773222341717466,
+      "above_25pct": 57.350154517442945,
+      "median_kcal": 280.0
+    }
+  ],
+  "breakfast_by_pir": [
+    {
+      "group": "<1.3x poverty",
+      "n": 6614,
+      "sugar_per_100kcal": 6.491827870485935,
+      "above_25pct": 55.32893770883873,
+      "median_kcal": 328.0
+    },
+    {
+      "group": "1.3-3.5x",
+      "n": 8311,
+      "sugar_per_100kcal": 6.334150722826397,
+      "above_25pct": 54.18543255433884,
+      "median_kcal": 319.0
+    },
+    {
+      "group": ">3.5x",
+      "n": 7481,
+      "sugar_per_100kcal": 6.5898797048632645,
+      "above_25pct": 56.625271848264724,
+      "median_kcal": 303.0
+    }
+  ],
+  "breakfast_by_race": [
+    {
+      "group": "1.0",
+      "n": 3188,
+      "sugar_per_100kcal": 5.663973769297162,
+      "above_25pct": 51.55685563597918,
+      "median_kcal": 346.0
+    },
+    {
+      "group": "2.0",
+      "n": 2416,
+      "sugar_per_100kcal": 6.212028539856388,
+      "above_25pct": 53.576256593618744,
+      "median_kcal": 313.0
+    },
+    {
+      "group": "3.0",
+      "n": 9628,
+      "sugar_per_100kcal": 6.6799698622619195,
+      "above_25pct": 56.65390243212096,
+      "median_kcal": 301.0
+    },
+    {
+      "group": "4.0",
+      "n": 4418,
+      "sugar_per_100kcal": 6.400719399675779,
+      "above_25pct": 55.22894381800489,
+      "median_kcal": 346.0
+    },
+    {
+      "group": "5.0",
+      "n": 2756,
+      "sugar_per_100kcal": 6.0782212387681,
+      "above_25pct": 51.49222085642109,
+      "median_kcal": 303.0
+    }
+  ],
+  "breakfast_by_bmi": [
+    {
+      "group": "<18.5",
+      "n": 323,
+      "sugar_per_100kcal": 7.119358863147679,
+      "above_25pct": 63.43784514143043,
+      "median_kcal": 324.0
+    },
+    {
+      "group": "18.5-25",
+      "n": 6004,
+      "sugar_per_100kcal": 6.933138236652062,
+      "above_25pct": 59.495345934348656,
+      "median_kcal": 308.0
+    },
+    {
+      "group": "25-30",
+      "n": 7366,
+      "sugar_per_100kcal": 6.534413242908317,
+      "above_25pct": 56.47196230191486,
+      "median_kcal": 317.0
+    },
+    {
+      "group": "30+",
+      "n": 8713,
+      "sugar_per_100kcal": 6.08874815719974,
+      "above_25pct": 51.43277365316668,
+      "median_kcal": 321.0
+    }
+  ],
+  "kids_meals_d1": {
+    "breakfast": {
+      "n": 12875,
+      "sugar_per_100kcal": 7.409458139547091,
+      "median_sugar_share_pct": 32.44732576985413
+    },
+    "dinner": {
+      "n": 15052,
+      "sugar_per_100kcal": 4.233515905308459,
+      "median_sugar_share_pct": 15.303790822034868
+    },
+    "drink": {
+      "n": 8759,
+      "sugar_per_100kcal": 16.326772459386024,
+      "median_sugar_share_pct": 400.0
+    },
+    "lunch": {
+      "n": 14388,
+      "sugar_per_100kcal": 5.11315809298834,
+      "median_sugar_share_pct": 19.37321340155141
+    },
+    "other": {
+      "n": 4257,
+      "sugar_per_100kcal": 16.648928992970415,
+      "median_sugar_share_pct": 400.0
+    },
+    "snack": {
+      "n": 26991,
+      "sugar_per_100kcal": 8.025129196398742,
+      "median_sugar_share_pct": 36.99731903485255
+    }
+  },
+  "kids_breakfast_above_25pct": 67.7221067111454,
+  "kids_breakfast_above_30pct": 56.72861319139437,
+  "kids_breakfast_by_age": [
+    {
+      "group": "2-11",
+      "n": 8425,
+      "sugar_per_100kcal": 7.637888026296881,
+      "above_25pct": 69.27173377455821,
+      "median_kcal": 284.0
+    },
+    {
+      "group": "12-19",
+      "n": 4450,
+      "sugar_per_100kcal": 7.1406135017371435,
+      "above_25pct": 65.35938445102913,
+      "median_kcal": 360.0
+    }
+  ],
+  "n_person_days_kids_d1": 14867,
+  "breakfast_sugar_by_foodgrp1": [
+    {
+      "foodgrp1": "9",
+      "sugar_share_pct": 27.858166557795204,
+      "kcal_share_pct": 10.001993509757902,
+      "sugar_per_100kcal": 18.01838029650395,
+      "label": "Sugars, sweets & beverages"
+    },
+    {
+      "foodgrp1": "5",
+      "sugar_share_pct": 25.673749933825913,
+      "kcal_share_pct": 41.43176051161997,
+      "sugar_per_100kcal": 4.008719843207665,
+      "label": "Grains"
+    },
+    {
+      "foodgrp1": "1",
+      "sugar_share_pct": 21.98102872908453,
+      "kcal_share_pct": 14.739111439620359,
+      "sugar_per_100kcal": 9.647760150683748,
+      "label": "Milk & dairy"
+    },
+    {
+      "foodgrp1": "6",
+      "sugar_share_pct": 19.969802566214312,
+      "kcal_share_pct": 7.567361292380342,
+      "sugar_per_100kcal": 17.071791133267844,
+      "label": "Fruit"
+    },
+    {
+      "foodgrp1": "7",
+      "sugar_share_pct": 1.8888373872884108,
+      "kcal_share_pct": 3.604073283193865,
+      "sugar_per_100kcal": 3.390398475670174,
+      "label": "Vegetables"
+    },
+    {
+      "foodgrp1": "3",
+      "sugar_share_pct": 1.0812141319270694,
+      "kcal_share_pct": 9.820429545905869,
+      "sugar_per_100kcal": 0.7122476351217994,
+      "label": "Eggs"
+    },
+    {
+      "foodgrp1": "4",
+      "sugar_share_pct": 0.8860716595460819,
+      "kcal_share_pct": 3.1361008729950437,
+      "sugar_per_100kcal": 1.8277997327110322,
+      "label": "Legumes, nuts, seeds"
+    },
+    {
+      "foodgrp1": "2",
+      "sugar_share_pct": 0.6008347765710871,
+      "kcal_share_pct": 7.469728274606896,
+      "sugar_per_100kcal": 0.5203553747539688,
+      "label": "Meat, poultry, fish"
+    },
+    {
+      "foodgrp1": "8",
+      "sugar_share_pct": 0.060294257747373306,
+      "kcal_share_pct": 2.2294412699197563,
+      "sugar_per_100kcal": 0.17495634754004302,
+      "label": "Fats & oils"
+    }
+  ],
+  "breakfast_sugar_by_foodgrp2_top15": [
+    {
+      "foodgrp2": "11",
+      "sugar_share_pct": 17.88865938917387,
+      "kcal_share_pct": 10.179950192759849,
+      "sugar_per_100kcal": 11.367944077128241
+    },
+    {
+      "foodgrp2": "91",
+      "sugar_share_pct": 13.940323112161776,
+      "kcal_share_pct": 4.091413674662165,
+      "sugar_per_100kcal": 22.041910488390457
+    },
+    {
+      "foodgrp2": "92",
+      "sugar_share_pct": 12.097855038949849,
+      "kcal_share_pct": 4.480730135137687,
+      "sugar_per_100kcal": 17.46664023096398
+    },
+    {
+      "foodgrp2": "57",
+      "sugar_share_pct": 8.888497450522616,
+      "kcal_share_pct": 8.91950661531103,
+      "sugar_per_100kcal": 6.446697719312117
+    },
+    {
+      "foodgrp2": "63",
+      "sugar_share_pct": 8.318814112813005,
+      "kcal_share_pct": 3.504436104746168,
+      "sugar_per_100kcal": 15.35652887120528
+    },
+    {
+      "foodgrp2": "61",
+      "sugar_share_pct": 7.839517976083794,
+      "kcal_share_pct": 2.826398957482727,
+      "sugar_per_100kcal": 17.94343900617034
+    },
+    {
+      "foodgrp2": "53",
+      "sugar_share_pct": 6.121947616874081,
+      "kcal_share_pct": 5.668724926387527,
+      "sugar_per_100kcal": 6.986409093591639
+    },
+    {
+      "foodgrp2": "51",
+      "sugar_share_pct": 4.416940191473956,
+      "kcal_share_pct": 10.89055583274326,
+      "sugar_per_100kcal": 2.6237427979852623
+    },
+    {
+      "foodgrp2": "12",
+      "sugar_share_pct": 3.564485091962625,
+      "kcal_share_pct": 2.676127772556527,
+      "sugar_per_100kcal": 8.616675625608094
+    },
+    {
+      "foodgrp2": "64",
+      "sugar_share_pct": 2.742094196140516,
+      "kcal_share_pct": 0.8970301182535816,
+      "sugar_per_100kcal": 19.77539337487915
+    },
+    {
+      "foodgrp2": "52",
+      "sugar_share_pct": 2.13139319088297,
+      "kcal_share_pct": 3.566000459567768,
+      "sugar_per_100kcal": 3.8666242104925983
+    },
+    {
+      "foodgrp2": "56",
+      "sugar_share_pct": 1.90164891821203,
+      "kcal_share_pct": 3.999128050816933,
+      "sugar_per_100kcal": 3.0762017655063123
+    },
+    {
+      "foodgrp2": "95",
+      "sugar_share_pct": 1.6683546034049483,
+      "kcal_share_pct": 1.2838948990704409,
+      "sugar_per_100kcal": 8.4063734082052
+    },
+    {
+      "foodgrp2": "55",
+      "sugar_share_pct": 1.2224715704838334,
+      "kcal_share_pct": 2.785240790307393,
+      "sugar_per_100kcal": 2.83939496514589
+    },
+    {
+      "foodgrp2": "62",
+      "sugar_share_pct": 1.0693762811769973,
+      "kcal_share_pct": 0.33949611189786577,
+      "sugar_per_100kcal": 20.377247906367295
+    }
+  ],
+  "n_breakfast_items": 93346,
+  "meals_adult_d2_sensitivity": {
+    "breakfast": {
+      "n": 20430,
+      "sugar_per_100kcal": 6.551020938760225
+    },
+    "dinner": {
+      "n": 21456,
+      "sugar_per_100kcal": 3.4387041410020616
+    },
+    "drink": {
+      "n": 22670,
+      "sugar_per_100kcal": 11.294371187114317
+    },
+    "lunch": {
+      "n": 19735,
+      "sugar_per_100kcal": 3.9803863508282635
+    },
+    "other": {
+      "n": 6813,
+      "sugar_per_100kcal": 13.29555517117951
+    },
+    "snack": {
+      "n": 30711,
+      "sugar_per_100kcal": 7.631572901299094
+    }
+  },
+  "breakfast_above_25pct_d2": 53.657006003417784
+}
