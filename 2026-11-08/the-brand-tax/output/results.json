@@ -1,0 +1,124 @@
+{
+  "n_products": 40,
+  "n_compounds": 6,
+  "under_dosed_servings": 14,
+  "under_dosed_pct": 35.0,
+  "median_servings_per_day": 1.0,
+  "median_markup_gummy": 7.84,
+  "median_markup_premium": 3.47,
+  "median_markup_bulk": 1.04,
+  "max_markup": 31.6,
+  "max_markup_product": "Nature Made Fish Oil 400 mg (57 mg Omega-3) Gummies",
+  "gummies_per_day_on_gummy_stack": 50.1,
+  "stacks": {
+    "cheapest": {
+      "per_day": 2.2082,
+      "per_month": 66.25,
+      "per_year": 806.0,
+      "products": {
+        "creatine": "BulkSupplements (powder, $0.230/day)",
+        "magnesium": "Pure Encapsulations (capsule, $0.500/day)",
+        "vitamin_d3": "NOW (softgel, $0.039/day)",
+        "omega3": "NOW Foods (softgel, $0.213/day)",
+        "zinc": "NOW (capsule, $0.027/day)",
+        "nr": "Tru Niagen (capsule, $1.200/day)"
+      }
+    },
+    "premium (all Thorne)": {
+      "per_day": 5.325,
+      "per_month": 159.75,
+      "per_year": 1943.62,
+      "products": {
+        "creatine": "Thorne (powder, $0.489/day)",
+        "magnesium": "Thorne (powder, $1.733/day)",
+        "vitamin_d3": "Thorne (capsule, $0.133/day)",
+        "omega3": "Thorne (softgel, $0.719/day)",
+        "zinc": "Thorne (capsule, $0.250/day)",
+        "nr": "Thorne (capsule, $2.000/day)"
+      }
+    },
+    "gummy": {
+      "per_day": 11.4124,
+      "per_month": 342.37,
+      "per_year": 4165.53,
+      "products": {
+        "creatine": "Legion Athletics (gummy, $1.165/day)",
+        "magnesium": "Nature's Bounty (gummy, $1.865/day)",
+        "vitamin_d3": "Nature Made (gummy, $0.155/day)",
+        "omega3": "Nature Made (gummy, $6.741/day)",
+        "zinc": "Nature's Bounty (gummy, $0.271/day)",
+        "nr": "Life Extension (capsule, $1.215/day)"
+      }
+    }
+  },
+  "cheapest_per_compound": {
+    "creatine": {
+      "brand": "BulkSupplements",
+      "form": "powder",
+      "cost_per_day": 0.2297
+    },
+    "magnesium": {
+      "brand": "Pure Encapsulations",
+      "form": "capsule",
+      "cost_per_day": 0.5
+    },
+    "nr": {
+      "brand": "Tru Niagen",
+      "form": "capsule",
+      "cost_per_day": 1.1995
+    },
+    "omega3": {
+      "brand": "NOW Foods",
+      "form": "softgel",
+      "cost_per_day": 0.2133
+    },
+    "vitamin_d3": {
+      "brand": "NOW",
+      "form": "softgel",
+      "cost_per_day": 0.039
+    },
+    "zinc": {
+      "brand": "NOW",
+      "form": "capsule",
+      "cost_per_day": 0.0267
+    }
+  },
+  "priciest_per_compound": {
+    "creatine": {
+      "brand": "MaryRuth's",
+      "form": "gummy",
+      "cost_per_day": 2.2194,
+      "markup_vs_cheapest": 9.7
+    },
+    "magnesium": {
+      "brand": "Nature Made",
+      "form": "gummy",
+      "cost_per_day": 4.078,
+      "markup_vs_cheapest": 8.2
+    },
+    "nr": {
+      "brand": "Thorne",
+      "form": "capsule",
+      "cost_per_day": 2.0,
+      "markup_vs_cheapest": 1.7
+    },
+    "omega3": {
+      "brand": "Nature Made",
+      "form": "gummy",
+      "cost_per_day": 6.7407,
+      "markup_vs_cheapest": 31.6
+    },
+    "vitamin_d3": {
+      "brand": "MegaFood",
+      "form": "gummy",
+      "cost_per_day": 0.3997,
+      "markup_vs_cheapest": 10.2
+    },
+    "zinc": {
+      "brand": "Trace",
+      "form": "gummy",
+      "cost_per_day": 0.3498,
+      "markup_vs_cheapest": 13.1
+    }
+  }
+}

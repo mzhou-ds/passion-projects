@@ -1,0 +1,17 @@
+THE BRAND TAX — headline numbers (2026-11-08, 40 products, 6 compounds)
+
+STACK cheapest: $2.21/day, $66/month, $806/year
+STACK premium (all Thorne): $5.33/day, $160/month, $1,944/year
+STACK gummy: $11.41/day, $342/month, $4,166/year
+
+Under-dosed servings (one serving < trial dose): 14/40 (35.0%). Median servings/day to hit trial dose: 1.0.
+Median markup vs compound cheapest — bulk 1.04x, premium 3.47x, gummy 7.84x.
+Biggest single markup: 31.6x (Nature Made Fish Oil 400 mg (57 mg Omega-3) Gummies).
+Gummies per day on the all-gummy stack: 50.1.
+
+creatine: cheapest BulkSupplements powder $0.230/day; priciest MaryRuth's gummy $2.219/day (9.7x).
+magnesium: cheapest Pure Encapsulations capsule $0.500/day; priciest Nature Made gummy $4.078/day (8.2x).
+vitamin_d3: cheapest NOW softgel $0.039/day; priciest MegaFood gummy $0.400/day (10.2x).
+omega3: cheapest NOW Foods softgel $0.213/day; priciest Nature Made gummy $6.741/day (31.6x).
+zinc: cheapest NOW capsule $0.027/day; priciest Trace gummy $0.350/day (13.1x).
+nr: cheapest Tru Niagen capsule $1.200/day; priciest Thorne capsule $2.000/day (1.7x).
