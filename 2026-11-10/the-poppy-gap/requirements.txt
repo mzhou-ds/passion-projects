@@ -1,0 +1,4 @@
+requests>=2.31
+pandas>=2.0
+matplotlib>=3.7
+pytrends>=4.9  # optional: Google Trends leg; blocked from some networks, see NOTES.md
