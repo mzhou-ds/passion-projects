@@ -1,0 +1,58 @@
+{
+ "n_songs": 192,
+ "base_rate_top40": 0.427,
+ "cv_auc_top40": 0.549,
+ "features": [
+  "debut_year",
+  "is_solo",
+  "is_featured",
+  "is_edm_collab",
+  "n_artists",
+  "prior_songs",
+  "prior_top40",
+  "era_toll_plus",
+  "era_remnant"
+ ],
+ "shap_ranking": [
+  {
+   "feature": "prior_top40",
+   "mean_abs_shap": 0.464
+  },
+  {
+   "feature": "prior_songs",
+   "mean_abs_shap": 0.3961
+  },
+  {
+   "feature": "debut_year",
+   "mean_abs_shap": 0.3754
+  },
+  {
+   "feature": "n_artists",
+   "mean_abs_shap": 0.0793
+  },
+  {
+   "feature": "is_featured",
+   "mean_abs_shap": 0.0271
+  },
+  {
+   "feature": "is_solo",
+   "mean_abs_shap": 0.0217
+  },
+  {
+   "feature": "era_toll_plus",
+   "mean_abs_shap": 0.0073
+  },
+  {
+   "feature": "is_edm_collab",
+   "mean_abs_shap": 0.0
+  },
+  {
+   "feature": "era_remnant",
+   "mean_abs_shap": 0.0
+  }
+ ],
+ "top40_rate_solo": 0.385,
+ "top40_rate_collab": 0.434,
+ "n_solo": 26,
+ "n_collab": 166
+}
