@@ -1,0 +1,30 @@
+{
+  "auc_shot_only": 0.8712,
+  "auc_with_shift": 0.8755,
+  "auc_lift": 0.0043,
+  "shap_rank": {
+    "shot_type_unknown": 1.3629,
+    "dist": 0.7622,
+    "score_diff": 0.6311,
+    "angle": 0.2609,
+    "att_mean_age": 0.1182,
+    "period": 0.1071,
+    "shooter_age": 0.0953,
+    "shot_type_tip-in": 0.0913,
+    "shot_type_snap": 0.0913,
+    "def_mean_age": 0.079,
+    "shot_type_slap": 0.0698,
+    "shot_type_wrist": 0.0623,
+    "rebound": 0.0588,
+    "def_n_fresh": 0.0359,
+    "shot_type_backhand": 0.0354,
+    "def_max_age": 0.0284,
+    "def_n_over60": 0.0276,
+    "shot_type_wrap-around": 0.004,
+    "shot_type_bat": 0.0019,
+    "shot_type_deflected": 0.0011,
+    "shot_type_poke": 0.0002,
+    "shot_type_cradle": 0.0,
+    "shot_type_between-legs": 0.0
+  }
+}

@@ -1,0 +1,1008 @@
+{
+  "season": "2025-26",
+  "games": 1312,
+  "shots_5v5": 120992,
+  "goals_5v5": 5376,
+  "xg_auc": 0.825,
+  "five_v_five_team_hours": 2128.9,
+  "def_curve": [
+    {
+      "def_bucket": 0,
+      "xg": 237.1773639780673,
+      "goals": 138,
+      "n": 7503,
+      "team_hours": 73.41305555555556,
+      "def_hours": 36.70652777777778,
+      "xg_per60": 6.461449184568611,
+      "g_per60": 3.759549277868378,
+      "att_per60": 204.40505965106115,
+      "bucket_label": "0-10"
+    },
+    {
+      "def_bucket": 1,
+      "xg": 785.5730013744743,
+      "goals": 657,
+      "n": 19292,
+      "team_hours": 524.9108333333334,
+      "def_hours": 262.4554166666667,
+      "xg_per60": 2.993167416209957,
+      "g_per60": 2.5032823035023406,
+      "att_per60": 73.50581765474453,
+      "bucket_label": "10-20"
+    },
+    {
+      "def_bucket": 2,
+      "xg": 1257.5201212666975,
+      "goals": 1233,
+      "n": 28317,
+      "team_hours": 768.0697222222223,
+      "def_hours": 384.0348611111111,
+      "xg_per60": 3.2744947102676303,
+      "g_per60": 3.210646024250547,
+      "att_per60": 73.73549348637692,
+      "bucket_label": "20-30"
+    },
+    {
+      "def_bucket": 3,
+      "xg": 1311.0155260605436,
+      "goals": 1339,
+      "n": 28512,
+      "team_hours": 452.86083333333335,
+      "def_hours": 226.43041666666667,
+      "xg_per60": 5.789926748182949,
+      "g_per60": 5.913516477652259,
+      "att_per60": 125.91947857417566,
+      "bucket_label": "30-40"
+    },
+    {
+      "def_bucket": 4,
+      "xg": 909.2849870737546,
+      "goals": 997,
+      "n": 19444,
+      "team_hours": 192.11583333333334,
+      "def_hours": 96.05791666666667,
+      "xg_per60": 9.466007786001548,
+      "g_per60": 10.379154936908723,
+      "att_per60": 202.41954723495806,
+      "bucket_label": "40-50"
+    },
+    {
+      "def_bucket": 5,
+      "xg": 464.48180012663164,
+      "goals": 559,
+      "n": 9848,
+      "team_hours": 71.65722222222222,
+      "def_hours": 35.82861111111111,
+      "xg_per60": 12.963991227184001,
+      "g_per60": 15.602056084910416,
+      "att_per60": 274.86412938139136,
+      "bucket_label": "50-60"
+    },
+    {
+      "def_bucket": 6,
+      "xg": 217.9852125072945,
+      "goals": 256,
+      "n": 4582,
+      "team_hours": 26.988888888888887,
+      "def_hours": 13.494444444444444,
+      "xg_per60": 16.15370039164801,
+      "g_per60": 18.970769864141623,
+      "att_per60": 339.54713874022235,
+      "bucket_label": "60-70"
+    },
+    {
+      "def_bucket": 7,
+      "xg": 88.99663103081022,
+      "goals": 102,
+      "n": 1931,
+      "team_hours": 10.760555555555555,
+      "def_hours": 5.380277777777778,
+      "xg_per60": 16.541270675353235,
+      "g_per60": 18.958128968971035,
+      "att_per60": 358.90340234395165,
+      "bucket_label": "70-80"
+    },
+    {
+      "def_bucket": 8,
+      "xg": 38.87438843083109,
+      "goals": 48,
+      "n": 842,
+      "team_hours": 4.2925,
+      "def_hours": 2.14625,
+      "xg_per60": 18.112702821586993,
+      "g_per60": 22.36458940011648,
+      "att_per60": 392.31217239370994,
+      "bucket_label": "80-90"
+    },
+    {
+      "def_bucket": 9,
+      "xg": 36.58548555114395,
+      "goals": 47,
+      "n": 721,
+      "team_hours": 3.7944444444444443,
+      "def_hours": 1.8972222222222221,
+      "xg_per60": 19.283711271466796,
+      "g_per60": 24.77306002928258,
+      "att_per60": 380.02928257686676,
+      "bucket_label": "90+"
+    }
+  ],
+  "att_curve": [
+    {
+      "att_bucket": 0,
+      "xg": 284.81954396992785,
+      "goals": 166,
+      "n": 8550,
+      "team_hours": 73.41305555555556,
+      "def_hours": 36.70652777777778,
+      "xg_per60": 7.759370368514079,
+      "g_per60": 4.52235637772573,
+      "att_per60": 232.92859656358428,
+      "bucket_label": "0-10"
+    },
+    {
+      "att_bucket": 1,
+      "xg": 1128.0209438084107,
+      "goals": 946,
+      "n": 26183,
+      "team_hours": 524.9108333333334,
+      "def_hours": 262.4554166666667,
+      "xg_per60": 4.297952612809137,
+      "g_per60": 3.604421703368667,
+      "att_per60": 99.76170555951566,
+      "bucket_label": "10-20"
+    },
+    {
+      "att_bucket": 2,
+      "xg": 1620.905440217977,
+      "goals": 1623,
+      "n": 36226,
+      "team_hours": 768.0697222222223,
+      "def_hours": 384.0348611111111,
+      "xg_per60": 4.2207247423535525,
+      "g_per60": 4.226178829974565,
+      "att_per60": 94.32997800040577,
+      "bucket_label": "20-30"
+    },
+    {
+      "att_bucket": 3,
+      "xg": 1318.3220450281788,
+      "goals": 1432,
+      "n": 28924,
+      "team_hours": 452.86083333333335,
+      "def_hours": 226.43041666666667,
+      "xg_per60": 5.822195023245973,
+      "g_per60": 6.324238682597486,
+      "att_per60": 127.73902210576097,
+      "bucket_label": "30-40"
+    },
+    {
+      "att_bucket": 4,
+      "xg": 646.9152303171974,
+      "goals": 772,
+      "n": 13926,
+      "team_hours": 192.11583333333334,
+      "def_hours": 96.05791666666667,
+      "xg_per60": 6.734637318463573,
+      "g_per60": 8.036818065490003,
+      "att_per60": 144.97503676167588,
+      "bucket_label": "40-50"
+    },
+    {
+      "att_bucket": 5,
+      "xg": 234.71079372233646,
+      "goals": 270,
+      "n": 4907,
+      "team_hours": 71.65722222222222,
+      "def_hours": 35.82861111111111,
+      "xg_per60": 6.550931963130113,
+      "g_per60": 7.535876820976409,
+      "att_per60": 136.9575835575231,
+      "bucket_label": "50-60"
+    },
+    {
+      "att_bucket": 6,
+      "xg": 72.20342718272003,
+      "goals": 110,
+      "n": 1466,
+      "team_hours": 26.988888888888887,
+      "def_hours": 13.494444444444444,
+      "xg_per60": 5.350603908147224,
+      "g_per60": 8.151502675998353,
+      "att_per60": 108.63729930012352,
+      "bucket_label": "60-70"
+    },
+    {
+      "att_bucket": 7,
+      "xg": 24.72102700497982,
+      "goals": 31,
+      "n": 474,
+      "team_hours": 10.760555555555555,
+      "def_hours": 5.380277777777778,
+      "xg_per60": 4.594749198096306,
+      "g_per60": 5.761784294491197,
+      "att_per60": 88.09954050286541,
+      "bucket_label": "70-80"
+    },
+    {
+      "att_bucket": 8,
+      "xg": 7.701814224180885,
+      "goals": 11,
+      "n": 165,
+      "team_hours": 4.2925,
+      "def_hours": 2.14625,
+      "xg_per60": 3.5884981824954614,
+      "g_per60": 5.12521840419336,
+      "att_per60": 76.8782760629004,
+      "bucket_label": "80-90"
+    },
+    {
+      "att_bucket": 9,
+      "xg": 9.174251924340055,
+      "goals": 15,
+      "n": 171,
+      "team_hours": 3.7944444444444443,
+      "def_hours": 1.8972222222222221,
+      "xg_per60": 4.835623269051859,
+      "g_per60": 7.906295754026354,
+      "att_per60": 90.13177159590045,
+      "bucket_label": "90+"
+    }
+  ],
+  "share_vs_time": [
+    {
+      "bucket": "0-10",
+      "time_share": 0.034484616860062295,
+      "xg_against_share": 0.044352988713932145,
+      "goal_share": 0.025669642857142856,
+      "xg_overrep": 1.2861673625058807
+    },
+    {
+      "bucket": "10-20",
+      "time_share": 0.24656852703124124,
+      "xg_against_share": 0.1469048727059547,
+      "goal_share": 0.12220982142857142,
+      "xg_overrep": 0.5957973407017241
+    },
+    {
+      "bucket": "20-30",
+      "time_share": 0.3607885531014848,
+      "xg_against_share": 0.23516061908522656,
+      "goal_share": 0.22935267857142858,
+      "xg_overrep": 0.6517962309604628
+    },
+    {
+      "bucket": "30-40",
+      "time_share": 0.21272418386959138,
+      "xg_against_share": 0.24516444510501526,
+      "goal_share": 0.24906994047619047,
+      "xg_overrep": 1.152499168854779
+    },
+    {
+      "bucket": "40-50",
+      "time_share": 0.09024336141734442,
+      "xg_against_share": 0.17003944260532214,
+      "goal_share": 0.18545386904761904,
+      "xg_overrep": 1.884232146661164
+    },
+    {
+      "bucket": "50-60",
+      "time_share": 0.03365984203885484,
+      "xg_against_share": 0.0868597057211094,
+      "goal_share": 0.10398065476190477,
+      "xg_overrep": 2.580514359539891
+    },
+    {
+      "bucket": "60-70",
+      "time_share": 0.012677601902945103,
+      "xg_against_share": 0.040763989901811196,
+      "goal_share": 0.047619047619047616,
+      "xg_overrep": 3.2154338189418468
+    },
+    {
+      "bucket": "70-80",
+      "time_share": 0.005054600067067593,
+      "xg_against_share": 0.016642678312473902,
+      "goal_share": 0.018973214285714284,
+      "xg_overrep": 3.2925806377652918
+    },
+    {
+      "bucket": "80-90",
+      "time_share": 0.0020163336991170303,
+      "xg_against_share": 0.007269645308534202,
+      "goal_share": 0.008928571428571428,
+      "xg_overrep": 3.605378073935699
+    },
+    {
+      "bucket": "90+",
+      "time_share": 0.0017823800122913761,
+      "xg_against_share": 0.006841612540620319,
+      "goal_share": 0.008742559523809524,
+      "xg_overrep": 3.838470187861308
+    }
+  ],
+  "penalty_rate": [
+    {
+      "bucket": "0-10",
+      "penalties": 285,
+      "team_hours": 73.41305555555556,
+      "pen_per60": 3.882143276059738
+    },
+    {
+      "bucket": "10-20",
+      "penalties": 1088,
+      "team_hours": 524.9108333333334,
+      "pen_per60": 2.0727329879836733
+    },
+    {
+      "bucket": "20-30",
+      "penalties": 1725,
+      "team_hours": 768.0697222222223,
+      "pen_per60": 2.2458898588127307
+    },
+    {
+      "bucket": "30-40",
+      "penalties": 1843,
+      "team_hours": 452.86083333333335,
+      "pen_per60": 4.069682923193843
+    },
+    {
+      "bucket": "40-50",
+      "penalties": 1216,
+      "team_hours": 192.11583333333334,
+      "pen_per60": 6.329514745878138
+    },
+    {
+      "bucket": "50-60",
+      "penalties": 569,
+      "team_hours": 71.65722222222222,
+      "pen_per60": 7.940581316917734
+    },
+    {
+      "bucket": "60-70",
+      "penalties": 299,
+      "team_hours": 26.988888888888887,
+      "pen_per60": 11.078633182379582
+    },
+    {
+      "bucket": "70-80",
+      "penalties": 114,
+      "team_hours": 10.760555555555555,
+      "pen_per60": 10.594248541483815
+    },
+    {
+      "bucket": "80-90",
+      "penalties": 31,
+      "team_hours": 4.2925,
+      "pen_per60": 7.22189866045428
+    },
+    {
+      "bucket": "90+",
+      "penalties": 39,
+      "team_hours": 3.7944444444444443,
+      "pen_per60": 10.27818448023426
+    }
+  ],
+  "change_tax": {
+    "change_goals": 159,
+    "change_xg": 255.18606166842432,
+    "change_team_hours": 150.00277777777777,
+    "change_share_of_time": 0.07046142243319663,
+    "change_goals_per60": 2.1199607414677506,
+    "overall_goals_per60": 5.050581230729484,
+    "change_ratio": 0.4197458954959829
+  },
+  "cliff": {
+    "biggest_jump_between": "30-40 -> 40-50",
+    "jump_xg_per60": 3.676,
+    "xg_per60_0_40s": 4.63,
+    "xg_per60_60s_plus": 17.523,
+    "def_ratio_late_vs_early": 3.78,
+    "att_xg_per60_0_40s": 5.525,
+    "att_xg_per60_60s_plus": 4.592,
+    "att_ratio_late_vs_early": 0.83
+  },
+  "team_tax_top5": [
+    {
+      "team": "TOR",
+      "games": 82,
+      "observed_xga": 184.05174040141137,
+      "expected_xga": 159.44005544827706,
+      "excess_xga_per82": 24.6116849531343,
+      "pct_time_over60": 0.016621425649797347
+    },
+    {
+      "team": "VAN",
+      "games": 82,
+      "observed_xga": 194.40713690927208,
+      "expected_xga": 169.80910249986744,
+      "excess_xga_per82": 24.598034409404647,
+      "pct_time_over60": 0.02343436017484618
+    },
+    {
+      "team": "CGY",
+      "games": 82,
+      "observed_xga": 175.06297210926752,
+      "expected_xga": 152.25563320280048,
+      "excess_xga_per82": 22.807338906467038,
+      "pct_time_over60": 0.012383862004802675
+    },
+    {
+      "team": "CHI",
+      "games": 82,
+      "observed_xga": 190.14337890054603,
+      "expected_xga": 169.39044930492418,
+      "excess_xga_per82": 20.75292959562185,
+      "pct_time_over60": 0.023782427751426697
+    },
+    {
+      "team": "ANA",
+      "games": 82,
+      "observed_xga": 178.42612338803073,
+      "expected_xga": 158.97656825937628,
+      "excess_xga_per82": 19.449555128654453,
+      "pct_time_over60": 0.020956413216170512
+    }
+  ],
+  "team_tax_bottom5": [
+    {
+      "team": "DAL",
+      "games": 82,
+      "observed_xga": 154.46916450731015,
+      "expected_xga": 171.7139214794556,
+      "excess_xga_per82": -17.24475697214544,
+      "pct_time_over60": 0.025126898207628635
+    },
+    {
+      "team": "TBL",
+      "games": 82,
+      "observed_xga": 149.39213437987087,
+      "expected_xga": 169.15308828475412,
+      "excess_xga_per82": -19.76095390488325,
+      "pct_time_over60": 0.025364202845427966
+    },
+    {
+      "team": "MIN",
+      "games": 82,
+      "observed_xga": 168.33258991275443,
+      "expected_xga": 188.71023231889222,
+      "excess_xga_per82": -20.377642406137795,
+      "pct_time_over60": 0.03567616320924113
+    },
+    {
+      "team": "VGK",
+      "games": 82,
+      "observed_xga": 146.4728955194579,
+      "expected_xga": 168.43206217321793,
+      "excess_xga_per82": -21.959166653760033,
+      "pct_time_over60": 0.020093669738631213
+    },
+    {
+      "team": "LAK",
+      "games": 82,
+      "observed_xga": 151.32754581556924,
+      "expected_xga": 174.60037767549412,
+      "excess_xga_per82": -23.272831859924878,
+      "pct_time_over60": 0.022996348538795224
+    }
+  ],
+  "team_tax_oilers": [
+    {
+      "team": "EDM",
+      "games": 82,
+      "observed_xga": 171.61459429746586,
+      "expected_xga": 178.83627343782265,
+      "excess_xga_per82": -7.221679140356798,
+      "pct_time_over60": 0.02791943249480072
+    }
+  ],
+  "team_shift_top5": [
+    {
+      "team": "MIN",
+      "mean_shift_sec": 53.798508553882144,
+      "n_shifts": 27356
+    },
+    {
+      "team": "SJS",
+      "mean_shift_sec": 51.33920338336742,
+      "n_shifts": 28847
+    },
+    {
+      "team": "PIT",
+      "mean_shift_sec": 51.05353608999063,
+      "n_shifts": 28803
+    },
+    {
+      "team": "MTL",
+      "mean_shift_sec": 50.97329490206973,
+      "n_shifts": 28796
+    },
+    {
+      "team": "CBJ",
+      "mean_shift_sec": 50.61456825856247,
+      "n_shifts": 29022
+    }
+  ],
+  "team_shift_bottom5": [
+    {
+      "team": "PHI",
+      "mean_shift_sec": 45.96186229262816,
+      "n_shifts": 32068
+    },
+    {
+      "team": "TOR",
+      "mean_shift_sec": 45.74713755342714,
+      "n_shifts": 32053
+    },
+    {
+      "team": "UTA",
+      "mean_shift_sec": 45.05567763300424,
+      "n_shifts": 32311
+    },
+    {
+      "team": "CGY",
+      "mean_shift_sec": 44.81335742283194,
+      "n_shifts": 32656
+    },
+    {
+      "team": "OTT",
+      "mean_shift_sec": 43.22706829210558,
+      "n_shifts": 33796
+    }
+  ],
+  "team_shift_oilers": [
+    {
+      "team": "EDM",
+      "mean_shift_sec": 49.492774664055645,
+      "n_shifts": 29618
+    }
+  ],
+  "longest_shift_stars": [
+    {
+      "player_id": 8480800,
+      "first": "Quinn",
+      "last": "Hughes",
+      "team": "MIN",
+      "position": "D",
+      "mean_shift": 70.0671316477768,
+      "n_shifts": 1147,
+      "median_shift": 63.0
+    },
+    {
+      "player_id": 8480800,
+      "first": "Quinn",
+      "last": "Hughes",
+      "team": "VAN",
+      "position": "D",
+      "mean_shift": 68.57051282051282,
+      "n_shifts": 624,
+      "median_shift": 61.5
+    },
+    {
+      "player_id": 8478864,
+      "first": "Kirill",
+      "last": "Kaprizov",
+      "team": "MIN",
+      "position": "L",
+      "mean_shift": 63.665233415233416,
+      "n_shifts": 1628,
+      "median_shift": 59.5
+    },
+    {
+      "player_id": 8479345,
+      "first": "Jakob",
+      "last": "Chychrun",
+      "team": "WSH",
+      "position": "D",
+      "mean_shift": 62.09966777408638,
+      "n_shifts": 1806,
+      "median_shift": 58.0
+    },
+    {
+      "player_id": 8478402,
+      "first": "Connor",
+      "last": "McDavid",
+      "team": "EDM",
+      "position": "C",
+      "mean_shift": 61.38232104121475,
+      "n_shifts": 1844,
+      "median_shift": 57.0
+    },
+    {
+      "player_id": 8478460,
+      "first": "Zach",
+      "last": "Werenski",
+      "team": "CBJ",
+      "position": "D",
+      "mean_shift": 61.36866359447004,
+      "n_shifts": 1953,
+      "median_shift": 57.0
+    },
+    {
+      "player_id": 8475692,
+      "first": "Mats",
+      "last": "Zuccarello",
+      "team": "MIN",
+      "position": "R",
+      "mean_shift": 60.981549815498155,
+      "n_shifts": 1084,
+      "median_shift": 58.0
+    },
+    {
+      "player_id": 8480036,
+      "first": "Miro",
+      "last": "Heiskanen",
+      "team": "DAL",
+      "position": "D",
+      "mean_shift": 60.73078906652914,
+      "n_shifts": 1939,
+      "median_shift": 55.0
+    },
+    {
+      "player_id": 8481557,
+      "first": "Matt",
+      "last": "Boldy",
+      "team": "MIN",
+      "position": "L",
+      "mean_shift": 60.271034039820165,
+      "n_shifts": 1557,
+      "median_shift": 57.0
+    },
+    {
+      "player_id": 8484801,
+      "first": "Macklin",
+      "last": "Celebrini",
+      "team": "SJS",
+      "position": "C",
+      "mean_shift": 60.24617129892229,
+      "n_shifts": 1763,
+      "median_shift": 57.0
+    }
+  ],
+  "oilers_stars": [
+    {
+      "player_id": 8478402,
+      "first": "Connor",
+      "last": "McDavid",
+      "team": "EDM",
+      "position": "C",
+      "mean_shift": 61.38232104121475,
+      "n_shifts": 1844,
+      "median_shift": 57.0
+    },
+    {
+      "player_id": 8477934,
+      "first": "Leon",
+      "last": "Draisaitl",
+      "team": "EDM",
+      "position": "C",
+      "mean_shift": 58.71807397069086,
+      "n_shifts": 1433,
+      "median_shift": 54.0
+    },
+    {
+      "player_id": 8475786,
+      "first": "Zach",
+      "last": "Hyman",
+      "team": "EDM",
+      "position": "L",
+      "mean_shift": 58.13322231473772,
+      "n_shifts": 1201,
+      "median_shift": 53.0
+    },
+    {
+      "player_id": 8480803,
+      "first": "Evan",
+      "last": "Bouchard",
+      "team": "EDM",
+      "position": "D",
+      "mean_shift": 57.652916073968704,
+      "n_shifts": 2109,
+      "median_shift": 52.0
+    },
+    {
+      "player_id": 8476454,
+      "first": "Ryan",
+      "last": "Nugent-Hopkins",
+      "team": "EDM",
+      "position": "C",
+      "mean_shift": 52.782190903267136,
+      "n_shifts": 1561,
+      "median_shift": 49.0
+    },
+    {
+      "player_id": 8476967,
+      "first": "Brett",
+      "last": "Kulak",
+      "team": "EDM",
+      "position": "D",
+      "mean_shift": 49.8969696969697,
+      "n_shifts": 660,
+      "median_shift": 48.0
+    },
+    {
+      "player_id": 8478458,
+      "first": "Jack",
+      "last": "Roslovic",
+      "team": "EDM",
+      "position": "C",
+      "mean_shift": 49.828506097560975,
+      "n_shifts": 1312,
+      "median_shift": 49.0
+    },
+    {
+      "player_id": 8475218,
+      "first": "Mattias",
+      "last": "Ekholm",
+      "team": "EDM",
+      "position": "D",
+      "mean_shift": 49.65268292682927,
+      "n_shifts": 2050,
+      "median_shift": 48.0
+    }
+  ],
+  "decomposition": {
+    "both_old_ratio_60plus_vs_10_30": 14.43,
+    "fresh_att_ratio_60plus_vs_10_30": 3.33,
+    "both_old_60plus_xg_per60": 25.99,
+    "both_old_10_30_xg_per60": 1.8,
+    "fresh_att_60plus_xg_per60": 11.37
+  },
+  "fresh_count": [
+    {
+      "n_fresh_defenders": 0,
+      "defending_hours": 883.8277777777778,
+      "xg_per60": 5.30649885801309,
+      "g_per60": 5.533883549459737,
+      "att_per60": 118.08635417910729,
+      "goals": 4891
+    },
+    {
+      "n_fresh_defenders": 1,
+      "defending_hours": 105.60277777777777,
+      "xg_per60": 3.8093445147846476,
+      "g_per60": 3.0870400084172873,
+      "att_per60": 79.84638451219192,
+      "goals": 326
+    },
+    {
+      "n_fresh_defenders": 2,
+      "defending_hours": 44.21194444444444,
+      "xg_per60": 2.201597850054294,
+      "g_per60": 1.4023359700432891,
+      "att_per60": 58.174324434699024,
+      "goals": 62
+    },
+    {
+      "n_fresh_defenders": 3,
+      "defending_hours": 19.008055555555554,
+      "xg_per60": 2.622559199278767,
+      "g_per60": 1.5782782153765218,
+      "att_per60": 86.59486475032516,
+      "goals": 30
+    },
+    {
+      "n_fresh_defenders": 4,
+      "defending_hours": 7.199861111111111,
+      "xg_per60": 3.7824755685077447,
+      "g_per60": 2.7778313624877025,
+      "att_per60": 133.4747969675341,
+      "goals": 20
+    },
+    {
+      "n_fresh_defenders": 5,
+      "defending_hours": 4.581527777777778,
+      "xg_per60": 17.628637005653907,
+      "g_per60": 10.258586715979023,
+      "att_per60": 657.6408888349956,
+      "goals": 47
+    }
+  ],
+  "mcdavid": [
+    {
+      "player_id": 8478402,
+      "first": "Connor",
+      "last": "McDavid",
+      "team": "EDM",
+      "position": "C",
+      "mean_shift": 61.38232104121475,
+      "n_shifts": 1844,
+      "median_shift": 57.0
+    }
+  ],
+  "draisaitl": [
+    {
+      "player_id": 8477934,
+      "first": "Leon",
+      "last": "Draisaitl",
+      "team": "EDM",
+      "position": "C",
+      "mean_shift": 58.71807397069086,
+      "n_shifts": 1433,
+      "median_shift": 54.0
+    }
+  ],
+  "team_discipline": [
+    {
+      "team_abbr": "MIN",
+      "pct_time_40s_plus": 0.2108464141794441,
+      "pct_time_60s_plus": 0.03567616320924113
+    },
+    {
+      "team_abbr": "SJS",
+      "pct_time_40s_plus": 0.1824350237484143,
+      "pct_time_60s_plus": 0.03160414533102381
+    },
+    {
+      "team_abbr": "PIT",
+      "pct_time_40s_plus": 0.18125410401549344,
+      "pct_time_60s_plus": 0.02755404832556168
+    },
+    {
+      "team_abbr": "CBJ",
+      "pct_time_40s_plus": 0.17865995797491627,
+      "pct_time_60s_plus": 0.026864863090156937
+    },
+    {
+      "team_abbr": "MTL",
+      "pct_time_40s_plus": 0.16774166117476988,
+      "pct_time_60s_plus": 0.026135759688768894
+    },
+    {
+      "team_abbr": "EDM",
+      "pct_time_40s_plus": 0.16742298754207247,
+      "pct_time_60s_plus": 0.02791943249480072
+    },
+    {
+      "team_abbr": "DAL",
+      "pct_time_40s_plus": 0.16665051917689927,
+      "pct_time_60s_plus": 0.025126898207628635
+    },
+    {
+      "team_abbr": "LAK",
+      "pct_time_40s_plus": 0.1654984471985477,
+      "pct_time_60s_plus": 0.022996348538795224
+    },
+    {
+      "team_abbr": "TBL",
+      "pct_time_40s_plus": 0.16204362762230312,
+      "pct_time_60s_plus": 0.025364202845427966
+    },
+    {
+      "team_abbr": "NJD",
+      "pct_time_40s_plus": 0.16173671317412375,
+      "pct_time_60s_plus": 0.026355584359472887
+    },
+    {
+      "team_abbr": "WSH",
+      "pct_time_40s_plus": 0.15754673480352135,
+      "pct_time_60s_plus": 0.021261744512177067
+    },
+    {
+      "team_abbr": "WPG",
+      "pct_time_40s_plus": 0.15745404727512033,
+      "pct_time_60s_plus": 0.025723592445583116
+    },
+    {
+      "team_abbr": "VAN",
+      "pct_time_40s_plus": 0.1512419465103271,
+      "pct_time_60s_plus": 0.02343436017484618
+    },
+    {
+      "team_abbr": "SEA",
+      "pct_time_40s_plus": 0.15123126556948585,
+      "pct_time_60s_plus": 0.023155143545554785
+    },
+    {
+      "team_abbr": "CAR",
+      "pct_time_40s_plus": 0.1499282759540966,
+      "pct_time_60s_plus": 0.017076160928742996
+    },
+    {
+      "team_abbr": "BOS",
+      "pct_time_40s_plus": 0.1496126260234116,
+      "pct_time_60s_plus": 0.022333209283442724
+    },
+    {
+      "team_abbr": "CHI",
+      "pct_time_40s_plus": 0.14585946520688137,
+      "pct_time_60s_plus": 0.023782427751426697
+    },
+    {
+      "team_abbr": "NSH",
+      "pct_time_40s_plus": 0.14216710789094794,
+      "pct_time_60s_plus": 0.01923231197301143
+    },
+    {
+      "team_abbr": "NYI",
+      "pct_time_40s_plus": 0.14074632713851754,
+      "pct_time_60s_plus": 0.02131460423258577
+    },
+    {
+      "team_abbr": "VGK",
+      "pct_time_40s_plus": 0.13704609580119476,
+      "pct_time_60s_plus": 0.020093669738631213
+    },
+    {
+      "team_abbr": "COL",
+      "pct_time_40s_plus": 0.135402959308451,
+      "pct_time_60s_plus": 0.014508819957772522
+    },
+    {
+      "team_abbr": "DET",
+      "pct_time_40s_plus": 0.13157566016838354,
+      "pct_time_60s_plus": 0.018945229549561553
+    },
+    {
+      "team_abbr": "ANA",
+      "pct_time_40s_plus": 0.13017254965434696,
+      "pct_time_60s_plus": 0.020956413216170512
+    },
+    {
+      "team_abbr": "FLA",
+      "pct_time_40s_plus": 0.12909636408119118,
+      "pct_time_60s_plus": 0.018130233795888934
+    },
+    {
+      "team_abbr": "BUF",
+      "pct_time_40s_plus": 0.12468320000674715,
+      "pct_time_60s_plus": 0.01563653078178437
+    },
+    {
+      "team_abbr": "NYR",
+      "pct_time_40s_plus": 0.12329626861665889,
+      "pct_time_60s_plus": 0.016862863300975684
+    },
+    {
+      "team_abbr": "STL",
+      "pct_time_40s_plus": 0.12181726791806062,
+      "pct_time_60s_plus": 0.019224113779066892
+    },
+    {
+      "team_abbr": "TOR",
+      "pct_time_40s_plus": 0.1167879291182753,
+      "pct_time_60s_plus": 0.016621425649797347
+    },
+    {
+      "team_abbr": "PHI",
+      "pct_time_40s_plus": 0.11617852220215925,
+      "pct_time_60s_plus": 0.015253903549748003
+    },
+    {
+      "team_abbr": "UTA",
+      "pct_time_40s_plus": 0.10402881068103297,
+      "pct_time_60s_plus": 0.01425894477952802
+    },
+    {
+      "team_abbr": "CGY",
+      "pct_time_40s_plus": 0.10064245213040143,
+      "pct_time_60s_plus": 0.012383862004802675
+    },
+    {
+      "team_abbr": "OTT",
+      "pct_time_40s_plus": 0.09044816428444037,
+      "pct_time_60s_plus": 0.01252685843376052
+    }
+  ],
+  "league_mean_shift_sec": 48.2,
+  "counterfactual": {
+    "MIN": {
+      "own": 188.7,
+      "with_OTT_profile": 151.3,
+      "saves_xg": 37.4,
+      "saves_points": 6.2
+    },
+    "EDM": {
+      "own": 178.8,
+      "with_OTT_profile": 153.8,
+      "saves_xg": 25.0,
+      "saves_points": 4.2
+    },
+    "SJS": {
+      "own": 177.8,
+      "with_OTT_profile": 148.6,
+      "saves_xg": 29.2,
+      "saves_points": 4.9
+    }
+  }
+}
