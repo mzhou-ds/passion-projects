@@ -1,0 +1,597 @@
+[
+  {
+    "chapter": "Economy",
+    "words": 25768,
+    "sentences": 827,
+    "gita_arnold": {
+      "ngram6_share": 0.0,
+      "ngram6_hits": 0,
+      "ngram8_share": 0.0,
+      "ngram8_hits": 0
+    },
+    "upanishads_muller": {
+      "ngram6_share": 0.0,
+      "ngram6_hits": 0,
+      "ngram8_share": 0.0,
+      "ngram8_hits": 0
+    },
+    "vishnu_purana": {
+      "ngram6_share": 0.00031,
+      "ngram6_hits": 8,
+      "ngram8_share": 0.00012,
+      "ngram8_hits": 3
+    },
+    "kjv": {
+      "ngram6_share": 0.00252,
+      "ngram6_hits": 65,
+      "ngram8_share": 0.00214,
+      "ngram8_hits": 55
+    },
+    "sartor": {
+      "ngram6_share": 0.00012,
+      "ngram6_hits": 3,
+      "ngram8_share": 0.0,
+      "ngram8_hits": 0
+    }
+  },
+  {
+    "chapter": "Where I Lived, and What I Lived For",
+    "words": 6153,
+    "sentences": 199,
+    "gita_arnold": {
+      "ngram6_share": 0.0,
+      "ngram6_hits": 0,
+      "ngram8_share": 0.0,
+      "ngram8_hits": 0
+    },
+    "upanishads_muller": {
+      "ngram6_share": 0.0,
+      "ngram6_hits": 0,
+      "ngram8_share": 0.0,
+      "ngram8_hits": 0
+    },
+    "vishnu_purana": {
+      "ngram6_share": 0.0,
+      "ngram6_hits": 0,
+      "ngram8_share": 0.0,
+      "ngram8_hits": 0
+    },
+    "kjv": {
+      "ngram6_share": 0.0,
+      "ngram6_hits": 0,
+      "ngram8_share": 0.0,
+      "ngram8_hits": 0
+    },
+    "sartor": {
+      "ngram6_share": 0.0,
+      "ngram6_hits": 0,
+      "ngram8_share": 0.0,
+      "ngram8_hits": 0
+    }
+  },
+  {
+    "chapter": "Reading",
+    "words": 3810,
+    "sentences": 124,
+    "gita_arnold": {
+      "ngram6_share": 0.0,
+      "ngram6_hits": 0,
+      "ngram8_share": 0.0,
+      "ngram8_hits": 0
+    },
+    "upanishads_muller": {
+      "ngram6_share": 0.0,
+      "ngram6_hits": 0,
+      "ngram8_share": 0.0,
+      "ngram8_hits": 0
+    },
+    "vishnu_purana": {
+      "ngram6_share": 0.0,
+      "ngram6_hits": 0,
+      "ngram8_share": 0.0,
+      "ngram8_hits": 0
+    },
+    "kjv": {
+      "ngram6_share": 0.0,
+      "ngram6_hits": 0,
+      "ngram8_share": 0.0,
+      "ngram8_hits": 0
+    },
+    "sartor": {
+      "ngram6_share": 0.0,
+      "ngram6_hits": 0,
+      "ngram8_share": 0.0,
+      "ngram8_hits": 0
+    }
+  },
+  {
+    "chapter": "Sounds",
+    "words": 5828,
+    "sentences": 178,
+    "gita_arnold": {
+      "ngram6_share": 0.0,
+      "ngram6_hits": 0,
+      "ngram8_share": 0.0,
+      "ngram8_hits": 0
+    },
+    "upanishads_muller": {
+      "ngram6_share": 0.0,
+      "ngram6_hits": 0,
+      "ngram8_share": 0.0,
+      "ngram8_hits": 0
+    },
+    "vishnu_purana": {
+      "ngram6_share": 0.0,
+      "ngram6_hits": 0,
+      "ngram8_share": 0.0,
+      "ngram8_hits": 0
+    },
+    "kjv": {
+      "ngram6_share": 0.00069,
+      "ngram6_hits": 4,
+      "ngram8_share": 0.00017,
+      "ngram8_hits": 1
+    },
+    "sartor": {
+      "ngram6_share": 0.0,
+      "ngram6_hits": 0,
+      "ngram8_share": 0.0,
+      "ngram8_hits": 0
+    }
+  },
+  {
+    "chapter": "Solitude",
+    "words": 3473,
+    "sentences": 116,
+    "gita_arnold": {
+      "ngram6_share": 0.0,
+      "ngram6_hits": 0,
+      "ngram8_share": 0.0,
+      "ngram8_hits": 0
+    },
+    "upanishads_muller": {
+      "ngram6_share": 0.0,
+      "ngram6_hits": 0,
+      "ngram8_share": 0.0,
+      "ngram8_hits": 0
+    },
+    "vishnu_purana": {
+      "ngram6_share": 0.0,
+      "ngram6_hits": 0,
+      "ngram8_share": 0.0,
+      "ngram8_hits": 0
+    },
+    "kjv": {
+      "ngram6_share": 0.00029,
+      "ngram6_hits": 1,
+      "ngram8_share": 0.0,
+      "ngram8_hits": 0
+    },
+    "sartor": {
+      "ngram6_share": 0.0,
+      "ngram6_hits": 0,
+      "ngram8_share": 0.0,
+      "ngram8_hits": 0
+    }
+  },
+  {
+    "chapter": "Visitors",
+    "words": 4822,
+    "sentences": 156,
+    "gita_arnold": {
+      "ngram6_share": 0.0,
+      "ngram6_hits": 0,
+      "ngram8_share": 0.0,
+      "ngram8_hits": 0
+    },
+    "upanishads_muller": {
+      "ngram6_share": 0.0,
+      "ngram6_hits": 0,
+      "ngram8_share": 0.0,
+      "ngram8_hits": 0
+    },
+    "vishnu_purana": {
+      "ngram6_share": 0.0,
+      "ngram6_hits": 0,
+      "ngram8_share": 0.0,
+      "ngram8_hits": 0
+    },
+    "kjv": {
+      "ngram6_share": 0.0,
+      "ngram6_hits": 0,
+      "ngram8_share": 0.0,
+      "ngram8_hits": 0
+    },
+    "sartor": {
+      "ngram6_share": 0.0,
+      "ngram6_hits": 0,
+      "ngram8_share": 0.0,
+      "ngram8_hits": 0
+    }
+  },
+  {
+    "chapter": "The Bean-Field",
+    "words": 3914,
+    "sentences": 115,
+    "gita_arnold": {
+      "ngram6_share": 0.0,
+      "ngram6_hits": 0,
+      "ngram8_share": 0.0,
+      "ngram8_hits": 0
+    },
+    "upanishads_muller": {
+      "ngram6_share": 0.0,
+      "ngram6_hits": 0,
+      "ngram8_share": 0.0,
+      "ngram8_hits": 0
+    },
+    "vishnu_purana": {
+      "ngram6_share": 0.00026,
+      "ngram6_hits": 1,
+      "ngram8_share": 0.0,
+      "ngram8_hits": 0
+    },
+    "kjv": {
+      "ngram6_share": 0.0,
+      "ngram6_hits": 0,
+      "ngram8_share": 0.0,
+      "ngram8_hits": 0
+    },
+    "sartor": {
+      "ngram6_share": 0.0,
+      "ngram6_hits": 0,
+      "ngram8_share": 0.0,
+      "ngram8_hits": 0
+    }
+  },
+  {
+    "chapter": "The Village",
+    "words": 2042,
+    "sentences": 50,
+    "gita_arnold": {
+      "ngram6_share": 0.0,
+      "ngram6_hits": 0,
+      "ngram8_share": 0.0,
+      "ngram8_hits": 0
+    },
+    "upanishads_muller": {
+      "ngram6_share": 0.0,
+      "ngram6_hits": 0,
+      "ngram8_share": 0.0,
+      "ngram8_hits": 0
+    },
+    "vishnu_purana": {
+      "ngram6_share": 0.00049,
+      "ngram6_hits": 1,
+      "ngram8_share": 0.0,
+      "ngram8_hits": 0
+    },
+    "kjv": {
+      "ngram6_share": 0.0,
+      "ngram6_hits": 0,
+      "ngram8_share": 0.0,
+      "ngram8_hits": 0
+    },
+    "sartor": {
+      "ngram6_share": 0.0,
+      "ngram6_hits": 0,
+      "ngram8_share": 0.0,
+      "ngram8_hits": 0
+    }
+  },
+  {
+    "chapter": "The Ponds",
+    "words": 9256,
+    "sentences": 271,
+    "gita_arnold": {
+      "ngram6_share": 0.0,
+      "ngram6_hits": 0,
+      "ngram8_share": 0.0,
+      "ngram8_hits": 0
+    },
+    "upanishads_muller": {
+      "ngram6_share": 0.0,
+      "ngram6_hits": 0,
+      "ngram8_share": 0.0,
+      "ngram8_hits": 0
+    },
+    "vishnu_purana": {
+      "ngram6_share": 0.00022,
+      "ngram6_hits": 2,
+      "ngram8_share": 0.0,
+      "ngram8_hits": 0
+    },
+    "kjv": {
+      "ngram6_share": 0.00011,
+      "ngram6_hits": 1,
+      "ngram8_share": 0.0,
+      "ngram8_hits": 0
+    },
+    "sartor": {
+      "ngram6_share": 0.0,
+      "ngram6_hits": 0,
+      "ngram8_share": 0.0,
+      "ngram8_hits": 0
+    }
+  },
+  {
+    "chapter": "Baker Farm",
+    "words": 2595,
+    "sentences": 62,
+    "gita_arnold": {
+      "ngram6_share": 0.0,
+      "ngram6_hits": 0,
+      "ngram8_share": 0.0,
+      "ngram8_hits": 0
+    },
+    "upanishads_muller": {
+      "ngram6_share": 0.0,
+      "ngram6_hits": 0,
+      "ngram8_share": 0.0,
+      "ngram8_hits": 0
+    },
+    "vishnu_purana": {
+      "ngram6_share": 0.0,
+      "ngram6_hits": 0,
+      "ngram8_share": 0.0,
+      "ngram8_hits": 0
+    },
+    "kjv": {
+      "ngram6_share": 0.00116,
+      "ngram6_hits": 3,
+      "ngram8_share": 0.00039,
+      "ngram8_hits": 1
+    },
+    "sartor": {
+      "ngram6_share": 0.0,
+      "ngram6_hits": 0,
+      "ngram8_share": 0.0,
+      "ngram8_hits": 0
+    }
+  },
+  {
+    "chapter": "Higher Laws",
+    "words": 4244,
+    "sentences": 173,
+    "gita_arnold": {
+      "ngram6_share": 0.0,
+      "ngram6_hits": 0,
+      "ngram8_share": 0.0,
+      "ngram8_hits": 0
+    },
+    "upanishads_muller": {
+      "ngram6_share": 0.00024,
+      "ngram6_hits": 1,
+      "ngram8_share": 0.0,
+      "ngram8_hits": 0
+    },
+    "vishnu_purana": {
+      "ngram6_share": 0.0,
+      "ngram6_hits": 0,
+      "ngram8_share": 0.0,
+      "ngram8_hits": 0
+    },
+    "kjv": {
+      "ngram6_share": 0.00047,
+      "ngram6_hits": 2,
+      "ngram8_share": 0.0,
+      "ngram8_hits": 0
+    },
+    "sartor": {
+      "ngram6_share": 0.0,
+      "ngram6_hits": 0,
+      "ngram8_share": 0.0,
+      "ngram8_hits": 0
+    }
+  },
+  {
+    "chapter": "Brute Neighbors",
+    "words": 4870,
+    "sentences": 177,
+    "gita_arnold": {
+      "ngram6_share": 0.0,
+      "ngram6_hits": 0,
+      "ngram8_share": 0.0,
+      "ngram8_hits": 0
+    },
+    "upanishads_muller": {
+      "ngram6_share": 0.0,
+      "ngram6_hits": 0,
+      "ngram8_share": 0.0,
+      "ngram8_hits": 0
+    },
+    "vishnu_purana": {
+      "ngram6_share": 0.0,
+      "ngram6_hits": 0,
+      "ngram8_share": 0.0,
+      "ngram8_hits": 0
+    },
+    "kjv": {
+      "ngram6_share": 0.00021,
+      "ngram6_hits": 1,
+      "ngram8_share": 0.0,
+      "ngram8_hits": 0
+    },
+    "sartor": {
+      "ngram6_share": 0.00021,
+      "ngram6_hits": 1,
+      "ngram8_share": 0.0,
+      "ngram8_hits": 0
+    }
+  },
+  {
+    "chapter": "House-Warming",
+    "words": 10559,
+    "sentences": 311,
+    "gita_arnold": {
+      "ngram6_share": 0.0,
+      "ngram6_hits": 0,
+      "ngram8_share": 0.0,
+      "ngram8_hits": 0
+    },
+    "upanishads_muller": {
+      "ngram6_share": 0.0,
+      "ngram6_hits": 0,
+      "ngram8_share": 0.0,
+      "ngram8_hits": 0
+    },
+    "vishnu_purana": {
+      "ngram6_share": 9e-05,
+      "ngram6_hits": 1,
+      "ngram8_share": 0.0,
+      "ngram8_hits": 0
+    },
+    "kjv": {
+      "ngram6_share": 0.00019,
+      "ngram6_hits": 2,
+      "ngram8_share": 0.0,
+      "ngram8_hits": 0
+    },
+    "sartor": {
+      "ngram6_share": 0.0,
+      "ngram6_hits": 0,
+      "ngram8_share": 0.0,
+      "ngram8_hits": 0
+    }
+  },
+  {
+    "chapter": "Winter Animals",
+    "words": 3692,
+    "sentences": 95,
+    "gita_arnold": {
+      "ngram6_share": 0.0,
+      "ngram6_hits": 0,
+      "ngram8_share": 0.0,
+      "ngram8_hits": 0
+    },
+    "upanishads_muller": {
+      "ngram6_share": 0.0,
+      "ngram6_hits": 0,
+      "ngram8_share": 0.0,
+      "ngram8_hits": 0
+    },
+    "vishnu_purana": {
+      "ngram6_share": 0.0,
+      "ngram6_hits": 0,
+      "ngram8_share": 0.0,
+      "ngram8_hits": 0
+    },
+    "kjv": {
+      "ngram6_share": 0.0,
+      "ngram6_hits": 0,
+      "ngram8_share": 0.0,
+      "ngram8_hits": 0
+    },
+    "sartor": {
+      "ngram6_share": 0.0,
+      "ngram6_hits": 0,
+      "ngram8_share": 0.0,
+      "ngram8_hits": 0
+    }
+  },
+  {
+    "chapter": "The Pond in Winter",
+    "words": 5245,
+    "sentences": 150,
+    "gita_arnold": {
+      "ngram6_share": 0.0,
+      "ngram6_hits": 0,
+      "ngram8_share": 0.0,
+      "ngram8_hits": 0
+    },
+    "upanishads_muller": {
+      "ngram6_share": 0.0,
+      "ngram6_hits": 0,
+      "ngram8_share": 0.0,
+      "ngram8_hits": 0
+    },
+    "vishnu_purana": {
+      "ngram6_share": 0.00019,
+      "ngram6_hits": 1,
+      "ngram8_share": 0.0,
+      "ngram8_hits": 0
+    },
+    "kjv": {
+      "ngram6_share": 0.0,
+      "ngram6_hits": 0,
+      "ngram8_share": 0.0,
+      "ngram8_hits": 0
+    },
+    "sartor": {
+      "ngram6_share": 0.00019,
+      "ngram6_hits": 1,
+      "ngram8_share": 0.0,
+      "ngram8_hits": 0
+    }
+  },
+  {
+    "chapter": "Spring",
+    "words": 6704,
+    "sentences": 223,
+    "gita_arnold": {
+      "ngram6_share": 0.0,
+      "ngram6_hits": 0,
+      "ngram8_share": 0.0,
+      "ngram8_hits": 0
+    },
+    "upanishads_muller": {
+      "ngram6_share": 0.0,
+      "ngram6_hits": 0,
+      "ngram8_share": 0.0,
+      "ngram8_hits": 0
+    },
+    "vishnu_purana": {
+      "ngram6_share": 0.0,
+      "ngram6_hits": 0,
+      "ngram8_share": 0.0,
+      "ngram8_hits": 0
+    },
+    "kjv": {
+      "ngram6_share": 0.00015,
+      "ngram6_hits": 1,
+      "ngram8_share": 0.0,
+      "ngram8_hits": 0
+    },
+    "sartor": {
+      "ngram6_share": 0.0,
+      "ngram6_hits": 0,
+      "ngram8_share": 0.0,
+      "ngram8_hits": 0
+    }
+  },
+  {
+    "chapter": "Conclusion",
+    "words": 14144,
+    "sentences": 519,
+    "gita_arnold": {
+      "ngram6_share": 0.0,
+      "ngram6_hits": 0,
+      "ngram8_share": 0.0,
+      "ngram8_hits": 0
+    },
+    "upanishads_muller": {
+      "ngram6_share": 0.0,
+      "ngram6_hits": 0,
+      "ngram8_share": 0.0,
+      "ngram8_hits": 0
+    },
+    "vishnu_purana": {
+      "ngram6_share": 0.0,
+      "ngram6_hits": 0,
+      "ngram8_share": 0.0,
+      "ngram8_hits": 0
+    },
+    "kjv": {
+      "ngram6_share": 0.00035,
+      "ngram6_hits": 5,
+      "ngram8_share": 0.00014,
+      "ngram8_hits": 2
+    },
+    "sartor": {
+      "ngram6_share": 0.0,
+      "ngram6_hits": 0,
+      "ngram8_share": 0.0,
+      "ngram8_hits": 0
+    }
+  }
+]

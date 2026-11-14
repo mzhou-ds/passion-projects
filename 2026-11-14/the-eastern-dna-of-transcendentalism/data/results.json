@@ -1,0 +1,216 @@
+{
+  "containment": {
+    "walden": {
+      "gita_arnold": {
+        "distinct_6g": 0,
+        "distinct_8g": 0,
+        "sentences_with_6g": 0,
+        "sentence_share": 0.0
+      },
+      "upanishads_muller": {
+        "distinct_6g": 1,
+        "distinct_8g": 0,
+        "sentences_with_6g": 1,
+        "sentence_share": 0.0003
+      },
+      "vishnu_purana": {
+        "distinct_6g": 14,
+        "distinct_8g": 3,
+        "sentences_with_6g": 8,
+        "sentence_share": 0.0023
+      },
+      "analects_legge": {
+        "distinct_6g": 1,
+        "distinct_8g": 0,
+        "sentences_with_6g": 1,
+        "sentence_share": 0.0003
+      },
+      "kjv": {
+        "distinct_6g": 83,
+        "distinct_8g": 59,
+        "sentences_with_6g": 18,
+        "sentence_share": 0.0052
+      },
+      "sartor": {
+        "distinct_6g": 4,
+        "distinct_8g": 0,
+        "sentences_with_6g": 4,
+        "sentence_share": 0.0012
+      }
+    },
+    "emerson_essays1": {
+      "gita_arnold": {
+        "distinct_6g": 0,
+        "distinct_8g": 0,
+        "sentences_with_6g": 0,
+        "sentence_share": 0.0
+      },
+      "upanishads_muller": {
+        "distinct_6g": 3,
+        "distinct_8g": 1,
+        "sentences_with_6g": 0,
+        "sentence_share": 0.0
+      },
+      "vishnu_purana": {
+        "distinct_6g": 1,
+        "distinct_8g": 0,
+        "sentences_with_6g": 1,
+        "sentence_share": 0.0003
+      },
+      "analects_legge": {
+        "distinct_6g": 3,
+        "distinct_8g": 0,
+        "sentences_with_6g": 3,
+        "sentence_share": 0.0009
+      },
+      "kjv": {
+        "distinct_6g": 32,
+        "distinct_8g": 10,
+        "sentences_with_6g": 17,
+        "sentence_share": 0.0051
+      },
+      "sartor": {
+        "distinct_6g": 3,
+        "distinct_8g": 0,
+        "sentences_with_6g": 3,
+        "sentence_share": 0.0009
+      }
+    },
+    "emerson_nature": {
+      "gita_arnold": {
+        "distinct_6g": 0,
+        "distinct_8g": 0,
+        "sentences_with_6g": 0,
+        "sentence_share": 0.0
+      },
+      "upanishads_muller": {
+        "distinct_6g": 2,
+        "distinct_8g": 0,
+        "sentences_with_6g": 1,
+        "sentence_share": 0.0014
+      },
+      "vishnu_purana": {
+        "distinct_6g": 0,
+        "distinct_8g": 0,
+        "sentences_with_6g": 0,
+        "sentence_share": 0.0
+      },
+      "analects_legge": {
+        "distinct_6g": 0,
+        "distinct_8g": 0,
+        "sentences_with_6g": 0,
+        "sentence_share": 0.0
+      },
+      "kjv": {
+        "distinct_6g": 29,
+        "distinct_8g": 19,
+        "sentences_with_6g": 6,
+        "sentence_share": 0.0083
+      },
+      "sartor": {
+        "distinct_6g": 1,
+        "distinct_8g": 0,
+        "sentences_with_6g": 1,
+        "sentence_share": 0.0014
+      }
+    }
+  },
+  "emerson_essay_fingerprints": {
+    "History": {
+      "gita_arnold": 5.77,
+      "upanishads_muller": 5.55,
+      "vishnu_purana": 4.83,
+      "analects_legge": 2.93,
+      "kjv": 3.82,
+      "sartor": 7.05
+    },
+    "Self-Reliance": {
+      "gita_arnold": 7.18,
+      "upanishads_muller": 5.86,
+      "vishnu_purana": 5.27,
+      "analects_legge": 4.26,
+      "kjv": 5.56,
+      "sartor": 8.11
+    },
+    "Compensation": {
+      "gita_arnold": 7.06,
+      "upanishads_muller": 5.91,
+      "vishnu_purana": 5.14,
+      "analects_legge": 3.25,
+      "kjv": 4.73,
+      "sartor": 7.6
+    },
+    "Spiritual Laws": {
+      "gita_arnold": 7.62,
+      "upanishads_muller": 5.92,
+      "vishnu_purana": 5.01,
+      "analects_legge": 4.09,
+      "kjv": 5.31,
+      "sartor": 7.77
+    },
+    "Love": {
+      "gita_arnold": 6.39,
+      "upanishads_muller": 5.5,
+      "vishnu_purana": 5.11,
+      "analects_legge": 3.12,
+      "kjv": 3.28,
+      "sartor": 7.62
+    },
+    "Friendship": {
+      "gita_arnold": 6.51,
+      "upanishads_muller": 4.98,
+      "vishnu_purana": 4.33,
+      "analects_legge": 3.03,
+      "kjv": 4.56,
+      "sartor": 7.32
+    },
+    "Prudence": {
+      "gita_arnold": 6.72,
+      "upanishads_muller": 5.29,
+      "vishnu_purana": 4.23,
+      "analects_legge": 3.83,
+      "kjv": 4.3,
+      "sartor": 7.64
+    },
+    "Heroism": {
+      "gita_arnold": 6.96,
+      "upanishads_muller": 5.16,
+      "vishnu_purana": 4.86,
+      "analects_legge": 3.15,
+      "kjv": 4.51,
+      "sartor": 6.63
+    },
+    "The Over-Soul": {
+      "gita_arnold": 8.38,
+      "upanishads_muller": 7.85,
+      "vishnu_purana": 5.9,
+      "analects_legge": 3.7,
+      "kjv": 5.25,
+      "sartor": 8.68
+    },
+    "Circles": {
+      "gita_arnold": 6.63,
+      "upanishads_muller": 5.86,
+      "vishnu_purana": 4.42,
+      "analects_legge": 3.09,
+      "kjv": 4.32,
+      "sartor": 8.3
+    },
+    "Intellect": {
+      "gita_arnold": 6.75,
+      "upanishads_muller": 6.81,
+      "vishnu_purana": 4.44,
+      "analects_legge": 2.84,
+      "kjv": 3.99,
+      "sartor": 7.13
+    },
+    "Art": {
+      "gita_arnold": 5.59,
+      "upanishads_muller": 4.86,
+      "vishnu_purana": 4.69,
+      "analects_legge": 1.92,
+      "kjv": 3.3,
+      "sartor": 7.56
+    }
+  }
+}

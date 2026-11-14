@@ -1,0 +1,60 @@
+{
+  "walden": {
+    "words": 107807,
+    "east": {
+      "Geeta": 2,
+      "Brahma": 4,
+      "Confucius": 2,
+      "Zoroaster": 2,
+      "Hindoo": 6,
+      "Purana": 1,
+      "Vishnu": 2
+    },
+    "west": {
+      "Bible": 1,
+      "Testament": 1,
+      "Jesus": 1,
+      "Christ": 2,
+      "Psalm": 2,
+      "Scripture": 2,
+      "Sabbath": 2,
+      "Christian": 4,
+      "Christianity": 3
+    },
+    "east_total": 19,
+    "west_total": 18
+  },
+  "emerson_essays1": {
+    "words": 74891,
+    "east": {
+      "Menu": 1,
+      "Confucius": 1,
+      "Zoroaster": 2
+    },
+    "west": {
+      "Bible": 1,
+      "Moses": 4,
+      "Jesus": 14,
+      "Christ": 4,
+      "Apostle": 1,
+      "Scripture": 1,
+      "Christian": 3,
+      "Christianity": 6
+    },
+    "east_total": 4,
+    "west_total": 34
+  },
+  "emerson_nature": {
+    "words": 15417,
+    "east": {},
+    "west": {
+      "Jesus": 4,
+      "Christ": 1,
+      "Gospel": 1,
+      "Scripture": 1,
+      "Christianity": 1
+    },
+    "east_total": 0,
+    "west_total": 8
+  }
+}

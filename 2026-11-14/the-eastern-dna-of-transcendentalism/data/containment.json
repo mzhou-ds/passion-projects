@@ -1,0 +1,164 @@
+{
+  "walden": {
+    "words": 117248,
+    "sentences": 3745,
+    "gita_arnold": {
+      "ngram6_share": 0.0,
+      "ngram6_hits": 0,
+      "ngram6_total": 117089,
+      "ngram8_share": 0.0,
+      "ngram8_hits": 0,
+      "ngram8_total": 117190,
+      "sentence_share": 0.0,
+      "sentences_hit": 0
+    },
+    "upanishads_muller": {
+      "ngram6_share": 1e-05,
+      "ngram6_hits": 1,
+      "ngram6_total": 117089,
+      "ngram8_share": 0.0,
+      "ngram8_hits": 0,
+      "ngram8_total": 117190,
+      "sentence_share": 0.0003,
+      "sentences_hit": 1
+    },
+    "vishnu_purana": {
+      "ngram6_share": 0.00012,
+      "ngram6_hits": 14,
+      "ngram6_total": 117089,
+      "ngram8_share": 3e-05,
+      "ngram8_hits": 3,
+      "ngram8_total": 117190,
+      "sentence_share": 0.0021,
+      "sentences_hit": 8
+    },
+    "kjv": {
+      "ngram6_share": 0.00072,
+      "ngram6_hits": 84,
+      "ngram6_total": 117089,
+      "ngram8_share": 0.0005,
+      "ngram8_hits": 59,
+      "ngram8_total": 117190,
+      "sentence_share": 0.0051,
+      "sentences_hit": 19
+    },
+    "sartor": {
+      "ngram6_share": 3e-05,
+      "ngram6_hits": 4,
+      "ngram6_total": 117089,
+      "ngram8_share": 0.0,
+      "ngram8_hits": 0,
+      "ngram8_total": 117190,
+      "sentence_share": 0.0011,
+      "sentences_hit": 4
+    }
+  },
+  "emerson_essays1": {
+    "words": 74891,
+    "sentences": 3346,
+    "gita_arnold": {
+      "ngram6_share": 0.0,
+      "ngram6_hits": 0,
+      "ngram6_total": 74833,
+      "ngram8_share": 0.0,
+      "ngram8_hits": 0,
+      "ngram8_total": 74873,
+      "sentence_share": 0.0,
+      "sentences_hit": 0
+    },
+    "upanishads_muller": {
+      "ngram6_share": 4e-05,
+      "ngram6_hits": 3,
+      "ngram6_total": 74833,
+      "ngram8_share": 1e-05,
+      "ngram8_hits": 1,
+      "ngram8_total": 74873,
+      "sentence_share": 0.0,
+      "sentences_hit": 0
+    },
+    "vishnu_purana": {
+      "ngram6_share": 1e-05,
+      "ngram6_hits": 1,
+      "ngram6_total": 74833,
+      "ngram8_share": 0.0,
+      "ngram8_hits": 0,
+      "ngram8_total": 74873,
+      "sentence_share": 0.0003,
+      "sentences_hit": 1
+    },
+    "kjv": {
+      "ngram6_share": 0.00043,
+      "ngram6_hits": 32,
+      "ngram6_total": 74833,
+      "ngram8_share": 0.00013,
+      "ngram8_hits": 10,
+      "ngram8_total": 74873,
+      "sentence_share": 0.0051,
+      "sentences_hit": 17
+    },
+    "sartor": {
+      "ngram6_share": 4e-05,
+      "ngram6_hits": 3,
+      "ngram6_total": 74833,
+      "ngram8_share": 0.0,
+      "ngram8_hits": 0,
+      "ngram8_total": 74873,
+      "sentence_share": 0.0009,
+      "sentences_hit": 3
+    }
+  },
+  "emerson_nature": {
+    "words": 15417,
+    "sentences": 724,
+    "gita_arnold": {
+      "ngram6_share": 0.0,
+      "ngram6_hits": 0,
+      "ngram6_total": 15403,
+      "ngram8_share": 0.0,
+      "ngram8_hits": 0,
+      "ngram8_total": 15407,
+      "sentence_share": 0.0,
+      "sentences_hit": 0
+    },
+    "upanishads_muller": {
+      "ngram6_share": 0.00013,
+      "ngram6_hits": 2,
+      "ngram6_total": 15403,
+      "ngram8_share": 0.0,
+      "ngram8_hits": 0,
+      "ngram8_total": 15407,
+      "sentence_share": 0.0014,
+      "sentences_hit": 1
+    },
+    "vishnu_purana": {
+      "ngram6_share": 0.0,
+      "ngram6_hits": 0,
+      "ngram6_total": 15403,
+      "ngram8_share": 0.0,
+      "ngram8_hits": 0,
+      "ngram8_total": 15407,
+      "sentence_share": 0.0,
+      "sentences_hit": 0
+    },
+    "kjv": {
+      "ngram6_share": 0.00188,
+      "ngram6_hits": 29,
+      "ngram6_total": 15403,
+      "ngram8_share": 0.00123,
+      "ngram8_hits": 19,
+      "ngram8_total": 15407,
+      "sentence_share": 0.0083,
+      "sentences_hit": 6
+    },
+    "sartor": {
+      "ngram6_share": 6e-05,
+      "ngram6_hits": 1,
+      "ngram6_total": 15403,
+      "ngram8_share": 0.0,
+      "ngram8_hits": 0,
+      "ngram8_total": 15407,
+      "sentence_share": 0.0014,
+      "sentences_hit": 1
+    }
+  }
+}

@@ -1,0 +1,223 @@
+[
+  {
+    "chapter": "Economy",
+    "words": 25768,
+    "fingerprint": {
+      "gita_arnold": 4.381,
+      "upanishads_muller": 3.423,
+      "vishnu_purana": 3.776,
+      "kjv": 3.989,
+      "sartor": 6.077
+    },
+    "east_mentions": 3,
+    "west_mentions": 4
+  },
+  {
+    "chapter": "Where I Lived, and What I Lived For",
+    "words": 6153,
+    "fingerprint": {
+      "gita_arnold": 4.908,
+      "upanishads_muller": 3.917,
+      "vishnu_purana": 4.388,
+      "kjv": 4.616,
+      "sartor": 6.696
+    },
+    "east_mentions": 2,
+    "west_mentions": 0
+  },
+  {
+    "chapter": "Reading",
+    "words": 3810,
+    "fingerprint": {
+      "gita_arnold": 4.462,
+      "upanishads_muller": 3.622,
+      "vishnu_purana": 3.78,
+      "kjv": 3.937,
+      "sartor": 6.404
+    },
+    "east_mentions": 3,
+    "west_mentions": 4
+  },
+  {
+    "chapter": "Sounds",
+    "words": 5828,
+    "fingerprint": {
+      "gita_arnold": 3.363,
+      "upanishads_muller": 2.557,
+      "vishnu_purana": 3.518,
+      "kjv": 3.277,
+      "sartor": 4.907
+    },
+    "east_mentions": 0,
+    "west_mentions": 0
+  },
+  {
+    "chapter": "Solitude",
+    "words": 3473,
+    "fingerprint": {
+      "gita_arnold": 4.031,
+      "upanishads_muller": 3.455,
+      "vishnu_purana": 4.031,
+      "kjv": 3.772,
+      "sartor": 6.075
+    },
+    "east_mentions": 1,
+    "west_mentions": 1
+  },
+  {
+    "chapter": "Visitors",
+    "words": 4822,
+    "fingerprint": {
+      "gita_arnold": 4.5,
+      "upanishads_muller": 3.899,
+      "vishnu_purana": 4.749,
+      "kjv": 5.392,
+      "sartor": 6.553
+    },
+    "east_mentions": 0,
+    "west_mentions": 2
+  },
+  {
+    "chapter": "The Bean-Field",
+    "words": 3914,
+    "fingerprint": {
+      "gita_arnold": 2.887,
+      "upanishads_muller": 2.299,
+      "vishnu_purana": 3.091,
+      "kjv": 3.117,
+      "sartor": 4.727
+    },
+    "east_mentions": 0,
+    "west_mentions": 1
+  },
+  {
+    "chapter": "The Village",
+    "words": 2042,
+    "fingerprint": {
+      "gita_arnold": 3.575,
+      "upanishads_muller": 2.693,
+      "vishnu_purana": 3.918,
+      "kjv": 4.016,
+      "sartor": 4.995
+    },
+    "east_mentions": 0,
+    "west_mentions": 0
+  },
+  {
+    "chapter": "The Ponds",
+    "words": 9256,
+    "fingerprint": {
+      "gita_arnold": 2.615,
+      "upanishads_muller": 2.485,
+      "vishnu_purana": 3.544,
+      "kjv": 2.939,
+      "sartor": 4.624
+    },
+    "east_mentions": 0,
+    "west_mentions": 1
+  },
+  {
+    "chapter": "Baker Farm",
+    "words": 2595,
+    "fingerprint": {
+      "gita_arnold": 4.624,
+      "upanishads_muller": 3.622,
+      "vishnu_purana": 3.892,
+      "kjv": 3.892,
+      "sartor": 6.243
+    },
+    "east_mentions": 0,
+    "west_mentions": 0
+  },
+  {
+    "chapter": "Higher Laws",
+    "words": 4244,
+    "fingerprint": {
+      "gita_arnold": 4.571,
+      "upanishads_muller": 4.359,
+      "vishnu_purana": 4.43,
+      "kjv": 3.911,
+      "sartor": 6.338
+    },
+    "east_mentions": 2,
+    "west_mentions": 1
+  },
+  {
+    "chapter": "Brute Neighbors",
+    "words": 4870,
+    "fingerprint": {
+      "gita_arnold": 3.06,
+      "upanishads_muller": 2.505,
+      "vishnu_purana": 3.696,
+      "kjv": 3.819,
+      "sartor": 5.051
+    },
+    "east_mentions": 0,
+    "west_mentions": 0
+  },
+  {
+    "chapter": "House-Warming",
+    "words": 10559,
+    "fingerprint": {
+      "gita_arnold": 3.04,
+      "upanishads_muller": 2.415,
+      "vishnu_purana": 3.362,
+      "kjv": 3.646,
+      "sartor": 4.858
+    },
+    "east_mentions": 2,
+    "west_mentions": 2
+  },
+  {
+    "chapter": "Winter Animals",
+    "words": 3692,
+    "fingerprint": {
+      "gita_arnold": 2.411,
+      "upanishads_muller": 2.302,
+      "vishnu_purana": 3.169,
+      "kjv": 3.413,
+      "sartor": 4.659
+    },
+    "east_mentions": 0,
+    "west_mentions": 0
+  },
+  {
+    "chapter": "The Pond in Winter",
+    "words": 5245,
+    "fingerprint": {
+      "gita_arnold": 2.955,
+      "upanishads_muller": 2.688,
+      "vishnu_purana": 3.68,
+      "kjv": 2.745,
+      "sartor": 4.576
+    },
+    "east_mentions": 3,
+    "west_mentions": 0
+  },
+  {
+    "chapter": "Spring",
+    "words": 6704,
+    "fingerprint": {
+      "gita_arnold": 3.834,
+      "upanishads_muller": 3.088,
+      "vishnu_purana": 4.132,
+      "kjv": 3.535,
+      "sartor": 4.505
+    },
+    "east_mentions": 0,
+    "west_mentions": 0
+  },
+  {
+    "chapter": "Conclusion",
+    "words": 4703,
+    "fingerprint": {
+      "gita_arnold": 5.422,
+      "upanishads_muller": 4.657,
+      "vishnu_purana": 4.529,
+      "kjv": 4.253,
+      "sartor": 7.081
+    },
+    "east_mentions": 3,
+    "west_mentions": 2
+  }
+]

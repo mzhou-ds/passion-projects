@@ -1,0 +1,56 @@
+{
+  "emerson_nature": {
+    "id": 29433,
+    "title": "Nature",
+    "url": "https://www.gutenberg.org/cache/epub/29433/pg29433.txt",
+    "bytes": 108777
+  },
+  "gita_arnold": {
+    "id": 2388,
+    "title": "The Song Celestial; Or, Bhagavad-G\u00eet\u00e2",
+    "url": "https://www.gutenberg.org/cache/epub/2388/pg2388.txt",
+    "bytes": 147501
+  },
+  "upanishads_muller": {
+    "id": 3283,
+    "title": "The Upanishads",
+    "url": "https://www.gutenberg.org/cache/epub/3283/pg3283.txt",
+    "bytes": 125461
+  },
+  "vishnu_purana": {
+    "id": 66208,
+    "title": "A Prose English Translation of Vishnupuranam",
+    "url": "https://www.gutenberg.org/cache/epub/66208/pg66208.txt",
+    "bytes": 917577
+  },
+  "kjv": {
+    "id": 10,
+    "title": "The King James Version of the Bible",
+    "url": "https://www.gutenberg.org/cache/epub/10/pg10.txt",
+    "bytes": 4455950
+  },
+  "sartor": {
+    "id": 1051,
+    "title": "Sartor Resartus: The Life and Opinions of Herr Teufelsdr\u00f6ckh",
+    "url": "https://www.gutenberg.org/cache/epub/1051/pg1051.txt",
+    "bytes": 513055
+  },
+  "walden": {
+    "id": 205,
+    "title": "Walden, and On The Duty Of Civil Disobedience",
+    "url": "https://www.gutenberg.org/cache/epub/205/pg205.txt",
+    "bytes": 667957
+  },
+  "emerson_essays1": {
+    "id": 2944,
+    "title": "Essays \u2014 First Series",
+    "url": "https://www.gutenberg.org/cache/epub/2944/pg2944.txt",
+    "bytes": 439572
+  },
+  "analects_legge": {
+    "id": 4094,
+    "title": "The Chinese Classics \u2014 Volume 1: Confucian Analects",
+    "url": "https://www.gutenberg.org/cache/epub/4094/pg4094.txt",
+    "bytes": 270928
+  }
+}

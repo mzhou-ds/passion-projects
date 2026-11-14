@@ -1,0 +1,254 @@
+[
+  {
+    "essay": "History",
+    "words": 8281,
+    "gita_arnold": {
+      "ngram6_hits": 0
+    },
+    "upanishads_muller": {
+      "ngram6_hits": 0
+    },
+    "vishnu_purana": {
+      "ngram6_hits": 0
+    },
+    "kjv": {
+      "ngram6_hits": 2
+    },
+    "sartor": {
+      "ngram6_hits": 1
+    },
+    "east_mentions": 2,
+    "west_mentions": 6
+  },
+  {
+    "essay": "Self-Reliance",
+    "words": 10148,
+    "gita_arnold": {
+      "ngram6_hits": 0
+    },
+    "upanishads_muller": {
+      "ngram6_hits": 0
+    },
+    "vishnu_purana": {
+      "ngram6_hits": 0
+    },
+    "kjv": {
+      "ngram6_hits": 4
+    },
+    "sartor": {
+      "ngram6_hits": 0
+    },
+    "east_mentions": 1,
+    "west_mentions": 8
+  },
+  {
+    "essay": "Compensation",
+    "words": 7633,
+    "gita_arnold": {
+      "ngram6_hits": 0
+    },
+    "upanishads_muller": {
+      "ngram6_hits": 0
+    },
+    "vishnu_purana": {
+      "ngram6_hits": 0
+    },
+    "kjv": {
+      "ngram6_hits": 7
+    },
+    "sartor": {
+      "ngram6_hits": 0
+    },
+    "east_mentions": 0,
+    "west_mentions": 2
+  },
+  {
+    "essay": "Spiritual Laws",
+    "words": 8021,
+    "gita_arnold": {
+      "ngram6_hits": 0
+    },
+    "upanishads_muller": {
+      "ngram6_hits": 0
+    },
+    "vishnu_purana": {
+      "ngram6_hits": 0
+    },
+    "kjv": {
+      "ngram6_hits": 7
+    },
+    "sartor": {
+      "ngram6_hits": 1
+    },
+    "east_mentions": 1,
+    "west_mentions": 1
+  },
+  {
+    "essay": "Love",
+    "words": 4385,
+    "gita_arnold": {
+      "ngram6_hits": 0
+    },
+    "upanishads_muller": {
+      "ngram6_hits": 0
+    },
+    "vishnu_purana": {
+      "ngram6_hits": 0
+    },
+    "kjv": {
+      "ngram6_hits": 2
+    },
+    "sartor": {
+      "ngram6_hits": 0
+    },
+    "east_mentions": 0,
+    "west_mentions": 0
+  },
+  {
+    "essay": "Friendship",
+    "words": 5942,
+    "gita_arnold": {
+      "ngram6_hits": 0
+    },
+    "upanishads_muller": {
+      "ngram6_hits": 3
+    },
+    "vishnu_purana": {
+      "ngram6_hits": 0
+    },
+    "kjv": {
+      "ngram6_hits": 1
+    },
+    "sartor": {
+      "ngram6_hits": 1
+    },
+    "east_mentions": 0,
+    "west_mentions": 0
+  },
+  {
+    "essay": "Prudence",
+    "words": 4540,
+    "gita_arnold": {
+      "ngram6_hits": 0
+    },
+    "upanishads_muller": {
+      "ngram6_hits": 0
+    },
+    "vishnu_purana": {
+      "ngram6_hits": 0
+    },
+    "kjv": {
+      "ngram6_hits": 0
+    },
+    "sartor": {
+      "ngram6_hits": 0
+    },
+    "east_mentions": 0,
+    "west_mentions": 0
+  },
+  {
+    "essay": "Heroism",
+    "words": 4284,
+    "gita_arnold": {
+      "ngram6_hits": 0
+    },
+    "upanishads_muller": {
+      "ngram6_hits": 0
+    },
+    "vishnu_purana": {
+      "ngram6_hits": 0
+    },
+    "kjv": {
+      "ngram6_hits": 1
+    },
+    "sartor": {
+      "ngram6_hits": 0
+    },
+    "east_mentions": 0,
+    "west_mentions": 2
+  },
+  {
+    "essay": "The Over-Soul",
+    "words": 6817,
+    "gita_arnold": {
+      "ngram6_hits": 0
+    },
+    "upanishads_muller": {
+      "ngram6_hits": 0
+    },
+    "vishnu_purana": {
+      "ngram6_hits": 1
+    },
+    "kjv": {
+      "ngram6_hits": 0
+    },
+    "sartor": {
+      "ngram6_hits": 0
+    },
+    "east_mentions": 0,
+    "west_mentions": 6
+  },
+  {
+    "essay": "Circles",
+    "words": 4793,
+    "gita_arnold": {
+      "ngram6_hits": 0
+    },
+    "upanishads_muller": {
+      "ngram6_hits": 0
+    },
+    "vishnu_purana": {
+      "ngram6_hits": 0
+    },
+    "kjv": {
+      "ngram6_hits": 7
+    },
+    "sartor": {
+      "ngram6_hits": 0
+    },
+    "east_mentions": 0,
+    "west_mentions": 5
+  },
+  {
+    "essay": "Intellect",
+    "words": 4935,
+    "gita_arnold": {
+      "ngram6_hits": 0
+    },
+    "upanishads_muller": {
+      "ngram6_hits": 0
+    },
+    "vishnu_purana": {
+      "ngram6_hits": 0
+    },
+    "kjv": {
+      "ngram6_hits": 2
+    },
+    "sartor": {
+      "ngram6_hits": 0
+    },
+    "east_mentions": 0,
+    "west_mentions": 2
+  },
+  {
+    "essay": "Art",
+    "words": 4116,
+    "gita_arnold": {
+      "ngram6_hits": 0
+    },
+    "upanishads_muller": {
+      "ngram6_hits": 0
+    },
+    "vishnu_purana": {
+      "ngram6_hits": 0
+    },
+    "kjv": {
+      "ngram6_hits": 0
+    },
+    "sartor": {
+      "ngram6_hits": 0
+    },
+    "east_mentions": 0,
+    "west_mentions": 1
+  }
+]

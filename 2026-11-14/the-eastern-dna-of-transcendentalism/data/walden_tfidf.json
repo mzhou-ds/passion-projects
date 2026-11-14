@@ -1,0 +1,155 @@
+[
+  {
+    "chapter": "Economy",
+    "gita_arnold": 0.2353,
+    "upanishads_muller": 0.2204,
+    "vishnu_purana": 0.2172,
+    "analects_legge": 0.0972,
+    "kjv": 0.1769,
+    "sartor": 0.452
+  },
+  {
+    "chapter": "Where I Lived, and What I Lived For",
+    "gita_arnold": 0.1754,
+    "upanishads_muller": 0.18,
+    "vishnu_purana": 0.1716,
+    "analects_legge": 0.0776,
+    "kjv": 0.1217,
+    "sartor": 0.3438
+  },
+  {
+    "chapter": "Reading",
+    "gita_arnold": 0.1326,
+    "upanishads_muller": 0.139,
+    "vishnu_purana": 0.1139,
+    "analects_legge": 0.0442,
+    "kjv": 0.0776,
+    "sartor": 0.2637
+  },
+  {
+    "chapter": "Sounds",
+    "gita_arnold": 0.126,
+    "upanishads_muller": 0.1203,
+    "vishnu_purana": 0.1343,
+    "analects_legge": 0.0505,
+    "kjv": 0.0804,
+    "sartor": 0.2747
+  },
+  {
+    "chapter": "Solitude",
+    "gita_arnold": 0.137,
+    "upanishads_muller": 0.1372,
+    "vishnu_purana": 0.1383,
+    "analects_legge": 0.0489,
+    "kjv": 0.0918,
+    "sartor": 0.272
+  },
+  {
+    "chapter": "Visitors",
+    "gita_arnold": 0.1512,
+    "upanishads_muller": 0.1687,
+    "vishnu_purana": 0.1785,
+    "analects_legge": 0.0968,
+    "kjv": 0.1455,
+    "sartor": 0.3088
+  },
+  {
+    "chapter": "The Bean-Field",
+    "gita_arnold": 0.0895,
+    "upanishads_muller": 0.0862,
+    "vishnu_purana": 0.0971,
+    "analects_legge": 0.033,
+    "kjv": 0.0704,
+    "sartor": 0.1811
+  },
+  {
+    "chapter": "The Village",
+    "gita_arnold": 0.0925,
+    "upanishads_muller": 0.0977,
+    "vishnu_purana": 0.101,
+    "analects_legge": 0.0594,
+    "kjv": 0.0726,
+    "sartor": 0.2073
+  },
+  {
+    "chapter": "The Ponds",
+    "gita_arnold": 0.0979,
+    "upanishads_muller": 0.1078,
+    "vishnu_purana": 0.1275,
+    "analects_legge": 0.0335,
+    "kjv": 0.07,
+    "sartor": 0.2093
+  },
+  {
+    "chapter": "Baker Farm",
+    "gita_arnold": 0.1625,
+    "upanishads_muller": 0.1091,
+    "vishnu_purana": 0.1365,
+    "analects_legge": 0.0377,
+    "kjv": 0.1277,
+    "sartor": 0.2429
+  },
+  {
+    "chapter": "Higher Laws",
+    "gita_arnold": 0.1627,
+    "upanishads_muller": 0.1831,
+    "vishnu_purana": 0.1443,
+    "analects_legge": 0.0587,
+    "kjv": 0.0944,
+    "sartor": 0.2843
+  },
+  {
+    "chapter": "Brute Neighbors",
+    "gita_arnold": 0.1085,
+    "upanishads_muller": 0.1037,
+    "vishnu_purana": 0.1365,
+    "analects_legge": 0.0448,
+    "kjv": 0.0908,
+    "sartor": 0.2361
+  },
+  {
+    "chapter": "House-Warming",
+    "gita_arnold": 0.1589,
+    "upanishads_muller": 0.1369,
+    "vishnu_purana": 0.1716,
+    "analects_legge": 0.0573,
+    "kjv": 0.1361,
+    "sartor": 0.3177
+  },
+  {
+    "chapter": "Winter Animals",
+    "gita_arnold": 0.0686,
+    "upanishads_muller": 0.0692,
+    "vishnu_purana": 0.0885,
+    "analects_legge": 0.0269,
+    "kjv": 0.0584,
+    "sartor": 0.1785
+  },
+  {
+    "chapter": "The Pond in Winter",
+    "gita_arnold": 0.0967,
+    "upanishads_muller": 0.1031,
+    "vishnu_purana": 0.1215,
+    "analects_legge": 0.038,
+    "kjv": 0.064,
+    "sartor": 0.202
+  },
+  {
+    "chapter": "Spring",
+    "gita_arnold": 0.1253,
+    "upanishads_muller": 0.1257,
+    "vishnu_purana": 0.1482,
+    "analects_legge": 0.0358,
+    "kjv": 0.083,
+    "sartor": 0.2481
+  },
+  {
+    "chapter": "Conclusion",
+    "gita_arnold": 0.2048,
+    "upanishads_muller": 0.2163,
+    "vishnu_purana": 0.1885,
+    "analects_legge": 0.0826,
+    "kjv": 0.129,
+    "sartor": 0.3586
+  }
+]
