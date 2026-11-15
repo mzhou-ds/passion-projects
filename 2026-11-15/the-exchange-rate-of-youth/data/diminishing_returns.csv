@@ -1,0 +1,7 @@
+sex,age,bw_where_marginal_below_0.3pct,marginal_at_90kg,marginal_at_65kg
+M,25,,0.614,
+M,40,,0.566,
+M,55,,0.578,
+F,25,,,0.675
+F,40,112.0,,0.515
+F,55,,,0.557

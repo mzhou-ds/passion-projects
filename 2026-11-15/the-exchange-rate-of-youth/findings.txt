@@ -1,0 +1,58 @@
+THE EXCHANGE RATE OF YOUTH — findings
+Build #69 · 2026-11-15 · Topic: fitness
+Data: OpenPowerlifting bulk CSV, revision 6b8787a8, 2026-11-14: 4,067,854 rows.
+Sample: 877,655 raw full-power meets, 338,398 lifters, 357 federations,
+2000-2026. Men 582,662 meets, women 294,993.
+
+1. THE EXCHANGE RATE. At 90 kg bodyweight, one year of aging costs a man
+   1.3 kg of bodyweight at age 40, 1.4 kg at 50, 2.4 kg at 60 and 2.8 kg at 65.
+   For a woman at 65 kg: 1.1 kg at 40, 1.6 kg at 50, 2.7 kg at 60 and 2.7 kg
+   at 65. Under 30 the rate is negative: at 20, getting older still adds
+   about 2.2% of total a year for men and 2.3% for women. The price of a
+   year roughly doubles between 40 and 60.
+
+2. BENCH IS CHEAP, DEADLIFT IS DEAR. At 45, buying back a year costs 0.9 kg
+   on the bench, 1.4 kg on the squat and 1.8 kg on the deadlift. Bodyweight
+   is about twice as effective at buying bench as deadlift. At 60 the
+   ordering holds: bench 2.1, deadlift 2.4, squat 2.7 kg per year.
+
+3. STRENGTH PEAKS AT 25-27. At fixed bodyweight the model puts peak total at
+   27 for men (583 kg at 90 kg) and 25 for women (323 kg at 65 kg). The slide
+   is slow at first: a man loses 2.8% of his total across his late twenties,
+   6.7% across his late thirties, 8.2% across his late forties and 12.9%
+   across his late fifties. Women: 3.8%, 5.8%, 9.0%, 12.5%.
+
+4. THE CLIFF IS 52 FOR MEN, 44 FOR WOMEN. Piecewise-linear fit on the model
+   curve: men decline 0.46% a year before 52 and 2.06% after, a 4.5x
+   steepening. Women decline 0.28% a year before 44 and 1.53% after, a 5.5x
+   steepening.
+
+5. THE CROSS-SECTION OVERSTATES AGING 4x. Lifters who keep competing past 45
+   lose only 0.20% a year (men, n=2,206, median within-lifter slope), against
+   0.82% a year in the cross-sectional curve. Women past 45 are still
+   gaining, +1.08% a year (n=1,091). The 55-year-olds at a meet are mostly
+   people who started lifting at 50, so the age curve confounds aging with
+   short training history. This is the year-on-year side of build #60's
+   result: at equal training age, older lifters still total less (80% at
+   55-59 vs 30-34), so age does cost strength in level terms. What it does
+   not do is make a continuing lifter fall off a cliff year to year.
+
+6. MASS NEVER STOPS PAYING. The marginal return to another kilo is about
+   0.57% of total per kilo at 90 kg for men, and it stays there at 25, 40
+   and 55. It never falls below 0.3% anywhere from 50 to 160 kg. Raw medians
+   agree: men aged 40-49 total 485 kg at 70-80 kg bodyweight and 655.5 kg
+   at 125 kg plus. There is no weight where gaining mass stops buying
+   strength. The constraint on getting heavier is health, not the total.
+
+7. TWO NUMBERS CARRY HALF THE SIGNAL. Age and bodyweight alone explain 47.5%
+   of the variance in men's totals (R2 0.475; gradient boosting with the same
+   two features reaches 0.51) and 28.4% of women's. Everything else, training,
+   genetics, programming, lives in the other half.
+
+CAVEATS. Cross-sectional model, not a causal claim: lifters choose their
+bodyweight, and untested federations are in the sample. Ages 70+ are thin
+(4,701 men, 1,645 women) and the spline wobbles there, so headline numbers
+stop at 65. Within-lifter slopes are medians over self-selected long-career
+lifters, not a random sample of everyone who ever lifted. Lifter identity is
+name plus sex, with a guard that drops identities whose age runs backwards
+by more than a year (5,477 identities removed).

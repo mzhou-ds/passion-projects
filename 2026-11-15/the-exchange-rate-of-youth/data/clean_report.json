@@ -1,0 +1,14 @@
+{
+  "raw_rows": 4067854,
+  "clean_rows": 877655,
+  "lifters": 338398,
+  "men_rows": 582662,
+  "women_rows": 294993,
+  "date_min": "2000-02-12",
+  "date_max": "2026-11-10",
+  "federations": 357,
+  "age_range": [
+    14.0,
+    85.0
+  ]
+}
