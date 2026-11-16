@@ -1,0 +1,55 @@
+# Build #70 — The 30-Gram Rule Is a Lab Artifact
+# NHANES 2013–2014, adults 20–59, n=2,558 (DXA) / 2,821 (grip), both recall days.
+
+1. THE FLATLINE. Counting how many meals clear 30 g of protein predicts
+   nothing about DXA-measured lean mass once total protein is held fixed.
+   Coefficient on meals>=30 g: -0.0005 kg/m2 per meal, p = 0.99, 95% CI
+   [-0.066, +0.065]. Adjusted ALMI is 7.83 whether you clear 30 g at zero
+   meals or all three. The null holds in every subgroup: men (p=0.82),
+   women (p=0.60), ages 20-39 (p=0.32), 40-59 (p=0.10), low-protein eaters
+   under 1.2 g/kg (p=0.59), adequate-protein eaters (p=0.88). Evenness
+   metrics are null too (share of protein in largest meal p=0.46; CV across
+   meals p=0.62). XGBoost + SHAP ranks meals>=30 g dead last of 16 features
+   for ALMI (mean |SHAP| 0.003) and for grip (0.039).
+
+2. BREAKFAST IS THE ONLY MEAL WITH A SIGNAL — AND IT IS NOT A THRESHOLD.
+   Breakfast protein is +0.0059 ALMI per gram (p=0.001, 95% CI
+   [0.0024, 0.0094]), robust to excluding breakfast skippers (p=0.005) and
+   to height+weight controls (p=0.001). Going from the average breakfast
+   (13 g) to 30 g is worth +0.10 kg/m2, about 0.06 SD. Small, but it is the
+   only distribution feature that survives. The mechanism is not "clearing
+   a threshold" — it is that breakfast is where the protein is missing:
+   Americans average 13.1 g at breakfast (15% of the day), 24.2 g at lunch,
+   37.6 g at dinner. Only 14% clear 25 g at breakfast; 7% clear 30 g;
+   9% eat zero protein at breakfast.
+
+3. THE REAL PROTEIN PROBLEM IS TOTAL, NOT TIMING. Mean intake is 1.08 g/kg.
+   30% of adults eat below the 0.8 g/kg RDA and 67% below 1.2 g/kg. Only
+   2.2% of adults clear 30 g at all three main meals, while 28% clear it at
+   none. Total protein in grams does predict lean mass (+0.0030 ALMI per
+   gram, p=0.004). The lever is eating more protein, period, not rearranging it.
+
+4. THE BODY-SIZE TRAP. Protein-per-kg looks like it DESTROYS muscle if you
+   forget body size: coefficient -1.39 (p<1e-32) with no size control, -1.44
+   (p<1e-34) with height only. Add BMI or height+weight and it flips to
+   +0.07 (p=0.33). It is a denominator artifact: protein/kg correlates -0.43
+   with BMI, and heavier people carry more lean mass. The same trap made
+   grip strength look like it rewarded meal-counting (+2.3 kg per 30 g meal,
+   p=9e-05 under BMI control); with height+weight controls it collapses to
+   +0.75 kg (p=0.18) and protein/kg goes from -3.09 (p=0.001) to -0.16
+   (p=0.86). A lot of "protein timing" discourse is this artifact wearing
+   a lab coat.
+
+5. WHAT THE LAB GOT RIGHT, AND WHAT IT DID NOT. The 25-30 g ceiling comes
+   from acute muscle-protein-synthesis studies (Moore 2009; Areta 2013).
+   Those studies measure hours, not years, and they hold total protein
+   fixed in a way real life never does. In free-living adults the ceiling
+   leaves no trace in body composition. The per-meal rule is a lab artifact.
+   The one place timing shows up is the morning, where the average American
+   simply does not eat protein at all.
+
+CAVEATS: cross-sectional, so this is association, not a trial. 24-hour
+recalls underreport intake by ~11% (AMPM validation). DXA lean mass is a
+proxy for muscle. Survey weights (WTDR2D) used with robust SEs, not full
+Taylor linearization, so p-values are approximate. 2013-2014 is the last
+NHANES cycle with both whole-body DXA and grip strength.

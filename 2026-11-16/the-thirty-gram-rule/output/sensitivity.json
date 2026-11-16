@@ -1,0 +1,530 @@
+{
+  "corr_protein_features": {
+    "protein_per_kg": {
+      "protein_per_kg": 1.0,
+      "protein_g": 0.84,
+      "meals_ge30": 0.58,
+      "breakfast": 0.34,
+      "max_meal": 0.67,
+      "share_largest": -0.09,
+      "BMXBMI": -0.43,
+      "BMXWT": -0.38
+    },
+    "protein_g": {
+      "protein_per_kg": 0.84,
+      "protein_g": 1.0,
+      "meals_ge30": 0.71,
+      "breakfast": 0.43,
+      "max_meal": 0.83,
+      "share_largest": -0.07,
+      "BMXBMI": -0.01,
+      "BMXWT": 0.12
+    },
+    "meals_ge30": {
+      "protein_per_kg": 0.58,
+      "protein_g": 0.71,
+      "meals_ge30": 1.0,
+      "breakfast": 0.32,
+      "max_meal": 0.62,
+      "share_largest": 0.1,
+      "BMXBMI": 0.02,
+      "BMXWT": 0.13
+    },
+    "breakfast": {
+      "protein_per_kg": 0.34,
+      "protein_g": 0.43,
+      "meals_ge30": 0.32,
+      "breakfast": 1.0,
+      "max_meal": 0.19,
+      "share_largest": -0.31,
+      "BMXBMI": 0.01,
+      "BMXWT": 0.07
+    },
+    "max_meal": {
+      "protein_per_kg": 0.67,
+      "protein_g": 0.83,
+      "meals_ge30": 0.62,
+      "breakfast": 0.19,
+      "max_meal": 1.0,
+      "share_largest": 0.45,
+      "BMXBMI": 0.02,
+      "BMXWT": 0.13
+    },
+    "share_largest": {
+      "protein_per_kg": -0.09,
+      "protein_g": -0.07,
+      "meals_ge30": 0.1,
+      "breakfast": -0.31,
+      "max_meal": 0.45,
+      "share_largest": 1.0,
+      "BMXBMI": 0.06,
+      "BMXWT": 0.06
+    },
+    "BMXBMI": {
+      "protein_per_kg": -0.43,
+      "protein_g": -0.01,
+      "meals_ge30": 0.02,
+      "breakfast": 0.01,
+      "max_meal": 0.02,
+      "share_largest": 0.06,
+      "BMXBMI": 1.0,
+      "BMXWT": 0.89
+    },
+    "BMXWT": {
+      "protein_per_kg": -0.38,
+      "protein_g": 0.12,
+      "meals_ge30": 0.13,
+      "breakfast": 0.07,
+      "max_meal": 0.13,
+      "share_largest": 0.06,
+      "BMXBMI": 0.89,
+      "BMXWT": 1.0
+    }
+  },
+  "ALMI_total_size=bmi": {
+    "n": 2555,
+    "r2": 0.865,
+    "protein_per_kg": {
+      "coef": 0.0692,
+      "p": 0.325984150232726,
+      "ci": [
+        -0.0688,
+        0.2072
+      ]
+    }
+  },
+  "ALMI_meals30_size=bmi": {
+    "n": 2555,
+    "r2": 0.865,
+    "protein_per_kg": {
+      "coef": 0.0697,
+      "p": 0.40370496209183127,
+      "ci": [
+        -0.0939,
+        0.2333
+      ]
+    },
+    "meals_ge30": {
+      "coef": -0.0005,
+      "p": 0.9869601858974694,
+      "ci": [
+        -0.0664,
+        0.0653
+      ]
+    }
+  },
+  "ALMI_breakfast_size=bmi": {
+    "n": 2555,
+    "r2": 0.8664,
+    "protein_per_kg": {
+      "coef": 0.0169,
+      "p": 0.8223541995195708,
+      "ci": [
+        -0.131,
+        0.1648
+      ]
+    },
+    "breakfast": {
+      "coef": 0.0059,
+      "p": 0.0010161006774195127,
+      "ci": [
+        0.0024,
+        0.0094
+      ]
+    }
+  },
+  "ALMI_total_size=ht_wt": {
+    "n": 2555,
+    "r2": 0.8674,
+    "protein_per_kg": {
+      "coef": 0.0912,
+      "p": 0.19114397019380558,
+      "ci": [
+        -0.0456,
+        0.228
+      ]
+    }
+  },
+  "ALMI_meals30_size=ht_wt": {
+    "n": 2555,
+    "r2": 0.8674,
+    "protein_per_kg": {
+      "coef": 0.1074,
+      "p": 0.1939988406347556,
+      "ci": [
+        -0.0547,
+        0.2695
+      ]
+    },
+    "meals_ge30": {
+      "coef": -0.0151,
+      "p": 0.6451748066645602,
+      "ci": [
+        -0.0792,
+        0.0491
+      ]
+    }
+  },
+  "ALMI_breakfast_size=ht_wt": {
+    "n": 2555,
+    "r2": 0.8686,
+    "protein_per_kg": {
+      "coef": 0.0408,
+      "p": 0.5840620251814617,
+      "ci": [
+        -0.1052,
+        0.1867
+      ]
+    },
+    "breakfast": {
+      "coef": 0.0055,
+      "p": 0.001240009628997788,
+      "ci": [
+        0.0022,
+        0.0089
+      ]
+    }
+  },
+  "ALMI_total_size=height": {
+    "n": 2555,
+    "r2": 0.4802,
+    "protein_per_kg": {
+      "coef": -1.4404,
+      "p": 2.885691617897992e-35,
+      "ci": [
+        -1.6682,
+        -1.2126
+      ]
+    }
+  },
+  "ALMI_meals30_size=height": {
+    "n": 2555,
+    "r2": 0.5329,
+    "protein_per_kg": {
+      "coef": -1.9187,
+      "p": 1.0791212350988807e-47,
+      "ci": [
+        -2.1779,
+        -1.6595
+      ]
+    },
+    "meals_ge30": {
+      "coef": 0.6436,
+      "p": 8.968336351978062e-34,
+      "ci": [
+        0.5395,
+        0.7478
+      ]
+    }
+  },
+  "ALMI_breakfast_size=height": {
+    "n": 2555,
+    "r2": 0.4982,
+    "protein_per_kg": {
+      "coef": -1.5797,
+      "p": 5.614804019309397e-42,
+      "ci": [
+        -1.8078,
+        -1.3516
+      ]
+    },
+    "breakfast": {
+      "coef": 0.021,
+      "p": 1.0539069091277509e-09,
+      "ci": [
+        0.0143,
+        0.0277
+      ]
+    }
+  },
+  "ALMI_total_size=none": {
+    "n": 2555,
+    "r2": 0.4767,
+    "protein_per_kg": {
+      "coef": -1.3941,
+      "p": 2.162640348414626e-33,
+      "ci": [
+        -1.621,
+        -1.1672
+      ]
+    }
+  },
+  "ALMI_meals30_size=none": {
+    "n": 2555,
+    "r2": 0.525,
+    "protein_per_kg": {
+      "coef": -1.8249,
+      "p": 4.009211478960937e-45,
+      "ci": [
+        -2.0786,
+        -1.5711
+      ]
+    },
+    "meals_ge30": {
+      "coef": 0.6105,
+      "p": 5.168391952447236e-32,
+      "ci": [
+        0.5089,
+        0.7121
+      ]
+    }
+  },
+  "ALMI_breakfast_size=none": {
+    "n": 2555,
+    "r2": 0.4944,
+    "protein_per_kg": {
+      "coef": -1.5302,
+      "p": 1.0706465216446014e-38,
+      "ci": [
+        -1.7607,
+        -1.2997
+      ]
+    },
+    "breakfast": {
+      "coef": 0.0208,
+      "p": 7.678579742580722e-10,
+      "ci": [
+        0.0142,
+        0.0274
+      ]
+    }
+  },
+  "ALMI_protein_grams_bmi": {
+    "n": 2555,
+    "r2": 0.8668,
+    "protein_g": {
+      "coef": 0.003,
+      "p": 0.00394097406696053,
+      "ci": [
+        0.001,
+        0.005
+      ]
+    }
+  },
+  "ALMI_protein_grams_htwt": {
+    "n": 2555,
+    "r2": 0.8688,
+    "protein_g": {
+      "coef": 0.0028,
+      "p": 0.007445102722529816,
+      "ci": [
+        0.0007,
+        0.0048
+      ]
+    }
+  },
+  "ALMI_breakfast_no_skippers": {
+    "n": 2331,
+    "r2": 0.8644,
+    "protein_per_kg": {
+      "coef": 0.017,
+      "p": 0.8364678711524516,
+      "ci": [
+        -0.1447,
+        0.1788
+      ]
+    },
+    "breakfast": {
+      "coef": 0.0056,
+      "p": 0.004638598936168742,
+      "ci": [
+        0.0017,
+        0.0095
+      ]
+    }
+  },
+  "ALMI_by_breakfast_quartile_raw": {
+    "0": {
+      "n": 641,
+      "bf_range_g": [
+        0.0,
+        4.3
+      ],
+      "mean_ALMI": 7.778,
+      "mean_protein_per_kg": 0.9
+    },
+    "1": {
+      "n": 638,
+      "bf_range_g": [
+        4.3,
+        10.6
+      ],
+      "mean_ALMI": 7.609,
+      "mean_protein_per_kg": 1.02
+    },
+    "2": {
+      "n": 639,
+      "bf_range_g": [
+        10.6,
+        18.3
+      ],
+      "mean_ALMI": 7.865,
+      "mean_protein_per_kg": 1.09
+    },
+    "3": {
+      "n": 640,
+      "bf_range_g": [
+        18.3,
+        92.7
+      ],
+      "mean_ALMI": 8.287,
+      "mean_protein_per_kg": 1.33
+    }
+  },
+  "pct_skip_breakfast": 8.75684128225176,
+  "grip_total_size=bmi": {
+    "n": 2818,
+    "r2": 0.6868,
+    "protein_per_kg": {
+      "coef": -3.0884,
+      "p": 0.00136467231320537,
+      "ci": [
+        -4.9788,
+        -1.198
+      ]
+    }
+  },
+  "grip_meals30_size=bmi": {
+    "n": 2818,
+    "r2": 0.6901,
+    "protein_per_kg": {
+      "coef": -5.3389,
+      "p": 1.1860191379011245e-06,
+      "ci": [
+        -7.4929,
+        -3.1849
+      ]
+    },
+    "meals_ge30": {
+      "coef": 2.319,
+      "p": 9.030083181496288e-05,
+      "ci": [
+        1.1581,
+        3.4799
+      ]
+    }
+  },
+  "grip_total_size=ht_wt": {
+    "n": 2818,
+    "r2": 0.7235,
+    "protein_per_kg": {
+      "coef": -0.1569,
+      "p": 0.863413911572229,
+      "ci": [
+        -1.9441,
+        1.6304
+      ]
+    }
+  },
+  "grip_meals30_size=ht_wt": {
+    "n": 2818,
+    "r2": 0.7238,
+    "protein_per_kg": {
+      "coef": -0.9369,
+      "p": 0.35376434731800754,
+      "ci": [
+        -2.9171,
+        1.0433
+      ]
+    },
+    "meals_ge30": {
+      "coef": 0.748,
+      "p": 0.1832368288728079,
+      "ci": [
+        -0.3536,
+        1.8495
+      ]
+    }
+  },
+  "grip_total_size=height": {
+    "n": 2818,
+    "r2": 0.7121,
+    "protein_per_kg": {
+      "coef": -3.59,
+      "p": 1.2706409659993299e-05,
+      "ci": [
+        -5.2019,
+        -1.9781
+      ]
+    }
+  },
+  "grip_meals30_size=height": {
+    "n": 2818,
+    "r2": 0.7152,
+    "protein_per_kg": {
+      "coef": -5.1755,
+      "p": 1.1226875416034074e-08,
+      "ci": [
+        -6.9517,
+        -3.3993
+      ]
+    },
+    "meals_ge30": {
+      "coef": 2.1428,
+      "p": 0.000148579293492337,
+      "ci": [
+        1.0357,
+        3.2499
+      ]
+    }
+  },
+  "grip_protein_grams_htwt": {
+    "n": 2818,
+    "r2": 0.7237,
+    "protein_g": {
+      "coef": 0.0124,
+      "p": 0.33574641824638174,
+      "ci": [
+        -0.0129,
+        0.0377
+      ]
+    }
+  },
+  "grip_protein_grams_bmi": {
+    "n": 2818,
+    "r2": 0.6849,
+    "protein_g": {
+      "coef": 0.0161,
+      "p": 0.24388685341294558,
+      "ci": [
+        -0.011,
+        0.0431
+      ]
+    }
+  },
+  "grip_per_kg_total": {
+    "n": 2818,
+    "r2": 0.7021,
+    "protein_per_kg": {
+      "coef": 0.03,
+      "p": 0.014911561454644414,
+      "ci": [
+        0.0059,
+        0.0542
+      ]
+    }
+  },
+  "grip_per_kg_meals30": {
+    "n": 2818,
+    "r2": 0.7026,
+    "protein_per_kg": {
+      "coef": 0.0421,
+      "p": 0.0019010531528514674,
+      "ci": [
+        0.0155,
+        0.0687
+      ]
+    },
+    "meals_ge30": {
+      "coef": -0.0116,
+      "p": 0.08599939664869943,
+      "ci": [
+        -0.0248,
+        0.0016
+      ]
+    }
+  },
+  "breakfast_effect_17g_more": 0.1,
+  "ALMI_sd": 1.721,
+  "grip_sd": 21.89
+}
