@@ -1,0 +1,241 @@
+compound,group,year,reports
+berberine,shelf,2012,10
+berberine,shelf,2013,11
+berberine,shelf,2014,5
+berberine,shelf,2015,14
+berberine,shelf,2016,15
+berberine,shelf,2017,25
+berberine,shelf,2018,45
+berberine,shelf,2019,50
+berberine,shelf,2020,41
+berberine,shelf,2021,51
+berberine,shelf,2022,67
+berberine,shelf,2023,91
+berberine,shelf,2024,120
+berberine,shelf,2025,206
+berberine,shelf,2026,232
+methylene blue,shelf,2012,39
+methylene blue,shelf,2013,55
+methylene blue,shelf,2014,25
+methylene blue,shelf,2015,39
+methylene blue,shelf,2016,71
+methylene blue,shelf,2017,36
+methylene blue,shelf,2018,81
+methylene blue,shelf,2019,78
+methylene blue,shelf,2020,91
+methylene blue,shelf,2021,90
+methylene blue,shelf,2022,125
+methylene blue,shelf,2023,134
+methylene blue,shelf,2024,137
+methylene blue,shelf,2025,241
+methylene blue,shelf,2026,126
+quercetin,shelf,2012,9
+quercetin,shelf,2013,9
+quercetin,shelf,2014,20
+quercetin,shelf,2015,52
+quercetin,shelf,2016,43
+quercetin,shelf,2017,38
+quercetin,shelf,2018,57
+quercetin,shelf,2019,59
+quercetin,shelf,2020,54
+quercetin,shelf,2021,122
+quercetin,shelf,2022,176
+quercetin,shelf,2023,196
+quercetin,shelf,2024,195
+quercetin,shelf,2025,283
+quercetin,shelf,2026,195
+resveratrol,shelf,2012,24
+resveratrol,shelf,2013,53
+resveratrol,shelf,2014,51
+resveratrol,shelf,2015,83
+resveratrol,shelf,2016,114
+resveratrol,shelf,2017,82
+resveratrol,shelf,2018,86
+resveratrol,shelf,2019,91
+resveratrol,shelf,2020,94
+resveratrol,shelf,2021,93
+resveratrol,shelf,2022,64
+resveratrol,shelf,2023,78
+resveratrol,shelf,2024,51
+resveratrol,shelf,2025,102
+resveratrol,shelf,2026,92
+DHEA,shelf,2012,75
+DHEA,shelf,2013,123
+DHEA,shelf,2014,125
+DHEA,shelf,2015,239
+DHEA,shelf,2016,392
+DHEA,shelf,2017,229
+DHEA,shelf,2018,207
+DHEA,shelf,2019,210
+DHEA,shelf,2020,226
+DHEA,shelf,2021,146
+DHEA,shelf,2022,11
+DHEA,shelf,2023,10
+DHEA,shelf,2024,8
+DHEA,shelf,2025,12
+DHEA,shelf,2026,12
+ashwagandha,shelf,2012,2
+ashwagandha,shelf,2013,2
+ashwagandha,shelf,2014,13
+ashwagandha,shelf,2015,12
+ashwagandha,shelf,2016,21
+ashwagandha,shelf,2017,19
+ashwagandha,shelf,2018,27
+ashwagandha,shelf,2019,26
+ashwagandha,shelf,2020,24
+ashwagandha,shelf,2021,64
+ashwagandha,shelf,2022,17
+ashwagandha,shelf,2023,26
+ashwagandha,shelf,2024,22
+ashwagandha,shelf,2025,23
+ashwagandha,shelf,2026,34
+pregnenolone,shelf,2012,2
+pregnenolone,shelf,2013,7
+pregnenolone,shelf,2014,12
+pregnenolone,shelf,2015,19
+pregnenolone,shelf,2016,52
+pregnenolone,shelf,2017,25
+pregnenolone,shelf,2018,21
+pregnenolone,shelf,2019,36
+pregnenolone,shelf,2020,33
+pregnenolone,shelf,2021,23
+pregnenolone,shelf,2022,20
+pregnenolone,shelf,2023,35
+pregnenolone,shelf,2024,23
+pregnenolone,shelf,2025,38
+pregnenolone,shelf,2026,25
+taurine,shelf,2012,30
+taurine,shelf,2013,29
+taurine,shelf,2014,26
+taurine,shelf,2015,67
+taurine,shelf,2016,85
+taurine,shelf,2017,49
+taurine,shelf,2018,54
+taurine,shelf,2019,45
+taurine,shelf,2020,62
+taurine,shelf,2021,43
+taurine,shelf,2022,45
+taurine,shelf,2023,55
+taurine,shelf,2024,51
+taurine,shelf,2025,76
+taurine,shelf,2026,46
+creatine,control,2012,10
+creatine,control,2013,11
+creatine,control,2014,22
+creatine,control,2015,42
+creatine,control,2016,52
+creatine,control,2017,47
+creatine,control,2018,52
+creatine,control,2019,78
+creatine,control,2020,78
+creatine,control,2021,70
+creatine,control,2022,86
+creatine,control,2023,90
+creatine,control,2024,79
+creatine,control,2025,139
+creatine,control,2026,229
+melatonin,control,2012,493
+melatonin,control,2013,836
+melatonin,control,2014,1079
+melatonin,control,2015,2063
+melatonin,control,2016,3024
+melatonin,control,2017,3011
+melatonin,control,2018,3449
+melatonin,control,2019,4470
+melatonin,control,2020,4958
+melatonin,control,2021,5199
+melatonin,control,2022,5218
+melatonin,control,2023,5319
+melatonin,control,2024,5268
+melatonin,control,2025,6264
+melatonin,control,2026,5025
+caffeine,control,2012,499
+caffeine,control,2013,653
+caffeine,control,2014,542
+caffeine,control,2015,720
+caffeine,control,2016,934
+caffeine,control,2017,708
+caffeine,control,2018,1290
+caffeine,control,2019,1485
+caffeine,control,2020,1629
+caffeine,control,2021,1799
+caffeine,control,2022,2303
+caffeine,control,2023,2734
+caffeine,control,2024,2667
+caffeine,control,2025,2443
+caffeine,control,2026,1799
+vitamin D,control,2012,9385
+vitamin D,control,2013,13077
+vitamin D,control,2014,14905
+vitamin D,control,2015,22994
+vitamin D,control,2016,23613
+vitamin D,control,2017,21423
+vitamin D,control,2018,22084
+vitamin D,control,2019,19402
+vitamin D,control,2020,19940
+vitamin D,control,2021,21259
+vitamin D,control,2022,26671
+vitamin D,control,2023,25183
+vitamin D,control,2024,24924
+vitamin D,control,2025,27745
+vitamin D,control,2026,23451
+magnesium,control,2012,3635
+magnesium,control,2013,4661
+magnesium,control,2014,5736
+magnesium,control,2015,8964
+magnesium,control,2016,10556
+magnesium,control,2017,10883
+magnesium,control,2018,13263
+magnesium,control,2019,16418
+magnesium,control,2020,15903
+magnesium,control,2021,16712
+magnesium,control,2022,17894
+magnesium,control,2023,18010
+magnesium,control,2024,18060
+magnesium,control,2025,21596
+magnesium,control,2026,19063
+semaglutide,pharma,2012,0
+semaglutide,pharma,2013,0
+semaglutide,pharma,2014,0
+semaglutide,pharma,2015,0
+semaglutide,pharma,2016,0
+semaglutide,pharma,2017,2
+semaglutide,pharma,2018,15
+semaglutide,pharma,2019,204
+semaglutide,pharma,2020,411
+semaglutide,pharma,2021,331
+semaglutide,pharma,2022,470
+semaglutide,pharma,2023,898
+semaglutide,pharma,2024,1458
+semaglutide,pharma,2025,1987
+semaglutide,pharma,2026,2300
+metformin,pharma,2012,10737
+metformin,pharma,2013,15047
+metformin,pharma,2014,17935
+metformin,pharma,2015,26685
+metformin,pharma,2016,27523
+metformin,pharma,2017,26536
+metformin,pharma,2018,31772
+metformin,pharma,2019,33817
+metformin,pharma,2020,32295
+metformin,pharma,2021,28031
+metformin,pharma,2022,26761
+metformin,pharma,2023,27092
+metformin,pharma,2024,25313
+metformin,pharma,2025,27335
+metformin,pharma,2026,22819
+sirolimus,pharma,2012,220
+sirolimus,pharma,2013,260
+sirolimus,pharma,2014,253
+sirolimus,pharma,2015,363
+sirolimus,pharma,2016,442
+sirolimus,pharma,2017,616
+sirolimus,pharma,2018,903
+sirolimus,pharma,2019,1072
+sirolimus,pharma,2020,1097
+sirolimus,pharma,2021,1100
+sirolimus,pharma,2022,1260
+sirolimus,pharma,2023,1158
+sirolimus,pharma,2024,1473
+sirolimus,pharma,2025,1662
+sirolimus,pharma,2026,1154

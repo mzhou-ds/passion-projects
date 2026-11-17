@@ -1,0 +1,117 @@
+{
+  "label": "melatonin",
+  "group": "control",
+  "faers_names": [
+    "melatonin"
+  ],
+  "total_any_role": 57445,
+  "total_suspect": 57174,
+  "serious": 37444,
+  "deaths": 5059,
+  "hospitalizations": 19027,
+  "life_threatening": 2491,
+  "disability": 2030,
+  "top_reactions": [
+    {
+      "term": "FATIGUE",
+      "count": 4716
+    },
+    {
+      "term": "NAUSEA",
+      "count": 4002
+    },
+    {
+      "term": "OFF LABEL USE",
+      "count": 3606
+    },
+    {
+      "term": "DRUG INEFFECTIVE",
+      "count": 3413
+    },
+    {
+      "term": "DIARRHOEA",
+      "count": 3208
+    },
+    {
+      "term": "HEADACHE",
+      "count": 3188
+    },
+    {
+      "term": "DYSPNOEA",
+      "count": 2756
+    },
+    {
+      "term": "INSOMNIA",
+      "count": 2663
+    },
+    {
+      "term": "FALL",
+      "count": 2561
+    },
+    {
+      "term": "PAIN",
+      "count": 2503
+    },
+    {
+      "term": "DIZZINESS",
+      "count": 2495
+    },
+    {
+      "term": "VOMITING",
+      "count": 2376
+    },
+    {
+      "term": "DEATH",
+      "count": 2314
+    },
+    {
+      "term": "ASTHENIA",
+      "count": 2063
+    },
+    {
+      "term": "SOMNOLENCE",
+      "count": 2020
+    }
+  ],
+  "reporter_qualification": [
+    {
+      "term": 5,
+      "count": 26043
+    },
+    {
+      "term": 3,
+      "count": 12379
+    },
+    {
+      "term": 1,
+      "count": 10955
+    },
+    {
+      "term": 2,
+      "count": 4770
+    },
+    {
+      "term": 4,
+      "count": 383
+    }
+  ],
+  "trend": {
+    "2012": 493,
+    "2013": 836,
+    "2014": 1079,
+    "2015": 2063,
+    "2016": 3024,
+    "2017": 3011,
+    "2018": 3449,
+    "2019": 4470,
+    "2020": 4958,
+    "2021": 5199,
+    "2022": 5218,
+    "2023": 5319,
+    "2024": 5268,
+    "2025": 6264,
+    "2026": 5025
+  },
+  "trials_registered": 511,
+  "pubmed_rcts": 1161
+}

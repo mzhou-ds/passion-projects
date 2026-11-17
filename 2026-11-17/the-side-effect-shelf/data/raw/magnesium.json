@@ -1,0 +1,117 @@
+{
+  "label": "magnesium",
+  "group": "control",
+  "faers_names": [
+    "magnesium"
+  ],
+  "total_any_role": 222487,
+  "total_suspect": 221916,
+  "serious": 161837,
+  "deaths": 23593,
+  "hospitalizations": 84938,
+  "life_threatening": 15189,
+  "disability": 10428,
+  "top_reactions": [
+    {
+      "term": "FATIGUE",
+      "count": 18423
+    },
+    {
+      "term": "NAUSEA",
+      "count": 17267
+    },
+    {
+      "term": "DIARRHOEA",
+      "count": 15912
+    },
+    {
+      "term": "DRUG INEFFECTIVE",
+      "count": 14703
+    },
+    {
+      "term": "OFF LABEL USE",
+      "count": 13523
+    },
+    {
+      "term": "HEADACHE",
+      "count": 13505
+    },
+    {
+      "term": "PAIN",
+      "count": 13228
+    },
+    {
+      "term": "DYSPNOEA",
+      "count": 12796
+    },
+    {
+      "term": "DIZZINESS",
+      "count": 10579
+    },
+    {
+      "term": "VOMITING",
+      "count": 10090
+    },
+    {
+      "term": "ARTHRALGIA",
+      "count": 10046
+    },
+    {
+      "term": "ASTHENIA",
+      "count": 9502
+    },
+    {
+      "term": "PNEUMONIA",
+      "count": 8593
+    },
+    {
+      "term": "MALAISE",
+      "count": 8581
+    },
+    {
+      "term": "PYREXIA",
+      "count": 8570
+    }
+  ],
+  "reporter_qualification": [
+    {
+      "term": 5,
+      "count": 84289
+    },
+    {
+      "term": 3,
+      "count": 56095
+    },
+    {
+      "term": 1,
+      "count": 51518
+    },
+    {
+      "term": 2,
+      "count": 16445
+    },
+    {
+      "term": 4,
+      "count": 3074
+    }
+  ],
+  "trend": {
+    "2012": 3635,
+    "2013": 4661,
+    "2014": 5736,
+    "2015": 8964,
+    "2016": 10556,
+    "2017": 10883,
+    "2018": 13263,
+    "2019": 16418,
+    "2020": 15903,
+    "2021": 16712,
+    "2022": 17894,
+    "2023": 18010,
+    "2024": 18060,
+    "2025": 21596,
+    "2026": 19063
+  },
+  "trials_registered": 844,
+  "pubmed_rcts": 2604
+}

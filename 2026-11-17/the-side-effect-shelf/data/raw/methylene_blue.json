@@ -1,0 +1,120 @@
+{
+  "label": "methylene blue",
+  "group": "shelf",
+  "faers_names": [
+    "methylene blue"
+  ],
+  "total_any_role": 1629,
+  "total_suspect": 1564,
+  "serious": 1451,
+  "deaths": 247,
+  "hospitalizations": 935,
+  "life_threatening": 460,
+  "disability": 15,
+  "top_reactions": [
+    {
+      "term": "SEROTONIN SYNDROME",
+      "count": 455
+    },
+    {
+      "term": "DRUG INTERACTION",
+      "count": 338
+    },
+    {
+      "term": "DRUG INEFFECTIVE",
+      "count": 305
+    },
+    {
+      "term": "HYPOTENSION",
+      "count": 195
+    },
+    {
+      "term": "OFF LABEL USE",
+      "count": 191
+    },
+    {
+      "term": "TOXICITY TO VARIOUS AGENTS",
+      "count": 144
+    },
+    {
+      "term": "OVERDOSE",
+      "count": 104
+    },
+    {
+      "term": "INTENTIONAL OVERDOSE",
+      "count": 100
+    },
+    {
+      "term": "ENCEPHALOPATHY",
+      "count": 88
+    },
+    {
+      "term": "CONFUSIONAL STATE",
+      "count": 79
+    },
+    {
+      "term": "AGITATION",
+      "count": 75
+    },
+    {
+      "term": "ACUTE KIDNEY INJURY",
+      "count": 72
+    },
+    {
+      "term": "VASOPLEGIA SYNDROME",
+      "count": 71
+    },
+    {
+      "term": "CARDIAC ARREST",
+      "count": 64
+    },
+    {
+      "term": "SHOCK",
+      "count": 64
+    }
+  ],
+  "reporter_qualification": [
+    {
+      "term": 3,
+      "count": 833
+    },
+    {
+      "term": 1,
+      "count": 431
+    },
+    {
+      "term": 2,
+      "count": 113
+    },
+    {
+      "term": 5,
+      "count": 111
+    },
+    {
+      "term": 4,
+      "count": 5
+    }
+  ],
+  "trend": {
+    "2012": 39,
+    "2013": 55,
+    "2014": 25,
+    "2015": 39,
+    "2016": 71,
+    "2017": 36,
+    "2018": 81,
+    "2019": 78,
+    "2020": 91,
+    "2021": 90,
+    "2022": 125,
+    "2023": 134,
+    "2024": 137,
+    "2025": 241,
+    "2026": 126
+  },
+  "trials_registered": 130,
+  "pubmed_rcts": 398,
+  "liver_reaction_reports": 25,
+  "drug_interaction_reports": 347,
+  "serotonin_syndrome_reports": 455
+}

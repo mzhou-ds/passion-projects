@@ -1,0 +1,120 @@
+{
+  "label": "ashwagandha",
+  "group": "shelf",
+  "faers_names": [
+    "ashwagandha"
+  ],
+  "total_any_role": 334,
+  "total_suspect": 334,
+  "serious": 169,
+  "deaths": 13,
+  "hospitalizations": 45,
+  "life_threatening": 6,
+  "disability": 29,
+  "top_reactions": [
+    {
+      "term": "FATIGUE",
+      "count": 28
+    },
+    {
+      "term": "NAUSEA",
+      "count": 28
+    },
+    {
+      "term": "ANXIETY",
+      "count": 26
+    },
+    {
+      "term": "HEADACHE",
+      "count": 26
+    },
+    {
+      "term": "PAIN",
+      "count": 24
+    },
+    {
+      "term": "DIARRHOEA",
+      "count": 23
+    },
+    {
+      "term": "DRUG INEFFECTIVE",
+      "count": 21
+    },
+    {
+      "term": "OFF LABEL USE",
+      "count": 20
+    },
+    {
+      "term": "INSOMNIA",
+      "count": 19
+    },
+    {
+      "term": "DEPRESSION",
+      "count": 18
+    },
+    {
+      "term": "WEIGHT INCREASED",
+      "count": 18
+    },
+    {
+      "term": "DIZZINESS",
+      "count": 17
+    },
+    {
+      "term": "DYSPNOEA",
+      "count": 15
+    },
+    {
+      "term": "ARTHRALGIA",
+      "count": 14
+    },
+    {
+      "term": "MALAISE",
+      "count": 14
+    }
+  ],
+  "reporter_qualification": [
+    {
+      "term": 5,
+      "count": 199
+    },
+    {
+      "term": 3,
+      "count": 53
+    },
+    {
+      "term": 1,
+      "count": 37
+    },
+    {
+      "term": 2,
+      "count": 20
+    },
+    {
+      "term": 4,
+      "count": 2
+    }
+  ],
+  "trend": {
+    "2012": 2,
+    "2013": 2,
+    "2014": 13,
+    "2015": 12,
+    "2016": 21,
+    "2017": 19,
+    "2018": 27,
+    "2019": 26,
+    "2020": 24,
+    "2021": 64,
+    "2022": 17,
+    "2023": 26,
+    "2024": 22,
+    "2025": 23,
+    "2026": 34
+  },
+  "trials_registered": 46,
+  "pubmed_rcts": 54,
+  "liver_reaction_reports": 5,
+  "drug_interaction_reports": 8,
+  "serotonin_syndrome_reports": 1
+}

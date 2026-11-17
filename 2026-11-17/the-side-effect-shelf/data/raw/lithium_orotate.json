@@ -1,0 +1,100 @@
+{
+  "label": "lithium orotate",
+  "group": "shelf",
+  "faers_names": [
+    "lithium orotate"
+  ],
+  "total_any_role": 80,
+  "total_suspect": 80,
+  "serious": 47,
+  "deaths": 0,
+  "hospitalizations": 10,
+  "life_threatening": 2,
+  "disability": 10,
+  "top_reactions": [
+    {
+      "term": "FATIGUE",
+      "count": 14
+    },
+    {
+      "term": "HEADACHE",
+      "count": 11
+    },
+    {
+      "term": "DIZZINESS",
+      "count": 9
+    },
+    {
+      "term": "ARTHRALGIA",
+      "count": 8
+    },
+    {
+      "term": "ANXIETY",
+      "count": 7
+    },
+    {
+      "term": "NAUSEA",
+      "count": 7
+    },
+    {
+      "term": "ASTHENIA",
+      "count": 6
+    },
+    {
+      "term": "DEPRESSION",
+      "count": 6
+    },
+    {
+      "term": "DRUG INEFFECTIVE",
+      "count": 6
+    },
+    {
+      "term": "DYSPNOEA",
+      "count": 6
+    },
+    {
+      "term": "MALAISE",
+      "count": 6
+    },
+    {
+      "term": "DIARRHOEA",
+      "count": 5
+    },
+    {
+      "term": "FEELING ABNORMAL",
+      "count": 5
+    },
+    {
+      "term": "INSOMNIA",
+      "count": 5
+    },
+    {
+      "term": "MEMORY IMPAIRMENT",
+      "count": 5
+    }
+  ],
+  "reporter_qualification": [
+    {
+      "term": 5,
+      "count": 56
+    },
+    {
+      "term": 1,
+      "count": 10
+    },
+    {
+      "term": 3,
+      "count": 2
+    },
+    {
+      "term": 2,
+      "count": 1
+    }
+  ],
+  "trend": {},
+  "trials_registered": 2,
+  "pubmed_rcts": 0,
+  "liver_reaction_reports": 1,
+  "drug_interaction_reports": 1,
+  "serotonin_syndrome_reports": 0
+}

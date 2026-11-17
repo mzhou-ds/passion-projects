@@ -1,0 +1,117 @@
+{
+  "label": "metformin",
+  "group": "pharma",
+  "faers_names": [
+    "metformin"
+  ],
+  "total_any_role": 439313,
+  "total_suspect": 437440,
+  "serious": 296440,
+  "deaths": 36311,
+  "hospitalizations": 154917,
+  "life_threatening": 27424,
+  "disability": 11946,
+  "top_reactions": [
+    {
+      "term": "NAUSEA",
+      "count": 30558
+    },
+    {
+      "term": "DIARRHOEA",
+      "count": 28423
+    },
+    {
+      "term": "BLOOD GLUCOSE INCREASED",
+      "count": 27283
+    },
+    {
+      "term": "DRUG INEFFECTIVE",
+      "count": 22795
+    },
+    {
+      "term": "FATIGUE",
+      "count": 21613
+    },
+    {
+      "term": "LACTIC ACIDOSIS",
+      "count": 20205
+    },
+    {
+      "term": "VOMITING",
+      "count": 19954
+    },
+    {
+      "term": "ACUTE KIDNEY INJURY",
+      "count": 18483
+    },
+    {
+      "term": "WEIGHT DECREASED",
+      "count": 17431
+    },
+    {
+      "term": "DYSPNOEA",
+      "count": 16963
+    },
+    {
+      "term": "DIZZINESS",
+      "count": 15946
+    },
+    {
+      "term": "OFF LABEL USE",
+      "count": 15718
+    },
+    {
+      "term": "HEADACHE",
+      "count": 15358
+    },
+    {
+      "term": "PAIN",
+      "count": 14349
+    },
+    {
+      "term": "ASTHENIA",
+      "count": 13517
+    }
+  ],
+  "reporter_qualification": [
+    {
+      "term": 5,
+      "count": 181999
+    },
+    {
+      "term": 1,
+      "count": 102219
+    },
+    {
+      "term": 3,
+      "count": 90767
+    },
+    {
+      "term": 2,
+      "count": 34017
+    },
+    {
+      "term": 4,
+      "count": 6068
+    }
+  ],
+  "trend": {
+    "2012": 10737,
+    "2013": 15047,
+    "2014": 17935,
+    "2015": 26685,
+    "2016": 27523,
+    "2017": 26536,
+    "2018": 31772,
+    "2019": 33817,
+    "2020": 32295,
+    "2021": 28031,
+    "2022": 26761,
+    "2023": 27092,
+    "2024": 25313,
+    "2025": 27335,
+    "2026": 22819
+  },
+  "trials_registered": 2214,
+  "pubmed_rcts": 3473
+}

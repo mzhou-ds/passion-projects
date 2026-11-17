@@ -1,0 +1,61 @@
+{
+  "label": "spermidine",
+  "group": "shelf",
+  "faers_names": [
+    "spermidine"
+  ],
+  "total_any_role": 3,
+  "total_suspect": 3,
+  "serious": 0,
+  "deaths": 0,
+  "hospitalizations": 0,
+  "life_threatening": 0,
+  "disability": 0,
+  "top_reactions": [
+    {
+      "term": "ABDOMINAL DISTENSION",
+      "count": 1
+    },
+    {
+      "term": "ANXIETY",
+      "count": 1
+    },
+    {
+      "term": "COUGH",
+      "count": 1
+    },
+    {
+      "term": "COVID-19",
+      "count": 1
+    },
+    {
+      "term": "DRY SKIN",
+      "count": 1
+    },
+    {
+      "term": "FATIGUE",
+      "count": 1
+    },
+    {
+      "term": "GASTRIC PH DECREASED",
+      "count": 1
+    },
+    {
+      "term": "INCREASED VISCOSITY OF UPPER RESPIRATORY SECRETION",
+      "count": 1
+    },
+    {
+      "term": "WHEEZING",
+      "count": 1
+    }
+  ],
+  "reporter_qualification": [
+    {
+      "term": 5,
+      "count": 2
+    }
+  ],
+  "trend": {},
+  "trials_registered": 16,
+  "pubmed_rcts": 42
+}

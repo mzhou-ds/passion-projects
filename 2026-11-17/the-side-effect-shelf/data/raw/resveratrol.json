@@ -1,0 +1,120 @@
+{
+  "label": "resveratrol",
+  "group": "shelf",
+  "faers_names": [
+    "resveratrol"
+  ],
+  "total_any_role": 1204,
+  "total_suspect": 1201,
+  "serious": 638,
+  "deaths": 57,
+  "hospitalizations": 237,
+  "life_threatening": 27,
+  "disability": 87,
+  "top_reactions": [
+    {
+      "term": "FATIGUE",
+      "count": 152
+    },
+    {
+      "term": "HEADACHE",
+      "count": 97
+    },
+    {
+      "term": "DIARRHOEA",
+      "count": 92
+    },
+    {
+      "term": "DYSPNOEA",
+      "count": 89
+    },
+    {
+      "term": "DRUG INEFFECTIVE",
+      "count": 82
+    },
+    {
+      "term": "NAUSEA",
+      "count": 81
+    },
+    {
+      "term": "DIZZINESS",
+      "count": 74
+    },
+    {
+      "term": "ARTHRALGIA",
+      "count": 69
+    },
+    {
+      "term": "ASTHENIA",
+      "count": 69
+    },
+    {
+      "term": "PAIN",
+      "count": 66
+    },
+    {
+      "term": "PRURITUS",
+      "count": 57
+    },
+    {
+      "term": "FEELING ABNORMAL",
+      "count": 56
+    },
+    {
+      "term": "COUGH",
+      "count": 49
+    },
+    {
+      "term": "WEIGHT DECREASED",
+      "count": 48
+    },
+    {
+      "term": "OFF LABEL USE",
+      "count": 47
+    }
+  ],
+  "reporter_qualification": [
+    {
+      "term": 5,
+      "count": 679
+    },
+    {
+      "term": 3,
+      "count": 190
+    },
+    {
+      "term": 1,
+      "count": 168
+    },
+    {
+      "term": 2,
+      "count": 72
+    },
+    {
+      "term": 4,
+      "count": 9
+    }
+  ],
+  "trend": {
+    "2012": 24,
+    "2013": 53,
+    "2014": 51,
+    "2015": 83,
+    "2016": 114,
+    "2017": 82,
+    "2018": 86,
+    "2019": 91,
+    "2020": 94,
+    "2021": 93,
+    "2022": 64,
+    "2023": 78,
+    "2024": 51,
+    "2025": 102,
+    "2026": 92
+  },
+  "trials_registered": 172,
+  "pubmed_rcts": 274,
+  "liver_reaction_reports": 11,
+  "drug_interaction_reports": 11,
+  "serotonin_syndrome_reports": 0
+}

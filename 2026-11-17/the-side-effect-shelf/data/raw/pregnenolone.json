@@ -1,0 +1,120 @@
+{
+  "label": "pregnenolone",
+  "group": "shelf",
+  "faers_names": [
+    "pregnenolone"
+  ],
+  "total_any_role": 393,
+  "total_suspect": 392,
+  "serious": 212,
+  "deaths": 6,
+  "hospitalizations": 71,
+  "life_threatening": 6,
+  "disability": 13,
+  "top_reactions": [
+    {
+      "term": "FATIGUE",
+      "count": 39
+    },
+    {
+      "term": "HEADACHE",
+      "count": 31
+    },
+    {
+      "term": "NAUSEA",
+      "count": 31
+    },
+    {
+      "term": "OFF LABEL USE",
+      "count": 26
+    },
+    {
+      "term": "DIZZINESS",
+      "count": 22
+    },
+    {
+      "term": "DRUG INEFFECTIVE",
+      "count": 21
+    },
+    {
+      "term": "MALAISE",
+      "count": 18
+    },
+    {
+      "term": "SOMNOLENCE",
+      "count": 18
+    },
+    {
+      "term": "ARTHRALGIA",
+      "count": 17
+    },
+    {
+      "term": "DIARRHOEA",
+      "count": 17
+    },
+    {
+      "term": "PAIN",
+      "count": 15
+    },
+    {
+      "term": "ANXIETY",
+      "count": 14
+    },
+    {
+      "term": "WEIGHT DECREASED",
+      "count": 14
+    },
+    {
+      "term": "WEIGHT INCREASED",
+      "count": 14
+    },
+    {
+      "term": "DEPRESSION",
+      "count": 13
+    }
+  ],
+  "reporter_qualification": [
+    {
+      "term": 5,
+      "count": 185
+    },
+    {
+      "term": 3,
+      "count": 74
+    },
+    {
+      "term": 1,
+      "count": 47
+    },
+    {
+      "term": 2,
+      "count": 25
+    },
+    {
+      "term": 4,
+      "count": 2
+    }
+  ],
+  "trend": {
+    "2012": 2,
+    "2013": 7,
+    "2014": 12,
+    "2015": 19,
+    "2016": 52,
+    "2017": 25,
+    "2018": 21,
+    "2019": 36,
+    "2020": 33,
+    "2021": 23,
+    "2022": 20,
+    "2023": 35,
+    "2024": 23,
+    "2025": 38,
+    "2026": 25
+  },
+  "trials_registered": 38,
+  "pubmed_rcts": 38,
+  "liver_reaction_reports": 2,
+  "drug_interaction_reports": 2,
+  "serotonin_syndrome_reports": 1
+}

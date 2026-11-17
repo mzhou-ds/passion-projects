@@ -1,0 +1,120 @@
+{
+  "label": "berberine",
+  "group": "shelf",
+  "faers_names": [
+    "berberine"
+  ],
+  "total_any_role": 1021,
+  "total_suspect": 1014,
+  "serious": 596,
+  "deaths": 61,
+  "hospitalizations": 252,
+  "life_threatening": 56,
+  "disability": 50,
+  "top_reactions": [
+    {
+      "term": "DIARRHOEA",
+      "count": 120
+    },
+    {
+      "term": "FATIGUE",
+      "count": 110
+    },
+    {
+      "term": "NAUSEA",
+      "count": 92
+    },
+    {
+      "term": "HEADACHE",
+      "count": 77
+    },
+    {
+      "term": "DRUG INEFFECTIVE",
+      "count": 70
+    },
+    {
+      "term": "DIZZINESS",
+      "count": 59
+    },
+    {
+      "term": "PAIN",
+      "count": 56
+    },
+    {
+      "term": "OFF LABEL USE",
+      "count": 52
+    },
+    {
+      "term": "ARTHRALGIA",
+      "count": 50
+    },
+    {
+      "term": "BLOOD GLUCOSE INCREASED",
+      "count": 50
+    },
+    {
+      "term": "PRODUCT DOSE OMISSION ISSUE",
+      "count": 47
+    },
+    {
+      "term": "ABDOMINAL PAIN",
+      "count": 45
+    },
+    {
+      "term": "CONSTIPATION",
+      "count": 45
+    },
+    {
+      "term": "VOMITING",
+      "count": 45
+    },
+    {
+      "term": "MUSCLE SPASMS",
+      "count": 42
+    }
+  ],
+  "reporter_qualification": [
+    {
+      "term": 5,
+      "count": 577
+    },
+    {
+      "term": 1,
+      "count": 204
+    },
+    {
+      "term": 3,
+      "count": 181
+    },
+    {
+      "term": 2,
+      "count": 32
+    },
+    {
+      "term": 4,
+      "count": 6
+    }
+  ],
+  "trend": {
+    "2012": 10,
+    "2013": 11,
+    "2014": 5,
+    "2015": 14,
+    "2016": 15,
+    "2017": 25,
+    "2018": 45,
+    "2019": 50,
+    "2020": 41,
+    "2021": 51,
+    "2022": 67,
+    "2023": 91,
+    "2024": 120,
+    "2025": 206,
+    "2026": 232
+  },
+  "trials_registered": 83,
+  "pubmed_rcts": 113,
+  "liver_reaction_reports": 15,
+  "drug_interaction_reports": 12,
+  "serotonin_syndrome_reports": 0
+}

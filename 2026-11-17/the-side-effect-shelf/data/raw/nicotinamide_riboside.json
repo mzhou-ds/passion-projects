@@ -1,0 +1,96 @@
+{
+  "label": "nicotinamide riboside",
+  "group": "shelf",
+  "faers_names": [
+    "nicotinamide riboside"
+  ],
+  "total_any_role": 42,
+  "total_suspect": 42,
+  "serious": 25,
+  "deaths": 1,
+  "hospitalizations": 9,
+  "life_threatening": 1,
+  "disability": 3,
+  "top_reactions": [
+    {
+      "term": "DYSPNOEA",
+      "count": 11
+    },
+    {
+      "term": "ASTHENIA",
+      "count": 6
+    },
+    {
+      "term": "COUGH",
+      "count": 6
+    },
+    {
+      "term": "FATIGUE",
+      "count": 6
+    },
+    {
+      "term": "HEADACHE",
+      "count": 6
+    },
+    {
+      "term": "CONDITION AGGRAVATED",
+      "count": 5
+    },
+    {
+      "term": "HYPOTENSION",
+      "count": 5
+    },
+    {
+      "term": "DIARRHOEA",
+      "count": 4
+    },
+    {
+      "term": "NAUSEA",
+      "count": 4
+    },
+    {
+      "term": "PRODUCT DOSE OMISSION ISSUE",
+      "count": 4
+    },
+    {
+      "term": "THROAT IRRITATION",
+      "count": 4
+    },
+    {
+      "term": "ANXIETY",
+      "count": 3
+    },
+    {
+      "term": "DEPRESSION",
+      "count": 3
+    },
+    {
+      "term": "DIZZINESS",
+      "count": 3
+    },
+    {
+      "term": "DRUG INEFFECTIVE",
+      "count": 3
+    }
+  ],
+  "reporter_qualification": [
+    {
+      "term": 5,
+      "count": 33
+    },
+    {
+      "term": 3,
+      "count": 5
+    },
+    {
+      "term": 1,
+      "count": 2
+    }
+  ],
+  "trend": {},
+  "trials_registered": 92,
+  "pubmed_rcts": 31,
+  "liver_reaction_reports": 2,
+  "drug_interaction_reports": 0,
+  "serotonin_syndrome_reports": 0
+}

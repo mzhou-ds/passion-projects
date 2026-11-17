@@ -1,0 +1,97 @@
+{
+  "label": "BPC-157",
+  "group": "shelf",
+  "faers_names": [
+    "BPC-157",
+    "bpc 157"
+  ],
+  "total_any_role": 24,
+  "total_suspect": 24,
+  "serious": 21,
+  "deaths": 0,
+  "hospitalizations": 10,
+  "life_threatening": 3,
+  "disability": 3,
+  "top_reactions": [
+    {
+      "term": "DRUG INEFFECTIVE",
+      "count": 3
+    },
+    {
+      "term": "DYSPNOEA",
+      "count": 3
+    },
+    {
+      "term": "ERYTHEMA",
+      "count": 3
+    },
+    {
+      "term": "HEADACHE",
+      "count": 3
+    },
+    {
+      "term": "ABDOMINAL DISCOMFORT",
+      "count": 2
+    },
+    {
+      "term": "BALANCE DISORDER",
+      "count": 2
+    },
+    {
+      "term": "DIZZINESS",
+      "count": 2
+    },
+    {
+      "term": "DRUG EFFECT LESS THAN EXPECTED",
+      "count": 2
+    },
+    {
+      "term": "DRUG INTOLERANCE",
+      "count": 2
+    },
+    {
+      "term": "FATIGUE",
+      "count": 2
+    },
+    {
+      "term": "FLUSHING",
+      "count": 2
+    },
+    {
+      "term": "HYPERSENSITIVITY",
+      "count": 2
+    },
+    {
+      "term": "NAUSEA",
+      "count": 2
+    },
+    {
+      "term": "PRODUCT LABEL ISSUE",
+      "count": 2
+    },
+    {
+      "term": "PRODUCT USE IN UNAPPROVED INDICATION",
+      "count": 2
+    }
+  ],
+  "reporter_qualification": [
+    {
+      "term": 5,
+      "count": 16
+    },
+    {
+      "term": 3,
+      "count": 4
+    },
+    {
+      "term": 1,
+      "count": 2
+    }
+  ],
+  "trend": {},
+  "trials_registered": 3,
+  "pubmed_rcts": 0,
+  "liver_reaction_reports": 0,
+  "drug_interaction_reports": 0,
+  "serotonin_syndrome_reports": 0
+}

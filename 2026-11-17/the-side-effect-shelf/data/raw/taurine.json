@@ -1,0 +1,120 @@
+{
+  "label": "taurine",
+  "group": "shelf",
+  "faers_names": [
+    "taurine"
+  ],
+  "total_any_role": 853,
+  "total_suspect": 852,
+  "serious": 600,
+  "deaths": 61,
+  "hospitalizations": 261,
+  "life_threatening": 44,
+  "disability": 60,
+  "top_reactions": [
+    {
+      "term": "FATIGUE",
+      "count": 67
+    },
+    {
+      "term": "NAUSEA",
+      "count": 51
+    },
+    {
+      "term": "HEADACHE",
+      "count": 50
+    },
+    {
+      "term": "DIZZINESS",
+      "count": 46
+    },
+    {
+      "term": "MALAISE",
+      "count": 46
+    },
+    {
+      "term": "SEIZURE",
+      "count": 46
+    },
+    {
+      "term": "VOMITING",
+      "count": 39
+    },
+    {
+      "term": "DIARRHOEA",
+      "count": 36
+    },
+    {
+      "term": "FEELING ABNORMAL",
+      "count": 35
+    },
+    {
+      "term": "PAIN",
+      "count": 33
+    },
+    {
+      "term": "ANXIETY",
+      "count": 32
+    },
+    {
+      "term": "INSOMNIA",
+      "count": 32
+    },
+    {
+      "term": "PNEUMONIA",
+      "count": 32
+    },
+    {
+      "term": "ASTHENIA",
+      "count": 30
+    },
+    {
+      "term": "PYREXIA",
+      "count": 30
+    }
+  ],
+  "reporter_qualification": [
+    {
+      "term": 5,
+      "count": 372
+    },
+    {
+      "term": 1,
+      "count": 227
+    },
+    {
+      "term": 3,
+      "count": 135
+    },
+    {
+      "term": 2,
+      "count": 35
+    },
+    {
+      "term": 4,
+      "count": 8
+    }
+  ],
+  "trend": {
+    "2012": 30,
+    "2013": 29,
+    "2014": 26,
+    "2015": 67,
+    "2016": 85,
+    "2017": 49,
+    "2018": 54,
+    "2019": 45,
+    "2020": 62,
+    "2021": 43,
+    "2022": 45,
+    "2023": 55,
+    "2024": 51,
+    "2025": 76,
+    "2026": 46
+  },
+  "trials_registered": 58,
+  "pubmed_rcts": 242,
+  "liver_reaction_reports": 22,
+  "drug_interaction_reports": 10,
+  "serotonin_syndrome_reports": 7
+}

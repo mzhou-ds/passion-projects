@@ -1,0 +1,121 @@
+{
+  "label": "DHEA",
+  "group": "shelf",
+  "faers_names": [
+    "dehydroepiandrosterone",
+    "dhea"
+  ],
+  "total_any_role": 2308,
+  "total_suspect": 2308,
+  "serious": 1220,
+  "deaths": 70,
+  "hospitalizations": 481,
+  "life_threatening": 51,
+  "disability": 103,
+  "top_reactions": [
+    {
+      "term": "FATIGUE",
+      "count": 199
+    },
+    {
+      "term": "NAUSEA",
+      "count": 171
+    },
+    {
+      "term": "HEADACHE",
+      "count": 170
+    },
+    {
+      "term": "DRUG INEFFECTIVE",
+      "count": 148
+    },
+    {
+      "term": "DIARRHOEA",
+      "count": 118
+    },
+    {
+      "term": "DIZZINESS",
+      "count": 115
+    },
+    {
+      "term": "INSOMNIA",
+      "count": 109
+    },
+    {
+      "term": "PAIN",
+      "count": 98
+    },
+    {
+      "term": "DEPRESSION",
+      "count": 93
+    },
+    {
+      "term": "ASTHENIA",
+      "count": 92
+    },
+    {
+      "term": "ARTHRALGIA",
+      "count": 90
+    },
+    {
+      "term": "RASH",
+      "count": 90
+    },
+    {
+      "term": "FEELING ABNORMAL",
+      "count": 89
+    },
+    {
+      "term": "MALAISE",
+      "count": 87
+    },
+    {
+      "term": "ANXIETY",
+      "count": 79
+    }
+  ],
+  "reporter_qualification": [
+    {
+      "term": 5,
+      "count": 1004
+    },
+    {
+      "term": 3,
+      "count": 383
+    },
+    {
+      "term": 1,
+      "count": 372
+    },
+    {
+      "term": 2,
+      "count": 131
+    },
+    {
+      "term": 4,
+      "count": 12
+    }
+  ],
+  "trend": {
+    "2012": 75,
+    "2013": 123,
+    "2014": 125,
+    "2015": 239,
+    "2016": 392,
+    "2017": 229,
+    "2018": 207,
+    "2019": 210,
+    "2020": 226,
+    "2021": 146,
+    "2022": 11,
+    "2023": 10,
+    "2024": 8,
+    "2025": 12,
+    "2026": 12
+  },
+  "trials_registered": 118,
+  "pubmed_rcts": 644,
+  "liver_reaction_reports": 16,
+  "drug_interaction_reports": 22,
+  "serotonin_syndrome_reports": 1
+}

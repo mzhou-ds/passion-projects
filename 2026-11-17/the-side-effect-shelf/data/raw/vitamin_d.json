@@ -1,0 +1,118 @@
+{
+  "label": "vitamin D",
+  "group": "control",
+  "faers_names": [
+    "cholecalciferol",
+    "vitamin d"
+  ],
+  "total_any_role": 342639,
+  "total_suspect": 341660,
+  "serious": 221305,
+  "deaths": 23329,
+  "hospitalizations": 108637,
+  "life_threatening": 14930,
+  "disability": 15829,
+  "top_reactions": [
+    {
+      "term": "FATIGUE",
+      "count": 31780
+    },
+    {
+      "term": "NAUSEA",
+      "count": 24698
+    },
+    {
+      "term": "OFF LABEL USE",
+      "count": 24279
+    },
+    {
+      "term": "DIARRHOEA",
+      "count": 23502
+    },
+    {
+      "term": "HEADACHE",
+      "count": 21727
+    },
+    {
+      "term": "DRUG INEFFECTIVE",
+      "count": 21291
+    },
+    {
+      "term": "PAIN",
+      "count": 20355
+    },
+    {
+      "term": "ARTHRALGIA",
+      "count": 18833
+    },
+    {
+      "term": "DYSPNOEA",
+      "count": 17703
+    },
+    {
+      "term": "DIZZINESS",
+      "count": 17522
+    },
+    {
+      "term": "ASTHENIA",
+      "count": 15638
+    },
+    {
+      "term": "FALL",
+      "count": 15332
+    },
+    {
+      "term": "VOMITING",
+      "count": 14503
+    },
+    {
+      "term": "PAIN IN EXTREMITY",
+      "count": 13412
+    },
+    {
+      "term": "MALAISE",
+      "count": 13077
+    }
+  ],
+  "reporter_qualification": [
+    {
+      "term": 5,
+      "count": 152417
+    },
+    {
+      "term": 1,
+      "count": 76258
+    },
+    {
+      "term": 3,
+      "count": 68515
+    },
+    {
+      "term": 2,
+      "count": 26542
+    },
+    {
+      "term": 4,
+      "count": 2880
+    }
+  ],
+  "trend": {
+    "2012": 9385,
+    "2013": 13077,
+    "2014": 14905,
+    "2015": 22994,
+    "2016": 23613,
+    "2017": 21423,
+    "2018": 22084,
+    "2019": 19402,
+    "2020": 19940,
+    "2021": 21259,
+    "2022": 26671,
+    "2023": 25183,
+    "2024": 24924,
+    "2025": 27745,
+    "2026": 23451
+  },
+  "trials_registered": 1909,
+  "pubmed_rcts": 4512
+}

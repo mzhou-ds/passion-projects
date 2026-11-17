@@ -1,0 +1,118 @@
+{
+  "label": "sirolimus",
+  "group": "pharma",
+  "faers_names": [
+    "sirolimus",
+    "rapamycin"
+  ],
+  "total_any_role": 14997,
+  "total_suspect": 14886,
+  "serious": 12769,
+  "deaths": 2483,
+  "hospitalizations": 5177,
+  "life_threatening": 1074,
+  "disability": 129,
+  "top_reactions": [
+    {
+      "term": "OFF LABEL USE",
+      "count": 2213
+    },
+    {
+      "term": "DRUG INEFFECTIVE",
+      "count": 1185
+    },
+    {
+      "term": "PRODUCT USE IN UNAPPROVED INDICATION",
+      "count": 808
+    },
+    {
+      "term": "DIARRHOEA",
+      "count": 602
+    },
+    {
+      "term": "PYREXIA",
+      "count": 591
+    },
+    {
+      "term": "PNEUMONIA",
+      "count": 554
+    },
+    {
+      "term": "ACUTE KIDNEY INJURY",
+      "count": 444
+    },
+    {
+      "term": "TRANSPLANT REJECTION",
+      "count": 417
+    },
+    {
+      "term": "DRUG INTERACTION",
+      "count": 405
+    },
+    {
+      "term": "THROMBOTIC MICROANGIOPATHY",
+      "count": 402
+    },
+    {
+      "term": "CYTOMEGALOVIRUS INFECTION",
+      "count": 371
+    },
+    {
+      "term": "NAUSEA",
+      "count": 365
+    },
+    {
+      "term": "DEATH",
+      "count": 355
+    },
+    {
+      "term": "SEPSIS",
+      "count": 347
+    },
+    {
+      "term": "INFECTION",
+      "count": 338
+    }
+  ],
+  "reporter_qualification": [
+    {
+      "term": 3,
+      "count": 7504
+    },
+    {
+      "term": 1,
+      "count": 4513
+    },
+    {
+      "term": 5,
+      "count": 1495
+    },
+    {
+      "term": 2,
+      "count": 755
+    },
+    {
+      "term": 4,
+      "count": 17
+    }
+  ],
+  "trend": {
+    "2012": 220,
+    "2013": 260,
+    "2014": 253,
+    "2015": 363,
+    "2016": 442,
+    "2017": 616,
+    "2018": 903,
+    "2019": 1072,
+    "2020": 1097,
+    "2021": 1100,
+    "2022": 1260,
+    "2023": 1158,
+    "2024": 1473,
+    "2025": 1662,
+    "2026": 1154
+  },
+  "trials_registered": 1080,
+  "pubmed_rcts": 965
+}

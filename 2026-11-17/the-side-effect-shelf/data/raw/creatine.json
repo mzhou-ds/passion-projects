@@ -1,0 +1,120 @@
+{
+  "label": "creatine",
+  "group": "control",
+  "faers_names": [
+    "creatine"
+  ],
+  "total_any_role": 1143,
+  "total_suspect": 1139,
+  "serious": 691,
+  "deaths": 42,
+  "hospitalizations": 348,
+  "life_threatening": 63,
+  "disability": 76,
+  "top_reactions": [
+    {
+      "term": "SOMNOLENCE",
+      "count": 123
+    },
+    {
+      "term": "GASTROOESOPHAGEAL REFLUX DISEASE",
+      "count": 98
+    },
+    {
+      "term": "PNEUMONIA ASPIRATION",
+      "count": 94
+    },
+    {
+      "term": "COMA",
+      "count": 93
+    },
+    {
+      "term": "FATIGUE",
+      "count": 78
+    },
+    {
+      "term": "OFF LABEL USE",
+      "count": 74
+    },
+    {
+      "term": "NAUSEA",
+      "count": 70
+    },
+    {
+      "term": "HEADACHE",
+      "count": 54
+    },
+    {
+      "term": "PRURITUS",
+      "count": 50
+    },
+    {
+      "term": "ANXIETY",
+      "count": 49
+    },
+    {
+      "term": "DRUG INEFFECTIVE",
+      "count": 48
+    },
+    {
+      "term": "DIZZINESS",
+      "count": 46
+    },
+    {
+      "term": "DIARRHOEA",
+      "count": 43
+    },
+    {
+      "term": "INSOMNIA",
+      "count": 41
+    },
+    {
+      "term": "PAIN",
+      "count": 39
+    }
+  ],
+  "reporter_qualification": [
+    {
+      "term": 5,
+      "count": 515
+    },
+    {
+      "term": 3,
+      "count": 293
+    },
+    {
+      "term": 1,
+      "count": 225
+    },
+    {
+      "term": 2,
+      "count": 32
+    },
+    {
+      "term": 4,
+      "count": 3
+    }
+  ],
+  "trend": {
+    "2012": 10,
+    "2013": 11,
+    "2014": 22,
+    "2015": 42,
+    "2016": 52,
+    "2017": 47,
+    "2018": 52,
+    "2019": 78,
+    "2020": 78,
+    "2021": 70,
+    "2022": 86,
+    "2023": 90,
+    "2024": 79,
+    "2025": 139,
+    "2026": 229
+  },
+  "trials_registered": 202,
+  "pubmed_rcts": 2872,
+  "liver_reaction_reports": 32,
+  "drug_interaction_reports": 13,
+  "serotonin_syndrome_reports": 5
+}

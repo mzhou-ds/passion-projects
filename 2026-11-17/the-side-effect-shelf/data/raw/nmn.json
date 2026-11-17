@@ -1,0 +1,89 @@
+{
+  "label": "NMN",
+  "group": "shelf",
+  "faers_names": [
+    "nicotinamide mononucleotide"
+  ],
+  "total_any_role": 4,
+  "total_suspect": 4,
+  "serious": 1,
+  "deaths": 0,
+  "hospitalizations": 0,
+  "life_threatening": 0,
+  "disability": 1,
+  "top_reactions": [
+    {
+      "term": "ABDOMINAL DISCOMFORT",
+      "count": 2
+    },
+    {
+      "term": "BLOOD PRESSURE INCREASED",
+      "count": 2
+    },
+    {
+      "term": "FEELING ABNORMAL",
+      "count": 2
+    },
+    {
+      "term": "GASTROOESOPHAGEAL REFLUX DISEASE",
+      "count": 2
+    },
+    {
+      "term": "THIRST",
+      "count": 2
+    },
+    {
+      "term": "ANXIETY",
+      "count": 1
+    },
+    {
+      "term": "BONE PAIN",
+      "count": 1
+    },
+    {
+      "term": "BRAIN FOG",
+      "count": 1
+    },
+    {
+      "term": "COGNITIVE DISORDER",
+      "count": 1
+    },
+    {
+      "term": "DRUG INEFFECTIVE",
+      "count": 1
+    },
+    {
+      "term": "ERECTILE DYSFUNCTION",
+      "count": 1
+    },
+    {
+      "term": "FATIGUE",
+      "count": 1
+    },
+    {
+      "term": "GENITAL ANAESTHESIA",
+      "count": 1
+    },
+    {
+      "term": "LETHARGY",
+      "count": 1
+    },
+    {
+      "term": "LOSS OF LIBIDO",
+      "count": 1
+    }
+  ],
+  "reporter_qualification": [
+    {
+      "term": 5,
+      "count": 3
+    },
+    {
+      "term": 2,
+      "count": 1
+    }
+  ],
+  "trend": {},
+  "trials_registered": 17,
+  "pubmed_rcts": 17
+}

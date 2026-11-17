@@ -1,0 +1,74 @@
+# Build #71 — The Side-Effect Shelf
+# FDA FAERS (openFDA drug event), ClinicalTrials.gov, PubMed. Data fetched 2026-11-17.
+# 24 compounds: 16 on the biohacking shelf, 5 controls, 3 pharma benchmarks.
+# FAERS counts are reports naming the molecule as the SUSPECT drug, 2004-Oct 2026.
+# "Deaths named" = death was the reported outcome, not adjudicated causation.
+# No denominators: these are counts, not incidence rates.
+
+1. METHYLENE BLUE'S #1 ADVERSE EVENT IS SEROTONIN SYNDROME. 455 reports list
+   serotonin syndrome, 29.1% of its 1,564 suspect reports, and 2.5% of all
+   18,029 serotonin-syndrome suspect reports in FAERS name methylene blue.
+   Its serious share is 92.8%, the highest of all 24 compounds in the build
+   (sirolimus 85.8%, caffeine 84.2%, BPC-157 87.5%). 247 deaths named, 935
+   hospitalizations, 338 drug-interaction reports. 93% of its reports are
+   filed by clinicians (56% other health professionals, 29% physicians),
+   reflecting hospital IV use, not supplement use. FDA warned about this
+   exact interaction in a Drug Safety Communication, July 2011 (updated Oct
+   2011): methylene blue inhibits MAO-A; cases were mostly IV 1-8 mg/kg
+   during surgery in patients on SSRIs, SNRIs, or clomipramine; oral risk
+   stated as not known.
+
+2. THE SHELF, COUNTED. 9,386 suspect reports across 16 molecules; 5,789
+   serious (61.7%); 2,539 hospitalizations; 685 life-threatening; 476
+   disability; 562 deaths named. By compound: DHEA 2,308 (53% serious, 70
+   deaths), methylene blue 1,564 (93%, 247), quercetin 1,549 (51%, 45),
+   resveratrol 1,201 (53%, 57), berberine 1,014 (59%, 61), taurine 852
+   (70%, 61; seizure 46), pregnenolone 392 (54%, 6), ashwagandha 334
+   (51%, 13), lithium orotate 80 (59%, 0). Methylene blue alone is 44% of
+   the shelf's deaths and 37% of its hospitalizations. Everywhere else the
+   top reactions are generic: fatigue, nausea, headache, diarrhoea.
+
+3. THE REPORTS ARE COMPOUNDING. 2012 to 2025: berberine 10 to 206 reports
+   per year (20.6x, ~26% CAGR), quercetin 9 to 283 (31.4x, ~30% CAGR),
+   creatine 10 to 139 (13.9x), melatonin 493 to 6,264 (12.7x), methylene
+   blue 39 to 241 (6.2x), caffeine 499 to 2,443 (4.9x). The whole FAERS
+   database grew only 2.5x over the same period (551,378 to 1,386,644).
+   Berberine's reporting grew ~8x faster than the database; quercetin's
+   ~12x faster.
+
+4. EVIDENCE DENSITY IS THE DISCRIMINATOR. Reports per published RCT:
+   creatine 0.40 (2,872 RCTs, 1,139 reports), NMN 0.24 (17 RCTs, 4
+   reports), urolithin A 0.22 (27 RCTs, 6 reports), NR 1.35 (31 RCTs, 42
+   reports), methylene blue 3.93 (398 RCTs, 1,564 reports), DHEA 3.58
+   (644 RCTs, 2,308 reports), taurine 3.52 (242 RCTs, 852 reports),
+   resveratrol 4.38 (274 RCTs, 1,201 reports), ashwagandha 6.19 (54 RCTs,
+   334 reports), quercetin 6.40 (242 RCTs, 1,549 reports), berberine 8.97
+   (113 RCTs, 1,014 reports), pregnenolone 10.32 (38 RCTs, 392 reports).
+   BPC-157: 24 reports, 0 RCTs, 3 registered trials. Lithium orotate: 80
+   reports, 0 RCTs, 2 registered trials.
+
+5. TWO WORLDS OF HARM VISIBILITY. Consumer-filed share of reports:
+   lithium orotate 81%, quercetin 68%, ashwagandha 64%, resveratrol 61%,
+   berberine 58%, pregnenolone 56%, DHEA 53%, creatine 48%, taurine 48%.
+   Report-weighted across the shelf, about half of all reports are filed
+   by consumers (4,261 of 8,576 with reporter data). Methylene blue: 7%
+   consumer. Sirolimus: 10% consumer. The shelf's safety signal lives
+   outside the medical literature; methylene blue's lives inside hospitals.
+
+6. WHAT DID NOT SHOW UP. Liver-injury reactions in direct-search counts:
+   creatine 32, taurine 22, DHEA 16, berberine 15, resveratrol 11,
+   quercetin 10, ashwagandha 5. Small everywhere; the published
+   ashwagandha liver-injury cases do not dominate FAERS. Serotonin
+   syndrome for every other shelf compound: 0 to 1 reports, except taurine
+   (7) and creatine (5). Methylene blue's 455 is a total outlier, 65x the
+   next-highest shelf compound.
+
+7. DATA ARTIFACTS FLAGGED, NOT HIDDEN. DHEA reports collapse from
+   75-392/year (2012-2021) to 8-12/year (2022-2026) with no query change;
+   treated as a reporting/product-name break, DHEA excluded from trend
+   conclusions. Vitamin D (341,660), magnesium (221,916), melatonin
+   (57,174), caffeine (24,796), metformin (437,440) totals are inflated by
+   co-reporting in hospitalized patients on many drugs; they are not used
+   to normalize the shelf. 2026 is a partial year (openFDA data through
+   Oct 28, 2026). Methylene blue drug-interaction count differs slightly
+   by endpoint: 338 (count) vs 347 (direct search); 338 is cited.

@@ -1,0 +1,85 @@
+{
+  "label": "urolithin A",
+  "group": "shelf",
+  "faers_names": [
+    "urolithin a"
+  ],
+  "total_any_role": 6,
+  "total_suspect": 6,
+  "serious": 4,
+  "deaths": 0,
+  "hospitalizations": 1,
+  "life_threatening": 0,
+  "disability": 2,
+  "top_reactions": [
+    {
+      "term": "DIZZINESS",
+      "count": 2
+    },
+    {
+      "term": "HEADACHE",
+      "count": 2
+    },
+    {
+      "term": "ABDOMINAL DISCOMFORT",
+      "count": 1
+    },
+    {
+      "term": "ARTHRALGIA",
+      "count": 1
+    },
+    {
+      "term": "ARTHROPOD BITE",
+      "count": 1
+    },
+    {
+      "term": "AUTOIMMUNE DISORDER",
+      "count": 1
+    },
+    {
+      "term": "BACK PAIN",
+      "count": 1
+    },
+    {
+      "term": "BLOOD GLUCOSE DECREASED",
+      "count": 1
+    },
+    {
+      "term": "BLOOD TEST ABNORMAL",
+      "count": 1
+    },
+    {
+      "term": "BLOOD UREA INCREASED",
+      "count": 1
+    },
+    {
+      "term": "CONFUSIONAL STATE",
+      "count": 1
+    },
+    {
+      "term": "DECREASED APPETITE",
+      "count": 1
+    },
+    {
+      "term": "DEHYDRATION",
+      "count": 1
+    },
+    {
+      "term": "DIARRHOEA",
+      "count": 1
+    },
+    {
+      "term": "DISCOMFORT",
+      "count": 1
+    }
+  ],
+  "reporter_qualification": [
+    {
+      "term": 5,
+      "count": 6
+    }
+  ],
+  "trend": {},
+  "trials_registered": 19,
+  "pubmed_rcts": 27
+}

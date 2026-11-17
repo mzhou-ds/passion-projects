@@ -1,0 +1,85 @@
+{
+  "label": "fisetin",
+  "group": "shelf",
+  "faers_names": [
+    "fisetin"
+  ],
+  "total_any_role": 9,
+  "total_suspect": 8,
+  "serious": 6,
+  "deaths": 1,
+  "hospitalizations": 1,
+  "life_threatening": 1,
+  "disability": 3,
+  "top_reactions": [
+    {
+      "term": "FATIGUE",
+      "count": 4
+    },
+    {
+      "term": "LOSS OF CONSCIOUSNESS",
+      "count": 2
+    },
+    {
+      "term": "ABSCESS",
+      "count": 1
+    },
+    {
+      "term": "ASTHENIA",
+      "count": 1
+    },
+    {
+      "term": "BLOOD GLUCOSE INCREASED",
+      "count": 1
+    },
+    {
+      "term": "BLOOD SODIUM DECREASED",
+      "count": 1
+    },
+    {
+      "term": "CELLULITIS",
+      "count": 1
+    },
+    {
+      "term": "CEREBRAL HAEMORRHAGE",
+      "count": 1
+    },
+    {
+      "term": "COMA",
+      "count": 1
+    },
+    {
+      "term": "CONCUSSION",
+      "count": 1
+    },
+    {
+      "term": "COVID-19",
+      "count": 1
+    },
+    {
+      "term": "DEATH",
+      "count": 1
+    },
+    {
+      "term": "DERMATITIS",
+      "count": 1
+    },
+    {
+      "term": "DRUG EFFECT INCOMPLETE",
+      "count": 1
+    },
+    {
+      "term": "DRUG EFFECT LESS THAN EXPECTED",
+      "count": 1
+    }
+  ],
+  "reporter_qualification": [
+    {
+      "term": 5,
+      "count": 8
+    }
+  ],
+  "trend": {},
+  "trials_registered": 33,
+  "pubmed_rcts": 7
+}

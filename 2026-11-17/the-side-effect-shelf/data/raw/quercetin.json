@@ -1,0 +1,120 @@
+{
+  "label": "quercetin",
+  "group": "shelf",
+  "faers_names": [
+    "quercetin"
+  ],
+  "total_any_role": 1550,
+  "total_suspect": 1549,
+  "serious": 795,
+  "deaths": 45,
+  "hospitalizations": 224,
+  "life_threatening": 27,
+  "disability": 96,
+  "top_reactions": [
+    {
+      "term": "FATIGUE",
+      "count": 221
+    },
+    {
+      "term": "HEADACHE",
+      "count": 124
+    },
+    {
+      "term": "DRUG INEFFECTIVE",
+      "count": 109
+    },
+    {
+      "term": "NAUSEA",
+      "count": 108
+    },
+    {
+      "term": "DIARRHOEA",
+      "count": 107
+    },
+    {
+      "term": "DIZZINESS",
+      "count": 98
+    },
+    {
+      "term": "OFF LABEL USE",
+      "count": 94
+    },
+    {
+      "term": "PAIN",
+      "count": 88
+    },
+    {
+      "term": "PRURITUS",
+      "count": 86
+    },
+    {
+      "term": "ARTHRALGIA",
+      "count": 84
+    },
+    {
+      "term": "DYSPNOEA",
+      "count": 82
+    },
+    {
+      "term": "COVID-19",
+      "count": 72
+    },
+    {
+      "term": "PRODUCT DOSE OMISSION ISSUE",
+      "count": 69
+    },
+    {
+      "term": "RASH",
+      "count": 69
+    },
+    {
+      "term": "ANXIETY",
+      "count": 67
+    }
+  ],
+  "reporter_qualification": [
+    {
+      "term": 5,
+      "count": 1007
+    },
+    {
+      "term": 3,
+      "count": 236
+    },
+    {
+      "term": 1,
+      "count": 185
+    },
+    {
+      "term": 2,
+      "count": 48
+    },
+    {
+      "term": 4,
+      "count": 11
+    }
+  ],
+  "trend": {
+    "2012": 9,
+    "2013": 9,
+    "2014": 20,
+    "2015": 52,
+    "2016": 43,
+    "2017": 38,
+    "2018": 57,
+    "2019": 59,
+    "2020": 54,
+    "2021": 122,
+    "2022": 176,
+    "2023": 196,
+    "2024": 195,
+    "2025": 283,
+    "2026": 195
+  },
+  "trials_registered": 84,
+  "pubmed_rcts": 242,
+  "liver_reaction_reports": 10,
+  "drug_interaction_reports": 10,
+  "serotonin_syndrome_reports": 1
+}

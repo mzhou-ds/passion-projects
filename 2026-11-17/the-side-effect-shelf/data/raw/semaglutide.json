@@ -1,0 +1,117 @@
+{
+  "label": "semaglutide",
+  "group": "pharma",
+  "faers_names": [
+    "semaglutide"
+  ],
+  "total_any_role": 8260,
+  "total_suspect": 8076,
+  "serious": 6075,
+  "deaths": 249,
+  "hospitalizations": 3001,
+  "life_threatening": 576,
+  "disability": 223,
+  "top_reactions": [
+    {
+      "term": "NAUSEA",
+      "count": 1125
+    },
+    {
+      "term": "VOMITING",
+      "count": 992
+    },
+    {
+      "term": "DIARRHOEA",
+      "count": 678
+    },
+    {
+      "term": "OFF LABEL USE",
+      "count": 516
+    },
+    {
+      "term": "DRUG INEFFECTIVE",
+      "count": 506
+    },
+    {
+      "term": "FATIGUE",
+      "count": 477
+    },
+    {
+      "term": "WEIGHT DECREASED",
+      "count": 457
+    },
+    {
+      "term": "DYSPNOEA",
+      "count": 417
+    },
+    {
+      "term": "WEIGHT INCREASED",
+      "count": 375
+    },
+    {
+      "term": "DIZZINESS",
+      "count": 374
+    },
+    {
+      "term": "HEADACHE",
+      "count": 352
+    },
+    {
+      "term": "CONSTIPATION",
+      "count": 324
+    },
+    {
+      "term": "ACUTE KIDNEY INJURY",
+      "count": 312
+    },
+    {
+      "term": "MALAISE",
+      "count": 311
+    },
+    {
+      "term": "ABDOMINAL PAIN",
+      "count": 302
+    }
+  ],
+  "reporter_qualification": [
+    {
+      "term": 5,
+      "count": 2677
+    },
+    {
+      "term": 3,
+      "count": 2303
+    },
+    {
+      "term": 1,
+      "count": 1889
+    },
+    {
+      "term": 2,
+      "count": 1115
+    },
+    {
+      "term": 4,
+      "count": 10
+    }
+  ],
+  "trend": {
+    "2012": 0,
+    "2013": 0,
+    "2014": 0,
+    "2015": 0,
+    "2016": 0,
+    "2017": 2,
+    "2018": 15,
+    "2019": 204,
+    "2020": 411,
+    "2021": 331,
+    "2022": 470,
+    "2023": 898,
+    "2024": 1458,
+    "2025": 1987,
+    "2026": 2300
+  },
+  "trials_registered": 635,
+  "pubmed_rcts": 317
+}

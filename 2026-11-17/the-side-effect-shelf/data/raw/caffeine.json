@@ -1,0 +1,117 @@
+{
+  "label": "caffeine",
+  "group": "control",
+  "faers_names": [
+    "caffeine"
+  ],
+  "total_any_role": 24935,
+  "total_suspect": 24796,
+  "serious": 20873,
+  "deaths": 6145,
+  "hospitalizations": 8978,
+  "life_threatening": 3676,
+  "disability": 3309,
+  "top_reactions": [
+    {
+      "term": "PAIN",
+      "count": 3301
+    },
+    {
+      "term": "DRUG INEFFECTIVE",
+      "count": 3166
+    },
+    {
+      "term": "FATIGUE",
+      "count": 3025
+    },
+    {
+      "term": "HEADACHE",
+      "count": 2777
+    },
+    {
+      "term": "NAUSEA",
+      "count": 2523
+    },
+    {
+      "term": "OFF LABEL USE",
+      "count": 2490
+    },
+    {
+      "term": "ARTHRALGIA",
+      "count": 2372
+    },
+    {
+      "term": "ABDOMINAL DISCOMFORT",
+      "count": 2245
+    },
+    {
+      "term": "ALOPECIA",
+      "count": 2240
+    },
+    {
+      "term": "DYSPNOEA",
+      "count": 2224
+    },
+    {
+      "term": "RASH",
+      "count": 2212
+    },
+    {
+      "term": "VOMITING",
+      "count": 2160
+    },
+    {
+      "term": "TOXICITY TO VARIOUS AGENTS",
+      "count": 2144
+    },
+    {
+      "term": "CONDITION AGGRAVATED",
+      "count": 2132
+    },
+    {
+      "term": "DIARRHOEA",
+      "count": 2131
+    }
+  ],
+  "reporter_qualification": [
+    {
+      "term": 3,
+      "count": 8794
+    },
+    {
+      "term": 5,
+      "count": 7923
+    },
+    {
+      "term": 1,
+      "count": 5410
+    },
+    {
+      "term": 2,
+      "count": 1239
+    },
+    {
+      "term": 4,
+      "count": 450
+    }
+  ],
+  "trend": {
+    "2012": 499,
+    "2013": 653,
+    "2014": 542,
+    "2015": 720,
+    "2016": 934,
+    "2017": 708,
+    "2018": 1290,
+    "2019": 1485,
+    "2020": 1629,
+    "2021": 1799,
+    "2022": 2303,
+    "2023": 2734,
+    "2024": 2667,
+    "2025": 2443,
+    "2026": 1799
+  },
+  "trials_registered": 508,
+  "pubmed_rcts": 2087
+}

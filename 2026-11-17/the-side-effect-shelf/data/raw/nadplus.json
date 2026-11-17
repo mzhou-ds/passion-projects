@@ -1,0 +1,89 @@
+{
+  "label": "NAD+",
+  "group": "shelf",
+  "faers_names": [
+    "nicotinamide adenine dinucleotide"
+  ],
+  "total_any_role": 5,
+  "total_suspect": 5,
+  "serious": 4,
+  "deaths": 0,
+  "hospitalizations": 2,
+  "life_threatening": 1,
+  "disability": 1,
+  "top_reactions": [
+    {
+      "term": "MUSCLE SPASMS",
+      "count": 2
+    },
+    {
+      "term": "NAUSEA",
+      "count": 2
+    },
+    {
+      "term": "ABDOMINAL PAIN",
+      "count": 1
+    },
+    {
+      "term": "APLASTIC ANAEMIA",
+      "count": 1
+    },
+    {
+      "term": "BLOOD URINE PRESENT",
+      "count": 1
+    },
+    {
+      "term": "DIARRHOEA HAEMORRHAGIC",
+      "count": 1
+    },
+    {
+      "term": "ERECTILE DYSFUNCTION",
+      "count": 1
+    },
+    {
+      "term": "FATIGUE",
+      "count": 1
+    },
+    {
+      "term": "HYPERAESTHESIA",
+      "count": 1
+    },
+    {
+      "term": "HYPOKINESIA",
+      "count": 1
+    },
+    {
+      "term": "LETHARGY",
+      "count": 1
+    },
+    {
+      "term": "LOSS OF LIBIDO",
+      "count": 1
+    },
+    {
+      "term": "MANIA",
+      "count": 1
+    },
+    {
+      "term": "MUSCLE RIGIDITY",
+      "count": 1
+    },
+    {
+      "term": "PAIN",
+      "count": 1
+    }
+  ],
+  "reporter_qualification": [
+    {
+      "term": 5,
+      "count": 3
+    },
+    {
+      "term": 2,
+      "count": 1
+    }
+  ],
+  "trend": {},
+  "trials_registered": 22,
+  "pubmed_rcts": 72
+}

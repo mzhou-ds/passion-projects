@@ -1,0 +1,2609 @@
+{
+  "berberine": {
+    "label": "berberine",
+    "group": "shelf",
+    "faers_names": [
+      "berberine"
+    ],
+    "total_any_role": 1021,
+    "total_suspect": 1014,
+    "serious": 596,
+    "deaths": 61,
+    "hospitalizations": 252,
+    "life_threatening": 56,
+    "disability": 50,
+    "top_reactions": [
+      {
+        "term": "DIARRHOEA",
+        "count": 120
+      },
+      {
+        "term": "FATIGUE",
+        "count": 110
+      },
+      {
+        "term": "NAUSEA",
+        "count": 92
+      },
+      {
+        "term": "HEADACHE",
+        "count": 77
+      },
+      {
+        "term": "DRUG INEFFECTIVE",
+        "count": 70
+      },
+      {
+        "term": "DIZZINESS",
+        "count": 59
+      },
+      {
+        "term": "PAIN",
+        "count": 56
+      },
+      {
+        "term": "OFF LABEL USE",
+        "count": 52
+      },
+      {
+        "term": "ARTHRALGIA",
+        "count": 50
+      },
+      {
+        "term": "BLOOD GLUCOSE INCREASED",
+        "count": 50
+      },
+      {
+        "term": "PRODUCT DOSE OMISSION ISSUE",
+        "count": 47
+      },
+      {
+        "term": "ABDOMINAL PAIN",
+        "count": 45
+      },
+      {
+        "term": "CONSTIPATION",
+        "count": 45
+      },
+      {
+        "term": "VOMITING",
+        "count": 45
+      },
+      {
+        "term": "MUSCLE SPASMS",
+        "count": 42
+      }
+    ],
+    "reporter_qualification": [
+      {
+        "term": 5,
+        "count": 577
+      },
+      {
+        "term": 1,
+        "count": 204
+      },
+      {
+        "term": 3,
+        "count": 181
+      },
+      {
+        "term": 2,
+        "count": 32
+      },
+      {
+        "term": 4,
+        "count": 6
+      }
+    ],
+    "trend": {
+      "2012": 10,
+      "2013": 11,
+      "2014": 5,
+      "2015": 14,
+      "2016": 15,
+      "2017": 25,
+      "2018": 45,
+      "2019": 50,
+      "2020": 41,
+      "2021": 51,
+      "2022": 67,
+      "2023": 91,
+      "2024": 120,
+      "2025": 206,
+      "2026": 232
+    },
+    "trials_registered": 83,
+    "pubmed_rcts": 113,
+    "liver_reaction_reports": 15,
+    "drug_interaction_reports": 12,
+    "serotonin_syndrome_reports": 0
+  },
+  "methylene blue": {
+    "label": "methylene blue",
+    "group": "shelf",
+    "faers_names": [
+      "methylene blue"
+    ],
+    "total_any_role": 1629,
+    "total_suspect": 1564,
+    "serious": 1451,
+    "deaths": 247,
+    "hospitalizations": 935,
+    "life_threatening": 460,
+    "disability": 15,
+    "top_reactions": [
+      {
+        "term": "SEROTONIN SYNDROME",
+        "count": 455
+      },
+      {
+        "term": "DRUG INTERACTION",
+        "count": 338
+      },
+      {
+        "term": "DRUG INEFFECTIVE",
+        "count": 305
+      },
+      {
+        "term": "HYPOTENSION",
+        "count": 195
+      },
+      {
+        "term": "OFF LABEL USE",
+        "count": 191
+      },
+      {
+        "term": "TOXICITY TO VARIOUS AGENTS",
+        "count": 144
+      },
+      {
+        "term": "OVERDOSE",
+        "count": 104
+      },
+      {
+        "term": "INTENTIONAL OVERDOSE",
+        "count": 100
+      },
+      {
+        "term": "ENCEPHALOPATHY",
+        "count": 88
+      },
+      {
+        "term": "CONFUSIONAL STATE",
+        "count": 79
+      },
+      {
+        "term": "AGITATION",
+        "count": 75
+      },
+      {
+        "term": "ACUTE KIDNEY INJURY",
+        "count": 72
+      },
+      {
+        "term": "VASOPLEGIA SYNDROME",
+        "count": 71
+      },
+      {
+        "term": "CARDIAC ARREST",
+        "count": 64
+      },
+      {
+        "term": "SHOCK",
+        "count": 64
+      }
+    ],
+    "reporter_qualification": [
+      {
+        "term": 3,
+        "count": 833
+      },
+      {
+        "term": 1,
+        "count": 431
+      },
+      {
+        "term": 2,
+        "count": 113
+      },
+      {
+        "term": 5,
+        "count": 111
+      },
+      {
+        "term": 4,
+        "count": 5
+      }
+    ],
+    "trend": {
+      "2012": 39,
+      "2013": 55,
+      "2014": 25,
+      "2015": 39,
+      "2016": 71,
+      "2017": 36,
+      "2018": 81,
+      "2019": 78,
+      "2020": 91,
+      "2021": 90,
+      "2022": 125,
+      "2023": 134,
+      "2024": 137,
+      "2025": 241,
+      "2026": 126
+    },
+    "trials_registered": 130,
+    "pubmed_rcts": 398,
+    "liver_reaction_reports": 25,
+    "drug_interaction_reports": 347,
+    "serotonin_syndrome_reports": 455
+  },
+  "quercetin": {
+    "label": "quercetin",
+    "group": "shelf",
+    "faers_names": [
+      "quercetin"
+    ],
+    "total_any_role": 1550,
+    "total_suspect": 1549,
+    "serious": 795,
+    "deaths": 45,
+    "hospitalizations": 224,
+    "life_threatening": 27,
+    "disability": 96,
+    "top_reactions": [
+      {
+        "term": "FATIGUE",
+        "count": 221
+      },
+      {
+        "term": "HEADACHE",
+        "count": 124
+      },
+      {
+        "term": "DRUG INEFFECTIVE",
+        "count": 109
+      },
+      {
+        "term": "NAUSEA",
+        "count": 108
+      },
+      {
+        "term": "DIARRHOEA",
+        "count": 107
+      },
+      {
+        "term": "DIZZINESS",
+        "count": 98
+      },
+      {
+        "term": "OFF LABEL USE",
+        "count": 94
+      },
+      {
+        "term": "PAIN",
+        "count": 88
+      },
+      {
+        "term": "PRURITUS",
+        "count": 86
+      },
+      {
+        "term": "ARTHRALGIA",
+        "count": 84
+      },
+      {
+        "term": "DYSPNOEA",
+        "count": 82
+      },
+      {
+        "term": "COVID-19",
+        "count": 72
+      },
+      {
+        "term": "PRODUCT DOSE OMISSION ISSUE",
+        "count": 69
+      },
+      {
+        "term": "RASH",
+        "count": 69
+      },
+      {
+        "term": "ANXIETY",
+        "count": 67
+      }
+    ],
+    "reporter_qualification": [
+      {
+        "term": 5,
+        "count": 1007
+      },
+      {
+        "term": 3,
+        "count": 236
+      },
+      {
+        "term": 1,
+        "count": 185
+      },
+      {
+        "term": 2,
+        "count": 48
+      },
+      {
+        "term": 4,
+        "count": 11
+      }
+    ],
+    "trend": {
+      "2012": 9,
+      "2013": 9,
+      "2014": 20,
+      "2015": 52,
+      "2016": 43,
+      "2017": 38,
+      "2018": 57,
+      "2019": 59,
+      "2020": 54,
+      "2021": 122,
+      "2022": 176,
+      "2023": 196,
+      "2024": 195,
+      "2025": 283,
+      "2026": 195
+    },
+    "trials_registered": 84,
+    "pubmed_rcts": 242,
+    "liver_reaction_reports": 10,
+    "drug_interaction_reports": 10,
+    "serotonin_syndrome_reports": 1
+  },
+  "resveratrol": {
+    "label": "resveratrol",
+    "group": "shelf",
+    "faers_names": [
+      "resveratrol"
+    ],
+    "total_any_role": 1204,
+    "total_suspect": 1201,
+    "serious": 638,
+    "deaths": 57,
+    "hospitalizations": 237,
+    "life_threatening": 27,
+    "disability": 87,
+    "top_reactions": [
+      {
+        "term": "FATIGUE",
+        "count": 152
+      },
+      {
+        "term": "HEADACHE",
+        "count": 97
+      },
+      {
+        "term": "DIARRHOEA",
+        "count": 92
+      },
+      {
+        "term": "DYSPNOEA",
+        "count": 89
+      },
+      {
+        "term": "DRUG INEFFECTIVE",
+        "count": 82
+      },
+      {
+        "term": "NAUSEA",
+        "count": 81
+      },
+      {
+        "term": "DIZZINESS",
+        "count": 74
+      },
+      {
+        "term": "ARTHRALGIA",
+        "count": 69
+      },
+      {
+        "term": "ASTHENIA",
+        "count": 69
+      },
+      {
+        "term": "PAIN",
+        "count": 66
+      },
+      {
+        "term": "PRURITUS",
+        "count": 57
+      },
+      {
+        "term": "FEELING ABNORMAL",
+        "count": 56
+      },
+      {
+        "term": "COUGH",
+        "count": 49
+      },
+      {
+        "term": "WEIGHT DECREASED",
+        "count": 48
+      },
+      {
+        "term": "OFF LABEL USE",
+        "count": 47
+      }
+    ],
+    "reporter_qualification": [
+      {
+        "term": 5,
+        "count": 679
+      },
+      {
+        "term": 3,
+        "count": 190
+      },
+      {
+        "term": 1,
+        "count": 168
+      },
+      {
+        "term": 2,
+        "count": 72
+      },
+      {
+        "term": 4,
+        "count": 9
+      }
+    ],
+    "trend": {
+      "2012": 24,
+      "2013": 53,
+      "2014": 51,
+      "2015": 83,
+      "2016": 114,
+      "2017": 82,
+      "2018": 86,
+      "2019": 91,
+      "2020": 94,
+      "2021": 93,
+      "2022": 64,
+      "2023": 78,
+      "2024": 51,
+      "2025": 102,
+      "2026": 92
+    },
+    "trials_registered": 172,
+    "pubmed_rcts": 274,
+    "liver_reaction_reports": 11,
+    "drug_interaction_reports": 11,
+    "serotonin_syndrome_reports": 0
+  },
+  "DHEA": {
+    "label": "DHEA",
+    "group": "shelf",
+    "faers_names": [
+      "dehydroepiandrosterone",
+      "dhea"
+    ],
+    "total_any_role": 2308,
+    "total_suspect": 2308,
+    "serious": 1220,
+    "deaths": 70,
+    "hospitalizations": 481,
+    "life_threatening": 51,
+    "disability": 103,
+    "top_reactions": [
+      {
+        "term": "FATIGUE",
+        "count": 199
+      },
+      {
+        "term": "NAUSEA",
+        "count": 171
+      },
+      {
+        "term": "HEADACHE",
+        "count": 170
+      },
+      {
+        "term": "DRUG INEFFECTIVE",
+        "count": 148
+      },
+      {
+        "term": "DIARRHOEA",
+        "count": 118
+      },
+      {
+        "term": "DIZZINESS",
+        "count": 115
+      },
+      {
+        "term": "INSOMNIA",
+        "count": 109
+      },
+      {
+        "term": "PAIN",
+        "count": 98
+      },
+      {
+        "term": "DEPRESSION",
+        "count": 93
+      },
+      {
+        "term": "ASTHENIA",
+        "count": 92
+      },
+      {
+        "term": "ARTHRALGIA",
+        "count": 90
+      },
+      {
+        "term": "RASH",
+        "count": 90
+      },
+      {
+        "term": "FEELING ABNORMAL",
+        "count": 89
+      },
+      {
+        "term": "MALAISE",
+        "count": 87
+      },
+      {
+        "term": "ANXIETY",
+        "count": 79
+      }
+    ],
+    "reporter_qualification": [
+      {
+        "term": 5,
+        "count": 1004
+      },
+      {
+        "term": 3,
+        "count": 383
+      },
+      {
+        "term": 1,
+        "count": 372
+      },
+      {
+        "term": 2,
+        "count": 131
+      },
+      {
+        "term": 4,
+        "count": 12
+      }
+    ],
+    "trend": {
+      "2012": 75,
+      "2013": 123,
+      "2014": 125,
+      "2015": 239,
+      "2016": 392,
+      "2017": 229,
+      "2018": 207,
+      "2019": 210,
+      "2020": 226,
+      "2021": 146,
+      "2022": 11,
+      "2023": 10,
+      "2024": 8,
+      "2025": 12,
+      "2026": 12
+    },
+    "trials_registered": 118,
+    "pubmed_rcts": 644,
+    "liver_reaction_reports": 16,
+    "drug_interaction_reports": 22,
+    "serotonin_syndrome_reports": 1
+  },
+  "ashwagandha": {
+    "label": "ashwagandha",
+    "group": "shelf",
+    "faers_names": [
+      "ashwagandha"
+    ],
+    "total_any_role": 334,
+    "total_suspect": 334,
+    "serious": 169,
+    "deaths": 13,
+    "hospitalizations": 45,
+    "life_threatening": 6,
+    "disability": 29,
+    "top_reactions": [
+      {
+        "term": "FATIGUE",
+        "count": 28
+      },
+      {
+        "term": "NAUSEA",
+        "count": 28
+      },
+      {
+        "term": "ANXIETY",
+        "count": 26
+      },
+      {
+        "term": "HEADACHE",
+        "count": 26
+      },
+      {
+        "term": "PAIN",
+        "count": 24
+      },
+      {
+        "term": "DIARRHOEA",
+        "count": 23
+      },
+      {
+        "term": "DRUG INEFFECTIVE",
+        "count": 21
+      },
+      {
+        "term": "OFF LABEL USE",
+        "count": 20
+      },
+      {
+        "term": "INSOMNIA",
+        "count": 19
+      },
+      {
+        "term": "DEPRESSION",
+        "count": 18
+      },
+      {
+        "term": "WEIGHT INCREASED",
+        "count": 18
+      },
+      {
+        "term": "DIZZINESS",
+        "count": 17
+      },
+      {
+        "term": "DYSPNOEA",
+        "count": 15
+      },
+      {
+        "term": "ARTHRALGIA",
+        "count": 14
+      },
+      {
+        "term": "MALAISE",
+        "count": 14
+      }
+    ],
+    "reporter_qualification": [
+      {
+        "term": 5,
+        "count": 199
+      },
+      {
+        "term": 3,
+        "count": 53
+      },
+      {
+        "term": 1,
+        "count": 37
+      },
+      {
+        "term": 2,
+        "count": 20
+      },
+      {
+        "term": 4,
+        "count": 2
+      }
+    ],
+    "trend": {
+      "2012": 2,
+      "2013": 2,
+      "2014": 13,
+      "2015": 12,
+      "2016": 21,
+      "2017": 19,
+      "2018": 27,
+      "2019": 26,
+      "2020": 24,
+      "2021": 64,
+      "2022": 17,
+      "2023": 26,
+      "2024": 22,
+      "2025": 23,
+      "2026": 34
+    },
+    "trials_registered": 46,
+    "pubmed_rcts": 54,
+    "liver_reaction_reports": 5,
+    "drug_interaction_reports": 8,
+    "serotonin_syndrome_reports": 1
+  },
+  "nicotinamide riboside": {
+    "label": "nicotinamide riboside",
+    "group": "shelf",
+    "faers_names": [
+      "nicotinamide riboside"
+    ],
+    "total_any_role": 42,
+    "total_suspect": 42,
+    "serious": 25,
+    "deaths": 1,
+    "hospitalizations": 9,
+    "life_threatening": 1,
+    "disability": 3,
+    "top_reactions": [
+      {
+        "term": "DYSPNOEA",
+        "count": 11
+      },
+      {
+        "term": "ASTHENIA",
+        "count": 6
+      },
+      {
+        "term": "COUGH",
+        "count": 6
+      },
+      {
+        "term": "FATIGUE",
+        "count": 6
+      },
+      {
+        "term": "HEADACHE",
+        "count": 6
+      },
+      {
+        "term": "CONDITION AGGRAVATED",
+        "count": 5
+      },
+      {
+        "term": "HYPOTENSION",
+        "count": 5
+      },
+      {
+        "term": "DIARRHOEA",
+        "count": 4
+      },
+      {
+        "term": "NAUSEA",
+        "count": 4
+      },
+      {
+        "term": "PRODUCT DOSE OMISSION ISSUE",
+        "count": 4
+      },
+      {
+        "term": "THROAT IRRITATION",
+        "count": 4
+      },
+      {
+        "term": "ANXIETY",
+        "count": 3
+      },
+      {
+        "term": "DEPRESSION",
+        "count": 3
+      },
+      {
+        "term": "DIZZINESS",
+        "count": 3
+      },
+      {
+        "term": "DRUG INEFFECTIVE",
+        "count": 3
+      }
+    ],
+    "reporter_qualification": [
+      {
+        "term": 5,
+        "count": 33
+      },
+      {
+        "term": 3,
+        "count": 5
+      },
+      {
+        "term": 1,
+        "count": 2
+      }
+    ],
+    "trend": {},
+    "trials_registered": 92,
+    "pubmed_rcts": 31,
+    "liver_reaction_reports": 2,
+    "drug_interaction_reports": 0,
+    "serotonin_syndrome_reports": 0
+  },
+  "NMN": {
+    "label": "NMN",
+    "group": "shelf",
+    "faers_names": [
+      "nicotinamide mononucleotide"
+    ],
+    "total_any_role": 4,
+    "total_suspect": 4,
+    "serious": 1,
+    "deaths": 0,
+    "hospitalizations": 0,
+    "life_threatening": 0,
+    "disability": 1,
+    "top_reactions": [
+      {
+        "term": "ABDOMINAL DISCOMFORT",
+        "count": 2
+      },
+      {
+        "term": "BLOOD PRESSURE INCREASED",
+        "count": 2
+      },
+      {
+        "term": "FEELING ABNORMAL",
+        "count": 2
+      },
+      {
+        "term": "GASTROOESOPHAGEAL REFLUX DISEASE",
+        "count": 2
+      },
+      {
+        "term": "THIRST",
+        "count": 2
+      },
+      {
+        "term": "ANXIETY",
+        "count": 1
+      },
+      {
+        "term": "BONE PAIN",
+        "count": 1
+      },
+      {
+        "term": "BRAIN FOG",
+        "count": 1
+      },
+      {
+        "term": "COGNITIVE DISORDER",
+        "count": 1
+      },
+      {
+        "term": "DRUG INEFFECTIVE",
+        "count": 1
+      },
+      {
+        "term": "ERECTILE DYSFUNCTION",
+        "count": 1
+      },
+      {
+        "term": "FATIGUE",
+        "count": 1
+      },
+      {
+        "term": "GENITAL ANAESTHESIA",
+        "count": 1
+      },
+      {
+        "term": "LETHARGY",
+        "count": 1
+      },
+      {
+        "term": "LOSS OF LIBIDO",
+        "count": 1
+      }
+    ],
+    "reporter_qualification": [
+      {
+        "term": 5,
+        "count": 3
+      },
+      {
+        "term": 2,
+        "count": 1
+      }
+    ],
+    "trend": {},
+    "trials_registered": 17,
+    "pubmed_rcts": 17
+  },
+  "BPC-157": {
+    "label": "BPC-157",
+    "group": "shelf",
+    "faers_names": [
+      "BPC-157",
+      "bpc 157"
+    ],
+    "total_any_role": 24,
+    "total_suspect": 24,
+    "serious": 21,
+    "deaths": 0,
+    "hospitalizations": 10,
+    "life_threatening": 3,
+    "disability": 3,
+    "top_reactions": [
+      {
+        "term": "DRUG INEFFECTIVE",
+        "count": 3
+      },
+      {
+        "term": "DYSPNOEA",
+        "count": 3
+      },
+      {
+        "term": "ERYTHEMA",
+        "count": 3
+      },
+      {
+        "term": "HEADACHE",
+        "count": 3
+      },
+      {
+        "term": "ABDOMINAL DISCOMFORT",
+        "count": 2
+      },
+      {
+        "term": "BALANCE DISORDER",
+        "count": 2
+      },
+      {
+        "term": "DIZZINESS",
+        "count": 2
+      },
+      {
+        "term": "DRUG EFFECT LESS THAN EXPECTED",
+        "count": 2
+      },
+      {
+        "term": "DRUG INTOLERANCE",
+        "count": 2
+      },
+      {
+        "term": "FATIGUE",
+        "count": 2
+      },
+      {
+        "term": "FLUSHING",
+        "count": 2
+      },
+      {
+        "term": "HYPERSENSITIVITY",
+        "count": 2
+      },
+      {
+        "term": "NAUSEA",
+        "count": 2
+      },
+      {
+        "term": "PRODUCT LABEL ISSUE",
+        "count": 2
+      },
+      {
+        "term": "PRODUCT USE IN UNAPPROVED INDICATION",
+        "count": 2
+      }
+    ],
+    "reporter_qualification": [
+      {
+        "term": 5,
+        "count": 16
+      },
+      {
+        "term": 3,
+        "count": 4
+      },
+      {
+        "term": 1,
+        "count": 2
+      }
+    ],
+    "trend": {},
+    "trials_registered": 3,
+    "pubmed_rcts": 0,
+    "liver_reaction_reports": 0,
+    "drug_interaction_reports": 0,
+    "serotonin_syndrome_reports": 0
+  },
+  "spermidine": {
+    "label": "spermidine",
+    "group": "shelf",
+    "faers_names": [
+      "spermidine"
+    ],
+    "total_any_role": 3,
+    "total_suspect": 3,
+    "serious": 0,
+    "deaths": 0,
+    "hospitalizations": 0,
+    "life_threatening": 0,
+    "disability": 0,
+    "top_reactions": [
+      {
+        "term": "ABDOMINAL DISTENSION",
+        "count": 1
+      },
+      {
+        "term": "ANXIETY",
+        "count": 1
+      },
+      {
+        "term": "COUGH",
+        "count": 1
+      },
+      {
+        "term": "COVID-19",
+        "count": 1
+      },
+      {
+        "term": "DRY SKIN",
+        "count": 1
+      },
+      {
+        "term": "FATIGUE",
+        "count": 1
+      },
+      {
+        "term": "GASTRIC PH DECREASED",
+        "count": 1
+      },
+      {
+        "term": "INCREASED VISCOSITY OF UPPER RESPIRATORY SECRETION",
+        "count": 1
+      },
+      {
+        "term": "WHEEZING",
+        "count": 1
+      }
+    ],
+    "reporter_qualification": [
+      {
+        "term": 5,
+        "count": 2
+      }
+    ],
+    "trend": {},
+    "trials_registered": 16,
+    "pubmed_rcts": 42
+  },
+  "urolithin A": {
+    "label": "urolithin A",
+    "group": "shelf",
+    "faers_names": [
+      "urolithin a"
+    ],
+    "total_any_role": 6,
+    "total_suspect": 6,
+    "serious": 4,
+    "deaths": 0,
+    "hospitalizations": 1,
+    "life_threatening": 0,
+    "disability": 2,
+    "top_reactions": [
+      {
+        "term": "DIZZINESS",
+        "count": 2
+      },
+      {
+        "term": "HEADACHE",
+        "count": 2
+      },
+      {
+        "term": "ABDOMINAL DISCOMFORT",
+        "count": 1
+      },
+      {
+        "term": "ARTHRALGIA",
+        "count": 1
+      },
+      {
+        "term": "ARTHROPOD BITE",
+        "count": 1
+      },
+      {
+        "term": "AUTOIMMUNE DISORDER",
+        "count": 1
+      },
+      {
+        "term": "BACK PAIN",
+        "count": 1
+      },
+      {
+        "term": "BLOOD GLUCOSE DECREASED",
+        "count": 1
+      },
+      {
+        "term": "BLOOD TEST ABNORMAL",
+        "count": 1
+      },
+      {
+        "term": "BLOOD UREA INCREASED",
+        "count": 1
+      },
+      {
+        "term": "CONFUSIONAL STATE",
+        "count": 1
+      },
+      {
+        "term": "DECREASED APPETITE",
+        "count": 1
+      },
+      {
+        "term": "DEHYDRATION",
+        "count": 1
+      },
+      {
+        "term": "DIARRHOEA",
+        "count": 1
+      },
+      {
+        "term": "DISCOMFORT",
+        "count": 1
+      }
+    ],
+    "reporter_qualification": [
+      {
+        "term": 5,
+        "count": 6
+      }
+    ],
+    "trend": {},
+    "trials_registered": 19,
+    "pubmed_rcts": 27
+  },
+  "fisetin": {
+    "label": "fisetin",
+    "group": "shelf",
+    "faers_names": [
+      "fisetin"
+    ],
+    "total_any_role": 9,
+    "total_suspect": 8,
+    "serious": 6,
+    "deaths": 1,
+    "hospitalizations": 1,
+    "life_threatening": 1,
+    "disability": 3,
+    "top_reactions": [
+      {
+        "term": "FATIGUE",
+        "count": 4
+      },
+      {
+        "term": "LOSS OF CONSCIOUSNESS",
+        "count": 2
+      },
+      {
+        "term": "ABSCESS",
+        "count": 1
+      },
+      {
+        "term": "ASTHENIA",
+        "count": 1
+      },
+      {
+        "term": "BLOOD GLUCOSE INCREASED",
+        "count": 1
+      },
+      {
+        "term": "BLOOD SODIUM DECREASED",
+        "count": 1
+      },
+      {
+        "term": "CELLULITIS",
+        "count": 1
+      },
+      {
+        "term": "CEREBRAL HAEMORRHAGE",
+        "count": 1
+      },
+      {
+        "term": "COMA",
+        "count": 1
+      },
+      {
+        "term": "CONCUSSION",
+        "count": 1
+      },
+      {
+        "term": "COVID-19",
+        "count": 1
+      },
+      {
+        "term": "DEATH",
+        "count": 1
+      },
+      {
+        "term": "DERMATITIS",
+        "count": 1
+      },
+      {
+        "term": "DRUG EFFECT INCOMPLETE",
+        "count": 1
+      },
+      {
+        "term": "DRUG EFFECT LESS THAN EXPECTED",
+        "count": 1
+      }
+    ],
+    "reporter_qualification": [
+      {
+        "term": 5,
+        "count": 8
+      }
+    ],
+    "trend": {},
+    "trials_registered": 33,
+    "pubmed_rcts": 7
+  },
+  "pregnenolone": {
+    "label": "pregnenolone",
+    "group": "shelf",
+    "faers_names": [
+      "pregnenolone"
+    ],
+    "total_any_role": 393,
+    "total_suspect": 392,
+    "serious": 212,
+    "deaths": 6,
+    "hospitalizations": 71,
+    "life_threatening": 6,
+    "disability": 13,
+    "top_reactions": [
+      {
+        "term": "FATIGUE",
+        "count": 39
+      },
+      {
+        "term": "HEADACHE",
+        "count": 31
+      },
+      {
+        "term": "NAUSEA",
+        "count": 31
+      },
+      {
+        "term": "OFF LABEL USE",
+        "count": 26
+      },
+      {
+        "term": "DIZZINESS",
+        "count": 22
+      },
+      {
+        "term": "DRUG INEFFECTIVE",
+        "count": 21
+      },
+      {
+        "term": "MALAISE",
+        "count": 18
+      },
+      {
+        "term": "SOMNOLENCE",
+        "count": 18
+      },
+      {
+        "term": "ARTHRALGIA",
+        "count": 17
+      },
+      {
+        "term": "DIARRHOEA",
+        "count": 17
+      },
+      {
+        "term": "PAIN",
+        "count": 15
+      },
+      {
+        "term": "ANXIETY",
+        "count": 14
+      },
+      {
+        "term": "WEIGHT DECREASED",
+        "count": 14
+      },
+      {
+        "term": "WEIGHT INCREASED",
+        "count": 14
+      },
+      {
+        "term": "DEPRESSION",
+        "count": 13
+      }
+    ],
+    "reporter_qualification": [
+      {
+        "term": 5,
+        "count": 185
+      },
+      {
+        "term": 3,
+        "count": 74
+      },
+      {
+        "term": 1,
+        "count": 47
+      },
+      {
+        "term": 2,
+        "count": 25
+      },
+      {
+        "term": 4,
+        "count": 2
+      }
+    ],
+    "trend": {
+      "2012": 2,
+      "2013": 7,
+      "2014": 12,
+      "2015": 19,
+      "2016": 52,
+      "2017": 25,
+      "2018": 21,
+      "2019": 36,
+      "2020": 33,
+      "2021": 23,
+      "2022": 20,
+      "2023": 35,
+      "2024": 23,
+      "2025": 38,
+      "2026": 25
+    },
+    "trials_registered": 38,
+    "pubmed_rcts": 38,
+    "liver_reaction_reports": 2,
+    "drug_interaction_reports": 2,
+    "serotonin_syndrome_reports": 1
+  },
+  "lithium orotate": {
+    "label": "lithium orotate",
+    "group": "shelf",
+    "faers_names": [
+      "lithium orotate"
+    ],
+    "total_any_role": 80,
+    "total_suspect": 80,
+    "serious": 47,
+    "deaths": 0,
+    "hospitalizations": 10,
+    "life_threatening": 2,
+    "disability": 10,
+    "top_reactions": [
+      {
+        "term": "FATIGUE",
+        "count": 14
+      },
+      {
+        "term": "HEADACHE",
+        "count": 11
+      },
+      {
+        "term": "DIZZINESS",
+        "count": 9
+      },
+      {
+        "term": "ARTHRALGIA",
+        "count": 8
+      },
+      {
+        "term": "ANXIETY",
+        "count": 7
+      },
+      {
+        "term": "NAUSEA",
+        "count": 7
+      },
+      {
+        "term": "ASTHENIA",
+        "count": 6
+      },
+      {
+        "term": "DEPRESSION",
+        "count": 6
+      },
+      {
+        "term": "DRUG INEFFECTIVE",
+        "count": 6
+      },
+      {
+        "term": "DYSPNOEA",
+        "count": 6
+      },
+      {
+        "term": "MALAISE",
+        "count": 6
+      },
+      {
+        "term": "DIARRHOEA",
+        "count": 5
+      },
+      {
+        "term": "FEELING ABNORMAL",
+        "count": 5
+      },
+      {
+        "term": "INSOMNIA",
+        "count": 5
+      },
+      {
+        "term": "MEMORY IMPAIRMENT",
+        "count": 5
+      }
+    ],
+    "reporter_qualification": [
+      {
+        "term": 5,
+        "count": 56
+      },
+      {
+        "term": 1,
+        "count": 10
+      },
+      {
+        "term": 3,
+        "count": 2
+      },
+      {
+        "term": 2,
+        "count": 1
+      }
+    ],
+    "trend": {},
+    "trials_registered": 2,
+    "pubmed_rcts": 0,
+    "liver_reaction_reports": 1,
+    "drug_interaction_reports": 1,
+    "serotonin_syndrome_reports": 0
+  },
+  "taurine": {
+    "label": "taurine",
+    "group": "shelf",
+    "faers_names": [
+      "taurine"
+    ],
+    "total_any_role": 853,
+    "total_suspect": 852,
+    "serious": 600,
+    "deaths": 61,
+    "hospitalizations": 261,
+    "life_threatening": 44,
+    "disability": 60,
+    "top_reactions": [
+      {
+        "term": "FATIGUE",
+        "count": 67
+      },
+      {
+        "term": "NAUSEA",
+        "count": 51
+      },
+      {
+        "term": "HEADACHE",
+        "count": 50
+      },
+      {
+        "term": "DIZZINESS",
+        "count": 46
+      },
+      {
+        "term": "MALAISE",
+        "count": 46
+      },
+      {
+        "term": "SEIZURE",
+        "count": 46
+      },
+      {
+        "term": "VOMITING",
+        "count": 39
+      },
+      {
+        "term": "DIARRHOEA",
+        "count": 36
+      },
+      {
+        "term": "FEELING ABNORMAL",
+        "count": 35
+      },
+      {
+        "term": "PAIN",
+        "count": 33
+      },
+      {
+        "term": "ANXIETY",
+        "count": 32
+      },
+      {
+        "term": "INSOMNIA",
+        "count": 32
+      },
+      {
+        "term": "PNEUMONIA",
+        "count": 32
+      },
+      {
+        "term": "ASTHENIA",
+        "count": 30
+      },
+      {
+        "term": "PYREXIA",
+        "count": 30
+      }
+    ],
+    "reporter_qualification": [
+      {
+        "term": 5,
+        "count": 372
+      },
+      {
+        "term": 1,
+        "count": 227
+      },
+      {
+        "term": 3,
+        "count": 135
+      },
+      {
+        "term": 2,
+        "count": 35
+      },
+      {
+        "term": 4,
+        "count": 8
+      }
+    ],
+    "trend": {
+      "2012": 30,
+      "2013": 29,
+      "2014": 26,
+      "2015": 67,
+      "2016": 85,
+      "2017": 49,
+      "2018": 54,
+      "2019": 45,
+      "2020": 62,
+      "2021": 43,
+      "2022": 45,
+      "2023": 55,
+      "2024": 51,
+      "2025": 76,
+      "2026": 46
+    },
+    "trials_registered": 58,
+    "pubmed_rcts": 242,
+    "liver_reaction_reports": 22,
+    "drug_interaction_reports": 10,
+    "serotonin_syndrome_reports": 7
+  },
+  "NAD+": {
+    "label": "NAD+",
+    "group": "shelf",
+    "faers_names": [
+      "nicotinamide adenine dinucleotide"
+    ],
+    "total_any_role": 5,
+    "total_suspect": 5,
+    "serious": 4,
+    "deaths": 0,
+    "hospitalizations": 2,
+    "life_threatening": 1,
+    "disability": 1,
+    "top_reactions": [
+      {
+        "term": "MUSCLE SPASMS",
+        "count": 2
+      },
+      {
+        "term": "NAUSEA",
+        "count": 2
+      },
+      {
+        "term": "ABDOMINAL PAIN",
+        "count": 1
+      },
+      {
+        "term": "APLASTIC ANAEMIA",
+        "count": 1
+      },
+      {
+        "term": "BLOOD URINE PRESENT",
+        "count": 1
+      },
+      {
+        "term": "DIARRHOEA HAEMORRHAGIC",
+        "count": 1
+      },
+      {
+        "term": "ERECTILE DYSFUNCTION",
+        "count": 1
+      },
+      {
+        "term": "FATIGUE",
+        "count": 1
+      },
+      {
+        "term": "HYPERAESTHESIA",
+        "count": 1
+      },
+      {
+        "term": "HYPOKINESIA",
+        "count": 1
+      },
+      {
+        "term": "LETHARGY",
+        "count": 1
+      },
+      {
+        "term": "LOSS OF LIBIDO",
+        "count": 1
+      },
+      {
+        "term": "MANIA",
+        "count": 1
+      },
+      {
+        "term": "MUSCLE RIGIDITY",
+        "count": 1
+      },
+      {
+        "term": "PAIN",
+        "count": 1
+      }
+    ],
+    "reporter_qualification": [
+      {
+        "term": 5,
+        "count": 3
+      },
+      {
+        "term": 2,
+        "count": 1
+      }
+    ],
+    "trend": {},
+    "trials_registered": 22,
+    "pubmed_rcts": 72
+  },
+  "creatine": {
+    "label": "creatine",
+    "group": "control",
+    "faers_names": [
+      "creatine"
+    ],
+    "total_any_role": 1143,
+    "total_suspect": 1139,
+    "serious": 691,
+    "deaths": 42,
+    "hospitalizations": 348,
+    "life_threatening": 63,
+    "disability": 76,
+    "top_reactions": [
+      {
+        "term": "SOMNOLENCE",
+        "count": 123
+      },
+      {
+        "term": "GASTROOESOPHAGEAL REFLUX DISEASE",
+        "count": 98
+      },
+      {
+        "term": "PNEUMONIA ASPIRATION",
+        "count": 94
+      },
+      {
+        "term": "COMA",
+        "count": 93
+      },
+      {
+        "term": "FATIGUE",
+        "count": 78
+      },
+      {
+        "term": "OFF LABEL USE",
+        "count": 74
+      },
+      {
+        "term": "NAUSEA",
+        "count": 70
+      },
+      {
+        "term": "HEADACHE",
+        "count": 54
+      },
+      {
+        "term": "PRURITUS",
+        "count": 50
+      },
+      {
+        "term": "ANXIETY",
+        "count": 49
+      },
+      {
+        "term": "DRUG INEFFECTIVE",
+        "count": 48
+      },
+      {
+        "term": "DIZZINESS",
+        "count": 46
+      },
+      {
+        "term": "DIARRHOEA",
+        "count": 43
+      },
+      {
+        "term": "INSOMNIA",
+        "count": 41
+      },
+      {
+        "term": "PAIN",
+        "count": 39
+      }
+    ],
+    "reporter_qualification": [
+      {
+        "term": 5,
+        "count": 515
+      },
+      {
+        "term": 3,
+        "count": 293
+      },
+      {
+        "term": 1,
+        "count": 225
+      },
+      {
+        "term": 2,
+        "count": 32
+      },
+      {
+        "term": 4,
+        "count": 3
+      }
+    ],
+    "trend": {
+      "2012": 10,
+      "2013": 11,
+      "2014": 22,
+      "2015": 42,
+      "2016": 52,
+      "2017": 47,
+      "2018": 52,
+      "2019": 78,
+      "2020": 78,
+      "2021": 70,
+      "2022": 86,
+      "2023": 90,
+      "2024": 79,
+      "2025": 139,
+      "2026": 229
+    },
+    "trials_registered": 202,
+    "pubmed_rcts": 2872,
+    "liver_reaction_reports": 32,
+    "drug_interaction_reports": 13,
+    "serotonin_syndrome_reports": 5
+  },
+  "melatonin": {
+    "label": "melatonin",
+    "group": "control",
+    "faers_names": [
+      "melatonin"
+    ],
+    "total_any_role": 57445,
+    "total_suspect": 57174,
+    "serious": 37444,
+    "deaths": 5059,
+    "hospitalizations": 19027,
+    "life_threatening": 2491,
+    "disability": 2030,
+    "top_reactions": [
+      {
+        "term": "FATIGUE",
+        "count": 4716
+      },
+      {
+        "term": "NAUSEA",
+        "count": 4002
+      },
+      {
+        "term": "OFF LABEL USE",
+        "count": 3606
+      },
+      {
+        "term": "DRUG INEFFECTIVE",
+        "count": 3413
+      },
+      {
+        "term": "DIARRHOEA",
+        "count": 3208
+      },
+      {
+        "term": "HEADACHE",
+        "count": 3188
+      },
+      {
+        "term": "DYSPNOEA",
+        "count": 2756
+      },
+      {
+        "term": "INSOMNIA",
+        "count": 2663
+      },
+      {
+        "term": "FALL",
+        "count": 2561
+      },
+      {
+        "term": "PAIN",
+        "count": 2503
+      },
+      {
+        "term": "DIZZINESS",
+        "count": 2495
+      },
+      {
+        "term": "VOMITING",
+        "count": 2376
+      },
+      {
+        "term": "DEATH",
+        "count": 2314
+      },
+      {
+        "term": "ASTHENIA",
+        "count": 2063
+      },
+      {
+        "term": "SOMNOLENCE",
+        "count": 2020
+      }
+    ],
+    "reporter_qualification": [
+      {
+        "term": 5,
+        "count": 26043
+      },
+      {
+        "term": 3,
+        "count": 12379
+      },
+      {
+        "term": 1,
+        "count": 10955
+      },
+      {
+        "term": 2,
+        "count": 4770
+      },
+      {
+        "term": 4,
+        "count": 383
+      }
+    ],
+    "trend": {
+      "2012": 493,
+      "2013": 836,
+      "2014": 1079,
+      "2015": 2063,
+      "2016": 3024,
+      "2017": 3011,
+      "2018": 3449,
+      "2019": 4470,
+      "2020": 4958,
+      "2021": 5199,
+      "2022": 5218,
+      "2023": 5319,
+      "2024": 5268,
+      "2025": 6264,
+      "2026": 5025
+    },
+    "trials_registered": 511,
+    "pubmed_rcts": 1161
+  },
+  "caffeine": {
+    "label": "caffeine",
+    "group": "control",
+    "faers_names": [
+      "caffeine"
+    ],
+    "total_any_role": 24935,
+    "total_suspect": 24796,
+    "serious": 20873,
+    "deaths": 6145,
+    "hospitalizations": 8978,
+    "life_threatening": 3676,
+    "disability": 3309,
+    "top_reactions": [
+      {
+        "term": "PAIN",
+        "count": 3301
+      },
+      {
+        "term": "DRUG INEFFECTIVE",
+        "count": 3166
+      },
+      {
+        "term": "FATIGUE",
+        "count": 3025
+      },
+      {
+        "term": "HEADACHE",
+        "count": 2777
+      },
+      {
+        "term": "NAUSEA",
+        "count": 2523
+      },
+      {
+        "term": "OFF LABEL USE",
+        "count": 2490
+      },
+      {
+        "term": "ARTHRALGIA",
+        "count": 2372
+      },
+      {
+        "term": "ABDOMINAL DISCOMFORT",
+        "count": 2245
+      },
+      {
+        "term": "ALOPECIA",
+        "count": 2240
+      },
+      {
+        "term": "DYSPNOEA",
+        "count": 2224
+      },
+      {
+        "term": "RASH",
+        "count": 2212
+      },
+      {
+        "term": "VOMITING",
+        "count": 2160
+      },
+      {
+        "term": "TOXICITY TO VARIOUS AGENTS",
+        "count": 2144
+      },
+      {
+        "term": "CONDITION AGGRAVATED",
+        "count": 2132
+      },
+      {
+        "term": "DIARRHOEA",
+        "count": 2131
+      }
+    ],
+    "reporter_qualification": [
+      {
+        "term": 3,
+        "count": 8794
+      },
+      {
+        "term": 5,
+        "count": 7923
+      },
+      {
+        "term": 1,
+        "count": 5410
+      },
+      {
+        "term": 2,
+        "count": 1239
+      },
+      {
+        "term": 4,
+        "count": 450
+      }
+    ],
+    "trend": {
+      "2012": 499,
+      "2013": 653,
+      "2014": 542,
+      "2015": 720,
+      "2016": 934,
+      "2017": 708,
+      "2018": 1290,
+      "2019": 1485,
+      "2020": 1629,
+      "2021": 1799,
+      "2022": 2303,
+      "2023": 2734,
+      "2024": 2667,
+      "2025": 2443,
+      "2026": 1799
+    },
+    "trials_registered": 508,
+    "pubmed_rcts": 2087
+  },
+  "vitamin D": {
+    "label": "vitamin D",
+    "group": "control",
+    "faers_names": [
+      "cholecalciferol",
+      "vitamin d"
+    ],
+    "total_any_role": 342639,
+    "total_suspect": 341660,
+    "serious": 221305,
+    "deaths": 23329,
+    "hospitalizations": 108637,
+    "life_threatening": 14930,
+    "disability": 15829,
+    "top_reactions": [
+      {
+        "term": "FATIGUE",
+        "count": 31780
+      },
+      {
+        "term": "NAUSEA",
+        "count": 24698
+      },
+      {
+        "term": "OFF LABEL USE",
+        "count": 24279
+      },
+      {
+        "term": "DIARRHOEA",
+        "count": 23502
+      },
+      {
+        "term": "HEADACHE",
+        "count": 21727
+      },
+      {
+        "term": "DRUG INEFFECTIVE",
+        "count": 21291
+      },
+      {
+        "term": "PAIN",
+        "count": 20355
+      },
+      {
+        "term": "ARTHRALGIA",
+        "count": 18833
+      },
+      {
+        "term": "DYSPNOEA",
+        "count": 17703
+      },
+      {
+        "term": "DIZZINESS",
+        "count": 17522
+      },
+      {
+        "term": "ASTHENIA",
+        "count": 15638
+      },
+      {
+        "term": "FALL",
+        "count": 15332
+      },
+      {
+        "term": "VOMITING",
+        "count": 14503
+      },
+      {
+        "term": "PAIN IN EXTREMITY",
+        "count": 13412
+      },
+      {
+        "term": "MALAISE",
+        "count": 13077
+      }
+    ],
+    "reporter_qualification": [
+      {
+        "term": 5,
+        "count": 152417
+      },
+      {
+        "term": 1,
+        "count": 76258
+      },
+      {
+        "term": 3,
+        "count": 68515
+      },
+      {
+        "term": 2,
+        "count": 26542
+      },
+      {
+        "term": 4,
+        "count": 2880
+      }
+    ],
+    "trend": {
+      "2012": 9385,
+      "2013": 13077,
+      "2014": 14905,
+      "2015": 22994,
+      "2016": 23613,
+      "2017": 21423,
+      "2018": 22084,
+      "2019": 19402,
+      "2020": 19940,
+      "2021": 21259,
+      "2022": 26671,
+      "2023": 25183,
+      "2024": 24924,
+      "2025": 27745,
+      "2026": 23451
+    },
+    "trials_registered": 1909,
+    "pubmed_rcts": 4512
+  },
+  "magnesium": {
+    "label": "magnesium",
+    "group": "control",
+    "faers_names": [
+      "magnesium"
+    ],
+    "total_any_role": 222487,
+    "total_suspect": 221916,
+    "serious": 161837,
+    "deaths": 23593,
+    "hospitalizations": 84938,
+    "life_threatening": 15189,
+    "disability": 10428,
+    "top_reactions": [
+      {
+        "term": "FATIGUE",
+        "count": 18423
+      },
+      {
+        "term": "NAUSEA",
+        "count": 17267
+      },
+      {
+        "term": "DIARRHOEA",
+        "count": 15912
+      },
+      {
+        "term": "DRUG INEFFECTIVE",
+        "count": 14703
+      },
+      {
+        "term": "OFF LABEL USE",
+        "count": 13523
+      },
+      {
+        "term": "HEADACHE",
+        "count": 13505
+      },
+      {
+        "term": "PAIN",
+        "count": 13228
+      },
+      {
+        "term": "DYSPNOEA",
+        "count": 12796
+      },
+      {
+        "term": "DIZZINESS",
+        "count": 10579
+      },
+      {
+        "term": "VOMITING",
+        "count": 10090
+      },
+      {
+        "term": "ARTHRALGIA",
+        "count": 10046
+      },
+      {
+        "term": "ASTHENIA",
+        "count": 9502
+      },
+      {
+        "term": "PNEUMONIA",
+        "count": 8593
+      },
+      {
+        "term": "MALAISE",
+        "count": 8581
+      },
+      {
+        "term": "PYREXIA",
+        "count": 8570
+      }
+    ],
+    "reporter_qualification": [
+      {
+        "term": 5,
+        "count": 84289
+      },
+      {
+        "term": 3,
+        "count": 56095
+      },
+      {
+        "term": 1,
+        "count": 51518
+      },
+      {
+        "term": 2,
+        "count": 16445
+      },
+      {
+        "term": 4,
+        "count": 3074
+      }
+    ],
+    "trend": {
+      "2012": 3635,
+      "2013": 4661,
+      "2014": 5736,
+      "2015": 8964,
+      "2016": 10556,
+      "2017": 10883,
+      "2018": 13263,
+      "2019": 16418,
+      "2020": 15903,
+      "2021": 16712,
+      "2022": 17894,
+      "2023": 18010,
+      "2024": 18060,
+      "2025": 21596,
+      "2026": 19063
+    },
+    "trials_registered": 844,
+    "pubmed_rcts": 2604
+  },
+  "semaglutide": {
+    "label": "semaglutide",
+    "group": "pharma",
+    "faers_names": [
+      "semaglutide"
+    ],
+    "total_any_role": 8260,
+    "total_suspect": 8076,
+    "serious": 6075,
+    "deaths": 249,
+    "hospitalizations": 3001,
+    "life_threatening": 576,
+    "disability": 223,
+    "top_reactions": [
+      {
+        "term": "NAUSEA",
+        "count": 1125
+      },
+      {
+        "term": "VOMITING",
+        "count": 992
+      },
+      {
+        "term": "DIARRHOEA",
+        "count": 678
+      },
+      {
+        "term": "OFF LABEL USE",
+        "count": 516
+      },
+      {
+        "term": "DRUG INEFFECTIVE",
+        "count": 506
+      },
+      {
+        "term": "FATIGUE",
+        "count": 477
+      },
+      {
+        "term": "WEIGHT DECREASED",
+        "count": 457
+      },
+      {
+        "term": "DYSPNOEA",
+        "count": 417
+      },
+      {
+        "term": "WEIGHT INCREASED",
+        "count": 375
+      },
+      {
+        "term": "DIZZINESS",
+        "count": 374
+      },
+      {
+        "term": "HEADACHE",
+        "count": 352
+      },
+      {
+        "term": "CONSTIPATION",
+        "count": 324
+      },
+      {
+        "term": "ACUTE KIDNEY INJURY",
+        "count": 312
+      },
+      {
+        "term": "MALAISE",
+        "count": 311
+      },
+      {
+        "term": "ABDOMINAL PAIN",
+        "count": 302
+      }
+    ],
+    "reporter_qualification": [
+      {
+        "term": 5,
+        "count": 2677
+      },
+      {
+        "term": 3,
+        "count": 2303
+      },
+      {
+        "term": 1,
+        "count": 1889
+      },
+      {
+        "term": 2,
+        "count": 1115
+      },
+      {
+        "term": 4,
+        "count": 10
+      }
+    ],
+    "trend": {
+      "2012": 0,
+      "2013": 0,
+      "2014": 0,
+      "2015": 0,
+      "2016": 0,
+      "2017": 2,
+      "2018": 15,
+      "2019": 204,
+      "2020": 411,
+      "2021": 331,
+      "2022": 470,
+      "2023": 898,
+      "2024": 1458,
+      "2025": 1987,
+      "2026": 2300
+    },
+    "trials_registered": 635,
+    "pubmed_rcts": 317
+  },
+  "metformin": {
+    "label": "metformin",
+    "group": "pharma",
+    "faers_names": [
+      "metformin"
+    ],
+    "total_any_role": 439313,
+    "total_suspect": 437440,
+    "serious": 296440,
+    "deaths": 36311,
+    "hospitalizations": 154917,
+    "life_threatening": 27424,
+    "disability": 11946,
+    "top_reactions": [
+      {
+        "term": "NAUSEA",
+        "count": 30558
+      },
+      {
+        "term": "DIARRHOEA",
+        "count": 28423
+      },
+      {
+        "term": "BLOOD GLUCOSE INCREASED",
+        "count": 27283
+      },
+      {
+        "term": "DRUG INEFFECTIVE",
+        "count": 22795
+      },
+      {
+        "term": "FATIGUE",
+        "count": 21613
+      },
+      {
+        "term": "LACTIC ACIDOSIS",
+        "count": 20205
+      },
+      {
+        "term": "VOMITING",
+        "count": 19954
+      },
+      {
+        "term": "ACUTE KIDNEY INJURY",
+        "count": 18483
+      },
+      {
+        "term": "WEIGHT DECREASED",
+        "count": 17431
+      },
+      {
+        "term": "DYSPNOEA",
+        "count": 16963
+      },
+      {
+        "term": "DIZZINESS",
+        "count": 15946
+      },
+      {
+        "term": "OFF LABEL USE",
+        "count": 15718
+      },
+      {
+        "term": "HEADACHE",
+        "count": 15358
+      },
+      {
+        "term": "PAIN",
+        "count": 14349
+      },
+      {
+        "term": "ASTHENIA",
+        "count": 13517
+      }
+    ],
+    "reporter_qualification": [
+      {
+        "term": 5,
+        "count": 181999
+      },
+      {
+        "term": 1,
+        "count": 102219
+      },
+      {
+        "term": 3,
+        "count": 90767
+      },
+      {
+        "term": 2,
+        "count": 34017
+      },
+      {
+        "term": 4,
+        "count": 6068
+      }
+    ],
+    "trend": {
+      "2012": 10737,
+      "2013": 15047,
+      "2014": 17935,
+      "2015": 26685,
+      "2016": 27523,
+      "2017": 26536,
+      "2018": 31772,
+      "2019": 33817,
+      "2020": 32295,
+      "2021": 28031,
+      "2022": 26761,
+      "2023": 27092,
+      "2024": 25313,
+      "2025": 27335,
+      "2026": 22819
+    },
+    "trials_registered": 2214,
+    "pubmed_rcts": 3473
+  },
+  "sirolimus": {
+    "label": "sirolimus",
+    "group": "pharma",
+    "faers_names": [
+      "sirolimus",
+      "rapamycin"
+    ],
+    "total_any_role": 14997,
+    "total_suspect": 14886,
+    "serious": 12769,
+    "deaths": 2483,
+    "hospitalizations": 5177,
+    "life_threatening": 1074,
+    "disability": 129,
+    "top_reactions": [
+      {
+        "term": "OFF LABEL USE",
+        "count": 2213
+      },
+      {
+        "term": "DRUG INEFFECTIVE",
+        "count": 1185
+      },
+      {
+        "term": "PRODUCT USE IN UNAPPROVED INDICATION",
+        "count": 808
+      },
+      {
+        "term": "DIARRHOEA",
+        "count": 602
+      },
+      {
+        "term": "PYREXIA",
+        "count": 591
+      },
+      {
+        "term": "PNEUMONIA",
+        "count": 554
+      },
+      {
+        "term": "ACUTE KIDNEY INJURY",
+        "count": 444
+      },
+      {
+        "term": "TRANSPLANT REJECTION",
+        "count": 417
+      },
+      {
+        "term": "DRUG INTERACTION",
+        "count": 405
+      },
+      {
+        "term": "THROMBOTIC MICROANGIOPATHY",
+        "count": 402
+      },
+      {
+        "term": "CYTOMEGALOVIRUS INFECTION",
+        "count": 371
+      },
+      {
+        "term": "NAUSEA",
+        "count": 365
+      },
+      {
+        "term": "DEATH",
+        "count": 355
+      },
+      {
+        "term": "SEPSIS",
+        "count": 347
+      },
+      {
+        "term": "INFECTION",
+        "count": 338
+      }
+    ],
+    "reporter_qualification": [
+      {
+        "term": 3,
+        "count": 7504
+      },
+      {
+        "term": 1,
+        "count": 4513
+      },
+      {
+        "term": 5,
+        "count": 1495
+      },
+      {
+        "term": 2,
+        "count": 755
+      },
+      {
+        "term": 4,
+        "count": 17
+      }
+    ],
+    "trend": {
+      "2012": 220,
+      "2013": 260,
+      "2014": 253,
+      "2015": 363,
+      "2016": 442,
+      "2017": 616,
+      "2018": 903,
+      "2019": 1072,
+      "2020": 1097,
+      "2021": 1100,
+      "2022": 1260,
+      "2023": 1158,
+      "2024": 1473,
+      "2025": 1662,
+      "2026": 1154
+    },
+    "trials_registered": 1080,
+    "pubmed_rcts": 965
+  },
+  "_meta": {
+    "all_serotonin_syndrome_suspect_reports": 18029
+  }
+}
