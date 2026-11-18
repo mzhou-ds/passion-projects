@@ -1,0 +1,162 @@
+{
+  "airbnb": {
+    "ok": true,
+    "n": 201
+  },
+  "stripe": {
+    "ok": true,
+    "n": 789
+  },
+  "databricks": {
+    "ok": true,
+    "n": 897
+  },
+  "coinbase": {
+    "ok": true,
+    "n": 256
+  },
+  "robinhood": {
+    "ok": true,
+    "n": 166
+  },
+  "figma": {
+    "ok": true,
+    "n": 140
+  },
+  "lyft": {
+    "ok": true,
+    "n": 148
+  },
+  "pinterest": {
+    "ok": true,
+    "n": 174
+  },
+  "reddit": {
+    "ok": true,
+    "n": 147
+  },
+  "block": {
+    "ok": true,
+    "n": 187
+  },
+  "dropbox": {
+    "ok": true,
+    "n": 41
+  },
+  "asana": {
+    "ok": true,
+    "n": 114
+  },
+  "twilio": {
+    "ok": true,
+    "n": 110
+  },
+  "datadog": {
+    "ok": true,
+    "n": 384
+  },
+  "duolingo": {
+    "ok": true,
+    "n": 58
+  },
+  "instacart": {
+    "ok": true,
+    "n": 83
+  },
+  "roblox": {
+    "ok": true,
+    "n": 265
+  },
+  "mongodb": {
+    "ok": true,
+    "n": 394
+  },
+  "elastic": {
+    "ok": true,
+    "n": 382
+  },
+  "gitlab": {
+    "ok": true,
+    "n": 252
+  },
+  "okta": {
+    "ok": true,
+    "n": 358
+  },
+  "cloudflare": {
+    "ok": true,
+    "n": 482
+  },
+  "brex": {
+    "ok": true,
+    "n": 266
+  },
+  "chime": {
+    "ok": true,
+    "n": 75
+  },
+  "sofi": {
+    "ok": true,
+    "n": 51
+  },
+  "affirm": {
+    "ok": true,
+    "n": 221
+  },
+  "toast": {
+    "ok": true,
+    "n": 331
+  },
+  "anthropic": {
+    "ok": true,
+    "n": 657
+  },
+  "scaleai": {
+    "ok": true,
+    "n": 167
+  },
+  "vercel": {
+    "ok": true,
+    "n": 87
+  },
+  "fivetran": {
+    "ok": true,
+    "n": 186
+  },
+  "launchdarkly": {
+    "ok": true,
+    "n": 33
+  },
+  "cockroachlabs": {
+    "ok": true,
+    "n": 13
+  },
+  "airtable": {
+    "ok": true,
+    "n": 11
+  },
+  "intercom": {
+    "ok": true,
+    "n": 115
+  },
+  "gusto": {
+    "ok": true,
+    "n": 79
+  },
+  "discord": {
+    "ok": true,
+    "n": 26
+  },
+  "wise": {
+    "ok": true,
+    "n": 19
+  },
+  "ramp": {
+    "ok": true,
+    "n": 1
+  },
+  "netlify": {
+    "ok": true,
+    "n": 5
+  }
+}

@@ -1,0 +1,14 @@
+Build #72 — The Ghost Job Market (tech-industry, 2026-11-18)
+Census: 8,371 live postings from 40 Greenhouse boards, pulled Nov 18 2026.
+
+HEADLINE FINDINGS
+1. Ghost market: 31.0% of all postings (2,595) have been open 90+ days; 15.5% over 180 days; median age 50 days. Live market is 5,776 roles, not 8,371. Scale AI 55.7% ghost, Databricks 52.2%, Vercel 51.7%; Dropbox freshest at 9.8%. One Databricks Account Executive posting is 1,071 days old.
+2. Sales is hiring 2.7x faster than data: Engineering 37.6%, Sales/BD 23.6% (1,972 roles), Data/AI 8.8% (733), Product 4.3%, Design 1.6% (134 roles across 40 companies).
+3. Bottom rung gone: Junior 1.5% + New grad 0.5% + Intern 2.8% = 4.8% entry level (403 roles) vs Senior+Staff+Principal 36.0% (3,012 roles), a 7.5x ratio.
+4. Remote is bimodal, not dead: 19.5% remote overall, but 8 boards are 82-100% remote (Dropbox, Twilio 100%; Affirm 98.6%; Instacart 97.6%; GitLab 91.3%; Coinbase 89.5%; Reddit 82.3%) while 18 boards are under 5% (Figma, Lyft, MongoDB, Cloudflare, Scale AI at 0%). US-tagged postings are 53.3% remote.
+5. AI is a skill, not a job family: 5.8% of roles are AI-titled, 16.6% mention AI work in the description. Anthropic leads at 22.1% AI-titled (~145 roles); Databricks only 3.2% strict vs 19.4% broad.
+6. Manager seats (honest version): Eng 13.4% (1 per 6.5 ICs) and Data 11.5% (1 per 7.7) are roughly normal spans of control, not scarce. Product leadership is the scarce one: 2.5%, 1 per 38.8 PM postings. Data has 84 manager seats across 40 companies, but only 2 are literally titled "Data Science Manager"; most hide as ML Engineering Manager titles.
+7. Data is the stalest function: 40.5% ghost, so live DS roles are 436 of 733 posted.
+8. Geography: San Francisco is still the #1 hiring hub (~1,063 postings), ahead of NYC (~833), Bangalore (~313), London (~284).
+
+METHOD: public Greenhouse Job Board API, no auth. Classifiers: function/seniority/remote/manager/AI by title+department+description rules (see src/analyze.py). Age from first_published. Coverage note: no Google/Meta/Amazon/Apple/Microsoft (own ATS), no Lever/Ashby/Workday shops.
