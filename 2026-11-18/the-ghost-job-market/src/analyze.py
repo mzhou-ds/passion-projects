@@ -1,4 +1,4 @@
-"""Classify 8,372 live Greenhouse postings and measure the shape of the Nov 2026
+"""Classify 8,371 live Greenhouse postings and measure the shape of the Nov 2026
 tech hiring market: function mix, AI share, remote share, manager-seat scarcity,
 posting staleness (ghost jobs), seniority, and hiring metros."""
 import json, re, os, math
