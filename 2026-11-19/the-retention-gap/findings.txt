@@ -1,0 +1,51 @@
+THE RETENTION GAP — key findings (2026-11-19, build #73, culture)
+
+HEADLINE
+Canada (mosaic) and the US (melting pot) retain the Chinese language at the
+same rate. Immigrants: 82.4% (CA, derived home use) vs 81.5% (US, speaks
+Chinese at home). Native-born: 32.9% (CA 2nd gen, derived) vs 32.2% (US
+native-born, 2nd gen and later pooled). Gaps of 0.9 and 0.7 points, smaller
+than the US sampling error (~+/-1 pt). National ideology explains ~nothing.
+
+THE THIRD-GENERATION CLIFF (Canada, mother tongue among Chinese visible minority)
+1st gen 89.8% (1,103,395 / 1,228,975) -> 2nd gen 42.9% (183,105 / 427,140)
+-> 3rd+ gen 4.4% (2,640 / 59,665). Heritage language is a two-generation
+asset. Only 2,640 third-generation-or-later Chinese Canadians in the country
+report a Chinese mother tongue.
+
+PLACE MATTERS, COUNTRY DOESN'T
+2nd-gen mother-tongue retention by CMA: Montreal 58.4%, Vancouver 44.4%,
+Edmonton 42.5%, Toronto 42.2%, Ottawa-Gatineau 41.9%, Calgary 41.1%.
+US native-born home use by state: New York 47.6%, Pennsylvania 42.7%,
+Massachusetts 38.1%, Illinois 37.0%, New Jersey 36.4%, California 32.7%,
+Texas 31.1%, Washington 25.9%, Florida 20.3%.
+Enclave density does NOT explain it: correlation of retention vs Chinese share
+of metro/state is r=-0.33 in Canada (n=7) and r=+0.38 in the US (n=11).
+Age composition does NOT explain NY vs CA: NY beats CA inside every age band
+(5-17: 58.0 vs 41.5; 18-34: 57.3 vs 39.6; 35-64: 50.6 vs 30.6; 65+: 41.7 vs 26.2).
+
+MANDARIN IMMIGRATES, CANTONESE INHERITS (Canada, share of Chinese mother tongue)
+1st gen: Mandarin 55%, Cantonese 40%. 2nd gen: Mandarin 39%, Cantonese 58%.
+3rd+: Mandarin 12%, Cantonese 80%. Adult 2nd gen (25+) is 87-94% Cantonese;
+2nd-gen kids under 15 are 68% Mandarin. The heritage language of today is
+Cantonese; the heritage language of 2045 will be Mandarin.
+
+AGE GRADIENTS (same shape both sides)
+Canada 2nd-gen mother tongue: 44.1% at 0-14 -> 30.0% at 75+.
+US native-born speaks Chinese at home: 43.3% at 5-17 -> 22.1% at 65+.
+1st-gen child immigrants (Canada): mother tongue 70.0% at 0-14 -> 95.0% at 75+.
+
+CAVEATS THAT MATTER
+- Concepts differ: Canada mother tongue vs US speaks-at-home; CA home-use is a
+  derived lower bound (assumes ~0 home use without Chinese mother tongue).
+- US cannot split 2nd from 3rd+ generation (no parental birthplace in ACS), so
+  the US native-born 32.2% understates the true US 2nd-gen rate; both biases
+  are small and push opposite ways.
+- Canada 2021 Census vs US ACS 2022; StatCan rounds to nearest 5; PUMS n=45,367
+  unweighted Chinese-ancestry records (18,626 native-born).
+
+SOURCES
+StatCan 2021 Census tables 98-10-0617-01 (language by generation) and
+98-10-0324-01 (visible minority by generation); ACS 2022 1-year PUMS person
+files (csv_pus.zip). Census API now requires a key for data endpoints, hence
+bulk PUMS files.

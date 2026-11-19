@@ -1,0 +1,225 @@
+geography,generation,age,chinese_vm,chinese_mt,retention_mt
+Calgary,First generation,0 to 14 years,2275,1605,0.7055
+Calgary,First generation,15 to 24 years,3690,2885,0.7818
+Calgary,First generation,25 to 34 years,7300,6305,0.8637
+Calgary,First generation,35 to 44 years,9650,8490,0.8798
+Calgary,First generation,45 to 54 years,12220,11400,0.9329
+Calgary,First generation,55 to 64 years,11225,10685,0.9519
+Calgary,First generation,65 to 74 years,8800,8350,0.9489
+Calgary,First generation,75 years and over,5410,5230,0.9667
+Calgary,Second generation,0 to 14 years,10890,4660,0.4279
+Calgary,Second generation,15 to 24 years,5145,2160,0.4198
+Calgary,Second generation,25 to 34 years,4605,2055,0.4463
+Calgary,Second generation,35 to 44 years,3785,1425,0.3765
+Calgary,Second generation,45 to 54 years,1555,535,0.3441
+Calgary,Second generation,55 to 64 years,1285,435,0.3385
+Calgary,Second generation,65 to 74 years,305,70,0.2295
+Calgary,Second generation,75 years and over,105,40,0.381
+Calgary,Third generation or more,0 to 14 years,2960,175,0.0591
+Calgary,Third generation or more,15 to 24 years,890,40,0.0449
+Calgary,Third generation or more,25 to 34 years,720,30,0.0417
+Calgary,Third generation or more,35 to 44 years,245,0,0.0
+Calgary,Third generation or more,45 to 54 years,160,0,0.0
+Calgary,Third generation or more,55 to 64 years,190,15,0.0789
+Calgary,Third generation or more,65 to 74 years,80,0,0.0
+Calgary,Third generation or more,75 years and over,25,0,0.0
+Calgary,Total - Generation status,0 to 14 years,16120,6445,0.3998
+Calgary,Total - Generation status,15 to 24 years,9725,5090,0.5234
+Calgary,Total - Generation status,25 to 34 years,12625,8390,0.6646
+Calgary,Total - Generation status,35 to 44 years,13680,9915,0.7248
+Calgary,Total - Generation status,45 to 54 years,13930,11940,0.8571
+Calgary,Total - Generation status,55 to 64 years,12700,11130,0.8764
+Calgary,Total - Generation status,65 to 74 years,9185,8420,0.9167
+Calgary,Total - Generation status,75 years and over,5540,5280,0.9531
+Canada,First generation,0 to 14 years,49425,34580,0.6996
+Canada,First generation,15 to 24 years,115100,89425,0.7769
+Canada,First generation,25 to 34 years,187100,162010,0.8659
+Canada,First generation,35 to 44 years,177415,160165,0.9028
+Canada,First generation,45 to 54 years,220570,205845,0.9332
+Canada,First generation,55 to 64 years,217690,204725,0.9404
+Canada,First generation,65 to 74 years,161070,151085,0.938
+Canada,First generation,75 years and over,100600,95565,0.95
+Canada,Second generation,0 to 14 years,180630,79585,0.4406
+Canada,Second generation,15 to 24 years,89300,37955,0.425
+Canada,Second generation,25 to 34 years,70690,31655,0.4478
+Canada,Second generation,35 to 44 years,44515,18070,0.4059
+Canada,Second generation,45 to 54 years,21550,8080,0.3749
+Canada,Second generation,55 to 64 years,15165,6115,0.4032
+Canada,Second generation,65 to 74 years,3490,1100,0.3152
+Canada,Second generation,75 years and over,1800,540,0.3
+Canada,Third generation or more,0 to 14 years,30520,1665,0.0546
+Canada,Third generation or more,15 to 24 years,11070,270,0.0244
+Canada,Third generation or more,25 to 34 years,8295,200,0.0241
+Canada,Third generation or more,35 to 44 years,3575,125,0.035
+Canada,Third generation or more,45 to 54 years,1800,55,0.0306
+Canada,Third generation or more,55 to 64 years,2320,125,0.0539
+Canada,Third generation or more,65 to 74 years,1525,125,0.082
+Canada,Third generation or more,75 years and over,565,60,0.1062
+Canada,Total - Generation status,0 to 14 years,260575,115830,0.4445
+Canada,Total - Generation status,15 to 24 years,215470,127650,0.5924
+Canada,Total - Generation status,25 to 34 years,266085,193865,0.7286
+Canada,Total - Generation status,35 to 44 years,225500,178360,0.791
+Canada,Total - Generation status,45 to 54 years,243910,213980,0.8773
+Canada,Total - Generation status,55 to 64 years,235165,210970,0.8971
+Canada,Total - Generation status,65 to 74 years,166090,152310,0.917
+Canada,Total - Generation status,75 years and over,102970,96165,0.9339
+Edmonton,First generation,0 to 14 years,1025,700,0.6829
+Edmonton,First generation,15 to 24 years,3300,2760,0.8364
+Edmonton,First generation,25 to 34 years,5835,5200,0.8912
+Edmonton,First generation,35 to 44 years,5735,5100,0.8893
+Edmonton,First generation,45 to 54 years,6730,6395,0.9502
+Edmonton,First generation,55 to 64 years,6820,6505,0.9538
+Edmonton,First generation,65 to 74 years,6855,6535,0.9533
+Edmonton,First generation,75 years and over,3700,3590,0.9703
+Edmonton,Second generation,0 to 14 years,7060,3020,0.4278
+Edmonton,Second generation,15 to 24 years,3395,1475,0.4345
+Edmonton,Second generation,25 to 34 years,3590,1550,0.4318
+Edmonton,Second generation,35 to 44 years,2635,1155,0.4383
+Edmonton,Second generation,45 to 54 years,1085,385,0.3548
+Edmonton,Second generation,55 to 64 years,830,355,0.4277
+Edmonton,Second generation,65 to 74 years,155,40,0.2581
+Edmonton,Second generation,75 years and over,80,25,0.3125
+Edmonton,Third generation or more,0 to 14 years,2225,90,0.0404
+Edmonton,Third generation or more,15 to 24 years,705,15,0.0213
+Edmonton,Third generation or more,25 to 34 years,515,10,0.0194
+Edmonton,Third generation or more,35 to 44 years,180,10,0.0556
+Edmonton,Third generation or more,45 to 54 years,110,10,0.0909
+Edmonton,Third generation or more,55 to 64 years,70,10,0.1429
+Edmonton,Third generation or more,65 to 74 years,25,0,0.0
+Edmonton,Third generation or more,75 years and over,15,0,0.0
+Edmonton,Total - Generation status,0 to 14 years,10310,3805,0.3691
+Edmonton,Total - Generation status,15 to 24 years,7405,4250,0.5739
+Edmonton,Total - Generation status,25 to 34 years,9935,6760,0.6804
+Edmonton,Total - Generation status,35 to 44 years,8545,6260,0.7326
+Edmonton,Total - Generation status,45 to 54 years,7925,6795,0.8574
+Edmonton,Total - Generation status,55 to 64 years,7720,6865,0.8892
+Edmonton,Total - Generation status,65 to 74 years,7035,6575,0.9346
+Edmonton,Total - Generation status,75 years and over,3800,3615,0.9513
+Montreal,First generation,0 to 14 years,5370,3945,0.7346
+Montreal,First generation,15 to 24 years,9745,6795,0.6973
+Montreal,First generation,25 to 34 years,11715,9035,0.7712
+Montreal,First generation,35 to 44 years,13890,12805,0.9219
+Montreal,First generation,45 to 54 years,15285,14670,0.9598
+Montreal,First generation,55 to 64 years,9640,9355,0.9704
+Montreal,First generation,65 to 74 years,6445,6100,0.9465
+Montreal,First generation,75 years and over,4575,4420,0.9661
+Montreal,Second generation,0 to 14 years,12300,6895,0.5606
+Montreal,Second generation,15 to 24 years,5075,3030,0.597
+Montreal,Second generation,25 to 34 years,3485,2395,0.6872
+Montreal,Second generation,35 to 44 years,2090,1245,0.5957
+Montreal,Second generation,45 to 54 years,970,500,0.5155
+Montreal,Second generation,55 to 64 years,650,315,0.4846
+Montreal,Second generation,65 to 74 years,80,35,0.4375
+Montreal,Second generation,75 years and over,65,15,0.2308
+Montreal,Third generation or more,0 to 14 years,1105,130,0.1176
+Montreal,Third generation or more,15 to 24 years,455,20,0.044
+Montreal,Third generation or more,25 to 34 years,315,10,0.0317
+Montreal,Third generation or more,35 to 44 years,60,0,0.0
+Montreal,Third generation or more,45 to 54 years,40,0,0.0
+Montreal,Third generation or more,55 to 64 years,55,0,0.0
+Montreal,Third generation or more,65 to 74 years,55,0,0.0
+Montreal,Third generation or more,75 years and over,10,0,0.0
+Montreal,Total - Generation status,0 to 14 years,18780,10970,0.5841
+Montreal,Total - Generation status,15 to 24 years,15280,9845,0.6443
+Montreal,Total - Generation status,25 to 34 years,15520,11435,0.7368
+Montreal,Total - Generation status,35 to 44 years,16040,14055,0.8762
+Montreal,Total - Generation status,45 to 54 years,16295,15170,0.931
+Montreal,Total - Generation status,55 to 64 years,10345,9665,0.9343
+Montreal,Total - Generation status,65 to 74 years,6585,6140,0.9324
+Montreal,Total - Generation status,75 years and over,4660,4450,0.9549
+Ottawa-Gatineau,First generation,0 to 14 years,1350,920,0.6815
+Ottawa-Gatineau,First generation,15 to 24 years,3825,2710,0.7085
+Ottawa-Gatineau,First generation,25 to 34 years,4820,4175,0.8662
+Ottawa-Gatineau,First generation,35 to 44 years,4850,4470,0.9216
+Ottawa-Gatineau,First generation,45 to 54 years,6485,6205,0.9568
+Ottawa-Gatineau,First generation,55 to 64 years,5710,5400,0.9457
+Ottawa-Gatineau,First generation,65 to 74 years,3590,3420,0.9526
+Ottawa-Gatineau,First generation,75 years and over,3135,3020,0.9633
+Ottawa-Gatineau,Second generation,0 to 14 years,5545,2300,0.4148
+Ottawa-Gatineau,Second generation,15 to 24 years,3405,1505,0.442
+Ottawa-Gatineau,Second generation,25 to 34 years,1920,790,0.4115
+Ottawa-Gatineau,Second generation,35 to 44 years,1305,520,0.3985
+Ottawa-Gatineau,Second generation,45 to 54 years,880,375,0.4261
+Ottawa-Gatineau,Second generation,55 to 64 years,520,205,0.3942
+Ottawa-Gatineau,Second generation,65 to 74 years,100,40,0.4
+Ottawa-Gatineau,Second generation,75 years and over,45,10,0.2222
+Ottawa-Gatineau,Third generation or more,0 to 14 years,1330,75,0.0564
+Ottawa-Gatineau,Third generation or more,15 to 24 years,580,10,0.0172
+Ottawa-Gatineau,Third generation or more,25 to 34 years,265,0,0.0
+Ottawa-Gatineau,Third generation or more,35 to 44 years,95,0,0.0
+Ottawa-Gatineau,Third generation or more,45 to 54 years,115,0,0.0
+Ottawa-Gatineau,Third generation or more,55 to 64 years,105,0,0.0
+Ottawa-Gatineau,Third generation or more,65 to 74 years,30,0,0.0
+Ottawa-Gatineau,Third generation or more,75 years and over,15,10,0.6667
+Ottawa-Gatineau,Total - Generation status,0 to 14 years,8235,3290,0.3995
+Ottawa-Gatineau,Total - Generation status,15 to 24 years,7810,4225,0.541
+Ottawa-Gatineau,Total - Generation status,25 to 34 years,7010,4970,0.709
+Ottawa-Gatineau,Total - Generation status,35 to 44 years,6255,4995,0.7986
+Ottawa-Gatineau,Total - Generation status,45 to 54 years,7480,6585,0.8803
+Ottawa-Gatineau,Total - Generation status,55 to 64 years,6335,5610,0.8856
+Ottawa-Gatineau,Total - Generation status,65 to 74 years,3725,3460,0.9289
+Ottawa-Gatineau,Total - Generation status,75 years and over,3190,3035,0.9514
+Toronto,First generation,0 to 14 years,15000,10040,0.6693
+Toronto,First generation,15 to 24 years,40015,32215,0.8051
+Toronto,First generation,25 to 34 years,75625,66470,0.8789
+Toronto,First generation,35 to 44 years,69280,62490,0.902
+Toronto,First generation,45 to 54 years,90155,84185,0.9338
+Toronto,First generation,55 to 64 years,92585,87030,0.94
+Toronto,First generation,65 to 74 years,68945,64535,0.936
+Toronto,First generation,75 years and over,42925,40645,0.9469
+Toronto,Second generation,0 to 14 years,75310,31740,0.4215
+Toronto,Second generation,15 to 24 years,37460,15820,0.4223
+Toronto,Second generation,25 to 34 years,29600,13475,0.4552
+Toronto,Second generation,35 to 44 years,16835,6805,0.4042
+Toronto,Second generation,45 to 54 years,7045,2535,0.3598
+Toronto,Second generation,55 to 64 years,3985,1525,0.3827
+Toronto,Second generation,65 to 74 years,770,265,0.3442
+Toronto,Second generation,75 years and over,230,60,0.2609
+Toronto,Third generation or more,0 to 14 years,8345,565,0.0677
+Toronto,Third generation or more,15 to 24 years,2500,95,0.038
+Toronto,Third generation or more,25 to 34 years,1770,55,0.0311
+Toronto,Third generation or more,35 to 44 years,610,40,0.0656
+Toronto,Third generation or more,45 to 54 years,210,20,0.0952
+Toronto,Third generation or more,55 to 64 years,255,25,0.098
+Toronto,Third generation or more,65 to 74 years,180,25,0.1389
+Toronto,Third generation or more,75 years and over,90,0,0.0
+Toronto,Total - Generation status,0 to 14 years,98655,42340,0.4292
+Toronto,Total - Generation status,15 to 24 years,79970,48130,0.6019
+Toronto,Total - Generation status,25 to 34 years,106995,80000,0.7477
+Toronto,Total - Generation status,35 to 44 years,86725,69330,0.7994
+Toronto,Total - Generation status,45 to 54 years,97410,86735,0.8904
+Toronto,Total - Generation status,55 to 64 years,96830,88590,0.9149
+Toronto,Total - Generation status,65 to 74 years,69895,64825,0.9275
+Toronto,Total - Generation status,75 years and over,43245,40710,0.9414
+Vancouver,First generation,0 to 14 years,15120,11205,0.7411
+Vancouver,First generation,15 to 24 years,29730,24335,0.8185
+Vancouver,First generation,25 to 34 years,54780,47550,0.868
+Vancouver,First generation,35 to 44 years,51460,46200,0.8978
+Vancouver,First generation,45 to 54 years,64785,59865,0.9241
+Vancouver,First generation,55 to 64 years,71310,66920,0.9384
+Vancouver,First generation,65 to 74 years,54440,50980,0.9364
+Vancouver,First generation,75 years and over,33400,31705,0.9493
+Vancouver,Second generation,0 to 14 years,47495,22555,0.4749
+Vancouver,Second generation,15 to 24 years,25635,10950,0.4272
+Vancouver,Second generation,25 to 34 years,20085,8860,0.4411
+Vancouver,Second generation,35 to 44 years,13035,5380,0.4127
+Vancouver,Second generation,45 to 54 years,7015,2845,0.4056
+Vancouver,Second generation,55 to 64 years,5000,2165,0.433
+Vancouver,Second generation,65 to 74 years,1065,360,0.338
+Vancouver,Second generation,75 years and over,820,270,0.3293
+Vancouver,Third generation or more,0 to 14 years,7870,475,0.0604
+Vancouver,Third generation or more,15 to 24 years,3170,55,0.0174
+Vancouver,Third generation or more,25 to 34 years,2440,60,0.0246
+Vancouver,Third generation or more,35 to 44 years,1150,50,0.0435
+Vancouver,Third generation or more,45 to 54 years,580,10,0.0172
+Vancouver,Third generation or more,55 to 64 years,910,40,0.044
+Vancouver,Third generation or more,65 to 74 years,710,75,0.1056
+Vancouver,Third generation or more,75 years and over,275,20,0.0727
+Vancouver,Total - Generation status,0 to 14 years,70480,34230,0.4857
+Vancouver,Total - Generation status,15 to 24 years,58530,35340,0.6038
+Vancouver,Total - Generation status,25 to 34 years,77310,56470,0.7304
+Vancouver,Total - Generation status,35 to 44 years,65645,51630,0.7865
+Vancouver,Total - Generation status,45 to 54 years,72375,62715,0.8665
+Vancouver,Total - Generation status,55 to 64 years,77220,69125,0.8952
+Vancouver,Total - Generation status,65 to 74 years,56210,51410,0.9146
+Vancouver,Total - Generation status,75 years and over,34495,31995,0.9275

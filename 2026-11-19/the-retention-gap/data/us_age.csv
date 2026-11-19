@@ -1,0 +1,11 @@
+nativity,age_group,population,chinese_speakers_at_home,share
+Native,0-4,195571,0,0.0
+Native,5-17,486601,210643,0.432886
+Native,18-34,508420,200562,0.394481
+Native,35-64,349172,93971,0.269125
+Native,65+,97245,21521,0.221307
+Foreign-born,0-4,3134,0,0.0
+Foreign-born,5-17,84591,49292,0.58271
+Foreign-born,18-34,535788,422909,0.789322
+Foreign-born,35-64,1224732,1015520,0.829177
+Foreign-born,65+,529769,450564,0.850491

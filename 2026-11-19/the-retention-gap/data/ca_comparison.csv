@@ -1,0 +1,29 @@
+geography,generation,chinese_visible_minority,chinese_mt,retention_mt,homeuse_given_mt,retention_home_derived,chinese_share_of_pop
+Calgary,First generation,60560,54960,0.9075,0.9058,0.8221,0.1201
+Calgary,Second generation,27680,11375,0.4109,0.7226,0.297,0.0884
+Calgary,Third generation or more,5270,275,0.0522,0.6909,0.0361,0.0081
+Calgary,Total - Generation status,93510,66605,0.7123,0.8737,0.6223,0.0638
+Canada,First generation,1228975,1103395,0.8978,0.9174,0.8236,0.1279
+Canada,Second generation,427140,183105,0.4287,0.7674,0.329,0.0668
+Canada,Third generation or more,59665,2640,0.0442,0.6856,0.0303,0.0029
+Canada,Total - Generation status,1715775,1289140,0.7513,0.8956,0.6729,0.0472
+Edmonton,First generation,40005,36785,0.9195,0.8983,0.826,0.0997
+Edmonton,Second generation,18830,8005,0.4251,0.7039,0.2993,0.0677
+Edmonton,Third generation or more,3845,135,0.0351,0.7407,0.026,0.0054
+Edmonton,Total - Generation status,62675,44925,0.7168,0.8632,0.6187,0.0448
+Montreal,First generation,76675,67125,0.8754,0.9218,0.807,0.0628
+Montreal,Second generation,24725,14430,0.5836,0.8371,0.4886,0.0343
+Montreal,Third generation or more,2105,175,0.0831,0.7714,0.0641,0.0009
+Montreal,Total - Generation status,103500,81720,0.7896,0.9067,0.7159,0.0246
+Ottawa-Gatineau,First generation,33775,30325,0.8979,0.8927,0.8015,0.0918
+Ottawa-Gatineau,Second generation,13720,5745,0.4187,0.7433,0.3112,0.0531
+Ottawa-Gatineau,Third generation or more,2540,100,0.0394,0.75,0.0295,0.003
+Ottawa-Gatineau,Total - Generation status,50035,36175,0.723,0.8684,0.6279,0.0342
+Toronto,First generation,494535,447605,0.9051,0.9286,0.8405,0.1559
+Toronto,Second generation,171235,72230,0.4218,0.7799,0.329,0.0995
+Toronto,Third generation or more,13955,835,0.0598,0.7784,0.0466,0.0112
+Toronto,Total - Generation status,679730,520670,0.766,0.9077,0.6953,0.1107
+Vancouver,First generation,375020,338755,0.9033,0.9217,0.8325,0.2985
+Vancouver,Second generation,120140,53385,0.4444,0.7692,0.3418,0.19
+Vancouver,Third generation or more,17105,780,0.0456,0.6218,0.0284,0.0238
+Vancouver,Total - Generation status,512260,392920,0.767,0.9004,0.6906,0.1965

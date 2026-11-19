@@ -1,0 +1,23 @@
+nativity,state,population,chinese_speakers_at_home,share,chinese_share
+Native,California,601808,196655,0.326774,0.0363
+Native,Florida,37052,7540,0.203498,0.00457
+Native,Illinois,50221,18569,0.369746,0.00986
+Native,Massachusetts,53384,20349,0.381182,0.02105
+Native,New Jersey,54414,19823,0.3643,0.01506
+Native,New York,189197,90015,0.475774,0.02913
+Native,Ohio,16918,5439,0.321492,0.00385
+Native,Other states,442921,107498,0.242702,0.00604
+Native,Pennsylvania,39681,16926,0.426552,0.00833
+Native,Texas,88557,27577,0.311404,0.00736
+Native,Washington,62856,16306,0.259418,0.02142
+Foreign-born,California,815035,678426,0.832389,0.0363
+Foreign-born,Florida,64593,39260,0.607806,0.00457
+Foreign-born,Illinois,73868,59188,0.801267,0.00986
+Foreign-born,Massachusetts,93565,80372,0.858996,0.02105
+Foreign-born,New Jersey,85075,71781,0.843738,0.01506
+Foreign-born,New York,383980,345920,0.90088,0.02913
+Foreign-born,Ohio,28398,21614,0.76111,0.00385
+Foreign-born,Other states,528669,395635,0.748361,0.00604
+Foreign-born,Pennsylvania,68329,57932,0.847839,0.00833
+Foreign-born,Texas,132593,103927,0.783805,0.00736
+Foreign-born,Washington,103909,84230,0.810613,0.02142
