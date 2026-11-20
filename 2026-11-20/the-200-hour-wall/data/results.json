@@ -1,0 +1,68 @@
+{
+  "annual_friend_hours_2021_25": {
+    "15-24": 313.8,
+    "25-34": 175.7,
+    "35-44": 113.9,
+    "45-54": 107.2,
+    "55-64": 110.7,
+    "65+": 119.1
+  },
+  "annual_friend_hours_2003_07": {
+    "15-24": 836.6,
+    "25-34": 303.0,
+    "35-44": 213.6,
+    "45-54": 191.2,
+    "55-64": 195.7,
+    "65+": 263.6
+  },
+  "headline": {
+    "years_to_close_friend_35_44_share20_pooled200h": 8.8,
+    "years_to_close_friend_35_44_share20_adult264h": 11.6,
+    "years_to_close_friend_35_44_share100_pooled200h": 1.8,
+    "years_to_close_friend_35_44_share100_adult264h": 2.3,
+    "years_to_close_friend_15_24_share20_pooled200h": 3.2,
+    "years_to_close_friend_15_24_share20_student119h": 1.9,
+    "years_to_close_friend_25_34_share20_pooled200h": 5.7,
+    "years_to_casual_friend_35_44_share20_pooled50h": 2.2,
+    "years_to_casual_friend_35_44_share20_adult94h": 4.1
+  },
+  "era_comparison_years_to_close_200h_share20": {
+    "15-24": {
+      "2003-07": 1.2,
+      "2021-25": 3.19
+    },
+    "25-34": {
+      "2003-07": 3.3,
+      "2021-25": 5.69
+    },
+    "35-44": {
+      "2003-07": 4.68,
+      "2021-25": 8.78
+    },
+    "45-54": {
+      "2003-07": 5.23,
+      "2021-25": 9.33
+    },
+    "55-64": {
+      "2003-07": 5.11,
+      "2021-25": 9.03
+    },
+    "65+": {
+      "2003-07": 3.79,
+      "2021-25": 8.4
+    }
+  },
+  "trip_equivalence": {
+    "three_day_trip_waking_hrs_together": 30,
+    "typical_new_person_share_hrs_per_year_35_44": 22.8,
+    "monthly_two_hr_dinner_hrs_per_year": 24,
+    "years_of_monthly_dinners_one_trip_equals": 1.25
+  },
+  "sensitivity_35_44_share20": {
+    "150": 6.6,
+    "200": 8.8,
+    "264": 11.6,
+    "300": 13.2
+  },
+  "notes": "ATUS friend minutes are nonwork minutes with a friend present, survey-weighted, diary-day means. The model assumes every counted minute is dyadic time with the new person at the stated share, no decay, no missed weeks. Real years are longer: group hangouts split the minutes across several people, and Hall's thresholds count relaxed time only, not work/school time together."
+}

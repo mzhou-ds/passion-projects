@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The 200-Hour Wall — How Long Until a New Best Friend?</title>
+<style>
+  body { font-family: Georgia, 'Times New Roman', serif; max-width: 680px;
+         margin: 0 auto; padding: 28px 20px 60px; color: #1a1a1a;
+         background: #faf8f4; line-height: 1.55; }
+  h1 { font-size: 1.7em; line-height: 1.25; margin-bottom: 0.2em; }
+  .sub { color: #555; font-style: italic; margin-bottom: 1.5em; }
+  .card { background: #fff; border: 1px solid #ddd; border-radius: 10px;
+          padding: 18px 20px; margin: 16px 0; }
+  label { font-weight: bold; display: block; margin: 14px 0 4px; }
+  .val { font-weight: normal; color: #2f5d8a; }
+  input[type=range] { width: 100%; }
+  select { font-size: 1em; padding: 6px; }
+  .result { font-size: 1.25em; }
+  .result b { color: #b4552d; }
+  table { border-collapse: collapse; width: 100%; margin-top: 8px; }
+  th, td { text-align: left; padding: 6px 4px; border-bottom: 1px solid #eee; }
+  th { color: #555; font-size: 0.9em; }
+  td.num { text-align: right; font-variant-numeric: tabular-nums; }
+  .note { font-size: 0.9em; color: #555; }
+  .toggle { margin-top: 10px; }
+  .toggle label { display: inline; font-weight: normal; }
+</style>
+</head>
+<body>
+<h1>The 200-Hour Wall</h1>
+<p class="sub">It takes about 200 hours together to make a close friend (Hall 2019).
+How many years is that for you, at the rate you actually see friends?</p>
+
+<div class="card">
+  <label for="age">Your age band
+    <span class="val" id="ageNote"></span></label>
+  <select id="age">
+    <option value="314">15–24</option>
+    <option value="176">25–34</option>
+    <option value="114" selected>35–44</option>
+    <option value="107">45–54</option>
+    <option value="111">55–64</option>
+    <option value="119">65+</option>
+  </select>
+  <p class="note">Annual friend hours are the ATUS 2021–25 diary average for
+  that age band: minutes with a friend present, outside work.</p>
+
+  <label for="friends">Close friends you already split your friend time across:
+    <span class="val" id="friendsVal">5</span></label>
+  <input type="range" id="friends" min="1" max="10" step="1" value="5">
+
+  <label for="dedicated">Extra hours per week you give this one new person:
+    <span class="val" id="dedicatedVal">0 hrs</span></label>
+  <input type="range" id="dedicated" min="0" max="5" step="0.5" value="0">
+
+  <div class="toggle">
+    <input type="checkbox" id="trip">
+    <label for="trip">Add one 3-day trip a year together (+30 waking hours)</label>
+  </div>
+</div>
+
+<div class="card">
+  <p class="result" id="headline"></p>
+  <p class="note" id="budget"></p>
+  <table>
+    <tr><th>Rung</th><th>Pooled ladder</th><th style="text-align:right">Adults only</th></tr>
+    <tr><td>Casual friend</td><td class="num" id="c1"></td><td class="num" id="c2"></td></tr>
+    <tr><td>Friend</td><td class="num" id="f1"></td><td class="num" id="f2"></td></tr>
+    <tr><td>Close friend</td><td class="num" id="k1"></td><td class="num" id="k2"></td></tr>
+  </table>
+  <p class="note">Pooled ladder (students + adults): 50 / 90 / 200 hours.
+  Adult ladder: 94 / 164 / 264 hours. Hall, <i>J. Social and Personal
+  Relationships</i> 2019. The model assumes every counted hour is relaxed,
+  one-on-one time, with no missed weeks and no decay. Real life is slower:
+  group hangouts split the hours across several people.</p>
+</div>
+
+<div class="card">
+  <h3 style="margin-top:0">What actually moves the number</h3>
+  <p>Not your total social time. The share you give one person, and whether
+  the hours are concentrated. A standing two hours a week with the same person
+  beats five scattered hours across five people, because the clock only runs
+  on the hours you spend with <i>them</i>. One long weekend together is worth
+  more than a year of monthly dinners: about 30 waking hours versus 24.</p>
+</div>
+
+<script>
+const AGE_HRS = { };
+function fmt(y) {
+  if (y < 0.1) return "under a month";
+  if (y < 1) return Math.round(y * 12) + " months";
+  return y.toFixed(1) + " years";
+}
+function update() {
+  const annual = parseFloat(document.getElementById("age").value);
+  const n = parseInt(document.getElementById("friends").value, 10);
+  const ded = parseFloat(document.getElementById("dedicated").value);
+  const trip = document.getElementById("trip").checked ? 30 : 0;
+  document.getElementById("friendsVal").textContent = n;
+  document.getElementById("dedicatedVal").textContent = ded + " hrs";
+  document.getElementById("ageNote").textContent =
+    "— about " + annual + " friend-hours a year";
+  const shareHrs = annual / (n + 1) + ded * 52 + trip;
+  const pooled = [50, 90, 200], adult = [94, 164, 264];
+  const ids = ["c1", "f1", "k1", "c2", "f2", "k2"];
+  const vals = pooled.concat(adult).map(t => t / shareHrs);
+  ids.forEach((id, i) => document.getElementById(id).textContent = fmt(vals[i]));
+  document.getElementById("headline").innerHTML =
+    "A new close friend takes <b>" + fmt(200 / shareHrs) + "</b> " +
+    "(" + fmt(264 / shareHrs) + " on the adult-only ladder).";
+  document.getElementById("budget").textContent =
+    "Your new person gets about " + Math.round(shareHrs) +
+    " hours a year from you: " + Math.round(annual / (n + 1)) +
+    " from your normal friend time (1 of " + (n + 1) + " shares)" +
+    (ded ? ", " + Math.round(ded * 52) + " dedicated" : "") +
+    (trip ? ", 30 from the trip" : "") + ".";
+}
+["age", "friends", "dedicated", "trip"].forEach(id =>
+  document.getElementById(id).addEventListener("input", update));
+update();
+</script>
+</body>
+</html>
