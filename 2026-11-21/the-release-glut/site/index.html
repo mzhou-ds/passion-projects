@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Release Glut — Will Your Release Get Collected?</title>
+<style>
+  body { font-family: Georgia, 'Times New Roman', serif; max-width: 680px;
+         margin: 0 auto; padding: 28px 20px 60px; color: #1a1a1a;
+         background: #faf8f4; line-height: 1.55; }
+  h1 { font-size: 1.7em; line-height: 1.25; margin-bottom: 0.2em; }
+  .sub { color: #555; font-style: italic; margin-bottom: 1.5em; }
+  .card { background: #fff; border: 1px solid #ddd; border-radius: 10px;
+          padding: 18px 20px; margin: 16px 0; }
+  label { font-weight: bold; display: block; margin: 14px 0 4px; }
+  .val { font-weight: normal; color: #2f5d8a; }
+  select { font-size: 1em; padding: 6px; }
+  .result { font-size: 1.25em; }
+  .result b { color: #b4552d; }
+  table { border-collapse: collapse; width: 100%; margin-top: 8px; }
+  th, td { text-align: left; padding: 6px 4px; border-bottom: 1px solid #eee; }
+  th { color: #555; font-size: 0.9em; }
+  td.num { text-align: right; font-variant-numeric: tabular-nums; }
+  .note { font-size: 0.9em; color: #555; }
+</style>
+</head>
+<body>
+<h1>The Release Glut</h1>
+<p class="sub">Electronic music doubled its output in fifteen years while the
+average release lost its audience. The median 2025 release has one Discogs
+collector. But the format you choose matters more than the year you release
+in. Try it:</p>
+
+<div class="card">
+  <label for="year">Release year</label>
+  <select id="year">
+    <option value="2005">2005</option>
+    <option value="2015">2015</option>
+    <option value="2025" selected>2025</option>
+  </select>
+
+  <label for="format">Format</label>
+  <select id="format">
+    <option value="Vinyl">Vinyl</option>
+    <option value="File" selected>File (MP3 / WAV / FLAC)</option>
+    <option value="CD">CD</option>
+    <option value="CDr">CDr</option>
+    <option value="Cassette">Cassette</option>
+  </select>
+
+  <p class="result" id="out"></p>
+  <p class="note" id="context"></p>
+</div>
+
+<div class="card">
+  <h3 style="margin-top:0">The whole shelf, at a glance</h3>
+  <table>
+    <tr><th>Release year</th><th class="num">Releases</th>
+        <th class="num">Median collectors</th><th class="num">Owned by nobody</th></tr>
+    <tr><td>2005</td><td class="num">97,657</td><td class="num">16</td><td class="num">3.7%</td></tr>
+    <tr><td>2015</td><td class="num">155,908</td><td class="num">3</td><td class="num">22.4%</td></tr>
+    <tr><td>2025</td><td class="num">~163,000&ndash;183,000*</td><td class="num">1</td><td class="num">33.3%</td></tr>
+  </table>
+  <p class="note">* Lag-corrected estimate; the raw Discogs count for 2025 is
+  123,719 because recent releases are still being catalogued. Medians and
+  shares come from stratified random samples of the Discogs catalog
+  (7,800 / 10,782 / 8,575 releases), Horvitz&ndash;Thompson weighted.</p>
+
+  <h3>Median collectors by format, within each year</h3>
+  <table>
+    <tr><th>Format</th><th class="num">2005</th><th class="num">2015</th><th class="num">2025</th></tr>
+    <tr><td>Vinyl</td><td class="num">72</td><td class="num">83</td><td class="num">47</td></tr>
+    <tr><td>CD</td><td class="num">17</td><td class="num">15</td><td class="num">9</td></tr>
+    <tr><td>Cassette</td><td class="num">3</td><td class="num">8</td><td class="num">4</td></tr>
+    <tr><td>CDr</td><td class="num">3</td><td class="num">3</td><td class="num">2</td></tr>
+    <tr><td>File</td><td class="num">4</td><td class="num">1</td><td class="num">1</td></tr>
+  </table>
+  <p class="note">A vinyl release is owned by nobody 0.6&ndash;1.4% of the time.
+  A file release: 10&ndash;49%. An XGBoost model of collection velocity
+  (5-fold CV R&sup2; = 0.613) ranks format first by a wide margin &mdash;
+  ahead of age, label, and release year. The collapse is composition, not
+  decay: the shelf changed into a format people do not collect.</p>
+</div>
+
+<p class="note">Full build, charts, code and provenance:
+<a href="https://github.com/mzhou-ds/passion-projects/tree/main/2026-11-21/the-release-glut">github.com/mzhou-ds/passion-projects &mdash; 2026-11-21/the-release-glut</a>.
+Data: Discogs API (counts and stratified samples, 21 Nov 2026) and the
+Beatport Top 100 snapshot of the same day.</p>
+
+<script>
+const DATA = {
+  "2005": { "Vinyl":    { "med": 72, "zero": 0.6,  "share": 33.9 },
+            "File":     { "med": 4,  "zero": 10.1, "share": 9.3 },
+            "CD":       { "med": 17, "zero": 3.0,  "share": 38.2 },
+            "CDr":      { "med": 3,  "zero": 8.1,  "share": 14.6 },
+            "Cassette": { "med": 3,  "zero": 6.3,  "share": 2.2 } },
+  "2015": { "Vinyl":    { "med": 83, "zero": 1.4,  "share": 14.0 },
+            "File":     { "med": 1,  "zero": 32.4, "share": 63.5 },
+            "CD":       { "med": 15, "zero": 4.7,  "share": 10.7 },
+            "CDr":      { "med": 3,  "zero": 14.6, "share": 6.0 },
+            "Cassette": { "med": 8,  "zero": 3.6,  "share": 5.3 } },
+  "2025": { "Vinyl":    { "med": 47, "zero": 0.9,  "share": 20.9 },
+            "File":     { "med": 1,  "zero": 49.4, "share": 63.3 },
+            "CD":       { "med": 9,  "zero": 4.3,  "share": 4.6 },
+            "CDr":      { "med": 2,  "zero": 30.1, "share": 3.2 },
+            "Cassette": { "med": 4,  "zero": 7.2,  "share": 6.8 } }
+};
+function update() {
+  const y = document.getElementById("year").value;
+  const f = document.getElementById("format").value;
+  const d = DATA[y][f];
+  document.getElementById("out").innerHTML =
+    "A " + f + " release from " + y + " has a median of <b>" + d.med +
+    " collector" + (d.med === 1 ? "" : "s") + "</b>, and a <b>" + d.zero +
+    "%</b> chance of having none at all.";
+  document.getElementById("context").textContent =
+    f + " was " + d.share + "% of electronic releases in " + y + ". " +
+    (f === "File"
+      ? "The format is the audience: a file release's modal fate is one collector or none."
+      : f === "Vinyl"
+      ? "Vinyl is the only format whose median release is owned by dozens of people, in every year measured."
+      : "Physical formats still collect; files mostly do not. See the table below.");
+}
+document.getElementById("year").addEventListener("change", update);
+document.getElementById("format").addEventListener("change", update);
+update();
+</script>
+</body>
+</html>

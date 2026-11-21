@@ -1,0 +1,54 @@
+{
+  "n": 100,
+  "bpm_median": 129.0,
+  "bpm_mean": 127.9,
+  "bpm_iqr": [
+    127.0,
+    130.0
+  ],
+  "bpm_in_124_136_pct": 92.0,
+  "bpm_in_128_132_pct": 60.0,
+  "minor_key_pct": 62.0,
+  "top_keys": {
+    "F Min": 10,
+    "E Maj": 8,
+    "A Min": 8,
+    "E Min": 7,
+    "Eb Min": 7
+  },
+  "length_median_sec": 321.5,
+  "length_mean_min": 5.36,
+  "length_over_6min_pct": 25.0,
+  "age_median_days": 29.0,
+  "age_mean_days": 137.0,
+  "released_within_2wks_pct": 26.0,
+  "released_within_4wks_pct": 49.0,
+  "older_than_1yr": 3,
+  "older_than_1yr_tracks": [
+    {
+      "rank": 39,
+      "title": "Jamaican (Bam Bam)",
+      "release_date": "2025-11-07",
+      "bpm": 122,
+      "key": "A Maj"
+    },
+    {
+      "rank": 75,
+      "title": "Music Sounds Better With You",
+      "release_date": "2019-06-28",
+      "bpm": 124,
+      "key": "D Min"
+    },
+    {
+      "rank": 90,
+      "title": "I Want Your Soul",
+      "release_date": "2013-01-01",
+      "bpm": 128,
+      "key": "Bb Min"
+    }
+  ],
+  "top10_age_median_days": 31.0,
+  "bottom10_age_median_days": 19.0,
+  "top10_bpm_median": 130.0,
+  "rest_bpm_median": 129.0
+}

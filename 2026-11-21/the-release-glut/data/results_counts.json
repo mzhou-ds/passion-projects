@@ -1,0 +1,33 @@
+{
+  "pop_baseline_2005_2021": 51564.705882352944,
+  "rock_baseline_2014_2021": 141617.875,
+  "lag_factors_pop_control": {
+    "2022": 0.932,
+    "2023": 0.878,
+    "2024": 0.768,
+    "2025": 0.678,
+    "2026": 0.463
+  },
+  "lag_factors_rock_control": {
+    "2022": 0.944,
+    "2023": 0.918,
+    "2024": 0.822,
+    "2025": 0.759,
+    "2026": 0.547
+  },
+  "electronic_growth_2005_2020_raw": 1.038,
+  "rock_growth_2005_2020_raw": 0.19,
+  "hiphop_growth_2005_2020_raw": 0.103,
+  "pop_growth_2005_2020_raw": -0.012,
+  "electronic_2020_vs_2019": 0.117,
+  "electronic_2025_lagcorr_pop": 182596,
+  "electronic_2025_lagcorr_rock": 162956,
+  "electronic_2025_raw": 123719,
+  "electronic_peak_year_raw": 2020,
+  "electronic_peak_raw": 199047,
+  "electronic_share_2005": 0.33,
+  "electronic_share_2020": 0.471,
+  "electronic_vs_pop_2005": 1.9,
+  "electronic_vs_pop_2020": 3.91,
+  "electronic_overtakes_rock_year": 2009
+}

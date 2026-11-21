@@ -1,0 +1,65 @@
+THE RELEASE GLUT — key findings (2026-11-21, build #75, edm)
+
+HEADLINE
+Electronic music's supply doubled and then stopped, while the audience per
+release collapsed. Electronic releases catalogued on Discogs went 97,657
+(2005) -> 199,047 (2020, +11.7% in the lockdown year alone) -> ~163,000-
+183,000 in 2025 (lag-corrected; raw 123,719). Pop stayed dead flat at ~51k
+a year, rock grew 19%, hip hop 10%. The median electronic release had 16
+collectors in 2005, 3 in 2015, 1 in 2025. A third of 2025's releases are
+owned by nobody at all.
+
+SUPPLY: DOUBLED, THEN SATURATED
+Electronic share of the four-genre catalog: 33% (2005) -> 47% (2020).
+Electronic vs pop volume: 1.9x -> 3.9x. Electronic overtook rock in 2009.
+Lag correction (pop and rock as controls, agreeing within ~11%): 2025 =
+163k-183k, below the 2020 peak. The glut saturated; it is not still growing.
+
+THE FORMAT FLIP (population counts)
+Files: 10,627 (2005) -> 102,587 (2015) -> 146,422 (2020). CD: 35,567 ->
+16,366 -> 9,504. CDr: 13,169 -> 8,863 -> 5,544. Vinyl: 34,663 -> 19,774
+-> 23,485, then flat ~23k-24k a year through 2025. Cassettes: 1,900 ->
+8,028 -> 12,726. Format totals sum to within 1% of each year's genre
+total. The recent "vinyl revival" in shares is differential cataloguing
+lag: files are added to Discogs more slowly than vinyl, so the file share
+of file-plus-vinyl falls monotonically with recency (86% in 2020 -> 78%
+in 2025). MP3 is 61-68% of file releases; FLAC rose 8% -> 19% -> 22%.
+
+THE DEMAND COLLAPSE (HT-weighted stratified samples, n=7,800 / 10,782 / 8,575)
+Median collectors: 16 -> 3 -> 1. Mean: 70 -> 34 -> 23. Owned by nobody:
+3.7% -> 22.4% -> 33.3%. Five or fewer collectors: 31% -> 66% -> 72%.
+A hundred or more: 19% -> 8% -> 5%. Median "want": 13 -> 1 -> 0.
+EPs: 5% -> 20% -> 19%. Singles: 8% -> 9% -> 11%. Albums: 19% -> 27%
+-> 24%. Share with a master entry: 58% -> 42% -> 34%.
+
+THE FORMAT IS THE AUDIENCE (mechanism)
+Within every cohort, median collectors: vinyl 72 / 83 / 47; CD 17 / 15 / 9;
+cassette 3 / 8 / 4; CDr 3 / 3 / 2; file 4 / 1 / 1. Owned by nobody:
+vinyl 0.6-1.4%, file 10-49%. Pooled vinyl median collectors-per-year 6.26
+vs file 0.14 (45x). XGBoost predicting log1p(collectors/year), 5-fold CV
+R2 = 0.613: top SHAP is Format: Vinyl (0.53), then age (0.28); release
+year barely registers (0.05). The collapse is composition, not decay: the
+shelf changed into a format people do not collect.
+
+LABELS DISSOLVED
+HHI: 17 -> 13 -> 12 (DOJ "unconcentrated" is <1,500). Top-10 label share:
+8.4% -> 6.0% -> 6.4%. Biggest "label" every year: "Not On Label"
+(2.6% -> 2.9% -> 1.9%). Distinct labels in sample: 3,880 -> 6,017 ->
+4,680. Eyra Music looked like 5.9% of 2025 in the raw sample; direct
+population count says 981 releases, 0.79% — a clustered-ordering artifact,
+caught and corrected. Geography went placeless: "Worldwide" is the #3
+country in 2025 at 12%.
+
+THE BEATPORT GATE (Top 100, 21 Nov 2026)
+Median 129 BPM (IQR 127-130); 92% within 124-136 BPM, 60% within 128-132.
+62% minor key (F minor 10, E major 8, A minor 8). Median length 5:21, 25%
+over 6 minutes. Median age 29 days; 49% released within 4 weeks, 26%
+within 2 weeks. Bottom 10 median age 19 days vs top 10's 31. Zombies:
+"I Want Your Soul" (2013, No. 90), "Music Sounds Better With You"
+(2019, No. 75), "Jamaican (Bam Bam)" (Nov 2025, No. 39).
+
+METHOD IN ONE LINE
+Discogs API counts (88 queries) + stratified random samples with
+Horvitz-Thompson weights (style -> format -> file-description -> country
+cells, hierarchy-aware matching, calibrated against a Trip Hop census) +
+Beatport Top 100 snapshot. Full provenance in data/PROVENANCE.md.

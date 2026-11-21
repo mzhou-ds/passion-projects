@@ -1,0 +1,4 @@
+cohort,genre,year,n_sample,weight_total,weight_total_vs_genre,have_median,have_mean,have_p90,have_zero_pct,have_le5_pct,have_ge100_pct,want_median,want_have_ratio_median,have_per_year_median,have_per_year_mean,single_pct,album_pct,ep_pct,has_master_pct,n_styles_mean,distinct_labels_sample,distinct_masters_sample,masters_records,top10_label_share_pct,top1_label_share_pct,label_hhi,extra_variant_share_sample,frame_total,genre_total
+electronic_2005,electronic,2005,7800,87416,0.895,16.0,69.6,173.10000000000036,3.7,30.6,19.0,13.0,0.65,0.75,3.25,7.6,19.2,5.3,58.3,2.58,3880,3244,4363,8.4,2.57,17,0.256,168453,97657
+electronic_2015,electronic,2015,10782,132540,0.85,3.0,34.0,65.0,22.4,66.1,7.9,1.0,0.45,0.26,2.98,9.1,27.1,20.2,42.4,2.3,6017,3565,4547,6.0,2.86,13,0.216,267370,155908
+electronic_2025,electronic,2025,8575,107188,0.866,1.0,22.9,51.0,33.3,71.8,5.3,0.0,0.0,0.72,16.51,10.7,23.9,18.7,33.7,2.14,4680,2236,2756,6.4,1.86,12,0.189,196957,123719

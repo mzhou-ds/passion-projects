@@ -1,0 +1,309 @@
+{
+  "electronic_2005": {
+    "n_sample": 7800,
+    "weight_total": 87416,
+    "weight_total_vs_genre": 0.895,
+    "have_median": 16.0,
+    "have_mean": 69.6,
+    "have_p90": 173.10000000000036,
+    "have_zero_pct": 3.7,
+    "have_le5_pct": 30.6,
+    "have_ge100_pct": 19.0,
+    "want_median": 13.0,
+    "want_have_ratio_median": 0.65,
+    "have_per_year_median": 0.75,
+    "have_per_year_mean": 3.25,
+    "single_pct": 7.6,
+    "album_pct": 19.2,
+    "ep_pct": 5.3,
+    "has_master_pct": 58.3,
+    "n_styles_mean": 2.58,
+    "distinct_labels_sample": 3880,
+    "distinct_masters_sample": 3244,
+    "masters_records": 4363,
+    "format_mix_pct": {
+      "Acetate": 0.1,
+      "Betacam": 0.0,
+      "Betacam SP": 0.3,
+      "Box Set": 0.1,
+      "CD": 38.2,
+      "CDr": 14.6,
+      "Cassette": 2.2,
+      "DVD": 1.0,
+      "DVDr": 0.1,
+      "File": 9.3,
+      "Hybrid": 0.0,
+      "Lathe Cut": 0.0,
+      "Reel-To-Reel": 0.1,
+      "SACD": 0.1,
+      "VHS": 0.0,
+      "Vinyl": 33.9
+    },
+    "file_desc_mix_pct": {
+      "MP3": 64.7,
+      "WAV": 20.4,
+      "FLAC": 7.7,
+      "AIFF": 1.0
+    },
+    "top10_label_share_pct": 8.4,
+    "top1_label_share_pct": 2.57,
+    "label_hhi": 17,
+    "top_labels": {
+      "Not On Label": 2.57,
+      "EMI": 1.28,
+      "Virgin": 0.86,
+      "Sony BMG Music Entertainment": 0.72,
+      "Avex Trax": 0.61
+    },
+    "top_countries_pct": {
+      "UK": 20.2,
+      "US": 15.8,
+      "Germany": 12.5,
+      "Italy": 4.4,
+      "Netherlands": 4.4,
+      "France": 4.3,
+      "Russia": 4.2,
+      "Japan": 4.1
+    },
+    "extra_variant_share_sample": 0.256,
+    "format_have": {
+      "Vinyl": {
+        "n": 2715,
+        "have_median": 72.0,
+        "have_per_year_median": 3.37,
+        "have_zero_pct": 0.6
+      },
+      "File": {
+        "n": 773,
+        "have_median": 4.0,
+        "have_per_year_median": 0.19,
+        "have_zero_pct": 10.1
+      },
+      "CD": {
+        "n": 2977,
+        "have_median": 17.0,
+        "have_per_year_median": 0.79,
+        "have_zero_pct": 3.0
+      },
+      "CDr": {
+        "n": 886,
+        "have_median": 3.0,
+        "have_per_year_median": 0.14,
+        "have_zero_pct": 8.1
+      },
+      "Cassette": {
+        "n": 350,
+        "have_median": 3.0,
+        "have_per_year_median": 0.14,
+        "have_zero_pct": 6.3
+      }
+    },
+    "frame_total": 168453,
+    "genre_total": 97657
+  },
+  "electronic_2015": {
+    "n_sample": 10782,
+    "weight_total": 132540,
+    "weight_total_vs_genre": 0.85,
+    "have_median": 3.0,
+    "have_mean": 34.0,
+    "have_p90": 65.0,
+    "have_zero_pct": 22.4,
+    "have_le5_pct": 66.1,
+    "have_ge100_pct": 7.9,
+    "want_median": 1.0,
+    "want_have_ratio_median": 0.45,
+    "have_per_year_median": 0.26,
+    "have_per_year_mean": 2.98,
+    "single_pct": 9.1,
+    "album_pct": 27.1,
+    "ep_pct": 20.2,
+    "has_master_pct": 42.4,
+    "n_styles_mean": 2.3,
+    "distinct_labels_sample": 6017,
+    "distinct_masters_sample": 3565,
+    "masters_records": 4547,
+    "format_mix_pct": {
+      "Acetate": 0.0,
+      "All Media": 0.1,
+      "Box Set": 0.1,
+      "CD": 10.7,
+      "CDr": 6.0,
+      "Cassette": 5.3,
+      "DVD": 0.0,
+      "DVDr": 0.0,
+      "File": 63.5,
+      "Floppy Disk": 0.0,
+      "Hybrid": 0.0,
+      "Lathe Cut": 0.1,
+      "Memory Stick": 0.1,
+      "Minidisc": 0.0,
+      "VHS": 0.0,
+      "Vinyl": 14.0
+    },
+    "file_desc_mix_pct": {
+      "MP3": 67.8,
+      "WAV": 11.8,
+      "FLAC": 18.7,
+      "AIFF": 2.0
+    },
+    "top10_label_share_pct": 6.0,
+    "top1_label_share_pct": 2.86,
+    "label_hhi": 13,
+    "top_labels": {
+      "Not On Label": 2.86,
+      "Sony Music": 0.61,
+      "Syco Music": 0.42,
+      "Blood Music": 0.36,
+      "Groove Workout": 0.35
+    },
+    "top_countries_pct": {
+      "US": 18.5,
+      "UK": 15.4,
+      "Germany": 9.3,
+      "Netherlands": 5.4,
+      "Unknown": 4.8,
+      "Russia": 4.7,
+      "Italy": 4.3,
+      "France": 4.1
+    },
+    "extra_variant_share_sample": 0.216,
+    "format_have": {
+      "Vinyl": {
+        "n": 1470,
+        "have_median": 83.0,
+        "have_per_year_median": 7.29,
+        "have_zero_pct": 1.4
+      },
+      "File": {
+        "n": 6073,
+        "have_median": 1.0,
+        "have_per_year_median": 0.09,
+        "have_zero_pct": 32.4
+      },
+      "CD": {
+        "n": 1428,
+        "have_median": 15.0,
+        "have_per_year_median": 1.32,
+        "have_zero_pct": 4.7
+      },
+      "CDr": {
+        "n": 968,
+        "have_median": 3.0,
+        "have_per_year_median": 0.26,
+        "have_zero_pct": 14.6
+      },
+      "Cassette": {
+        "n": 771,
+        "have_median": 8.0,
+        "have_per_year_median": 0.7,
+        "have_zero_pct": 3.6
+      }
+    },
+    "frame_total": 267370,
+    "genre_total": 155908
+  },
+  "electronic_2025": {
+    "n_sample": 8575,
+    "weight_total": 107188,
+    "weight_total_vs_genre": 0.866,
+    "have_median": 1.0,
+    "have_mean": 22.9,
+    "have_p90": 51.0,
+    "have_zero_pct": 33.3,
+    "have_le5_pct": 71.8,
+    "have_ge100_pct": 5.3,
+    "want_median": 0.0,
+    "want_have_ratio_median": 0.0,
+    "have_per_year_median": 0.72,
+    "have_per_year_mean": 16.51,
+    "single_pct": 10.7,
+    "album_pct": 23.9,
+    "ep_pct": 18.7,
+    "has_master_pct": 33.7,
+    "n_styles_mean": 2.14,
+    "distinct_labels_sample": 4680,
+    "distinct_masters_sample": 2236,
+    "masters_records": 2756,
+    "format_mix_pct": {
+      "Acetate": 0.0,
+      "All Media": 0.1,
+      "Blu-ray": 0.0,
+      "Box Set": 0.1,
+      "CD": 4.6,
+      "CDr": 3.2,
+      "Cassette": 6.8,
+      "DVD": 0.0,
+      "DVDr": 0.0,
+      "File": 63.3,
+      "Flexi-disc": 0.0,
+      "Floppy Disk": 0.0,
+      "Hybrid": 0.0,
+      "Lathe Cut": 0.9,
+      "Memory Stick": 0.0,
+      "Minidisc": 0.1,
+      "Vinyl": 20.9
+    },
+    "file_desc_mix_pct": {
+      "MP3": 60.6,
+      "WAV": 19.6,
+      "FLAC": 21.5,
+      "AIFF": 3.6
+    },
+    "top10_label_share_pct": 6.4,
+    "top1_label_share_pct": 1.86,
+    "label_hhi": 12,
+    "top_labels": {
+      "Not On Label": 1.86,
+      "Eyra Music": 0.98,
+      "Records Group": 0.86,
+      "Daytrip Records": 0.58,
+      "Nocturnal Knights Fusion": 0.46
+    },
+    "top_countries_pct": {
+      "UK": 15.1,
+      "US": 11.7,
+      "Worldwide": 11.6,
+      "Germany": 9.2,
+      "Netherlands": 7.4,
+      "Italy": 6.0,
+      "Unknown": 4.0,
+      "Spain": 3.9
+    },
+    "extra_variant_share_sample": 0.189,
+    "format_have": {
+      "Vinyl": {
+        "n": 1665,
+        "have_median": 47.0,
+        "have_per_year_median": 33.81,
+        "have_zero_pct": 0.9
+      },
+      "File": {
+        "n": 4952,
+        "have_median": 1.0,
+        "have_per_year_median": 0.72,
+        "have_zero_pct": 49.4
+      },
+      "CD": {
+        "n": 613,
+        "have_median": 9.0,
+        "have_per_year_median": 6.47,
+        "have_zero_pct": 4.3
+      },
+      "CDr": {
+        "n": 495,
+        "have_median": 2.0,
+        "have_per_year_median": 1.44,
+        "have_zero_pct": 30.1
+      },
+      "Cassette": {
+        "n": 720,
+        "have_median": 4.0,
+        "have_per_year_median": 2.88,
+        "have_zero_pct": 7.2
+      }
+    },
+    "frame_total": 196957,
+    "genre_total": 123719
+  }
+}
