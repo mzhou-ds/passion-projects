@@ -1,0 +1,99 @@
+GAMES ANALYZED: 13882 regular-season games, 2015-16 to 2026-27
+
+== 1. THE SCORING BOOM IS PARTLY AN EMPTY-NET BOOM ==
+Goals/game: 5.424 (2015-16) -> 6.254 (2025-26)
+ENG/game: 0.299 -> 0.387  (1.29x)
+ENG share of all goals: 5.52% -> 6.19%
+Non-ENG goals/game: 5.125 -> 5.867
+Of the +0.829 goals/game added 2015-16 -> 2025-26, +0.088 were empty-netters (10.6%).
+
+== 2. COACHES PULL EARLIER EVERY YEAR ==
+Median first endgame pull, down 1: 85s left (2015-16) -> 108s left (2025-26)
+Mean first endgame pull, down 1: 86s -> 110s
+Median first endgame pull, down 2: 136s -> 186s
+Games with an endgame pull: 64.9% -> 63.5%
+Down-1 pulls, 2015: n=412, 1.7% pulled with >=3:00 left, 16.5% with >=2:00 left, median 85s
+Down-1 pulls, 2019: n=360, 4.2% pulled with >=3:00 left, 26.9% with >=2:00 left, median 100s
+Down-1 pulls, 2025: n=446, 6.1% pulled with >=3:00 left, 37.7% with >=2:00 left, median 108s
+
+== 3. 6-ON-5 vs THE POWER PLAY ==
+Power play: 6.97 goals/60 (2004.9 hours of PP time)
+6-on-5: 7.79 goals-for/60, 21.59 ENG-against/60 (152.3 hours)
+Down 1 pull outcomes (n=3757): tie 13.3%, concede ENG 35.7%
+Down 2 pull outcomes (n=2716): tie 1.6%, concede ENG 51.8%
+
+== 4. BREAK-EVEN PULL TIME (Poisson first-goal model) ==
+5v5 GF rate (trailing team): 2.41 /60
+6v5 GF rate: 7.79 /60; ENG-against rate: 21.59 /60
+Crossover: pulling beats staying 5v5 while under 7.5 min remain
+P(tie) pulling at 2:00 left: 0.166 vs staying 5v5: 0.077
+P(tie) pulling at 5:00 left: 0.242 vs staying 5v5: 0.182
+Outcome by pull time (down 1):
+  <1:00: n=670, tie 5.8%, ENG against 19.9%
+  1:00-2:00: n=2040, tie 13.5%, ENG against 36.5%
+  2:00-3:00: n=913, tie 17.6%, ENG against 45.9%
+  3:00-4:00: n=91, tie 18.7%, ENG against 39.6%
+  4:00-6:00: n=43, tie 14.0%, ENG against 20.9%
+
+== 5. WHAT PREDICTS AN EMPTY-NET GOAL? (XGBoost, train <=2022-23, test >=2023-24) ==
+AUC 0.568 (test n=3391, base rate 35.2%)
+  abs_diff_end3: mean|SHAP| 0.275299996137619
+  trail_pts_pct: mean|SHAP| 0.12929999828338623
+  lead_pts_pct: mean|SHAP| 0.10279999673366547
+  pts_gap: mean|SHAP| 0.08100000023841858
+  trail_is_home: mean|SHAP| 0.020600000396370888
+ENG rate by deficit entering 3rd: {'1': 31.9, '2': 37.1, '3': 28.0, '4': 12.0, '5': 4.1, '6': 0.0, '7': 0.0, '8': 0.0, '9': 0.0}
+ENG rate when trailing team is home: 31.4%, away: 30.5%
+
+== 6. THE GOAL RACE HAS EMPTY-NET PADDING ==
+Top-10 goal scorers 2024:
+  Leon Draisaitl: 52 goals, 2 ENG (3.8%)
+  William Nylander: 45 goals, 5 ENG (11.1%)
+  Alex Ovechkin: 44 goals, 8 ENG (18.2%)
+  Tage Thompson: 44 goals, 2 ENG (4.5%)
+  David Pastrnak: 43 goals, 3 ENG (7.0%)
+  Brayden Point: 42 goals, 2 ENG (4.8%)
+  Jake Guentzel: 41 goals, 4 ENG (9.8%)
+  Kyle Connor: 41 goals, 3 ENG (7.3%)
+  Alex DeBrincat: 39 goals, 2 ENG (5.1%)
+  Mark Scheifele: 39 goals, 2 ENG (5.1%)
+Top-10 goal scorers 2025:
+  Nathan MacKinnon: 53 goals, 8 ENG (15.1%)
+  Cole Caufield: 51 goals, 0 ENG (0.0%)
+  Connor McDavid: 48 goals, 6 ENG (12.5%)
+  Wyatt Johnston: 45 goals, 1 ENG (2.2%)
+  Kirill Kaprizov: 45 goals, 6 ENG (13.3%)
+  Jason Robertson: 45 goals, 1 ENG (2.2%)
+  Macklin Celebrini: 45 goals, 5 ENG (11.1%)
+  Nikita Kucherov: 44 goals, 7 ENG (15.9%)
+  Steven Stamkos: 42 goals, 6 ENG (14.3%)
+  Matt Boldy: 42 goals, 5 ENG (11.9%)
+Career ENG leaders (2015-16 to present):
+  Alex Ovechkin: 48 ENG of 455 goals (10.5%)
+  Brandon Hagel: 33 ENG of 174 goals (19.0%)
+  Brad Marchand: 33 ENG of 336 goals (9.8%)
+  Sidney Crosby: 32 ENG of 358 goals (8.9%)
+  Sebastian Aho: 32 ENG of 334 goals (9.6%)
+  Kyle Connor: 31 ENG of 342 goals (9.1%)
+  Mikko Rantanen: 31 ENG of 326 goals (9.5%)
+  Jake Guentzel: 31 ENG of 319 goals (9.7%)
+  Nikita Kucherov: 31 ENG of 372 goals (8.3%)
+  Connor McDavid: 30 ENG of 422 goals (7.1%)
+
+== 7. OILERS ==
+McDavid career: 422 goals, 30 ENG
+Draisaitl career: 454 goals, 18 ENG
+Matthews career: 442 goals, 18 ENG
+Oilers ENG for/against since 2015-16: 142 / 115 (diff +27)
+  2015-16: ENG for 6, against 13, median pull 89s
+  2016-17: ENG for 10, against 8, median pull 94s
+  2017-18: ENG for 11, against 11, median pull 86s
+  2018-19: ENG for 6, against 15, median pull 106s
+  2019-20: ENG for 12, against 12, median pull 125s
+  2020-21: ENG for 11, against 2, median pull 109s
+  2021-22: ENG for 21, against 9, median pull 115s
+  2022-23: ENG for 16, against 8, median pull 96s
+  2023-24: ENG for 12, against 16, median pull 138s
+  2024-25: ENG for 12, against 8, median pull 160s
+  2025-26: ENG for 17, against 11, median pull 103s
+  2026-27: ENG for 8, against 2, median pull 136s

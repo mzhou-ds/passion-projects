@@ -1,0 +1,1112 @@
+{
+  "games": 13882,
+  "seasons": [
+    "2015-16",
+    "2016-17",
+    "2017-18",
+    "2018-19",
+    "2019-20",
+    "2020-21",
+    "2021-22",
+    "2022-23",
+    "2023-24",
+    "2024-25",
+    "2025-26",
+    "2026-27"
+  ],
+  "season_summary": [
+    {
+      "season": 2015,
+      "label": "2015-16",
+      "games": 1230,
+      "gpg": 5.424,
+      "eng_per_game": 0.299,
+      "eng_share_pct": 5.516,
+      "non_eng_gpg": 5.125,
+      "eng_total": 368,
+      "goals_total": 6672,
+      "pp_time_per_game_min": 11.009,
+      "pp_gf_per_60": 6.283,
+      "sixv5_time_per_game_sec": 46.167,
+      "sixv5_gf_per_60": 7.988,
+      "sixv5_ga_per_60": 19.463,
+      "games_with_eg_pull": 798,
+      "eg_pull_rate_pct": 64.878,
+      "first_pull_mean_rem_sec": 117.313,
+      "first_pull_median_rem_sec": 105.0,
+      "first_pull_mean_rem_down1_sec": 85.854,
+      "first_pull_median_rem_down1_sec": 85.0,
+      "first_pull_mean_rem_down2_sec": 141.178,
+      "first_pull_median_rem_down2_sec": 135.5,
+      "pull_tie_rate_down1_pct": 11.893,
+      "pull_tie_rate_down2_pct": 0.92,
+      "pull_eng_against_down1_pct": 28.398
+    },
+    {
+      "season": 2016,
+      "label": "2016-17",
+      "games": 1230,
+      "gpg": 5.531,
+      "eng_per_game": 0.241,
+      "eng_share_pct": 4.351,
+      "non_eng_gpg": 5.29,
+      "eng_total": 296,
+      "goals_total": 6803,
+      "pp_time_per_game_min": 10.709,
+      "pp_gf_per_60": 6.45,
+      "sixv5_time_per_game_sec": 39.018,
+      "sixv5_gf_per_60": 6.601,
+      "sixv5_ga_per_60": 18.228,
+      "games_with_eg_pull": 737,
+      "eg_pull_rate_pct": 59.919,
+      "first_pull_mean_rem_sec": 107.547,
+      "first_pull_median_rem_sec": 95.0,
+      "first_pull_mean_rem_down1_sec": 84.341,
+      "first_pull_median_rem_down1_sec": 80.0,
+      "first_pull_mean_rem_down2_sec": 124.429,
+      "first_pull_median_rem_down2_sec": 117.0,
+      "pull_tie_rate_down1_pct": 9.819,
+      "pull_tie_rate_down2_pct": 0.692,
+      "pull_eng_against_down1_pct": 26.873
+    },
+    {
+      "season": 2017,
+      "label": "2017-18",
+      "games": 1271,
+      "gpg": 5.942,
+      "eng_per_game": 0.276,
+      "eng_share_pct": 4.648,
+      "non_eng_gpg": 5.666,
+      "eng_total": 351,
+      "goals_total": 7552,
+      "pp_time_per_game_min": 10.755,
+      "pp_gf_per_60": 6.922,
+      "sixv5_time_per_game_sec": 39.835,
+      "sixv5_gf_per_60": 8.604,
+      "sixv5_ga_per_60": 21.473,
+      "games_with_eg_pull": 778,
+      "eg_pull_rate_pct": 61.212,
+      "first_pull_mean_rem_sec": 114.339,
+      "first_pull_median_rem_sec": 106.0,
+      "first_pull_mean_rem_down1_sec": 91.608,
+      "first_pull_median_rem_down1_sec": 91.0,
+      "first_pull_mean_rem_down2_sec": 135.497,
+      "first_pull_median_rem_down2_sec": 131.5,
+      "pull_tie_rate_down1_pct": 13.777,
+      "pull_tie_rate_down2_pct": 1.379,
+      "pull_eng_against_down1_pct": 33.729
+    },
+    {
+      "season": 2018,
+      "label": "2018-19",
+      "games": 1271,
+      "gpg": 6.03,
+      "eng_per_game": 0.321,
+      "eng_share_pct": 5.324,
+      "non_eng_gpg": 5.709,
+      "eng_total": 408,
+      "goals_total": 7664,
+      "pp_time_per_game_min": 10.532,
+      "pp_gf_per_60": 6.678,
+      "sixv5_time_per_game_sec": 41.011,
+      "sixv5_gf_per_60": 8.219,
+      "sixv5_ga_per_60": 23.689,
+      "games_with_eg_pull": 800,
+      "eg_pull_rate_pct": 62.943,
+      "first_pull_mean_rem_sec": 126.378,
+      "first_pull_median_rem_sec": 117.0,
+      "first_pull_mean_rem_down1_sec": 98.827,
+      "first_pull_median_rem_down1_sec": 96.0,
+      "first_pull_mean_rem_down2_sec": 146.528,
+      "first_pull_median_rem_down2_sec": 142.0,
+      "pull_tie_rate_down1_pct": 13.669,
+      "pull_tie_rate_down2_pct": 1.003,
+      "pull_eng_against_down1_pct": 33.094
+    },
+    {
+      "season": 2019,
+      "label": "2019-20",
+      "games": 1082,
+      "gpg": 6.039,
+      "eng_per_game": 0.307,
+      "eng_share_pct": 5.081,
+      "non_eng_gpg": 5.732,
+      "eng_total": 332,
+      "goals_total": 6534,
+      "pp_time_per_game_min": 10.763,
+      "pp_gf_per_60": 6.291,
+      "sixv5_time_per_game_sec": 44.111,
+      "sixv5_gf_per_60": 8.297,
+      "sixv5_ga_per_60": 20.743,
+      "games_with_eg_pull": 660,
+      "eg_pull_rate_pct": 60.998,
+      "first_pull_mean_rem_sec": 126.959,
+      "first_pull_median_rem_sec": 117.0,
+      "first_pull_mean_rem_down1_sec": 100.958,
+      "first_pull_median_rem_down1_sec": 100.0,
+      "first_pull_mean_rem_down2_sec": 146.632,
+      "first_pull_median_rem_down2_sec": 146.0,
+      "pull_tie_rate_down1_pct": 13.611,
+      "pull_tie_rate_down2_pct": 0.877,
+      "pull_eng_against_down1_pct": 37.5
+    },
+    {
+      "season": 2020,
+      "label": "2020-21",
+      "games": 868,
+      "gpg": 5.871,
+      "eng_per_game": 0.302,
+      "eng_share_pct": 5.141,
+      "non_eng_gpg": 5.569,
+      "eng_total": 262,
+      "goals_total": 5096,
+      "pp_time_per_game_min": 10.529,
+      "pp_gf_per_60": 6.565,
+      "sixv5_time_per_game_sec": 45.778,
+      "sixv5_gf_per_60": 8.426,
+      "sixv5_ga_per_60": 20.113,
+      "games_with_eg_pull": 539,
+      "eg_pull_rate_pct": 62.097,
+      "first_pull_mean_rem_sec": 124.386,
+      "first_pull_median_rem_sec": 114.0,
+      "first_pull_mean_rem_down1_sec": 90.815,
+      "first_pull_median_rem_down1_sec": 90.0,
+      "first_pull_mean_rem_down2_sec": 148.37,
+      "first_pull_median_rem_down2_sec": 146.5,
+      "pull_tie_rate_down1_pct": 14.391,
+      "pull_tie_rate_down2_pct": 0.926,
+      "pull_eng_against_down1_pct": 31.365
+    },
+    {
+      "season": 2021,
+      "label": "2021-22",
+      "games": 1312,
+      "gpg": 6.29,
+      "eng_per_game": 0.363,
+      "eng_share_pct": 5.768,
+      "non_eng_gpg": 5.927,
+      "eng_total": 476,
+      "goals_total": 8252,
+      "pp_time_per_game_min": 10.112,
+      "pp_gf_per_60": 7.114,
+      "sixv5_time_per_game_sec": 48.514,
+      "sixv5_gf_per_60": 8.258,
+      "sixv5_ga_per_60": 22.793,
+      "games_with_eg_pull": 804,
+      "eg_pull_rate_pct": 61.28,
+      "first_pull_mean_rem_sec": 138.361,
+      "first_pull_median_rem_sec": 126.0,
+      "first_pull_mean_rem_down1_sec": 100.562,
+      "first_pull_median_rem_down1_sec": 98.0,
+      "first_pull_mean_rem_down2_sec": 169.347,
+      "first_pull_median_rem_down2_sec": 171.0,
+      "pull_tie_rate_down1_pct": 14.528,
+      "pull_tie_rate_down2_pct": 2.273,
+      "pull_eng_against_down1_pct": 39.952
+    },
+    {
+      "season": 2022,
+      "label": "2022-23",
+      "games": 1312,
+      "gpg": 6.359,
+      "eng_per_game": 0.334,
+      "eng_share_pct": 5.25,
+      "non_eng_gpg": 6.025,
+      "eng_total": 438,
+      "goals_total": 8343,
+      "pp_time_per_game_min": 10.67,
+      "pp_gf_per_60": 7.273,
+      "sixv5_time_per_game_sec": 46.462,
+      "sixv5_gf_per_60": 8.091,
+      "sixv5_ga_per_60": 22.855,
+      "games_with_eg_pull": 787,
+      "eg_pull_rate_pct": 59.985,
+      "first_pull_mean_rem_sec": 138.18,
+      "first_pull_median_rem_sec": 127.0,
+      "first_pull_mean_rem_down1_sec": 101.817,
+      "first_pull_median_rem_down1_sec": 102.0,
+      "first_pull_mean_rem_down2_sec": 163.941,
+      "first_pull_median_rem_down2_sec": 157.5,
+      "pull_tie_rate_down1_pct": 14.217,
+      "pull_tie_rate_down2_pct": 1.103,
+      "pull_eng_against_down1_pct": 38.313
+    },
+    {
+      "season": 2023,
+      "label": "2023-24",
+      "games": 1312,
+      "gpg": 6.226,
+      "eng_per_game": 0.34,
+      "eng_share_pct": 5.46,
+      "non_eng_gpg": 5.886,
+      "eng_total": 446,
+      "goals_total": 8168,
+      "pp_time_per_game_min": 10.448,
+      "pp_gf_per_60": 7.205,
+      "sixv5_time_per_game_sec": 51.014,
+      "sixv5_gf_per_60": 7.53,
+      "sixv5_ga_per_60": 21.031,
+      "games_with_eg_pull": 802,
+      "eg_pull_rate_pct": 61.128,
+      "first_pull_mean_rem_sec": 144.943,
+      "first_pull_median_rem_sec": 133.5,
+      "first_pull_mean_rem_down1_sec": 107.106,
+      "first_pull_median_rem_down1_sec": 103.0,
+      "first_pull_mean_rem_down2_sec": 171.862,
+      "first_pull_median_rem_down2_sec": 168.0,
+      "pull_tie_rate_down1_pct": 13.366,
+      "pull_tie_rate_down2_pct": 2.201,
+      "pull_eng_against_down1_pct": 37.624
+    },
+    {
+      "season": 2024,
+      "label": "2024-25",
+      "games": 1312,
+      "gpg": 6.081,
+      "eng_per_game": 0.399,
+      "eng_share_pct": 6.568,
+      "non_eng_gpg": 5.681,
+      "eng_total": 524,
+      "goals_total": 7978,
+      "pp_time_per_game_min": 9.46,
+      "pp_gf_per_60": 7.488,
+      "sixv5_time_per_game_sec": 58.97,
+      "sixv5_gf_per_60": 7.212,
+      "sixv5_ga_per_60": 21.87,
+      "games_with_eg_pull": 870,
+      "eg_pull_rate_pct": 66.311,
+      "first_pull_mean_rem_sec": 147.766,
+      "first_pull_median_rem_sec": 136.0,
+      "first_pull_mean_rem_down1_sec": 109.276,
+      "first_pull_median_rem_down1_sec": 108.0,
+      "first_pull_mean_rem_down2_sec": 174.163,
+      "first_pull_median_rem_down2_sec": 174.0,
+      "pull_tie_rate_down1_pct": 11.538,
+      "pull_tie_rate_down2_pct": 2.154,
+      "pull_eng_against_down1_pct": 42.986
+    },
+    {
+      "season": 2025,
+      "label": "2025-26",
+      "games": 1312,
+      "gpg": 6.254,
+      "eng_per_game": 0.387,
+      "eng_share_pct": 6.191,
+      "non_eng_gpg": 5.867,
+      "eng_total": 508,
+      "goals_total": 8205,
+      "pp_time_per_game_min": 10.014,
+      "pp_gf_per_60": 7.312,
+      "sixv5_time_per_game_sec": 54.694,
+      "sixv5_gf_per_60": 7.776,
+      "sixv5_ga_per_60": 22.124,
+      "games_with_eg_pull": 833,
+      "eg_pull_rate_pct": 63.491,
+      "first_pull_mean_rem_sec": 151.969,
+      "first_pull_median_rem_sec": 138.0,
+      "first_pull_mean_rem_down1_sec": 110.478,
+      "first_pull_median_rem_down1_sec": 108.0,
+      "first_pull_mean_rem_down2_sec": 184.422,
+      "first_pull_median_rem_down2_sec": 186.0,
+      "pull_tie_rate_down1_pct": 16.143,
+      "pull_tie_rate_down2_pct": 2.422,
+      "pull_eng_against_down1_pct": 39.013
+    },
+    {
+      "season": 2026,
+      "label": "2026-27",
+      "games": 370,
+      "gpg": 6.4,
+      "eng_per_game": 0.349,
+      "eng_share_pct": 5.448,
+      "non_eng_gpg": 6.051,
+      "eng_total": 129,
+      "goals_total": 2368,
+      "pp_time_per_game_min": 10.605,
+      "pp_gf_per_60": 7.921,
+      "sixv5_time_per_game_sec": 54.778,
+      "sixv5_gf_per_60": 8.703,
+      "sixv5_ga_per_60": 20.249,
+      "games_with_eg_pull": 240,
+      "eg_pull_rate_pct": 64.865,
+      "first_pull_mean_rem_sec": 149.921,
+      "first_pull_median_rem_sec": 140.5,
+      "first_pull_mean_rem_down1_sec": 108.441,
+      "first_pull_median_rem_down1_sec": 109.5,
+      "first_pull_mean_rem_down2_sec": 173.0,
+      "first_pull_median_rem_down2_sec": 174.0,
+      "pull_tie_rate_down1_pct": 16.949,
+      "pull_tie_rate_down2_pct": 4.494,
+      "pull_eng_against_down1_pct": 32.203
+    }
+  ],
+  "decomposition": {
+    "gpg_2015_16": 5.424,
+    "peak_label": "2022-23",
+    "gpg_peak": 6.359,
+    "gpg_last_full": 6.254,
+    "last_full_label": "2025-26",
+    "gpg_growth_2015_to_last": 0.829,
+    "eng_growth_2015_to_last": 0.088,
+    "eng_share_of_growth_2015_to_last_pct": 10.6,
+    "eng_per_game_2015_16": 0.299,
+    "eng_per_game_peak": 0.334,
+    "eng_per_game_last_full": 0.387,
+    "eng_share_2015_16_pct": 5.52,
+    "eng_share_peak_pct": 5.25,
+    "eng_share_last_full_pct": 6.19,
+    "non_eng_gpg_2015_16": 5.125,
+    "non_eng_gpg_peak": 6.025,
+    "non_eng_gpg_last_full": 5.867,
+    "eng_growth_multiple": 1.29
+  },
+  "pull_trend": {
+    "first_pull_median_down1_2015": 85.0,
+    "first_pull_median_down1_last": 108.0,
+    "first_pull_mean_down1_2015": 85.85436893203884,
+    "first_pull_mean_down1_last": 110.47757847533633,
+    "first_pull_median_down2_2015": 135.5,
+    "first_pull_median_down2_last": 186.0,
+    "eg_pull_rate_2015_pct": 64.8780487804878,
+    "eg_pull_rate_last_pct": 63.49085365853659,
+    "down1_early_pull_share": {
+      "2015": {
+        "n": 412,
+        "pct_before_120s": 16.5,
+        "pct_before_180s": 1.7,
+        "median_sec": 85.0
+      },
+      "2019": {
+        "n": 360,
+        "pct_before_120s": 26.9,
+        "pct_before_180s": 4.2,
+        "median_sec": 100.0
+      },
+      "2025": {
+        "n": 446,
+        "pct_before_120s": 37.7,
+        "pct_before_180s": 6.1,
+        "median_sec": 108.0
+      }
+    }
+  },
+  "rates": {
+    "pp_gf_per_60_pooled": 6.97,
+    "sixv5_gf_per_60_pooled": 7.79,
+    "sixv5_eng_per_60_pooled": 21.59,
+    "sixv5_total_goals_per_60": 29.38,
+    "pp_goals": 13967,
+    "pp_hours": 2004.9,
+    "sixv5_hours": 152.3,
+    "sixv5_gf": 1187,
+    "sixv5_ga_eng": 3287,
+    "down1_pulls": 3757,
+    "down1_tie_rate_pct": 13.3,
+    "down1_eng_against_rate_pct": 35.7,
+    "down2_pulls": 2716,
+    "down2_tie_rate_pct": 1.6,
+    "down2_eng_against_rate_pct": 51.8
+  },
+  "breakeven_model": {
+    "lam_5v5_gf_per_min": 0.0401,
+    "lam_6v5_gf_per_min": 0.1299,
+    "lam_6v5_eng_per_min": 0.3598,
+    "lam_5v5_gf_per_60": 2.41,
+    "crossover_pull_minutes": 7.5,
+    "p_tie_pull_at_2min": 0.166,
+    "p_tie_stay_at_2min": 0.077,
+    "p_tie_pull_at_5min": 0.242,
+    "p_tie_stay_at_5min": 0.182,
+    "p_tie_pull_at_crossover": 0.259,
+    "p_tie_stay_at_crossover": 0.26,
+    "outcome_by_pull_time_bucket": [
+      {
+        "bucket": "<1:00",
+        "n": 670,
+        "tie_rate": 5.8,
+        "eng_rate": 19.9
+      },
+      {
+        "bucket": "1:00-2:00",
+        "n": 2040,
+        "tie_rate": 13.5,
+        "eng_rate": 36.5
+      },
+      {
+        "bucket": "2:00-3:00",
+        "n": 913,
+        "tie_rate": 17.6,
+        "eng_rate": 45.9
+      },
+      {
+        "bucket": "3:00-4:00",
+        "n": 91,
+        "tie_rate": 18.7,
+        "eng_rate": 39.6
+      },
+      {
+        "bucket": "4:00-6:00",
+        "n": 43,
+        "tie_rate": 14.0,
+        "eng_rate": 20.9
+      }
+    ]
+  },
+  "ml_eng_prediction": {
+    "n_train": 7435,
+    "n_test": 3391,
+    "base_rate_test_pct": 35.2,
+    "auc": 0.568,
+    "shap_mean_abs": [
+      {
+        "feature": "abs_diff_end3",
+        "mean_abs_shap": 0.275299996137619
+      },
+      {
+        "feature": "trail_pts_pct",
+        "mean_abs_shap": 0.12929999828338623
+      },
+      {
+        "feature": "lead_pts_pct",
+        "mean_abs_shap": 0.10279999673366547
+      },
+      {
+        "feature": "pts_gap",
+        "mean_abs_shap": 0.08100000023841858
+      },
+      {
+        "feature": "trail_is_home",
+        "mean_abs_shap": 0.020600000396370888
+      }
+    ],
+    "eng_rate_by_abs_diff": {
+      "1": 31.9,
+      "2": 37.1,
+      "3": 28.0,
+      "4": 12.0,
+      "5": 4.1,
+      "6": 0.0,
+      "7": 0.0,
+      "8": 0.0,
+      "9": 0.0
+    },
+    "eng_rate_home_trail_pct": 31.4,
+    "eng_rate_away_trail_pct": 30.5
+  },
+  "top_eng_scorers": {
+    "2024": [
+      {
+        "player_name": "Mikko Rantanen",
+        "goals": 32,
+        "eng_goals": 9
+      },
+      {
+        "player_name": "Brandon Hagel",
+        "goals": 35,
+        "eng_goals": 9
+      },
+      {
+        "player_name": "Alex Ovechkin",
+        "goals": 44,
+        "eng_goals": 8
+      },
+      {
+        "player_name": "Anthony Cirelli",
+        "goals": 27,
+        "eng_goals": 6
+      },
+      {
+        "player_name": "Adrian Kempe",
+        "goals": 35,
+        "eng_goals": 6
+      },
+      {
+        "player_name": "Kirill Kaprizov",
+        "goals": 25,
+        "eng_goals": 6
+      },
+      {
+        "player_name": "Brett Howden",
+        "goals": 23,
+        "eng_goals": 5
+      },
+      {
+        "player_name": "Ryan McLeod",
+        "goals": 20,
+        "eng_goals": 5
+      },
+      {
+        "player_name": "William Nylander",
+        "goals": 45,
+        "eng_goals": 5
+      },
+      {
+        "player_name": "Aliaksei Protas",
+        "goals": 30,
+        "eng_goals": 5
+      }
+    ],
+    "2025": [
+      {
+        "player_name": "Nathan MacKinnon",
+        "goals": 53,
+        "eng_goals": 8
+      },
+      {
+        "player_name": "Alex Ovechkin",
+        "goals": 32,
+        "eng_goals": 7
+      },
+      {
+        "player_name": "Nikita Kucherov",
+        "goals": 44,
+        "eng_goals": 7
+      },
+      {
+        "player_name": "Brandon Hagel",
+        "goals": 36,
+        "eng_goals": 7
+      },
+      {
+        "player_name": "Jordan Eberle",
+        "goals": 26,
+        "eng_goals": 6
+      },
+      {
+        "player_name": "Steven Stamkos",
+        "goals": 42,
+        "eng_goals": 6
+      },
+      {
+        "player_name": "Aliaksei Protas",
+        "goals": 25,
+        "eng_goals": 6
+      },
+      {
+        "player_name": "Connor McDavid",
+        "goals": 48,
+        "eng_goals": 6
+      },
+      {
+        "player_name": "Dawson Mercer",
+        "goals": 20,
+        "eng_goals": 6
+      },
+      {
+        "player_name": "Kirill Kaprizov",
+        "goals": 45,
+        "eng_goals": 6
+      }
+    ]
+  },
+  "top_scorers_eng_share": {
+    "2024": [
+      {
+        "player_name": "Leon Draisaitl",
+        "goals": 52,
+        "eng_goals": 2,
+        "eng_share_pct": 3.8
+      },
+      {
+        "player_name": "William Nylander",
+        "goals": 45,
+        "eng_goals": 5,
+        "eng_share_pct": 11.1
+      },
+      {
+        "player_name": "Alex Ovechkin",
+        "goals": 44,
+        "eng_goals": 8,
+        "eng_share_pct": 18.2
+      },
+      {
+        "player_name": "Tage Thompson",
+        "goals": 44,
+        "eng_goals": 2,
+        "eng_share_pct": 4.5
+      },
+      {
+        "player_name": "David Pastrnak",
+        "goals": 43,
+        "eng_goals": 3,
+        "eng_share_pct": 7.0
+      },
+      {
+        "player_name": "Brayden Point",
+        "goals": 42,
+        "eng_goals": 2,
+        "eng_share_pct": 4.8
+      },
+      {
+        "player_name": "Jake Guentzel",
+        "goals": 41,
+        "eng_goals": 4,
+        "eng_share_pct": 9.8
+      },
+      {
+        "player_name": "Kyle Connor",
+        "goals": 41,
+        "eng_goals": 3,
+        "eng_share_pct": 7.3
+      },
+      {
+        "player_name": "Alex DeBrincat",
+        "goals": 39,
+        "eng_goals": 2,
+        "eng_share_pct": 5.1
+      },
+      {
+        "player_name": "Mark Scheifele",
+        "goals": 39,
+        "eng_goals": 2,
+        "eng_share_pct": 5.1
+      }
+    ],
+    "2025": [
+      {
+        "player_name": "Nathan MacKinnon",
+        "goals": 53,
+        "eng_goals": 8,
+        "eng_share_pct": 15.1
+      },
+      {
+        "player_name": "Cole Caufield",
+        "goals": 51,
+        "eng_goals": 0,
+        "eng_share_pct": 0.0
+      },
+      {
+        "player_name": "Connor McDavid",
+        "goals": 48,
+        "eng_goals": 6,
+        "eng_share_pct": 12.5
+      },
+      {
+        "player_name": "Wyatt Johnston",
+        "goals": 45,
+        "eng_goals": 1,
+        "eng_share_pct": 2.2
+      },
+      {
+        "player_name": "Kirill Kaprizov",
+        "goals": 45,
+        "eng_goals": 6,
+        "eng_share_pct": 13.3
+      },
+      {
+        "player_name": "Jason Robertson",
+        "goals": 45,
+        "eng_goals": 1,
+        "eng_share_pct": 2.2
+      },
+      {
+        "player_name": "Macklin Celebrini",
+        "goals": 45,
+        "eng_goals": 5,
+        "eng_share_pct": 11.1
+      },
+      {
+        "player_name": "Nikita Kucherov",
+        "goals": 44,
+        "eng_goals": 7,
+        "eng_share_pct": 15.9
+      },
+      {
+        "player_name": "Steven Stamkos",
+        "goals": 42,
+        "eng_goals": 6,
+        "eng_share_pct": 14.3
+      },
+      {
+        "player_name": "Matt Boldy",
+        "goals": 42,
+        "eng_goals": 5,
+        "eng_share_pct": 11.9
+      }
+    ]
+  },
+  "career_eng_leaders": [
+    {
+      "player_name": "Alex Ovechkin",
+      "goals": 455,
+      "eng_goals": 48,
+      "eng_share_pct": 10.5
+    },
+    {
+      "player_name": "Brandon Hagel",
+      "goals": 174,
+      "eng_goals": 33,
+      "eng_share_pct": 19.0
+    },
+    {
+      "player_name": "Brad Marchand",
+      "goals": 336,
+      "eng_goals": 33,
+      "eng_share_pct": 9.8
+    },
+    {
+      "player_name": "Sidney Crosby",
+      "goals": 358,
+      "eng_goals": 32,
+      "eng_share_pct": 8.9
+    },
+    {
+      "player_name": "Sebastian Aho",
+      "goals": 334,
+      "eng_goals": 32,
+      "eng_share_pct": 9.6
+    },
+    {
+      "player_name": "Kyle Connor",
+      "goals": 342,
+      "eng_goals": 31,
+      "eng_share_pct": 9.1
+    },
+    {
+      "player_name": "Mikko Rantanen",
+      "goals": 326,
+      "eng_goals": 31,
+      "eng_share_pct": 9.5
+    },
+    {
+      "player_name": "Jake Guentzel",
+      "goals": 319,
+      "eng_goals": 31,
+      "eng_share_pct": 9.7
+    },
+    {
+      "player_name": "Nikita Kucherov",
+      "goals": 372,
+      "eng_goals": 31,
+      "eng_share_pct": 8.3
+    },
+    {
+      "player_name": "Connor McDavid",
+      "goals": 422,
+      "eng_goals": 30,
+      "eng_share_pct": 7.1
+    },
+    {
+      "player_name": "Nathan MacKinnon",
+      "goals": 392,
+      "eng_goals": 29,
+      "eng_share_pct": 7.4
+    },
+    {
+      "player_name": "Sam Reinhart",
+      "goals": 335,
+      "eng_goals": 29,
+      "eng_share_pct": 8.7
+    },
+    {
+      "player_name": "Artemi Panarin",
+      "goals": 338,
+      "eng_goals": 28,
+      "eng_share_pct": 8.3
+    },
+    {
+      "player_name": "Andrei Svechnikov",
+      "goals": 195,
+      "eng_goals": 26,
+      "eng_share_pct": 13.3
+    },
+    {
+      "player_name": "Jonathan Marchessault",
+      "goals": 266,
+      "eng_goals": 26,
+      "eng_share_pct": 9.8
+    }
+  ],
+  "players": {
+    "mcdavid_by_season": [
+      {
+        "season": 2015,
+        "goals": 16,
+        "eng_goals": 0
+      },
+      {
+        "season": 2016,
+        "goals": 30,
+        "eng_goals": 3
+      },
+      {
+        "season": 2017,
+        "goals": 41,
+        "eng_goals": 2
+      },
+      {
+        "season": 2018,
+        "goals": 41,
+        "eng_goals": 3
+      },
+      {
+        "season": 2019,
+        "goals": 34,
+        "eng_goals": 0
+      },
+      {
+        "season": 2020,
+        "goals": 33,
+        "eng_goals": 2
+      },
+      {
+        "season": 2021,
+        "goals": 44,
+        "eng_goals": 7
+      },
+      {
+        "season": 2022,
+        "goals": 64,
+        "eng_goals": 4
+      },
+      {
+        "season": 2023,
+        "goals": 32,
+        "eng_goals": 1
+      },
+      {
+        "season": 2024,
+        "goals": 26,
+        "eng_goals": 0
+      },
+      {
+        "season": 2025,
+        "goals": 48,
+        "eng_goals": 6
+      },
+      {
+        "season": 2026,
+        "goals": 13,
+        "eng_goals": 2
+      }
+    ],
+    "mcdavid_career_eng": 30,
+    "mcdavid_career_goals": 422,
+    "draisaitl_by_season": [
+      {
+        "season": 2015,
+        "goals": 19,
+        "eng_goals": 0
+      },
+      {
+        "season": 2016,
+        "goals": 29,
+        "eng_goals": 2
+      },
+      {
+        "season": 2017,
+        "goals": 25,
+        "eng_goals": 1
+      },
+      {
+        "season": 2018,
+        "goals": 50,
+        "eng_goals": 0
+      },
+      {
+        "season": 2019,
+        "goals": 43,
+        "eng_goals": 4
+      },
+      {
+        "season": 2020,
+        "goals": 31,
+        "eng_goals": 2
+      },
+      {
+        "season": 2021,
+        "goals": 55,
+        "eng_goals": 3
+      },
+      {
+        "season": 2022,
+        "goals": 52,
+        "eng_goals": 0
+      },
+      {
+        "season": 2023,
+        "goals": 41,
+        "eng_goals": 0
+      },
+      {
+        "season": 2024,
+        "goals": 52,
+        "eng_goals": 2
+      },
+      {
+        "season": 2025,
+        "goals": 35,
+        "eng_goals": 1
+      },
+      {
+        "season": 2026,
+        "goals": 22,
+        "eng_goals": 3
+      }
+    ],
+    "draisaitl_career_eng": 18,
+    "draisaitl_career_goals": 454,
+    "matthews_by_season": [
+      {
+        "season": 2016,
+        "goals": 40,
+        "eng_goals": 1
+      },
+      {
+        "season": 2017,
+        "goals": 34,
+        "eng_goals": 0
+      },
+      {
+        "season": 2018,
+        "goals": 37,
+        "eng_goals": 0
+      },
+      {
+        "season": 2019,
+        "goals": 47,
+        "eng_goals": 2
+      },
+      {
+        "season": 2020,
+        "goals": 41,
+        "eng_goals": 0
+      },
+      {
+        "season": 2021,
+        "goals": 60,
+        "eng_goals": 4
+      },
+      {
+        "season": 2022,
+        "goals": 40,
+        "eng_goals": 1
+      },
+      {
+        "season": 2023,
+        "goals": 69,
+        "eng_goals": 2
+      },
+      {
+        "season": 2024,
+        "goals": 33,
+        "eng_goals": 4
+      },
+      {
+        "season": 2025,
+        "goals": 27,
+        "eng_goals": 3
+      },
+      {
+        "season": 2026,
+        "goals": 14,
+        "eng_goals": 1
+      }
+    ],
+    "matthews_career_eng": 18,
+    "matthews_career_goals": 442
+  },
+  "oilers": {
+    "by_season": [
+      {
+        "season": 2015,
+        "games": 82,
+        "eng_for": 6,
+        "eng_against": 13,
+        "pull_med": 89.0,
+        "label": "2015-16"
+      },
+      {
+        "season": 2016,
+        "games": 82,
+        "eng_for": 10,
+        "eng_against": 8,
+        "pull_med": 93.5,
+        "label": "2016-17"
+      },
+      {
+        "season": 2017,
+        "games": 82,
+        "eng_for": 11,
+        "eng_against": 11,
+        "pull_med": 86.0,
+        "label": "2017-18"
+      },
+      {
+        "season": 2018,
+        "games": 82,
+        "eng_for": 6,
+        "eng_against": 15,
+        "pull_med": 106.5,
+        "label": "2018-19"
+      },
+      {
+        "season": 2019,
+        "games": 71,
+        "eng_for": 12,
+        "eng_against": 12,
+        "pull_med": 125.0,
+        "label": "2019-20"
+      },
+      {
+        "season": 2020,
+        "games": 56,
+        "eng_for": 11,
+        "eng_against": 2,
+        "pull_med": 109.0,
+        "label": "2020-21"
+      },
+      {
+        "season": 2021,
+        "games": 82,
+        "eng_for": 21,
+        "eng_against": 9,
+        "pull_med": 115.0,
+        "label": "2021-22"
+      },
+      {
+        "season": 2022,
+        "games": 82,
+        "eng_for": 16,
+        "eng_against": 8,
+        "pull_med": 96.0,
+        "label": "2022-23"
+      },
+      {
+        "season": 2023,
+        "games": 82,
+        "eng_for": 12,
+        "eng_against": 16,
+        "pull_med": 137.5,
+        "label": "2023-24"
+      },
+      {
+        "season": 2024,
+        "games": 82,
+        "eng_for": 12,
+        "eng_against": 8,
+        "pull_med": 160.0,
+        "label": "2024-25"
+      },
+      {
+        "season": 2025,
+        "games": 82,
+        "eng_for": 17,
+        "eng_against": 11,
+        "pull_med": 103.0,
+        "label": "2025-26"
+      },
+      {
+        "season": 2026,
+        "games": 25,
+        "eng_for": 8,
+        "eng_against": 2,
+        "pull_med": 136.0,
+        "label": "2026-27"
+      }
+    ],
+    "career_eng_for": 142,
+    "career_eng_against": 115,
+    "career_eng_diff": 27
+  }
+}
