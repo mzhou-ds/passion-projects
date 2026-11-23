@@ -1,0 +1,32 @@
+The Wisdom Books Are Bossy — build #77, 2026-11-23, philosophy
+
+Corpus: 13 wisdom texts, 24,178 sentences, 481,839 words (Tao Te Ching,
+Analects, Zhuangzi, Dhammapada, Gita, Upanishads, Meditations, Enchiridion,
+Seneca Letters 1-20, Ecclesiastes, Proverbs, Emerson Essays I, Walden).
+
+Headline: the West commands and the East describes. Eastern texts issue
+commands in 3.15% of sentences on average, Western texts in 6.80%
+(permutation p = 0.018). The Tao Te Ching has 9 commands in 513 sentences,
+6 of them starting with "let" (permission, not order). The Analects, the
+rulebook, is the least commanding book in the corpus at 1.4%.
+
+1. Meditations is the bossiest book (11.5%, 203 commands), and 48.3% of its
+   commands are addressed to "thou/thy/thyself". Marcus orders himself
+   around in a diary nobody was supposed to read. It is also the most
+   questioning text (15.3%), tied with Ecclesiastes.
+2. The Bible's wisdom books command by forbidding: 53.9% of Proverbs'
+   commands and 61.5% of Ecclesiastes' are prohibitions. The Tao commands
+   by permitting (66.7% "let"). Emerson is 45.9% "let".
+3. "Let" is the #1 command verb in 9 of 13 texts.
+4. The Gita is the Eastern outlier (7.3%, third overall): a battlefield
+   dialogue where a god orders a warrior. Genre beats tradition.
+5. Negation does NOT split East/West (24.4 vs 22.7 per 1000). Eastern
+   negation is descriptive ("the Tao that can be described is not..."),
+   Western negation is prohibitive. Corr(command, negation) = -0.22.
+6. Walden says "I" more than any text (34.2/1000) and uses self/soul/mind
+   words less than any (0.6/1000). The Upanishads are the mirror image.
+
+Classifier: rule-based imperative detection, validated on a hand-labelled
+stratified sample of 120 sentences (seed 2026): precision 96.7%,
+recall 98.3%. Three earlier labelling rounds (seeds 42, 123, 7) drove
+fixes; precision rose 78% -> 83% -> 90% -> 96.7%.

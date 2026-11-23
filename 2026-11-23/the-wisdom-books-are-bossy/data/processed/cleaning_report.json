@@ -1,0 +1,54 @@
+{
+  "tao_te_ching.txt": {
+    "raw_words": 10946,
+    "clean_words": 10426
+  },
+  "enchiridion.txt": {
+    "raw_words": 9650,
+    "clean_words": 9351
+  },
+  "dhammapada.txt": {
+    "raw_words": 12420,
+    "clean_words": 12025
+  },
+  "zhuangzi.txt": {
+    "raw_words": 102173,
+    "clean_words": 101646
+  },
+  "meditations.txt": {
+    "raw_words": 47259,
+    "clean_words": 46995
+  },
+  "seneca_letters.txt": {
+    "raw_words": 22594,
+    "clean_words": 22457
+  },
+  "analects.txt": {
+    "raw_words": 33504,
+    "clean_words": 30439
+  },
+  "gita.txt": {
+    "raw_words": 23215,
+    "clean_words": 20144
+  },
+  "upanishads.txt": {
+    "raw_words": 20684,
+    "clean_words": 17648
+  },
+  "emerson_essays.txt": {
+    "raw_words": 77231,
+    "clean_words": 74155
+  },
+  "walden.txt": {
+    "raw_words": 118874,
+    "clean_words": 115744
+  },
+  "ecclesiastes.txt": {
+    "raw_words": 5628,
+    "clean_words": 5578
+  },
+  "proverbs.txt": {
+    "raw_words": 15164,
+    "clean_words": 15036
+  }
+}

@@ -1,0 +1,362 @@
+{
+  "Tao Te Ching": {
+    "n_imperative": 9,
+    "top_verbs": [
+      [
+        "let",
+        6
+      ],
+      [
+        "calm",
+        1
+      ],
+      [
+        "do",
+        1
+      ],
+      [
+        "employ",
+        1
+      ]
+    ],
+    "negated_share": 33.333333333333336,
+    "let_share": 66.66666666666667,
+    "second_person_share": 11.11111111111111
+  },
+  "Analects": {
+    "n_imperative": 25,
+    "top_verbs": [
+      [
+        "let",
+        9
+      ],
+      [
+        "give",
+        3
+      ],
+      [
+        "have",
+        2
+      ],
+      [
+        "hold",
+        1
+      ],
+      [
+        "mark",
+        1
+      ]
+    ],
+    "negated_share": 20.0,
+    "let_share": 36.0,
+    "second_person_share": 24.0
+  },
+  "Zhuangzi": {
+    "n_imperative": 201,
+    "top_verbs": [
+      [
+        "let",
+        28
+      ],
+      [
+        "do",
+        15
+      ],
+      [
+        "be",
+        14
+      ],
+      [
+        "take",
+        10
+      ],
+      [
+        "come",
+        9
+      ]
+    ],
+    "negated_share": 19.90049751243781,
+    "let_share": 13.930348258706468,
+    "second_person_share": 28.35820895522388
+  },
+  "Dhammapada": {
+    "n_imperative": 14,
+    "top_verbs": [
+      [
+        "do",
+        4
+      ],
+      [
+        "leave",
+        3
+      ],
+      [
+        "be",
+        1
+      ],
+      [
+        "follow",
+        1
+      ],
+      [
+        "throw",
+        1
+      ]
+    ],
+    "negated_share": 35.714285714285715,
+    "let_share": 7.142857142857143,
+    "second_person_share": 28.571428571428573
+  },
+  "Bhagavad Gita": {
+    "n_imperative": 80,
+    "top_verbs": [
+      [
+        "let",
+        11
+      ],
+      [
+        "be",
+        8
+      ],
+      [
+        "hear",
+        7
+      ],
+      [
+        "know",
+        5
+      ],
+      [
+        "make",
+        4
+      ]
+    ],
+    "negated_share": 16.25,
+    "let_share": 13.75,
+    "second_person_share": 38.75
+  },
+  "Upanishads": {
+    "n_imperative": 26,
+    "top_verbs": [
+      [
+        "do",
+        4
+      ],
+      [
+        "know",
+        3
+      ],
+      [
+        "ask",
+        3
+      ],
+      [
+        "find",
+        3
+      ],
+      [
+        "remember",
+        2
+      ]
+    ],
+    "negated_share": 23.076923076923077,
+    "let_share": 0.0,
+    "second_person_share": 23.076923076923077
+  },
+  "Meditations": {
+    "n_imperative": 203,
+    "top_verbs": [
+      [
+        "let",
+        23
+      ],
+      [
+        "be",
+        14
+      ],
+      [
+        "look",
+        10
+      ],
+      [
+        "take",
+        10
+      ],
+      [
+        "see",
+        9
+      ]
+    ],
+    "negated_share": 37.4384236453202,
+    "let_share": 8.866995073891626,
+    "second_person_share": 48.275862068965516
+  },
+  "Enchiridion": {
+    "n_imperative": 25,
+    "top_verbs": [
+      [
+        "do",
+        3
+      ],
+      [
+        "remember",
+        2
+      ],
+      [
+        "be",
+        2
+      ],
+      [
+        "go",
+        2
+      ],
+      [
+        "withdraw",
+        1
+      ]
+    ],
+    "negated_share": 44.0,
+    "let_share": 0.0,
+    "second_person_share": 56.0
+  },
+  "Seneca, Letters 1-20": {
+    "n_imperative": 68,
+    "top_verbs": [
+      [
+        "let",
+        15
+      ],
+      [
+        "do",
+        3
+      ],
+      [
+        "reflect",
+        3
+      ],
+      [
+        "lay",
+        2
+      ],
+      [
+        "be",
+        2
+      ]
+    ],
+    "negated_share": 20.58823529411765,
+    "let_share": 19.11764705882353,
+    "second_person_share": 61.76470588235294
+  },
+  "Ecclesiastes": {
+    "n_imperative": 13,
+    "top_verbs": [
+      [
+        "be",
+        3
+      ],
+      [
+        "let",
+        2
+      ],
+      [
+        "keep",
+        1
+      ],
+      [
+        "go",
+        1
+      ],
+      [
+        "live",
+        1
+      ]
+    ],
+    "negated_share": 61.53846153846154,
+    "let_share": 15.384615384615385,
+    "second_person_share": 84.61538461538461
+  },
+  "Proverbs": {
+    "n_imperative": 89,
+    "top_verbs": [
+      [
+        "let",
+        11
+      ],
+      [
+        "be",
+        8
+      ],
+      [
+        "hear",
+        7
+      ],
+      [
+        "take",
+        5
+      ],
+      [
+        "give",
+        5
+      ]
+    ],
+    "negated_share": 53.93258426966292,
+    "let_share": 12.359550561797754,
+    "second_person_share": 56.17977528089887
+  },
+  "Emerson, Essays I": {
+    "n_imperative": 157,
+    "top_verbs": [
+      [
+        "let",
+        72
+      ],
+      [
+        "do",
+        9
+      ],
+      [
+        "see",
+        6
+      ],
+      [
+        "take",
+        5
+      ],
+      [
+        "speak",
+        4
+      ]
+    ],
+    "negated_share": 28.02547770700637,
+    "let_share": 45.859872611464965,
+    "second_person_share": 28.02547770700637
+  },
+  "Walden": {
+    "n_imperative": 83,
+    "top_verbs": [
+      [
+        "let",
+        25
+      ],
+      [
+        "consider",
+        4
+      ],
+      [
+        "do",
+        4
+      ],
+      [
+        "be",
+        3
+      ],
+      [
+        "see",
+        2
+      ]
+    ],
+    "negated_share": 28.91566265060241,
+    "let_share": 30.120481927710845,
+    "second_person_share": 28.91566265060241
+  }
+}
