@@ -1,0 +1,4 @@
+group,n,beta_age_per_year,beta_grip_per_kg,hr_age_per_year,hr_grip_per_5kg,years_per_5kg_weaker,years_per_10kg_weaker,kg_to_buy_back_one_year
+all,6081,0.06,-0.0372,1.062,0.83,3.1,6.21,1.61
+men,2972,0.0579,-0.0356,1.06,0.837,3.07,6.14,1.63
+women,3109,0.0607,-0.045,1.063,0.799,3.71,7.41,1.35

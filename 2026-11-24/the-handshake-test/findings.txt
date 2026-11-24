@@ -1,0 +1,77 @@
+THE HANDSHAKE TEST — findings
+Build #78 · 2026-11-24 · Topic: fitness
+Data: NHANES 2011-2014 (n = 6,085 adults 40-80 with a grip exam) linked to
+NCHS mortality follow-up through Dec 31, 2019. 731 deaths (12.0%),
+median follow-up 80 months. Grip = best of 3 trials per hand, combined
+(left + right). Models are Cox proportional hazards, adjusted for age,
+sex, race, education, smoking, and baseline CVD/cancer unless noted.
+
+1. THE HEAD-TO-HEAD: GRIP BEATS THE VITALS 4 TO 1. One SD of combined
+   grip (21 kg) cuts mortality risk 55%: HR 0.45 (0.40-0.51), p = 5e-40.
+   Per 5 kg: HR 0.83 (0.81-0.85). BMI per SD: HR 1.00 (p = 0.90).
+   Systolic BP per SD: HR 1.01 (p = 0.77). Waist per SD: HR 1.02
+   (p = 0.61). Resting pulse is the only vital with a real signal:
+   HR 1.20 per SD (p = 9e-8). Out of sample (repeated 5-fold CV
+   C-index), the base model scores 0.792. Adding grip: 0.812 (+0.020).
+   Adding BMI, systolic BP, pulse, and waist together: 0.798 (+0.005).
+   Grip alone adds four times what all four standard vitals add together.
+
+2. A WEAKER HANDSHAKE IS PRICED IN YEARS. From the same model, 5 kg of
+   weaker grip carries the mortality risk of 3.1 extra years of age;
+   10 kg is 6.2 years; 15 kg is 9.3 years. Men: 3.1 / 6.1 years.
+   Women: 3.7 / 7.4 years. It takes 1.6 kg of grip to buy back one year
+   of aging (1.6 kg men, 1.4 kg women).
+
+3. MEN SLIDE, WOMEN FALL OFF A CLIFF. Weakest-quintile men die at 5.79x
+   the rate of the strongest quintile (3.35-9.99), with a smooth gradient
+   across every quintile (2.92, 1.88, 1.52). Weakest-quintile women die
+   at 2.61x (1.54-4.41) and quintiles 2-4 are flat at ~1.0. For men every
+   kilo counts. For women it is a threshold: only the weakest fifth is
+   at risk. At 8 years, weakest-quartile men survive 61.5% vs 96.4% for
+   the strongest; women 69.5% vs 95.7%.
+
+4. GRIP IS NOT A PROXY FOR WORKING OUT. Only 16.8% of survivors vs 4.8%
+   of the dead reported any strength training (HR 0.58 for any vs none),
+   and any vigorous activity carries HR 0.54. But adjusting for both
+   barely moves the grip coefficient: -0.0372 to -0.0358, about 4%.
+   The signal lives in the muscle, not in the habit. If grip were just
+   a marker for "lifts weights," the adjustment would have killed it.
+   It did not.
+
+5. IT IS A HEART TEST, NOT A CANCER TEST. Per 5 kg of grip, cardiovascular
+   death (219 deaths): HR 0.80 (0.76-0.84), p = 1e-18. Cancer death
+   (184 deaths): HR 0.93 (0.88-0.99), p = 0.016. Grip strength is
+   mostly a cardiovascular signal.
+
+6. WEAK GRIP IS RARE UNTIL 60, THEN IT JUMPS TENFOLD. Survey-weighted
+   share below the EWGSOP2 sarcopenia cutoff (27 kg men / 16 kg women
+   max grip): men 0.4% at 40-49, 1.0% at 50-59, 1.8% at 60-69, 10.8%
+   at 70-80. Women: 0.3%, 0.5%, 0.9%, 11.5%. One in nine Americans
+   over 70 is already below the clinical weak-grip line.
+
+7. THE FAIRNESS CHECK: BMI IS A U, BP IS FLAT. The null linear terms
+   are not "weight and BP do not matter." BMI categories vs 18.5-25:
+   underweight (<18.5) HR 1.86, overweight (25-30) HR 0.76, obese
+   (30-35) HR 0.81, 35+ HR 1.08. The bottom of the U sits at 25-30 in
+   this age band, the classic obesity paradox. Systolic BP categories
+   vs <120: 120-139 HR 0.89, 140-159 HR 0.97, 160+ HR 1.03, all null.
+   A single clinic BP reading, even above 160, carried no mortality
+   signal here: one noisy reading plus treatment confounding.
+
+CHECKS. Excluding deaths within 12 months of the exam: HR 0.833 (vs
+0.830 main), so reverse causation is not driving it. Excluding baseline
+CVD/cancer: 0.824. Survey-weighted: 0.820 (0.791-0.850). Age 40-59:
+0.858 (p = 9e-7); age 60-80: 0.826. Early follow-up (0-48 mo): 0.805;
+late (48+ mo): 0.856. Grip/max definition: HR 0.697 per 5 kg. Grip
+relative to bodyweight is weaker than absolute grip (CV C 0.804 vs
+0.812). Schoenfeld test flags mild non-proportionality for grip
+(p = 0.011); the time split shows the effect is stronger early and
+still strong late, so the headline HR is an average, not an artifact.
+
+CAVEATS. Observational: grip correlates with frailty, disease, and
+unmeasured health, so this is prediction, not proof that training grip
+extends life. One grip measurement at baseline; no change over time.
+Age is top-coded at 80 in NHANES. Grip was measured only to age 80.
+NHANES exam weights used for prevalence; main models are unweighted
+with covariate adjustment (weighted HR agrees: 0.820 vs 0.830).
+Self-reported activity (strength training, vigorous minutes) is noisy.

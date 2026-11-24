@@ -1,0 +1,21 @@
+{
+  "mgx_rows": 16112,
+  "mort_rows": 19931,
+  "mort_deaths_total": 1095,
+  "grip_complete_exam": 14741,
+  "grip_combined_nonnull": 14741,
+  "merged_rows": 16112,
+  "age_40plus": 7149,
+  "after_age40": 7149,
+  "after_eligibility": 7135,
+  "after_grip": 6316,
+  "after_vitals": 6085,
+  "cohort_n": 6085,
+  "cohort_deaths": 734,
+  "cohort_death_rate_pct": 12.06,
+  "followup_months_median": 80.0,
+  "followup_months_range": [
+    0.0,
+    111.0
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "n": 6085,
+  "deaths": 734,
+  "hr_per_sd": {
+    "grip_combined": 0.452,
+    "grip_max": 0.451,
+    "grip_relative": 0.626,
+    "bmi": 0.995,
+    "sbp": 1.011,
+    "pulse": 1.198,
+    "waist_cm": 1.023,
+    "strength_any": 0.821,
+    "vig_any": 0.739
+  },
+  "cv_cindex": {
+    "base": 0.7924,
+    "base+grip_combined": 0.8123,
+    "base+grip_max": 0.8133,
+    "base+grip_relative": 0.8038,
+    "base+bmi": 0.792,
+    "base+sbp": 0.7923,
+    "base+pulse": 0.7965,
+    "base+waist": 0.7926,
+    "base+strength_any": 0.7937,
+    "base+vigorous": 0.7989,
+    "base+all_vitals": 0.7976,
+    "base+all_vitals+grip": 0.8165,
+    "base+all_vitals+grip+activity": 0.8195,
+    "base+grip+activity": 0.8167
+  },
+  "grip_years": {
+    "all": {
+      "years_per_5kg_weaker": 3.1,
+      "years_per_10kg_weaker": 6.21,
+      "kg_to_buy_back_one_year": 1.61
+    },
+    "men": {
+      "years_per_5kg_weaker": 3.07,
+      "years_per_10kg_weaker": 6.14,
+      "kg_to_buy_back_one_year": 1.63
+    },
+    "women": {
+      "years_per_5kg_weaker": 3.71,
+      "years_per_10kg_weaker": 7.41,
+      "kg_to_buy_back_one_year": 1.35
+    }
+  },
+  "interactions": [
+    {
+      "interaction": "grip x female",
+      "beta": -0.0093,
+      "p": 0.10523160267351839
+    },
+    {
+      "interaction": "grip x age60+",
+      "beta": -0.0053,
+      "p": 0.293193582804144
+    }
+  ],
+  "grip_beta_alone": -0.03722474841821804,
+  "grip_beta_with_activity": -0.0357966439960146
+}

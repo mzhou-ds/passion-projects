@@ -1,0 +1,10 @@
+variable,label,unit,hr_per_unit,hr_lo,hr_hi,p,c_index,n
+grip_combined,"Grip strength, combined (kg)",5.0,0.83,0.808,0.853,4.805510273256034e-40,0.8214,6081
+grip_max,"Grip strength, max (kg)",5.0,0.697,0.66,0.735,8.82338203177377e-40,0.8221,6081
+grip_relative,Grip / bodyweight,0.1,0.832,0.801,0.865,1.223634540738833e-20,0.8133,6081
+bmi,BMI,5.0,0.996,0.935,1.061,0.9024843739822831,0.8008,6081
+sbp,Systolic BP (mmHg),10.0,1.006,0.968,1.044,0.7710305896368143,0.8009,6081
+pulse,Resting pulse (bpm),10.0,1.166,1.102,1.234,9.43655168686367e-08,0.8048,6081
+waist_cm,Waist (cm),10.0,1.015,0.959,1.074,0.6108956431274397,0.7954,5848
+strength_any,Any strength training (yes vs no),1.0,0.579,0.409,0.82,0.002084544380803626,0.8027,6081
+vig_any,Any vigorous activity (yes vs no),1.0,0.541,0.454,0.643,3.766105762722419e-12,0.8084,6081
