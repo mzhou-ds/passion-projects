@@ -1,0 +1,65 @@
+{
+  "groups": {
+    "bars_protein": {
+      "category": "protein-bars",
+      "search_terms": null,
+      "n": 1000
+    },
+    "bars_plain": {
+      "category": "cereal-bars",
+      "search_terms": null,
+      "n": 500
+    },
+    "yogurts_protein": {
+      "category": "yogurts",
+      "search_terms": "protein",
+      "n": 800
+    },
+    "yogurts_plain": {
+      "category": "yogurts",
+      "search_terms": null,
+      "n": 100
+    },
+    "cereals_protein": {
+      "category": "breakfast-cereals",
+      "search_terms": "protein",
+      "n": 0
+    },
+    "cereals_plain": {
+      "category": "breakfast-cereals",
+      "search_terms": null,
+      "n": 1000
+    },
+    "breads_protein": {
+      "category": "breads",
+      "search_terms": "protein",
+      "n": 400
+    },
+    "breads_plain": {
+      "category": "breads",
+      "search_terms": null,
+      "n": 700
+    },
+    "pastas_protein": {
+      "category": "pastas",
+      "search_terms": "protein",
+      "n": 1000
+    },
+    "pastas_plain": {
+      "category": "pastas",
+      "search_terms": null,
+      "n": 600
+    },
+    "cookies_protein": {
+      "category": "cookies",
+      "search_terms": "protein",
+      "n": 0
+    },
+    "cookies_plain": {
+      "category": "cookies",
+      "search_terms": null,
+      "n": 100
+    }
+  },
+  "total_unique": 5063
+}

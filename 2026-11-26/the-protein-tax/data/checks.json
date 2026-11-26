@@ -1,0 +1,151 @@
+{
+  "classifier_spot_check": {
+    "bars": [
+      "RXBAR MINIS Chocolate Sea Salt",
+      "Fit Crunch Wafer",
+      "Protein bars, salted caramel",
+      "Protein waffle",
+      "BUILDERS PROTEIN + CAFFEINE Chocolate Chip Cookie Dough",
+      "Chocolate Caramel Protein Bar",
+      "PURE PROTEIN Chewy Chocolate Chip",
+      "Dark Chocolate Nuts & Sea Salt"
+    ],
+    "yogurts": [
+      "Protein",
+      "Natural Protein Yogurt",
+      "Organic Yogurt Plain",
+      "Strawberries & Cream Protein Shake",
+      "Protein Vanilla Yogurt",
+      "Greek Yogurt Strawberry Vanilla",
+      "Oikos PRO Complete Protein",
+      "Creamy Vanilla Protein"
+    ],
+    "cereals": [
+      "Protein Oats & Honey Granola",
+      "MAGIC SPOON PROTEIN CEREAL COCOA",
+      "Chocolate Peanut Butter Protein Cereal",
+      "Protein Instant Oatmeal Banana Nut",
+      "Protein cereal",
+      "15g Protein Overnight Oats Chocolate Peanut Butter",
+      "Peanut Butter Protein Granola",
+      "Protein Cereal"
+    ],
+    "breads": [
+      "High Protein Carb Savvy Wraps",
+      "Grains almighty plant protein bread",
+      "Protein Original Tortilla Wrap",
+      "Protein Bread",
+      "Protein-Packed Power Waffles Buttermilk & Vanilla",
+      "High Protein Carb Savvy Wraps"
+    ],
+    "pastas": [
+      "Protein+ Thin Spaghetti",
+      "Protein+ Angel Hair",
+      "Protein Pasta",
+      "Brami Protein Pasta Fusilli Protein Pasta",
+      "PROTEIN+ PENNE/ROTINI",
+      "Spaghetti Protein Pasta",
+      "Yellow Lentil Penne Rigate",
+      "Protein Pasta Curveballs"
+    ],
+    "cookies": []
+  },
+  "A_per_100g": {
+    "protein_median": 8.0,
+    "plain_median": 3.6,
+    "diff": 4.4,
+    "pct_lower": -122.2,
+    "mwu_p": 2.31960457545954e-89,
+    "n_protein": 993,
+    "n_plain": 3583
+  },
+  "B_drop_fiber_named": {
+    "protein_median": 2.0,
+    "plain_median": 1.111,
+    "diff": 0.889,
+    "pct_lower": -80.0,
+    "mwu_p": 4.7672236106656104e-57,
+    "n_protein": 990,
+    "n_plain": 3572
+  },
+  "B_n_dropped": 14,
+  "C_drop_top_brand_per_category": {
+    "protein_median": 2.0,
+    "plain_median": 1.111,
+    "diff": 0.889,
+    "pct_lower": -80.0,
+    "mwu_p": 2.8068067703359744e-54,
+    "n_protein": 970,
+    "n_plain": 3272
+  },
+  "D_means": {
+    "protein_mean": 2.756,
+    "plain_mean": 1.748,
+    "pct_lower": -57.7
+  },
+  "MAIN_per_100kcal": {
+    "protein_median": 2.0,
+    "plain_median": 1.111,
+    "diff": 0.889,
+    "pct_lower": -80.0,
+    "mwu_p": 8.963070391213943e-57,
+    "n_protein": 993,
+    "n_plain": 3583
+  },
+  "per_category": {
+    "bars": {
+      "protein_median": 2.01,
+      "plain_median": 1.429,
+      "diff": 0.581,
+      "pct_lower": -40.7,
+      "mwu_p": 4.2589862801849435e-14,
+      "n_protein": 898,
+      "n_plain": 456
+    },
+    "yogurts": {
+      "protein_median": 0.0,
+      "plain_median": 0.0,
+      "diff": 0.0,
+      "pct_lower": null,
+      "mwu_p": 0.6909609479149077,
+      "n_protein": 13,
+      "n_plain": 626
+    },
+    "cereals": {
+      "protein_median": 1.786,
+      "plain_median": 1.905,
+      "diff": -0.119,
+      "pct_lower": 6.2,
+      "mwu_p": 0.7883518225835685,
+      "n_protein": 59,
+      "n_plain": 866
+    },
+    "breads": {
+      "protein_median": 3.889,
+      "plain_median": 1.538,
+      "diff": 2.35,
+      "pct_lower": -152.8,
+      "mwu_p": 0.025292531777289184,
+      "n_protein": 6,
+      "n_plain": 649
+    },
+    "pastas": {
+      "protein_median": 2.632,
+      "plain_median": 1.0,
+      "diff": 1.632,
+      "pct_lower": -163.2,
+      "mwu_p": 2.7660825794588938e-08,
+      "n_protein": 17,
+      "n_plain": 906
+    },
+    "cookies": {
+      "protein_median": null,
+      "plain_median": null,
+      "diff": null,
+      "pct_lower": null,
+      "mwu_p": null,
+      "n_protein": 0,
+      "n_plain": 80
+    }
+  }
+}

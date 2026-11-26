@@ -1,0 +1,28 @@
+THE PROTEIN TAX IS A MYTH — Build #79, 2026-11-26, nutrition
+Sample: 4,576 US grocery products with complete data (Open Food Facts), 993 protein-branded, 3,583 plain.
+
+HEADLINE: Protein-branded foods carry 80% MORE fiber per calorie than the plain versions (median 2.00 vs 1.11 g fiber/100 kcal, p = 9e-57). The protein tax does not exist. It runs the other way.
+
+BY AISLE (median fiber g/100 kcal, protein vs plain):
+- Bars: 2.01 vs 1.43 (+41%, p = 4e-14, n = 898/456)
+- Pastas: 2.63 vs 1.00 (p = 3e-08, n = 17 protein; legume-based)
+- Breads: 3.89 vs 1.54 (n = 6 protein; small sample)
+- Cereals: 1.79 vs 1.90 (no difference, p = 0.79)
+- Yogurts: 0.00 vs 0.00 (floor effect, both zero)
+- Cookies: no protein cookies found in the most-scanned US sample
+
+EXCHANGE RATE (fiber per 100 kcal on protein per 100 kcal): pooled +0.24 (SE 0.011, p = 4e-96). Bars +0.21, cereals +0.32, pastas +0.39, breads +1.28, yogurts -0.01. Protein and fiber move together.
+
+CLAIM AUDIT: 84% of protein-branded products meet the EU high-protein bar (20% of energy from protein). Only 19% are fiber-poor vs 37% of plain. Only 1.4% fail both tests. Protein-branded: 24% Nutri-Score D/E vs 29% plain; in bars 24% vs 73%.
+
+PLAIN BAR IS THE CANDY BAR: median plain bar 25.0 g sugar/100 g vs 10.4 g for protein bars; 73% of plain bars score D/E.
+
+ADDED-FIBER CAVEAT: 42% of protein bars list an added isolated fiber (chicory root fiber, soluble corn fiber, polydextrose, inulin) vs 29% of plain bars (n = 100 each). Part of the advantage is engineered.
+
+DAILY SWAP (cereal 40 g + yogurt 170 g + bar 60 g, equal calories): GAINS 1.3 g fiber/day (bars +1.45, cereals -0.18, yogurts 0.00), 14% of the average woman's 9 g fiber gap. Same swaps add 25 g protein/day that 93% of Americans do not need.
+
+BACKGROUND: 92.8% of Americans meet protein recommendations vs 9.5% for fiber (NHANES 2013-2018). Mean fiber intake ~16 g/day vs targets 25 g (women) / 38 g (men).
+
+THANKSGIVING CODA (USDA FoodData Central): typical plate 66.9 g protein, 12.1 g fiber, ratio 5.5:1 vs guidelines' 1.8:1. One plate = a full day of protein, under half a day of fiber for a woman.
+
+ROBUSTNESS: per-100 g comparison (8.0 vs 3.6), dropping fiber-named products, dropping top brand per category, means instead of medians — all unchanged. Pooled numbers are bar-dominated (898 of 993 protein products are bars); per-aisle table is the evidence.

@@ -1,0 +1,7 @@
+metric,pct,n
+protein-branded products meeting EU 'high protein' bar (>=20% energy),84.08862034239678,993
+protein-branded products that are fiber-poor (<3g fiber/100g),19.133937562940584,993
+protein-branded AND fiber-poor AND below high-protein bar,1.4098690835850958,993
+plain products that are fiber-poor (<3g fiber/100g),37.426737370918225,3583
+protein-branded with Nutri-Score D or E,24.47129909365559,410
+plain with Nutri-Score D or E,28.691041027072284,3176

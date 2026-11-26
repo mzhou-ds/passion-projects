@@ -1,0 +1,243 @@
+fetching bars_protein (category=protein-bars, terms=None)
+    attempt 1 failed: HTTP Error 503: Service Temporarily Unavailable
+  bars_protein: page 1, got 100, total 100 (of 1297)
+    attempt 1 failed: HTTP Error 503: Service Temporarily Unavailable
+    attempt 2 failed: HTTP Error 503: Service Temporarily Unavailable
+    attempt 3 failed: HTTP Error 503: Service Temporarily Unavailable
+  bars_protein: page 2, got 100, total 200 (of 1297)
+  bars_protein: page 3, got 100, total 300 (of 1297)
+    attempt 1 failed: HTTP Error 503: Service Temporarily Unavailable
+  bars_protein: page 4, got 100, total 400 (of 1297)
+  bars_protein: page 5, got 100, total 500 (of 1297)
+  bars_protein: page 6, got 100, total 600 (of 1297)
+    attempt 1 failed: HTTP Error 503: Service Temporarily Unavailable
+    attempt 2 failed: HTTP Error 503: Service Temporarily Unavailable
+  bars_protein: page 7, got 100, total 700 (of 1297)
+    attempt 1 failed: HTTP Error 503: Service Temporarily Unavailable
+    attempt 2 failed: HTTP Error 503: Service Temporarily Unavailable
+  bars_protein: page 8, got 100, total 800 (of 1297)
+    attempt 1 failed: HTTP Error 503: Service Temporarily Unavailable
+    attempt 2 failed: HTTP Error 503: Service Temporarily Unavailable
+    attempt 3 failed: HTTP Error 503: Service Temporarily Unavailable
+  bars_protein: page 9, got 100, total 900 (of 1297)
+  bars_protein: page 10, got 100, total 1000 (of 1297)
+fetching bars_plain (category=cereal-bars, terms=None)
+    attempt 1 failed: HTTP Error 503: Service Temporarily Unavailable
+    attempt 2 failed: HTTP Error 503: Service Temporarily Unavailable
+    attempt 3 failed: HTTP Error 503: Service Temporarily Unavailable
+  bars_plain: page 1, got 100, total 100 (of 872)
+    attempt 1 failed: HTTP Error 503: Service Temporarily Unavailable
+  bars_plain: page 2, got 100, total 200 (of 872)
+  bars_plain: page 3, got 100, total 300 (of 872)
+    attempt 1 failed: HTTP Error 503: Service Temporarily Unavailable
+    attempt 2 failed: HTTP Error 503: Service Temporarily Unavailable
+  bars_plain: page 4, got 100, total 400 (of 872)
+    attempt 1 failed: HTTP Error 503: Service Temporarily Unavailable
+  bars_plain: page 5, got 100, total 500 (of 872)
+    attempt 1 failed: HTTP Error 503: Service Temporarily Unavailable
+    attempt 2 failed: HTTP Error 503: Service Temporarily Unavailable
+    attempt 3 failed: HTTP Error 503: Service Temporarily Unavailable
+    attempt 4 failed: HTTP Error 503: Service Temporarily Unavailable
+  bars_plain: page 6 FAILED after retries, keeping 500 so far
+fetching yogurts_protein (category=yogurts, terms=protein)
+    attempt 1 failed: HTTP Error 503: Service Temporarily Unavailable
+  yogurts_protein: page 1, got 100, total 100 (of 6424)
+    attempt 1 failed: HTTP Error 503: Service Temporarily Unavailable
+    attempt 2 failed: HTTP Error 503: Service Temporarily Unavailable
+  yogurts_protein: page 2, got 100, total 200 (of 6424)
+  yogurts_protein: page 3, got 100, total 300 (of 6424)
+    attempt 1 failed: HTTP Error 503: Service Temporarily Unavailable
+  yogurts_protein: page 4, got 100, total 400 (of 6424)
+    attempt 1 failed: HTTP Error 503: Service Temporarily Unavailable
+    attempt 2 failed: HTTP Error 503: Service Temporarily Unavailable
+  yogurts_protein: page 5, got 100, total 500 (of 6424)
+  yogurts_protein: page 6, got 100, total 600 (of 6424)
+    attempt 1 failed: HTTP Error 503: Service Temporarily Unavailable
+  yogurts_protein: page 7, got 100, total 700 (of 6424)
+  yogurts_protein: page 8, got 100, total 800 (of 6424)
+    attempt 1 failed: HTTP Error 503: Service Temporarily Unavailable
+    attempt 2 failed: HTTP Error 503: Service Temporarily Unavailable
+    attempt 3 failed: HTTP Error 503: Service Temporarily Unavailable
+    attempt 4 failed: HTTP Error 503: Service Temporarily Unavailable
+  yogurts_protein: page 9 FAILED after retries, keeping 800 so far
+fetching yogurts_plain (category=yogurts, terms=None)
+    attempt 1 failed: HTTP Error 503: Service Temporarily Unavailable
+    attempt 2 failed: HTTP Error 503: Service Temporarily Unavailable
+    attempt 3 failed: HTTP Error 503: Service Temporarily Unavailable
+  yogurts_plain: page 1, got 100, total 100 (of 6424)
+    attempt 1 failed: HTTP Error 503: Service Temporarily Unavailable
+    attempt 2 failed: HTTP Error 503: Service Temporarily Unavailable
+    attempt 3 failed: HTTP Error 503: Service Temporarily Unavailable
+    attempt 4 failed: HTTP Error 503: Service Temporarily Unavailable
+  yogurts_plain: page 2 FAILED after retries, keeping 100 so far
+fetching cereals_protein (category=breakfast-cereals, terms=protein)
+    attempt 1 failed: HTTP Error 503: Service Temporarily Unavailable
+    attempt 2 failed: HTTP Error 503: Service Temporarily Unavailable
+    attempt 3 failed: HTTP Error 503: Service Temporarily Unavailable
+    attempt 4 failed: HTTP Error 503: Service Temporarily Unavailable
+  cereals_protein: page 1 FAILED after retries, keeping 0 so far
+fetching cereals_plain (category=breakfast-cereals, terms=None)
+  cereals_plain: page 1, got 100, total 100 (of 3907)
+    attempt 1 failed: HTTP Error 503: Service Temporarily Unavailable
+    attempt 2 failed: HTTP Error 503: Service Temporarily Unavailable
+    attempt 3 failed: HTTP Error 503: Service Temporarily Unavailable
+  cereals_plain: page 2, got 100, total 200 (of 3907)
+  cereals_plain: page 3, got 100, total 300 (of 3907)
+    attempt 1 failed: HTTP Error 503: Service Temporarily Unavailable
+  cereals_plain: page 4, got 100, total 400 (of 3907)
+    attempt 1 failed: HTTP Error 503: Service Temporarily Unavailable
+  cereals_plain: page 5, got 100, total 500 (of 3907)
+    attempt 1 failed: HTTP Error 503: Service Temporarily Unavailable
+  cereals_plain: page 6, got 100, total 600 (of 3907)
+    attempt 1 failed: HTTP Error 503: Service Temporarily Unavailable
+    attempt 2 failed: HTTP Error 503: Service Temporarily Unavailable
+  cereals_plain: page 7, got 100, total 700 (of 3907)
+    attempt 1 failed: HTTP Error 503: Service Temporarily Unavailable
+    attempt 2 failed: HTTP Error 503: Service Temporarily Unavailable
+  cereals_plain: page 8, got 100, total 800 (of 3907)
+    attempt 1 failed: HTTP Error 503: Service Temporarily Unavailable
+  cereals_plain: page 9, got 100, total 900 (of 3907)
+    attempt 1 failed: HTTP Error 503: Service Temporarily Unavailable
+    attempt 2 failed: HTTP Error 503: Service Temporarily Unavailable
+  cereals_plain: page 10, got 100, total 1000 (of 3907)
+fetching breads_protein (category=breads, terms=protein)
+  breads_protein: page 1, got 100, total 100 (of 10717)
+    attempt 1 failed: HTTP Error 503: Service Temporarily Unavailable
+    attempt 2 failed: HTTP Error 503: Service Temporarily Unavailable
+    attempt 3 failed: HTTP Error 503: Service Temporarily Unavailable
+  breads_protein: page 2, got 100, total 200 (of 10717)
+  breads_protein: page 3, got 100, total 300 (of 10717)
+  breads_protein: page 4, got 100, total 400 (of 10717)
+    attempt 1 failed: HTTP Error 503: Service Temporarily Unavailable
+    attempt 2 failed: HTTP Error 503: Service Temporarily Unavailable
+    attempt 3 failed: HTTP Error 503: Service Temporarily Unavailable
+    attempt 4 failed: HTTP Error 503: Service Temporarily Unavailable
+  breads_protein: page 5 FAILED after retries, keeping 400 so far
+fetching breads_plain (category=breads, terms=None)
+    attempt 1 failed: HTTP Error 503: Service Temporarily Unavailable
+  breads_plain: page 1, got 100, total 100 (of 10717)
+  breads_plain: page 2, got 100, total 200 (of 10717)
+    attempt 1 failed: HTTP Error 503: Service Temporarily Unavailable
+    attempt 2 failed: HTTP Error 503: Service Temporarily Unavailable
+  breads_plain: page 3, got 100, total 300 (of 10717)
+  breads_plain: page 4, got 100, total 400 (of 10717)
+  breads_plain: page 5, got 100, total 500 (of 10717)
+  breads_plain: page 6, got 100, total 600 (of 10717)
+  breads_plain: page 7, got 100, total 700 (of 10717)
+    attempt 1 failed: HTTP Error 503: Service Temporarily Unavailable
+    attempt 2 failed: HTTP Error 503: Service Temporarily Unavailable
+    attempt 3 failed: HTTP Error 503: Service Temporarily Unavailable
+    attempt 4 failed: HTTP Error 503: Service Temporarily Unavailable
+  breads_plain: page 8 FAILED after retries, keeping 700 so far
+fetching pastas_protein (category=pastas, terms=protein)
+    attempt 1 failed: HTTP Error 503: Service Temporarily Unavailable
+  pastas_protein: page 1, got 100, total 100 (of 7155)
+    attempt 1 failed: HTTP Error 503: Service Temporarily Unavailable
+    attempt 2 failed: HTTP Error 503: Service Temporarily Unavailable
+  pastas_protein: page 2, got 100, total 200 (of 7155)
+    attempt 1 failed: HTTP Error 503: Service Temporarily Unavailable
+    attempt 2 failed: HTTP Error 503: Service Temporarily Unavailable
+    attempt 3 failed: HTTP Error 503: Service Temporarily Unavailable
+  pastas_protein: page 3, got 100, total 300 (of 7155)
+    attempt 1 failed: HTTP Error 503: Service Temporarily Unavailable
+  pastas_protein: page 4, got 100, total 400 (of 7155)
+  pastas_protein: page 5, got 100, total 500 (of 7155)
+    attempt 1 failed: HTTP Error 503: Service Temporarily Unavailable
+  pastas_protein: page 6, got 100, total 600 (of 7155)
+    attempt 1 failed: HTTP Error 503: Service Temporarily Unavailable
+    attempt 2 failed: HTTP Error 503: Service Temporarily Unavailable
+  pastas_protein: page 7, got 100, total 700 (of 7155)
+  pastas_protein: page 8, got 100, total 800 (of 7155)
+  pastas_protein: page 9, got 100, total 900 (of 7155)
+  pastas_protein: page 10, got 100, total 1000 (of 7155)
+fetching pastas_plain (category=pastas, terms=None)
+    attempt 1 failed: HTTP Error 503: Service Temporarily Unavailable
+  pastas_plain: page 1, got 100, total 100 (of 7155)
+    attempt 1 failed: HTTP Error 503: Service Temporarily Unavailable
+  pastas_plain: page 2, got 100, total 200 (of 7155)
+    attempt 1 failed: HTTP Error 503: Service Temporarily Unavailable
+  pastas_plain: page 3, got 100, total 300 (of 7155)
+  pastas_plain: page 4, got 100, total 400 (of 7155)
+  pastas_plain: page 5, got 100, total 500 (of 7155)
+  pastas_plain: page 6, got 100, total 600 (of 7155)
+    attempt 1 failed: HTTP Error 503: Service Temporarily Unavailable
+    attempt 2 failed: HTTP Error 503: Service Temporarily Unavailable
+    attempt 3 failed: HTTP Error 503: Service Temporarily Unavailable
+    attempt 4 failed: HTTP Error 503: Service Temporarily Unavailable
+  pastas_plain: page 7 FAILED after retries, keeping 600 so far
+fetching cookies_protein (category=cookies, terms=protein)
+    attempt 1 failed: HTTP Error 503: Service Temporarily Unavailable
+    attempt 2 failed: HTTP Error 503: Service Temporarily Unavailable
+    attempt 3 failed: HTTP Error 503: Service Temporarily Unavailable
+    attempt 4 failed: HTTP Error 503: Service Temporarily Unavailable
+  cookies_protein: page 1 FAILED after retries, keeping 0 so far
+fetching cookies_plain (category=cookies, terms=None)
+  cookies_plain: page 1, got 100, total 100 (of 12486)
+    attempt 1 failed: HTTP Error 503: Service Temporarily Unavailable
+    attempt 2 failed: HTTP Error 503: Service Temporarily Unavailable
+    attempt 3 failed: HTTP Error 503: Service Temporarily Unavailable
+    attempt 4 failed: HTTP Error 503: Service Temporarily Unavailable
+  cookies_plain: page 2 FAILED after retries, keeping 100 so far
+total unique products: 5063
+{
+  "bars_protein": {
+    "category": "protein-bars",
+    "search_terms": null,
+    "n": 1000
+  },
+  "bars_plain": {
+    "category": "cereal-bars",
+    "search_terms": null,
+    "n": 500
+  },
+  "yogurts_protein": {
+    "category": "yogurts",
+    "search_terms": "protein",
+    "n": 800
+  },
+  "yogurts_plain": {
+    "category": "yogurts",
+    "search_terms": null,
+    "n": 100
+  },
+  "cereals_protein": {
+    "category": "breakfast-cereals",
+    "search_terms": "protein",
+    "n": 0
+  },
+  "cereals_plain": {
+    "category": "breakfast-cereals",
+    "search_terms": null,
+    "n": 1000
+  },
+  "breads_protein": {
+    "category": "breads",
+    "search_terms": "protein",
+    "n": 400
+  },
+  "breads_plain": {
+    "category": "breads",
+    "search_terms": null,
+    "n": 700
+  },
+  "pastas_protein": {
+    "category": "pastas",
+    "search_terms": "protein",
+    "n": 1000
+  },
+  "pastas_plain": {
+    "category": "pastas",
+    "search_terms": null,
+    "n": 600
+  },
+  "cookies_protein": {
+    "category": "cookies",
+    "search_terms": "protein",
+    "n": 0
+  },
+  "cookies_plain": {
+    "category": "cookies",
+    "search_terms": null,
+    "n": 100
+  }
+}

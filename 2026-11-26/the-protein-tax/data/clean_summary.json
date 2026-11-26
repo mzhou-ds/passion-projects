@@ -1,0 +1,30 @@
+{
+  "n_raw": 5063,
+  "n_clean": 4874,
+  "dropped": {
+    "no_name_or_code": 42,
+    "unclassifiable": 0,
+    "bad_nutrients": 147
+  },
+  "missing_fiber_counts": {
+    "protein": 43,
+    "plain": 255
+  },
+  "by_category_group": {
+    "bars|plain": 475,
+    "bars|protein": 937,
+    "breads|plain": 673,
+    "breads|protein": 6,
+    "cereals|plain": 895,
+    "cereals|protein": 60,
+    "cookies|plain": 91,
+    "pastas|plain": 942,
+    "pastas|protein": 17,
+    "yogurts|plain": 762,
+    "yogurts|protein": 16
+  },
+  "missing_fiber_rate": {
+    "protein": 0.04,
+    "plain": 0.062
+  }
+}

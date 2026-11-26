@@ -1,0 +1,21 @@
+{
+  "n_products": 4576,
+  "n_protein_branded": 993,
+  "n_plain": 3583,
+  "pooled_fiber_per_100kcal": {
+    "protein": 2.0,
+    "plain": 1.111
+  },
+  "pooled_protein_per_100kcal": {
+    "protein": 7.14,
+    "plain": 3.32
+  },
+  "pooled_fiber_mwu_p": 8.963070391213943e-57,
+  "pooled_exchange_slope": 0.24265108686908138,
+  "pooled_exchange_slope_se": 0.01138522837146847,
+  "daily_swap_fiber_lost_g": -1.27,
+  "fiber_gap_women_g": 9,
+  "fiber_gap_men_g": 22,
+  "swap_as_pct_of_women_gap": -14.1,
+  "swap_as_pct_of_men_gap": -5.8
+}
