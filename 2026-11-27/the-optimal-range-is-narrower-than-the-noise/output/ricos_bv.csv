@@ -1,0 +1,371 @@
+analyte,n_papers,cvi_pct,cvg_pct
+S- 11-Desoxycortisol,2,21.3,31.5
+S- 17-Hydroxyprogesterone,2,19.6,50.4
+U- 4-hydroxy-3-methoximandelate (VMA),1,22.2,47.0
+S- 5' Nucleotidase,2,23.2,19.9
+"U- 5'-Hydroxyindolacetate, concentration",1,20.3,33.2
+S- α1-Acid Glycoprotein,3,11.3,24.9
+S- α1-Antichymotrypsin,1,13.5,18.3
+S- α1-Antitrypsin,3,5.9,16.3
+S- α1-Globulins,2,11.4,22.6
+"U- α1-Microglobulin, concentration, first morning",1,33.0,58.0
+P- α2-Antiplasmin,1,6.2,
+S- α2-Globulins,2,10.3,12.7
+S- α2-Macroglobulin,4,3.4,18.7
+"U- α2-Microglobulin output, first morning",1,29.0,32.0
+P- α-aminobutryic acid,1,24.7,32.3
+S- α-Amylase,7,8.7,28.3
+S- α-Amylase (pancreatic),2,11.7,29.9
+U- α-Amylase (pancreatic),2,69.5,105.0
+"U- α-Amylase concentration, random",1,94.0,46.0
+P- α-Carotene,1,24.0,65.0
+S- α-Carotene,1,48.0,65.0
+S- α-Fetoprotein(non hepatic carcinoma),2,12.2,45.6
+S- α-Tocopherol,3,13.8,15.0
+S- Acid phosphatase,2,8.9,8.0
+S- Acid phosphatase tartrate-resistant (TR-ACP),2,8.0,13.3
+S- Acid phosphatase prostatic activity (PAP),1,33.8,
+P- Activated partial thromboplastine time,3,2.7,8.6
+P- Adiponectin,1,18.8,51.2
+S- Adenosine deaminase (ADA),1,11.7,25.5
+P- Alanine,1,14.7,55.8
+S- Alanine aminopeptidase,1,4.1,
+S- Alanine aminotransferase (ALT),9,19.4,41.6
+S- Albumin,24,3.2,4.75
+"U- Albumin, concentration, first morning",3,36.0,55.0
+"U- Albumin, output, night urine",3,29.5,58.0
+"S- Albumin, glycated",1,5.2,10.3
+S- Aldosterone,2,29.4,40.1
+U- Aldosterone,1,39.4,40.1
+S- Alkaline phosphatase,22,6.45,26.1
+"S- Alkaline phosphatase, bone",4,6.2,37.4
+"S- Alkaline phosphatase, liver",1,10.0,27.0
+"S- Alkaline phosphatase, placental",1,19.1,
+"U- Ammonia, output, 24h",1,24.7,27.3
+S- Amyloid A,1,25.0,61.0
+S- Androstendione,2,15.8,38.8
+S- Anion gap,nan,9.5,10.1
+P- Antithrombin III,4,5.2,15.3
+S- Apolipoprotein A1,11,6.5,13.4
+S- Apolipoprotein B,9,6.9,22.8
+P- Arginine,1,19.3,34.1
+"S- Arilestearase activity, non inhibited",1,3.8,37.2
+P- Ascorbate (Vitamin C),1,20.0,21.0
+S- Ascorbate (Vitamin C),3,26.0,31.0
+P- Asparagine,1,12.3,28.0
+S- Aspartate aminotransferase (AST),13,12.3,23.1
+P- Aspartic acid,1,31.2,55.1
+S- β-2-Microglobulin,1,5.9,15.5
+P- β-Carotene,1,18.0,48.0
+S- β-Carotene,4,36.0,39.7
+S- β-Cryptoxantin,1,36.7,
+S- β-Globulins,2,10.1,9.1
+B- Base excess,1,76.4,43.2
+"B- Basophile, count",3,28.0,54.8
+S- Bilirubin total,11,21.8,28.4
+S- Bilirubin conjugated,2,36.8,43.2
+P- C Protein,1,5.6,55.2
+S- C reactive protein,3,42.2,76.3
+S- C reactive protein - high sensitivity,1,49.7,89.23
+S- C3 Complement,2,5.2,15.6
+S- C4 Complement,2,8.9,33.4
+S- CA 125 antigen,4,24.7,54.6
+S- CA 15.3 antigen,5,6.1,62.9
+S- CA 19.9 antigen,2,16.0,130.5
+S- CA 549 antigen,1,9.1,33.4
+S- Calcium,24,2.1,2.5
+"S- Calcium, complexed",1,5.3,4.5
+"U- Calcium, concentration, 24h",4,27.5,36.6
+"S- Calcium, ionized",2,1.7,1.9
+"S- Calcium, protein bound",1,4.1,6.1
+"S- Calcium, ultrafiltrable",1,2.2,2.7
+S- Carbohydrate deficient transferrin,1,7.1,38.7
+"B- CO2, total",1,4.0,4.8
+S- Carcinoembryonic antigen (CEA),10,12.7,55.6
+"S- Carnitine, Acyl-free",1,11.35,24.3
+"S- Carnitine, free",1,8.05,16.65
+"S- Carnitine, total",1,8.85,11.8
+S- Ceruloplasmin (ferroxidase),2,5.8,11.1
+S- Chloride,19,1.2,1.5
+S- Cholesterol,46,5.95,15.3
+"S- Cholinesterase, concentration",2,7.1,
+"S- Cholinesterase, activity",3,6.1,18.2
+P- Chromogranin A,1,12.8,26.3
+P- Citrulline,1,21.4,43.9
+S- Collagen type I C propeptide (PICP),3,7.8,26.7
+S- Collagen type I N propeptide (PINP),3,7.4,57.3
+S- Collagen type III N propeptide (PIIINP),1,13.6,87.2
+"U- Color, first morning",1,30.9,47.4
+P- Copper,3,8.0,19.0
+S- Copper,2,4.7,13.6
+P- Cortisol,1,21.7,46.2
+S- Cortisol,3,15.2,38.1
+S- C Peptide,3,16.6,23.2
+S- Creatine kinase (CK),9,22.8,40.0
+"S- Creatine kinase MB, %",1,6.9,48.2
+"S- Creatine kinase MB, activity",4,19.7,24.3
+"S- Creatine kinase MB, mass",1,18.4,61.2
+S- Creatinine,28,5.95,14.7
+"U- Creatinine, concentration, 24h",8,24.0,24.5
+"U- Creatinine, concentration, first morning",8,23.2,25.7
+"U- Creatinine, concentration, random",8,36.3,32.4
+"U- Creatinine, output, 24h",8,11.0,23.0
+S- C-Terminal telopeptide type I collagen (CTY I),5,10.85,30.6
+S- Cyfra 21.1 Antigen,2,22.2,31.1
+P- Cystatin C,1,5.5,
+S- Cystatin C,4,5.0,13.0
+P- Cysteine,1,5.9,12.3
+P- Cystine,1,38.3,48.5
+S- D-Dimer (MoM),1,23.3,26.5
+S- Dehydroepiandrosterone sulfate (DHEAS),3,6.35,30.7
+"U- Deoxypyridinoline/creatinine, 24h",2,16.0,30.7
+"U- Deoxypyridinoline/creatinine, first morning",2,13.8,34.6
+"U- Deoxipyridinoline/minute, first morning",2,15.4,30.3
+P- Dipeptidyl-peptidase IV (ACE),2,8.2,14.5
+S- Dipeptidyl-peptidase IV (ACE),1,12.5,27.7
+P- Elastase,1,12.4,15.1
+"B- Eosinophils, count",3,21.0,76.4
+(B)Plat- Epinephrine,1,25.3,
+P- Epinephrine,1,48.3,
+"B- Erythrocytes, count",7,3.2,6.3
+B- Erythrocyte distribution wide,nan,3.5,5.7
+U- Estradiol,1,30.4,
+S- Estradiol,5,22.5,24.4
+"S- Estradiol, free",1,22.8,
+"U- Estradiol, free",1,38.6,
+P- Factor V coagulation,1,3.6,
+P- Factor VII coagulation,2,6.8,19.4
+P- Factor VIII coagulation,2,4.8,19.1
+P- Factor X coagulation,1,5.9,
+S- Ferritin,6,14.2,15.0
+P- Fibrinogen,5,10.7,15.8
+(B)Erthry- Folate,1,12.0,66.0
+S- Folate,1,24.0,73.0
+S- Follicle stimulating hormone (FSH),5,11.0,47.2
+S- Fructosamine,3,3.4,5.9
+S- Galactosyl hydroxylysine,1,11.8,25.8
+P- γ-Fibrinogen,1,14.1,27.25
+S- γ-Globulins,2,14.6,12.3
+S- γ-glutamyltransferase (GGT),10,13.4,42.15
+"S- Globulins, total",1,5.5,12.9
+P- Glucose,1,4.5,5.8
+S- Glucose,15,5.6,7.5
+(B)Erythr- Glucose-6-phosphate-1-dehydrogenase (G6PDH),1,32.8,31.8
+B - spot Glucose-6-phosphate-1-dehydrogenase (G6PDH),1,7.3,10.3
+P- Glutamic acid,1,46.4,79.9
+P- Glutamine,1,12.1,22.0
+S- Glutathion peroxidase,1,7.2,21.7
+P- Glycine,1,11.8,40.3
+P- Haptoglobin,1,20.0,27.9
+S- Haptoglobin,3,20.4,36.4
+S- HDL cholesterol,25,7.3,21.2
+S- HDL 1 cholesterol,1,5.5,27.2
+S- HDL 2 cholesterol,6,15.7,40.7
+S- HDL 3 cholesterol,6,7.0,14.3
+B- Hematocrit,11,2.7,6.41
+B- Hemoglobin,13,2.85,6.8
+B- Hemoglobin A1 C,8,1.9,5.7
+B- Hemoglobin A2,1,0.7,7.7
+P- Histidine,1,9.7,27.2
+P- Homocysteine,3,8.3,33.5
+S- Hyaluronic acid,1,62.0,
+S- Hydroxybutyrate dehydrogenase,1,6.6,
+P- Hydroxyproline,1,34.5,56.7
+"U- Hydroxyproline/minute, first morning",1,36.1,38.8
+"U- Hydroxyproline/minute, second void",1,40.5,32.9
+S- Immunoglobulin A,7,5.4,35.9
+S- Immunoglobulin G,6,4.5,16.5
+S- Immunoglobulin M,5,5.9,47.3
+S- Immunoglobulins κ chains,3,4.8,15.3
+S- Immunoglobulins λ chains,3,4.8,18.0
+S- Inhibin B,1,10.0,25.0
+S- Insulin,4,21.1,58.3
+S- Insulin-like growth factor (IGF-1),2,14.6,45.4
+S- Insulin-like growth factor binding protein 3 (IGFBP-3),1,10.1,63.9
+S- Intercellular adhesion molecule-1 (ICAM-1),1,1.9,21.0
+(B)Leuc- Interferon receptor,1,14.0,20.0
+S- Interleukin 1-β,1,30.0,36.0
+S- Interleukin-8,1,24.0,31.0
+S- Iron,11,26.5,23.2
+P- Isoleucine,1,15.5,45.5
+S- Kallicrein 6,1,11.8,27.6
+B- Lactate,1,27.2,16.7
+S- Lactate dehydrogenase (LDH),11,8.6,14.7
+S- Lactate dehydrogenase 1 isoform (LDH1),2,2.3,8.3
+S- Lactate dehydrogenase 2 isoform (LDH2),1,3.3,2.4
+S- Lactate dehydrogenase 3 isoform (LDH3),1,2.8,3.8
+S- Lactate dehydrogenase 4 isoform (LDH4),1,5.9,5.3
+S- Lactate dehydrogenase 5 isoform (LDH5),1,8.0,9.6
+P- Lactoferrin,1,11.8,23.7
+S- LDL Cholesterol,6,7.8,20.4
+P- LDL Cholesterol (oxidized),1,21.0,50.0
+"S- LDL Cholesterol, small dense",1,9.1,20.0
+S- LDL receptor mRNA,1,21.5,13.6
+P- Leucine,1,14.8,44.0
+B- Leukocytes count,8,11.4,21.3
+S- Lipase,3,32.2,31.8
+S- Lipoprotein (a),3,20.8,18.1
+P- Lutein,1,13.0,21.0
+S- Lutein,1,23.7,
+S- Luteinizing hormone (LH),5,23.0,27.4
+P- Lycopene,1,22.0,33.0
+S- Lycopene,2,40.1,33.0
+"B- Lymphocytes, count",1,10.2,35.3
+B- Lymphocytes CD4,5,25.0,
+P- Lysine,1,11.5,38.2
+(B)Erythr- Magnesium,2,5.6,11.3
+(B)Leuc- Magnesium,1,18.5,12.4
+(B)Mon - Magnesium,1,18.1,20.3
+S- Magnesium,9,3.6,6.4
+"U- Magnesium, ionized",1,1.9,5.1
+"U- Magnesium, output, 24h",2,38.3,37.6
+(B)Erythr- Mean corpuscular hemoglobin (MCH),4,1.4,5.2
+(B)Erythr- Mean corpuscular hemoglobin concentration (MCHC),5,1.06,1.2
+(B)Erythr- Mean corpuscular volume (MCV),7,1.4,4.85
+(B)Plat- Mean platelet volume (MPV),3,4.3,8.1
+P- Metionine,1,14.7,43.4
+"B- Monocytes, count",3,17.8,49.8
+S- Myeloperoxidase,1,36.0,30.0
+S- Myoglobin,2,13.9,29.6
+"U- N-Acetyl Glucosaminidase, concentration, first morning",2,52.9,22.0
+U- N-Acetyl Glucosaminidase/Creatinine,2,51.1,21.8
+"B- Neutrophyles, count",5,17.1,32.8
+"U- Nitrogen, output",1,13.9,24.2
+B(Plat)- Norepinephrine,1,9.5,
+P- Norepinephrine,1,19.5,
+U- N-Telopeptide type I collagen,3,15.5,37.6
+S- N-terminal (NT)-proBNP,2,10.0,16.0
+P- Ornithine,1,18.4,54.9
+P- Osmolality,1,1.3,1.5
+Saliva- Osmolality,1,9.5,35.8
+S- Osmolality,1,1.3,1.2
+"U- Osmolality, first morning",1,28.3,57.9
+S- Osteocalcin,5,6.35,30.9
+"U- Oxalate, concentration, 24h",1,44.0,18.0
+"U- Oxalate, output, 24h",1,42.5,19.9
+B- pCO2,1,4.8,5.3
+B- pH [H+],1,3.5,2.0
+B- pH (pH units),1,0.2,
+S- Paraoxonase 1,1,13.4,84.0
+S- Paraoxonase 1 substrate inhibition (PON 4SI),1,3.9,80.1
+"S- Paraoxonase, activity (salt stimulated)",1,8.0,86.4
+P- Parathyroid hormone (PTH),1,25.3,43.4
+S- Parathyroid hormone (PTH),1,25.9,23.8
+S- Phenylacetate,1,6.6,25.2
+P- Phenylalanine,1,9.5,40.6
+S- Phosphate,17,8.15,10.8
+"U- Phosphate, output, 24h",5,18.0,22.6
+Patient- Phosphate tubular reabsorption,1,2.7,3.3
+S- Phospholipids,1,6.5,11.1
+P- Plasminogen,1,7.7,
+"B- Platelets, count",7,9.1,21.9
+B- Platelet distribution wide,2,2.8,
+B- Plateletcrit,2,11.9,
+U- Porphobilinogen,1,17.0,31.0
+U- Porphyrins (total),1,40.0,
+(B)Leuc- Potassium,1,13.6,13.4
+S- Potassium,20,4.6,5.6
+"U- Potassium, output",4,24.4,22.2
+S- Prealbumin,1,10.9,19.1
+S- Pregnancy-associated plasma protein A (PAPP-A),1,12.6,14.0
+P- Prolactin,1,39.2,65.1
+S- Prolactin,4,23.0,35.0
+P- Proline,1,17.0,104.4
+P- Prolyl endopeptidase,2,16.8,13.9
+S- Properdin factor B,1,9.5,11.2
+S- Prostatic specific antigen (PSA),3,18.1,72.4
+S- Protein,18,2.75,4.7
+"S- Protein, glycated",1,0.9,11.6
+"U- Protein, output, 24h",2,35.5,23.7
+P- Prothrombin time,2,4.0,6.8
+U- Pyridinoline,1,19.4,23.6
+B- Pyruvate,1,15.2,13.0
+S- Receptor for advanced glycation end-products (RAGE),1,14.6,56.5
+B- Red cell distribution wide (RDW),4,3.5,5.7
+"B- Reticulocyte highly fluorescent, count",1,10.0,62.0
+"B- Reticulocyte low fluorescent, count",1,1.6,4.9
+"B- Reticulocyte medium fluorescent, count",1,13.0,33.0
+"B- Reticulocyte, count",1,11.0,29.0
+P- Retinol,1,6.2,21.0
+S- Retinol,2,13.6,19.0
+S- Rheumatoid factor,1,8.5,24.5
+S- SCC antigen,1,39.4,35.7
+P- S Protein,1,5.8,63.4
+P- Selenium,1,12.0,14.0
+B- Selenium,1,12.0,12.0
+P- Serine,1,12.8,42.8
+S- Sex hormone binding globulin (SHBG),2,13.05,36.35
+(B)Erythr- Sodium,1,1.8,12.4
+(B)Leuc- Sodium,1,51.0,36.4
+S- Sodium,21,0.6,0.7
+B- Sodium Bicarbonate,1,4.0,4.8
+S- Sodium Bicarbonate,7,4.8,4.7
+Sweat- Sodium Chloride,1,15.0,25.0
+"U- Sodium, output, 24 h.",4,28.7,16.7
+P- Soluble CD163,1,9.0,35.9
+U- Specific gravity,1,0.4,1.0
+"Semen- Spermatozoa, concentration",1,26.8,56.4
+"Semen- Spermatozoa, morphology",1,19.6,44.0
+"Semen- Spermatozoa, progressive motility",1,15.2,32.8
+"Semen- Spermatozoa, fast progressive motility",1,18.8,51.8
+"Semen- Spermatozoa, total motility",1,18.4,29.8
+"Semen- Spermatozoa, vitality",1,10.3,25.8
+S- Superoxide dismutase,1,17.1,10.5
+(B)Erythr- Superoxide dismutase,1,12.3,4.9
+P- Taurine,1,30.6,44.0
+P- Testosterone,1,12.6,40.8
+S- Testosterone,7,9.25,22.05
+Saliva- Testosterone,1,17.3,28.8
+U- Testosterone,1,25.0,
+"S- Testosterone, free",3,9.3,
+"U- Testosterone, free",1,51.7,
+S- Thyroglobulin,2,14.0,39.0
+S- Thyroglobulin antibody,1,8.5,82.0
+S- Thyroid peroxidase antibody,1,11.3,147.0
+P- Thyroid stimulating hormone (TSH),1,29.3,48.4
+S- Thyroid stimulating hormone (TSH),9,19.3,24.6
+S- Thyrotropin receptor antibody,1,4.8,
+S- Thyroxine (T4),11,4.9,10.9
+"P- Thyroxine, free (FT4)",1,7.1,9.1
+"S- Thyroxine, free (FT4)",5,5.7,12.1
+S- Thyroxine binding globulin (TBG),2,0.09,0.06
+P- Tirosine,1,10.5,61.0
+S- Tissue polypeptide antigen (TPA),1,31.1,63.7
+S- Tissue polypeptide specific antigen (TPS),1,36.1,108.0
+"U- Total catecolamines, concentration, 24h",1,24.0,32.0
+S- Transferrin,5,3.0,4.3
+P- Treonine,1,17.9,33.1
+S- Triglyceride,31,19.9,32.7
+P- Triiodothyronine (T3),1,9.4,18.5
+S- Triiodothyronine (T3),10,6.9,12.3
+"S- Triiodothyronine, free (FT3)",4,7.9,17.6
+P- Troponin I,1,37.1,179.2
+S- Troponin I,5,14.05,63.75
+S- Troponin T,1,30.5,90.0
+P- Tryptophan,1,22.7,152.6
+S- Tumor Necrosis Factor-a (TNF-a),1,43.0,29.0
+S- Urate,16,8.6,17.5
+"U- Urate, output, 24h",2,16.8,14.4
+S- Urea,20,12.1,18.7
+"U- Urea, output, 24h",4,17.4,25.4
+P- Valine,1,10.6,40.1
+"U- Vanilmandelic Acid concentration, 24h",1,22.2,47.0
+S- Vascular cell adhesion molecule-1 (VCAM-1),1,5.2,16.0
+P- Vascular endotelial growth factor,1,14.1,18.1
+B- Vascular endotelial growth factor,1,14.3,28.8
+S- Vascular endotelial growth factor,1,10.7,47.6
+P- Vitamin B1,1,4.8,12.0
+B- Vitamin B2 (Riboflavin),1,5.8,10.0
+(B)Eryth- Vitamin B2 (Riboflavin),1,6.4,11.0
+(B)Eryth- Vitamin B2 status (gluthation reductase activation),1,5.2,40.0
+(B)Eryth- Vitamin B12,1,15.0,69.0
+(B)Eryth- Vitamin B6,1,14.0,24.0
+B- Vitamin B6,1,20.0,34.0
+(B)Eryth- Vitamin E (Tocopherol),1,7.6,21.0
+(B)Eryth- Vitamin K (Phylloquinone),1,38.0,44.0
+S- VLDL Cholesterol,2,27.6,
+P- Von Willebrand factor,3,2.5,27.3
+S- Water,1,3.1,0.1
+S- Zeaxanthine,1,34.7,
+S- Zinc,1,9.3,9.4
+P- Zinc,3,11.0,14.0

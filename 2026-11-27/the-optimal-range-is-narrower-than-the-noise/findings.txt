@@ -1,0 +1,19 @@
+KEY NUMBERS (see output/results.json for the full table)
+
+hsCRP                        CVi= 58.9%  CVtot= 65.8%  RCV=182.4%  II=0.76  noise/band=3.29  misclass=35.4%  repeats=28
+Lipoprotein(a)               CVi= 20.8%  CVtot= 23.3%  RCV= 64.4%  II=1.15  noise/band=1.16  misclass=16.6%  repeats=5
+Triglycerides                CVi= 19.9%  CVtot= 22.2%  RCV= 61.6%  II=0.61  noise/band=1.11  misclass=15.5%  repeats=4
+Fasting glucose              CVi=  5.6%  CVtot=  6.3%  RCV= 17.3%  II=0.75  noise/band=0.66  misclass=14.6%  repeats=2
+HbA1c                        CVi=  1.9%  CVtot=  2.1%  RCV=  5.9%  II=0.33  noise/band=0.53  misclass= 6.5%  repeats=2
+Fasting insulin              CVi= 21.1%  CVtot= 23.6%  RCV= 65.3%  II=0.36  noise/band=0.41  misclass= 4.9%  repeats=1
+Total testosterone (men)     CVi=  9.2%  CVtot= 10.3%  RCV= 28.6%  II=0.42  noise/band=0.46  misclass= 4.9%  repeats=1
+SHBG                         CVi= 13.1%  CVtot= 14.6%  RCV= 40.4%  II=0.36  noise/band=0.35  misclass= 1.7%  repeats=1
+Vitamin D 25(OH)D            CVi=  6.8%  CVtot=  7.6%  RCV= 21.1%  II=0.18  noise/band=0.34  misclass= 0.8%  repeats=1
+Homocysteine                 CVi=  8.3%  CVtot=  9.3%  RCV= 25.7%  II=0.25  noise/band=0.46  misclass= 0.8%  repeats=1
+LDL cholesterol              CVi=  7.8%  CVtot=  8.7%  RCV= 24.2%  II=0.38  noise/band=0.44  misclass= 0.5%  repeats=1
+Apolipoprotein B             CVi=  6.9%  CVtot=  7.7%  RCV= 21.4%  II=0.30  noise/band=0.39  misclass= 0.2%  repeats=1
+Ferritin (men)               CVi= 14.2%  CVtot= 15.9%  RCV= 44.0%  II=0.95  noise/band=0.22  misclass= 0.1%  repeats=1
+TSH                          CVi= 19.3%  CVtot= 21.6%  RCV= 59.8%  II=0.78  noise/band=0.17  misclass= 0.0%  repeats=1
+
+Vitamin D long-term sensitivity: {'cvi_long_term_pct': 14.9, 'cv_total_long_term_pct': 16.66, 'rcv95_long_term_pct': 46.1, 'noise_to_band_ratio_long_term': 0.83, 'p_misclassified_long_term_pct': 22.0, 'repeats_needed_long_term': 3}
+Panel: {'n_markers': 14, 'p_at_least_one_misclassified_pct': 68.5, 'assumption': 'independent misclassification across markers; person dead-center optimal on every marker (midpoint, or 20% below threshold)'}

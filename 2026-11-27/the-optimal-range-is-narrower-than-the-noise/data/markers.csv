@@ -1,0 +1,20 @@
+# Markers in the longevity "optimal" panel: biological variation + marketed optimal band
+# CVi/CVg: Ricos et al. 2014 BV database (via Westgard), unless noted EFLM.
+# Optimal bands: the narrower targets marketed by longevity-testing / functional-medicine sources (see sources.md).
+# Lab reference intervals: standard lab ranges (Longevity Benchmark "lab normal" column; Biological Edge for T/SHBG).
+# band_type: two-sided (lo-hi) or one-sided (below threshold only).
+marker,unit,cvi_pct,cvg_pct,cvi_source,lab_ref_lo,lab_ref_hi,opt_lo,opt_hi,opt_type,opt_source
+hsCRP,mg/L,58.9,77.4,EFLM 2021 meta (Bio-Rad 2024 table; Ricos 2014: 49.7),,3.0,,0.5,below,Longevity Benchmark 2026 (optimal <0.5 mg/L; AHA/CDC low-risk <1.0)
+Fasting insulin,uIU/mL,21.1,58.3,Ricos 2014,,25,2,5,range,Longevity Benchmark 2026 (optimal 2-5 uIU/mL)
+Triglycerides,mg/dL,19.9,32.7,Ricos 2014,,150,,70,below,BioAccelera 2026 (optimal below 70 mg/dL)
+TSH,mIU/L,19.3,24.6,Ricos 2014 (EFLM meta 18),0.4,4.5,0.5,2.5,range,Longevity Benchmark 2026 (optimal 0.5-2.5 mIU/L)
+Lipoprotein(a),mg/dL,20.8,18.1,Ricos 2014,,30,,30,below,Standard lab cutoff <30 mg/dL; Longevity Atlas optimal <75 nmol/L (~30 mg/dL)
+Ferritin (men),ng/mL,14.2,15.0,Ricos 2014,30,400,50,150,range,Longevity Benchmark 2026 (optimal 50-150 ng/mL)
+SHBG,nmol/L,13.05,36.35,Ricos 2014,10,57,20,40,range,The Biological Edge 2025 (optimal 20-40 nmol/L)
+Total testosterone (men),ng/dL,9.25,22.05,Ricos 2014 (EuBIVAS 2024: 10),264,916,600,900,range,The Biological Edge 2025 (optimal 600-900 ng/dL)
+Homocysteine,umol/L,8.3,33.5,Ricos 2014,,15,,8,below,BioAccelera 2026 (optimal below 8 umol/L)
+LDL cholesterol,mg/dL,7.8,20.4,Ricos 2014,,100,,100,below,NCEP ATP III optimal <100 mg/dL
+Apolipoprotein B,mg/dL,6.9,22.8,Ricos 2014,,130,,80,below,Longevity Benchmark 2026 (optimal under 80 mg/dL)
+Vitamin D 25(OH)D,ng/mL,6.8,37.6,EFLM meta-analysis 2026 (short-term; see note),30,100,40,60,range,Longevity Benchmark 2026 (optimal 40-60 ng/mL)
+Fasting glucose,mg/dL,5.6,7.5,Ricos 2014,70,99,75,90,range,Longevity Benchmark 2026 (optimal 75-90 mg/dL)
+HbA1c,%,1.9,5.7,Ricos 2014,,5.7,4.9,5.3,range,Longevity Benchmark 2026 (optimal 4.9-5.3%)

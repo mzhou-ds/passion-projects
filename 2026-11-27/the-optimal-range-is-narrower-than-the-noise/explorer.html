@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><title>The Optimal Range Is Narrower Than the Noise — Explorer</title>
+<style>body{font-family:system-ui,sans-serif;max-width:1000px;margin:2em auto;padding:0 1em;color:#222}
+h1{font-size:1.4em} p{line-height:1.5} table{border-collapse:collapse;width:100%;font-size:.92em}
+th,td{border-bottom:1px solid #ddd;padding:.45em .5em;text-align:left} th{background:#f4f4f4}
+.num{text-align:right} .note{color:#666;font-size:.9em}</style></head>
+<body>
+<h1>The Optimal Range Is Narrower Than the Noise</h1>
+<p>Build #80, 2026-11-27, biohacking. For each of 14 longevity-panel markers: the within-subject
+biological variation (CVi), the total noise on one draw (biological + analytical), the reference
+change value (how far two results must differ to be a real change), the noise-to-band ratio, the
+chance one draw mislabels a person who is dead-centre optimal, and how many repeat draws a
+95%-reliable verdict would need. Full methods in the README.</p>
+<p><strong>Headline:</strong> hsCRP mislabels you 35.4% of the time and needs 28 draws for a reliable
+verdict. A person dead-centre optimal on all 14 markers still has a 68.5%
+chance that at least one comes back mislabelled.</p>
+<table><tr><th>Marker</th><th>Optimal band</th><th>CVi</th><th>Total noise</th><th>RCV</th>
+<th>Noise/band</th><th>Misclassified</th><th>Draws needed</th><th>Verdict</th></tr>
+<tr><td>hsCRP</td><td><0.5 mg/L</td><td>58.9%</td><td>65.85%</td><td>182.4%</td><td>3.29</td><td>35.4%</td><td>28</td><td><span style="color:#B03A2E;font-weight:700">Unreliable</span></td></tr>
+<tr><td>Lipoprotein(a)</td><td><30 mg/dL</td><td>20.8%</td><td>23.26%</td><td>64.4%</td><td>1.16</td><td>16.6%</td><td>5</td><td><span style="color:#B03A2E;font-weight:700">Unreliable</span></td></tr>
+<tr><td>Triglycerides</td><td><70 mg/dL</td><td>19.9%</td><td>22.25%</td><td>61.6%</td><td>1.11</td><td>15.5%</td><td>4</td><td><span style="color:#B03A2E;font-weight:700">Unreliable</span></td></tr>
+<tr><td>Fasting glucose</td><td>75-90 mg/dL</td><td>5.6%</td><td>6.26%</td><td>17.3%</td><td>0.66</td><td>14.6%</td><td>2</td><td><span style="color:#B03A2E;font-weight:700">Unreliable</span></td></tr>
+<tr><td>HbA1c</td><td>4.9-5.3 %</td><td>1.9%</td><td>2.12%</td><td>5.9%</td><td>0.53</td><td>6.5%</td><td>2</td><td><span style="color:#C07A1A;font-weight:700">Shaky</span></td></tr>
+<tr><td>Fasting insulin</td><td>2-5 uIU/mL</td><td>21.1%</td><td>23.59%</td><td>65.3%</td><td>0.41</td><td>4.9%</td><td>1</td><td><span style="color:#C07A1A;font-weight:700">Shaky</span></td></tr>
+<tr><td>Total testosterone (men)</td><td>600-900 ng/dL</td><td>9.25%</td><td>10.34%</td><td>28.6%</td><td>0.46</td><td>4.9%</td><td>1</td><td><span style="color:#C07A1A;font-weight:700">Shaky</span></td></tr>
+<tr><td>SHBG</td><td>20-40 nmol/L</td><td>13.05%</td><td>14.59%</td><td>40.4%</td><td>0.35</td><td>1.7%</td><td>1</td><td><span style="color:#3E7A4E;font-weight:700">Reliable</span></td></tr>
+<tr><td>Vitamin D 25(OH)D</td><td>40-60 ng/mL</td><td>6.8%</td><td>7.6%</td><td>21.1%</td><td>0.34</td><td>0.8%</td><td>1</td><td><span style="color:#3E7A4E;font-weight:700">Reliable</span></td></tr>
+<tr><td>Homocysteine</td><td><8 umol/L</td><td>8.3%</td><td>9.28%</td><td>25.7%</td><td>0.46</td><td>0.8%</td><td>1</td><td><span style="color:#3E7A4E;font-weight:700">Reliable</span></td></tr>
+<tr><td>LDL cholesterol</td><td><100 mg/dL</td><td>7.8%</td><td>8.72%</td><td>24.2%</td><td>0.44</td><td>0.5%</td><td>1</td><td><span style="color:#3E7A4E;font-weight:700">Reliable</span></td></tr>
+<tr><td>Apolipoprotein B</td><td><80 mg/dL</td><td>6.9%</td><td>7.71%</td><td>21.4%</td><td>0.39</td><td>0.2%</td><td>1</td><td><span style="color:#3E7A4E;font-weight:700">Reliable</span></td></tr>
+<tr><td>Ferritin (men)</td><td>50-150 ng/mL</td><td>14.2%</td><td>15.88%</td><td>44.0%</td><td>0.22</td><td>0.1%</td><td>1</td><td><span style="color:#3E7A4E;font-weight:700">Reliable</span></td></tr>
+<tr><td>TSH</td><td>0.5-2.5 mIU/L</td><td>19.3%</td><td>21.58%</td><td>59.8%</td><td>0.17</td><td>0.0%</td><td>1</td><td><span style="color:#3E7A4E;font-weight:700">Reliable</span></td></tr>
+</table>
+<p class="note">Vitamin D sensitivity: using its 5-year within-person variation (14.9%) instead of the
+10-week value (6.8%), misclassification rises to 22.0% and 3 draws are needed.
+Scenario: true value at the band midpoint (two-sided bands) or 20% below the threshold (one-sided).
+500,000 lognormal draws per marker, seed 20261127.</p>
+<p><img src="charts/01_noise_vs_band.png" style="max-width:100%">
+<img src="charts/02_misclassification.png" style="max-width:100%">
+<img src="charts/03_rcv.png" style="max-width:100%">
+<img src="charts/04_repeats.png" style="max-width:100%"></p>
+</body></html>
