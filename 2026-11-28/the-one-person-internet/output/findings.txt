@@ -1,0 +1,83 @@
+THE ONE-PERSON INTERNET
+Build #81 — 2026-11-28 — tech-industry
+A download-weighted census of who maintains npm, the registry every
+JavaScript app on earth installs from.
+
+HEADLINE
+53.1% of all downloads in npm's top 1,000 packages flow through packages
+maintained by a single person. 538 of the top 1,000 packages have exactly
+one maintainer; the median solo-maintained package is downloaded 117 million
+times a week. The internet does not run on institutions. It runs on
+individuals, mostly unpaid, mostly alone.
+
+THE ZOMBIE CORE
+25.9% of top-1,000 downloads flow through packages nobody has published in
+24+ months. 299 of the top 1,000 are "abandoned" by that line, including:
+  ms                    727M/week, last publish Dec 2020 (6 maintainers)
+  json-schema-traverse  464M/week, last publish Dec 2020 (1 maintainer)
+  safe-buffer           451M/week, last publish May 2020 (2 maintainers)
+  path-key              407M/week, last publish Apr 2021 (1 maintainer)
+  has-flag              398M/week, last publish Jul 2021 (1 maintainer)
+  isarray               347M/week, last publish Jul 2019 (1 maintainer)
+16.5% of all top-1,000 downloads flow through packages that are BOTH solo
+maintained AND untouched for 2+ years. Caveat: many of these are finished,
+not broken. A 20-line utility can be done. The risk is not rot, it is that
+nobody is watching: a compromised publish to any of them ships silently
+into hundreds of millions of installs a week. That is the xz attack surface,
+measured.
+
+ABANDONMENT IS A SOLO-MAINTAINER PROBLEM
+Share of packages with no publish in 24 months, by maintainer count:
+  1 maintainer:  36.3% abandoned; 31.0% of the bucket's downloads are abandoned
+  2 maintainers: 29.1%; 24.8% of downloads
+  3-5:           18.7%; 17.9% of downloads
+  6-10:          15.4%; 16.4% of downloads
+  11+:            0.0%; 0.0% of downloads
+Logistic regression (n=1,000, McFadden R2 0.077): each additional maintainer
+cuts the odds of abandonment by 21% (odds ratio 0.79, SE 0.06). Scoped
+(org-owned) packages are far safer (OR 0.23). At median downloads, a solo
+package has a 41% predicted chance of being abandoned vs 21% with five
+maintainers. Honest limit: the model is explanatory, not predictive. Accuracy
+70.1% equals the majority-class baseline, so abandonment stays mostly
+idiosyncratic. Maintainer count moves the odds, it does not decide them.
+
+CONCENTRATION
+The registry looks decentralised by package count (27,315 packages in our
+pool, millions overall). By downloads it is not. Of top-1,000 downloads:
+top 10 packages 5.2%, top 50 17.3%, top 100 27.7%, top 250 49.7%,
+top 500 73.4%. The top 250 packages carry half of everything.
+
+BLAST RADIUS
+Even the biggest packages sit on solo maintainers. Of the top 200 packages'
+264 direct dependency edges, 56.9% point at single-maintainer packages and
+25.2% point at abandoned ones. 65 of the top 200 (32.5%) have at least one
+solo-maintained direct dependency; 36 (18%) have at least one abandoned
+direct dependency. 39 of the top 200 depend ENTIRELY on solo maintainers
+(every direct dep solo), including side-channel (5/5), browserslist (5/5),
+ajv (3/3) and resolve (4/4). 113 of the top 200 have no direct dependencies
+at all, which is itself the point: the core is tiny utilities, and tiny
+utilities have one author.
+
+SO WHAT (the operator read)
+npm is a two-sided marketplace whose supply side is almost entirely
+unpaid individuals, and its most-used inventory is the least watched.
+Three things this prices in:
+1. If you run a platform, your supply-chain risk is not your direct deps,
+   it is the solo maintainers two levels down. Audit by maintainer count,
+   not just by CVE.
+2. The cheapest insurance in software is paying the maintainer of the
+   20-line package your whole stack stands on. A $500/month sponsorship
+   to the right 50 people buys more security than most tooling budgets.
+3. "Abandoned" is the wrong word for most of the zombie core. They are
+   finished. The fix is not more publishes, it is more eyes: shared
+   maintenance, org adoption, or a bus-factor floor for the top 250.
+
+METHOD (one paragraph)
+Pool built 2026-11-28 from the npm registry search API: 131 broad queries,
+27,315 unique packages, each with weekly downloads, dependent count, last
+publish date and maintainer list. Validated against 100+ known giants;
+every missing one recovered by exact lookup. Top 1,000 ranked by weekly
+downloads (161.6B/week). Dependency lists from abbreviated registry
+metadata for the top 200; all 197 unique direct deps resolved except two
+phantom entries (@jest/react-is-18/19) that 404 on the registry.
+Abandoned = no publish in 730 days. Full scripts in src/.

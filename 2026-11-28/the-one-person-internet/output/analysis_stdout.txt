@@ -1,0 +1,368 @@
+{
+  "n_packages_pool": 27315,
+  "top1000_weekly_downloads": 161601525060,
+  "maintainer_buckets_top1000": {
+    "1": {
+      "n": 538,
+      "pkg_share": 0.538,
+      "dl_share": 0.5314
+    },
+    "2": {
+      "n": 196,
+      "pkg_share": 0.196,
+      "dl_share": 0.1886
+    },
+    "3-5": {
+      "n": 219,
+      "pkg_share": 0.219,
+      "dl_share": 0.2278
+    },
+    "6-10": {
+      "n": 39,
+      "pkg_share": 0.039,
+      "dl_share": 0.0446
+    },
+    "11+": {
+      "n": 8,
+      "pkg_share": 0.008,
+      "dl_share": 0.0076
+    }
+  },
+  "solo_top1000": {
+    "n": 538,
+    "dl_share": 0.5314,
+    "median_weekly_downloads": 116771061
+  },
+  "abandoned_top1000": {
+    "n": 299,
+    "pkg_share": 0.299,
+    "dl_share": 0.2594
+  },
+  "abandonment_by_bucket": {
+    "1": {
+      "n": 538.0,
+      "n_abandoned": 195.0,
+      "abandon_rate": 0.3625,
+      "abandoned_dl_share": 0.3096
+    },
+    "2": {
+      "n": 196.0,
+      "n_abandoned": 57.0,
+      "abandon_rate": 0.2908,
+      "abandoned_dl_share": 0.2479
+    },
+    "3-5": {
+      "n": 219.0,
+      "n_abandoned": 41.0,
+      "abandon_rate": 0.1872,
+      "abandoned_dl_share": 0.1791
+    },
+    "6-10": {
+      "n": 39.0,
+      "n_abandoned": 6.0,
+      "abandon_rate": 0.1538,
+      "abandoned_dl_share": 0.1641
+    },
+    "11+": {
+      "n": 8.0,
+      "n_abandoned": 0.0,
+      "abandon_rate": 0.0,
+      "abandoned_dl_share": 0.0
+    }
+  },
+  "solo_and_abandoned": {
+    "n": 195,
+    "dl_share": 0.1645
+  },
+  "top_abandoned_packages": [
+    {
+      "name": "ms",
+      "weekly_downloads": 727180637,
+      "n_maintainers": 6,
+      "last_publish": "2020-12-08"
+    },
+    {
+      "name": "json-schema-traverse",
+      "weekly_downloads": 464399095,
+      "n_maintainers": 1,
+      "last_publish": "2020-12-13"
+    },
+    {
+      "name": "safe-buffer",
+      "weekly_downloads": 450534324,
+      "n_maintainers": 2,
+      "last_publish": "2020-05-10"
+    },
+    {
+      "name": "path-key",
+      "weekly_downloads": 407317719,
+      "n_maintainers": 1,
+      "last_publish": "2021-04-09"
+    },
+    {
+      "name": "signal-exit",
+      "weekly_downloads": 407220529,
+      "n_maintainers": 2,
+      "last_publish": "2023-07-29"
+    },
+    {
+      "name": "has-flag",
+      "weekly_downloads": 397528243,
+      "n_maintainers": 1,
+      "last_publish": "2021-07-19"
+    },
+    {
+      "name": "isarray",
+      "weekly_downloads": 346994663,
+      "n_maintainers": 1,
+      "last_publish": "2019-07-08"
+    },
+    {
+      "name": "cross-spawn",
+      "weekly_downloads": 343354892,
+      "n_maintainers": 1,
+      "last_publish": "2024-11-18"
+    },
+    {
+      "name": "picocolors",
+      "weekly_downloads": 340492526,
+      "n_maintainers": 1,
+      "last_publish": "2024-10-16"
+    },
+    {
+      "name": "shebang-regex",
+      "weekly_downloads": 337666954,
+      "n_maintainers": 1,
+      "last_publish": "2021-08-13"
+    },
+    {
+      "name": "shebang-command",
+      "weekly_downloads": 330857547,
+      "n_maintainers": 1,
+      "last_publish": "2019-09-06"
+    },
+    {
+      "name": "json5",
+      "weekly_downloads": 314790324,
+      "n_maintainers": 2,
+      "last_publish": "2022-12-31"
+    },
+    {
+      "name": "function-bind",
+      "weekly_downloads": 307536962,
+      "n_maintainers": 2,
+      "last_publish": "2023-10-12"
+    },
+    {
+      "name": "resolve-from",
+      "weekly_downloads": 297924301,
+      "n_maintainers": 1,
+      "last_publish": "2019-04-15"
+    },
+    {
+      "name": "inherits",
+      "weekly_downloads": 297678886,
+      "n_maintainers": 1,
+      "last_publish": "2019-06-19"
+    }
+  ],
+  "concentration": {
+    "top_10": 0.0522,
+    "top_50": 0.1729,
+    "top_100": 0.2771,
+    "top_250": 0.4973,
+    "top_500": 0.7339
+  },
+  "top10_packages": [
+    {
+      "name": "semver",
+      "weekly_downloads": 1166517403,
+      "n_maintainers": 4
+    },
+    {
+      "name": "minimatch",
+      "weekly_downloads": 962744532,
+      "n_maintainers": 1
+    },
+    {
+      "name": "debug",
+      "weekly_downloads": 908341073,
+      "n_maintainers": 2
+    },
+    {
+      "name": "ansi-styles",
+      "weekly_downloads": 905634665,
+      "n_maintainers": 1
+    },
+    {
+      "name": "brace-expansion",
+      "weekly_downloads": 824676401,
+      "n_maintainers": 2
+    },
+    {
+      "name": "lru-cache",
+      "weekly_downloads": 785195422,
+      "n_maintainers": 1
+    },
+    {
+      "name": "commander",
+      "weekly_downloads": 747359901,
+      "n_maintainers": 2
+    },
+    {
+      "name": "ms",
+      "weekly_downloads": 727180637,
+      "n_maintainers": 6
+    },
+    {
+      "name": "string-width",
+      "weekly_downloads": 706476942,
+      "n_maintainers": 1
+    },
+    {
+      "name": "picomatch",
+      "weekly_downloads": 700622205,
+      "n_maintainers": 4
+    }
+  ],
+  "blast_radius": {
+    "top_parents": 200,
+    "dep_edges": 264,
+    "unique_deps": 197,
+    "deps_resolved_in_pool": 262,
+    "solo_share_of_known_dep_edges": 0.5687,
+    "solo_share_of_unique_known_deps": 0.5641,
+    "abandoned_share_of_known_dep_edges": 0.2519,
+    "parents_with_solo_dep": 65,
+    "parents_with_abandoned_dep": 36,
+    "parents_with_solo_dep_share": 0.325
+  },
+  "most_solo_dependent_top_packages": [
+    {
+      "name": "wrap-ansi",
+      "n_deps": 2,
+      "n_solo": 2,
+      "solo_frac": 1.0
+    },
+    {
+      "name": "which",
+      "n_deps": 1,
+      "n_solo": 1,
+      "solo_frac": 1.0
+    },
+    {
+      "name": "resolve",
+      "n_deps": 4,
+      "n_solo": 4,
+      "solo_frac": 1.0
+    },
+    {
+      "name": "shebang-command",
+      "n_deps": 1,
+      "n_solo": 1,
+      "solo_frac": 1.0
+    },
+    {
+      "name": "side-channel",
+      "n_deps": 5,
+      "n_solo": 5,
+      "solo_frac": 1.0
+    },
+    {
+      "name": "side-channel-list",
+      "n_deps": 2,
+      "n_solo": 2,
+      "solo_frac": 1.0
+    },
+    {
+      "name": "side-channel-map",
+      "n_deps": 4,
+      "n_solo": 4,
+      "solo_frac": 1.0
+    },
+    {
+      "name": "side-channel-weakmap",
+      "n_deps": 5,
+      "n_solo": 5,
+      "solo_frac": 1.0
+    },
+    {
+      "name": "string-width",
+      "n_deps": 2,
+      "n_solo": 2,
+      "solo_frac": 1.0
+    },
+    {
+      "name": "@jridgewell/gen-mapping",
+      "n_deps": 2,
+      "n_solo": 2,
+      "solo_frac": 1.0
+    },
+    {
+      "name": "@jridgewell/trace-mapping",
+      "n_deps": 2,
+      "n_solo": 2,
+      "solo_frac": 1.0
+    },
+    {
+      "name": "brace-expansion",
+      "n_deps": 1,
+      "n_solo": 1,
+      "solo_frac": 1.0
+    }
+  ],
+  "abandonment_model": {
+    "n": 1000,
+    "abandoned_rate": 0.299,
+    "mcfadden_r2": 0.0774,
+    "accuracy": 0.701,
+    "baseline_accuracy": 0.701,
+    "coefficients": [
+      {
+        "feature": "intercept",
+        "beta": 7.8196,
+        "se": 2.5648,
+        "odds_ratio": 2488.9602
+      },
+      {
+        "feature": "log_downloads",
+        "beta": -0.3993,
+        "se": 0.1431,
+        "odds_ratio": 0.6708
+      },
+      {
+        "feature": "log_dependents",
+        "beta": -0.075,
+        "se": 0.0449,
+        "odds_ratio": 0.9277
+      },
+      {
+        "feature": "n_maintainers",
+        "beta": -0.2371,
+        "se": 0.057,
+        "odds_ratio": 0.7889
+      },
+      {
+        "feature": "scoped",
+        "beta": -1.4709,
+        "se": 0.2338,
+        "odds_ratio": 0.2297
+      }
+    ],
+    "permutation_importance_nll_increase": {
+      "log_downloads": 10.5,
+      "log_dependents": 3.8,
+      "n_maintainers": 25.3,
+      "scoped": 66.6
+    },
+    "pred_abandoned_p_solo_maintainer": 0.41,
+    "pred_abandoned_p_five_maintainers": 0.2121
+  },
+  "alive_share_by_bucket": {
+    "1": 0.6375,
+    "2": 0.7092,
+    "3-5": 0.8128,
+    "6-10": 0.8462,
+    "11+": 1.0
+  }
+}

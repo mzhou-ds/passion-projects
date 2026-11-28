@@ -1,0 +1,690 @@
+{
+ "semver": [],
+ "brace-expansion": [
+  "balanced-match"
+ ],
+ "ms": [],
+ "picomatch": [],
+ "strip-ansi": [
+  "ansi-regex"
+ ],
+ "@types/node": [
+  "undici-types"
+ ],
+ "emoji-regex": [],
+ "glob": [
+  "minimatch",
+  "minipass",
+  "path-scurry"
+ ],
+ "type-fest": [
+  "tagged-tag"
+ ],
+ "eslint-visitor-keys": [],
+ "source-map": [],
+ "entities": [],
+ "color-name": [],
+ "zod": [],
+ "ignore": [],
+ "postcss": [
+  "nanoid",
+  "picocolors",
+  "source-map-js"
+ ],
+ "mime-db": [],
+ "typescript": [
+  "@typescript/typescript-aix-ppc64",
+  "@typescript/typescript-darwin-arm64",
+  "@typescript/typescript-darwin-x64",
+  "@typescript/typescript-freebsd-arm64",
+  "@typescript/typescript-freebsd-x64",
+  "@typescript/typescript-linux-arm",
+  "@typescript/typescript-linux-arm64",
+  "@typescript/typescript-linux-loong64",
+  "@typescript/typescript-linux-mips64el",
+  "@typescript/typescript-linux-ppc64",
+  "@typescript/typescript-linux-riscv64",
+  "@typescript/typescript-linux-s390x",
+  "@typescript/typescript-linux-x64",
+  "@typescript/typescript-netbsd-arm64",
+  "@typescript/typescript-netbsd-x64",
+  "@typescript/typescript-openbsd-arm64",
+  "@typescript/typescript-openbsd-x64",
+  "@typescript/typescript-sunos-x64",
+  "@typescript/typescript-win32-arm64",
+  "@typescript/typescript-win32-x64"
+ ],
+ "locate-path": [
+  "p-locate"
+ ],
+ "path-key": [],
+ "mime-types": [
+  "mime-db"
+ ],
+ "nanoid": [],
+ "https-proxy-agent": [
+  "agent-base",
+  "debug",
+  "proxy-agent-negotiate"
+ ],
+ "uuid": [],
+ "yargs": [
+  "cliui",
+  "escalade",
+  "get-caller-file",
+  "string-width",
+  "y18n",
+  "yargs-parser"
+ ],
+ "content-type": [],
+ "isarray": [],
+ "is-fullwidth-code-point": [
+  "get-east-asian-width"
+ ],
+ "shebang-regex": [],
+ "pnpm": [],
+ "shebang-command": [
+  "shebang-regex"
+ ],
+ "@types/estree": [],
+ "path-to-regexp": [],
+ "json5": [],
+ "globals": [],
+ "function-bind": [],
+ "negotiator": [
+  "content-type"
+ ],
+ "tinyglobby": [
+  "fdir",
+  "picomatch"
+ ],
+ "resolve-from": [],
+ "fast-deep-equal": [],
+ "fdir": [],
+ "convert-source-map": [],
+ "caniuse-lite": [],
+ "is-stream": [],
+ "get-stream": [
+  "@sec-ant/readable-stream",
+  "is-stream"
+ ],
+ "readdirp": [],
+ "escalade": [],
+ "@babel/template": [
+  "@babel/code-frame",
+  "@babel/parser",
+  "@babel/types"
+ ],
+ "path-scurry": [
+  "lru-cache",
+  "minipass"
+ ],
+ "get-proto": [
+  "dunder-proto",
+  "es-object-atoms"
+ ],
+ "yocto-queue": [],
+ "electron-to-chromium": [],
+ "@babel/core": [
+  "@babel/code-frame",
+  "@babel/generator",
+  "@babel/helper-compilation-targets",
+  "@babel/helpers",
+  "@babel/parser",
+  "@babel/template",
+  "@babel/traverse",
+  "@babel/types",
+  "@types/convert-source-map",
+  "@types/gensync",
+  "convert-source-map",
+  "empathic",
+  "gensync",
+  "import-meta-resolve",
+  "json5",
+  "obug",
+  "verkit"
+ ],
+ "object-inspect": [],
+ "@babel/helpers": [
+  "@babel/template",
+  "@babel/types"
+ ],
+ "update-browserslist-db": [
+  "escalade",
+  "picocolors"
+ ],
+ "@babel/helper-compilation-targets": [
+  "@babel/compat-data",
+  "@babel/helper-validator-option",
+  "browserslist",
+  "flru",
+  "verkit"
+ ],
+ "lightningcss": [
+  "detect-libc"
+ ],
+ "parse5": [
+  "entities"
+ ],
+ "@babel/helper-module-imports": [
+  "@babel/traverse",
+  "@babel/types"
+ ],
+ "@babel/compat-data": [],
+ "@babel/helper-module-transforms": [
+  "@babel/helper-module-imports",
+  "@babel/helper-validator-identifier",
+  "@babel/traverse"
+ ],
+ "base64-js": [],
+ "side-channel-list": [
+  "es-errors",
+  "object-inspect"
+ ],
+ "execa": [
+  "@sindresorhus/merge-streams",
+  "figures",
+  "get-stream",
+  "human-signals",
+  "is-plain-obj",
+  "is-stream",
+  "npm-run-path",
+  "pretty-ms",
+  "signal-exit",
+  "strip-final-newline",
+  "which-command",
+  "yoctocolors"
+ ],
+ "object-assign": [],
+ "accepts": [
+  "mime-types",
+  "negotiator"
+ ],
+ "is-number": [],
+ "finalhandler": [
+  "debug",
+  "encodeurl",
+  "escape-html",
+  "on-finished",
+  "parseurl",
+  "statuses"
+ ],
+ "type-is": [
+  "content-type"
+ ],
+ "ini": [],
+ "depd": [],
+ "is-core-module": [
+  "hasown"
+ ],
+ "npm-run-path": [
+  "path-key",
+  "unicorn-magic"
+ ],
+ "send": [
+  "debug",
+  "encodeurl",
+  "escape-html",
+  "etag",
+  "fresh",
+  "http-errors",
+  "mime-types",
+  "ms",
+  "on-finished",
+  "range-parser",
+  "statuses"
+ ],
+ "mime": [],
+ "util-deprecate": [],
+ "@babel/helper-plugin-utils": [],
+ "ipaddr.js": [],
+ "flatted": [],
+ "@opentelemetry/core": [
+  "@opentelemetry/semantic-conventions"
+ ],
+ "strip-bom": [],
+ "@eslint-community/eslint-utils": [
+  "eslint-visitor-keys"
+ ],
+ "@typescript-eslint/utils": [
+  "@eslint-community/eslint-utils",
+  "@typescript-eslint/scope-manager",
+  "@typescript-eslint/types",
+  "@typescript-eslint/typescript-estree"
+ ],
+ "cookie-signature": [],
+ "fast-glob": [
+  "@nodelib/fs.stat",
+  "@nodelib/fs.walk",
+  "glob-parent",
+  "merge2",
+  "micromatch"
+ ],
+ "@smithy/types": [
+  "tslib"
+ ],
+ "file-entry-cache": [
+  "flat-cache"
+ ],
+ "eslint": [
+  "@eslint-community/eslint-utils",
+  "@eslint-community/regexpp",
+  "@eslint/config-array",
+  "@eslint/config-helpers",
+  "@eslint/core",
+  "@eslint/plugin-kit",
+  "@humanfs/node",
+  "@humanwhocodes/module-importer",
+  "@humanwhocodes/retry",
+  "@types/estree",
+  "ajv",
+  "cross-spawn",
+  "debug",
+  "escape-string-regexp",
+  "eslint-scope",
+  "eslint-visitor-keys",
+  "espree",
+  "esquery",
+  "esutils",
+  "fast-deep-equal",
+  "file-entry-cache",
+  "find-up",
+  "glob-parent",
+  "ignore",
+  "imurmurhash",
+  "is-glob",
+  "json-stable-stringify-without-jsonify",
+  "minimatch",
+  "natural-compare",
+  "optionator"
+ ],
+ "is-wsl": [
+  "is-inside-container"
+ ],
+ "range-parser": [],
+ "http-proxy-agent": [
+  "agent-base",
+  "debug",
+  "proxy-agent-negotiate"
+ ],
+ "tough-cookie": [
+  "tldts"
+ ],
+ "enhanced-resolve": [
+  "graceful-fs",
+  "tapable"
+ ],
+ "optionator": [
+  "deep-is",
+  "fast-levenshtein",
+  "levn",
+  "prelude-ls",
+  "type-check",
+  "word-wrap"
+ ],
+ "tapable": [],
+ "concat-map": [],
+ "acorn-jsx": [],
+ "fastq": [
+  "reusify"
+ ],
+ "prettier": [],
+ "minimatch": [
+  "@isaacs/nonrecursive-glob-match",
+  "brace-expansion"
+ ],
+ "debug": [
+  "ms"
+ ],
+ "ansi-styles": [],
+ "lru-cache": [],
+ "commander": [],
+ "string-width": [
+  "get-east-asian-width",
+  "strip-ansi"
+ ],
+ "ansi-regex": [],
+ "tslib": [],
+ "supports-color": [],
+ "chalk": [],
+ "wrap-ansi": [
+  "ansi-styles",
+  "string-width"
+ ],
+ "balanced-match": [],
+ "ajv": [
+  "fast-deep-equal",
+  "fast-uri",
+  "json-schema-traverse",
+  "require-from-string"
+ ],
+ "undici-types": [],
+ "readable-stream": [
+  "abort-controller",
+  "buffer",
+  "events",
+  "process",
+  "string_decoder"
+ ],
+ "which": [
+  "isexe"
+ ],
+ "react-is": [],
+ "json-schema-traverse": [],
+ "safe-buffer": [],
+ "p-limit": [
+  "yocto-queue"
+ ],
+ "iconv-lite": [
+  "safer-buffer"
+ ],
+ "isexe": [],
+ "find-up": [
+  "locate-path",
+  "unicorn-magic"
+ ],
+ "glob-parent": [
+  "minimatch"
+ ],
+ "esbuild": [],
+ "p-locate": [
+  "p-limit"
+ ],
+ "signal-exit": [],
+ "ws": [],
+ "has-flag": [],
+ "agent-base": [],
+ "yargs-parser": [],
+ "js-yaml": [
+  "argparse"
+ ],
+ "@babel/types": [
+  "@babel/helper-string-parser",
+  "@babel/helper-validator-identifier"
+ ],
+ "@jridgewell/trace-mapping": [
+  "@jridgewell/resolve-uri",
+  "@jridgewell/sourcemap-codec"
+ ],
+ "string_decoder": [
+  "safe-buffer"
+ ],
+ "js-tokens": [],
+ "argparse": [],
+ "cross-spawn": [
+  "path-key",
+  "shebang-command",
+  "which"
+ ],
+ "picocolors": [],
+ "undici": [],
+ "@babel/code-frame": [
+  "@babel/helper-validator-identifier",
+  "js-tokens"
+ ],
+ "whatwg-url": [
+  "@exodus/bytes",
+  "tr46",
+  "webidl-conversions"
+ ],
+ "cookie": [],
+ "webidl-conversions": [],
+ "detect-libc": [],
+ "tr46": [
+  "punycode"
+ ],
+ "@babel/helper-string-parser": [],
+ "yaml": [],
+ "minipass": [],
+ "resolve": [
+  "es-errors",
+  "is-core-module",
+  "path-parse",
+  "supports-preserve-symlinks-flag"
+ ],
+ "pretty-format": [
+  "@jest/react-is-18",
+  "@jest/react-is-19",
+  "@jest/schemas",
+  "ansi-styles"
+ ],
+ "@babel/traverse": [
+  "@babel/code-frame",
+  "@babel/generator",
+  "@babel/helper-globals",
+  "@babel/parser",
+  "@babel/template",
+  "@babel/types",
+  "obug"
+ ],
+ "source-map-js": [],
+ "graceful-fs": [],
+ "@babel/generator": [
+  "@babel/parser",
+  "@babel/types",
+  "@jridgewell/gen-mapping",
+  "@jridgewell/trace-mapping",
+  "@types/jsesc",
+  "jsesc"
+ ],
+ "inherits": [],
+ "es-errors": [],
+ "get-intrinsic": [
+  "call-bind-apply-helpers",
+  "es-define-property",
+  "es-errors",
+  "es-object-atoms",
+  "function-bind",
+  "get-proto",
+  "gopd",
+  "has-symbols",
+  "hasown",
+  "math-intrinsics"
+ ],
+ "path-exists": [],
+ "es-object-atoms": [
+  "es-errors"
+ ],
+ "@jridgewell/resolve-uri": [],
+ "punycode": [],
+ "node-fetch": [
+  "data-uri-to-buffer",
+  "fetch-blob",
+  "formdata-polyfill"
+ ],
+ "fs-extra": [
+  "graceful-fs",
+  "jsonfile",
+  "universalify"
+ ],
+ "has-symbols": [],
+ "@oxc-project/types": [],
+ "estraverse": [],
+ "dotenv": [],
+ "vite": [
+  "lightningcss",
+  "picomatch",
+  "postcss",
+  "rolldown",
+  "tinyglobby"
+ ],
+ "call-bind-apply-helpers": [
+  "es-errors",
+  "function-bind"
+ ],
+ "strip-json-comments": [],
+ "chokidar": [
+  "readdirp"
+ ],
+ "statuses": [],
+ "qs": [
+  "es-define-property",
+  "side-channel"
+ ],
+ "y18n": [],
+ "math-intrinsics": [],
+ "scheduler": [],
+ "node-releases": [],
+ "browserslist": [
+  "baseline-browser-mapping",
+  "caniuse-lite",
+  "electron-to-chromium",
+  "node-releases",
+  "update-browserslist-db"
+ ],
+ "react": [],
+ "eslint-scope": [
+  "@types/esrecurse",
+  "@types/estree",
+  "esrecurse",
+  "estraverse"
+ ],
+ "jiti": [],
+ "is-glob": [
+  "is-extglob"
+ ],
+ "baseline-browser-mapping": [],
+ "side-channel": [
+  "es-errors",
+  "object-inspect",
+  "side-channel-list",
+  "side-channel-map",
+  "side-channel-weakmap"
+ ],
+ "react-dom": [
+  "scheduler"
+ ],
+ "csstype": [],
+ "safer-buffer": [],
+ "is-extglob": [],
+ "jsesc": [],
+ "http-errors": [
+  "depd",
+  "inherits",
+  "setprototypeof",
+  "statuses",
+  "toidentifier"
+ ],
+ "buffer": [
+  "base64-js",
+  "ieee754"
+ ],
+ "@types/react": [
+  "csstype"
+ ],
+ "camelcase": [],
+ "@typescript-eslint/types": [],
+ "@babel/helper-validator-option": [],
+ "@rolldown/pluginutils": [],
+ "once": [
+  "wrappy"
+ ],
+ "encodeurl": [],
+ "@babel/helper-globals": [],
+ "tinyexec": [],
+ "form-data": [
+  "asynckit",
+  "combined-stream",
+  "es-set-tostringtag",
+  "hasown",
+  "mime-types"
+ ],
+ "jose": [],
+ "aria-query": [],
+ "minimist": [],
+ "side-channel-map": [
+  "call-bound",
+  "es-errors",
+  "get-intrinsic",
+  "object-inspect"
+ ],
+ "wrappy": [],
+ "@typescript-eslint/typescript-estree": [
+  "@typescript-eslint/project-service",
+  "@typescript-eslint/tsconfig-utils",
+  "@typescript-eslint/types",
+  "@typescript-eslint/visitor-keys",
+  "debug",
+  "minimatch",
+  "semver",
+  "tinyglobby",
+  "ts-api-utils"
+ ],
+ "has-tostringtag": [
+  "has-symbols"
+ ],
+ "@typescript-eslint/visitor-keys": [
+  "@typescript-eslint/types",
+  "eslint-visitor-keys"
+ ],
+ "content-disposition": [],
+ "require-from-string": [],
+ "side-channel-weakmap": [
+  "call-bound",
+  "es-errors",
+  "get-intrinsic",
+  "object-inspect",
+  "side-channel-map"
+ ],
+ "@vitest/spy": [],
+ "espree": [
+  "acorn",
+  "acorn-jsx",
+  "eslint-visitor-keys"
+ ],
+ "on-finished": [
+  "ee-first"
+ ],
+ "fill-range": [
+  "to-regex-range"
+ ],
+ "keyv": [
+  "hookified"
+ ],
+ "get-caller-file": [],
+ "es-set-tostringtag": [
+  "es-errors",
+  "get-intrinsic",
+  "has-tostringtag",
+  "hasown"
+ ],
+ "media-typer": [],
+ "raw-body": [
+  "bytes",
+  "http-errors"
+ ],
+ "@jridgewell/remapping": [
+  "@jridgewell/gen-mapping",
+  "@jridgewell/trace-mapping"
+ ],
+ "@babel/parser": [
+  "@babel/types"
+ ],
+ "@babel/helper-validator-identifier": [],
+ "cliui": [
+  "string-width",
+  "strip-ansi",
+  "wrap-ansi"
+ ],
+ "@jridgewell/sourcemap-codec": [],
+ "hasown": [
+  "function-bind"
+ ],
+ "acorn": [],
+ "gopd": [],
+ "es-define-property": [],
+ "@jridgewell/gen-mapping": [
+  "@jridgewell/sourcemap-codec",
+  "@jridgewell/trace-mapping"
+ ],
+ "dunder-proto": [
+  "call-bind-apply-helpers",
+  "es-errors",
+  "gopd"
+ ],
+ "call-bound": [
+  "call-bind-apply-helpers",
+  "get-intrinsic"
+ ],
+ "fast-uri": []
+}
